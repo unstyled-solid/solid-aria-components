@@ -1,4 +1,8 @@
 allowBuilds:
-  esbuild: set this to true or false
+  '@parcel/watcher': true
+  '@swc/core': true
+  esbuild: true
+  lmdb: true
+  msgpackr-extract: true
 overrides:
   '@svgr/plugin-svgo@8.1.0>svgo': 3.3.2
