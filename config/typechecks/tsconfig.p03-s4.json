@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false, "allowJs": true, "checkJs": true},
+  "files": [
+    "../../test/intl.d.ts", "../../test/css.d.ts",
+    "../../packages/@adobe/react-spectrum/src/button/ActionButton.tsx",
+    "../../packages/@adobe/react-spectrum/src/icon/UIIcon.tsx",
+    "../../packages/@adobe/react-spectrum/exports/ActionButton.ts",
+    "../../packages/@spectrum-icons/ui/src/CornerTriangle.tsx",
+    "../../packages/@spectrum-icons/ui/src/CrossLarge.tsx",
+    "../../packages/@adobe/react-spectrum-ui/src/CornerTriangle.jsx",
+    "../../packages/@adobe/react-spectrum-ui/src/CrossLarge.jsx"
+  ]
+}

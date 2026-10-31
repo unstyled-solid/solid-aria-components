@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.p03-s4.json",
+  "files": ["../../test/intl.d.ts", "../../test/css.d.ts", "../../packages/@adobe/react-spectrum/src/dialog/DialogTrigger.tsx", "../../packages/@adobe/react-spectrum/exports/DialogTrigger.ts", "../../packages/@adobe/react-spectrum/src/overlays/Popover.tsx", "../../packages/@adobe/react-spectrum/src/overlays/Tray.tsx", "../../packages/@adobe/react-spectrum/src/utils/useIsMobileDevice.ts"]
+}

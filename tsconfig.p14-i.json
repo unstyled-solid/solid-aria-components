@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false},
-  "files": ["test/intl.d.ts", "test/css.d.ts", "packages/@adobe/react-spectrum/src/icon/Icon.tsx", "packages/@spectrum-icons/workflow/src/Folder.tsx", "packages/@spectrum-icons/workflow/src/ShowMenu.tsx", "packages/@adobe/react-spectrum-workflow/src/Folder.d.ts", "packages/@adobe/react-spectrum-workflow/src/ShowMenu.d.ts"]
-}

@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false},
-  "files": ["test/intl.d.ts", "packages/react-aria-components/src/Tooltip.tsx", "packages/react-aria-components/src/OverlayArrow.tsx", "packages/react-aria/src/tooltip/useTooltip.ts", "packages/react-aria/src/tooltip/useTooltipTrigger.ts", "packages/react-stately/src/tooltip/useTooltipTriggerState.ts"]
-}

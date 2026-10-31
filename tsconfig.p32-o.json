@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false, "allowJs": true, "checkJs": true},
-  "files": ["test/intl.d.ts", "test/css.d.ts", "packages/@adobe/react-spectrum/exports/MenuTrigger.ts", "test/ssr-harness/p32-menu-trigger-basic.tsx"]
-}

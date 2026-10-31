@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false, "allowJs": true, "checkJs": true},
-  "files": ["test/intl.d.ts", "test/css.d.ts", "test/ssr-harness/p30-button-action.tsx", "test/ssr-harness/p30-button-standard.tsx", "test/ssr-harness/p30-button-logic.tsx", "test/ssr-harness/p30-button-field.tsx"]
-}

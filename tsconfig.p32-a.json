@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false},
-  "files": ["test/intl.d.ts", "packages/react-aria/src/actiongroup/useActionGroup.ts", "packages/react-aria/src/actiongroup/useActionGroupItem.ts", "packages/react-aria/src/utils/useValueEffect.ts"]
-}

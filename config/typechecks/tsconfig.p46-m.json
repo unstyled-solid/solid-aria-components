@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "allowJs": true,
+    "checkJs": true,
+    "types": ["node", "vitest/globals", "@testing-library/jest-dom/vitest"]
+  },
+  "files": [
+    "../../test/intl.d.ts",
+    "../../packages/react-aria-components/src/Menu.tsx",
+    "../../packages/react-aria-components/test/Menu.test.tsx",
+    "../../packages/react-aria-components/test/AriaMenu.test-util.tsx"
+  ]
+}

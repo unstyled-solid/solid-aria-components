@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false},
-  "files": ["test/intl.d.ts", "test/css.d.ts", "packages/@adobe/react-spectrum/src/dialog/context.ts", "packages/@adobe/react-spectrum/src/dialog/DialogContainer.tsx", "packages/@adobe/react-spectrum/src/dialog/useDialogContainer.ts", "packages/@adobe/react-spectrum/exports/DialogContainer.ts"]
-}

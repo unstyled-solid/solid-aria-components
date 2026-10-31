@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false, "allowJs": true, "checkJs": true},
+  "files": ["../../test/intl.d.ts", "../../test/css.d.ts", "../../packages/@adobe/react-spectrum/exports/Form.ts", "../../packages/@adobe/react-spectrum/exports/Flex.ts", "../../packages/@adobe/react-spectrum/src/label/Field.tsx", "../../packages/@adobe/react-spectrum/src/label/Label.tsx", "../../packages/@adobe/react-spectrum/src/label/HelpText.tsx", "../../test/ssr-harness/p29-form-default.tsx", "../../test/ssr-harness/p29-flex-default.tsx"]
+}

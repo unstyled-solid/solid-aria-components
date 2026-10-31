@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": [
+    "../../distribution/staging-i18n/index.d.ts",
+    "../../distribution/staging-i18n/lang.d.ts",
+    "../../packages/react-aria/src/i18n/server.tsx"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "allowJs": true,
+    "checkJs": true
+  },
+  "files": [
+    "../../test/intl.d.ts",
+    "../../test/css.d.ts",
+    "../../packages/@adobe/react-spectrum/exports/StatusLight.ts",
+    "../../packages/@adobe/react-spectrum/src/statuslight/StatusLightTypes.ts"
+  ]
+}

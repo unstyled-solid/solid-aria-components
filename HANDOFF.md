@@ -1,5 +1,9 @@
 # Current checkpoint — 2026-10-31
 
+## Root configuration cleanup
+- Branch `chore/organize-typecheck-configs` starts at latest origin/main e814be3. Moved220 migration-batch tsconfigs into `config/typechecks/`; shared pilot/wave configs unchanged. Historical command names map to this directory; see its README.
+- TypeScript parser comparison for all220 confirms identical resolved source lists, effective compiler options and diagnostics before/after. No library/tests/CI changes. Open cleanup PR only; do not merge (latest user instruction).
+
 ## Authorization and execution
 - Finish native Solid 2 library/docs defects autonomously; renewed bounded investigations and incremental Virtualizer reconciliation explicitly authorized. Historical architecture/no-retry restrictions superseded for this episode.
 - Preserve source behavior/assertions, DOM identity/focus/caret/selection/controlled acceptance/callbacks/cleanup. No dependency/framework patches/upgrades, canonical edits, commits, publishing, suppression or fake passes.

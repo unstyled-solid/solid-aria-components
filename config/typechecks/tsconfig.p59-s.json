@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "allowJs": true,
+    "checkJs": true,
+    "types": ["node", "vitest/globals", "@testing-library/jest-dom/vitest"]
+  },
+  "files": ["../../test/intl.d.ts", "../../test/css.d.ts"],
+  "include": [
+    "../../packages/@react-spectrum/s2/src/useDOMRef.ts",
+    "../../packages/@react-spectrum/s2/src/useSpectrumContextProps.ts",
+    "../../packages/@react-spectrum/s2/src/style-utils.ts",
+    "../../packages/@react-spectrum/s2/src/page.macro.ts",
+    "../../packages/@react-spectrum/s2/style/*.ts",
+    "../../packages/@react-spectrum/s2/style/__tests__/mergeStyles.test.ts",
+    "../../packages/@react-spectrum/s2/style/__tests__/style-macro.test.js",
+    "../../packages/@react-spectrum/s2/style/__tests__/style-macro.test.jsx"
+  ]
+}

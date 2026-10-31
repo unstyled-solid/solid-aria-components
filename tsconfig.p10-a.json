@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false},
-  "files": ["test/intl.d.ts", "packages/react-aria/src/tabs/useTabList.ts", "packages/react-aria/src/tabs/useTab.ts", "packages/react-aria/src/tabs/useTabPanel.ts", "packages/react-aria/src/tabs/TabsKeyboardDelegate.ts", "packages/react-aria/src/tabs/utils.ts", "packages/react-aria/src/focus/useHasTabbableChild.ts"]
-}

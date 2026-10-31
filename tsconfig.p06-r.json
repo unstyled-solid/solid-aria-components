@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false},
-  "files": ["test/intl.d.ts", "packages/react-stately/src/radio/useRadioGroupState.ts", "packages/react-aria/src/radio/useRadioGroup.ts", "packages/react-aria/src/radio/useRadio.ts", "packages/react-aria/src/radio/utils.ts", "packages/react-aria-components/src/RadioGroup.tsx"]
-}

@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["../../test/intl.d.ts", "../../test/css.d.ts", "../../packages/react-aria/src/grid/useGrid.ts", "../../packages/react-aria/src/grid/useGridCell.ts", "../../packages/react-aria/src/grid/useGridRow.ts", "../../packages/react-aria/src/grid/GridKeyboardDelegate.ts", "../../packages/react-aria/src/grid/useGridSelectionAnnouncement.ts", "../../packages/react-aria/src/grid/useHighlightSelectionDescription.ts", "../../packages/react-aria/src/grid/utils.ts", "../../packages/react-aria/stories/grid/example.tsx"]
+}

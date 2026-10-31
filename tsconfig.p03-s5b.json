@@ -1,4 +1,0 @@
-{
-  "extends": "./tsconfig.p03-s4.json",
-  "files": ["test/intl.d.ts", "test/css.d.ts", "packages/@adobe/react-spectrum/src/dialog/Dialog.tsx", "packages/@adobe/react-spectrum/src/text/Heading.tsx", "packages/@adobe/react-spectrum/src/view/Header.tsx", "packages/@adobe/react-spectrum/exports/Dialog.ts", "packages/@adobe/react-spectrum/exports/Heading.ts", "packages/@adobe/react-spectrum/exports/Header.ts", "test/ssr-harness/p03-s5b-dialog.tsx", "test/ssr-harness/p03-s5b-heading.tsx", "test/ssr-harness/p03-s5b-header.tsx"]
-}

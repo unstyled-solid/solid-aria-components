@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["../../test/intl.d.ts", "../../test/css.d.ts"],
+  "include": [
+    "../../starters/tailwind/src/ProgressBar.tsx",
+    "../../starters/tailwind/src/Field.tsx",
+    "../../starters/tailwind/src/utils.ts"
+  ]
+}

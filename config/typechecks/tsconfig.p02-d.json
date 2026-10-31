@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["../../test/intl.d.ts", "../../packages/react-aria/src/textfield/useTextField.ts", "../../packages/react-aria/src/form/useFormValidation.ts", "../../packages/react-aria/src/utils/useFormReset.ts", "../../packages/react-aria-components/src/TextField.tsx", "../../packages/react-aria-components/src/FieldError.tsx", "../../packages/react-aria-components/src/Input.tsx", "../../packages/react-aria-components/src/TextArea.tsx", "../../packages/react-aria-components/src/Form.tsx", "../../packages/react-aria-components/src/Text.tsx"]
+}
