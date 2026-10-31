@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "mode": "registry-artifact-adapted",
+  "package": "@adobe/react-spectrum-workflow",
+  "version": "2.3.5",
+  "metadataURL": "https://registry.npmjs.org/@adobe%2freact-spectrum-workflow/2.3.5",
+  "dist": {
+    "shasum": "3f5adc5fe2bae25416805b7d92c1ff5bd1e061f0",
+    "tarball": "https://registry.npmjs.org/@adobe/react-spectrum-workflow/-/react-spectrum-workflow-2.3.5.tgz",
+    "fileCount": 896,
+    "integrity": "sha512-b53VIPwPWKb/T5gzE3qs+QlGP5gVrw/LnWV3xMksDU+CRl3rzOKUwxIGiZO8ICyYh1WiyqY4myGlPU/nAynBUg==",
+    "signatures": [
+      {
+        "sig": "MEUCIQChzdtg/5wxXItQ4DHMogcl8iFL/DufivJhGBXRpirJVAIgI71zCFsQXsV2zKiTS9yP09g5712eqBLAA6CRxg4PRyA=",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 2276807
+  },
+  "tarballSha256": "5daf9caf63734a5ebbc4881f0173671aba1c22ad4e14e77a43aaa3cf5a4e7ebb",
+  "durableArtifact": "packages/@adobe/react-spectrum-workflow.source-artifact",
+  "files": [
+    {
+      "path": "dist/Folder.js",
+      "sha256": "3ae17ab6fed21f9633a2c5da6046d3a2a491952edc34bbab8c446de4cc2098c8",
+      "targetPath": "src/Folder.jsx",
+      "adaptation": "Native Solid JSX adaptation of verified registry artwork; source SVG paths/viewBox retained."
+    },
+    {
+      "path": "dist/ShowMenu.js",
+      "sha256": "3eb1384d5585a8fb1c63836244054732f354f9e39a34cc914547d6511f17a71f",
+      "targetPath": "src/ShowMenu.jsx",
+      "adaptation": "Native Solid JSX adaptation of verified registry artwork; source SVG paths/viewBox retained."
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "targetPath": "LICENSE"
+    },
+    {
+      "path": "dist/Checkmark.js",
+      "sha256": "120a85865de0e0a2abf6c8d0c557b81d5f37a67a7bb63c2bd29aa4db025e8169",
+      "targetPath": "src/Checkmark.jsx",
+      "sourceArchiveMember": "package/dist/Checkmark.js",
+      "adaptation": "I-owned native artwork adaptation; actual registry2.3.5 source archive verified. Frozen workflow wrapper generator4.3.2 preserved separately; qualification remains I-owned.",
+      "nativeSha256AtIntegration": "2ebf1204559f4c76bb186372457984ea6173870c67a9778248bb0801e8858ef6",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/p29-evidence.json"
+    },
+    {
+      "path": "dist/HelpOutline.js",
+      "sha256": "48aae0bed96383000fafdaceeed57c1e0d59822967b7c618184dad71c41419b6",
+      "targetPath": "src/HelpOutline.jsx",
+      "sourceArchiveMember": "package/dist/HelpOutline.js",
+      "adaptation": "I-completed native artwork; verified archive source/original/native hashes and owner artwork-correspondence evidence. No substituted SVG or React runtime execution.",
+      "nativeSha256AtIntegration": "13187e507f77504764c40fb8a1174e6bfd67b4ddd27c51afcc8d3851618fff87",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json"
+    },
+    {
+      "path": "dist/InfoOutline.js",
+      "sha256": "a34a95a9dc02abe02a9b21bba2048cb95a5ab664a8cad775a32f5f606a335a2e",
+      "targetPath": "src/InfoOutline.jsx",
+      "sourceArchiveMember": "package/dist/InfoOutline.js",
+      "adaptation": "I-completed native artwork; verified archive source/original/native hashes and owner artwork-correspondence evidence. No substituted SVG or React runtime execution.",
+      "nativeSha256AtIntegration": "fc96ecd731279917a4abd67ac7e8ef9a6331a6ec2774c6fbe15204781b131a88",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json"
+    },
+    {
+      "path": "dist/AlignCenter.js",
+      "sha256": "e7048281778f1fadf6aae9374f845cd08140af165d882cb564e4b4ee85cf71ef",
+      "targetPath": "src/AlignCenter.jsx",
+      "sourceArchiveMember": "package/dist/AlignCenter.js",
+      "adaptation": "I-completed native artwork; verified archive source/original/native hashes and owner artwork-correspondence evidence. No substituted SVG or React runtime execution.",
+      "nativeSha256AtIntegration": "5b5529ec9353f2b5be9b9f962e0a763211b9fc096177bf44548cf840f989e2a1",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json"
+    },
+    {
+      "path": "dist/AlignLeft.js",
+      "sha256": "f757cf1857687ea4540de4a251190a6d3ec26e86236dc98367bb2f9d221f4097",
+      "targetPath": "src/AlignLeft.jsx",
+      "sourceArchiveMember": "package/dist/AlignLeft.js",
+      "adaptation": "I-completed native artwork; verified archive source/original/native hashes and owner artwork-correspondence evidence. No substituted SVG or React runtime execution.",
+      "nativeSha256AtIntegration": "cfea03c2c792e6e7c0915561e4161308dc56dd3fcd4ec3b5da01db1158f06873",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json"
+    },
+    {
+      "path": "dist/AlignRight.js",
+      "sha256": "74fa1f29ad43084e97e019ffeaacd2319b668aa35f22b65cbe7f9c3b2988cf3b",
+      "targetPath": "src/AlignRight.jsx",
+      "sourceArchiveMember": "package/dist/AlignRight.js",
+      "adaptation": "I-completed native artwork; verified archive source/original/native hashes and owner artwork-correspondence evidence. No substituted SVG or React runtime execution.",
+      "nativeSha256AtIntegration": "787d633645ac076b996013c9a5dc10624c48c4c56cf93ed1bf584a2d87a02fc7",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json"
+    },
+    {
+      "path": "dist/Copy.js",
+      "sha256": "c368d50fe4cdee75d7619d158afc79911ede791a848457c929e0f6c64fc305a3",
+      "targetPath": "src/Copy.jsx",
+      "sourceArchiveMember": "package/dist/Copy.js",
+      "adaptation": "I-completed native artwork; verified archive source/original/native hashes and owner artwork-correspondence evidence. No substituted SVG or React runtime execution.",
+      "nativeSha256AtIntegration": "a35da47e8882f98cf187f72ec5a7d8e0b32a9d8e43c3822c8319b4c24e1b43a5",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json"
+    },
+    {
+      "path": "dist/Cut.js",
+      "sha256": "140c397a15644f34c829f9c63e8104fbe35310bd97401ba143ad8dff335b19dd",
+      "targetPath": "src/Cut.jsx",
+      "sourceArchiveMember": "package/dist/Cut.js",
+      "adaptation": "I-completed native artwork; verified archive source/original/native hashes and owner artwork-correspondence evidence. No substituted SVG or React runtime execution.",
+      "nativeSha256AtIntegration": "494b9b38d33efca03c88bb13a9e64a1df5498d38ce1ec30fea373eb0a9898618",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json"
+    },
+    {
+      "path": "dist/Paste.js",
+      "sha256": "e7125593d39d0d4528d0a0964bdf33dc857ee54b80ffb60f20991b700b27f5ab",
+      "targetPath": "src/Paste.jsx",
+      "sourceArchiveMember": "package/dist/Paste.js",
+      "adaptation": "I-completed native artwork; verified archive source/original/native hashes and owner artwork-correspondence evidence. No substituted SVG or React runtime execution.",
+      "nativeSha256AtIntegration": "841b334868c9128fb9d75339a27464c730a53f19c25293e1dc2faea29b14667e",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json"
+    },
+    {
+      "path": "dist/More.js",
+      "sha256": "c87bd8abd4660efe61f31bf02abce3ce794e62757e820e5c6c7acb604e2846d5",
+      "sourceArchiveMember": "package/dist/More.js",
+      "targetPath": "src/More.jsx",
+      "adaptation": "I-completed actual native artwork; final archive/original/native hashes verified. No guessed glyphs or React runtime execution.",
+      "nativeSha256AtIntegration": "4ce2d0e34972010500ab9a1b5e724fb6a84b8b9af3cb60fbf8fbfe295a7f0681",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json"
+    },
+    {
+      "path": "dist/Edit.js",
+      "sha256": "a92a4a5e4e04a6f8bf54752be31ca5dd54ed53d8c6a72fbd474480191302e2e5",
+      "sourceArchiveMember": "package/dist/Edit.js",
+      "targetPath": "src/Edit.jsx",
+      "adaptation": "I-completed actual native artwork; final archive/original/native hashes verified. No guessed glyphs or React runtime execution.",
+      "nativeSha256AtIntegration": "9921b58f7c2fc9b4540a038731a419c44d3c33e690b95e7d9036c7d2ffba40d5",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json"
+    },
+    {
+      "path": "dist/ChevronLeft.js",
+      "sha256": "5a1b516a21c248ec9f240cba9247ca7a2a9ec982c2042166d49213e256b71218",
+      "sourceArchiveMember": "package/dist/ChevronLeft.js",
+      "targetPath": "src/ChevronLeft.jsx",
+      "adaptation": "I-completed actual native artwork; final archive/original/native hashes verified. No guessed glyphs or React runtime execution.",
+      "nativeSha256AtIntegration": "45896338f0329f5efb6f12b3708dabef54af94a33d362a633bc4da900a8696a7",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json"
+    },
+    {
+      "path": "dist/ChevronRight.js",
+      "sha256": "ea0fb46f0403569dcd501d445f4724fc541541936617af897c4da369c58487cf",
+      "sourceArchiveMember": "package/dist/ChevronRight.js",
+      "targetPath": "src/ChevronRight.jsx",
+      "adaptation": "I-completed actual native artwork; final archive/original/native hashes verified. No guessed glyphs or React runtime execution.",
+      "nativeSha256AtIntegration": "c1a38c597189b16e91e22a0a38e98b98223dd350dceba99b7f4a0b0941c42aeb",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json"
+    },
+    {
+      "path": "dist/AnnotatePen.js",
+      "sha256": "a5ca98605dc4a19bdd2f0dcbddef99373337faae09293ece40721fb79829dd7c",
+      "targetPath": "src/AnnotatePen.jsx",
+      "nativeSha256AtIntegration": "84f2c539579da81e19d64c48467856d421f81d35c3b1fa37f7494dd818930b17",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p33-originals/p33-evidence.json"
+    },
+    {
+      "path": "dist/TextIndentIncrease.js",
+      "sha256": "716a4220ff768390fa490cd9c6ca861960fdf883c3094278a6d0429aab99880a",
+      "targetPath": "src/TextIndentIncrease.jsx",
+      "nativeSha256AtIntegration": "dde27b14f55b00c909a09a5aebc57779bb0b22ad2df579bc89d5259d1f3f3f6c",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p33-originals/p33-evidence.json"
+    },
+    {
+      "path": "dist/TextItalic.js",
+      "sha256": "65760c0414d36c660317b5cbd1389472c9c0d0099281177f1d48ef8d86c79c1e",
+      "targetPath": "src/TextItalic.jsx",
+      "nativeSha256AtIntegration": "54c42c782c6c55fb474bb63b1211e1fd296e470a83093a7cb7da33ab3c57e0e3",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p33-originals/p33-evidence.json"
+    },
+    {
+      "path": "dist/Bell.js",
+      "sha256": "03e588e6a0703e5522f9571d2281f47ef36898bdb894efda96e5c6d2dd4b718e",
+      "targetPath": "src/Bell.jsx",
+      "nativeSha256AtIntegration": "d4fbf846eb9b18778f58510eb1accda6d19ca6d31d73bb886df5db2cea38283b",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p33-originals/p33-evidence.json"
+    },
+    {
+      "path": "dist/Add.js",
+      "sha256": "5efe8e1376ae98565d37bc48414fa6eac4332690950690ae6ac86e68c22b73a5",
+      "targetPath": "src/Add.jsx",
+      "nativeSha256AtIntegration": "04ff2e2a5724268b01ffa99e29771bcdfe485f009439173d04fa77c3788a072a",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p35-originals/p35-evidence.json"
+    },
+    {
+      "path": "dist/Delete.js",
+      "sha256": "218ef14499980e5b5e5e18b37421b15468ede70c5a1ac7b2a7a1fbf3b2b13af8",
+      "targetPath": "src/Delete.jsx",
+      "nativeSha256AtIntegration": "9ebb6876e457386d4563b21fa65bca396a81db94b6bdd6bb61d918d1d9b87d35",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p35-originals/p35-evidence.json"
+    },
+    {
+      "path": "dist/CheckmarkCircle.js",
+      "sha256": "40c380967597bc8682ba76f6be8016173472149c2ccdb49952a6d97d2ca310c6",
+      "targetPath": "src/CheckmarkCircle.jsx",
+      "nativeSha256AtIntegration": "19146aee67d613b9c826545408a8d4791b51986d6ea60449707bb8a880347e37",
+      "adaptation": "A-final original/native artwork correspondence verified with archive/license/SRI/SHA1; strict owner-qualified.",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p39-originals/p39-evidence.json"
+    }
+  ],
+  "p29Evidence": {
+    "path": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/p29-evidence.json",
+    "sha256": "a783cc2eb91794ee021eba5f5370b678141cda08c3cc9699bc652cb10a22c6dc",
+    "status": "I evidence/native hashes verified; immutable snapshot retains original pending AlertMedium status."
+  },
+  "p31Evidence": {
+    "path": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json",
+    "sha256": "4f4feea5a8cd16ef5cfb113b1caa31bcde8584aea2bc6639f4a080c7e6e93dc6",
+    "status": "Nine final native wrappers/artworks and generator hashes verified; durable original copies, archive SRI/SHA1/licenses reverified. Owner strict result retained without rerun."
+  },
+  "p32Evidence": {
+    "path": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json",
+    "sha256": "50bc5a6a95a50c57de5a6cffebf2e52a994459e7705bd824f8d16404ad3d9417",
+    "arrowDownEvidence": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/arrowdown-evidence.json",
+    "arrowDownEvidenceSha256": "4abe72e5d153cc1d048c673ccdae3ae060377497a77d2b462e77b5997c19ac88",
+    "status": "Original seven plus explicitly assigned ArrowDownSmall final source/native hashes, generators, Express SVGs, archive SRI/SHA1 and licenses verified; no qualification reruns."
+  },
+  "p33Evidence": {
+    "path": "packages/@adobe/react-spectrum-workflow.source-artifact/p33-originals/p33-evidence.json",
+    "sha256": "d98359f3003190c3af0f4661eb8fbcc5b37757c9d7f1a9132f0d640783ab2b24",
+    "status": "Four final artworks verified with archive SRI/SHA1 and license; owner strict separately resumed, no repeat."
+  },
+  "p35Evidence": {
+    "path": "packages/@adobe/react-spectrum-workflow.source-artifact/p35-originals/p35-evidence.json",
+    "sha256": "8295a3bfa2f06bbddb7bb93de26da9ab4af5a6a4a0e6caf96b02cfd635a29531",
+    "status": "Actual Add/Delete final artwork/wrapper hashes verified; owner strict pending/resumed separately."
+  },
+  "p39Evidence": {
+    "path": "packages/@adobe/react-spectrum-workflow.source-artifact/p39-originals/p39-evidence.json",
+    "sha256": "99e1011355a668c5ed64546a13c0d99c707e005477fce16f5a4546d2284f3023"
+  }
+}

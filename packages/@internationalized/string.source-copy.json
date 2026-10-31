@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/solid-aria-components/upstream/react-spectrum/packages/@internationalized/string",
+  "target": "/Users/avi/avir-oss/solid-aria-components/packages/@internationalized/string",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "files": [
+    {
+      "path": "index.ts",
+      "bytes": 644,
+      "sha256": "ac02304602db7da665ebbbf68ac60def2044f8c1e7a72c1e0f1089fd492864f0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1069,
+      "sha256": "71f3f915346d6107ea7f75c9cc57b92b158f3c89780572682dbc46e9ec566bb8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "README.md",
+      "bytes": 142,
+      "sha256": "d6ce2fbddf752387166e5e2bd5263551031bed45122a9426b859523976774218",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 904,
+      "sha256": "260daca6e0282c5ec0af375ceb020e7a5cd2b60670934f19b36fa9708816f7d7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/LocalizedStringDictionary.ts",
+      "bytes": 4884,
+      "sha256": "1aafe9478b2868de2864af765d57f6eec9546184c3b29b63817150cdf8b352f0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/LocalizedStringFormatter.ts",
+      "bytes": 2979,
+      "sha256": "7b7c6adc7f47ef737403d9ff4a7d9bb94845b8e9842eabe3114c9e987eb5cd63",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/LocalizedStringDictionary.test.js",
+      "bytes": 3038,
+      "sha256": "4040fcbfc753851bfcb9b15f6e375052a24bfa851a26b62553e2bb33f6b12ecf",
+      "category": "test-or-type-spec"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution"
+}

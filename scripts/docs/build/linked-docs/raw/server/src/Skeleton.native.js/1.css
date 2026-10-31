@@ -1,0 +1,37 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .pw18 {
+    color: transparent;
+  }
+
+
+  ._ma18 {
+    box-decoration-break: clone;
+  }
+
+
+  .oR3ltQc18 {
+    border-start-start-radius: calc(0.25 * var(--rem, 1rem));
+  }
+
+
+  .nR3ltQc18 {
+    border-start-end-radius: calc(0.25 * var(--rem, 1rem));
+  }
+
+
+  .kR3ltQc18 {
+    border-end-start-radius: calc(0.25 * var(--rem, 1rem));
+  }
+
+
+  .jR3ltQc18 {
+    border-end-end-radius: calc(0.25 * var(--rem, 1rem));
+  }
+}
+
+.-macro-static-LJtgjd {
+        --macro-data-LJtgjd: {"style":{"color":"transparent","boxDecorationBreak":"clone","borderRadius":"sm"},"loc":"/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/server/src/Skeleton.native.js:139:148"};
+      }
+

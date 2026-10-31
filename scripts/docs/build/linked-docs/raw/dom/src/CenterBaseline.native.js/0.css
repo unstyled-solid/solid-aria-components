@@ -1,0 +1,17 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .sd18 {
+    display: flex;
+  }
+
+
+  .eb18 {
+    align-items: center;
+  }
+}
+
+.-macro-static-UwrWLe {
+        --macro-data-UwrWLe: {"style":{"display":"flex","alignItems":"center"},"loc":"/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/CenterBaseline.native.js:25:15"};
+      }
+

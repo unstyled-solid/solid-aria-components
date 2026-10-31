@@ -1,0 +1,311 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import vanillaDocs from 'docs:vanilla-starter/Tabs';
+import '../../tailwind/tailwind.css';
+import Anatomy from '/packages/dev/s2-docs/pages/react-aria/TabsAnatomy.svg';
+import {InlineAlert, Heading, Content} from '@react-spectrum/s2'
+
+export const tags = ['navigation'];
+export const relatedPages = [
+  {title: 'useTabList', url: './Tabs/useTabList'},
+  {title: 'Testing Tabs', url: './Tabs/testing'}
+];
+export const description = 'Organizes content into multiple sections and allows users to navigate between them.';
+
+# Tabs
+
+<PageDescription>{docs.exports.Tabs.description}</PageDescription>
+
+<ExampleSwitcher>
+  ```tsx  docs={docs.exports.Tabs} links={docs.links} props={['orientation', 'keyboardActivation', 'isDisabled']} type="vanilla" files={["docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/solid-example-1.tsx","docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/vanilla/Tabs.tsx","docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/vanilla/Tabs.css"]} nativeModule="Tabs/solid-example-1.tsx" solid="Tabs/solid-example-1.tsx"
+  import { Tabs, TabList, Tab, TabPanels, TabPanel } from './Tabs/vanilla/Tabs';
+  import { Form } from './Tabs/vanilla/Form';
+  import { TextField } from './Tabs/vanilla/TextField';
+  import { Button } from './Tabs/vanilla/Button';
+  import { RadioGroup, Radio } from './Tabs/vanilla/RadioGroup';
+  import { CheckboxGroup } from './Tabs/vanilla/CheckboxGroup';
+  import { Checkbox } from './Tabs/vanilla/Checkbox';
+  function Example(props: Record<string, unknown>) {
+    return <Tabs {...props}>
+    <TabList aria-label="Settings">
+      <Tab id="general">General</Tab>
+      <Tab id="appearance">Appearance</Tab>
+      <Tab id="notifications">Notifications</Tab>
+      <Tab id="profile">Profile</Tab>
+    </TabList>
+    <TabPanels>
+      <TabPanel id="general">
+        <Form>
+          <TextField label="Homepage" defaultValue="react-aria.adobe.com" />
+          <Checkbox defaultSelected>Show sidebar</Checkbox>
+          <Checkbox>Show status bar</Checkbox>
+        </Form>
+      </TabPanel>
+      <TabPanel id="appearance">
+        <Form>
+          <RadioGroup label="Theme" defaultValue="auto">
+            <Radio value="auto">Auto</Radio>
+            <Radio value="light">Light</Radio>
+            <Radio value="dark">Dark</Radio>
+          </RadioGroup>
+          <RadioGroup label="Font size" defaultValue="medium">
+            <Radio value="small">Small</Radio>
+            <Radio value="medium">Medium</Radio>
+            <Radio value="large">Large</Radio>
+          </RadioGroup>
+        </Form>
+      </TabPanel>
+      <TabPanel id="notifications">
+        <CheckboxGroup label="Notifications settings" defaultValue={['account', 'dms']}>
+          <Checkbox value="account">Account activity</Checkbox>
+          <Checkbox value="mentions">Mentions</Checkbox>
+          <Checkbox value="dms">Direct message</Checkbox>
+          <Checkbox value="marketing">Marketing emails</Checkbox>
+        </CheckboxGroup>
+      </TabPanel>
+      <TabPanel id="profile">
+        <Form>
+          <TextField label="Name" defaultValue="Devon Govett" />
+          <TextField label="Username" defaultValue="@devongovett" />
+          <Button>Update profile</Button>
+        </Form>
+      </TabPanel>
+    </TabPanels>
+  </Tabs>;
+  }
+  ```
+
+  ```tsx  docs={docs.exports.Tabs} links={docs.links} props={['orientation', 'keyboardActivation', 'isDisabled']} type="tailwind" files={["docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/solid-example-2.tsx","docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/tailwind/Tabs.tsx"]} nativeModule="Tabs/solid-example-2.tsx" solid="Tabs/solid-example-2.tsx"
+  import { Tabs, TabList, Tab, TabPanels, TabPanel } from './Tabs/tailwind/Tabs';
+  import { Home } from './Tabs/illustrations';
+  import { Folder } from './Tabs/illustrations';
+  import { Search } from './Tabs/illustrations';
+  import { Settings } from './Tabs/illustrations';
+  function Example(props: Record<string, unknown>) {
+    return <Tabs {...props}>
+    <TabList aria-label="Tabs">
+      <Tab id="home">Home</Tab>
+      <Tab id="files">Files</Tab>
+      <Tab id="search">Search</Tab>
+      <Tab id="settings">Settings</Tab>
+    </TabList>
+    <TabPanels>
+      <TabPanel id="home" className="flex items-center justify-center">
+        <Home />
+      </TabPanel>
+      <TabPanel id="files" className="flex items-center justify-center">
+        <Folder />
+      </TabPanel>
+      <TabPanel id="search" className="flex items-center justify-center">
+        <Search />
+      </TabPanel>
+      <TabPanel id="settings" className="flex items-center justify-center">
+        <Settings />
+      </TabPanel>
+    </TabPanels>
+  </Tabs>;
+  }
+  ```
+
+</ExampleSwitcher>
+
+## Content
+
+`TabList` follows the [Collection Components API](collections?component=TabList), accepting both static and dynamic collections. This example shows a dynamic collection, passing a list of objects to the `items` prop, and a function to render the children.
+
+```tsx  nativeModule="Tabs/solid-example-3.tsx" solid="Tabs/solid-example-3.tsx"
+import { Tabs, TabList, Tab, TabPanels, TabPanel } from './Tabs/vanilla/Tabs';
+import { Button } from './Tabs/vanilla/Button';
+import { createSignal } from 'solid-js';
+import { Plus, Minus } from './Tabs/icons';
+function Example(props: Record<string, unknown>) {
+  let [tabs, setTabs] = createSignal([{
+    id: 1,
+    title: 'Tab 1',
+    content: 'Tab body 1'
+  }, {
+    id: 2,
+    title: 'Tab 2',
+    content: 'Tab body 2'
+  }, {
+    id: 3,
+    title: 'Tab 3',
+    content: 'Tab body 3'
+  }]);
+  let addTab = () => {
+    setTabs(tabs => [...tabs, {
+      id: tabs.length + 1,
+      title: `Tab ${tabs.length + 1}`,
+      content: `Tab body ${tabs.length + 1}`
+    }]);
+  };
+  let removeTab = () => {
+    if (tabs().length > 1) {
+      setTabs(tabs => tabs.slice(0, -1));
+    }
+  };
+  return <Tabs style={{
+    "width": '100%'
+  }}>
+      <div style={{
+      "display": 'flex'
+    }}>
+        <TabList aria-label="Dynamic tabs"
+      ///- begin highlight -///
+      items={tabs()}
+      ///- end highlight -///
+      style={{
+        "flex": 1
+      }}>
+          {item => <Tab>{item.title}</Tab>}
+        </TabList>
+        <div class="button-group">
+          <Button onPress={addTab} aria-label="Add tab">
+            <Plus />
+          </Button>
+          <Button onPress={removeTab} aria-label="Remove tab">
+            <Minus />
+          </Button>
+        </div>
+      </div>
+      <TabPanels items={tabs()}>
+        {item => <TabPanel>{item.content}</TabPanel>}
+      </TabPanels>
+    </Tabs>;
+}
+```
+
+```css render hidden
+.button-group {
+  border-bottom: 0.5px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+```
+
+### Links
+
+Use the `href` prop on a `<Tab>` to create a link. By default, links are rendered as an `<a>` element. Use the `render` prop to integrate your framework's link component.
+
+```tsx
+<Tab
+  href="/home"
+  render={domProps =>
+    'href' in domProps
+      ? <RouterLink {...domProps} />
+      : <div {...domProps} />
+  } />
+```
+
+## Selection
+
+Use the `defaultSelectedKey` or `selectedKey` prop to set the selected tab. The selected key corresponds to the `id` prop of a `<Tab>`. Tabs can be disabled with the `isDisabled` prop. See the [selection guide](selection?component=Tabs#single-selection) for more details.
+
+```tsx  nativeModule="Tabs/solid-example-4.tsx" solid="Tabs/solid-example-4.tsx"
+import type { Key } from 'solid-aria-components';
+import { Tabs, TabList, Tab, TabPanels, TabPanel } from './Tabs/vanilla/Tabs';
+import { Home } from './Tabs/illustrations';
+import { Folder } from './Tabs/illustrations';
+import { Search } from './Tabs/illustrations';
+import { Settings } from './Tabs/illustrations';
+import { createSignal } from 'solid-js';
+function Example(props: Record<string, unknown>) {
+  let [tab, setTab] = createSignal<Key>("files");
+  return <div>
+      <Tabs
+    ///- begin highlight -///
+    selectedKey={tab()} onSelectionChange={setTab}
+    ///- end highlight -///
+    >
+        <TabList aria-label="Tabs">
+          <Tab id="home">Home</Tab>
+          <Tab id="files">Files</Tab>
+          <Tab id="search" isDisabled>Search</Tab>
+          <Tab id="settings">Settings</Tab>
+        </TabList>
+        <TabPanels>
+          <TabPanel id="home" style={{
+          "display": 'flex',
+          "align-items": 'center',
+          "justify-content": 'center'
+        }}>
+            <Home />
+          </TabPanel>
+          <TabPanel id="files" style={{
+          "display": 'flex',
+          "align-items": 'center',
+          "justify-content": 'center'
+        }}>
+            <Folder />
+          </TabPanel>
+          <TabPanel id="search" style={{
+          "display": 'flex',
+          "align-items": 'center',
+          "justify-content": 'center'
+        }}>
+            <Search />
+          </TabPanel>
+          <TabPanel id="settings" style={{
+          "display": 'flex',
+          "align-items": 'center',
+          "justify-content": 'center'
+        }}>
+            <Settings />
+          </TabPanel>
+        </TabPanels>
+      </Tabs>
+      <p>Selected tab: {tab()}</p>
+    </div>;
+}
+```
+
+## Examples
+
+<ExampleList tag="tabs" pages={props.pages} />
+
+## API
+
+<Anatomy />
+
+```tsx links={{Tabs: '#tabs', TabList: '#tablist', Tab: '#tab', TabPanels: '#tabpanels', TabPanel: '#tabpanel', SelectionIndicator: 'selection#animated-selectionindicator'}}
+<Tabs>
+  <TabList>
+    <Tab>
+      <SelectionIndicator />
+    </Tab>
+  </TabList>
+  <TabPanels>
+    <TabPanel />
+  </TabPanels>
+</Tabs>
+```
+
+### Tabs
+
+<PropTable component={docs.exports.Tabs} links={docs.links} showDescription />
+
+### TabList
+
+<PropTable component={docs.exports.TabList} links={docs.links} showDescription />
+
+### Tab
+
+<PropTable component={docs.exports.Tab} links={docs.links} showDescription />
+
+### TabPanels
+
+<PropTable
+  component={docs.exports.TabPanels}
+  links={docs.links}
+  showDescription
+  cssVariables={{
+    '--tab-panel-width': 'The width of the active tab panel in pixels. Useful for animations. Set when width, inline-size, or all is used in the CSS transition.',
+    '--tab-panel-height': 'The height of the active tab panel in pixels. Useful for animations. Set when height, block-size, or all is used in the CSS transition.'
+  }} />
+
+### TabPanel
+
+<PropTable component={docs.exports.TabPanel} links={docs.links} showDescription />

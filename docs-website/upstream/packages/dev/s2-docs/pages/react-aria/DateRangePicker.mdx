@@ -1,0 +1,165 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import vanillaDocs from 'docs:vanilla-starter/DateRangePicker';
+import '../../tailwind/tailwind.css';
+import Anatomy from '/packages/dev/s2-docs/pages/react-aria/DateRangePickerAnatomy2.svg';
+
+export const tags = ['calendar', 'input'];
+export const relatedPages = [{'title': 'useDateRangePicker', 'url': './DateRangePicker/useDateRangePicker'}];
+export const description = 'Combines two DateFields and a RangeCalendar popover to allow users to enter or select a date range.';
+
+# DateRangePicker
+
+<PageDescription>{docs.exports.DateRangePicker.description}</PageDescription>
+
+<ExampleSwitcher>
+  <VisualExample solid="DateRangePicker/solid-vanilla-1.tsx"
+    docs={vanillaDocs.exports.DateRangePicker}
+    links={vanillaDocs.links}
+    props={['label', 'granularity', 'isDisabled']}
+    initialProps={{label: 'Date range'}}
+    type="vanilla"
+    files={["packages/dev/s2-docs/pages/react-aria/DateRangePicker/vanilla/DateRangePicker.solid.tsx","packages/dev/s2-docs/pages/react-aria/DateRangePicker/vanilla/DateRangePicker.css"]} />
+  <VisualExample solid="DateRangePicker/solid-tailwind-2.tsx"
+    docs={vanillaDocs.exports.DateRangePicker}
+    links={vanillaDocs.links}
+    props={['label', 'granularity', 'isDisabled']}
+    initialProps={{label: 'Date range'}}
+    type="tailwind"
+    files={["packages/dev/s2-docs/pages/react-aria/DateRangePicker/tailwind/DateRangePicker.solid.tsx"]} />
+</ExampleSwitcher>
+
+## Value
+
+Use the `value` or `defaultValue` prop to set the selected date range, using objects in the [@internationalized/date](internationalized/date/) package. This library supports parsing date strings in multiple formats, manipulation across international calendar systems, time zones, etc.
+
+```tsx nativeModule="DateRangePicker/solid-example-3.tsx" solid="DateRangePicker/solid-example-3.tsx"  files={["packages/dev/s2-docs/pages/react-aria/DateRangePicker/solid-example-3.tsx"]}
+import {parseDate, getLocalTimeZone, type CalendarDate} from '@internationalized/date';
+import {type RangeValue} from 'solid-aria-components';
+import {useDateFormatter} from '../../../../../../../packages/react-aria/src/i18n/useDateFormatter';
+import {DateRangePicker} from './DateRangePicker/vanilla/DateRangePicker.solid';
+import {createSignal} from 'solid-js';
+function Example() {
+  let [range, setRange] = createSignal<RangeValue<CalendarDate> | null>({
+    start: parseDate('2025-02-03'),
+    end: parseDate('2025-02-12')
+  });
+  let formatter = useDateFormatter({ dateStyle: 'long' });
+
+  return (
+    <>
+      <DateRangePicker
+        ///- begin highlight -///
+        value={range()}
+        onChange={setRange} />
+        {/*- end highlight -*/}
+      <p>Selected range: {range() ? formatter().formatRange(
+        range()!.start.toDate(getLocalTimeZone()),
+        range()!.end.toDate(getLocalTimeZone())
+      ) : '--'}</p>
+    </>
+  );
+}
+```
+
+### Format options
+
+The date format is automatically determined based on the user's locale. `DateRangePicker` supports several props to control how values are displayed.
+
+```tsx nativeModule="DateRangePicker/solid-example-4.tsx" solid="DateRangePicker/solid-example-4.tsx" docs={docs.exports.DateRangePicker} links={docs.links} props={['granularity', 'hourCycle', 'hideTimeZone', 'shouldForceLeadingZeros']} initialProps={{label: 'Date'}} files={["packages/dev/s2-docs/pages/react-aria/DateRangePicker/solid-example-4.tsx"]}
+import {parseZonedDateTime} from '@internationalized/date';
+import {DateRangePicker} from './DateRangePicker/vanilla/DateRangePicker.solid';
+<DateRangePicker
+  {...props} /* PROPS */
+  defaultValue={{
+    start: parseZonedDateTime('2025-02-03T08:45:00[America/Los_Angeles]'),
+    end: parseZonedDateTime('2025-02-14T08:45:00[America/Los_Angeles]')
+  }} />
+```
+
+### International calendars
+
+By default, `DateRangePicker` displays the value using the calendar system for the user's locale. Use `<I18nProvider>` to override the calendar system by setting the [Unicode calendar locale extension](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/calendar#adding_a_calendar_in_the_locale_string). The `onChange` event always receives a date in the same calendar as the `value` or `defaultValue` (Gregorian if no value is provided), regardless of the displayed locale.
+
+```tsx nativeModule="DateRangePicker/solid-example-5.tsx" solid="DateRangePicker/solid-example-5.tsx" wide docs={docs.exports.I18nProvider} links={docs.links} props={['locale']} initialProps={{locale: 'hi-IN-u-ca-indian'}} files={["packages/dev/s2-docs/pages/react-aria/DateRangePicker/solid-example-5.tsx"]}
+import {I18nProvider} from 'solid-aria-components';
+import {parseDate} from '@internationalized/date';
+import {DateRangePicker} from './DateRangePicker/vanilla/DateRangePicker.solid';
+<I18nProvider {...props}/* PROPS */>
+  <DateRangePicker
+    defaultValue={{
+      start: parseDate('2025-02-03'),
+      end: parseDate('2025-02-14')
+    }} />
+</I18nProvider>
+```
+
+## Forms
+
+Use the `name` prop to submit the selected date to the server as an [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) string. Set the `isRequired`, `minValue`, or `maxValue` props to validate the value, or implement custom client or server-side validation. The `isDateUnavailable` callback prevents certain dates from being selected. Use `allowsNonContiguousRanges` to allow selecting ranges containing unavailable dates. See the [Forms](forms) guide to learn more.
+
+```tsx nativeModule="DateRangePicker/solid-example-6.tsx" solid="DateRangePicker/solid-example-6.tsx" docs={vanillaDocs.exports.DateRangePicker} links={docs.links} props={['allowsNonContiguousRanges']} wide files={["packages/dev/s2-docs/pages/react-aria/DateRangePicker/solid-example-6.tsx"]}
+import {isWeekend, today, getLocalTimeZone} from '@internationalized/date';
+import {useLocale} from 'solid-aria-components';
+import {DateRangePicker} from './DateRangePicker/vanilla/DateRangePicker.solid';
+import {Button} from './DateRangePicker/vanilla/Button.solid';
+import {Form} from './DateRangePicker/vanilla/Form.solid';;
+function Example(props: Record<string, unknown>) {
+  let locale = useLocale();
+  let now = today(getLocalTimeZone());
+  let disabledRanges = [
+    [now, now.add({ days: 5 })],
+    [now.add({ days: 14 }), now.add({ days: 16 })],
+    [now.add({ days: 23 }), now.add({ days: 24 })]
+  ];
+
+  return (
+    <Form>
+      <DateRangePicker
+        {...props}
+        label="Trip dates"
+        ///- begin highlight -///
+        startName="startDate"
+        endName="endDate"
+        /* PROPS */
+        isRequired
+        minValue={today(getLocalTimeZone())}
+        isDateUnavailable={date => (
+          isWeekend(date, locale.locale) ||
+          disabledRanges.some((interval) =>
+            date.compare(interval[0]) >= 0 && date.compare(interval[1]) <= 0
+          )
+        )}
+        ///- end highlight -///
+      />
+      <Button type="submit">Submit</Button>
+    </Form>
+  );
+}
+```
+
+## API
+
+<Anatomy />
+
+```tsx links={{DateRangePicker: '#daterangepicker', Group: 'Group', DateInput: 'DateField#dateinput', Button: 'Button', Popover: 'Popover', RangeCalendar: 'RangeCalendar'}}
+<DateRangePicker>
+  <Label />
+  <Group>
+    <DateInput slot="start" />
+    <DateInput slot="end" />
+    <Button />
+  </Group>
+  <Text slot="description" />
+  <FieldError />
+  <Popover>
+    <RangeCalendar />
+  </Popover>
+</DateRangePicker>
+```
+
+### DateRangePicker
+
+<PropTable component={docs.exports.DateRangePicker} links={docs.links} />

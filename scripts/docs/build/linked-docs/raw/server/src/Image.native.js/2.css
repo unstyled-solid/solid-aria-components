@@ -1,0 +1,17 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  ._H40ub4c18 {
+    object-fit: inherit;
+  }
+
+
+  .__D40ub4c18 {
+    object-position: inherit;
+  }
+}
+
+.-macro-static-ZyGs9b {
+        --macro-data-ZyGs9b: {"style":{"objectFit":"inherit","objectPosition":"inherit"},"loc":"/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/server/src/Image.native.js:217:119"};
+      }
+

@@ -1,0 +1,7 @@
+'use client';
+import {Link as RACLink, type LinkProps} from 'solid-aria-components';
+import './Link.css';
+
+export function Link(props: LinkProps) {
+  return <RACLink {...props} />;
+}

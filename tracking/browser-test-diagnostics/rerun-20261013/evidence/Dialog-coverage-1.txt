@@ -1,0 +1,3 @@
+ ✓ |chromium-desktop| packages/react-aria-components/test/Dialog.browser.test.tsx (2 tests) 60ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/Dialog.browser.test.tsx (2 tests) 124ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/Dialog.browser.test.tsx (2 tests) 1509ms

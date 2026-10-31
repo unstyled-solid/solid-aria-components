@@ -1,0 +1,657 @@
+{
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "nativeHashes": {
+    "packages/react-aria-components/src/utils.tsx": "d31a403d99df6c80fab669239eef4ae9ede9a4bd2b7f54a35e289a5ddcfb428a",
+    "packages/react-aria/src/collections/CollectionBuilder.tsx": "e8465d68b6b24adb1f99a8f49576a782a4d1a5330743bbe32307b6a86ad87014",
+    "packages/react-aria-components/test/Table.test.jsx": "9f47a8552f7fea5e366981855fcf0c23d0d9a53ce8ee6902bd5e5317e8167c24"
+  },
+  "react": {
+    "geometry": {
+      "x": 304,
+      "y": 24,
+      "width": 8,
+      "height": 32
+    },
+    "initial": {
+      "connected": true,
+      "sameSlider": true,
+      "active": "BODY",
+      "sameFocusedSlider": false,
+      "widths": [
+        100,
+        100,
+        100,
+        100,
+        500
+      ],
+      "ranges": [],
+      "trace": [],
+      "physicalEvents": []
+    },
+    "down": {
+      "connected": true,
+      "sameSlider": true,
+      "active": "INPUT",
+      "sameFocusedSlider": true,
+      "widths": [
+        100,
+        100,
+        100,
+        100,
+        500
+      ],
+      "ranges": [],
+      "trace": [
+        {
+          "kind": "focus",
+          "tag": "INPUT",
+          "connected": true,
+          "stack": "Error\n    at HTMLDocument.<anonymous> (http://127.0.0.1:4317/table-resize/main.jsx?t=1791809110448:30:156)\n    at HTMLInputElement.value [as focus] (http://127.0.0.1:4317/frozen/packages/react-aria/src/interactions/useFocusVisible.ts:102:13)\n    at focusWithoutScrolling (http://127.0.0.1:4317/frozen/packages/react-aria/src/utils/focusWithoutScrolling.ts:2:11)\n    at focusSafely (http://127.0.0.1:4317/frozen/packages/react-aria/src/interactions/focusSafely.ts:20:5)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/table/useTableColumnResize.ts:171:7\n    at onPressStart (http://127.0.0.1:4317/frozen/packages/react-aria/src/table/useTableColumnResize.ts:210:7)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/interactions/usePress.ts:115:9\n    at pressProps2.onPointerDown (http://127.0.0.1:4317/frozen/packages/react-aria/src/interactions/usePress.ts:357:35)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/utils/chain.ts:5:9\n    at executeDispatch (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:14738:11)"
+        },
+        {
+          "kind": "setFocusedKey",
+          "key": "height",
+          "stack": "Error\n    at SelectionManager.setFocusedKey (http://127.0.0.1:4317/table-resize/main.jsx?t=1791809110448:15:41)\n    at onFocus (http://127.0.0.1:4317/frozen/packages/react-aria/src/grid/useGridCell.ts:190:32)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/utils/chain.ts:5:9\n    at executeDispatch (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:14738:11)\n    at runWithFiberInDEV (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:1131:72)\n    at processDispatchQueue (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:14774:37)\n    at http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:15168:11\n    at batchedUpdates$1 (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:2764:42)\n    at dispatchEventForPluginEventSystem (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:14879:9)\n    at dispatchEvent (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:18442:13)"
+        },
+        {
+          "kind": "onResizeStart",
+          "widths": [
+            [
+              "name",
+              100
+            ],
+            [
+              "type",
+              100
+            ],
+            [
+              "height",
+              100
+            ],
+            [
+              "weight",
+              "1fr"
+            ],
+            [
+              "level",
+              "5fr"
+            ]
+          ]
+        },
+        {
+          "kind": "setFocusedKey",
+          "key": null,
+          "stack": "Error\n    at SelectionManager.setFocusedKey (http://127.0.0.1:4317/table-resize/main.jsx?t=1791809110448:15:41)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/selection/useSelectableItem.ts:101:15\n    at Object.react_stack_bottom_frame (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:20315:20)\n    at runWithFiberInDEV (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:1131:72)\n    at commitHookEffectListMount (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:9771:163)\n    at commitHookPassiveMountEffects (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:9825:60)\n    at commitPassiveMountOnFiber (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:12029:29)\n    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:11997:61)\n    at commitPassiveMountOnFiber (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:12205:13)\n    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:11997:61)"
+        }
+      ],
+      "physicalEvents": [
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        },
+        {
+          "type": "pointerdown",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        }
+      ]
+    },
+    "moved": {
+      "connected": true,
+      "sameSlider": true,
+      "active": "INPUT",
+      "sameFocusedSlider": true,
+      "widths": [
+        100,
+        100,
+        75,
+        104,
+        521
+      ],
+      "ranges": [],
+      "trace": [
+        {
+          "kind": "focus",
+          "tag": "INPUT",
+          "connected": true,
+          "stack": "Error\n    at HTMLDocument.<anonymous> (http://127.0.0.1:4317/table-resize/main.jsx?t=1791809110448:30:156)\n    at HTMLInputElement.value [as focus] (http://127.0.0.1:4317/frozen/packages/react-aria/src/interactions/useFocusVisible.ts:102:13)\n    at focusWithoutScrolling (http://127.0.0.1:4317/frozen/packages/react-aria/src/utils/focusWithoutScrolling.ts:2:11)\n    at focusSafely (http://127.0.0.1:4317/frozen/packages/react-aria/src/interactions/focusSafely.ts:20:5)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/table/useTableColumnResize.ts:171:7\n    at onPressStart (http://127.0.0.1:4317/frozen/packages/react-aria/src/table/useTableColumnResize.ts:210:7)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/interactions/usePress.ts:115:9\n    at pressProps2.onPointerDown (http://127.0.0.1:4317/frozen/packages/react-aria/src/interactions/usePress.ts:357:35)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/utils/chain.ts:5:9\n    at executeDispatch (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:14738:11)"
+        },
+        {
+          "kind": "setFocusedKey",
+          "key": "height",
+          "stack": "Error\n    at SelectionManager.setFocusedKey (http://127.0.0.1:4317/table-resize/main.jsx?t=1791809110448:15:41)\n    at onFocus (http://127.0.0.1:4317/frozen/packages/react-aria/src/grid/useGridCell.ts:190:32)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/utils/chain.ts:5:9\n    at executeDispatch (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:14738:11)\n    at runWithFiberInDEV (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:1131:72)\n    at processDispatchQueue (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:14774:37)\n    at http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:15168:11\n    at batchedUpdates$1 (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:2764:42)\n    at dispatchEventForPluginEventSystem (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:14879:9)\n    at dispatchEvent (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:18442:13)"
+        },
+        {
+          "kind": "onResizeStart",
+          "widths": [
+            [
+              "name",
+              100
+            ],
+            [
+              "type",
+              100
+            ],
+            [
+              "height",
+              100
+            ],
+            [
+              "weight",
+              "1fr"
+            ],
+            [
+              "level",
+              "5fr"
+            ]
+          ]
+        },
+        {
+          "kind": "setFocusedKey",
+          "key": null,
+          "stack": "Error\n    at SelectionManager.setFocusedKey (http://127.0.0.1:4317/table-resize/main.jsx?t=1791809110448:15:41)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/selection/useSelectableItem.ts:101:15\n    at Object.react_stack_bottom_frame (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:20315:20)\n    at runWithFiberInDEV (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:1131:72)\n    at commitHookEffectListMount (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:9771:163)\n    at commitHookPassiveMountEffects (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:9825:60)\n    at commitPassiveMountOnFiber (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:12029:29)\n    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:11997:61)\n    at commitPassiveMountOnFiber (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:12205:13)\n    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:11997:61)"
+        },
+        {
+          "kind": "onResize",
+          "widths": [
+            [
+              "name",
+              100
+            ],
+            [
+              "type",
+              100
+            ],
+            [
+              "height",
+              75
+            ],
+            [
+              "weight",
+              "1fr"
+            ],
+            [
+              "level",
+              "5fr"
+            ]
+          ]
+        }
+      ],
+      "physicalEvents": [
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        },
+        {
+          "type": "pointerdown",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "connected": true,
+          "target": "TH"
+        }
+      ]
+    },
+    "released": {
+      "connected": true,
+      "sameSlider": true,
+      "active": "INPUT",
+      "sameFocusedSlider": true,
+      "widths": [
+        100,
+        100,
+        75,
+        104,
+        521
+      ],
+      "ranges": [],
+      "trace": [
+        {
+          "kind": "focus",
+          "tag": "INPUT",
+          "connected": true,
+          "stack": "Error\n    at HTMLDocument.<anonymous> (http://127.0.0.1:4317/table-resize/main.jsx?t=1791809110448:30:156)\n    at HTMLInputElement.value [as focus] (http://127.0.0.1:4317/frozen/packages/react-aria/src/interactions/useFocusVisible.ts:102:13)\n    at focusWithoutScrolling (http://127.0.0.1:4317/frozen/packages/react-aria/src/utils/focusWithoutScrolling.ts:2:11)\n    at focusSafely (http://127.0.0.1:4317/frozen/packages/react-aria/src/interactions/focusSafely.ts:20:5)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/table/useTableColumnResize.ts:171:7\n    at onPressStart (http://127.0.0.1:4317/frozen/packages/react-aria/src/table/useTableColumnResize.ts:210:7)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/interactions/usePress.ts:115:9\n    at pressProps2.onPointerDown (http://127.0.0.1:4317/frozen/packages/react-aria/src/interactions/usePress.ts:357:35)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/utils/chain.ts:5:9\n    at executeDispatch (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:14738:11)"
+        },
+        {
+          "kind": "setFocusedKey",
+          "key": "height",
+          "stack": "Error\n    at SelectionManager.setFocusedKey (http://127.0.0.1:4317/table-resize/main.jsx?t=1791809110448:15:41)\n    at onFocus (http://127.0.0.1:4317/frozen/packages/react-aria/src/grid/useGridCell.ts:190:32)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/utils/chain.ts:5:9\n    at executeDispatch (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:14738:11)\n    at runWithFiberInDEV (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:1131:72)\n    at processDispatchQueue (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:14774:37)\n    at http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:15168:11\n    at batchedUpdates$1 (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:2764:42)\n    at dispatchEventForPluginEventSystem (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:14879:9)\n    at dispatchEvent (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:18442:13)"
+        },
+        {
+          "kind": "onResizeStart",
+          "widths": [
+            [
+              "name",
+              100
+            ],
+            [
+              "type",
+              100
+            ],
+            [
+              "height",
+              100
+            ],
+            [
+              "weight",
+              "1fr"
+            ],
+            [
+              "level",
+              "5fr"
+            ]
+          ]
+        },
+        {
+          "kind": "setFocusedKey",
+          "key": null,
+          "stack": "Error\n    at SelectionManager.setFocusedKey (http://127.0.0.1:4317/table-resize/main.jsx?t=1791809110448:15:41)\n    at http://127.0.0.1:4317/frozen/packages/react-aria/src/selection/useSelectableItem.ts:101:15\n    at Object.react_stack_bottom_frame (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:20315:20)\n    at runWithFiberInDEV (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:1131:72)\n    at commitHookEffectListMount (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:9771:163)\n    at commitHookPassiveMountEffects (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:9825:60)\n    at commitPassiveMountOnFiber (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:12029:29)\n    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:11997:61)\n    at commitPassiveMountOnFiber (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:12205:13)\n    at recursivelyTraversePassiveMountEffects (http://127.0.0.1:4317/node_modules/.vite/deps/react-dom_client.js?v=790ea58a:11997:61)"
+        },
+        {
+          "kind": "onResize",
+          "widths": [
+            [
+              "name",
+              100
+            ],
+            [
+              "type",
+              100
+            ],
+            [
+              "height",
+              75
+            ],
+            [
+              "weight",
+              "1fr"
+            ],
+            [
+              "level",
+              "5fr"
+            ]
+          ]
+        },
+        {
+          "kind": "onResizeEnd",
+          "widths": [
+            [
+              "name",
+              100
+            ],
+            [
+              "type",
+              100
+            ],
+            [
+              "height",
+              75
+            ],
+            [
+              "weight",
+              "1fr"
+            ],
+            [
+              "level",
+              "5fr"
+            ]
+          ]
+        }
+      ],
+      "physicalEvents": [
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        },
+        {
+          "type": "pointerdown",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "connected": true,
+          "target": "TH"
+        },
+        {
+          "type": "pointerup",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        }
+      ]
+    },
+    "diagnostics": [],
+    "errors": []
+  },
+  "native": {
+    "geometry": {
+      "x": 304,
+      "y": 24,
+      "width": 8,
+      "height": 32
+    },
+    "initial": {
+      "connected": true,
+      "sameSlider": true,
+      "active": "BODY",
+      "sameFocusedSlider": false,
+      "widths": [
+        100,
+        100,
+        100,
+        100,
+        500
+      ],
+      "ranges": [],
+      "trace": [],
+      "physicalEvents": []
+    },
+    "down": {
+      "connected": true,
+      "sameSlider": true,
+      "active": "INPUT",
+      "sameFocusedSlider": true,
+      "widths": [
+        100,
+        100,
+        100,
+        100,
+        500
+      ],
+      "ranges": [],
+      "trace": [
+        {
+          "kind": "focus",
+          "tag": "INPUT",
+          "connected": true,
+          "stack": "Error\n    at HTMLDocument.<anonymous> (http://127.0.0.1:4318/table-resize/main.jsx:270:9)\n    at HTMLInputElement.value [as focus] (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/interactions/useFocusVisible.ts:151:10)\n    at focusWithoutScrolling (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/utils/focusWithoutScrolling.ts:2:10)\n    at focusSafely (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/interactions/focusSafely.ts:30:3)\n    at focusInput (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/table/useTableColumnResize.ts:181:4)\n    at onPressStart (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/table/useTableColumnResize.ts:226:4)\n    at triggerPressStart (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/interactions/usePress.ts:130:4)\n    at pressProps.onPointerDown (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/interactions/usePress.ts:381:30)\n    at HTMLDivElement._$$pointerdown (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/utils/chain.ts:19:5)\n    at handleNode (http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:1922:92)"
+        },
+        {
+          "kind": "setFocusedKey",
+          "key": "height",
+          "stack": "Error\n    at SelectionManager.setFocusedKey (http://127.0.0.1:4318/table-resize/main.jsx:238:10)\n    at Proxy.<anonymous> (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-stately/src/collections/useCollection.ts:35:21)\n    at onFocus (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/grid/useGridCell.ts:245:28)\n    at http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/utils/chain.ts:19:5\n    at HTMLTableCellElement._$$focusin (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/utils/chain.ts:19:5)\n    at handleNode (http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:1922:92)\n    at eventHandler (http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:1949:10)\n    at http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:707:56\n    at Object.withInteraction (http://127.0.0.1:4318/.vite/deps/dev-shared-D4uaxrc_.js?v=86f30a21:326:21)\n    at dispatchAsInteraction (http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:728:29)"
+        },
+        {
+          "kind": "onResizeStart",
+          "widths": [
+            [
+              "name",
+              100
+            ],
+            [
+              "type",
+              100
+            ],
+            [
+              "height",
+              100
+            ],
+            [
+              "weight",
+              "1fr"
+            ],
+            [
+              "level",
+              "5fr"
+            ]
+          ]
+        }
+      ],
+      "physicalEvents": [
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        },
+        {
+          "type": "pointerdown",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        }
+      ]
+    },
+    "moved": {
+      "connected": true,
+      "sameSlider": true,
+      "active": "INPUT",
+      "sameFocusedSlider": true,
+      "widths": [
+        100,
+        100,
+        75,
+        104,
+        521
+      ],
+      "ranges": [],
+      "trace": [
+        {
+          "kind": "focus",
+          "tag": "INPUT",
+          "connected": true,
+          "stack": "Error\n    at HTMLDocument.<anonymous> (http://127.0.0.1:4318/table-resize/main.jsx:270:9)\n    at HTMLInputElement.value [as focus] (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/interactions/useFocusVisible.ts:151:10)\n    at focusWithoutScrolling (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/utils/focusWithoutScrolling.ts:2:10)\n    at focusSafely (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/interactions/focusSafely.ts:30:3)\n    at focusInput (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/table/useTableColumnResize.ts:181:4)\n    at onPressStart (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/table/useTableColumnResize.ts:226:4)\n    at triggerPressStart (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/interactions/usePress.ts:130:4)\n    at pressProps.onPointerDown (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/interactions/usePress.ts:381:30)\n    at HTMLDivElement._$$pointerdown (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/utils/chain.ts:19:5)\n    at handleNode (http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:1922:92)"
+        },
+        {
+          "kind": "setFocusedKey",
+          "key": "height",
+          "stack": "Error\n    at SelectionManager.setFocusedKey (http://127.0.0.1:4318/table-resize/main.jsx:238:10)\n    at Proxy.<anonymous> (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-stately/src/collections/useCollection.ts:35:21)\n    at onFocus (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/grid/useGridCell.ts:245:28)\n    at http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/utils/chain.ts:19:5\n    at HTMLTableCellElement._$$focusin (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/utils/chain.ts:19:5)\n    at handleNode (http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:1922:92)\n    at eventHandler (http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:1949:10)\n    at http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:707:56\n    at Object.withInteraction (http://127.0.0.1:4318/.vite/deps/dev-shared-D4uaxrc_.js?v=86f30a21:326:21)\n    at dispatchAsInteraction (http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:728:29)"
+        },
+        {
+          "kind": "onResizeStart",
+          "widths": [
+            [
+              "name",
+              100
+            ],
+            [
+              "type",
+              100
+            ],
+            [
+              "height",
+              100
+            ],
+            [
+              "weight",
+              "1fr"
+            ],
+            [
+              "level",
+              "5fr"
+            ]
+          ]
+        },
+        {
+          "kind": "onResize",
+          "widths": [
+            [
+              "name",
+              100
+            ],
+            [
+              "type",
+              100
+            ],
+            [
+              "height",
+              75
+            ],
+            [
+              "weight",
+              "1fr"
+            ],
+            [
+              "level",
+              "5fr"
+            ]
+          ]
+        }
+      ],
+      "physicalEvents": [
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        },
+        {
+          "type": "pointerdown",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "connected": true,
+          "target": "TH"
+        }
+      ]
+    },
+    "released": {
+      "connected": true,
+      "sameSlider": true,
+      "active": "INPUT",
+      "sameFocusedSlider": true,
+      "widths": [
+        100,
+        100,
+        75,
+        104,
+        521
+      ],
+      "ranges": [],
+      "trace": [
+        {
+          "kind": "focus",
+          "tag": "INPUT",
+          "connected": true,
+          "stack": "Error\n    at HTMLDocument.<anonymous> (http://127.0.0.1:4318/table-resize/main.jsx:270:9)\n    at HTMLInputElement.value [as focus] (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/interactions/useFocusVisible.ts:151:10)\n    at focusWithoutScrolling (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/utils/focusWithoutScrolling.ts:2:10)\n    at focusSafely (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/interactions/focusSafely.ts:30:3)\n    at focusInput (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/table/useTableColumnResize.ts:181:4)\n    at onPressStart (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/table/useTableColumnResize.ts:226:4)\n    at triggerPressStart (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/interactions/usePress.ts:130:4)\n    at pressProps.onPointerDown (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/interactions/usePress.ts:381:30)\n    at HTMLDivElement._$$pointerdown (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/utils/chain.ts:19:5)\n    at handleNode (http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:1922:92)"
+        },
+        {
+          "kind": "setFocusedKey",
+          "key": "height",
+          "stack": "Error\n    at SelectionManager.setFocusedKey (http://127.0.0.1:4318/table-resize/main.jsx:238:10)\n    at Proxy.<anonymous> (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-stately/src/collections/useCollection.ts:35:21)\n    at onFocus (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/grid/useGridCell.ts:245:28)\n    at http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/utils/chain.ts:19:5\n    at HTMLTableCellElement._$$focusin (http://127.0.0.1:4318/@fs/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/utils/chain.ts:19:5)\n    at handleNode (http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:1922:92)\n    at eventHandler (http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:1949:10)\n    at http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:707:56\n    at Object.withInteraction (http://127.0.0.1:4318/.vite/deps/dev-shared-D4uaxrc_.js?v=86f30a21:326:21)\n    at dispatchAsInteraction (http://127.0.0.1:4318/.vite/deps/@solidjs_web.js?v=86f30a21:728:29)"
+        },
+        {
+          "kind": "onResizeStart",
+          "widths": [
+            [
+              "name",
+              100
+            ],
+            [
+              "type",
+              100
+            ],
+            [
+              "height",
+              100
+            ],
+            [
+              "weight",
+              "1fr"
+            ],
+            [
+              "level",
+              "5fr"
+            ]
+          ]
+        },
+        {
+          "kind": "onResize",
+          "widths": [
+            [
+              "name",
+              100
+            ],
+            [
+              "type",
+              100
+            ],
+            [
+              "height",
+              75
+            ],
+            [
+              "weight",
+              "1fr"
+            ],
+            [
+              "level",
+              "5fr"
+            ]
+          ]
+        },
+        {
+          "kind": "onResizeEnd",
+          "widths": [
+            [
+              "name",
+              100
+            ],
+            [
+              "type",
+              100
+            ],
+            [
+              "height",
+              75
+            ],
+            [
+              "weight",
+              "1fr"
+            ],
+            [
+              "level",
+              "5fr"
+            ]
+          ]
+        }
+      ],
+      "physicalEvents": [
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        },
+        {
+          "type": "pointerdown",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "connected": true,
+          "target": "TH"
+        },
+        {
+          "type": "pointerup",
+          "trusted": true,
+          "connected": true,
+          "target": "DIV"
+        }
+      ]
+    },
+    "diagnostics": [],
+    "errors": []
+  }
+}

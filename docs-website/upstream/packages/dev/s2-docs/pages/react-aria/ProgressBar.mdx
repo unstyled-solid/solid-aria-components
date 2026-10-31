@@ -1,0 +1,77 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import vanillaDocs from 'docs:vanilla-starter/ProgressBar';
+import progressCircleDocs from 'docs:vanilla-starter/ProgressCircle';
+import '../../tailwind/tailwind.css';
+import Anatomy from '/packages/dev/s2-docs/pages/react-aria/ProgressBarAnatomy.svg';
+
+export const tags = ['loading', 'progress'];
+export const relatedPages = [{'title': 'useProgressBar', 'url': './ProgressBar/useProgressBar'}];
+export const description = 'Shows either determinate or indeterminate progress of an operation over time.';
+
+# ProgressBar
+
+<PageDescription>{docs.exports.ProgressBar.description}</PageDescription>
+
+<ExampleSwitcher>
+  <VisualExample
+    docs={vanillaDocs.exports.ProgressBar}
+    links={vanillaDocs.links}
+    props={['label', 'value', 'isIndeterminate', 'formatOptions', 'valueLabel']}
+    initialProps={{label: 'Loading…', value: 80}}
+    controlOptions={{value: {control: 'slider'}}}
+    type="vanilla"
+    files={["docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ProgressBar/solid-visual-1.tsx","docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/vanilla/ProgressBar.tsx","docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/vanilla/ProgressBar.css"]}  importSource="./Tabs/vanilla/ProgressBar" solid="ProgressBar/solid-visual-1.tsx" />
+  <VisualExample
+    docs={vanillaDocs.exports.ProgressBar}
+    links={vanillaDocs.links}
+    props={['label', 'value', 'isIndeterminate', 'formatOptions', 'valueLabel']}
+    initialProps={{label: 'Loading…', value: 80}}
+    controlOptions={{value: {control: 'slider'}}}
+    type="tailwind"
+    files={["docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ProgressBar/solid-visual-2.tsx","docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/tailwind/ProgressBar.tsx"]}  importSource="./Tabs/tailwind/ProgressBar" solid="ProgressBar/solid-visual-2.tsx" />
+</ExampleSwitcher>
+
+## Value
+
+By default, the `value` prop is a percentage between 0 and 100. Use the `minValue`, and `maxValue` props to set a custom value scale.
+
+<VisualExample
+  docs={docs.exports.ProgressBar}
+  links={docs.links}
+  props={['minValue', 'maxValue']}
+  initialProps={{
+    label: 'Progress',
+    minValue: 0,
+    maxValue: 150,
+    value: 50
+  }}  importSource="./Tabs/vanilla/ProgressBar" solid="ProgressBar/solid-visual-3.tsx" />
+
+## ProgressCircle
+
+Use SVG within a `<ProgressBar>` to build a circular progress indicator or spinner.
+
+<VisualExample
+  docs={progressCircleDocs.exports.ProgressCircle}
+  links={progressCircleDocs.links}
+  props={['value', 'isIndeterminate']}
+  initialProps={{'aria-label': 'Loading…', value: 60, size: 64}}
+  controlOptions={{value: {control: 'slider'}}}
+  type="vanilla"
+  files={["docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ProgressBar/solid-visual-4.tsx","docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/vanilla/ProgressCircle.tsx"]}  importSource="./Tabs/vanilla/ProgressCircle" solid="ProgressBar/solid-visual-4.tsx" />
+
+## API
+
+<Anatomy />
+
+```tsx links={{ProgressBar: '#progressbar'}}
+<ProgressBar>
+  <Label />
+</ProgressBar>
+```
+
+### ProgressBar
+
+<PropTable component={docs.exports.ProgressBar} links={docs.links} showDescription />

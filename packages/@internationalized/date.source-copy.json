@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/solid-aria-components/upstream/react-spectrum/packages/@internationalized/date",
+  "target": "/Users/avi/avir-oss/solid-aria-components/packages/@internationalized/date",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "version": "3.12.4",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4691,
+      "sha256": "5061cbb366ed79e6899afee320daff18673540d372d7d2d9f9f1fcd60dcbace9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/Calendar.mdx",
+      "bytes": 15996,
+      "sha256": "65757220ade11e5921fc9ae46344018ba0ce263fe3fdb6a250818b81f565ccd5",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/CalendarDate.mdx",
+      "bytes": 19090,
+      "sha256": "044e45966110c6abae0101f22e6222d3bac44919de51abc79ddc39dade7c7260",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/CalendarDateTime.mdx",
+      "bytes": 21817,
+      "sha256": "5ac99603d66b246f6d553d6172015c71607e6af98e2f368c8aded0a7c8d9ec17",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/DateFormatter.mdx",
+      "bytes": 2164,
+      "sha256": "e322f7175b29c6e4ebab7534b13691a336164d24dc918783179c049b48c83601",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/Time.mdx",
+      "bytes": 7653,
+      "sha256": "0606347c50bcacc2b741d5d260ecebd43f8d1e8f3e390a61c414deabbd6e67b8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/ZonedDateTime.mdx",
+      "bytes": 29412,
+      "sha256": "ee9a75bd260f187349485c06e232f48da79a50a5548f48c3526df30d138a2a09",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/index.mdx",
+      "bytes": 5494,
+      "sha256": "656c9dcf5ced4b058f2fad977c0bcc6f67647ebaaa98bdddd136745deee97b3a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "index.ts",
+      "bytes": 644,
+      "sha256": "594e47e9541abd266230f1ab8a4011cff08fe222cda671d39d216df48d1a3b5b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1117,
+      "sha256": "ab8e6bbec3ca4a3a19f36dd2bf49bcddd099309c9e6c2847ffcdc49903c9451b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "scripts/generate-umalqura.js",
+      "bytes": 10065,
+      "sha256": "7961f7a47db165066e485fa2a28627b8a7ccf8bf8ba0ade7b03b305b21e9b07e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/CalendarDate.ts",
+      "bytes": 17127,
+      "sha256": "d8399c1682e8a7c7f12ca52eaaed5c800f8122e136468e83bbb8b2af4d4cab4e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/DateFormatter.ts",
+      "bytes": 7726,
+      "sha256": "096a25fb9d7fc453fc790003b3fd12242d6f8e5e351e10e28cea1f7d3dc2109f",
+      "category": "source-or-helper",
+      "adaptation": "Erased type assertions/annotation for source hour-cycle preference indexing and literal union; emitted cache/workaround algorithms and data unchanged."
+    },
+    {
+      "path": "src/calendars/BuddhistCalendar.ts",
+      "bytes": 2084,
+      "sha256": "79117490dc59f263c3c6bb03140d38b66c5a60cc3e11432e853e25d4f507f5b2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/calendars/EthiopicCalendar.ts",
+      "bytes": 6501,
+      "sha256": "6babe107dc42119e5dead00df65a6b31084442c16ef3ead4b5bf6d721d914862",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/calendars/GregorianCalendar.ts",
+      "bytes": 4377,
+      "sha256": "1e7e55ade00440c15252379f03ee49e49a6bc7edbfa743c54204f37f1f6094cd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/calendars/HebrewCalendar.ts",
+      "bytes": 5947,
+      "sha256": "5978f1d33178915823fa8fb1c1ae9a7cd683e9b1d79c20352bfbaf3bed106b0f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/calendars/IndianCalendar.ts",
+      "bytes": 3889,
+      "sha256": "c9747d92852ed1b1e58d339d3b34bcfa5d9fb01f4af89715662508e24768e6e4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/calendars/IslamicCalendar.ts",
+      "bytes": 9063,
+      "sha256": "2e55e6f20918a6be2a5705cf2856ec5a91c0c6c76f02efb7848638a1bb3283b9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/calendars/JapaneseCalendar.ts",
+      "bytes": 5325,
+      "sha256": "9820b47660fc98e62a6e362fe3c6b7cc26a76c69f0451f2c8c39dbef00168605",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/calendars/PersianCalendar.ts",
+      "bytes": 3001,
+      "sha256": "a898551e5457bdaad68100e3f144290165fcbd78ed5c50e6db231a5b7a2b159a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/calendars/TaiwanCalendar.ts",
+      "bytes": 2803,
+      "sha256": "343f75938663479aac08b62c1f10877a468140d814a14348ff3999a37198b54e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/conversion.ts",
+      "bytes": 11806,
+      "sha256": "9c9da8a865f37c7f6544eda59a92dd2fd17f92bfbeb066fd2d4a778fd5df620a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/createCalendar.ts",
+      "bytes": 2303,
+      "sha256": "7c149a034015bdc5d5f6fea60c323b67526324aa2f78076b6449c76494aff83b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 2621,
+      "sha256": "89245541df3fad5888d572676bd201fadc196db6b37ae4750561e12a033d18a0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/manipulation.ts",
+      "bytes": 18118,
+      "sha256": "96a2e17057678772bd3de144ad9201ca0b2c85aea860a6b65ac1ff0f19158a1f",
+      "category": "source-or-helper",
+      "adaptation": "Erased duration/index-key annotations and non-null assertion; original numeric check/repeated reads/negation/iteration and all arithmetic unchanged."
+    },
+    {
+      "path": "src/queries.ts",
+      "bytes": 14229,
+      "sha256": "8ee8081a73b14eb5f4e36265ef55c681636503f6e0b5fdf76317c534f0808d15",
+      "category": "source-or-helper",
+      "adaptation": "Erased Intl.Locale.getWeekInfo structural type and source data-map indexing assertions only; all calendar/week/time-zone query algorithms and data unchanged."
+    },
+    {
+      "path": "src/string.ts",
+      "bytes": 11407,
+      "sha256": "9a7125ef6eb695ca159d99782cc3f4401d28e85d07d4e70b9a79b6a05e616956",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/types.ts",
+      "bytes": 6017,
+      "sha256": "653126d1fae791f2614496951fb511d1f902669bafe8145f0096fc50509d3745",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/utils.ts",
+      "bytes": 815,
+      "sha256": "dc8fa6b82b3e6720987421a8f5b2490c39afb9e0ca1071a6d40b5bf7ed70b84d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/weekStartData.ts",
+      "bytes": 1671,
+      "sha256": "f4c4f9de3151cb1c6a7678c6d6ec99d719396186b8391fbbec4a0370e74566fb",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "tests/DateFormatter.test.js",
+      "bytes": 3839,
+      "sha256": "fa55868489fe0ffff224c05ceed225140fafaabcaf6ceb3d0c27a76c5d21c4c2",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "tests/ZonedDateTime.test.js",
+      "bytes": 13150,
+      "sha256": "8a91fcac422c3175bf1779e573a3d63db1be4c5b12d640cd37226bdc3b0e05bc",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "tests/conversion.test.js",
+      "bytes": 30833,
+      "sha256": "75b4313475b0da1b20ede0405cd09379286ee8dbc5b5e93ede5758c4c7d78505",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "tests/customCalendarImpl.ts",
+      "bytes": 3300,
+      "sha256": "d0870c78b83b32db2a7e785bfb1961d6f6d0b3e626ccf1a7ee594f93d2acde31",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "tests/manipulation.test.js",
+      "bytes": 41072,
+      "sha256": "c68b675ea306d0d42195e8eb46cba5d78e7d0d1eb8d5e199c8d20b24c15c4843",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "tests/queries.test.js",
+      "bytes": 23779,
+      "sha256": "afebe9948fbfbecf93a2db7146d4656a5b916e1b4f99afe1dc4b09f9f82b6021",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "tests/string.test.js",
+      "bytes": 29531,
+      "sha256": "7657054022d5d9a14db93b47eeaa7da5998522bec467ec02e7ff56361d061e25",
+      "category": "test-or-type-spec"
+    }
+  ],
+  "adaptationState": "Frozen engine/package/tests terminal-copied and original hashes verified. Three source files receive erased strict-type corrections only; other files remain source-identical. Local source/type aliases resolve actual src/index.ts. Shared strict passes; no runtime date gate added or claimed."
+}

@@ -1,0 +1,689 @@
+{
+  "branch": "dom",
+  "entries": [
+    "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Provider.native.js",
+    "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Divider.native.js",
+    "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Button.native.js",
+    "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Button.native.js",
+    "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/ButtonGroup.native.js",
+    "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/ActionButton.native.js",
+    "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/ActionButtonGroup.native.js",
+    "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/ProgressCircle.native.js",
+    "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Avatar.native.js",
+    "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Image.native.js",
+    "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/NotificationBadge.native.js",
+    "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Link.native.js",
+    "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Tooltip.native.js"
+  ],
+  "nodes": [
+    {
+      "source": "packages/@react-spectrum/s2/exports/Provider.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Provider.native.js",
+      "sourceSha256": "7b63091678ced44d0bab95acb67895e832f3521d1184cfe3726fb4385b5be212"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Provider.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Provider.native.js",
+      "sourceSha256": "4c3a04bafa86bc9742ead8a2b430a769d1146d20fa33d6b1388ba6a646d12286"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Fonts.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Fonts.native.js",
+      "sourceSha256": "7903be482abead30f3d2f8517855887c6e2545d82bd519023dd6612927028124"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/style/runtime.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/style/runtime.native.js",
+      "sourceSha256": "090e44b9968955584cc1baf11dc9db6854e025f2ffcfb25727c4a4d8fb525b1d"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/exports/Divider.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Divider.native.js",
+      "sourceSha256": "a8bc1303b7070f2ce2ab665f5969388f9fc2addfac214faed943c4e9811cfd56"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Divider.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Divider.native.js",
+      "sourceSha256": "08905fe9983c00237e9a69e5435133e459249f4cbaf9bb651fddedb0c7c961af"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/useDOMRef.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/useDOMRef.native.js",
+      "sourceSha256": "08b6fc16b001365405d3cd831c2e2e624fe8639946a60315bbf8bf184dc84850"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/useSpectrumContextProps.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/useSpectrumContextProps.native.js",
+      "sourceSha256": "05887d28a40f2626af5e3b1a64f9659d7f6a644cbef7b1aca43d1005337d1daf"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/exports/Button.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Button.native.js",
+      "sourceSha256": "6da1e418498d72eb13e8c120b8f0e05f29808fc69b4f69cd5dea46421e64c9a1"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Button.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Button.native.js",
+      "sourceSha256": "6eac256c9ea35a9e04a3a0666f18ad5c67c9bd7765066d0e93ff6f02b67783bc"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/CenterBaseline.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/CenterBaseline.native.js",
+      "sourceSha256": "6a3131ba2c3d4c43ab586bd23018da36465afd0bedece0c99e97f4acf843c919"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Icon.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Icon.native.js",
+      "sourceSha256": "8d2970178400367fbe90be98f0693542b51a8687c5af5652fd2162d7612012f3"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Skeleton.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Skeleton.native.js",
+      "sourceSha256": "2883c8b5c34203d79af33512d14feb9842b104f6ccff594d2418ba5c19020081"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/useMediaQuery.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/useMediaQuery.native.js",
+      "sourceSha256": "15b295ad169a3f5a9d16abf82fb992f9424513d2960ad8967458471af4264f36"
+    },
+    {
+      "generated": true,
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/intl/dictionary.native.js",
+      "inputs": [
+        {
+          "source": "packages/@react-spectrum/s2/intl/ar-AE.json",
+          "sha256": "01e27378e70c02fc32972aae9e4fc31d20d285301b48aea5de6579b34b223013"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/bg-BG.json",
+          "sha256": "8c9dbab3877c803dd26a6d4f11c6eb2de7aca260c970d2848b4f1aaabf7b588c"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/cs-CZ.json",
+          "sha256": "762b589a2e4cc50d94ad335b27cae0c4036b8234075a33aab34afff7d4aebde0"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/da-DK.json",
+          "sha256": "6d8b515ea10d439511139f61b61780cc2de7958f6ab8ffea55599a16ad797bdc"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/de-DE.json",
+          "sha256": "ab032c5fdce7d0a517f588a47ffcd0fef0359d9d1a68a73e629bf9cf85d774c4"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/el-GR.json",
+          "sha256": "f487243907f143e596e392a6322c06f3526d6324806d57ff05f6e996dc123f50"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/en-US.json",
+          "sha256": "424647c0222bbf7a666f162026026a260ecfba6cb5c077f3addc52857a061338"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/es-ES.json",
+          "sha256": "6b629cb08b98ccb7523d74b9542e20124591fd96d9fe4316f3949f62d7fc30f5"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/et-EE.json",
+          "sha256": "e2cfe08e7f63deee934d7403ac72e17bd6503df427ce020bcec09cdd3a174a3f"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/fi-FI.json",
+          "sha256": "46d6bb8cfd9469259622a0ea36ec197490c380ae37e154a1ade5b2bddf1d1e75"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/fr-FR.json",
+          "sha256": "6238bc3e8fa28441c15c50b7bcff7ad1ba5a3373a0c200639a7a85dee9616a4a"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/he-IL.json",
+          "sha256": "a9cd3c2ed0e172748f58021105db70734c6619500ca4fd54b04b5d6c37ddc7fb"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/hr-HR.json",
+          "sha256": "27527216afb7e53336e4a04e76b1c1737133ae3cef0f781b6a18d75605c69693"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/hu-HU.json",
+          "sha256": "d18be3073abcba755337afa920879f74d62b314ee2c8eb2b816242f37fce00a7"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/it-IT.json",
+          "sha256": "d4961f679665c60d7e03a5f4a3336c91be20088145d5b37ec2842af69d5a407b"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/ja-JP.json",
+          "sha256": "3d4a8a431ab9be2df2e978cad130792fc1fbc4f7e6e1659746c00f17427346af"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/ko-KR.json",
+          "sha256": "2f3b5c7f5a2161f2154c2184f2b570dfd5a45d43a67f2c85417ed9c09cdbc2a5"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/lt-LT.json",
+          "sha256": "475cc8e84f30a05f0f80a1e7d43d015f79bbd18ffaf0add6eb5340ef229a789c"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/lv-LV.json",
+          "sha256": "899e787a2f1d1e111aee1bfa1b33db8edcb99e3abef5ba8dffdf9625fda7d36a"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/nb-NO.json",
+          "sha256": "13abe1bb32991da7a9b23b850cf10715e95a5b52f9898cd2be5d00003ee7f91d"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/nl-NL.json",
+          "sha256": "c9236470b2d81e0566069ef57c23152cae2212ab575f264c87d0a5cafa689842"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/pl-PL.json",
+          "sha256": "f5c331e55869fba31201f516454a9f8db266e5c0481195e883c63b4257b9cccb"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/pt-BR.json",
+          "sha256": "151415652485b19e194549ba94f99d35baac6aab767cc48e445194b6ecd0b36b"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/pt-PT.json",
+          "sha256": "8bba84a24b40957516871ac2bf5bd81c915d68223b8cabfb5ef1487834537a56"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/ro-RO.json",
+          "sha256": "4941926cdef12c8229e0d038a4fc990287a5d0a5975984cd2941b8ad7f9ce0c7"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/ru-RU.json",
+          "sha256": "75dba7db5274ef64471eb5b15a243146da6272df5da6547c8705d1eea5f95aa9"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/sk-SK.json",
+          "sha256": "27a27dab6ea6ea046b2d21c12c52981a4b55c4fe80215231b61e718f2af7e9dc"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/sl-SI.json",
+          "sha256": "871985672ac36e8805f66d82664fbca75138296fb0439691540fb963869e12ac"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/sr-SP.json",
+          "sha256": "11e067b8b3a6954ed5d8b6427f1baddcb555183111949670c0745d223a06513f"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/sv-SE.json",
+          "sha256": "d3923b84b2dcdcad40425def0b2ca51eedcd9254b868175956953306b9735cd5"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/tr-TR.json",
+          "sha256": "625b0501480c8d290bcd34772407cc7237e5b817c584f431147d8913476d780a"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/uk-UA.json",
+          "sha256": "a0107de1ef0045dc3ec4a2b737e2185c39472a5418a9412d53bb1c7bf0099112"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/zh-CN.json",
+          "sha256": "fe545c5b0fd00a4ccc829f9f49223267b1bce10826da8738256cae7f93a31687"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/intl/zh-TW.json",
+          "sha256": "abf1443dca22d72f29bbcf110ad6e6016eece8b0752ed37f3091dd094bf2235a"
+        }
+      ],
+      "sha256": "d4c648be6f3c219832fcb941a4e6d183dfea6def17c1a63a3dd32c5ca44719b9"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/pressScale.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/pressScale.native.js",
+      "sourceSha256": "9e9cab360c4bf4832be5070893406095b7fec1a41eda37ac4fc8f872ec2d732f"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/ProgressCircle.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ProgressCircle.native.js",
+      "sourceSha256": "4debb538233ff6955ab2c55c873a0dcaf214df34d0373a59d87ba05abc42d49e"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Content.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Content.native.js",
+      "sourceSha256": "7990bd8a2345b5bc99e7b5f941192268c793178e7509766f526852ab96f7da3f"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Form.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Form.native.js",
+      "sourceSha256": "982c956fa7d480b05ccd83d470275b27d6053e10cc07e637d584921f6be0406b"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/exports/ButtonGroup.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/ButtonGroup.native.js",
+      "sourceSha256": "4116c2a4a1d9c8e54c09a2348f714512bc12af1afe711672325658e4031b7156"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/ButtonGroup.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ButtonGroup.native.js",
+      "sourceSha256": "e0c498a4420aa8c2fa699c0bc3fbaf7b6350ae05f8842965b9c71fb9fa4a2205"
+    },
+    {
+      "source": "packages/react-aria/src/utils/useValueEffect.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/_native/packages/react-aria/src/utils/useValueEffect.native.js",
+      "sourceSha256": "cb5dc7cbbb0e7c2cdbbb9b05059be72cda68d41fe1a3d753a5a78de7028042c8"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/exports/ActionButton.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/ActionButton.native.js",
+      "sourceSha256": "ca76bef1ed35f7050047f33e1711be12c7d75a7a85b2020c7c9eeeef1dbc8260"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/ActionButton.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ActionButton.native.js",
+      "sourceSha256": "cf5dd203368a0673559962fa5bea37a82b2025e0f49ba1f88716ae9b26f7b1ac"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/ActionButtonGroup.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ActionButtonGroup.native.js",
+      "sourceSha256": "da979f27fd1e297ba38f86a6ee30cd22cb754f742ad9198597a6def735101c08"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Avatar.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Avatar.native.js",
+      "sourceSha256": "4a6de2d05fa6e2e67bb9f105cd63442ebcb990c69fb3c765af670211020ed05e"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Image.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Image.native.js",
+      "sourceSha256": "3c7769e2e0e24a1e064a0d4936e3e62ca71b6581002dba3c74d4a6a32a0fa4aa"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/ImageCoordinator.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ImageCoordinator.native.js",
+      "sourceSha256": "4add35188b7e8e3ba58e91d3fa39d10385fea62943fd7354397889afd4baf538"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/ui-icons/CornerTriangle.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/ui-icons/CornerTriangle.native.js",
+      "sourceSha256": "47d49295dd260516642014ffba263386826ca28d1562c983ee2ccf9dad872c49"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/NotificationBadge.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/NotificationBadge.native.js",
+      "sourceSha256": "d0f11dc74946eb20d725c21f03451a92a9647394bdc3480260408ad7b8645936"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/exports/ActionButtonGroup.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/ActionButtonGroup.native.js",
+      "sourceSha256": "48117fb1f839a942c16ad71d320a8dd8b09033ef492defc2423b7fd6aef508f4"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/exports/ProgressCircle.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/ProgressCircle.native.js",
+      "sourceSha256": "72c962c06e4a1ecd88b232da581407fa933b7de9cd3d8bf761daec56a4fac83e"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/exports/Avatar.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Avatar.native.js",
+      "sourceSha256": "4a70f826833e7db6eccdfd9db84d7fbbc04118c17efabfdde398ea886786ecfa"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/exports/Image.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Image.native.js",
+      "sourceSha256": "0212b6df415b112ae3e48359da456851f4395f9a3c0aa4e8a3e731242a4df0aa"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/exports/Link.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Link.native.js",
+      "sourceSha256": "a208786c9a15fbba9a8bf0b751049f8eae15cef7ae55e89a98d554a4d19244fd"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Link.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Link.native.js",
+      "sourceSha256": "3bc97d360c3b8c5dcd939bbb3e2a1e241c2b6e7585a0ab934cef75f03305dc4d"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/exports/Tooltip.ts",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/exports/Tooltip.native.js",
+      "sourceSha256": "81c2c5bded990142780300891c30339982ef7d83e693bdedc7112eb547465ed1"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Tooltip.tsx",
+      "target": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Tooltip.native.js",
+      "sourceSha256": "410f516f62285cc45a5383a90babc16a80948de895c194988864966740f321dc"
+    }
+  ],
+  "stageImports": [
+    {
+      "from": "packages/@react-spectrum/s2/src/Provider.tsx",
+      "specifier": "react-aria/filterDOMProps",
+      "source": "packages/react-aria/exports/filterDOMProps.ts",
+      "target": "distribution/staged/dom/react-aria/exports/filterDOMProps.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Fonts.tsx",
+      "specifier": "react-aria/I18nProvider",
+      "source": "packages/react-aria/exports/I18nProvider.ts",
+      "target": "distribution/staged/dom/react-aria/exports/I18nProvider.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Provider.tsx",
+      "specifier": "react-aria/I18nProvider",
+      "source": "packages/react-aria/exports/I18nProvider.ts",
+      "target": "distribution/staged/dom/react-aria/exports/I18nProvider.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Provider.tsx",
+      "specifier": "react-aria/private/utils/openLink",
+      "source": "packages/react-aria/src/utils/openLink.tsx",
+      "target": "distribution/staged/dom/react-aria/src/utils/openLink.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/exports/Provider.ts",
+      "specifier": "react-aria/I18nProvider",
+      "source": "packages/react-aria/exports/I18nProvider.ts",
+      "target": "distribution/staged/dom/react-aria/exports/I18nProvider.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Divider.tsx",
+      "specifier": "react-aria-components/Separator",
+      "source": "packages/react-aria-components/exports/Separator.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/Separator.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/useDOMRef.ts",
+      "specifier": "react-aria/private/utils/useObjectRef",
+      "source": "packages/react-aria/src/utils/useObjectRef.ts",
+      "target": "distribution/staged/dom/react-aria/src/utils/useObjectRef.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/useSpectrumContextProps.ts",
+      "specifier": "react-aria-components/slots",
+      "source": "packages/react-aria-components/src/utils.tsx",
+      "target": "distribution/staged/dom/react-aria-components/src/utils.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/useSpectrumContextProps.ts",
+      "specifier": "react-aria/mergeProps",
+      "source": "packages/react-aria/exports/mergeProps.ts",
+      "target": "distribution/staged/dom/react-aria/exports/mergeProps.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/useSpectrumContextProps.ts",
+      "specifier": "react-aria/mergeRefs",
+      "source": "packages/react-aria/exports/mergeRefs.ts",
+      "target": "distribution/staged/dom/react-aria/exports/mergeRefs.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/useSpectrumContextProps.ts",
+      "specifier": "react-aria/private/utils/useObjectRef",
+      "source": "packages/react-aria/src/utils/useObjectRef.ts",
+      "target": "distribution/staged/dom/react-aria/src/utils/useObjectRef.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Button.tsx",
+      "specifier": "react-aria-components/Button",
+      "source": "packages/react-aria-components/exports/Button.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/Button.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/CenterBaseline.tsx",
+      "specifier": "react-aria/filterDOMProps",
+      "source": "packages/react-aria/exports/filterDOMProps.ts",
+      "target": "distribution/staged/dom/react-aria/exports/filterDOMProps.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Button.tsx",
+      "specifier": "react-aria-components/slots",
+      "source": "packages/react-aria-components/src/utils.tsx",
+      "target": "distribution/staged/dom/react-aria-components/src/utils.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Skeleton.tsx",
+      "specifier": "react-aria/private/utils/inertValue",
+      "source": "packages/react-aria/src/utils/inertValue.ts",
+      "target": "distribution/staged/dom/react-aria/src/utils/inertValue.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/useMediaQuery.ts",
+      "specifier": "react-aria/SSRProvider",
+      "source": "packages/react-aria/exports/SSRProvider.ts",
+      "target": "distribution/staged/dom/react-aria/exports/SSRProvider.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Icon.tsx",
+      "specifier": "react-aria/mergeRefs",
+      "source": "packages/react-aria/exports/mergeRefs.ts",
+      "target": "distribution/staged/dom/react-aria/exports/mergeRefs.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Button.tsx",
+      "specifier": "react-aria-components/Link",
+      "source": "packages/react-aria-components/exports/Link.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/Link.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Button.tsx",
+      "specifier": "react-aria-components/Dialog",
+      "source": "packages/react-aria-components/exports/Dialog.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/Dialog.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/pressScale.ts",
+      "specifier": "react-aria-components/composeRenderProps",
+      "source": "packages/react-aria-components/exports/composeRenderProps.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/composeRenderProps.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/ProgressCircle.tsx",
+      "specifier": "react-aria-components/ProgressBar",
+      "source": "packages/react-aria-components/exports/ProgressBar.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/ProgressBar.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Content.tsx",
+      "specifier": "react-aria/private/utils/inertValue",
+      "source": "packages/react-aria/src/utils/inertValue.ts",
+      "target": "distribution/staged/dom/react-aria/src/utils/inertValue.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Content.tsx",
+      "specifier": "react-aria-components/Keyboard",
+      "source": "packages/react-aria-components/exports/Keyboard.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/Keyboard.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Content.tsx",
+      "specifier": "react-aria-components/Header",
+      "source": "packages/react-aria-components/exports/Header.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/Header.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Content.tsx",
+      "specifier": "react-aria-components/Heading",
+      "source": "packages/react-aria-components/src/Heading.tsx",
+      "target": "distribution/staged/dom/react-aria-components/src/Heading.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Content.tsx",
+      "specifier": "react-aria-components/Text",
+      "source": "packages/react-aria-components/exports/Text.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/Text.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Form.tsx",
+      "specifier": "react-aria-components/Form",
+      "source": "packages/react-aria-components/exports/Form.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/Form.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Button.tsx",
+      "specifier": "react-aria/useLocalizedStringFormatter",
+      "source": "packages/react-aria/exports/useLocalizedStringFormatter.ts",
+      "target": "distribution/staged/dom/react-aria/exports/useLocalizedStringFormatter.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/ButtonGroup.tsx",
+      "specifier": "react-aria-components/slots",
+      "source": "packages/react-aria-components/src/utils.tsx",
+      "target": "distribution/staged/dom/react-aria-components/src/utils.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/ButtonGroup.tsx",
+      "specifier": "react-aria/filterDOMProps",
+      "source": "packages/react-aria/exports/filterDOMProps.ts",
+      "target": "distribution/staged/dom/react-aria/exports/filterDOMProps.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/ButtonGroup.tsx",
+      "specifier": "react-aria/private/utils/useResizeObserver",
+      "source": "packages/react-aria/src/utils/useResizeObserver.ts",
+      "target": "distribution/staged/dom/react-aria/src/utils/useResizeObserver.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/ActionButtonGroup.tsx",
+      "specifier": "react-aria-components/Toolbar",
+      "source": "packages/react-aria-components/exports/Toolbar.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/Toolbar.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Avatar.tsx",
+      "specifier": "react-aria/filterDOMProps",
+      "source": "packages/react-aria/exports/filterDOMProps.ts",
+      "target": "distribution/staged/dom/react-aria/exports/filterDOMProps.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Image.tsx",
+      "specifier": "react-aria/private/utils/useObjectRef",
+      "source": "packages/react-aria/src/utils/useObjectRef.ts",
+      "target": "distribution/staged/dom/react-aria/src/utils/useObjectRef.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/ActionButton.tsx",
+      "specifier": "react-aria-components/Button",
+      "source": "packages/react-aria-components/exports/Button.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/Button.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/ActionButton.tsx",
+      "specifier": "react-aria-components/slots",
+      "source": "packages/react-aria-components/src/utils.tsx",
+      "target": "distribution/staged/dom/react-aria-components/src/utils.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/NotificationBadge.tsx",
+      "specifier": "react-aria/filterDOMProps",
+      "source": "packages/react-aria/exports/filterDOMProps.ts",
+      "target": "distribution/staged/dom/react-aria/exports/filterDOMProps.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/NotificationBadge.tsx",
+      "specifier": "@internationalized/number",
+      "source": "packages/@internationalized/number/src/index.ts",
+      "target": "distribution/staged/dom/@internationalized/number/src/index.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/NotificationBadge.tsx",
+      "specifier": "react-aria/I18nProvider",
+      "source": "packages/react-aria/exports/I18nProvider.ts",
+      "target": "distribution/staged/dom/react-aria/exports/I18nProvider.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/NotificationBadge.tsx",
+      "specifier": "react-aria/useLocalizedStringFormatter",
+      "source": "packages/react-aria/exports/useLocalizedStringFormatter.ts",
+      "target": "distribution/staged/dom/react-aria/exports/useLocalizedStringFormatter.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/ActionButton.tsx",
+      "specifier": "react-aria-components/Dialog",
+      "source": "packages/react-aria-components/exports/Dialog.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/Dialog.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/ActionButton.tsx",
+      "specifier": "react-aria/I18nProvider",
+      "source": "packages/react-aria/exports/I18nProvider.ts",
+      "target": "distribution/staged/dom/react-aria/exports/I18nProvider.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/ActionButton.tsx",
+      "specifier": "react-aria/useLocalizedStringFormatter",
+      "source": "packages/react-aria/exports/useLocalizedStringFormatter.ts",
+      "target": "distribution/staged/dom/react-aria/exports/useLocalizedStringFormatter.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Link.tsx",
+      "specifier": "react-aria-components/Link",
+      "source": "packages/react-aria-components/exports/Link.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/Link.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Tooltip.tsx",
+      "specifier": "react-aria-components/Tooltip",
+      "source": "packages/react-aria-components/exports/Tooltip.ts",
+      "target": "distribution/staged/dom/react-aria-components/exports/Tooltip.js"
+    },
+    {
+      "from": "packages/@react-spectrum/s2/src/Tooltip.tsx",
+      "specifier": "react-aria/I18nProvider",
+      "source": "packages/react-aria/exports/I18nProvider.ts",
+      "target": "distribution/staged/dom/react-aria/exports/I18nProvider.js"
+    }
+  ],
+  "assets": [
+    {
+      "source": "packages/@react-spectrum/s2/src/font-faces.css",
+      "target": "scripts/docs/build/input/dom/src/font-faces.css",
+      "sha256": "0d39b28293ababc35b9c77ad599b566132594570e5f5252058d2a580cb72a2b5"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/ui-icons/S2_CornerTriangleSize75.svg",
+      "target": "scripts/docs/build/input/dom/assets/S2_CornerTriangleSize75.svg",
+      "sha256": "150a4a7aefa3bbd5cd5a2d357b49dafb369aec89725fb318eba9d13a77391335",
+      "transport": "existing native CornerTriangle JSX"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/ui-icons/S2_CornerTriangleSize100.svg",
+      "target": "scripts/docs/build/input/dom/assets/S2_CornerTriangleSize100.svg",
+      "sha256": "3717fe073f5e5839ade1176810bebcea41775eef10cfaa7e73e07b38ecfc86fe",
+      "transport": "existing native CornerTriangle JSX"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/ui-icons/S2_CornerTriangleSize200.svg",
+      "target": "scripts/docs/build/input/dom/assets/S2_CornerTriangleSize200.svg",
+      "sha256": "6403787d45c9cfc6ea769bff954827191ea0a540a082f4a3f2facae71a621997",
+      "transport": "existing native CornerTriangle JSX"
+    },
+    {
+      "source": "packages/@react-spectrum/s2/ui-icons/S2_CornerTriangleSize300.svg",
+      "target": "scripts/docs/build/input/dom/assets/S2_CornerTriangleSize300.svg",
+      "sha256": "1eedde2f8aae7849b257e204f2ff6b2e2478330f1389f3310950029a8f3cffe8",
+      "transport": "existing native CornerTriangle JSX"
+    }
+  ],
+  "exportOrigins": {
+    "Provider": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Provider.native.js#Provider",
+    "ColorSchemeContext": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Provider.native.js#ColorSchemeContext",
+    "useLocale": "/Users/avi/avir-oss/solid-aria-components/distribution/staged/dom/react-aria/src/i18n/I18nProvider.js#useLocale",
+    "Divider": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Divider.native.js#Divider",
+    "DividerContext": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Divider.native.js#DividerContext",
+    "Button": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Button.native.js#Button",
+    "ButtonContext": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Button.native.js#ButtonContext",
+    "Text": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Content.native.js#Text",
+    "LinkButtonContext": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Button.native.js#LinkButtonContext",
+    "usePendingState": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Button.native.js#usePendingState",
+    "LinkButton": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Button.native.js#LinkButton",
+    "ButtonGroup": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ButtonGroup.native.js#ButtonGroup",
+    "ButtonGroupContext": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ButtonGroup.native.js#ButtonGroupContext",
+    "ActionButton": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ActionButton.native.js#ActionButton",
+    "ActionButtonContext": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ActionButton.native.js#ActionButtonContext",
+    "NotificationBadge": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/NotificationBadge.native.js#NotificationBadge",
+    "ActionButtonGroup": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ActionButtonGroup.native.js#ActionButtonGroup",
+    "ActionButtonGroupContext": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ActionButtonGroup.native.js#ActionButtonGroupContext",
+    "ProgressCircle": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ProgressCircle.native.js#ProgressCircle",
+    "ProgressCircleContext": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ProgressCircle.native.js#ProgressCircleContext",
+    "Avatar": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Avatar.native.js#Avatar",
+    "AvatarContext": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Avatar.native.js#AvatarContext",
+    "Image": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Image.native.js#Image",
+    "ImageContext": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Image.native.js#ImageContext",
+    "NotificationBadgeContext": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/NotificationBadge.native.js#NotificationBadgeContext",
+    "Link": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Link.native.js#Link",
+    "LinkContext": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Link.native.js#LinkContext",
+    "Tooltip": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Tooltip.native.js#Tooltip",
+    "TooltipTrigger": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Tooltip.native.js#TooltipTrigger"
+  },
+  "libraryEntry": "/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/selected.native.js"
+}

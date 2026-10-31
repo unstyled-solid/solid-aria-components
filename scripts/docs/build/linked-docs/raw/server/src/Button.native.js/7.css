@@ -1,0 +1,17 @@
+@property --g0 {
+  syntax: '<color>';
+  initial-value: #0000;
+  inherits: false;
+}
+
+@property --g1 {
+  syntax: '<color>';
+  initial-value: #0000;
+  inherits: false;
+}
+
+@property --g2 {
+  syntax: '<color>';
+  initial-value: #0000;
+  inherits: false;
+}

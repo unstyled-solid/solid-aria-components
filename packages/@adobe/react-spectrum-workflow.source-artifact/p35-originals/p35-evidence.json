@@ -1,0 +1,32 @@
+{
+  "frozenSHA": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "artifactEvidence": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p14-workflow-2.3.5/verification.json",
+  "tarballSHA256": "5daf9caf63734a5ebbc4881f0173671aba1c22ad4e14e77a43aaa3cf5a4e7ebb",
+  "publishedSRI": "sha512-b53VIPwPWKb/T5gzE3qs+QlGP5gVrw/LnWV3xMksDU+CRl3rzOKUwxIGiZO8ICyYh1WiyqY4myGlPU/nAynBUg==",
+  "publishedSHA1": "3f5adc5fe2bae25416805b7d92c1ff5bd1e061f0",
+  "SRIAndSHA1Reverified": true,
+  "generatorSHA256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+  "licenseSHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "licenseCorrespondenceVerified": true,
+  "strict": "pending tsconfig.p35-w.json",
+  "files": {
+    "packages/@adobe/react-spectrum-workflow/src/Add.jsx": {
+      "originalSHA256": "5efe8e1376ae98565d37bc48414fa6eac4332690950690ae6ac86e68c22b73a5",
+      "nativeSHA256": "04ff2e2a5724268b01ffa99e29771bcdfe485f009439173d04fa77c3788a072a",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/Add.tsx": {
+      "generatedOriginalSHA256": "32dbdca8eb032fbadf30d1715eb49bb7501087354763e093c01815d958c1ed92",
+      "nativeSHA256": "5d4bbc0b31200ab502daf3477bc2de3d6c8e78d8718e99cdc4031accbb17895a"
+    },
+    "packages/@adobe/react-spectrum-workflow/src/Delete.jsx": {
+      "originalSHA256": "218ef14499980e5b5e5e18b37421b15468ede70c5a1ac7b2a7a1fbf3b2b13af8",
+      "nativeSHA256": "9ebb6876e457386d4563b21fa65bca396a81db94b6bdd6bb61d918d1d9b87d35",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/Delete.tsx": {
+      "generatedOriginalSHA256": "66f3c3932efab1ae630445dafe70546823a549706cd963b4217e589b19bd2590",
+      "nativeSHA256": "c893578f1cfaa0d7361c88cd4c54298bb86b1ed60b89c7ee87e372fe2058b5f6"
+    }
+  }
+}

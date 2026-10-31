@@ -1,0 +1,269 @@
+
+> dev
+> cd packages/dev/s2-docs && DOCS_ENV=dev LIBRARY=react-aria parcel 'pages/react-aria/**/*.mdx' -p 4340 --target react-static --config .parcelrc-s2-docs --dist-dir ../../../../dist --cache-dir ../../../../.parcel-cache
+
+/bin/sh: /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/term-size/vendor/macos/term-size: Bad CPU type in executable
+Building...
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+🚨 Build failed.
+
+@parcel/core: Failed to resolve '@react-spectrum/s2-docs/src/Link' from 
+'./packages/dev/s2-docs/pages/react-aria/HomeHeader.tsx'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/HomeHeader.tsx:6:26
+    5 | import {useLayoutEffect} from '@react-aria/utils';
+  > 6 | import {HeaderLink} from '@react-spectrum/s2-docs/src/Link';
+  >   |                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    7 | import {ReactAriaLogo} from '@react-spectrum/s2-docs/src/icons/ReactAria
+    8 | import {space, style} from '@react-spectrum/s2/style' with {type: 'macro
+
+@parcel/resolver-default: Cannot find module '@react-spectrum/s2-docs'
+💡 Did you mean '@react-spectrum/docs'?
+💡 Did you mean '@react-spectrum/s2'?
+
+Building...
+🚨 Build failed.
+
+@parcel/core: Failed to resolve 'solid-aria-components/Collection' from 
+'./packages/dev/s2-docs/pages/react-aria/ComboBox/solid-demo03.tsx'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ComboBox/solid-demo03.tsx:7:28
+    6 | 
+  > 7 | function Example() {
+  >   |                     ^
+    8 |   /*- begin collapse -*/
+    9 |   let options = [
+
+@parcel/resolver-default: Cannot find module 'solid-aria-components'
+💡 Did you mean 'react-aria-components'?
+
+Building...
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: Element type is invalid: expected a string (for 
+built-in components) or a class/function (for composite components) but got: 
+object.
+
+  Error: Element type is invalid: expected a string (for built-in components) or
+   a class/function (for composite components) but got: object.
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6857:15)
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6845:15)
+      at retryNode 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:7189:31)
+      at performWork 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:8346:19)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:5068:22
+      at node:internal/process/task_queues:150:7
+      at AsyncResource.runInAsyncScope (node:async_hooks:226:14)
+      at AsyncResource.runMicrotask (node:internal/process/task_queues:147:8)
+      at runNextTicks (node:internal/process/task_queues:65:5)
+      at listOnTimeout (node:internal/timers:567:9)
+
+Building...
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: Element type is invalid: expected a string (for 
+built-in components) or a class/function (for composite components) but got: 
+object.
+
+  Error: Element type is invalid: expected a string (for built-in components) or
+   a class/function (for composite components) but got: object.
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6857:15)
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6845:15)
+      at retryNode 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:7189:31)
+      at performWork 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:8346:19)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:5068:22
+      at node:internal/process/task_queues:150:7
+      at AsyncResource.runInAsyncScope (node:async_hooks:226:14)
+      at AsyncResource.runMicrotask (node:internal/process/task_queues:147:8)
+      at runNextTicks (node:internal/process/task_queues:65:5)
+      at listOnTimeout (node:internal/timers:567:9)
+
+Building...
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: Expected component `ExampleApp` to be defined: 
+you likely forgot to import, pass, or provide it.
+It’s referenced in your code at `25:1-25:117` in 
+`/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/crud.mdx`
+
+  Error: Expected component `ExampleApp` to be defined: you likely forgot to 
+  import, pass, or provide it.
+  It’s referenced in your code at `25:1-25:117` in 
+  `/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/crud.mdx`
+      at _missingMdxReference 
+  (file:///Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/crud.mdx:113:11)
+      at _createMdxContent 
+  (file:///Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/crud.mdx:39:22)
+      at resolveErrorDev 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-client.edge.development.js:3475:29)
+      at processFullBinaryRow 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-client.edge.development.js:4642:27)
+      at progress 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-client.edge.development.js:5010:21)
+
+Building...
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: TextEncoder is not defined
+
+  ReferenceError: TextEncoder is not defined
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-server.edge.development.js:3042:60
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-server.edge.development.js:3452:3
+      at runModule 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/packager-react-static/lib/ReactStaticPackager.js:615:3)
+      at loadAsset 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/packager-react-static/lib/ReactStaticPackager.js:473:12)
+      at require 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/packager-react-static/lib/ReactStaticPackager.js:461:16)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/server.edge.js:3:5
+      at runModule 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/packager-react-static/lib/ReactStaticPackager.js:615:3)
+      at loadAsset 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/packager-react-static/lib/ReactStaticPackager.js:473:12)
+      at require 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/packager-react-static/lib/ReactStaticPackager.js:461:16)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/@react-spectrum/s2/exports/runtime-c05e2657bc0d74c7.jsx:1:19
+
+Building...
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: Expected component `ExampleApp` to be defined: 
+you likely forgot to import, pass, or provide it.
+It’s referenced in your code at `23:1-23:101` in 
+`/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/photos.mdx`
+
+  Error: Expected component `ExampleApp` to be defined: you likely forgot to 
+  import, pass, or provide it.
+  It’s referenced in your code at `23:1-23:101` in 
+  `/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/photos.mdx`
+      at _missingMdxReference 
+  (file:///Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/photos.mdx:100:11)
+      at _createMdxContent 
+  (file:///Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/photos.mdx:36:22)
+      at resolveErrorDev 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-client.edge.development.js:3475:29)
+      at processFullBinaryRow 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-client.edge.development.js:4642:27)
+      at progress 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-client.edge.development.js:5010:21)
+      at runNextTicks (node:internal/process/task_queues:65:5)
+      at listOnTimeout (node:internal/timers:567:9)
+      at process.processTimers (node:internal/timers:541:7)
+
+Building...
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: Expected component `ExampleApp` to be defined: 
+you likely forgot to import, pass, or provide it.
+It’s referenced in your code at `23:1-23:101` in 
+`/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/photos.mdx`
+
+  Error: Expected component `ExampleApp` to be defined: you likely forgot to 
+  import, pass, or provide it.
+  It’s referenced in your code at `23:1-23:101` in 
+  `/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/photos.mdx`
+      at _missingMdxReference 
+  (file:///Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/photos.mdx:100:11)
+      at _createMdxContent 
+  (file:///Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/photos.mdx:36:22)
+      at resolveErrorDev 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-client.edge.development.js:3475:29)
+      at processFullBinaryRow 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-client.edge.development.js:4642:27)
+      at progress 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-client.edge.development.js:5010:21)
+      at runNextTicks (node:internal/process/task_queues:65:5)
+      at listOnTimeout (node:internal/timers:567:9)
+      at process.processTimers (node:internal/timers:541:7)
+
+Building...
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: Expected component `ExampleApp` to be defined: 
+you likely forgot to import, pass, or provide it.
+It’s referenced in your code at `23:1-23:101` in 
+`/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/photos.mdx`
+
+  Error: Expected component `ExampleApp` to be defined: you likely forgot to 
+  import, pass, or provide it.
+  It’s referenced in your code at `23:1-23:101` in 
+  `/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/photos.mdx`
+      at _missingMdxReference 
+  (file:///Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/photos.mdx:100:11)
+      at _createMdxContent 
+  (file:///Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/examples/photos.mdx:36:22)
+      at resolveErrorDev 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-client.edge.development.js:3475:29)
+      at processFullBinaryRow 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-client.edge.development.js:4642:27)
+      at progress 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-server-dom-parcel/cjs/react-server-dom-parcel-client.edge.development.js:5010:21)
+      at runNextTicks (node:internal/process/task_queues:65:5)
+      at listOnTimeout (node:internal/timers:567:9)
+      at process.processTimers (node:internal/timers:541:7)
+
+
+@parcel/reporter-dev-server: Could not shutdown devserver because it does not 
+exist.

@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "test/css.d.ts", "packages/@adobe/react-spectrum/src/overlays/OpenTransition.tsx", "packages/@adobe/react-spectrum/src/overlays/Overlay.tsx", "packages/@adobe/react-spectrum/src/overlays/Underlay.tsx", "packages/@adobe/react-spectrum/src/overlays/Modal.tsx"]
+}

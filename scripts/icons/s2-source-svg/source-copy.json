@@ -1,0 +1,126 @@
+{
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "scope": "seven P67 glyphs only; source UI/workflow pipeline distinction retained",
+  "files": [
+    {
+      "sourcePath": "upstream/react-spectrum/packages/@react-spectrum/s2/ui-icons/S2_ChevronSize50.svg",
+      "capturePath": "source-originals/packages/@react-spectrum/s2/ui-icons/S2_ChevronSize50.svg",
+      "sha256": "129cb4808350ef25da962bc7e91be03ba8aadc246311a3ff2dd446f19c21e695"
+    },
+    {
+      "sourcePath": "upstream/react-spectrum/packages/@react-spectrum/s2/ui-icons/S2_ChevronSize75.svg",
+      "capturePath": "source-originals/packages/@react-spectrum/s2/ui-icons/S2_ChevronSize75.svg",
+      "sha256": "add865812ea4cd2e90463d70c1973d4ceb32d4421454a217d5450cba5cc31edb"
+    },
+    {
+      "sourcePath": "upstream/react-spectrum/packages/@react-spectrum/s2/ui-icons/S2_ChevronSize100.svg",
+      "capturePath": "source-originals/packages/@react-spectrum/s2/ui-icons/S2_ChevronSize100.svg",
+      "sha256": "d64998ae4e934746bd8233e98f0b074a582bd4ba8ca772e6117542ba5f33d3a8"
+    },
+    {
+      "sourcePath": "upstream/react-spectrum/packages/@react-spectrum/s2/ui-icons/S2_ChevronSize200.svg",
+      "capturePath": "source-originals/packages/@react-spectrum/s2/ui-icons/S2_ChevronSize200.svg",
+      "sha256": "cce5f5b18a2b944cf2ce20ae4587341346768c6becb1bdd861ce326e868460c8"
+    },
+    {
+      "sourcePath": "upstream/react-spectrum/packages/@react-spectrum/s2/ui-icons/S2_ChevronSize300.svg",
+      "capturePath": "source-originals/packages/@react-spectrum/s2/ui-icons/S2_ChevronSize300.svg",
+      "sha256": "e3fe1e1b79d74354cfee9f82053fbf4e75257141c92f56076f2276d5230f3703"
+    },
+    {
+      "sourcePath": "upstream/react-spectrum/packages/@react-spectrum/s2/ui-icons/S2_ChevronSize400.svg",
+      "capturePath": "source-originals/packages/@react-spectrum/s2/ui-icons/S2_ChevronSize400.svg",
+      "sha256": "6c1a49f45c240f71271c73bf7fcb291f9005a2e9bf8456aa57ecd42515c0dc54"
+    },
+    {
+      "sourcePath": "upstream/react-spectrum/packages/@react-spectrum/s2/s2wf-icons/S2_Icon_FolderBreadcrumb_20_N.svg",
+      "capturePath": "source-originals/packages/@react-spectrum/s2/s2wf-icons/S2_Icon_FolderBreadcrumb_20_N.svg",
+      "sha256": "5dda237eec858f1690a85ce6e43dfba57cd18eb3091345a603038b1432f24f9b"
+    },
+    {
+      "sourcePath": "upstream/react-spectrum/svgo.config.json",
+      "capturePath": "source-originals/svgo.config.json",
+      "sha256": "72ff305d464c5c98d3b862e7f38caeae492bf6a7eebfd1205bd5158aa8bf25f5"
+    },
+    {
+      "sourcePath": "upstream/react-spectrum/.parcelrc-build",
+      "capturePath": "source-originals/.parcelrc-build",
+      "sha256": "d9765475e6181ff609eb879a046de235be186a566ec8f7cf1fe9df63f0d69c6b"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "S2_ChevronSize50",
+      "kind": "ui",
+      "inputSha256": "129cb4808350ef25da962bc7e91be03ba8aadc246311a3ff2dd446f19c21e695",
+      "sourceGeneratedPath": "source-generated/S2_ChevronSize50.tsx.txt",
+      "sourceGeneratedSha256": "a87933e9bdd295c0dc1ea7e21539392941d4508063072d8576a2498a3875cb7e",
+      "nativeModule": "packages/@react-spectrum/s2/ui-icons/generated/S2_ChevronSize50.tsx",
+      "nativeSha256": "0d6d6fe168bd0722faa21c54a8bcf5a167e0aeb3ac8fa8ba8005de3448745b87",
+      "wrapper": "plain native SVG component; no createIcon sizing/color wrapper"
+    },
+    {
+      "name": "S2_ChevronSize75",
+      "kind": "ui",
+      "inputSha256": "add865812ea4cd2e90463d70c1973d4ceb32d4421454a217d5450cba5cc31edb",
+      "sourceGeneratedPath": "source-generated/S2_ChevronSize75.tsx.txt",
+      "sourceGeneratedSha256": "b26991e8f135ae694c2549f067b5b936d665830866531414b67e6808846a7a00",
+      "nativeModule": "packages/@react-spectrum/s2/ui-icons/generated/S2_ChevronSize75.tsx",
+      "nativeSha256": "6ab5f8bab8199e04cb5eed92159f69c34cc8c59c87c3d58db6750d59d49c3712",
+      "wrapper": "plain native SVG component; no createIcon sizing/color wrapper"
+    },
+    {
+      "name": "S2_ChevronSize100",
+      "kind": "ui",
+      "inputSha256": "d64998ae4e934746bd8233e98f0b074a582bd4ba8ca772e6117542ba5f33d3a8",
+      "sourceGeneratedPath": "source-generated/S2_ChevronSize100.tsx.txt",
+      "sourceGeneratedSha256": "e9bf33bf1a87daa68da63d8e1ec63694d18dac72877e1f734d4aa8607cddf939",
+      "nativeModule": "packages/@react-spectrum/s2/ui-icons/generated/S2_ChevronSize100.tsx",
+      "nativeSha256": "d0f6cdc4e82c7114ad6bf028ba099131416e617af60cfe73dba4194a32105c16",
+      "wrapper": "plain native SVG component; no createIcon sizing/color wrapper"
+    },
+    {
+      "name": "S2_ChevronSize200",
+      "kind": "ui",
+      "inputSha256": "cce5f5b18a2b944cf2ce20ae4587341346768c6becb1bdd861ce326e868460c8",
+      "sourceGeneratedPath": "source-generated/S2_ChevronSize200.tsx.txt",
+      "sourceGeneratedSha256": "3111ae8ad9a1c0c787493f561233c9b0eff0bda965dd2fce62c2ad70f31e0d79",
+      "nativeModule": "packages/@react-spectrum/s2/ui-icons/generated/S2_ChevronSize200.tsx",
+      "nativeSha256": "bd8b0d0d466453690526e16d2900208c015696a31d53734a81fd3b356da6d4da",
+      "wrapper": "plain native SVG component; no createIcon sizing/color wrapper"
+    },
+    {
+      "name": "S2_ChevronSize300",
+      "kind": "ui",
+      "inputSha256": "e3fe1e1b79d74354cfee9f82053fbf4e75257141c92f56076f2276d5230f3703",
+      "sourceGeneratedPath": "source-generated/S2_ChevronSize300.tsx.txt",
+      "sourceGeneratedSha256": "1d85a51e2c903009c58f49075a9e4198abb21f0bb56f072e3a9ddb7f9dc9ba8e",
+      "nativeModule": "packages/@react-spectrum/s2/ui-icons/generated/S2_ChevronSize300.tsx",
+      "nativeSha256": "8ce43cef676845d59d513c4ecdad806870c09044e030d29504733c01d2e59c27",
+      "wrapper": "plain native SVG component; no createIcon sizing/color wrapper"
+    },
+    {
+      "name": "S2_ChevronSize400",
+      "kind": "ui",
+      "inputSha256": "6c1a49f45c240f71271c73bf7fcb291f9005a2e9bf8456aa57ecd42515c0dc54",
+      "sourceGeneratedPath": "source-generated/S2_ChevronSize400.tsx.txt",
+      "sourceGeneratedSha256": "d596fe17c888ce37dc949b0acae82f1b6727b0c1f390ed47e59d15f1b1ab26b1",
+      "nativeModule": "packages/@react-spectrum/s2/ui-icons/generated/S2_ChevronSize400.tsx",
+      "nativeSha256": "24acac0baa17113dd5eccf72e7004cd518882c2a6d8c1e84f7e688f1fbb7a064",
+      "wrapper": "plain native SVG component; no createIcon sizing/color wrapper"
+    },
+    {
+      "name": "S2_Icon_FolderBreadcrumb_20_N",
+      "kind": "workflow",
+      "inputSha256": "5dda237eec858f1690a85ce6e43dfba57cd18eb3091345a603038b1432f24f9b",
+      "sourceGeneratedPath": "source-generated/S2_Icon_FolderBreadcrumb_20_N.tsx.txt",
+      "sourceGeneratedSha256": "25e97cd46d18e13f07356f9ce59e8b1cd55c85c65712fefeea47bb392bba2b4e",
+      "nativeModule": "packages/@react-spectrum/s2/icons/FolderBreadcrumb.tsx",
+      "nativeSha256": "da668f0f86690f4e825b9bd6546174c4873996c8489079ee0a1943d8210d370b",
+      "wrapper": "canonical native createIcon(callbackComponent)"
+    }
+  ],
+  "actualSvgoVersion": "3.3.2",
+  "uiPipeline": "Frozen .parcelrc-build generic SVG -> published @parcel/transformer-svg-react2.16.3 source transform with frozen root svgo.config.json",
+  "workflowPipeline": "Frozen .parcelrc-build workflow rule -> source IconTransformer SVGR8.1.0 with tokens14.15.0 and canonical native P61createIcon"
+}

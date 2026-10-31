@@ -1,0 +1,18 @@
+{
+  "files": 151,
+  "owned": [],
+  "external": [
+    {
+      "file": "docs-website/upstream/node_modules/tailwind-variants/dist/transformer.d.ts",
+      "line": 1,
+      "code": 2307,
+      "message": "Cannot find module 'tailwindcss/types/config' or its corresponding type declarations."
+    },
+    {
+      "file": "docs-website/upstream/node_modules/tailwind-variants/dist/transformer.d.ts",
+      "line": 2,
+      "code": 2307,
+      "message": "Cannot find module 'tailwindcss/types/generated/default-theme' or its corresponding type declarations."
+    }
+  ]
+}

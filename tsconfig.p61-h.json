@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "test/css.d.ts"],
+  "include": [
+    "packages/@react-spectrum/s2/src/CenterBaseline.tsx",
+    "packages/@react-spectrum/s2/src/ProgressCircle.tsx",
+    "packages/@react-spectrum/s2/src/progress-utils.tsx",
+    "packages/@react-spectrum/s2/src/Icon.tsx",
+    "packages/@react-spectrum/s2/src/Skeleton.tsx",
+    "packages/@react-spectrum/s2/src/Content.tsx",
+    "packages/@react-spectrum/s2/src/Form.tsx",
+    "packages/@react-spectrum/s2/src/pressScale.ts",
+    "packages/@react-spectrum/s2/src/useMediaQuery.ts",
+    "packages/@react-spectrum/s2/exports/ProgressCircle.ts",
+    "packages/@react-spectrum/s2/exports/Icon.ts",
+    "packages/@react-spectrum/s2/exports/Content.ts",
+    "packages/@react-spectrum/s2/exports/Form.ts",
+    "packages/@react-spectrum/s2/exports/Skeleton.ts"
+  ]
+}

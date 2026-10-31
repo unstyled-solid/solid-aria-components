@@ -1,0 +1,193 @@
+
+> dev:button
+> cd packages/dev/s2-docs && DOCS_ISLAND_SCOPE=Button DOCS_ENV=dev LIBRARY=react-aria parcel pages/react-aria/Button.mdx -p 4340 --target react-static --config .parcelrc-s2-docs --dist-dir ../../../../dist-button --cache-dir ../../../../.parcel-cache-button --no-cache
+
+/bin/sh: /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/term-size/vendor/macos/term-size: Bad CPU type in executable
+Building...
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: Element type is invalid: expected a string (for 
+built-in components) or a class/function (for composite components) but got: 
+object.
+
+  Error: Element type is invalid: expected a string (for built-in components) or
+   a class/function (for composite components) but got: object.
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6857:15)
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6845:15)
+      at retryNode 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:7189:31)
+      at performWork 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:8346:19)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:5068:22
+      at node:internal/process/task_queues:150:7
+      at AsyncResource.runInAsyncScope (node:async_hooks:226:14)
+      at AsyncResource.runMicrotask (node:internal/process/task_queues:147:8)
+
+Building...
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: Element type is invalid: expected a string (for 
+built-in components) or a class/function (for composite components) but got: 
+object.
+
+  Error: Element type is invalid: expected a string (for built-in components) or
+   a class/function (for composite components) but got: object.
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6857:15)
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6845:15)
+      at retryNode 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:7189:31)
+      at performWork 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:8346:19)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:5068:22
+      at node:internal/process/task_queues:150:7
+      at AsyncResource.runInAsyncScope (node:async_hooks:226:14)
+      at AsyncResource.runMicrotask (node:internal/process/task_queues:147:8)
+
+Building...
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: Element type is invalid: expected a string (for 
+built-in components) or a class/function (for composite components) but got: 
+object.
+
+  Error: Element type is invalid: expected a string (for built-in components) or
+   a class/function (for composite components) but got: object.
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6857:15)
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6845:15)
+      at retryNode 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:7189:31)
+      at performWork 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:8346:19)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:5068:22
+      at node:internal/process/task_queues:150:7
+      at AsyncResource.runInAsyncScope (node:async_hooks:226:14)
+      at AsyncResource.runMicrotask (node:internal/process/task_queues:147:8)
+
+Building...
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: Element type is invalid: expected a string (for 
+built-in components) or a class/function (for composite components) but got: 
+object.
+
+  Error: Element type is invalid: expected a string (for built-in components) or
+   a class/function (for composite components) but got: object.
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6857:15)
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6845:15)
+      at retryNode 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:7189:31)
+      at performWork 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:8346:19)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:5068:22
+      at node:internal/process/task_queues:150:7
+      at AsyncResource.runInAsyncScope (node:async_hooks:226:14)
+      at AsyncResource.runMicrotask (node:internal/process/task_queues:147:8)
+
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: Element type is invalid: expected a string (for 
+built-in components) or a class/function (for composite components) but got: 
+object.
+
+  Error: Element type is invalid: expected a string (for built-in components) or
+   a class/function (for composite components) but got: object.
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6857:15)
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6845:15)
+      at retryNode 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:7189:31)
+      at performWork 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:8346:19)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:5068:22
+      at node:internal/process/task_queues:150:7
+      at AsyncResource.runInAsyncScope (node:async_hooks:226:14)
+      at AsyncResource.runMicrotask (node:internal/process/task_queues:147:8)
+
+Building...
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: Element type is invalid: expected a string (for 
+built-in components) or a class/function (for composite components) but got: 
+object.
+
+  Error: Element type is invalid: expected a string (for built-in components) or
+   a class/function (for composite components) but got: object.
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6857:15)
+      at renderElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:6845:15)
+      at retryNode 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:7189:31)
+      at performWork 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:8346:19)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/react-dom/cjs/react-dom-server.edge.development.js:5068:22
+      at node:internal/process/task_queues:150:7
+      at AsyncResource.runInAsyncScope (node:async_hooks:226:14)
+      at AsyncResource.runMicrotask (node:internal/process/task_queues:147:8)
+
+Building...
+Bundling...
+Packaging & Optimizing...
+Server running at http://localhost:4340
+✨ Built in 2.69s
+Building...
+Bundling...
+Packaging & Optimizing...
+✨ Built in 5.52s
+Building...
+Bundling...
+Packaging & Optimizing...
+✨ Built in 3.32s
+Building...
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+Bundling...
+Packaging & Optimizing...
+✨ Built in 1.81s
+Building...
+Bundling...
+Packaging & Optimizing...
+✨ Built in 7.12s

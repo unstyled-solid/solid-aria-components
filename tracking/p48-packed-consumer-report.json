@@ -1,0 +1,704 @@
+{
+  "status": "passed",
+  "archiveSha256": "48b64f6d77bdf91a71d59713c2f55a6282b03d348bbadc0bb1779e6f55022691",
+  "priorReportSHA256": "3b2873bfad8c589ce0e7b48dfb73dc7678c355be453af754ec391476b0ae4a6a",
+  "repairReportSHA256": "80ebd7a0c1b8d896a2229ded33ed63dab8ac379e3c8cf4d1d1d8fcbf7f934bc6",
+  "commands": [
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:20.072Z",
+      "ended": "2026-10-10T01:10:20.435Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-0.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-0.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=node",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:20.436Z",
+      "ended": "2026-10-10T01:10:20.750Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-4.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-4.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=worker",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:20.751Z",
+      "ended": "2026-10-10T01:10:21.064Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-8.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-8.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=browser",
+        "--conditions=worker",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:21.065Z",
+      "ended": "2026-10-10T01:10:21.375Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-10.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-10.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=node",
+        "--conditions=worker",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:21.376Z",
+      "ended": "2026-10-10T01:10:21.685Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-12.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-12.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=browser",
+        "--conditions=node",
+        "--conditions=worker",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:21.686Z",
+      "ended": "2026-10-10T01:10:21.995Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-14.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-14.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=deno",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:21.996Z",
+      "ended": "2026-10-10T01:10:22.307Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-16.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-16.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=node",
+        "--conditions=deno",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:22.308Z",
+      "ended": "2026-10-10T01:10:22.641Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-20.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-20.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=worker",
+        "--conditions=deno",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:22.641Z",
+      "ended": "2026-10-10T01:10:22.952Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-24.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-24.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=browser",
+        "--conditions=worker",
+        "--conditions=deno",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:22.953Z",
+      "ended": "2026-10-10T01:10:23.263Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-26.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-26.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=node",
+        "--conditions=worker",
+        "--conditions=deno",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:23.264Z",
+      "ended": "2026-10-10T01:10:23.584Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-28.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-28.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=browser",
+        "--conditions=node",
+        "--conditions=worker",
+        "--conditions=deno",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:23.585Z",
+      "ended": "2026-10-10T01:10:23.895Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-30.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-30.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=development",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:23.896Z",
+      "ended": "2026-10-10T01:10:24.207Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-32.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-32.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=node",
+        "--conditions=development",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:24.208Z",
+      "ended": "2026-10-10T01:10:24.513Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-36.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-36.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=worker",
+        "--conditions=development",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:24.514Z",
+      "ended": "2026-10-10T01:10:24.822Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-40.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-40.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=browser",
+        "--conditions=worker",
+        "--conditions=development",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:24.822Z",
+      "ended": "2026-10-10T01:10:25.133Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-42.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-42.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=node",
+        "--conditions=worker",
+        "--conditions=development",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:25.133Z",
+      "ended": "2026-10-10T01:10:25.439Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-44.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-44.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=browser",
+        "--conditions=node",
+        "--conditions=worker",
+        "--conditions=development",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:25.440Z",
+      "ended": "2026-10-10T01:10:25.749Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-46.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-46.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=deno",
+        "--conditions=development",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:25.750Z",
+      "ended": "2026-10-10T01:10:26.059Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-48.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-48.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=node",
+        "--conditions=deno",
+        "--conditions=development",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:26.060Z",
+      "ended": "2026-10-10T01:10:26.380Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-52.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-52.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=worker",
+        "--conditions=deno",
+        "--conditions=development",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:26.380Z",
+      "ended": "2026-10-10T01:10:26.688Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-56.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-56.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=browser",
+        "--conditions=worker",
+        "--conditions=deno",
+        "--conditions=development",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:26.689Z",
+      "ended": "2026-10-10T01:10:27.000Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-58.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-58.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=node",
+        "--conditions=worker",
+        "--conditions=deno",
+        "--conditions=development",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:27.001Z",
+      "ended": "2026-10-10T01:10:27.312Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-60.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-60.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "--conditions=browser",
+        "--conditions=node",
+        "--conditions=worker",
+        "--conditions=deno",
+        "--conditions=development",
+        "server.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:27.313Z",
+      "ended": "2026-10-10T01:10:27.629Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-62.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/ssr-62.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "node_modules/playwright/cli.js",
+        "install",
+        "chromium"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:27.630Z",
+      "ended": "2026-10-10T01:10:58.012Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-install.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-install.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "browser.mjs",
+        "2"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:10:58.013Z",
+      "ended": "2026-10-10T01:11:00.446Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-2.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-2.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "browser.mjs",
+        "6"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:11:00.447Z",
+      "ended": "2026-10-10T01:11:01.594Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-6.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-6.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "browser.mjs",
+        "18"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:11:01.594Z",
+      "ended": "2026-10-10T01:11:02.747Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-18.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-18.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "browser.mjs",
+        "22"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:11:02.748Z",
+      "ended": "2026-10-10T01:11:03.923Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-22.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-22.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "browser.mjs",
+        "34"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:11:03.923Z",
+      "ended": "2026-10-10T01:11:05.118Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-34.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-34.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "browser.mjs",
+        "38"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:11:05.119Z",
+      "ended": "2026-10-10T01:11:06.271Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-38.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-38.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "browser.mjs",
+        "50"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:11:06.272Z",
+      "ended": "2026-10-10T01:11:07.476Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-50.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-50.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "browser.mjs",
+        "54"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:11:07.477Z",
+      "ended": "2026-10-10T01:11:08.739Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-54.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/browser-54.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "server-optimized-root.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:11:08.739Z",
+      "ended": "2026-10-10T01:11:09.098Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/optimized-ssr-root.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/optimized-ssr-root.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "server-optimized-subpath.js"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:11:09.099Z",
+      "ended": "2026-10-10T01:11:09.181Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/optimized-ssr-subpath.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/optimized-ssr-subpath.stderr.log"
+    },
+    {
+      "command": [
+        "rtk",
+        "proxy",
+        "/Users/avi/.local/share/mise/installs/node/25.8.1/bin/node",
+        "shaking-browser.mjs"
+      ],
+      "cwd": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-5gVByZ",
+      "started": "2026-10-10T01:11:09.182Z",
+      "ended": "2026-10-10T01:11:10.349Z",
+      "code": 0,
+      "signal": null,
+      "timedOut": false,
+      "stdout": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/optimized.stdout.log",
+      "stderr": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p48-pack-t38Rxy/evidence/logs/optimized.stderr.log"
+    }
+  ],
+  "stages": {
+    "ssr-0": "passed",
+    "ssr-4": "passed",
+    "ssr-8": "passed",
+    "ssr-10": "passed",
+    "ssr-12": "passed",
+    "ssr-14": "passed",
+    "ssr-16": "passed",
+    "ssr-20": "passed",
+    "ssr-24": "passed",
+    "ssr-26": "passed",
+    "ssr-28": "passed",
+    "ssr-30": "passed",
+    "ssr-32": "passed",
+    "ssr-36": "passed",
+    "ssr-40": "passed",
+    "ssr-42": "passed",
+    "ssr-44": "passed",
+    "ssr-46": "passed",
+    "ssr-48": "passed",
+    "ssr-52": "passed",
+    "ssr-56": "passed",
+    "ssr-58": "passed",
+    "ssr-60": "passed",
+    "ssr-62": "passed",
+    "browser-install": "passed",
+    "browser-2": "passed",
+    "browser-6": "passed",
+    "browser-18": "passed",
+    "browser-22": "passed",
+    "browser-34": "passed",
+    "browser-38": "passed",
+    "browser-50": "passed",
+    "browser-54": "passed",
+    "optimized-ssr-root": "passed",
+    "optimized-ssr-subpath": "passed",
+    "optimized": "passed"
+  },
+  "fixtureHashes": {
+    "browser.mjs": "559106533b548ce44cabad1e13ecfae06725cb62685cec7ab44fde37318d53f9",
+    "runtime-accounting.mjs": "762199b4be9fd68765ec4a4b13cc21bf30111de1b23a97bcdc8041719facbfd3",
+    "shaking-browser.mjs": "1bf2cb06c4e399e9ee094113394e8df81652dcd7ece48ba8549698c8ab11a533"
+  },
+  "blockers": [],
+  "counts": {
+    "resolution": 64,
+    "server": 24,
+    "browser": 8,
+    "browserWorkerServer": 8
+  }
+}

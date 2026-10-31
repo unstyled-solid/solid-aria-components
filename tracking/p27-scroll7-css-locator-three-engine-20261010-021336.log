@@ -1,0 +1,38 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+ ✓ |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('ltr') 138ms
+ ✓ |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('rtl') 65ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('ltr') 139ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('rtl') 101ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('ltr') 82ms
+ ✓ |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('ltr') 101ms
+ ✓ |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('rtl') 67ms
+ ✓ |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:92:4 > TokenField scrolling > keeps a visible field in place when Backspace leaves a trailing token (ltr) 42ms
+ ✓ |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:92:4 > TokenField scrolling > keeps a visible field in place when Backspace leaves a trailing token (rtl) 58ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('rtl') 90ms
+ ✓ |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:131:3 > TokenField scrolling > scrolls newly created tokens into view when they wrap below the viewport 117ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:92:4 > TokenField scrolling > keeps a visible field in place when Backspace leaves a trailing token (ltr) 84ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:92:4 > TokenField scrolling > keeps a visible field in place when Backspace leaves a trailing token (rtl) 68ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:131:6 > TokenField scrolling > scrolls newly created tokens into view when they wrap below the viewport 107ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('ltr') 134ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('rtl') 85ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('ltr') 76ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('rtl') 59ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:92:4 > TokenField scrolling > keeps a visible field in place when Backspace leaves a trailing token (ltr) 57ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:92:4 > TokenField scrolling > keeps a visible field in place when Backspace leaves a trailing token (rtl) 71ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:131:6 > TokenField scrolling > scrolls newly created tokens into view when they wrap below the viewport 100ms
+
+ Test Files  3 passed (3)
+      Tests  21 passed (21)
+   Start at  23:13:36
+   Duration  2.34s (transform 0ms, setup 232ms, import 420ms, tests 1.85s, environment 0ms)
+

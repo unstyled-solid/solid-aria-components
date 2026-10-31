@@ -1,0 +1,33 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import tailwindDocs from 'docs:tailwind-starter/Separator';
+import vanillaDocs from 'docs:vanilla-starter/Separator';
+import '../../tailwind/tailwind.css';
+
+export const relatedPages = [{'title': 'useSeparator', 'url': './Separator/useSeparator'}];
+export const description = 'A separator is a visual divider between two groups of content.';
+
+# Separator
+
+<PageDescription>{docs.exports.Separator.description}</PageDescription>
+
+<ExampleSwitcher examples={['Vanilla', 'Tailwind']}>
+  <VisualExample
+    docs={vanillaDocs.exports.Separator}
+    links={vanillaDocs.links}
+    props={['orientation']}
+    type="vanilla"
+    files={["docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Separator/solid-visual-1.tsx","docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/vanilla/Separator.tsx","docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/vanilla/Separator.css"]}  importSource="./Tabs/vanilla/Separator" solid="Separator/solid-visual-1.tsx" />
+  <VisualExample
+    docs={tailwindDocs.exports.Separator}
+    links={tailwindDocs.links}
+    props={['orientation']}
+    type="tailwind"
+    files={["docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Separator/solid-visual-2.tsx","docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/tailwind/Separator.tsx"]}  importSource="./Tabs/tailwind/Separator" solid="Separator/solid-visual-2.tsx" />
+</ExampleSwitcher>
+
+## API
+
+<PropTable component={docs.exports.Separator} links={docs.links}/>

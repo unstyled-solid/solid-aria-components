@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "types": ["node", "vitest/globals", "@testing-library/jest-dom/vitest"]
+  },
+  "files": ["test/intl.d.ts", "test/css.d.ts"],
+  "include": [
+    "packages/@react-spectrum/s2/src/Avatar.tsx",
+    "packages/@react-spectrum/s2/src/Image.tsx",
+    "packages/@react-spectrum/s2/src/ImageCoordinator.tsx",
+    "packages/@react-spectrum/s2/src/NotificationBadge.tsx",
+    "packages/@react-spectrum/s2/src/macros.ts",
+    "packages/@react-spectrum/s2/exports/Avatar.ts",
+    "packages/@react-spectrum/s2/exports/Image.ts",
+    "packages/@react-spectrum/s2/exports/NotificationBadge.ts",
+    "packages/@react-spectrum/s2/test/Image.test.tsx"
+  ]
+}

@@ -1,0 +1,871 @@
+{
+  "status": "verified",
+  "installedNodes": 101,
+  "edges": [
+    {
+      "name": "@svgr/core",
+      "version": "8.1.0",
+      "parent": "<isolated>/package.json",
+      "path": "<isolated>/node_modules/@svgr/core/package.json"
+    },
+    {
+      "name": "@babel/core",
+      "version": "7.24.3",
+      "parent": "<isolated>/node_modules/@svgr/core/package.json",
+      "path": "<isolated>/node_modules/@babel/core/package.json"
+    },
+    {
+      "name": "@ampproject/remapping",
+      "version": "2.3.0",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/@ampproject/remapping/package.json"
+    },
+    {
+      "name": "@jridgewell/gen-mapping",
+      "version": "0.3.13",
+      "parent": "<isolated>/node_modules/@ampproject/remapping/package.json",
+      "path": "<isolated>/node_modules/@jridgewell/gen-mapping/package.json"
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "version": "1.5.5",
+      "parent": "<isolated>/node_modules/@jridgewell/gen-mapping/package.json",
+      "path": "<isolated>/node_modules/@jridgewell/sourcemap-codec/package.json"
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "parent": "<isolated>/node_modules/@jridgewell/gen-mapping/package.json",
+      "path": "<isolated>/node_modules/@jridgewell/trace-mapping/package.json"
+    },
+    {
+      "name": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "parent": "<isolated>/node_modules/@jridgewell/trace-mapping/package.json",
+      "path": "<isolated>/node_modules/@jridgewell/resolve-uri/package.json"
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "version": "1.5.5",
+      "parent": "<isolated>/node_modules/@jridgewell/trace-mapping/package.json",
+      "path": "<isolated>/node_modules/@jridgewell/sourcemap-codec/package.json"
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "parent": "<isolated>/node_modules/@ampproject/remapping/package.json",
+      "path": "<isolated>/node_modules/@jridgewell/trace-mapping/package.json"
+    },
+    {
+      "name": "@babel/code-frame",
+      "version": "7.29.0",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/@babel/code-frame/package.json"
+    },
+    {
+      "name": "@babel/helper-validator-identifier",
+      "version": "7.28.5",
+      "parent": "<isolated>/node_modules/@babel/code-frame/package.json",
+      "path": "<isolated>/node_modules/@babel/code-frame/node_modules/@babel/helper-validator-identifier/package.json"
+    },
+    {
+      "name": "js-tokens",
+      "version": "4.0.0",
+      "parent": "<isolated>/node_modules/@babel/code-frame/package.json",
+      "path": "<isolated>/node_modules/js-tokens/package.json"
+    },
+    {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "parent": "<isolated>/node_modules/@babel/code-frame/package.json",
+      "path": "<isolated>/node_modules/picocolors/package.json"
+    },
+    {
+      "name": "@babel/generator",
+      "version": "7.29.1",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/@babel/generator/package.json"
+    },
+    {
+      "name": "@babel/parser",
+      "version": "7.24.4",
+      "parent": "<isolated>/node_modules/@babel/generator/package.json",
+      "path": "<isolated>/node_modules/@babel/parser/package.json"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@babel/generator/package.json",
+      "path": "<isolated>/node_modules/@babel/types/package.json"
+    },
+    {
+      "name": "@babel/helper-string-parser",
+      "version": "7.24.1",
+      "parent": "<isolated>/node_modules/@babel/types/package.json",
+      "path": "<isolated>/node_modules/@babel/types/node_modules/@babel/helper-string-parser/package.json"
+    },
+    {
+      "name": "@babel/helper-validator-identifier",
+      "version": "7.28.5",
+      "parent": "<isolated>/node_modules/@babel/types/package.json",
+      "path": "<isolated>/node_modules/@babel/types/node_modules/@babel/helper-validator-identifier/package.json"
+    },
+    {
+      "name": "to-fast-properties",
+      "version": "2.0.0",
+      "parent": "<isolated>/node_modules/@babel/types/package.json",
+      "path": "<isolated>/node_modules/to-fast-properties/package.json"
+    },
+    {
+      "name": "@jridgewell/gen-mapping",
+      "version": "0.3.13",
+      "parent": "<isolated>/node_modules/@babel/generator/package.json",
+      "path": "<isolated>/node_modules/@jridgewell/gen-mapping/package.json"
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "parent": "<isolated>/node_modules/@babel/generator/package.json",
+      "path": "<isolated>/node_modules/@jridgewell/trace-mapping/package.json"
+    },
+    {
+      "name": "jsesc",
+      "version": "3.1.0",
+      "parent": "<isolated>/node_modules/@babel/generator/package.json",
+      "path": "<isolated>/node_modules/jsesc/package.json"
+    },
+    {
+      "name": "@babel/helper-compilation-targets",
+      "version": "7.23.6",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/@babel/helper-compilation-targets/package.json"
+    },
+    {
+      "name": "@babel/compat-data",
+      "version": "7.24.4",
+      "parent": "<isolated>/node_modules/@babel/helper-compilation-targets/package.json",
+      "path": "<isolated>/node_modules/@babel/helper-compilation-targets/node_modules/@babel/compat-data/package.json"
+    },
+    {
+      "name": "@babel/helper-validator-option",
+      "version": "7.23.5",
+      "parent": "<isolated>/node_modules/@babel/helper-compilation-targets/package.json",
+      "path": "<isolated>/node_modules/@babel/helper-compilation-targets/node_modules/@babel/helper-validator-option/package.json"
+    },
+    {
+      "name": "browserslist",
+      "version": "4.28.1",
+      "parent": "<isolated>/node_modules/@babel/helper-compilation-targets/package.json",
+      "path": "<isolated>/node_modules/browserslist/package.json"
+    },
+    {
+      "name": "baseline-browser-mapping",
+      "version": "2.10.10",
+      "parent": "<isolated>/node_modules/browserslist/package.json",
+      "path": "<isolated>/node_modules/baseline-browser-mapping/package.json"
+    },
+    {
+      "name": "caniuse-lite",
+      "version": "1.0.30001781",
+      "parent": "<isolated>/node_modules/browserslist/package.json",
+      "path": "<isolated>/node_modules/caniuse-lite/package.json"
+    },
+    {
+      "name": "electron-to-chromium",
+      "version": "1.5.321",
+      "parent": "<isolated>/node_modules/browserslist/package.json",
+      "path": "<isolated>/node_modules/electron-to-chromium/package.json"
+    },
+    {
+      "name": "node-releases",
+      "version": "2.0.36",
+      "parent": "<isolated>/node_modules/browserslist/package.json",
+      "path": "<isolated>/node_modules/node-releases/package.json"
+    },
+    {
+      "name": "update-browserslist-db",
+      "version": "1.2.3",
+      "parent": "<isolated>/node_modules/browserslist/package.json",
+      "path": "<isolated>/node_modules/update-browserslist-db/package.json"
+    },
+    {
+      "name": "escalade",
+      "version": "3.2.0",
+      "parent": "<isolated>/node_modules/update-browserslist-db/package.json",
+      "path": "<isolated>/node_modules/escalade/package.json"
+    },
+    {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "parent": "<isolated>/node_modules/update-browserslist-db/package.json",
+      "path": "<isolated>/node_modules/picocolors/package.json"
+    },
+    {
+      "name": "lru-cache",
+      "version": "5.1.1",
+      "parent": "<isolated>/node_modules/@babel/helper-compilation-targets/package.json",
+      "path": "<isolated>/node_modules/lru-cache/package.json"
+    },
+    {
+      "name": "yallist",
+      "version": "3.1.1",
+      "parent": "<isolated>/node_modules/lru-cache/package.json",
+      "path": "<isolated>/node_modules/yallist/package.json"
+    },
+    {
+      "name": "semver",
+      "version": "6.3.1",
+      "parent": "<isolated>/node_modules/@babel/helper-compilation-targets/package.json",
+      "path": "<isolated>/node_modules/semver/package.json"
+    },
+    {
+      "name": "@babel/helper-module-transforms",
+      "version": "7.23.3",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/@babel/helper-module-transforms/package.json"
+    },
+    {
+      "name": "@babel/helper-environment-visitor",
+      "version": "7.22.20",
+      "parent": "<isolated>/node_modules/@babel/helper-module-transforms/package.json",
+      "path": "<isolated>/node_modules/@babel/helper-module-transforms/node_modules/@babel/helper-environment-visitor/package.json"
+    },
+    {
+      "name": "@babel/helper-module-imports",
+      "version": "7.24.3",
+      "parent": "<isolated>/node_modules/@babel/helper-module-transforms/package.json",
+      "path": "<isolated>/node_modules/@babel/helper-module-imports/package.json"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@babel/helper-module-imports/package.json",
+      "path": "<isolated>/node_modules/@babel/types/package.json"
+    },
+    {
+      "name": "@babel/helper-simple-access",
+      "version": "7.22.5",
+      "parent": "<isolated>/node_modules/@babel/helper-module-transforms/package.json",
+      "path": "<isolated>/node_modules/@babel/helper-simple-access/package.json"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@babel/helper-simple-access/package.json",
+      "path": "<isolated>/node_modules/@babel/types/package.json"
+    },
+    {
+      "name": "@babel/helper-split-export-declaration",
+      "version": "7.22.6",
+      "parent": "<isolated>/node_modules/@babel/helper-module-transforms/package.json",
+      "path": "<isolated>/node_modules/@babel/helper-split-export-declaration/package.json"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@babel/helper-split-export-declaration/package.json",
+      "path": "<isolated>/node_modules/@babel/types/package.json"
+    },
+    {
+      "name": "@babel/helper-validator-identifier",
+      "version": "7.28.5",
+      "parent": "<isolated>/node_modules/@babel/helper-module-transforms/package.json",
+      "path": "<isolated>/node_modules/@babel/helper-module-transforms/node_modules/@babel/helper-validator-identifier/package.json"
+    },
+    {
+      "name": "@babel/helpers",
+      "version": "7.24.4",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/@babel/helpers/package.json"
+    },
+    {
+      "name": "@babel/template",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@babel/helpers/package.json",
+      "path": "<isolated>/node_modules/@babel/template/package.json"
+    },
+    {
+      "name": "@babel/code-frame",
+      "version": "7.29.0",
+      "parent": "<isolated>/node_modules/@babel/template/package.json",
+      "path": "<isolated>/node_modules/@babel/code-frame/package.json"
+    },
+    {
+      "name": "@babel/parser",
+      "version": "7.24.4",
+      "parent": "<isolated>/node_modules/@babel/template/package.json",
+      "path": "<isolated>/node_modules/@babel/parser/package.json"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@babel/template/package.json",
+      "path": "<isolated>/node_modules/@babel/types/package.json"
+    },
+    {
+      "name": "@babel/traverse",
+      "version": "7.24.1",
+      "parent": "<isolated>/node_modules/@babel/helpers/package.json",
+      "path": "<isolated>/node_modules/@babel/traverse/package.json"
+    },
+    {
+      "name": "@babel/code-frame",
+      "version": "7.29.0",
+      "parent": "<isolated>/node_modules/@babel/traverse/package.json",
+      "path": "<isolated>/node_modules/@babel/code-frame/package.json"
+    },
+    {
+      "name": "@babel/generator",
+      "version": "7.29.1",
+      "parent": "<isolated>/node_modules/@babel/traverse/package.json",
+      "path": "<isolated>/node_modules/@babel/generator/package.json"
+    },
+    {
+      "name": "@babel/helper-environment-visitor",
+      "version": "7.22.20",
+      "parent": "<isolated>/node_modules/@babel/traverse/package.json",
+      "path": "<isolated>/node_modules/@babel/traverse/node_modules/@babel/helper-environment-visitor/package.json"
+    },
+    {
+      "name": "@babel/helper-function-name",
+      "version": "7.23.0",
+      "parent": "<isolated>/node_modules/@babel/traverse/package.json",
+      "path": "<isolated>/node_modules/@babel/helper-function-name/package.json"
+    },
+    {
+      "name": "@babel/template",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@babel/helper-function-name/package.json",
+      "path": "<isolated>/node_modules/@babel/template/package.json"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@babel/helper-function-name/package.json",
+      "path": "<isolated>/node_modules/@babel/types/package.json"
+    },
+    {
+      "name": "@babel/helper-hoist-variables",
+      "version": "7.22.5",
+      "parent": "<isolated>/node_modules/@babel/traverse/package.json",
+      "path": "<isolated>/node_modules/@babel/helper-hoist-variables/package.json"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@babel/helper-hoist-variables/package.json",
+      "path": "<isolated>/node_modules/@babel/types/package.json"
+    },
+    {
+      "name": "@babel/helper-split-export-declaration",
+      "version": "7.22.6",
+      "parent": "<isolated>/node_modules/@babel/traverse/package.json",
+      "path": "<isolated>/node_modules/@babel/helper-split-export-declaration/package.json"
+    },
+    {
+      "name": "@babel/parser",
+      "version": "7.24.4",
+      "parent": "<isolated>/node_modules/@babel/traverse/package.json",
+      "path": "<isolated>/node_modules/@babel/parser/package.json"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@babel/traverse/package.json",
+      "path": "<isolated>/node_modules/@babel/types/package.json"
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "parent": "<isolated>/node_modules/@babel/traverse/package.json",
+      "path": "<isolated>/node_modules/debug/package.json"
+    },
+    {
+      "name": "ms",
+      "version": "2.1.3",
+      "parent": "<isolated>/node_modules/debug/package.json",
+      "path": "<isolated>/node_modules/ms/package.json"
+    },
+    {
+      "name": "globals",
+      "version": "11.12.0",
+      "parent": "<isolated>/node_modules/@babel/traverse/package.json",
+      "path": "<isolated>/node_modules/globals/package.json"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@babel/helpers/package.json",
+      "path": "<isolated>/node_modules/@babel/types/package.json"
+    },
+    {
+      "name": "@babel/parser",
+      "version": "7.24.4",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/@babel/parser/package.json"
+    },
+    {
+      "name": "@babel/template",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/@babel/template/package.json"
+    },
+    {
+      "name": "@babel/traverse",
+      "version": "7.24.1",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/@babel/traverse/package.json"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/@babel/types/package.json"
+    },
+    {
+      "name": "convert-source-map",
+      "version": "2.0.0",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/convert-source-map/package.json"
+    },
+    {
+      "name": "debug",
+      "version": "4.4.3",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/debug/package.json"
+    },
+    {
+      "name": "gensync",
+      "version": "1.0.0-beta.2",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/gensync/package.json"
+    },
+    {
+      "name": "json5",
+      "version": "2.2.3",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/json5/package.json"
+    },
+    {
+      "name": "semver",
+      "version": "6.3.1",
+      "parent": "<isolated>/node_modules/@babel/core/package.json",
+      "path": "<isolated>/node_modules/semver/package.json"
+    },
+    {
+      "name": "@svgr/babel-preset",
+      "version": "8.1.0",
+      "parent": "<isolated>/node_modules/@svgr/core/package.json",
+      "path": "<isolated>/node_modules/@svgr/babel-preset/package.json"
+    },
+    {
+      "name": "@svgr/babel-plugin-add-jsx-attribute",
+      "version": "8.0.0",
+      "parent": "<isolated>/node_modules/@svgr/babel-preset/package.json",
+      "path": "<isolated>/node_modules/@svgr/babel-plugin-add-jsx-attribute/package.json"
+    },
+    {
+      "name": "@svgr/babel-plugin-remove-jsx-attribute",
+      "version": "8.0.0",
+      "parent": "<isolated>/node_modules/@svgr/babel-preset/package.json",
+      "path": "<isolated>/node_modules/@svgr/babel-plugin-remove-jsx-attribute/package.json"
+    },
+    {
+      "name": "@svgr/babel-plugin-remove-jsx-empty-expression",
+      "version": "8.0.0",
+      "parent": "<isolated>/node_modules/@svgr/babel-preset/package.json",
+      "path": "<isolated>/node_modules/@svgr/babel-plugin-remove-jsx-empty-expression/package.json"
+    },
+    {
+      "name": "@svgr/babel-plugin-replace-jsx-attribute-value",
+      "version": "8.0.0",
+      "parent": "<isolated>/node_modules/@svgr/babel-preset/package.json",
+      "path": "<isolated>/node_modules/@svgr/babel-plugin-replace-jsx-attribute-value/package.json"
+    },
+    {
+      "name": "@svgr/babel-plugin-svg-dynamic-title",
+      "version": "8.0.0",
+      "parent": "<isolated>/node_modules/@svgr/babel-preset/package.json",
+      "path": "<isolated>/node_modules/@svgr/babel-plugin-svg-dynamic-title/package.json"
+    },
+    {
+      "name": "@svgr/babel-plugin-svg-em-dimensions",
+      "version": "8.0.0",
+      "parent": "<isolated>/node_modules/@svgr/babel-preset/package.json",
+      "path": "<isolated>/node_modules/@svgr/babel-plugin-svg-em-dimensions/package.json"
+    },
+    {
+      "name": "@svgr/babel-plugin-transform-react-native-svg",
+      "version": "8.1.0",
+      "parent": "<isolated>/node_modules/@svgr/babel-preset/package.json",
+      "path": "<isolated>/node_modules/@svgr/babel-plugin-transform-react-native-svg/package.json"
+    },
+    {
+      "name": "@svgr/babel-plugin-transform-svg-component",
+      "version": "8.0.0",
+      "parent": "<isolated>/node_modules/@svgr/babel-preset/package.json",
+      "path": "<isolated>/node_modules/@svgr/babel-plugin-transform-svg-component/package.json"
+    },
+    {
+      "name": "camelcase",
+      "version": "6.3.0",
+      "parent": "<isolated>/node_modules/@svgr/core/package.json",
+      "path": "<isolated>/node_modules/camelcase/package.json"
+    },
+    {
+      "name": "cosmiconfig",
+      "version": "8.3.6",
+      "parent": "<isolated>/node_modules/@svgr/core/package.json",
+      "path": "<isolated>/node_modules/cosmiconfig/package.json"
+    },
+    {
+      "name": "import-fresh",
+      "version": "3.3.0",
+      "parent": "<isolated>/node_modules/cosmiconfig/package.json",
+      "path": "<isolated>/node_modules/import-fresh/package.json"
+    },
+    {
+      "name": "parent-module",
+      "version": "1.0.1",
+      "parent": "<isolated>/node_modules/import-fresh/package.json",
+      "path": "<isolated>/node_modules/parent-module/package.json"
+    },
+    {
+      "name": "callsites",
+      "version": "3.1.0",
+      "parent": "<isolated>/node_modules/parent-module/package.json",
+      "path": "<isolated>/node_modules/callsites/package.json"
+    },
+    {
+      "name": "resolve-from",
+      "version": "4.0.0",
+      "parent": "<isolated>/node_modules/import-fresh/package.json",
+      "path": "<isolated>/node_modules/resolve-from/package.json"
+    },
+    {
+      "name": "js-yaml",
+      "version": "4.1.1",
+      "parent": "<isolated>/node_modules/cosmiconfig/package.json",
+      "path": "<isolated>/node_modules/js-yaml/package.json"
+    },
+    {
+      "name": "argparse",
+      "version": "2.0.1",
+      "parent": "<isolated>/node_modules/js-yaml/package.json",
+      "path": "<isolated>/node_modules/argparse/package.json"
+    },
+    {
+      "name": "parse-json",
+      "version": "5.2.0",
+      "parent": "<isolated>/node_modules/cosmiconfig/package.json",
+      "path": "<isolated>/node_modules/parse-json/package.json"
+    },
+    {
+      "name": "@babel/code-frame",
+      "version": "7.29.0",
+      "parent": "<isolated>/node_modules/parse-json/package.json",
+      "path": "<isolated>/node_modules/@babel/code-frame/package.json"
+    },
+    {
+      "name": "error-ex",
+      "version": "1.3.2",
+      "parent": "<isolated>/node_modules/parse-json/package.json",
+      "path": "<isolated>/node_modules/error-ex/package.json"
+    },
+    {
+      "name": "is-arrayish",
+      "version": "0.2.1",
+      "parent": "<isolated>/node_modules/error-ex/package.json",
+      "path": "<isolated>/node_modules/is-arrayish/package.json"
+    },
+    {
+      "name": "json-parse-even-better-errors",
+      "version": "2.3.1",
+      "parent": "<isolated>/node_modules/parse-json/package.json",
+      "path": "<isolated>/node_modules/json-parse-even-better-errors/package.json"
+    },
+    {
+      "name": "lines-and-columns",
+      "version": "1.1.6",
+      "parent": "<isolated>/node_modules/parse-json/package.json",
+      "path": "<isolated>/node_modules/lines-and-columns/package.json"
+    },
+    {
+      "name": "path-type",
+      "version": "4.0.0",
+      "parent": "<isolated>/node_modules/cosmiconfig/package.json",
+      "path": "<isolated>/node_modules/path-type/package.json"
+    },
+    {
+      "name": "snake-case",
+      "version": "3.0.4",
+      "parent": "<isolated>/node_modules/@svgr/core/package.json",
+      "path": "<isolated>/node_modules/snake-case/package.json"
+    },
+    {
+      "name": "dot-case",
+      "version": "3.0.4",
+      "parent": "<isolated>/node_modules/snake-case/package.json",
+      "path": "<isolated>/node_modules/dot-case/package.json"
+    },
+    {
+      "name": "no-case",
+      "version": "3.0.4",
+      "parent": "<isolated>/node_modules/dot-case/package.json",
+      "path": "<isolated>/node_modules/no-case/package.json"
+    },
+    {
+      "name": "lower-case",
+      "version": "2.0.2",
+      "parent": "<isolated>/node_modules/no-case/package.json",
+      "path": "<isolated>/node_modules/lower-case/package.json"
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "parent": "<isolated>/node_modules/lower-case/package.json",
+      "path": "<isolated>/node_modules/tslib/package.json"
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "parent": "<isolated>/node_modules/no-case/package.json",
+      "path": "<isolated>/node_modules/tslib/package.json"
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "parent": "<isolated>/node_modules/dot-case/package.json",
+      "path": "<isolated>/node_modules/tslib/package.json"
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "parent": "<isolated>/node_modules/snake-case/package.json",
+      "path": "<isolated>/node_modules/tslib/package.json"
+    },
+    {
+      "name": "@svgr/plugin-svgo",
+      "version": "8.1.0",
+      "parent": "<isolated>/package.json",
+      "path": "<isolated>/node_modules/@svgr/plugin-svgo/package.json"
+    },
+    {
+      "name": "cosmiconfig",
+      "version": "8.3.6",
+      "parent": "<isolated>/node_modules/@svgr/plugin-svgo/package.json",
+      "path": "<isolated>/node_modules/cosmiconfig/package.json"
+    },
+    {
+      "name": "deepmerge",
+      "version": "4.3.1",
+      "parent": "<isolated>/node_modules/@svgr/plugin-svgo/package.json",
+      "path": "<isolated>/node_modules/deepmerge/package.json"
+    },
+    {
+      "name": "svgo",
+      "version": "3.3.2",
+      "parent": "<isolated>/node_modules/@svgr/plugin-svgo/package.json",
+      "path": "<isolated>/node_modules/svgo/package.json"
+    },
+    {
+      "name": "@trysound/sax",
+      "version": "0.2.0",
+      "parent": "<isolated>/node_modules/svgo/package.json",
+      "path": "<isolated>/node_modules/@trysound/sax/package.json"
+    },
+    {
+      "name": "commander",
+      "version": "7.2.0",
+      "parent": "<isolated>/node_modules/svgo/package.json",
+      "path": "<isolated>/node_modules/commander/package.json"
+    },
+    {
+      "name": "css-select",
+      "version": "5.1.0",
+      "parent": "<isolated>/node_modules/svgo/package.json",
+      "path": "<isolated>/node_modules/css-select/package.json"
+    },
+    {
+      "name": "boolbase",
+      "version": "1.0.0",
+      "parent": "<isolated>/node_modules/css-select/package.json",
+      "path": "<isolated>/node_modules/boolbase/package.json"
+    },
+    {
+      "name": "css-what",
+      "version": "6.1.0",
+      "parent": "<isolated>/node_modules/css-select/package.json",
+      "path": "<isolated>/node_modules/css-select/node_modules/css-what/package.json"
+    },
+    {
+      "name": "domhandler",
+      "version": "5.0.3",
+      "parent": "<isolated>/node_modules/css-select/package.json",
+      "path": "<isolated>/node_modules/domhandler/package.json"
+    },
+    {
+      "name": "domelementtype",
+      "version": "2.3.0",
+      "parent": "<isolated>/node_modules/domhandler/package.json",
+      "path": "<isolated>/node_modules/domelementtype/package.json"
+    },
+    {
+      "name": "domutils",
+      "version": "3.1.0",
+      "parent": "<isolated>/node_modules/css-select/package.json",
+      "path": "<isolated>/node_modules/domutils/package.json"
+    },
+    {
+      "name": "dom-serializer",
+      "version": "2.0.0",
+      "parent": "<isolated>/node_modules/domutils/package.json",
+      "path": "<isolated>/node_modules/dom-serializer/package.json"
+    },
+    {
+      "name": "domelementtype",
+      "version": "2.3.0",
+      "parent": "<isolated>/node_modules/dom-serializer/package.json",
+      "path": "<isolated>/node_modules/domelementtype/package.json"
+    },
+    {
+      "name": "domhandler",
+      "version": "5.0.3",
+      "parent": "<isolated>/node_modules/dom-serializer/package.json",
+      "path": "<isolated>/node_modules/domhandler/package.json"
+    },
+    {
+      "name": "entities",
+      "version": "4.5.0",
+      "parent": "<isolated>/node_modules/dom-serializer/package.json",
+      "path": "<isolated>/node_modules/entities/package.json"
+    },
+    {
+      "name": "domelementtype",
+      "version": "2.3.0",
+      "parent": "<isolated>/node_modules/domutils/package.json",
+      "path": "<isolated>/node_modules/domelementtype/package.json"
+    },
+    {
+      "name": "domhandler",
+      "version": "5.0.3",
+      "parent": "<isolated>/node_modules/domutils/package.json",
+      "path": "<isolated>/node_modules/domhandler/package.json"
+    },
+    {
+      "name": "nth-check",
+      "version": "2.1.1",
+      "parent": "<isolated>/node_modules/css-select/package.json",
+      "path": "<isolated>/node_modules/nth-check/package.json"
+    },
+    {
+      "name": "boolbase",
+      "version": "1.0.0",
+      "parent": "<isolated>/node_modules/nth-check/package.json",
+      "path": "<isolated>/node_modules/boolbase/package.json"
+    },
+    {
+      "name": "css-tree",
+      "version": "2.3.1",
+      "parent": "<isolated>/node_modules/svgo/package.json",
+      "path": "<isolated>/node_modules/css-tree/package.json"
+    },
+    {
+      "name": "mdn-data",
+      "version": "2.0.30",
+      "parent": "<isolated>/node_modules/css-tree/package.json",
+      "path": "<isolated>/node_modules/mdn-data/package.json"
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.1",
+      "parent": "<isolated>/node_modules/css-tree/package.json",
+      "path": "<isolated>/node_modules/source-map-js/package.json"
+    },
+    {
+      "name": "css-what",
+      "version": "6.1.0",
+      "parent": "<isolated>/node_modules/svgo/package.json",
+      "path": "<isolated>/node_modules/svgo/node_modules/css-what/package.json"
+    },
+    {
+      "name": "csso",
+      "version": "5.0.5",
+      "parent": "<isolated>/node_modules/svgo/package.json",
+      "path": "<isolated>/node_modules/csso/package.json"
+    },
+    {
+      "name": "css-tree",
+      "version": "2.2.1",
+      "parent": "<isolated>/node_modules/csso/package.json",
+      "path": "<isolated>/node_modules/csso/node_modules/css-tree/package.json"
+    },
+    {
+      "name": "mdn-data",
+      "version": "2.0.28",
+      "parent": "<isolated>/node_modules/csso/node_modules/css-tree/package.json",
+      "path": "<isolated>/node_modules/csso/node_modules/mdn-data/package.json"
+    },
+    {
+      "name": "source-map-js",
+      "version": "1.2.1",
+      "parent": "<isolated>/node_modules/csso/node_modules/css-tree/package.json",
+      "path": "<isolated>/node_modules/source-map-js/package.json"
+    },
+    {
+      "name": "picocolors",
+      "version": "1.1.1",
+      "parent": "<isolated>/node_modules/svgo/package.json",
+      "path": "<isolated>/node_modules/picocolors/package.json"
+    },
+    {
+      "name": "@svgr/plugin-jsx",
+      "version": "8.1.0",
+      "parent": "<isolated>/package.json",
+      "path": "<isolated>/node_modules/@svgr/plugin-jsx/package.json"
+    },
+    {
+      "name": "@babel/core",
+      "version": "7.24.3",
+      "parent": "<isolated>/node_modules/@svgr/plugin-jsx/package.json",
+      "path": "<isolated>/node_modules/@babel/core/package.json"
+    },
+    {
+      "name": "@svgr/babel-preset",
+      "version": "8.1.0",
+      "parent": "<isolated>/node_modules/@svgr/plugin-jsx/package.json",
+      "path": "<isolated>/node_modules/@svgr/babel-preset/package.json"
+    },
+    {
+      "name": "@svgr/hast-util-to-babel-ast",
+      "version": "8.0.0",
+      "parent": "<isolated>/node_modules/@svgr/plugin-jsx/package.json",
+      "path": "<isolated>/node_modules/@svgr/hast-util-to-babel-ast/package.json"
+    },
+    {
+      "name": "@babel/types",
+      "version": "7.24.0",
+      "parent": "<isolated>/node_modules/@svgr/hast-util-to-babel-ast/package.json",
+      "path": "<isolated>/node_modules/@babel/types/package.json"
+    },
+    {
+      "name": "entities",
+      "version": "4.5.0",
+      "parent": "<isolated>/node_modules/@svgr/hast-util-to-babel-ast/package.json",
+      "path": "<isolated>/node_modules/entities/package.json"
+    },
+    {
+      "name": "svg-parser",
+      "version": "2.0.4",
+      "parent": "<isolated>/node_modules/@svgr/plugin-jsx/package.json",
+      "path": "<isolated>/node_modules/svg-parser/package.json"
+    },
+    {
+      "name": "@svgr/babel-plugin-remove-jsx-attribute",
+      "version": "8.0.0",
+      "parent": "<isolated>/package.json",
+      "path": "<isolated>/node_modules/@svgr/babel-plugin-remove-jsx-attribute/package.json"
+    }
+  ],
+  "unexpected": []
+}

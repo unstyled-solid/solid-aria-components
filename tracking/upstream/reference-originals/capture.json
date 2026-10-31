@@ -1,0 +1,50 @@
+{
+  "mode": "copy-before-adaptation",
+  "files": [
+    {
+      "path": "scripts/upstream/git/state.mjs",
+      "sourcePath": "/Users/avi/.config/opencode/skills/react-to-solid-v2-port/assets/baseui-reference/scripts/upstream/git/state.mjs",
+      "sha256": "6f9c77bd4da8baa872e733e70d2e353f0df9aefad4e50efd563d141c9103ea20"
+    },
+    {
+      "path": "scripts/upstream/git/checkout.mjs",
+      "sourcePath": "/Users/avi/.config/opencode/skills/react-to-solid-v2-port/assets/baseui-reference/scripts/upstream/git/checkout.mjs",
+      "sha256": "0e5f637953174ac2500f52bd467cdc98a81dd9eac4fa468c9b41fd185d3f083e"
+    },
+    {
+      "path": "scripts/upstream/git/report.mjs",
+      "sourcePath": "/Users/avi/.config/opencode/skills/react-to-solid-v2-port/assets/baseui-reference/scripts/upstream/git/report.mjs",
+      "sha256": "1d234c7f6c5bfca6967af393286781cc4cef4352d193448b9e8e551f1cdfe901"
+    },
+    {
+      "path": "scripts/upstream/git/workflow.mjs",
+      "sourcePath": "/Users/avi/.config/opencode/skills/react-to-solid-v2-port/assets/baseui-reference/scripts/upstream/git/workflow.mjs",
+      "sha256": "cdee5c94b9dccea2e366a73da8b15fda0b1dc9eca6f754e9997de3520d7012db"
+    },
+    {
+      "path": "scripts/upstream/git/process.mjs",
+      "sourcePath": "/Users/avi/.config/opencode/skills/react-to-solid-v2-port/assets/baseui-reference/scripts/upstream/git/process.mjs",
+      "sha256": "be64b3064151cf187bdf520d836bf52fbd2d534d81b6a4eaea2c6961649cb231"
+    },
+    {
+      "path": "scripts/upstream/cli.mjs",
+      "sourcePath": "/Users/avi/.config/opencode/skills/react-to-solid-v2-port/assets/baseui-reference/scripts/upstream/cli.mjs",
+      "sha256": "8268a7a7a72cf8204694fc22368ee45694df8531d33073049b4705c741475e38"
+    },
+    {
+      "path": "tracking/upstream-state.schema.json",
+      "sourcePath": "/Users/avi/.config/opencode/skills/react-to-solid-v2-port/assets/baseui-reference/tracking/upstream-state.schema.json",
+      "sha256": "4def998d44cdb6029ba95487b04ea2f2822f5c7ab94a9152f9bf7dad4f66dbb6"
+    },
+    {
+      "path": "test/upstream/git/fixtures.mjs",
+      "sourcePath": "/Users/avi/.config/opencode/skills/react-to-solid-v2-port/assets/baseui-reference/test/upstream/git/fixtures.mjs",
+      "sha256": "ac5c702085f73c3d75fb68ab6e81484ccdb3cff1bdfb96a7f358d787c9091009"
+    },
+    {
+      "path": "test/upstream/git/workflow.test.mjs",
+      "sourcePath": "/Users/avi/.config/opencode/skills/react-to-solid-v2-port/assets/baseui-reference/test/upstream/git/workflow.test.mjs",
+      "sha256": "d48e95d1d2ef5c093401b71fb17aaed136f567d463f4625ccdabccf1737a79fc"
+    }
+  ]
+}

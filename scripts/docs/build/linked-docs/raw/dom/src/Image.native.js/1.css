@@ -1,0 +1,63 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .sb18 {
+    display: block;
+  }
+
+
+  .Za18 {
+    width: 100%;
+  }
+
+
+  .Fb18 {
+    height: 100%;
+  }
+
+
+  ._H40ub4c18 {
+    object-fit: inherit;
+  }
+
+
+  .__D40ub4c18 {
+    object-position: inherit;
+  }
+
+
+  ._Ia18 {
+    opacity: 0;
+  }
+
+
+  ._Ib18 {
+    opacity: 1;
+  }
+
+
+  .Ye18 {
+    transition-property: none;
+  }
+
+
+  .Yf18 {
+    transition-property: opacity;
+  }
+
+
+  .Xe18 {
+    transition-duration: 500ms;
+  }
+
+
+  ._2b18 {
+    transition-timing-function: cubic-bezier(0.45, 0, 0.4, 1);
+  }
+
+
+  ._2b18 {
+    transition-timing-function: cubic-bezier(0.45, 0, 0.4, 1);
+  }
+}
+

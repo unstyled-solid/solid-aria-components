@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "packages/react-stately/src/color/useColor.ts", "packages/react-stately/src/color/useColorFieldState.ts", "packages/react-stately/src/color/useColorChannelFieldState.ts", "packages/react-stately/src/color/useColorAreaState.ts"]
+}

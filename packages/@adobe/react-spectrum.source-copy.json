@@ -1,0 +1,3835 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/solid-aria-components/upstream/react-spectrum/packages/@adobe/react-spectrum",
+  "target": "/Users/avi/avir-oss/solid-aria-components/packages/@adobe/react-spectrum",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "files": [
+    {
+      "path": "src/provider/Provider.tsx",
+      "bytes": 8307,
+      "sha256": "abad7b923a87e6a742c64ec5a4bb08ac01d840b52c4927d80f8538908dd243d2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/provider/context.ts",
+      "bytes": 1008,
+      "sha256": "dbf83b42e5451d9423c35555ead790cb53c7df90f821b055888c2db068c74064",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/provider/types.ts",
+      "bytes": 4053,
+      "sha256": "54d8866ed871893698bc4a5d5814e33c6a81bfb53b9fb72ef23fff7876bda38f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/provider/mediaQueries.ts",
+      "bytes": 1624,
+      "sha256": "a79645a12423ccfb9b446ff8a5978fcfcf0705d28b4d92b7bca56fca4236775c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/provider/version-macro.ts",
+      "bytes": 96,
+      "sha256": "559c6f4da74fcae3d2f5141897bafe9a3b41ebefc759aa6fe2cde5c6dc15a0ef",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/theme-default/defaultTheme.ts",
+      "bytes": 1157,
+      "sha256": "0a0fc30dd1c14e0718360488627265f1c7db88bf512c88eaa059e89a1514f08c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/utils/BreakpointProvider.tsx",
+      "bytes": 2568,
+      "sha256": "0b86d1053b1198a1c936ba70a6e2cd539e41858e6f02c3ee081ff66d091bebc0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/utils/useMediaQuery.ts",
+      "bytes": 1490,
+      "sha256": "82eb8ba70cf899045e8e0acdc8852b7426d86afc9141e3ae209c385a21ee0157",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/utils/styleProps.ts",
+      "bytes": 11740,
+      "sha256": "559872a34ce1daa1743717a44d05fd624499b3a54bfbc40594ee2872dfd119ce",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/utils/classNames.ts",
+      "bytes": 1962,
+      "sha256": "bc2d8f7a6834fdf8030bcb37100527a49450ee32f39449fd6b655911997e5bdd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/utils/useDOMRef.ts",
+      "bytes": 2254,
+      "sha256": "4889723744cfa600735d1d845e221f704ff46d3620a8e8bb048e3791620c1558",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/utils/Slots.tsx",
+      "bytes": 2766,
+      "sha256": "7eefe9b328c770eff65d590c20efee43465872ca3c58ccf0fa6cee2c8db8dc5a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/utils/useHasChild.ts",
+      "bytes": 1063,
+      "sha256": "3a4ab3ebfcaff8041d361f62c59bce6ffb9f018d9d8f4b3b74ddf3142ca2a54f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/text/Text.tsx",
+      "bytes": 1582,
+      "sha256": "2610b3381375a587c749e652bbc7dff0fd39807d6ae891fb1175d38fcf22f2f3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/layout/Grid.tsx",
+      "bytes": 4017,
+      "sha256": "64917a89e493b6b4530c73a55750bb6d73535f951ea364c38ede784bf7766e3e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/Provider.ts",
+      "bytes": 1030,
+      "sha256": "a48af282cca314fc1b3a0fb19008806470bd1fe1062215ce2c403724250d60d2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/defaultTheme.ts",
+      "bytes": 744,
+      "sha256": "c673003e07c688338c5cb59cec0e1e11d78aaf3cdb04b568897f54abbf145627",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/Text.ts",
+      "bytes": 753,
+      "sha256": "c29d62189cbec5c363ee233b63619caf7e37965be6ea31d456b1e810bc0a2d88",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/Grid.ts",
+      "bytes": 842,
+      "sha256": "9dbca402b368b5f7a67f349aef3cdbdb51f0049f1a1a4d50054aba24267a6b8c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/provider/mediaQueries.test.ts",
+      "bytes": 1963,
+      "sha256": "83c0115771223f3d422b89209d31eebf1c191e1634c996c143748f72249d7d76",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/provider/Provider.ssr.test.js",
+      "bytes": 1104,
+      "sha256": "a4a0b788b3dfac6d1816b13e8343bc53ec0f0a0a13f8839e79153bc09a33402f",
+      "category": "source-or-helper",
+      "targetPath": "test/provider/Provider.ssr.test.jsx"
+    },
+    {
+      "path": "test/utils/styleProps.test.js",
+      "bytes": 7677,
+      "sha256": "e66073cfb9bc74146ced4403b974d23965c20454cdbaf8ec93cb0d2fbd119f00",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/utils/Slots.test.js",
+      "bytes": 9203,
+      "sha256": "9509a70625a71f2e9f0b5b047a1761adc134fecbb63bb5c79faa8f7c8cca3148",
+      "category": "source-or-helper",
+      "targetPath": "test/utils/Slots.test.jsx"
+    },
+    {
+      "path": "test/text/Text.ssr.test.js",
+      "bytes": 909,
+      "sha256": "fd3a87c596d441deffbcef124f9a87f993851c0800f6443c5087ec8df88919da",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/layout/Grid.test.js",
+      "bytes": 926,
+      "sha256": "45d3845f1b279a3479415efb28af4bd6d049c4cce56270ecd5179e94c484f27f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/layout/Grid.ssr.test.js",
+      "bytes": 909,
+      "sha256": "4d0bc5b3e15feedc0253148e0de66551ee47f7457b90811feec2fa3bac00f7b0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/overlays/OpenTransition.tsx",
+      "bytes": 2033,
+      "sha256": "3cf2dd0433bab6ac9a68395e8cd8622f4cda1e6ee7af9e70bf55f9a454c556c1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/overlays/Overlay.tsx",
+      "bytes": 2860,
+      "sha256": "32622493cd0c957dbad54ac5fb28cbaa957803f529d06aa88e1775c74d9d6257",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/overlays/Underlay.tsx",
+      "bytes": 1896,
+      "sha256": "de1a12778e831347f65906bee849f74557f57c89227bc612b2844b46eedb5d7f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/overlays/Modal.tsx",
+      "bytes": 3845,
+      "sha256": "ed311556f1d008f527bb324691b3d4cf05f16425bff5b390f37248882f651c05",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/overlays/overlays.css",
+      "bytes": 1063,
+      "sha256": "7193ea742f31b8518f042b0dfc39a21302822911a00fee497e49b6df6231454a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/overlays/Overlay.test.js",
+      "bytes": 2063,
+      "sha256": "90263f33a1c3cd223e7c73bdea145835132eb4ce13c0e78beb008b42b17a9aba",
+      "category": "source-or-helper",
+      "targetPath": "test/overlays/Overlay.test.jsx"
+    },
+    {
+      "path": "test/overlays/Modal.test.js",
+      "bytes": 3735,
+      "sha256": "5d8bdc30dd6dd782140e7cddf25fc3799ec9ee141ec56a69f803447d7254aabc",
+      "category": "source-or-helper",
+      "targetPath": "test/overlays/Modal.test.jsx"
+    },
+    {
+      "path": "src/button/ActionButton.tsx",
+      "bytes": 4308,
+      "sha256": "f58ef994bc9e37f5c451baa01cd73e292c612b25e9736e9c2e5ea11172a22dfb",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/icon/UIIcon.tsx",
+      "bytes": 2497,
+      "sha256": "368c87a29425d08cf3ed7d78b7a4efedd1fcbbf1130aa16d73415e353e1c8349",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/ActionButton.ts",
+      "bytes": 795,
+      "sha256": "1d240e271b3f2682e42b6968bcffc1e4986b41dfe5351f51ac789d2bf6851a9a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/button/ActionButton.test.js",
+      "bytes": 1967,
+      "sha256": "24b3b1ef515b9317695de16909b23ed6a9c029b55bd900bb2fc0588af0761e15",
+      "category": "source-or-helper",
+      "targetPath": "test/button/ActionButton.test.jsx"
+    },
+    {
+      "path": "test/icon/UIIcon.test.js",
+      "bytes": 2334,
+      "sha256": "7111e74429e294a4ab3c2b6f3ff8f301cc61b9148187a98debd31b93a9152b5a",
+      "category": "source-or-helper",
+      "targetPath": "test/icon/UIIcon.test.jsx"
+    },
+    {
+      "path": "intl/dialog/lv-LV.json",
+      "bytes": 57,
+      "sha256": "2f01227dcf9d5df3cdd2a2d3992b09567722122a9fde881bb2f0a98644a65370",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/el-GR.json",
+      "bytes": 71,
+      "sha256": "3116050da3abefe26347831062a69d4dbb8f63b9e104f4698d0e5451b1df8b94",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/et-EE.json",
+      "bytes": 47,
+      "sha256": "33184783dcd8c61ac31269d2d67f2e5ed7b21f4852f6bb79e72d417e3763a4e7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/it-IT.json",
+      "bytes": 47,
+      "sha256": "55d655fd318d835fa23664c34e7645a3e6ed0ea73a2dece66ad9bab189c4fc81",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/ko-KR.json",
+      "bytes": 47,
+      "sha256": "be3ce79c01b259beadf020a7967fbdbfb2e2753e0a06ee4388b8eae15e2315b3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/es-ES.json",
+      "bytes": 50,
+      "sha256": "b36c6ff638de8365e6fdab3160108c07803610884f1d677ce2367801bb1f86fe",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/ja-JP.json",
+      "bytes": 56,
+      "sha256": "3717c05ad4ce8a77117708c5afe78d2f519978b8df524eaf10b4d4d239098516",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/bg-BG.json",
+      "bytes": 67,
+      "sha256": "5e2d0fb5a7a7426f0ebb78973652c3165ef3eea4db8d1a0515d8129211a5d139",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/zh-CN.json",
+      "bytes": 47,
+      "sha256": "bf207ed11e2946b2fd318dbad8554e5f40e8c398e1c2b9f629a03fcef0499ad3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/tr-TR.json",
+      "bytes": 46,
+      "sha256": "cdd3a0e033a3e68984713569b467fe1f36527fdb613edde2e2b00dd90b8b7d11",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/ar-AE.json",
+      "bytes": 55,
+      "sha256": "ec7edb0ddf549413d09559eb0060892e5c1c471bc9c52ce1b1b0a94a9eb435bb",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/hu-HU.json",
+      "bytes": 62,
+      "sha256": "c666cb5e391f6ed1b86fcc58e191ef6238a8c08f823df75589bf57ff188d39bc",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/pt-PT.json",
+      "bytes": 50,
+      "sha256": "b4cb2b845d7aca4accd84cb581cbf11dc22c897e72cc435b5a4db02d142b8408",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/sv-SE.json",
+      "bytes": 48,
+      "sha256": "d54d245e65ecd4ca73ae67d27e9d0973b69c40ee5b7537db19e62b4020a0525a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/ro-RO.json",
+      "bytes": 50,
+      "sha256": "2fa54456f2812d5ced4073ce5c4d4183db821961bbea2094c3bfae5d5685bd0c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/sk-SK.json",
+      "bytes": 54,
+      "sha256": "4432f31d4e934b0843ed359700dccf55b14ab9586e4b62cb751831d28c108523",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/uk-UA.json",
+      "bytes": 80,
+      "sha256": "6375cb1a68cc35e6535cea6ef5dced09c181596cac3da2c25384c9b09307193c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/lt-LT.json",
+      "bytes": 53,
+      "sha256": "5c2a7d0245df0476628180b996fd621921e82542985e3ec5b1803578bc3ea63e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/pl-PL.json",
+      "bytes": 55,
+      "sha256": "ac7d6efaaf2d7a1b22eecc8e1e1d2c81fe6bab123ee0e97cb467c84846c8a8a3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/hr-HR.json",
+      "bytes": 51,
+      "sha256": "fc00c992c72a50d0e3c0d8ec8197aaccf879df658782f1be092fea2f5fcefbaa",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/da-DK.json",
+      "bytes": 46,
+      "sha256": "e6095d4ec6ba20ad678df07860397630797c3708be2e7cbd1a24ae27726df0de",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/nb-NO.json",
+      "bytes": 45,
+      "sha256": "c2b3c2ae3a4e4699f919183758bf6dd620d440a7073f614b46ad32d1a88bfe68",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/pt-BR.json",
+      "bytes": 50,
+      "sha256": "b36c6ff638de8365e6fdab3160108c07803610884f1d677ce2367801bb1f86fe",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/de-DE.json",
+      "bytes": 56,
+      "sha256": "d50905b97290a5658fa7c9b1fca91f2ced4f75734493ad511e7cc3596760ef92",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/sr-SP.json",
+      "bytes": 51,
+      "sha256": "fc00c992c72a50d0e3c0d8ec8197aaccf879df658782f1be092fea2f5fcefbaa",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/cs-CZ.json",
+      "bytes": 53,
+      "sha256": "7b73d57ebe543024489292f6c032ddbb2e4d320236e7c376530dfd7009d3eb51",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/fr-FR.json",
+      "bytes": 48,
+      "sha256": "95d455bec8039c5cd313a7b08cb0267ff026844a4fa3d43321f1084338ee7963",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/zh-TW.json",
+      "bytes": 47,
+      "sha256": "bbe7b85249b078d9f355dbcc353c20765dc4ff1416559af00e877824931dc219",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/sl-SI.json",
+      "bytes": 50,
+      "sha256": "677363dd4ad4da4c29a376bfc827f329497448e5b17e641b4f398a3f038d7f79",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/ru-RU.json",
+      "bytes": 83,
+      "sha256": "5411260da7450b766428d60decec2d27eb3b8651c492bf52be9b0885d6531279",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/he-IL.json",
+      "bytes": 55,
+      "sha256": "452f983615e428d0f037934f4960c09087034ee331b297050dc4296a3dc37e47",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/nl-NL.json",
+      "bytes": 49,
+      "sha256": "c44fd849802e1fbd216f4d19d652fccbe0c2c3dfa6e44e0163efe683884e2447",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/en-US.json",
+      "bytes": 47,
+      "sha256": "232a273eafa9a4ce1330ebee7cf5e41c91950dec6defc2ca1dbe2e0e9af5a650",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/dialog/fi-FI.json",
+      "bytes": 51,
+      "sha256": "88a2bd9b1a7d23723a22ff197a43e9cf13a6a1ae7e1768aca474a5d98fdb9d7b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/dialog/context.ts",
+      "bytes": 953,
+      "sha256": "65765779893b494697d899a10ca453fb626366e0c889179fa0b99f64252d702b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/dialog/DialogContainer.tsx",
+      "bytes": 3095,
+      "sha256": "2bf9365658596b5ab27b830169c7b3134573d3004929fea0d953c731c8ff0b60",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/dialog/useDialogContainer.ts",
+      "bytes": 1153,
+      "sha256": "9ee3fc31e653d3e089dcbcea74db6eff3a4501991f7db0d3a6ed9509e0774ed4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/DialogContainer.ts",
+      "bytes": 955,
+      "sha256": "146df59e113c82cd078035c7ccca0bbb5bc847f53737430165fe494d5331fbfd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/dialog/Dialog.tsx",
+      "bytes": 5879,
+      "sha256": "06e4c6a2af470741abfd80cf88e0eaba4adb258dc36732ef5a09405f0a55204d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/text/Heading.tsx",
+      "bytes": 2014,
+      "sha256": "a56927a684fdfbb17d951a36dd21a8b06e7962f7f161e6c46e9e828ed2281dcf",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/view/Header.tsx",
+      "bytes": 1535,
+      "sha256": "01f3f824de87a4948ae3679534b477fe923b99a570c996e18585fe1c605264df",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/Dialog.ts",
+      "bytes": 773,
+      "sha256": "cb207c4a4697077d6b6a246f8eafa0e2a3e7ab1b0142e430bb5fc980c7899789",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/Heading.ts",
+      "bytes": 765,
+      "sha256": "ed196bfb06768a87f00106372f74124ad3aca8fc93ae28bf0bfde3b4e8352695",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/Header.ts",
+      "bytes": 759,
+      "sha256": "9ebfdf6a0d1e07ffd56a03dfb35066835c1178dadb33be792de0b0a84f8a86a3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/dialog/Dialog.test.js",
+      "bytes": 4454,
+      "sha256": "c6a294c7ddbfcbd0294b72007b48016ea9f8459f6a5345460c09f8d7d287881f",
+      "category": "source-or-helper",
+      "targetPath": "test/dialog/Dialog.test.jsx"
+    },
+    {
+      "path": "test/dialog/Dialog.ssr.test.js",
+      "bytes": 1016,
+      "sha256": "8137922c5fdd507a91710c19e986998e5755a97dec31b7c3b7c4126ce81e53da",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/text/Heading.ssr.test.js",
+      "bytes": 918,
+      "sha256": "4b81efb75173f2cc2de2dc90b9a979b8096c05993b75ff034ed68091773884df",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/view/Header.ssr.test.js",
+      "bytes": 915,
+      "sha256": "6f590944a04e56d94ac69e1356fa2a491a2ea91bd595c2556614f8470b814a2e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/dialog/DialogTrigger.tsx",
+      "bytes": 8269,
+      "sha256": "917198764619c38194e24c0aeb81f44d0845259be6f4927792462b79d92acfbf",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/DialogTrigger.ts",
+      "bytes": 822,
+      "sha256": "e55a087af8a120d1ad3a0233a770e13986cd1a1b70c94fec339281e311d8d189",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/overlays/Popover.tsx",
+      "bytes": 9633,
+      "sha256": "90aa187ed39a07d66427f21a6d34664f7d80854ee65084bb9006b59ba1e3da2a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/overlays/Tray.tsx",
+      "bytes": 4602,
+      "sha256": "d5f0a4cf01fbfb25bfc90810b61d5861754b15965eb8c6707b46638f9e55ed03",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/utils/useIsMobileDevice.ts",
+      "bytes": 904,
+      "sha256": "eb51676f924c29a809d4b7a4f43a651688c1dc0749cd20b2c8ea7e511c554653",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/dialog/DialogTrigger.test.js",
+      "bytes": 30602,
+      "sha256": "22615a8a5574937550ab5808fa94e3c5bcd6ef265ab15958e4f268cf16f498c8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/overlays/Popover.test.js",
+      "bytes": 9795,
+      "sha256": "9b868ea35ccfd0c99c8174febc673bc138146bbfcd1456bd122347aadc3683d0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/overlays/Tray.test.js",
+      "bytes": 5425,
+      "sha256": "8c4a6f5f3f80a0852dadcc328d7532102dadbc23d1f4d13000d39d9a58dcb071",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/switch/Switch.tsx",
+      "bytes": 2981,
+      "sha256": "9f409b06851f8cec6de5649ce4bbbbdb6666fd68bd8c19930cda19b176a51501",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/icon/Icon.tsx",
+      "bytes": 3370,
+      "sha256": "7e4a891039f8a1abd6c983988c614fc5844320c8c3b0b9f02fdd758b6df57c1c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/Switch.ts",
+      "bytes": 773,
+      "sha256": "400e4792768cfb38af484a847909139aaa58c2e1d820b3e67f3503b95fd70ed7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/Icon.ts",
+      "bytes": 754,
+      "sha256": "b235af4d20220ab8be6e4994cb677706d728b6ceccf7214f02d54f2ca94884d4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/switch/Switch.test.js",
+      "bytes": 8581,
+      "sha256": "e2fe328219d62325d99523169d251259912f559ce1eff82135152e2d35dc7afe",
+      "category": "source-or-helper",
+      "targetPath": "test/switch/Switch.test.jsx"
+    },
+    {
+      "path": "test/switch/Switch.ssr.test.js",
+      "bytes": 932,
+      "sha256": "53f086a9ef3ceaa13b59603703c0b522ce23f1ea9fe01d84e36ea6d77be5ac53",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/icon/Icon.test.js",
+      "bytes": 2684,
+      "sha256": "3c9e97882eb9f635cee61a8ae01ffe78f0c4afba097d7665b3c113c78047ebe5",
+      "category": "source-or-helper",
+      "targetPath": "test/icon/Icon.test.jsx"
+    },
+    {
+      "path": "exports/Button.ts",
+      "bytes": 771,
+      "sha256": "c31a652a7b71e66a585cc8be687931bfec51b41d9e5fd69642fdef81e6a1c467",
+      "category": "source-or-helper",
+      "adaptation": "Full frozen runtime/type exports retained; legacy css-module-types reference removed in favor of existing native test/css.d.ts."
+    },
+    {
+      "path": "exports/ProgressCircle.ts",
+      "bytes": 863,
+      "sha256": "7ed67a5fefae5f54a337f3c68ebd558cc2f8670852730f5ca51264db2ded2507",
+      "category": "source-or-helper",
+      "adaptation": "Full frozen runtime/type exports retained; legacy css-module-types reference removed in favor of existing native test/css.d.ts."
+    },
+    {
+      "path": "intl/button/lv-LV.json",
+      "bytes": 25,
+      "sha256": "17ead7bbac82380b5e4db420fbc8a81aa961c437b7d911f1094ddf132cf05fa1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/el-GR.json",
+      "bytes": 47,
+      "sha256": "d4813bf5015bc7f7c4156c61346caa8054f4df1220cc75afa00676478bbce4be",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/et-EE.json",
+      "bytes": 25,
+      "sha256": "c47eeb10e039fcd360e1d7a98cef25d4b83240601b74e00e72691a039c1198f9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/it-IT.json",
+      "bytes": 30,
+      "sha256": "760123ee171a0e0e388a25908962acfb4165ec81997ae0a44fcb8fd5179de0fe",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/ko-KR.json",
+      "bytes": 30,
+      "sha256": "2aa22762c882bf2d331c0c4555a6dc615bc1947b91974a8dc25b3347ebe16696",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/es-ES.json",
+      "bytes": 29,
+      "sha256": "5348f51adb4636eaa5300b4f70595843539b4921bc3df8df3415c0109ad4fb02",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/ja-JP.json",
+      "bytes": 26,
+      "sha256": "92324b9870506426a988cb027fd26e8a598ec1698cceb1232296912e1e6badb4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/bg-BG.json",
+      "bytes": 42,
+      "sha256": "8707b61b8940f1d10532ed7b148be55240c49e02cfd663637f1e252cc7fc8712",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/zh-CN.json",
+      "bytes": 29,
+      "sha256": "01a0ede126ad745875ea2d8202d0e5d8574d8b8d87cd0d7b827e304cd8f088bc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/tr-TR.json",
+      "bytes": 29,
+      "sha256": "069e156ec48539ced7a29ae35734e0904c7120166ac15039a5347ac5d954aa7c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/ar-AE.json",
+      "bytes": 43,
+      "sha256": "700f5be46c980911ac9c9398f1f88b450e3933a67cc9a65afab992a5e17bd55c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/hu-HU.json",
+      "bytes": 36,
+      "sha256": "097bcadc1b6e9e4b0bb6a242a044c8dd74fd4adc8a09e530590f846413d9216b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/pt-PT.json",
+      "bytes": 28,
+      "sha256": "fa5e985e4443677698a362931a6ac4c451ffeaf33f368ff46071404faaf74d47",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/sv-SE.json",
+      "bytes": 29,
+      "sha256": "954325a9a56dc1f6b5f9dc047bcdd433757aab31645740ea6ce290498fa32a97",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/ro-RO.json",
+      "bytes": 34,
+      "sha256": "c23e58f4e90cd77f49480b19dd30b93b7c021180a442334005889ee64dec8f05",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/sk-SK.json",
+      "bytes": 30,
+      "sha256": "730f0a45265aa497ebbb07cf51b9526827052fe38d1002f198c8967834b0ac91",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/uk-UA.json",
+      "bytes": 43,
+      "sha256": "61a6de54ec0ad480980110ea08e12d658c9fccf2a2431e76b7bc6f9b919babb8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/lt-LT.json",
+      "bytes": 28,
+      "sha256": "acd7c60d4fc0f7fba19afc7349bdec26fe7acb8ca9000c4c52bbe6a081d1c7ed",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/pl-PL.json",
+      "bytes": 31,
+      "sha256": "b7291b80551e19b2e1b8ced9d53a9fcc78f4b31af8afc14ff9ed4be2c6484ec6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/hr-HR.json",
+      "bytes": 28,
+      "sha256": "31a4661b936b696f8b764f90330abec78ead92ceeba8b4258284f4a0bee2b1f7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/da-DK.json",
+      "bytes": 30,
+      "sha256": "c70140507df1a5cdb5ded90444198005dca899d8b2fe03745ab1fa2be3849e4f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/nb-NO.json",
+      "bytes": 28,
+      "sha256": "7e1f5f1f2ca5e07efdec6910c89599de70e015456cab453e83b2fa7c1d534539",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/pt-BR.json",
+      "bytes": 28,
+      "sha256": "fa5e985e4443677698a362931a6ac4c451ffeaf33f368ff46071404faaf74d47",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/de-DE.json",
+      "bytes": 30,
+      "sha256": "5b95aa3862a28863fe550e8446b61719295d6dffea1981b28446eab4c15dbaa2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/sr-SP.json",
+      "bytes": 29,
+      "sha256": "570f3f563d12b9abc8a62e0f4c13e359f2746abc35c521fc635c0a6012a94ff3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/cs-CZ.json",
+      "bytes": 41,
+      "sha256": "3e74d25a4f3aa7653f0f25fb1b33e8bc070888886f2e9f96acba00cf7a6adf7a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/fr-FR.json",
+      "bytes": 30,
+      "sha256": "38a030eafc941920494fbecbeda230b05e761eb31523c2cf18089e7833311789",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/zh-TW.json",
+      "bytes": 29,
+      "sha256": "d3b598086bddcf2003815b9d8b721f1ed5f5676ecb829cbc864b144cd0fe6154",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/sl-SI.json",
+      "bytes": 26,
+      "sha256": "31c5516295d7439efdbd41215579be1f012e941a34ba4454f5a086a12ec775b7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/ru-RU.json",
+      "bytes": 39,
+      "sha256": "68d1d399a578b1a0307d604888b6484219d4a3ab51e2a483e63ff43c38aaf6fb",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/he-IL.json",
+      "bytes": 33,
+      "sha256": "00ef71ef0bbfaeeea5a3f08e33d11b7908fea1f1a483cf91e58dbf225be40dca",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/nl-NL.json",
+      "bytes": 34,
+      "sha256": "b85d35949d7063607cd9b30fd72bc72a41251d9417d3664b6b869f9fd44c0e3f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/en-US.json",
+      "bytes": 27,
+      "sha256": "e99579790bb5e8b4e7963e8966ea3f90523975a878ba95578443eba748d74993",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/button/fi-FI.json",
+      "bytes": 27,
+      "sha256": "69b91d271f282c9c7964f9036e06665b37dd727e16435a6aa6d5ed893fabbdb7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/progress/ProgressCircle.test.js",
+      "bytes": 7203,
+      "sha256": "af4edcd8d12838abf032e8542b460b32e6b8a7c2da0701d4e46935b89d887a16",
+      "category": "test-or-type-spec",
+      "targetPath": "test/progress/ProgressCircle.test.jsx"
+    },
+    {
+      "path": "exports/Checkbox.ts",
+      "bytes": 783,
+      "sha256": "fec999dd1059cc488bd6c1768bfe3ee825a204aab1513e3a5dcf789ed9986292",
+      "category": "source-or-helper",
+      "adaptation": "Complete frozen exports/types retained; legacy css-module-types reference removed in favor of existing native test/css.d.ts."
+    },
+    {
+      "path": "exports/TextField.ts",
+      "bytes": 805,
+      "sha256": "d3fbc76ed814ba90c320a27d3bb5b8aa0da1e15a6d28f038ee560ca786de7ea9",
+      "category": "source-or-helper",
+      "adaptation": "Complete frozen exports/types retained; legacy css-module-types reference removed in favor of existing native test/css.d.ts."
+    },
+    {
+      "path": "exports/TextArea.ts",
+      "bytes": 787,
+      "sha256": "febc226b1f8bbdc6b05ede26f8ce28e71c1986a659262ea648cbb4f6e71a1bf1",
+      "category": "source-or-helper",
+      "adaptation": "Complete frozen exports/types retained; legacy css-module-types reference removed in favor of existing native test/css.d.ts."
+    },
+    {
+      "path": "exports/SearchField.ts",
+      "bytes": 803,
+      "sha256": "2d9ed95dd768d1d3f6ac6d71f2d035a50828484fb720eb19562d8e5e972eaea1",
+      "category": "source-or-helper",
+      "adaptation": "Complete frozen exports/types retained; legacy css-module-types reference removed in favor of existing native test/css.d.ts."
+    },
+    {
+      "path": "exports/Form.ts",
+      "bytes": 761,
+      "sha256": "0e4db086b85f2ccfe7787b82d8ec7d42e128e20aa8d72d83b5c0730c4d2f8848",
+      "category": "source-or-helper",
+      "adaptation": "Complete frozen exports/types retained; legacy css-module-types reference removed in favor of existing native test/css.d.ts."
+    },
+    {
+      "path": "exports/Flex.ts",
+      "bytes": 814,
+      "sha256": "9efc00c6ee4194c89e4462acf9ede056df8794118b84141b7f32ee896182ec39",
+      "category": "source-or-helper",
+      "adaptation": "Complete frozen exports/types retained; legacy css-module-types reference removed in favor of existing native test/css.d.ts."
+    },
+    {
+      "path": "exports/private/label/Field.ts",
+      "bytes": 73,
+      "sha256": "fdd1b6fc6a6193ae281f55b8e097fea7b772d9afd25e8b59511bd9c3aaf1f43a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/label/Label.ts",
+      "bytes": 90,
+      "sha256": "8a30654b1a7089b891583c6906bc270e60855c7ce4b5fb4c8ee20fbf79343106",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/label/HelpText.ts",
+      "bytes": 54,
+      "sha256": "19bb8040a2cae7ce994c36f1c7f5ad2b492ff512f1643e25133e0c70ae86701d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/button/ClearButton.ts",
+      "bytes": 61,
+      "sha256": "a6b9cabd25144445f51137019ee488ffb816e0c01d024557dd50e7575716952c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/form/Form.ts",
+      "bytes": 53,
+      "sha256": "94b7b9d474e928030150b95a06674557edfe587444fd5ae3e2bfb4fdbceacf65",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/lv-LV.json",
+      "bytes": 67,
+      "sha256": "e4bb08c71732019e4a30724ccee609724a08a0be1af8e666cc211b27036539e0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/el-GR.json",
+      "bytes": 89,
+      "sha256": "ca8820f260f11c3be3d6db7dc7e585f503c74d2cac8e7906496a15dc9c16b243",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/et-EE.json",
+      "bytes": 64,
+      "sha256": "5ff7b88229435bad509a6c620c51c9a76cd0f413a75fbf7482160564f0a39f7c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/it-IT.json",
+      "bytes": 70,
+      "sha256": "ff1fd359f9df3b98115ee099c2b1d3c42970a9a075e4f542a404e24329d0e433",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/ko-KR.json",
+      "bytes": 73,
+      "sha256": "3d39990f4691603636c7f78cb6d4414c9e7e67d6c7d57ab718faef68656b1aec",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/es-ES.json",
+      "bytes": 66,
+      "sha256": "8616673a017cff7da1c886a676a6a6211250c0dd65491016b56f7c2d6988d295",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/ja-JP.json",
+      "bytes": 76,
+      "sha256": "8145a0583b0bb578d56e5857eecebe3357ec30573c0e595f5ed91c62e0e6befd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/bg-BG.json",
+      "bytes": 99,
+      "sha256": "ebf74a1abd616ca8e05aaa6d35b312006a13deef5de7b01cef67c4a218c3ee37",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/zh-CN.json",
+      "bytes": 70,
+      "sha256": "56279209a73d8c299140e58a6523e52a5a58ae8f56272fe4dc6280f85232ac47",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/tr-TR.json",
+      "bytes": 69,
+      "sha256": "cf79863bd20fe16ed5991c73ea49c56345eeb731f07afc8264e5d990c77c674f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/ar-AE.json",
+      "bytes": 71,
+      "sha256": "20a820bf8d89e773d26916411fd550247124ad48f3d633688ea590d281b5b6f0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/hu-HU.json",
+      "bytes": 68,
+      "sha256": "aaf46ef93cc91c72c2c7f76e8a67bded7176448da7e3388a82f57895275df0b6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/pt-PT.json",
+      "bytes": 67,
+      "sha256": "971010d53f2136337b46bc9a5e59ff46c5d03216e96b2fe8a975ec21affed7d1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/sv-SE.json",
+      "bytes": 61,
+      "sha256": "a166c6c87db7a87383ffe8da0f1416e533b26809aaedb13d2cb921a9e73f50db",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/ro-RO.json",
+      "bytes": 67,
+      "sha256": "5e731ae92b6803de097a3e7e8fb24473859af511c7b006a99bb4cff8eb55b47a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/sk-SK.json",
+      "bytes": 65,
+      "sha256": "25c41ca245e14996bfc90fa95d411b618b13e5c433a9b825b5e3e15bfdee63c8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/uk-UA.json",
+      "bytes": 97,
+      "sha256": "902e8c43608d9cc10720821a0e64550df00fcecbfed717134fc1f71bce746344",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/lt-LT.json",
+      "bytes": 67,
+      "sha256": "314b41ac1b340fb22e2a73774f13b875f5932160a8ce9b0a345b8896ef040f7e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/pl-PL.json",
+      "bytes": 65,
+      "sha256": "74f6711dcae3f064764e599de96a75272abee4d2f24d188489ec15e648fd1ba1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/hr-HR.json",
+      "bytes": 64,
+      "sha256": "c9a0aa7bfc61115546f8cc84fda6aed27c7fb6792756a602bff23a949cafa83c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/da-DK.json",
+      "bytes": 67,
+      "sha256": "00305f4cfd96ba51e36b88f850e86dd43e636f15a52b4cb96c69257d6c6bf314",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/nb-NO.json",
+      "bytes": 68,
+      "sha256": "dbd6020ca278ba5a384a5f7901d5a5a7bbd434b2251331d94b61348f03ef3678",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/pt-BR.json",
+      "bytes": 67,
+      "sha256": "971010d53f2136337b46bc9a5e59ff46c5d03216e96b2fe8a975ec21affed7d1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/de-DE.json",
+      "bytes": 67,
+      "sha256": "c46228e6ca96cca8d4bb15bdfc3556a79192084fa2fb49c5fb4059babb2e42e1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/sr-SP.json",
+      "bytes": 62,
+      "sha256": "d737868c63ab51c050b37ef406a35374ee32a4125c29b2c1e4d785f8c9209884",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/cs-CZ.json",
+      "bytes": 69,
+      "sha256": "3617be5dae7bdc1f394ec5c02db1a00ae6eae82ee0ff384c064eddb517f37875",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/fr-FR.json",
+      "bytes": 63,
+      "sha256": "50ec02161ca2fd7a24f60082b384bccb846cd40c010dff7708dc41914db5fb22",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/zh-TW.json",
+      "bytes": 59,
+      "sha256": "50d79b25ebbb9bde8163dfc638a93e6aefe4f49fb4a8ee6b114958be624a9432",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/sl-SI.json",
+      "bytes": 62,
+      "sha256": "7b66c5c3aaad82ba5aec0f12fc1f53c4e887de2cc4ebad9825c958d61eabaa68",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/ru-RU.json",
+      "bytes": 95,
+      "sha256": "848cbb5ef3677ce386036e489134a28c9f8360e44bad5a9cf2754aec6deae4b8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/he-IL.json",
+      "bytes": 73,
+      "sha256": "5bdb3b172163b5e62ce442af8f754440df33ec94ce2ba6772184a2b664049fe5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/nl-NL.json",
+      "bytes": 63,
+      "sha256": "bfbb4c0f093a0df66fcb8840e527a55ebfad762f0b9653cc5fc7f7aeebf57843",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/en-US.json",
+      "bytes": 63,
+      "sha256": "63bb8b785fd39dd093ca59ddf5e52deb892c1598aa2711e960d95eb997b343dc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/label/fi-FI.json",
+      "bytes": 68,
+      "sha256": "793e2934e91a8370eee6795eb83daaf78b16ea40bb5b13034b5dc086b181f1d3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/lv-LV.json",
+      "bytes": 25,
+      "sha256": "c1ef7ebb8d572f1b2ef4e253d66a1ac9b429e4daad142acd257a52916ae9f731",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/el-GR.json",
+      "bytes": 30,
+      "sha256": "ed149402118f95f37a46998d5a1ba9a884774e4642f24ee51397f270ac7c0130",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/et-EE.json",
+      "bytes": 24,
+      "sha256": "06fa1a78f40d5af199bf868ee7447bda09ba99ab0bc1746f37216d04f6262625",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/it-IT.json",
+      "bytes": 24,
+      "sha256": "9318072b39ef746fcf563ed91e105e26179a3075826c30ce100d6338a876a93a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/ko-KR.json",
+      "bytes": 24,
+      "sha256": "3f824aa83d5e0beb50f20be909fb3b2b56162d6a149c74c5ec83b1c68ccc1c07",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/es-ES.json",
+      "bytes": 25,
+      "sha256": "79bb740c0542674837c61c97d9ead1e4a2fb6672cbf58bec9490f65e45feadfa",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/ja-JP.json",
+      "bytes": 24,
+      "sha256": "fafe5978558c5558b960fe4e464e7d7ccc03104260655f7fb852253260d46372",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/bg-BG.json",
+      "bytes": 32,
+      "sha256": "d7613ff9386c9cda706accaf17ae6af93f497358d812e4b27196165d50e399cd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/zh-CN.json",
+      "bytes": 24,
+      "sha256": "9a8cd0f235fd45ede93d6cb01f9b0f45b44ade48a242c8125fdd48cc0825fe5a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/tr-TR.json",
+      "bytes": 26,
+      "sha256": "1c41d7e8dbb57172880c038d7a3cf089e35726ee685f27f74a83c148c351844e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/ar-AE.json",
+      "bytes": 26,
+      "sha256": "d2f3e3332bb76644b82593a91909f59d7fd5e9359cc53e72631f11833f05c535",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/hu-HU.json",
+      "bytes": 28,
+      "sha256": "1caca0c9d106eb3ef6a0a8557c85fc2f3178f90ee2b3382862e222db8fe858a1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/pt-PT.json",
+      "bytes": 25,
+      "sha256": "79bb740c0542674837c61c97d9ead1e4a2fb6672cbf58bec9490f65e45feadfa",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/sv-SE.json",
+      "bytes": 24,
+      "sha256": "08a331de92e25b176185e14c97dae8f89d78e68208b68d6e8023fde18d036196",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/ro-RO.json",
+      "bytes": 25,
+      "sha256": "13121808b958209ac468114c331f0cfe894b3936410fb06e67c0cda6074ab3a9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/sk-SK.json",
+      "bytes": 25,
+      "sha256": "5dd287113d6966dc9dbbc7dcf224f7337d285cf5a4000e5b3df286aaf4378778",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/uk-UA.json",
+      "bytes": 32,
+      "sha256": "434a4367ff2af17cf5d968955679b4b725f9a6748183dad14df736ea5369f772",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/lt-LT.json",
+      "bytes": 25,
+      "sha256": "05a604d5377ea745c5ab741ec19323bb1b3402221d78edffe0a02b6f9baecb3f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/pl-PL.json",
+      "bytes": 24,
+      "sha256": "5eefa0f3628b0b8c89375a395be9b4a851aac8d8f11db9ec0a6d808773eca42d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/hr-HR.json",
+      "bytes": 26,
+      "sha256": "199a46f0a79be09b5800f83c4d81d3a5911a6623ba0c7907c211a7e2083164bc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/da-DK.json",
+      "bytes": 24,
+      "sha256": "097cbcdf79c8c7e1c7953ae9d06102b50389ab55f12cd858383c6bf3ab730843",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/nb-NO.json",
+      "bytes": 24,
+      "sha256": "097cbcdf79c8c7e1c7953ae9d06102b50389ab55f12cd858383c6bf3ab730843",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/pt-BR.json",
+      "bytes": 25,
+      "sha256": "79bb740c0542674837c61c97d9ead1e4a2fb6672cbf58bec9490f65e45feadfa",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/de-DE.json",
+      "bytes": 25,
+      "sha256": "4c53ec1ac1ada78a5e487e98b78b74e9486e3cb1ac351b3f60f489df54b34448",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/sr-SP.json",
+      "bytes": 26,
+      "sha256": "199a46f0a79be09b5800f83c4d81d3a5911a6623ba0c7907c211a7e2083164bc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/cs-CZ.json",
+      "bytes": 25,
+      "sha256": "5dd287113d6966dc9dbbc7dcf224f7337d285cf5a4000e5b3df286aaf4378778",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/fr-FR.json",
+      "bytes": 24,
+      "sha256": "bd0cc0e5d31d674b1d4cd90e4b34402fcaa2bd91e58bdc9373df54f0917b4839",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/zh-TW.json",
+      "bytes": 24,
+      "sha256": "9a8cd0f235fd45ede93d6cb01f9b0f45b44ade48a242c8125fdd48cc0825fe5a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/sl-SI.json",
+      "bytes": 26,
+      "sha256": "2c797725f9083abd661c3304528408661b121fc6cc9855c943f287473f0221c6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/ru-RU.json",
+      "bytes": 46,
+      "sha256": "729db5be3252abe719a00b7fe49eea64b3d7d2e48c1748407c28c02128c98cfc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/he-IL.json",
+      "bytes": 28,
+      "sha256": "84665f15724accdb79a4aac440d0b693fcebfefa5d4e2841e7b89214e02bd39f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/nl-NL.json",
+      "bytes": 24,
+      "sha256": "84dc756959875500afbb9b0bbc43095bc21fb6ea6dafee639262fdc0ee514c10",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/en-US.json",
+      "bytes": 23,
+      "sha256": "ffc43f065a952ba46c1271efe37d9d880ee1a83fdcef35a85958ed720ad3ae56",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/textfield/fi-FI.json",
+      "bytes": 23,
+      "sha256": "ffc43f065a952ba46c1271efe37d9d880ee1a83fdcef35a85958ed720ad3ae56",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/checkbox/Checkbox.test.js",
+      "bytes": 15512,
+      "sha256": "1f0fa4dde3d37276d95c20192e990308871ca9f5b840c061b817ea2e6cfad41d",
+      "category": "test-or-type-spec",
+      "targetPath": "test/checkbox/Checkbox.test.jsx"
+    },
+    {
+      "path": "test/checkbox/Checkbox.ssr.test.js",
+      "bytes": 934,
+      "sha256": "050be30f0309d7c2955083808d2688b2b9645a8ef2562a90fab783d6f49bf975",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/textfield/TextField.test.js",
+      "bytes": 32414,
+      "sha256": "7335ec75f9ae52b6be81112bcbc8f27d83becec47f92567796fb9943910c9cee",
+      "category": "test-or-type-spec",
+      "targetPath": "test/textfield/TextField.test.jsx"
+    },
+    {
+      "path": "test/textfield/TextField.ssr.test.js",
+      "bytes": 938,
+      "sha256": "4daaa0237ef0c323126a01f1bf15c3be099b5737c8e139a1b167cde66a52cec1",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/textfield/TextArea.test.js",
+      "bytes": 4143,
+      "sha256": "c246933ac6e09965615856f95975549955fc4c86de02cf7c2482af60aa83dd3f",
+      "category": "test-or-type-spec",
+      "targetPath": "test/textfield/TextArea.test.jsx"
+    },
+    {
+      "path": "test/textfield/TextArea.ssr.test.js",
+      "bytes": 935,
+      "sha256": "2c973302a38645d4c9a101a3d4613c38287e0b91426f8692445475e16bc3ec82",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/searchfield/SearchField.test.js",
+      "bytes": 11629,
+      "sha256": "d96abec321fa3d9c9bca2243ab0da4ac15f7783347c8b9400a7d6f2cb4e98fd0",
+      "category": "test-or-type-spec",
+      "targetPath": "test/searchfield/SearchField.test.jsx"
+    },
+    {
+      "path": "test/searchfield/SearchField.ssr.test.js",
+      "bytes": 946,
+      "sha256": "54242611687e0868b5e55c3269e4e21b4753a70c266bd2a147e54fc571e1270c",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/label/Field.test.js",
+      "bytes": 7567,
+      "sha256": "81ecc048c213861b33cfbbe482aebda8a286db131ec4df51e3d66ed577a0ac9d",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/form/Form.test.js",
+      "bytes": 7608,
+      "sha256": "65c2be682dfc9ce8220cd0e696ef3942cf175e0a2251957d3e2acb838d7c0487",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/form/Form.ssr.test.js",
+      "bytes": 1095,
+      "sha256": "9d6067498d3d4ab436f0b2b67a2cd6b469c8019288608692b9d3b3b21a6567ac",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/layout/Flex.ssr.test.js",
+      "bytes": 909,
+      "sha256": "0fdc988159f151a8ee9ba7da10837bb052250f835a4a9a646ddb0ecb10ae018f",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "exports/LogicButton.ts",
+      "bytes": 791,
+      "sha256": "c3a9692d04a516f9ee59e73e493bae939e7d6427e9d73027360b582c18cc6999",
+      "category": "source-or-helper",
+      "adaptation": "Complete actual export/types retained; legacy css-module-types reference replaced by existing native test/css.d.ts."
+    },
+    {
+      "path": "exports/private/button/FieldButton.ts",
+      "bytes": 61,
+      "sha256": "e99aa6bec4ecb7a0250358250bf910deba23012b86cc54781f971da3fd2c0562",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/button/LogicButton.tsx",
+      "bytes": 2628,
+      "sha256": "963a0beafd1a4ff51f802afa029b42e95abe8e9a37e3f1ea41b0f4354185aa01",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/button/FieldButton.tsx",
+      "bytes": 2902,
+      "sha256": "ada7de5b03584a598d9fef3316e0f23bfe108f2a621aacca768d74efc782ced2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/button/Button.test.js",
+      "bytes": 15008,
+      "sha256": "ec1006ca70f8be8e70aac8e82e11fd798c6756cd3eb1248e7c72577d3584d29f",
+      "category": "test-or-type-spec",
+      "targetPath": "test/button/Button.test.jsx",
+      "adaptation": "Complete original47/48 literal assertion expressions/parameter tables retained. Native factory/ref/signal adaptations preserved; frozen Jest clearMocks:true mapped locally with clearAllMocks. Explicit CLI selection excludes only3 known Form/Checkbox setup cases; selected44 passes, not full47 qualification."
+    },
+    {
+      "path": "test/button/Button.ssr.test.js",
+      "bytes": 1304,
+      "sha256": "c00ea6c97748cdd562f101370d1812fbaad50665fb33f2045baba268beba6bd4",
+      "category": "test-or-type-spec",
+      "adaptation": "Complete original three-row table plus FieldButton SSR case retained. Each actual source Button child body moved to physical source-faithful fixture and run through existing isolated native server/client testSSR boundary; SSR4 passes."
+    },
+    {
+      "path": "exports/Content.ts",
+      "bytes": 763,
+      "sha256": "26e6e6a138f935b858e5fe04594b5fc88652928032ea2ca61a91735a4aabf0cd",
+      "category": "source-or-helper",
+      "adaptation": "Complete actual frozen export/type API preserved; legacy css-module-types reference replaced by native test/css.d.ts."
+    },
+    {
+      "path": "exports/Footer.ts",
+      "bytes": 759,
+      "sha256": "5282a8d47ce996ff8363468f2d6667f00259ed8f9cd262dd92c90f0a46d5a617",
+      "category": "source-or-helper",
+      "adaptation": "Complete actual frozen export/type API preserved; legacy css-module-types reference replaced by native test/css.d.ts."
+    },
+    {
+      "path": "exports/ContextualHelp.ts",
+      "bytes": 777,
+      "sha256": "d8fdf7a68598e78859d5d260afc889d26cf769fd1a61cabdfd03a2e84a931e44",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/Link.ts",
+      "bytes": 761,
+      "sha256": "ee9740013f0580ca34eac3f46165940c7b2dfeb614d15e6185b10c325b591a6a",
+      "category": "source-or-helper",
+      "adaptation": "Complete actual frozen export/type API preserved; legacy css-module-types reference replaced by native test/css.d.ts."
+    },
+    {
+      "path": "exports/Picker.ts",
+      "bytes": 943,
+      "sha256": "db1e11c9e1ee8ee771075dafef95495a792f70af5a05841f200a99f064aa2a97",
+      "category": "source-or-helper",
+      "adaptation": "Complete actual frozen export/type API preserved; legacy css-module-types reference replaced by native test/css.d.ts."
+    },
+    {
+      "path": "intl/contextualhelp/lv-LV.json",
+      "bytes": 54,
+      "sha256": "c102a50b923c911320524a94d2a57bad87e4e8f443ed952c99f64f958f41524a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/el-GR.json",
+      "bytes": 67,
+      "sha256": "c3a1497cd200c98a8c6fd773a1c09276adb4bbac9bcff958352e1f205ead5867",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/et-EE.json",
+      "bytes": 43,
+      "sha256": "22e288a6ec8bc2eb0b018822a7099e0bd45c1b777f75c0ad74117865aa91e4c2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/it-IT.json",
+      "bytes": 48,
+      "sha256": "4e4efdb7cf31e3f416c6107e716a6ed6cf2807b9017faf77a9bcd85e25376de8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/ko-KR.json",
+      "bytes": 46,
+      "sha256": "aec1a34f7fd4f7bc83d3ff9c34b924d690cdd6eeb75af1454a23ae5f2997cf9d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/es-ES.json",
+      "bytes": 48,
+      "sha256": "ba6efda530dd45e6dbcc24304dd2dc003af0f7dc088338f48970a7a7589d899c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/ja-JP.json",
+      "bytes": 46,
+      "sha256": "09d96e56a936ff300f3c0e45317d33d0f38575acb4b39e0d193409db1466df64",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/bg-BG.json",
+      "bytes": 61,
+      "sha256": "34e66ca8376bf55d0f9f2c925805ce7de40278ffd9457e20a5529a29656a996f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/zh-CN.json",
+      "bytes": 43,
+      "sha256": "4d498f4278246c6681280fe4edd095be16136bd175c735148549579f2471e8be",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/tr-TR.json",
+      "bytes": 46,
+      "sha256": "8f310a96937e0db5e951fa5d4db0d5cf4efcc290621957af05d0bdda30963e18",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/ar-AE.json",
+      "bytes": 57,
+      "sha256": "390fb84572b0377d1968501203589a0d37d5f96834da6354811d89927f9e350b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/hu-HU.json",
+      "bytes": 49,
+      "sha256": "acc1e0eeb98075da9a10d38a60c026a80a22eef94fadea003ba53fbe2a1d27da",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/pt-PT.json",
+      "bytes": 48,
+      "sha256": "4d44f5208e16f03cca076fb2cb5939aa2a49f289106f9e000e47ea93b6d878f5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/sv-SE.json",
+      "bytes": 48,
+      "sha256": "98cb170c16eaf2cbcba85c678d86f26fd08a2bde2dfad9a28334e713fbec1e56",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/ro-RO.json",
+      "bytes": 48,
+      "sha256": "c7e030616f978504cca9549ba1472e663ea09fa6d1593b65f597d1632bf06c12",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/sk-SK.json",
+      "bytes": 47,
+      "sha256": "ca230a11fd21e2dc69e4142a6baafba1ed766a05339455046d42c9dad31e6768",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/uk-UA.json",
+      "bytes": 65,
+      "sha256": "059bc34230f92ca6bf2724188c58c2a9795b8a8de541f9cb6105fae4ee0672c1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/lt-LT.json",
+      "bytes": 50,
+      "sha256": "d834dfb7247f67ed9f3a5706c1875257c2e0c6e1d56a276560854512b8d3484b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/pl-PL.json",
+      "bytes": 46,
+      "sha256": "4e454b6fcffefc5c231b327076a6b5fb3acd0800683c0d8e0c7295f6a2c71c93",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/hr-HR.json",
+      "bytes": 48,
+      "sha256": "62282f188fa89d501c653b7d2e24bc36c3d84837236c0dc1f7243c76c95893ae",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/da-DK.json",
+      "bytes": 48,
+      "sha256": "da07d1761eb0a5745b3af7eae77e0658c01f15118579167477b1dc3ff376a5af",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/nb-NO.json",
+      "bytes": 47,
+      "sha256": "f98683888ff51e93bdfb29ba722c800164e2119c7b7a9eecd6fe487136fb89b3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/pt-BR.json",
+      "bytes": 49,
+      "sha256": "35a515ef5f1ab1933c226f9582c27cca63c158cb9df1278c5e10900ef67d176f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/de-DE.json",
+      "bytes": 49,
+      "sha256": "8ad6ec7c1d7c08568fb78fcc037d150efa73f42235f0a9025bdbf731c314772c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/sr-SP.json",
+      "bytes": 48,
+      "sha256": "62282f188fa89d501c653b7d2e24bc36c3d84837236c0dc1f7243c76c95893ae",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/cs-CZ.json",
+      "bytes": 50,
+      "sha256": "8659e61a25c2d87cd3df126432c5a70afd91f9fecb93d814960b5db28ba3638d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/fr-FR.json",
+      "bytes": 47,
+      "sha256": "aeaaade7c7f073d748884194a981c6cf86b454799477d333b8910e6af6f55894",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/zh-TW.json",
+      "bytes": 43,
+      "sha256": "b00ed6b74b95cd82cf7e6353e976810e1351bb1e1e129cb70e2fb7fec3b89492",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/sl-SI.json",
+      "bytes": 48,
+      "sha256": "9414c13ee6cbc82e8e5dd5c06f1e1efe239885156e1ec374899fe35ae726cdce",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/ru-RU.json",
+      "bytes": 65,
+      "sha256": "e53b5ae8b336d72f3b7d6436c7670d7cb3221ea06d281b64e96b43c4fb7553bd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/he-IL.json",
+      "bytes": 47,
+      "sha256": "f9e1c0f6f4a52431b475a800016b5d2cd7c03bf72fe4425f2c50302f6c4b0a5a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/nl-NL.json",
+      "bytes": 45,
+      "sha256": "3361cd1e87ff216604ec8bb71453119844db1499b9733bd7b7674f6077bab6f7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/en-US.json",
+      "bytes": 46,
+      "sha256": "6b9e80e116a9ba6ff59543b16319111b4ed34110b4699d1d8b9219491b58a8a9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/contextualhelp/fi-FI.json",
+      "bytes": 41,
+      "sha256": "e5ae045f9716eaec180c7d8cf6e44e839bef33f27ff36217a697ce2332243dbc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/lv-LV.json",
+      "bytes": 73,
+      "sha256": "6457f5067d676b2d1861754f7c3f0b82d8f01f91cd0b6fdf9f38269507c054c1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/el-GR.json",
+      "bytes": 75,
+      "sha256": "301efc5b022ceee5d4266c8d3f91e1b0daf8605537358478704a42fc88971b76",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/et-EE.json",
+      "bytes": 62,
+      "sha256": "7817583b176b609bd48a365e3ef72cd3a91abee46890bc7981d174f766abfdba",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/it-IT.json",
+      "bytes": 67,
+      "sha256": "3bd45b48231c5701acca832d4b85805737ed1410649fea92949a312808e2a89e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/ko-KR.json",
+      "bytes": 63,
+      "sha256": "a001ced3fd12c85faaa153813fc604dcc3e4f2795c8240c1182ba2c9376da67c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/es-ES.json",
+      "bytes": 66,
+      "sha256": "2ce4d0be6f6759bc83f967ea5baecaf304b538c989c068aa210eead08772ddf6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/ja-JP.json",
+      "bytes": 68,
+      "sha256": "654a9c15da37127cc68364187bf5c33049e11e3118fc0dd5f93a58bebd2c2649",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/bg-BG.json",
+      "bytes": 81,
+      "sha256": "44b1e6618711bfe0ff485231f5ee556cd67b53c996f9ead6ca8f672dd2fcb3ef",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/zh-CN.json",
+      "bytes": 68,
+      "sha256": "54aef57e701790beb33d04caecda2c8eae76f69bcb33442b9db5f50fa677b1c3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/tr-TR.json",
+      "bytes": 64,
+      "sha256": "1c26f22ac23291807e64aa17aac0d52652e9ae83a822804b80fbd002b4c788ad",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/ar-AE.json",
+      "bytes": 80,
+      "sha256": "acfc1e49088b9961b04dbc7620571f436658d6f13fbba635fbc5fd4e51346eff",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/hu-HU.json",
+      "bytes": 82,
+      "sha256": "9e9752a3f6a9595835bc41d12b6bdb67e953b1c2a6e6cab283a7fa94eb6c512f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/pt-PT.json",
+      "bytes": 67,
+      "sha256": "6327768c1656c75c6370f8e66c5410bd21fbba83546d6bc4af2a519d126a15ad",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/sv-SE.json",
+      "bytes": 61,
+      "sha256": "c638f02cfd5a55587ac5b1b0b0ac3417dc2b9907004c0313398ae63e99f7a164",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/ro-RO.json",
+      "bytes": 69,
+      "sha256": "0e396014d438fa8d8c1f94bd37a650c66da92191367fe25d39ca986e150b95b2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/sk-SK.json",
+      "bytes": 67,
+      "sha256": "a5ca696d85c5288676b4624bf7781b0e6f8913e3566a7769520ce6d32fe12879",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/uk-UA.json",
+      "bytes": 85,
+      "sha256": "7a03855fd6cd84778267d6ce6f7b8d8a2dbb98bb9da95b00ff8ed9a2207e9d20",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/lt-LT.json",
+      "bytes": 67,
+      "sha256": "5e989e04693216e493e981f5382c3acd2e3d7ab0c3ff5746aedab749ed24ea37",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/pl-PL.json",
+      "bytes": 64,
+      "sha256": "7b1f2f6a5befed7991a4576a123541302fab44c81842c386b8f17b51fe5c86d1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/hr-HR.json",
+      "bytes": 65,
+      "sha256": "a04f20ee94a3ef9c720782c515b5e275a40eae6cafc240ae84082c8d284a4ba3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/da-DK.json",
+      "bytes": 62,
+      "sha256": "4f725581b30feece1c69ca55c649e9b537edcf8896192ac950ec8d6165c8a3d2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/nb-NO.json",
+      "bytes": 63,
+      "sha256": "da645f42c74b1208c85b90c2cbcb447bc85893a999a10557a1fa9c52ff4e4715",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/pt-BR.json",
+      "bytes": 67,
+      "sha256": "601e02bf7c667a1dbd4d0d59f047ddfd36bc611a71306e6ed698d6db62d9db6f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/de-DE.json",
+      "bytes": 62,
+      "sha256": "751631d4f0356f6d48445e5376d3454b647b5da65f46237abeb9f46351fb95f3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/sr-SP.json",
+      "bytes": 65,
+      "sha256": "a9722bb80b296852478383a3a919bb457b87e25cfd0669e52b2ce0fceb998546",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/cs-CZ.json",
+      "bytes": 65,
+      "sha256": "ef6e0b295a8065b85ceafbb33e71da849e15016a8a48d370c19ddadad9d59c73",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/fr-FR.json",
+      "bytes": 70,
+      "sha256": "dc0d26aa503abe43e3ebb15ae1a1e0a2df5199ba69b74bab7cb7179bdc8a39a3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/zh-TW.json",
+      "bytes": 62,
+      "sha256": "c3b2c593ae9531b8081b1d77c5054a774bc5839f9e4aa06d0ce4915bd5d9428d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/sl-SI.json",
+      "bytes": 64,
+      "sha256": "7b7cbcf76c6348823d7455f721fa32cdc01632d37d5dac12333890faa9518cba",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/ru-RU.json",
+      "bytes": 77,
+      "sha256": "ca756083cce72e61423d2e2bbd3881954a494ad0a59fc4d33f9f126501353452",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/he-IL.json",
+      "bytes": 61,
+      "sha256": "dde731d907e50de0b3101f80f5b860a9f1d50046c19d1d19f6348f06d450822f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/nl-NL.json",
+      "bytes": 62,
+      "sha256": "61830a74de2346ee988c74c05d4d8a1bf021b31a8135bc6328cda21d34c2a254",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/en-US.json",
+      "bytes": 60,
+      "sha256": "e0ba36d89fcb8cb300e169489bf59dc6bf864b7d0a0d632309d038185de74523",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/picker/fi-FI.json",
+      "bytes": 62,
+      "sha256": "3f18085d476d7cde6b17c6660119bd24c9266cc642765893b952e9fddd2e28ff",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/lv-LV.json",
+      "bytes": 81,
+      "sha256": "34cfa460c221e37c392ae9bd648a904cd07a855c03e06cf76c4146cc18a8dd86",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/el-GR.json",
+      "bytes": 100,
+      "sha256": "2ffcc795bcfe4e0b984f0df23fd8aba80baa17e2bf993bb7e3566063d2335fcf",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/et-EE.json",
+      "bytes": 68,
+      "sha256": "1dd8759af5d6a4801e5df979358578bd07381a38dc148e009ba408a1ef3a89b2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/it-IT.json",
+      "bytes": 75,
+      "sha256": "f1b4b0a0437e1c2ce91441c7caad02ed6693366e17e88d873f1ae0134de2ba77",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/ko-KR.json",
+      "bytes": 71,
+      "sha256": "806698f6f54f7f865d0d0a86e7d086ab2c212c2b3d5d969834c07468a184baf4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/es-ES.json",
+      "bytes": 68,
+      "sha256": "363bc58e2b1c3549fe752a9bcdd86a19ee67874279d6cb2682bdf346fd82e5a7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/ja-JP.json",
+      "bytes": 86,
+      "sha256": "e6d85369871de1aec555901b98e9ddc81ac5940b503958226c6598c97e2247ad",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/bg-BG.json",
+      "bytes": 95,
+      "sha256": "e4e2133d641f332b19e770079b2cc506536b43c38fc7e283590d4e1deac3ec0c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/zh-CN.json",
+      "bytes": 77,
+      "sha256": "84b05f956367f75cbb634ad49c69cb82a768e0b541845217c54409723e0bb4eb",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/tr-TR.json",
+      "bytes": 80,
+      "sha256": "b70073ebfbd21bc1905c17122b573c9957879ec35b1647e5c3a52df8aed1cfde",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/ar-AE.json",
+      "bytes": 102,
+      "sha256": "6f41936fd80219c7012273586d11b9dfd8983f0d406f20187cbf96df5798b9e1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/hu-HU.json",
+      "bytes": 103,
+      "sha256": "de08c5143b594723ea4b155272c8b3269ee9d966919f531278e1767d14e8a88a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/pt-PT.json",
+      "bytes": 72,
+      "sha256": "b3ba9a1cc0b88be7c11e718feb114f4355942452201f70adf4d3edc4d0f8b955",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/sv-SE.json",
+      "bytes": 69,
+      "sha256": "cc985142e967bdd09094080759d77a2ce6228d4912efbb39541d0df9c741fc26",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/ro-RO.json",
+      "bytes": 81,
+      "sha256": "b73c3b4b340e227250380bb8e12aeb38c1126ba7a9af5065f1c4ed7c49ea75f3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/sk-SK.json",
+      "bytes": 78,
+      "sha256": "79ac4d2a1a7d0057ff286a4b830825a6b918ee2786619f4046022e75986d08eb",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/uk-UA.json",
+      "bytes": 124,
+      "sha256": "ceb065f05924d93994b970e1b88cdfd50421a647fe7b9ba751919bad56ef532a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/lt-LT.json",
+      "bytes": 73,
+      "sha256": "684d5baec8eacf0d023cb606c29c23848463ceb01e6f88d431caaf831cf0cdf6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/pl-PL.json",
+      "bytes": 85,
+      "sha256": "0f2e58a59e545d7bb295854cc609430d0564ce93b519d4e308103dcfc920aa97",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/hr-HR.json",
+      "bytes": 70,
+      "sha256": "e9b0a76dab8da1fdbe4811b74332f4659a5835ba4de0f7c251b237210ee50217",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/da-DK.json",
+      "bytes": 73,
+      "sha256": "e004fd1c3a1b24fee7b3806d8343c7880069bc49546f3363d12a97d18e24fa12",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/nb-NO.json",
+      "bytes": 75,
+      "sha256": "697eaa4bb04448e9da345872d9e0ab1002104d2ceb82dabd1a38d86d2cb28a1e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/pt-BR.json",
+      "bytes": 72,
+      "sha256": "8431b65cc18a4f43f22c2c72df520f792968d726631aad3062f96cb04b9c643f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/de-DE.json",
+      "bytes": 63,
+      "sha256": "40f0eaab24985784dff9a66f908394a5d94a3e5c1b080fbbe78e2eecfaebacb2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/sr-SP.json",
+      "bytes": 70,
+      "sha256": "e9b0a76dab8da1fdbe4811b74332f4659a5835ba4de0f7c251b237210ee50217",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/cs-CZ.json",
+      "bytes": 81,
+      "sha256": "c15504022c25fb43ed423646aadc9bfce559b522db0b1c10a1b3d20478968030",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/fr-FR.json",
+      "bytes": 83,
+      "sha256": "1677ffb9d8e0394153ccefbd02f2560d467498e10afba4afd483b30d7df26e07",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/zh-TW.json",
+      "bytes": 74,
+      "sha256": "0be5782f53c796be3d666a609d3f37790cce424cb2d8326e71ef551aa672c990",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/sl-SI.json",
+      "bytes": 78,
+      "sha256": "1c642faf21c9c71086e9c720357a0747a7bdcfbb0dd9b01761fcc51879f86881",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/ru-RU.json",
+      "bytes": 108,
+      "sha256": "3a9d3701e7b149e0847298ac2ef5b37a8cfbf7f1a2c3d67c6837470586d61754",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/he-IL.json",
+      "bytes": 70,
+      "sha256": "29d7b5969f36c3c741be29c99360ec2b900b0b70ef6fa7c0d27ddd5e3f1995f1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/nl-NL.json",
+      "bytes": 62,
+      "sha256": "b9985a8321ac550c3ec5b7bfd396599ffe91ebd480137a55c34acc93e4682dd6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/en-US.json",
+      "bytes": 66,
+      "sha256": "23e6041bd03adc977529d73238c9f500136a085e9150aea450d7ef60a06be615",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/listbox/fi-FI.json",
+      "bytes": 71,
+      "sha256": "6ae2f03b6896c6cf4c89d05e6f61bb46aa6f9530d7087655567dff3ce830f027",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/view/Content.ssr.test.js",
+      "bytes": 918,
+      "sha256": "eefc00cf490504287facd31c7fd37143a851589f7fb781054d5ae92ac1b3e7b2",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/view/Footer.ssr.test.js",
+      "bytes": 915,
+      "sha256": "c55ce1a269b7af7dcbbb068974e36d426913390c34149ff4199e55d6b9f98290",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/contextualhelp/ContextualHelp.test.js",
+      "bytes": 5752,
+      "sha256": "289bca859078629c5e493a36f14da4d7d338fc8b65770874200869f5017ae7e0",
+      "category": "test-or-type-spec",
+      "targetPath": "test/contextualhelp/ContextualHelp.test.jsx"
+    },
+    {
+      "path": "test/link/Link.test.js",
+      "bytes": 5275,
+      "sha256": "c66e3a45ef44bc85df2440699af0f24868367840d400f3116b58c777bd1d4a41",
+      "category": "test-or-type-spec",
+      "targetPath": "test/link/Link.test.jsx"
+    },
+    {
+      "path": "test/link/Link.ssr.test.js",
+      "bytes": 922,
+      "sha256": "f65d7072dbb42dc0446ad096bf4e9a4c50785dd251a798decd80bc7a90c42c83",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/picker/Picker.test.js",
+      "bytes": 91433,
+      "sha256": "41041c71d774a7845bc955504352a68c376bf1e1c67bee4b560fe4df79479c16",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/picker/Picker.ssr.test.js",
+      "bytes": 1203,
+      "sha256": "2033431776c7b27d8da40a1b9bdbba1d08c4632271b2dc979d8be37e69945e2d",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/picker/data.js",
+      "bytes": 11153,
+      "sha256": "8eb44b46a4229a96b40f2e6472383e6bbf040b9284668fdc1e870d87f4984e8b",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/picker/TempUtilTest.test.js",
+      "bytes": 10888,
+      "sha256": "853b6f34039ae679aecdd2d2380ee4b51b45208b50378f3dd5564e9d1c197404",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "exports/ActionGroup.ts",
+      "bytes": 899,
+      "sha256": "d056ffbc1777319ed03ed1cc16e31062f9c43dc0436eb097da292424a8d25708",
+      "category": "source-or-helper",
+      "adaptation": "Complete source export/type contracts retained; legacy CSS module type reference replaced by native test/css.d.ts."
+    },
+    {
+      "path": "exports/Menu.ts",
+      "bytes": 1227,
+      "sha256": "3911eceac325f95e1116a83c8b02c77462984f26419c59f03d47317b729ec6ef",
+      "category": "source-or-helper",
+      "adaptation": "Complete source export/type contracts retained; legacy CSS module type reference replaced by native test/css.d.ts."
+    },
+    {
+      "path": "exports/MenuTrigger.ts",
+      "bytes": 948,
+      "sha256": "80a965785a878f8d0026ab4db5255d54dc400945050abe117e9ef618f26378dd",
+      "category": "source-or-helper",
+      "adaptation": "Complete source export/type contracts retained; legacy CSS module type reference replaced by native test/css.d.ts."
+    },
+    {
+      "path": "exports/Tooltip.ts",
+      "bytes": 921,
+      "sha256": "708331d0c6c3d08767bfc64a3678c2a98b86a40ac50594e2c0d6c99921d9cd9b",
+      "category": "source-or-helper",
+      "adaptation": "Complete source export/type contracts retained; legacy CSS module type reference replaced by native test/css.d.ts."
+    },
+    {
+      "path": "intl/actiongroup/lv-LV.json",
+      "bytes": 32,
+      "sha256": "7821afc00d72e33a62ae5668edd07760a4c9a4caa11d1775e218acbd92646a85",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/el-GR.json",
+      "bytes": 56,
+      "sha256": "a13f927f2cfe383220ae5e5b0f350518f37a92b6897f8649c1056010fd42495c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/et-EE.json",
+      "bytes": 29,
+      "sha256": "48bc1e9d1d5d6f41d62c32d6bccdad7c994740f6a686b0c25e57e046a7031033",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/it-IT.json",
+      "bytes": 31,
+      "sha256": "bd200f1a70911cb94261705f5e7b9c4bff6a348e4ba19db010a6b89f0b7bfbd9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/ko-KR.json",
+      "bytes": 30,
+      "sha256": "d16246a390ccb61169793fb8d234cde481fe5bf748ffa3c6d325de64baa33347",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/es-ES.json",
+      "bytes": 31,
+      "sha256": "5bedbb4f1cf71cb7fbb6f47a89feb9917de9d05921e7c70246478a6a15e93d86",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/ja-JP.json",
+      "bytes": 35,
+      "sha256": "1c5a6b19fffc2ff6c09004ceda938eaea7f1a074e22a1eea9db60ea9e935e689",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/bg-BG.json",
+      "bytes": 40,
+      "sha256": "26832362f05eec026b105473346222e96f7c91eb385d033889c652eaacf7241b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/zh-CN.json",
+      "bytes": 29,
+      "sha256": "b182110ea39f1cb2ee1c742f4dda3f8f4ffcd3b1d30bbd314237d39a595b816a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/tr-TR.json",
+      "bytes": 33,
+      "sha256": "610b7cc4e521adfd90ae73f1739109d3806f0228715690e4c377e6721acbe9f1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/ar-AE.json",
+      "bytes": 49,
+      "sha256": "e9a5a3e94540465e2350e550bd2f7b12fbd8cba97218d4a1176f563991d1d7cc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/hu-HU.json",
+      "bytes": 32,
+      "sha256": "5874e59334efdb77b6790c1dafbbccd311c28e3ae445dc92b1b543a72c3c610d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/pt-PT.json",
+      "bytes": 29,
+      "sha256": "3cd10669996bb18b94b754149723433442f63c3ac9085a209c4f669e1229aa85",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/sv-SE.json",
+      "bytes": 30,
+      "sha256": "d444ebd18e879f9a343598e28ac572d2b12271a33f61d4e6afbf1af8af25fb34",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/ro-RO.json",
+      "bytes": 35,
+      "sha256": "caa9ce59bfaae3589505184797faa309ceaac24c0396bcf6f40eecc1b832c285",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/sk-SK.json",
+      "bytes": 34,
+      "sha256": "d807e9f35402ca997a058982fcf6602901bdc3e43121c60cd33d2f23edcc1fb6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/uk-UA.json",
+      "bytes": 48,
+      "sha256": "36ba80c64e3d6e1a8d4e2b40efcfac739dd30575792bb489daeae5c78cdbd2f5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/lt-LT.json",
+      "bytes": 34,
+      "sha256": "64d7664273250dae9eca74229b326f708ad60c353f484af4a57322ced445d82f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/pl-PL.json",
+      "bytes": 35,
+      "sha256": "f095301a00beb3ffcc50d5ec0aed6f1abbc5890b9b9f03d10daa20718e0ea53d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/hr-HR.json",
+      "bytes": 29,
+      "sha256": "d59140ef589c0bdf594204cb167092eca1f93c026f76e32a807219cd4e23a7f5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/da-DK.json",
+      "bytes": 32,
+      "sha256": "a8714c81f44fc8345d5e63d9eb98d1964d4a69b38365a03dbf97aeb7f6e10983",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/nb-NO.json",
+      "bytes": 32,
+      "sha256": "a8714c81f44fc8345d5e63d9eb98d1964d4a69b38365a03dbf97aeb7f6e10983",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/pt-BR.json",
+      "bytes": 27,
+      "sha256": "7225429ad3ad5bb3622cd7caf32b35598a73f4330fd117468afa2e100d74f1cc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/de-DE.json",
+      "bytes": 33,
+      "sha256": "3ec3d66d171aad232e4684a044fb131bccda0b3d9cbfdc941836bdc07ff8a12e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/sr-SP.json",
+      "bytes": 29,
+      "sha256": "d59140ef589c0bdf594204cb167092eca1f93c026f76e32a807219cd4e23a7f5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/cs-CZ.json",
+      "bytes": 33,
+      "sha256": "d02117229961392bc5002c04bdb2d1d24529b552333db5bfaa7e2dea9f9548f6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/fr-FR.json",
+      "bytes": 36,
+      "sha256": "02ddc4ceeff30b0be9a9c8b2b40cb54892a167b0e51ce27ad9ab94d98f9be152",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/zh-TW.json",
+      "bytes": 29,
+      "sha256": "0c87f4a8983128302eb68873b57a587ea8182ef8a3c9c62e536ec7335bb7c69c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/sl-SI.json",
+      "bytes": 31,
+      "sha256": "f0f013ec51d536706b27d66d8bedc0eb7a1445ab3b2411cd4c4ecaaccd45f01b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/ru-RU.json",
+      "bytes": 62,
+      "sha256": "b17d420bc6dbd4aa931369f4ed93603bea67e52765280970d00ec5bd38a75afd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/he-IL.json",
+      "bytes": 42,
+      "sha256": "007847da5b30f935968f2109211754e15b7f9c0278a96d29838df5fc17d0ceb9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/nl-NL.json",
+      "bytes": 27,
+      "sha256": "7dd16ed3baabd57d3a9d2a3128887aa679e5a14c07771e621bd109ba27ce1cba",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/en-US.json",
+      "bytes": 27,
+      "sha256": "5eceb28608f206856e78006a6b3c7566698bf5d29e8526ad52b4efda480fa7de",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/actiongroup/fi-FI.json",
+      "bytes": 33,
+      "sha256": "8affae9ecd8ea7b06d5e4ab401935a8b32b791ca212515fe199dc006498425d8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/lv-LV.json",
+      "bytes": 171,
+      "sha256": "17c58b267d9954125ddaf41c5d07a3677e56c12c245533accb9b07aac9f33511",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/el-GR.json",
+      "bytes": 223,
+      "sha256": "07a5545af56a472009894e4f937f8aebb7e7b2dd4dff7a700c02eb8584b3b76d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/et-EE.json",
+      "bytes": 156,
+      "sha256": "502ad83449ac1c71e047c06654dcf9f8b35462e7bdf018a2d6fb3a50137732b0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/it-IT.json",
+      "bytes": 140,
+      "sha256": "0750ae713307147909b40265e51a9d2a0c10c8090951749e554e7777828c7421",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/ko-KR.json",
+      "bytes": 166,
+      "sha256": "9b591c7f5b40ad0d7eae5dd6bd3a3f5a5ab5ed5208ca67c1a3bca74c7d30c10f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/es-ES.json",
+      "bytes": 145,
+      "sha256": "fb072a16d5305f4a726f5e9a195c3ad72474c6c53af295bcd3ac50a869f20def",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/ja-JP.json",
+      "bytes": 193,
+      "sha256": "cce62ebb637ccc9ee0c69cee613e5e098121bf5285314f3cf183012afd168ed7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/bg-BG.json",
+      "bytes": 196,
+      "sha256": "f332737d16517b867d27e5a0bacf0fba1c8d48c6cd183adc1778b1c710390181",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/zh-CN.json",
+      "bytes": 139,
+      "sha256": "90b02fbfeed77b5f24b19ed5554567a7adea22611447da8c1b695c8185f2712e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/tr-TR.json",
+      "bytes": 166,
+      "sha256": "79b282c11b7d0e90385c6a8a738ee24594a20e7921bef0472af0aa22564b3ee5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/ar-AE.json",
+      "bytes": 219,
+      "sha256": "0aacea5f9dd2c0266f912cf58886a3a9d38d571ebe894b076fd4dd01b4a56448",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/hu-HU.json",
+      "bytes": 158,
+      "sha256": "fe099a22c412ebcee3cc2b05afd67a509c7c7a616b25ce0cbf64fcb29cdf4e29",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/pt-PT.json",
+      "bytes": 145,
+      "sha256": "cbd8ab0bf1076861e01404c6acb714a188be5cfe357b22071a46f4172e1f1d08",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/sv-SE.json",
+      "bytes": 157,
+      "sha256": "6da74b4a38a04b2e899bc06d79098d044de41733ce09ae5ba756eb054bf4e72f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/ro-RO.json",
+      "bytes": 151,
+      "sha256": "209d23ab0d7da3a806712e8c80b5a66b7c2a705dc963b906fbeef81655de555c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/sk-SK.json",
+      "bytes": 139,
+      "sha256": "83766400aa57751d359643d86a9537ca9afacbb56e975b4f2f83fe8e92f659d7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/uk-UA.json",
+      "bytes": 221,
+      "sha256": "ff039f6b65fe8775addbcf51d66afb46d137143dc3c9a8cb362707bdef1b4740",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/lt-LT.json",
+      "bytes": 174,
+      "sha256": "41b138dd51bae15a7f9caa4d7e056915cb693813698bf680a0823a50c4fd8951",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/pl-PL.json",
+      "bytes": 153,
+      "sha256": "097e620224e99d9289a6f681f0833fc6cfc2fb941e8fd8da86f4c2ddb7d03026",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/hr-HR.json",
+      "bytes": 141,
+      "sha256": "f215c613e10d0561e9f148a76561868323c42e4a165228911f33092d829b6b88",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/da-DK.json",
+      "bytes": 151,
+      "sha256": "dbdf256faddbb7dc023cf3d8bcec7f445d28d494ce7b16998203f9565737e954",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/nb-NO.json",
+      "bytes": 146,
+      "sha256": "769eae134e8e550919c4c1c3399761e8ea13515a0b5683e49e847a8b8cb428af",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/pt-BR.json",
+      "bytes": 147,
+      "sha256": "f56c3a992d9e5f03bed243548502deb314a265a6e069192bb7a9d3dbea6b53ad",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/de-DE.json",
+      "bytes": 145,
+      "sha256": "6d4dfb1e5a1fe26b2b88e64e321280588108f5d632b0f6d23dd8ad4646991687",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/sr-SP.json",
+      "bytes": 143,
+      "sha256": "d47132bb2a64606c046aa607bb081e83b17a51fbf9f51ca1efa61b11937ecea2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/cs-CZ.json",
+      "bytes": 157,
+      "sha256": "71817ab29645c43d611219ea92b476e96834385612fcbc4c01768b876264af98",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/fr-FR.json",
+      "bytes": 154,
+      "sha256": "9f0c9a2d64f300f4affa79f20c8b23d66d1dc40df0ff048a2b97d929eb1c1a10",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/zh-TW.json",
+      "bytes": 142,
+      "sha256": "8dabc9e5a8610dfc6ccaafb044b5968596348b8dbcdc0719160e2a7f6814bcfa",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/sl-SI.json",
+      "bytes": 142,
+      "sha256": "6e5fd97cc1d16c3907c3d7601f3e40779bc77e2b09e5c588a3f82eee78d18076",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/ru-RU.json",
+      "bytes": 222,
+      "sha256": "d9e2e2505af9b9b6bb3bd5e3748c1f06f5cfc86bdcff7214725d9f1ae4f0d689",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/he-IL.json",
+      "bytes": 156,
+      "sha256": "2c64ca809b151bbe231e957bc23b6e6d014166c60cc7633145b90241b5e7e1d1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/nl-NL.json",
+      "bytes": 156,
+      "sha256": "af8e66d68ffc7bd37e4d06b650422fd24520ab7f39da5c22518dd9406fb534f5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/en-US.json",
+      "bytes": 134,
+      "sha256": "0b8378243ad8dfe6b441361a7aa6060f977a3a0a70574d37c5eaf3d08aa70bf9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/menu/fi-FI.json",
+      "bytes": 160,
+      "sha256": "0e074622543441d8782daebfcb83afc46807288140085421ca39490c5f6e1ab2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/actiongroup/ActionGroup.test.js",
+      "bytes": 48563,
+      "sha256": "c691d2a3f567e9bf758fa3d95e350940e0534ffdb2e466d0385141293fdd0996",
+      "category": "test-or-type-spec",
+      "targetPath": "test/actiongroup/ActionGroup.test.jsx"
+    },
+    {
+      "path": "test/actiongroup/ActionGroup.ssr.test.js",
+      "bytes": 1162,
+      "sha256": "24921e9d9c4634bb1e6be8cbad1c45c853c52db37c073ba8586977a21cd1ff78",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/menu/Menu.test.js",
+      "bytes": 35360,
+      "sha256": "e5908f33a8e38da4fac2db12cec1418455d8b834847555cbf7d939c22581eacd",
+      "category": "test-or-type-spec",
+      "targetPath": "test/menu/Menu.test.jsx"
+    },
+    {
+      "path": "test/menu/Menu.ssr.test.js",
+      "bytes": 1026,
+      "sha256": "391546a8c0d87fbc71b946a612aaaa541c77d42ac3f485291b9589b356ffdfaf",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/menu/MenuTrigger.test.js",
+      "bytes": 45121,
+      "sha256": "6b2855f837d51da42e22ac9763e88c872adae1c85514aa82b5a8349cfbe586b9",
+      "category": "test-or-type-spec",
+      "targetPath": "test/menu/MenuTrigger.test.jsx"
+    },
+    {
+      "path": "test/menu/MenuTrigger.ssr.test.js",
+      "bytes": 1174,
+      "sha256": "9fb5d94389b500fa306e0c121816dadc68980539df1763421f3042c78934f6a9",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/tooltip/Tooltip.test.js",
+      "bytes": 1737,
+      "sha256": "c37cfa2a7d8ec7308c0af6f8e0eacea96085254270806c927bbc64cfec401af0",
+      "category": "test-or-type-spec",
+      "targetPath": "test/tooltip/Tooltip.test.jsx"
+    },
+    {
+      "path": "test/tooltip/TooltipTrigger.test.js",
+      "bytes": 38229,
+      "sha256": "00d52c913b2559fa6631a150428b4204f35dcf907f32afa1ad3e87b4057dd887",
+      "category": "test-or-type-spec",
+      "targetPath": "test/tooltip/TooltipTrigger.test.jsx"
+    },
+    {
+      "path": "exports/Keyboard.ts",
+      "sha256": "ff906ac58a8fc608ec8edcc1018b9def6c3172f4b72606fd8f02d63d07c99481",
+      "bytes": 769,
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/text/Keyboard.ssr.test.js",
+      "sha256": "52b9b0340b414025d54fbd68d548118938f2f1863ec0e0edaf5320929b4d60b9",
+      "bytes": 921,
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/menu/SubMenuTrigger.test.tsx",
+      "sha256": "838a4fa37802cd90c23df8fa7a130ce4e3f426d1224db1094ed837d44f93c793",
+      "bytes": 43526,
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "stories/menu/Submenu.stories.tsx",
+      "sha256": "8d01291e37deb1baec715e406596255e7c1ca6482d2edcc9b09ef52a6f5cb2d1",
+      "bytes": 26580,
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "exports/TableView.ts",
+      "bytes": 1023,
+      "sha256": "a412d0c5e3c1f3e24b388538c6af38ee4734f0645132f34dbe7caceee517da16",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/ButtonGroup.ts",
+      "bytes": 801,
+      "sha256": "8ecb8267205e8c430d892ab95316d00a8e13ba633e97de63b8420812051fbb1e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/Divider.ts",
+      "bytes": 779,
+      "sha256": "f77ed8c012329fa736c193a54524418c945fce0165cdd7786e62dce3b5bdf18d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/table/table.css",
+      "bytes": 7869,
+      "sha256": "a761f9bdbe7fac9c90f34fd77f6d62e6d88635b378996ce2425179a1541f7542",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/table/cursors/Cur_MoveToLeft_9_9.svg",
+      "bytes": 1403,
+      "sha256": "80786f991e8405d1c5e9f8207b93fdf5696b556a942bcc9ec16e78df834dac04",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/table/cursors/Cur_MoveToRight_9_9.svg",
+      "bytes": 1418,
+      "sha256": "da22d23dafed3c405c71d9075156baeaec415bb7a986666cf03f938e512d6d9e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/table/cursors/Cur_MoveHorizontal_9_9.svg",
+      "bytes": 1615,
+      "sha256": "a2310f92ea125f08203c317e60c5b87f91435bd668e05954ca9a1561c9c1489c",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/lv-LV.json",
+      "bytes": 350,
+      "sha256": "5f3ae876edd61b8758618c928c551d2fb5dca22e6f26a946aedda7327956c396",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/el-GR.json",
+      "bytes": 484,
+      "sha256": "938069fb27459c8b698c10f32533378791a36dd11d8e1f3dd69394514baaf010",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/et-EE.json",
+      "bytes": 298,
+      "sha256": "214a5a2082447acb13533534bfd8d66a50cb0eca74f77ec003b5a4efd4d356b4",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/it-IT.json",
+      "bytes": 327,
+      "sha256": "1e12a6739c9fd75ab82572555eca1d571acae824cb6339da6ab713be3a8d9b96",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/ko-KR.json",
+      "bytes": 307,
+      "sha256": "afeb6f53d62c6afadaee1238c366b175aef8a74de1cd60793748c11beb8a7a60",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/es-ES.json",
+      "bytes": 325,
+      "sha256": "a02f2f1d1cfc6a8fe3689c668a1dea498583fbeec8cff186ed75fd650b28d844",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/ja-JP.json",
+      "bytes": 334,
+      "sha256": "69ee170d090255feb52a39ddca99744d91c2632288f5bcbff842c177dd335656",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/bg-BG.json",
+      "bytes": 458,
+      "sha256": "7b5d276f944c766cdb3d46136f07d8688fa9254705faaa28a597c98594345ee7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/zh-CN.json",
+      "bytes": 292,
+      "sha256": "631627b486d2452343a48aa3052b32d2e6be2065b1e21043f4520ce508ff330f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/tr-TR.json",
+      "bytes": 335,
+      "sha256": "dd1174e3ca1b881af0ca3f96cc37c6c93f4b14a2ff890d682a6f3441f35380d1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/ar-AE.json",
+      "bytes": 389,
+      "sha256": "b0763066e9f6dfb6403d0f4b40f35620124b4140ca1f4456cd67a063f6081d33",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/hu-HU.json",
+      "bytes": 352,
+      "sha256": "107b21dc27202068f2943602ee7baca2a8f66429776ed26099ed52632985bbec",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/pt-PT.json",
+      "bytes": 338,
+      "sha256": "c8d056cbcc145d312b8b047ad96d0435a9b549bd63898e66a8d77acf58fe67aa",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/sv-SE.json",
+      "bytes": 328,
+      "sha256": "49da3460e684cf6125bb7b1462e812bf112cf8d99c8f3e971f566080441e70bb",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/ro-RO.json",
+      "bytes": 349,
+      "sha256": "b1ff650fb15d8d4444a125ff40dbeeb6a13630196651c4d1900ecdb4cb362632",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/sk-SK.json",
+      "bytes": 340,
+      "sha256": "35919e9818a36a9d08af6e0f011e33c72d3e902e4d6d7511f20f3b90f88c1434",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/uk-UA.json",
+      "bytes": 507,
+      "sha256": "6cc6090fd78422caf7c862b819507b9e8a86f4d346ea1f2432c1b7eaf0812eca",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/lt-LT.json",
+      "bytes": 339,
+      "sha256": "2c02957bab5da441a35fa2a7b2c588126ae4a45efc4c757a601124605ad55bd6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/pl-PL.json",
+      "bytes": 336,
+      "sha256": "b5901119b5ad53c0fd993fd682dc6f8749a121e18cb869dc84280eec81862385",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/hr-HR.json",
+      "bytes": 323,
+      "sha256": "743e657cae67ef0e35bfb71b52c6b8c08269a29494ad5fc8eacc41b804bb05c9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/da-DK.json",
+      "bytes": 302,
+      "sha256": "e23433de447b88b1c270bce327d5d64ed7eb785d966ff71cdf3df08f37b08946",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/nb-NO.json",
+      "bytes": 315,
+      "sha256": "f9fd8da99a4417d5abe366bc061e791cc36d65e76fedf5d5d5b38c119c168a86",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/pt-BR.json",
+      "bytes": 339,
+      "sha256": "d84d141565c46ba8f41b68f88e74fc6b152a2a252620737d4cc8f73d324f121b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/de-DE.json",
+      "bytes": 307,
+      "sha256": "9fed0a060d54f5e133a39f8e8fbfef52da1fac8713bc932d4949432322e8f4f8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/sr-SP.json",
+      "bytes": 351,
+      "sha256": "201615eb7aac4f3bdd58813d450f3c96297c6aff777b9afd93542f684ac0b37f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/cs-CZ.json",
+      "bytes": 337,
+      "sha256": "221da4c8e83774ce29f54f0e820fbcdf49f71277d8e65f076b679e2afecf2184",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/fr-FR.json",
+      "bytes": 361,
+      "sha256": "d0ac92324479458a3e2f02abf44edbb52f1acc0ae76756e144de303d1e9c40c4",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/zh-TW.json",
+      "bytes": 289,
+      "sha256": "5902af6bcc3359e107d4fedbaaf6fa2f7187c61291c94efe4727b27a185f7d9a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/sl-SI.json",
+      "bytes": 338,
+      "sha256": "70e16cb402d12af62e80b5a860cd3d5dc4b444c0f225825a360dae69a7dc3069",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/ru-RU.json",
+      "bytes": 517,
+      "sha256": "835e7376cd51ba92a7998a7b837bf817805c5a12bbe8b58d5f7d836cbc69827b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/he-IL.json",
+      "bytes": 349,
+      "sha256": "bbe1efe54d2c9aa3a828d0875087d191e06b94e8fde6870d204d73f6deafd9ae",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/nl-NL.json",
+      "bytes": 309,
+      "sha256": "9083f66b60cbb7dc86b925cca85ab9e1b8b24de74ee1398ae2635a97687e6350",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/en-US.json",
+      "bytes": 280,
+      "sha256": "916bcd71e58791e3dcc651aad0d9bdb9af44044e44082349a7efcc4dbbe39ce6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/table/fi-FI.json",
+      "bytes": 329,
+      "sha256": "243a38a362d47c88c287414aeeb38a749411393b13a92b54c569720d0395d17b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "test/table/TableTests.js",
+      "bytes": 202365,
+      "sha256": "208f040fc239854bcd1379ca0c7776a704db455ed352b27e2dd129571915fa2b",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/table/TableNestedRows.test.js",
+      "bytes": 3195,
+      "sha256": "97f91b22fedb2119a65c24dfc17256b87bbc4f47628935709aec18eae1deeeb8",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/table/Table.ssr.test.js",
+      "bytes": 4708,
+      "sha256": "1dc9f36525025623488adb02289efd898a2308c620cf481d6c166cbfff930690",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/table/TestTableUtils.test.tsx",
+      "bytes": 13901,
+      "sha256": "48ab2778b758097002c9ff533403a2fb088c081cb0d2cdcc9778915bfc3e97c0",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/table/TableDnd.test.js",
+      "bytes": 151165,
+      "sha256": "554d0409d3d7a8b839fb7c278fff342cb9f65ee7ffc994c5c2f1ab2385cc762e",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/table/Table.test.js",
+      "bytes": 845,
+      "sha256": "b5284d77f535daf95b5e75d537cc06cf0e57b67502ed26058aac03a46772e53d",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/table/TableSizing.test.tsx",
+      "bytes": 70061,
+      "sha256": "2648605aa9fb50742817291e8af5eb92fb5eae81daee25899ce658dc38b3ed52",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/table/TreeGridTable.test.tsx",
+      "bytes": 81474,
+      "sha256": "4024c8227c2d61a3cbba07cec0572552ecb18624d36106853100ad39de34d719",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/buttongroup/ButtonGroup.test.js",
+      "bytes": 7576,
+      "sha256": "b731c7141fc84d1a7cecbfc48e9c1eb891a0a23458e0fe99c46e9896fd506dc4",
+      "category": "test-or-type-spec",
+      "targetPath": "test/buttongroup/ButtonGroup.test.jsx",
+      "nativeSha256AtIntegration": "a46740334cb2f4f8f5383d4e2499f17cd2b62dbdbdf8818c3fb72160850bfd44"
+    },
+    {
+      "path": "test/buttongroup/ButtonGroup.ssr.test.js",
+      "bytes": 1222,
+      "sha256": "dba878a5a252bf1e90dacaf03f1175fdeabb9c6cf5563794a686c6976aa5d1d1",
+      "category": "test-or-type-spec",
+      "nativeSha256AtIntegration": "27872032c5117ab47cf44ddc7405738f71d33d0b8ed23b224de8a579071e39b2"
+    },
+    {
+      "path": "test/divider/Divider.test.js",
+      "bytes": 3897,
+      "sha256": "8406098bd1cdedc399cfae57baafe6c60d86d533a68402d87022b2e76ff879c3",
+      "category": "test-or-type-spec",
+      "targetPath": "test/divider/Divider.test.jsx",
+      "nativeSha256AtIntegration": "8397ec25c8396fb1921aa2220d3fb650f8bf9c64ddb8650a9dc63b000682d3d4"
+    },
+    {
+      "path": "test/divider/Divider.ssr.test.js",
+      "bytes": 918,
+      "sha256": "34b85c58ee015685c320e0f2b40649fc28ee54bf12fc8ff078c46fca4c59d8f3",
+      "category": "test-or-type-spec",
+      "nativeSha256AtIntegration": "12b51dfb378cc03fdd0af5eabe9fd39425f1f006a3a256088396c21bf7beb10d"
+    },
+    {
+      "path": "stories/table/Table.stories.tsx",
+      "sha256": "4e837abb081ff41bbf5ba6b2ad46479f3a8bb2f5acf9aed71051579cc167f3ef",
+      "bytes": 70191,
+      "category": "source-or-helper",
+      "nativeSha256AtIntegration": "de09a882f6ec3fbe57885d8d7a97d38d535eb1abdf7a0be54c81b66edcf7f38a",
+      "adaptation": "S-owned complete native story body now included in p34-s strict scope; actual product/Performance dependencies pending, not qualified."
+    },
+    {
+      "path": "stories/table/CRUDExample.tsx",
+      "sha256": "2d578216b6de7f3f858f5cee716f37bbc846d0024ea93e4027d1f86808a610e4",
+      "bytes": 7259,
+      "category": "source-or-helper",
+      "nativeSha256AtIntegration": "9d3491dbd919a0f5b86324aa665e264cfac8251787a1b0e85767d743d4bb7a18",
+      "adaptation": "S-owned complete native story body now included in p34-s strict scope; actual product/Performance dependencies pending, not qualified."
+    },
+    {
+      "path": "exports/useDragAndDrop.ts",
+      "bytes": 1527,
+      "sha256": "c9d1d6dd7da9467fd9fa87dafdb15f529cf8076ec162cef1b05f495a9e216e1d",
+      "category": "source-or-helper",
+      "nativeSha256AtIntegration": "ae508f90512ae775271ecabf353236ba0a62603b9a2eb54cb47a5b6568bf7bdc",
+      "adaptation": "Complete frozen public useDragAndDrop export: hook/options/hooks, all useDrop runtime constants/guards and all shared drag/drop types preserved. Only legacy css-module-types reference replaced by existing native test/css.d.ts. Existing package aliases resolve actual export; no algorithm changes."
+    },
+    {
+      "path": "exports/AlertDialog.ts",
+      "bytes": 794,
+      "sha256": "1227455ddce2658813a214821a1f08723c02c7eef4589ee7a865cef6166a38fb",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/IllustratedMessage.ts",
+      "bytes": 845,
+      "sha256": "ab08b39dccce66256a55abd390d011fc0ddb945469a76e0d54a5110566ad9176",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/View.ts",
+      "bytes": 751,
+      "sha256": "8b6f6fec1dd3489f4be8689f24bb5f12e13c661a5bb7a99fab14634fb582d3ed",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/icon/Illustration.ts",
+      "bytes": 132,
+      "sha256": "8f9ec897f83197d63afa142bf4590f7862ce573668d3eeda09cad90c4fa302ce",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/dialog/AlertDialog.test.js",
+      "bytes": 9298,
+      "sha256": "f33d9dcccf8e664a18f1c207294c031929272432510c68dac764298240edc039",
+      "category": "test-or-type-spec",
+      "targetPath": "test/dialog/AlertDialog.test.jsx"
+    },
+    {
+      "path": "test/illustratedmessage/IllustratedMessage.test.js",
+      "bytes": 2862,
+      "sha256": "8b7d2e053f0e39c724edf18975e547ce06eba857836ba3c8c106bb4fba69e12c",
+      "category": "test-or-type-spec",
+      "targetPath": "test/illustratedmessage/IllustratedMessage.test.jsx",
+      "nativeSha256AtIntegration": "85d03658035a50ee86c056c44ce4b67510572b0e7e665538a16e816fb2c85fc1"
+    },
+    {
+      "path": "test/illustratedmessage/IllustratedMessage.ssr.test.js",
+      "bytes": 1065,
+      "sha256": "e55800ff8e7ca06c89b40ca586399d4e137fb9e2780d08259e9e74d266074d2f",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/view/View.test.js",
+      "bytes": 875,
+      "sha256": "897456056a5250fdd4cdc06d1996cdb0c13a0ca818b9cef271d4028b15c7ab4c",
+      "category": "test-or-type-spec",
+      "targetPath": "test/view/View.test.js",
+      "nativeSha256AtIntegration": "76f7cb7327be8ded64ef6f2cca13b5d79da6fdace965855c0477e53888401e58"
+    },
+    {
+      "path": "test/view/View.ssr.test.js",
+      "bytes": 909,
+      "sha256": "f473f893cf0471c6e8506a05e88c5f45dee8d799f9de520fa08ace234d03d5e6",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "exports/RadioGroup.ts",
+      "bytes": 889,
+      "sha256": "20926c3808d124d23f3508e292aa0a81a1a11dcedc46130c0355cd561076d751",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/Breadcrumbs.ts",
+      "bytes": 899,
+      "sha256": "51f9b4a440a862e727ed6b66fb1e5b536d9444ddd2dcf97962952c974f151cd4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/radio/Radio.test.js",
+      "bytes": 47455,
+      "sha256": "32a545c28b52cf94910fb5f11a65db38904cf95ebf266b916cf5f733cac0792a",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/radio/Radio.ssr.test.js",
+      "bytes": 1016,
+      "sha256": "0be77d13635b77d515e64fe0497ef60d13bae72e39d8bd65a54c6d6d8268f36c",
+      "category": "test-or-type-spec",
+      "nativeSha256AtIntegration": "7c571194c3b9dbd93fcf736cfb583905b8b80bf32c9d8e4904bd765cb0f8a990"
+    },
+    {
+      "path": "test/breadcrumbs/Breadcrumbs.test.js",
+      "bytes": 15796,
+      "sha256": "6d832be44c5bb79125973042d4d65d01e600479d52b2c6fd8e79630c1161027b",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/breadcrumbs/Breadcrumbs.ssr.test.js",
+      "bytes": 991,
+      "sha256": "49ab27c9a705186bd8ace0cc7344f56d0a2be51d75007a463705d923f2f607f4",
+      "category": "test-or-type-spec",
+      "nativeSha256AtIntegration": "88ab3c453c2bf2a50b2f51fc9792282bc97e2d58bd3345466fc605261641408c"
+    },
+    {
+      "path": "test/breadcrumbs/BreadcrumbItem.test.js",
+      "bytes": 2765,
+      "sha256": "ca49625a92a32de32c521104ce3d8fce533768cdd4d775cae3c699a8931c82a8",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "exports/TagGroup.ts",
+      "bytes": 840,
+      "sha256": "235d1054dfbf39386c003d5cf9385443bcb4ec64ed0167d805082a9d5d7ed7ed",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/ProgressBar.ts",
+      "bytes": 801,
+      "sha256": "e25d716ba6453d978987b2edaea50cd468e853cae30858fbd56e1c33079e91ab",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/progress/ProgressBarBase.ts",
+      "bytes": 112,
+      "sha256": "e4e97694b3978d7e297a9faa259a19593853edb013d45a51e331170d614bcacc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/lv-LV.json",
+      "bytes": 148,
+      "sha256": "9c0b0ae39495e904f613b48326af04b4249189df5d8b0d678a6206a052b6f286",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/el-GR.json",
+      "bytes": 200,
+      "sha256": "08cb1e66a119a8b0a7ce634041a1e4598e9edc5a4e78ed19912fcf0117b4a9f7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/et-EE.json",
+      "bytes": 146,
+      "sha256": "19f2e32903260f920628b886196c8e7118861c96cbe16529e8e321e85df3c314",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/it-IT.json",
+      "bytes": 146,
+      "sha256": "c6c1025319d11c22b56dd483a0be942d17801a8a68b507392b0f28bd2641abb4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/ko-KR.json",
+      "bytes": 151,
+      "sha256": "960a07fd3b8b046d6386d2e7b9df0da55f74ac8895e348a4f6af48d1ed0b5320",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/es-ES.json",
+      "bytes": 150,
+      "sha256": "8545b321a7aeaa7b583e846d6178c427fe2044781b9493a1d6e261baf3a80a7f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/ja-JP.json",
+      "bytes": 171,
+      "sha256": "752fb6ffbab09d12705d1c4719bab23a242500bad42874b7a43f6c145939bcef",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/bg-BG.json",
+      "bytes": 218,
+      "sha256": "387c9bf554ad33a780e4b936265c1ed75bfa441ad369a3f1b47cb1568df5aa01",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/zh-CN.json",
+      "bytes": 143,
+      "sha256": "a5140d450a84cc3dd11a30492f88f7bbaed05b6ceae7012ed40d20dbf453271c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/tr-TR.json",
+      "bytes": 158,
+      "sha256": "d3a1c4eb03f00dc862226e59285e798902618d0f75b54bb7b30f33fbcf4d6ea8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/ar-AE.json",
+      "bytes": 168,
+      "sha256": "36472bf3e374e58f50edc00c386eade258be6c0741c3788aeae338ca2a2cad91",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/hu-HU.json",
+      "bytes": 172,
+      "sha256": "0e6bb0ca7a5774d9348c137d63f1c29cd73a9af3d64e13e4bce717850f99593c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/pt-PT.json",
+      "bytes": 148,
+      "sha256": "3df584bf2e2045f1cb35cb6f1f20678dc3ea909b57e59b43f39312e7909261af",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/sv-SE.json",
+      "bytes": 145,
+      "sha256": "8b0e00c5399b2821d4efe06fabdd41f027834af41bd1ed9f749a076aae75af81",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/ro-RO.json",
+      "bytes": 166,
+      "sha256": "183cb1c8ee6bdbc7ee96f2dc47c166aa5c189d2591e4a725273ef3e3256abc22",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/sk-SK.json",
+      "bytes": 154,
+      "sha256": "8d88ff1378310bd521b248ac6ee3195016527f183dd556635bd79889ef03f80a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/uk-UA.json",
+      "bytes": 180,
+      "sha256": "9a88eda7bcd2f89c48d6bee09d28f62259de077162811402ffdc92fa66d806c4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/lt-LT.json",
+      "bytes": 150,
+      "sha256": "a31e05ac718c7bb895563459c51a5fa08e245622585e3a44a4ee160a489308c4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/pl-PL.json",
+      "bytes": 154,
+      "sha256": "0953effda2817741f00b2ba34275d4f49807b5ef93a5682d5602ee1684bc9c53",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/hr-HR.json",
+      "bytes": 146,
+      "sha256": "4beea3cb1519e8648ba945805b3c855e31a53611cbbc67d8c47f90478442da8a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/da-DK.json",
+      "bytes": 143,
+      "sha256": "26586040d87e22ef14bb246479d4698da0060c3a962e4fe66d586d4e1e35cde2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/nb-NO.json",
+      "bytes": 143,
+      "sha256": "26586040d87e22ef14bb246479d4698da0060c3a962e4fe66d586d4e1e35cde2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/pt-BR.json",
+      "bytes": 148,
+      "sha256": "3df584bf2e2045f1cb35cb6f1f20678dc3ea909b57e59b43f39312e7909261af",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/de-DE.json",
+      "bytes": 150,
+      "sha256": "bda590a3195de63b21bf03f36ac4c94428d5eee28adba8ba197df15fbe9f8e40",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/sr-SP.json",
+      "bytes": 152,
+      "sha256": "5a89f7de6f08411baebc93e263d0dbc9ace707c7993c80fd63706948d54fe80b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/cs-CZ.json",
+      "bytes": 150,
+      "sha256": "be9ed62101ba856f3ffc9a669389ee68ae36ac01b93bc49bef1875b1296240c0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/fr-FR.json",
+      "bytes": 149,
+      "sha256": "db9878fecd6fabffa47a40909a5daa62d289659d2e3f7567e01fadca08cbbec6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/zh-TW.json",
+      "bytes": 143,
+      "sha256": "fa7b84da10a891cecf4da4b097c0731e6c0480ef5d01b227228b281580404264",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/sl-SI.json",
+      "bytes": 145,
+      "sha256": "639bb5c4ff9c9ba3161e39c1556cd3e12d978567b8d4690849e12d0178828cd1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/ru-RU.json",
+      "bytes": 184,
+      "sha256": "c49f62c90094847b7a267355a8d6e413871c4a1ef1c1768ac9b46c06b8ea33aa",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/he-IL.json",
+      "bytes": 156,
+      "sha256": "94d40e4e71f490bcf2f7972700000a43a74a8b310a55b6853922682bf50d318c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/nl-NL.json",
+      "bytes": 147,
+      "sha256": "a3ada519ccb0d1337e7cf2f1b950c344bffd134854a0186ca96ad55873498434",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/en-US.json",
+      "bytes": 138,
+      "sha256": "2047247d0a0b932e92a5ff5065d952dd665ba58d4062a01b10b6a3cd55eb1634",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/tag/fi-FI.json",
+      "bytes": 162,
+      "sha256": "4ef39378f7abf68695da37892ed10ab47c64edfd4a79a9cd10d451ed89bf560b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/tag/TagGroup.test.js",
+      "bytes": 31410,
+      "sha256": "749a64b509a15a6c9076e108b152eef7f6958a27e87ae84919d1137c1318d78c",
+      "category": "source-or-helper",
+      "targetPath": "test/tag/TagGroup.test.jsx",
+      "nativeSha256AtIntegration": "5af21b3709748629d02fcb8c497491377b9edba393cc9635389fdd1b9017e27f"
+    },
+    {
+      "path": "test/tag/TagGroup.ssr.test.js",
+      "bytes": 1275,
+      "sha256": "73af3eb12763128991a140a6245cccd062d964c254091eba64b43e00932f591d",
+      "category": "source-or-helper",
+      "targetPath": "test/tag/TagGroup.ssr.test.js",
+      "nativeSha256AtIntegration": "71221df00baebfad4bb58602c3a4476e239de5c678344600e6d265f78c866af0"
+    },
+    {
+      "path": "test/progress/ProgressBar.test.js",
+      "bytes": 4351,
+      "sha256": "0fe6262983f42bf8ea2a4290429188a6bacc11120a25b66b30922d555de249a7",
+      "category": "source-or-helper",
+      "targetPath": "test/progress/ProgressBar.test.js",
+      "nativeSha256AtIntegration": "955b2df5e063f148f6323ae5de2146055ab9e152c4bf396767ae3ea167e02934"
+    },
+    {
+      "path": "test/progress/ProgressBar.ssr.test.js",
+      "bytes": 952,
+      "sha256": "9638e69919e0bbd0e60f506dcd35b2d15fa555e9dc0395aff77d152ab1338b29",
+      "category": "source-or-helper",
+      "targetPath": "test/progress/ProgressBar.ssr.test.js",
+      "nativeSha256AtIntegration": "5e24e5b60943bf4a838ce3620dd4a1c9632518b22fc313552a4a584cc97901f9"
+    },
+    {
+      "path": "stories/table/Performance.tsx",
+      "bytes": 7089,
+      "sha256": "059f9839cf55922be6499c61e158e49e6dabe086c832efbbc46619cf38a659de",
+      "category": "source-or-helper",
+      "targetPath": "stories/table/Performance.tsx",
+      "nativeSha256AtIntegration": "bd4fd5899a3f00ec67d2584e74c5460f96c434973da19206744ebada245f7f80"
+    },
+    {
+      "path": "exports/StatusLight.ts",
+      "bytes": 803,
+      "sha256": "0739a36c92b062baa4a40c3a3e8e90e78969d63302b55478c5aad75a71888130",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/statuslight/StatusLight.test.js",
+      "bytes": 3572,
+      "sha256": "95e83d1179d8eb83c8e8dce84c7c6561e952e3313596e156731aea80614a5a4e",
+      "category": "test-or-type-spec",
+      "targetPath": "test/statuslight/StatusLight.test.jsx",
+      "nativeSha256AtIntegration": "0c59abc1bc5651951a3a01f274b3b18962e6c69b9159cd55c42ff79fcfc91089"
+    },
+    {
+      "path": "test/statuslight/StatusLight.ssr.test.js",
+      "bytes": 949,
+      "sha256": "815eff3c1cc1f052e01ce01f357cc9e1bd19dc8e3e0947ce176d39af56ca6f96",
+      "category": "test-or-type-spec",
+      "targetPath": "test/statuslight/StatusLight.ssr.test.js",
+      "nativeSha256AtIntegration": "4155e37a2944361d2a008ae5406b325546d871ff1e2bfc13c6577a3b7fa0fe6d"
+    },
+    {
+      "path": "exports/Meter.ts",
+      "bytes": 767,
+      "sha256": "11b1ca2deb49a18e981968e89debb837cbac80383a18e0b34ac2f8d4d7e226a9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/meter/Meter.test.js",
+      "bytes": 3471,
+      "sha256": "8bddfb79f0ac5830b3a9871d53e98a2026a556925e861aba66d6a902a57f030c",
+      "category": "test-or-type-spec",
+      "targetPath": "test/meter/Meter.test.js",
+      "nativeSha256AtIntegration": "e0b67cf4812aeaccfc603631f910bcf7b6560763868a4c4d9ca11b1fe4ebc071"
+    },
+    {
+      "path": "test/meter/Meter.ssr.test.js",
+      "bytes": 953,
+      "sha256": "81f202ba0e76b250ea522d50cec411c50c30a19ca904f0a9452fa1f4dae898d7",
+      "category": "test-or-type-spec",
+      "targetPath": "test/meter/Meter.ssr.test.js",
+      "nativeSha256AtIntegration": "b718fc6f040ec850ab445a2e2457a21c0fb79451b5953124339298fdde93d28c"
+    },
+    {
+      "path": "exports/Well.ts",
+      "bytes": 759,
+      "sha256": "a7f51315aefa82ce654dd137eef9aac10888ca77337b6de1a41d907de6e974a6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/well/Well.test.js",
+      "bytes": 3346,
+      "sha256": "c0cb8f5a4274914dd034a823af4838d7f9c2bd61455173dd2d49f4b68eb23da4",
+      "category": "test-or-type-spec",
+      "targetPath": "test/well/Well.test.jsx",
+      "nativeSha256AtIntegration": "234b59a4c67dc1a9c0e322b31c9629200cd7416a17a96766112582d7cb0aa52c"
+    },
+    {
+      "path": "test/well/Well.ssr.test.js",
+      "bytes": 909,
+      "sha256": "7a56d80d48c33762ab4865e54851d7e93f945903e7e58cb144015ec3514d48b5",
+      "category": "test-or-type-spec",
+      "targetPath": "test/well/Well.ssr.test.js",
+      "nativeSha256AtIntegration": "cf6e53442dfd1ccc6f09617a1f746d4ca3b3dc0a052509b3db0b37a4bb3f09a7"
+    },
+    {
+      "path": "exports/Badge.ts",
+      "bytes": 767,
+      "sha256": "37b3e8cfaec88281305daccd31e36edc49943d4e1a8e59463d17535ad139f834",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/badge/Badge.test.js",
+      "bytes": 2660,
+      "sha256": "e1ef8d8391939a8dd1edb960cff91f03b9c92bdc4a22f4ded784d73dce2dc07e",
+      "category": "test-or-type-spec",
+      "targetPath": "test/badge/Badge.test.js",
+      "nativeSha256AtIntegration": "e1ef8d8391939a8dd1edb960cff91f03b9c92bdc4a22f4ded784d73dce2dc07e"
+    },
+    {
+      "path": "test/badge/Badge.ssr.test.js",
+      "bytes": 929,
+      "sha256": "7b95d13047f132e193661e9a026e7a761eb1678276b10723c760b1d35eca673b",
+      "category": "test-or-type-spec",
+      "targetPath": "test/badge/Badge.ssr.test.js",
+      "nativeSha256AtIntegration": "7b95d13047f132e193661e9a026e7a761eb1678276b10723c760b1d35eca673b"
+    }
+  ],
+  "extractions": [
+    {
+      "sourcePath": "test/switch/Switch.ssr.test.js",
+      "sourceSha256": "53f086a9ef3ceaa13b59603703c0b522ce23f1ea9fe01d84e36ea6d77be5ac53",
+      "sourceLines": [
+        20,
+        22
+      ],
+      "targetPath": "../../../test/ssr-harness/p14-switch-basic.tsx",
+      "adaptation": "Source-derived physical Spectrum Switch fixture compiled separately by existing SSR helper; qualification U-owned, no full conditional form-action parity claim."
+    },
+    {
+      "sourcePath": "test/checkbox/Checkbox.ssr.test.js",
+      "sourceSha256": "050be30f0309d7c2955083808d2688b2b9645a8ef2562a90fab783d6f49bf975",
+      "sourceLines": [
+        20,
+        21
+      ],
+      "targetPath": "../../../test/ssr-harness/p29-checkbox-basic.tsx",
+      "adaptation": "Owner-extracted complete original JSX fixture with actual native source components, genuine provider/theme where present, and explicit native empty children where needed; existing isolated physical server compiler/testSSR reused. No new assertions."
+    },
+    {
+      "sourcePath": "test/form/Form.ssr.test.js",
+      "sourceSha256": "9d6067498d3d4ab436f0b2b67a2cd6b469c8019288608692b9d3b3b21a6567ac",
+      "sourceLines": [
+        20,
+        26
+      ],
+      "targetPath": "../../../test/ssr-harness/p29-form-default.tsx",
+      "adaptation": "Owner-extracted complete original JSX fixture with actual native source components, genuine provider/theme where present, and explicit native empty children where needed; existing isolated physical server compiler/testSSR reused. No new assertions."
+    },
+    {
+      "sourcePath": "test/layout/Flex.ssr.test.js",
+      "sourceSha256": "0fdc988159f151a8ee9ba7da10837bb052250f835a4a9a646ddb0ecb10ae018f",
+      "sourceLines": [
+        20,
+        21
+      ],
+      "targetPath": "../../../test/ssr-harness/p29-flex-default.tsx",
+      "adaptation": "Owner-extracted complete original JSX fixture with actual native source components, genuine provider/theme where present, and explicit native empty children where needed; existing isolated physical server compiler/testSSR reused. No new assertions."
+    },
+    {
+      "sourcePath": "test/textfield/TextField.ssr.test.js",
+      "sourceSha256": "4daaa0237ef0c323126a01f1bf15c3be099b5737c8e139a1b167cde66a52cec1",
+      "sourceLines": [
+        20,
+        22
+      ],
+      "targetPath": "../../../test/ssr-harness/p29-textfield-basic.tsx",
+      "fixtureSha256AtIntegration": "677c4532a55b7451dbd4fb23e3c40d6931ef9180482056cad2baced2a54b3982",
+      "adaptation": "T-owned complete original labeled source component SSR fixture, with native direct import; existing isolated physical server compiler/testSSR retained. No additional SSR assertions."
+    },
+    {
+      "sourcePath": "test/textfield/TextArea.ssr.test.js",
+      "sourceSha256": "2c973302a38645d4c9a101a3d4613c38287e0b91426f8692445475e16bc3ec82",
+      "sourceLines": [
+        20,
+        22
+      ],
+      "targetPath": "../../../test/ssr-harness/p29-textarea-basic.tsx",
+      "fixtureSha256AtIntegration": "168badd76aa39d4bf0a336c69ece2595e0a8d8c40622dca38dbbca34e59cbfe4",
+      "adaptation": "T-owned complete original labeled source component SSR fixture, with native direct import; existing isolated physical server compiler/testSSR retained. No additional SSR assertions."
+    },
+    {
+      "sourcePath": "test/searchfield/SearchField.ssr.test.js",
+      "sourceSha256": "54242611687e0868b5e55c3269e4e21b4753a70c266bd2a147e54fc571e1270c",
+      "sourceLines": [
+        20,
+        22
+      ],
+      "targetPath": "../../../test/ssr-harness/p29-searchfield-basic.tsx",
+      "fixtureSha256AtIntegration": "8c2446984f31e5f1e8ae038979015c7433740ff6cb1e970e9848285b9ae089dd",
+      "adaptation": "T-owned complete original labeled source component SSR fixture, with native direct import; existing isolated physical server compiler/testSSR retained. No additional SSR assertions."
+    },
+    {
+      "sourcePath": "test/button/Button.ssr.test.js",
+      "sourceSha256": "c00ea6c97748cdd562f101370d1812fbaad50665fb33f2045baba268beba6bd4",
+      "sourceLines": [
+        25,
+        26
+      ],
+      "sourceParameterRow": "ActionButton",
+      "targetPath": "../../../test/ssr-harness/p30-button-action.tsx",
+      "fixtureSha256AtIntegration": "5f9a4c9ae63624fad401005b6c193565c72c2e6b93df2b89c1b47dd77554ff45",
+      "adaptation": "Complete original Button-text child/body retained with direct actual source import. Button/LogicButton use erased empty-source-prop type assertions because original JS omits required variant; no variant fabricated. Existing isolated physical SSR compiler/testSSR reused."
+    },
+    {
+      "sourcePath": "test/button/Button.ssr.test.js",
+      "sourceSha256": "c00ea6c97748cdd562f101370d1812fbaad50665fb33f2045baba268beba6bd4",
+      "sourceLines": [
+        25,
+        26
+      ],
+      "sourceParameterRow": "Button",
+      "targetPath": "../../../test/ssr-harness/p30-button-standard.tsx",
+      "fixtureSha256AtIntegration": "82ed40a0ef4a46b5a42ca85a15827cfa6f0fa8f88c044916ea75f3e6227725d2",
+      "adaptation": "Complete original Button-text child/body retained with direct actual source import. Button/LogicButton use erased empty-source-prop type assertions because original JS omits required variant; no variant fabricated. Existing isolated physical SSR compiler/testSSR reused."
+    },
+    {
+      "sourcePath": "test/button/Button.ssr.test.js",
+      "sourceSha256": "c00ea6c97748cdd562f101370d1812fbaad50665fb33f2045baba268beba6bd4",
+      "sourceLines": [
+        25,
+        26
+      ],
+      "sourceParameterRow": "LogicButton",
+      "targetPath": "../../../test/ssr-harness/p30-button-logic.tsx",
+      "fixtureSha256AtIntegration": "ba0f083cecda30becf34243c9f63de3d5f2d82d80a00c2c9acf4f806a0844117",
+      "adaptation": "Complete original Button-text child/body retained with direct actual source import. Button/LogicButton use erased empty-source-prop type assertions because original JS omits required variant; no variant fabricated. Existing isolated physical SSR compiler/testSSR reused."
+    },
+    {
+      "sourcePath": "test/button/Button.ssr.test.js",
+      "sourceSha256": "c00ea6c97748cdd562f101370d1812fbaad50665fb33f2045baba268beba6bd4",
+      "sourceLines": [
+        35,
+        36
+      ],
+      "sourceParameterRow": "FieldButton",
+      "targetPath": "../../../test/ssr-harness/p30-button-field.tsx",
+      "fixtureSha256AtIntegration": "673673161443cc21c814120de62bbbbd5fdcc4e085441e87d3378aef1cc6676d",
+      "adaptation": "Complete original Button-text child/body retained with direct actual source import. Button/LogicButton use erased empty-source-prop type assertions because original JS omits required variant; no variant fabricated. Existing isolated physical SSR compiler/testSSR reused."
+    },
+    {
+      "sourcePath": "test/view/Content.ssr.test.js",
+      "sourceSha256": "eefc00cf490504287facd31c7fd37143a851589f7fb781054d5ae92ac1b3e7b2",
+      "sourceLines": [
+        20,
+        21
+      ],
+      "targetPath": "../../../test/ssr-harness/p31-content-fixture.tsx",
+      "fixtureSha256AtIntegration": "1c21f8235ce8d877a11197bdbf2dce265024620ab506cde817b899669c930400",
+      "adaptation": "Complete actual owner-extracted original SSR body retained with real native components and existing isolated physical compiler/testSSR. Picker includes real Provider/theme and all three Item children; fixture existence does not claim Picker implementation/SSR qualification."
+    },
+    {
+      "sourcePath": "test/view/Footer.ssr.test.js",
+      "sourceSha256": "c55ce1a269b7af7dcbbb068974e36d426913390c34149ff4199e55d6b9f98290",
+      "sourceLines": [
+        20,
+        21
+      ],
+      "targetPath": "../../../test/ssr-harness/p31-footer-fixture.tsx",
+      "fixtureSha256AtIntegration": "e7f04c4ace1810c53408ea0db1a4c510f861fd16aaca2a834d83ab5b163e7dc3",
+      "adaptation": "Complete actual owner-extracted original SSR body retained with real native components and existing isolated physical compiler/testSSR. Picker includes real Provider/theme and all three Item children; fixture existence does not claim Picker implementation/SSR qualification."
+    },
+    {
+      "sourcePath": "test/link/Link.ssr.test.js",
+      "sourceSha256": "f65d7072dbb42dc0446ad096bf4e9a4c50785dd251a798decd80bc7a90c42c83",
+      "sourceLines": [
+        20,
+        21
+      ],
+      "targetPath": "../../../test/ssr-harness/p31-link-basic.tsx",
+      "fixtureSha256AtIntegration": "f62587c7eb3ccccf7a3b4f58c4fe4af0e27d7cbcc621d47231bdc82153d7a617",
+      "adaptation": "Complete actual owner-extracted original SSR body retained with real native components and existing isolated physical compiler/testSSR. Picker includes real Provider/theme and all three Item children; fixture existence does not claim Picker implementation/SSR qualification."
+    },
+    {
+      "sourcePath": "test/picker/Picker.ssr.test.js",
+      "sourceSha256": "2033431776c7b27d8da40a1b9bdbba1d08c4632271b2dc979d8be37e69945e2d",
+      "sourceLines": [
+        20,
+        30
+      ],
+      "targetPath": "../../../test/ssr-harness/p31-picker-basic.tsx",
+      "fixtureSha256AtIntegration": "f26b934c859429bad50619ed53e1cbe301568b38a81fab3076fa773f0adca6aa",
+      "adaptation": "Complete actual owner-extracted original SSR body retained with real native components and existing isolated physical compiler/testSSR. Picker includes real Provider/theme and all three Item children; fixture existence does not claim Picker implementation/SSR qualification."
+    },
+    {
+      "sourcePath": "test/menu/MenuTrigger.ssr.test.js",
+      "sourceSha256": "9fb5d94389b500fa306e0c121816dadc68980539df1763421f3042c78934f6a9",
+      "sourceLines": [
+        20,
+        29
+      ],
+      "targetPath": "../../../test/ssr-harness/p32-menu-trigger-basic.tsx",
+      "fixtureSha256AtIntegration": "06d83e3ca6d9b5e768852872afe290d57266cadded74f9547b0bec6a798c0016",
+      "adaptation": "O-owned complete original MenuTrigger/actual ActionButton/Edit/Menu/three Item SSR body. Existing isolated physical compiler/testSSR reused; fixture existence does not imply ready runtime or qualification."
+    },
+    {
+      "sourcePath": "test/menu/Menu.ssr.test.js",
+      "sourceSha256": "391546a8c0d87fbc71b946a612aaaa541c77d42ac3f485291b9589b356ffdfaf",
+      "sourceLines": [
+        20,
+        25
+      ],
+      "targetPath": "../../../test/ssr-harness/p32-menu-basic.tsx",
+      "fixtureSha256AtIntegration": "c71d1f31cb2b01f693f43060f027283f8ba7692825f205e86e1b80424ad7f002",
+      "adaptation": "M-owned complete actual Menu aria-label and Left/Middle/Right Item SSR body, with native direct imports and existing isolated physical server/client compiler. Source SSR1 qualified by owner; no repeat."
+    },
+    {
+      "sourcePath": "test/text/Keyboard.ssr.test.js",
+      "sourceSha256": "52b9b0340b414025d54fbd68d548118938f2f1863ec0e0edaf5320929b4d60b9",
+      "targetPath": "../../../test/ssr-harness/p33-keyboard-fixture.tsx",
+      "fixtureSha256AtIntegration": "716be856d63945db0b2146843602e32cc0564cbe0d581e341e23adc0f7984dbb",
+      "adaptation": "K-owned original physical Keyboard SSR body; existing isolated compiler. Integration only, not qualification."
+    },
+    {
+      "sourcePath": "stories/menu/Submenu.stories.tsx",
+      "targetPath": "test/menu/fixtures/p33-submenu-stories.tsx",
+      "fixtureSha256AtIntegration": "9254e4cb0dc5c34330e74dee3a85ec50843b053d95bae71ce774e0d23c57a41b",
+      "adaptation": "S-final faithful selected story extraction with original native-owned render/data dependencies; owner strict passed, no blocked runtime qualification.",
+      "sourceSha256": "8d01291e37deb1baec715e406596255e7c1ca6482d2edcc9b09ef52a6f5cb2d1",
+      "sourceRanges": [
+        [
+          50,
+          79
+        ],
+        [
+          86,
+          100
+        ],
+        [
+          117,
+          145
+        ],
+        [
+          259,
+          319
+        ],
+        [
+          478,
+          540
+        ],
+        [
+          789,
+          806
+        ]
+      ]
+    },
+    {
+      "sourcePath": "stories/menu/MenuTrigger.stories.tsx",
+      "targetPath": "test/menu/fixtures/p33-submenu-trigger-render.tsx",
+      "fixtureSha256AtIntegration": "755d5f06e22ffdbf99c7161af222a4e3f8db96d4a664930cac8c65e60f609e18",
+      "adaptation": "S-final faithful selected story extraction with original native-owned render/data dependencies; owner strict passed, no blocked runtime qualification.",
+      "sourceSha256": "b43e0deb95e8d4f4a693afe6e28c164185378753a22b53f3a75541c2ec81b7d4"
+    },
+    {
+      "sourcePath": "test/buttongroup/ButtonGroup.ssr.test.js",
+      "sourceSha256": "dba878a5a252bf1e90dacaf03f1175fdeabb9c6cf5563794a686c6976aa5d1d1",
+      "targetPath": "../../../test/ssr-harness/p34-buttongroup-basic.tsx",
+      "fixtureSha256AtIntegration": "f6666c01bfd71284ee215ac7328ec8763277e58e3e7605ed9c3ab604558f22be",
+      "adaptation": "Owner actual physical original SSR1 body; existing isolated compiler. Wiring, not qualification."
+    },
+    {
+      "sourcePath": "test/divider/Divider.ssr.test.js",
+      "sourceSha256": "34b85c58ee015685c320e0f2b40649fc28ee54bf12fc8ff078c46fca4c59d8f3",
+      "targetPath": "../../../test/ssr-harness/p34-divider-basic.tsx",
+      "fixtureSha256AtIntegration": "f8a752e34ffed521720523f6aea2d673e2e14391c4dd0df26325ffd343dca953",
+      "adaptation": "Owner actual physical original SSR1 body; existing isolated compiler. Wiring, not qualification."
+    },
+    {
+      "sourcePath": "test/illustratedmessage/IllustratedMessage.ssr.test.js",
+      "sourceSha256": "e55800ff8e7ca06c89b40ca586399d4e137fb9e2780d08259e9e74d266074d2f",
+      "targetPath": "../../../test/ssr-harness/p35-illustratedmessage-basic.tsx",
+      "fixtureSha256AtIntegration": "411f51702b2f5f0a3b67f7c3d686ed5ba33f50384bdb6904b26b7a1117135b2c",
+      "adaptation": "Owner complete original physical SSR1 body, existing isolated compiler; existence is not qualification."
+    },
+    {
+      "sourcePath": "test/view/View.ssr.test.js",
+      "sourceSha256": "f473f893cf0471c6e8506a05e88c5f45dee8d799f9de520fa08ace234d03d5e6",
+      "targetPath": "../../../test/ssr-harness/p35-view-fixture.tsx",
+      "fixtureSha256AtIntegration": "dd082e1b0d5bfe07d1561b59b963701664ab3887f943ef0ae50410f4b696cde0",
+      "adaptation": "Owner complete original physical SSR1 body, existing isolated compiler; existence is not qualification."
+    },
+    {
+      "sourcePath": "test/radio/Radio.ssr.test.js",
+      "sourceSha256": "0be77d13635b77d515e64fe0497ef60d13bae72e39d8bd65a54c6d6d8268f36c",
+      "targetPath": "../../../test/ssr-harness/p36-radio-basic.jsx",
+      "fixtureSha256AtIntegration": "fc58780d919b14ee4d212693b3f721cf394cfa1c8f2e8ec978ddedd0593c2401",
+      "adaptation": "G-faithful original unchecked inline JSX RadioGroup label radio with two valueless Radios One/Two. Physical fixture renamed JSX without changing source body/assertions/values. Excluded only from production strict roots; fixture type-unqualified and runtime blocked, not a pass. Production required value retained."
+    },
+    {
+      "sourcePath": "test/breadcrumbs/Breadcrumbs.ssr.test.js",
+      "sourceSha256": "49ab27c9a705186bd8ace0cc7344f56d0a2be51d75007a463705d923f2f607f4",
+      "targetPath": "../../../test/ssr-harness/p36-breadcrumbs-default.tsx",
+      "fixtureSha256AtIntegration": "59a337882af8b9b765f70e028d968252fd460f4f56559005a305e782d773b985",
+      "adaptation": "B-owned actual original physical Breadcrumbs SSR1 fixture; hash/path integration, no qualification repeat."
+    },
+    {
+      "sourcePath": "src/statuslight/StatusLight.tsx",
+      "sourceSha256": "cb35b041036eed129af9894f1be127c9f6e2f8f022b9a99ef06bca2ab08001a0",
+      "sourceLines": [
+        22,
+        51
+      ],
+      "targetPath": "src/statuslight/StatusLightTypes.ts",
+      "fixtureSha256AtIntegration": "81ada770e2ec8c82a23971393920247563141895d2db6589976f3463ea3b9f40",
+      "adaptation": "Complete genuine SpectrumStatusLightProps type-only extraction with all13 variants/DOMProps/StyleProps/AriaLabelingProps/children/isDisabled/status role retained. ReactNode -> native JSX.Element only; no StatusLight runtime supplied. Performance owner must import type from this boundary."
+    },
+    {
+      "sourcePath": "test/tag/TagGroup.ssr.test.js",
+      "sourceSha256": "73af3eb12763128991a140a6245cccd062d964c254091eba64b43e00932f591d",
+      "targetPath": "../../../test/ssr-harness/p37-taggroup-basic.tsx",
+      "fixtureSha256AtIntegration": "8dc0fcd4150d2e09969774a98006bca666f3be43160c9f6ae02c1d0ab65f7015",
+      "adaptation": "Owner complete original physical SSR1; existing isolated compiler; integration not qualification."
+    },
+    {
+      "sourcePath": "test/progress/ProgressBar.ssr.test.js",
+      "sourceSha256": "9638e69919e0bbd0e60f506dcd35b2d15fa555e9dc0395aff77d152ab1338b29",
+      "targetPath": "../../../test/ssr-harness/p37-progressbar-fixture.tsx",
+      "fixtureSha256AtIntegration": "27e1784a4b99ddb8253272fdbb7fec1efa8ee20d45c6a4998b37a6969f08e8a4",
+      "adaptation": "Owner complete original physical SSR1; existing isolated compiler; integration not qualification."
+    },
+    {
+      "sourcePath": "test/statuslight/StatusLight.ssr.test.js",
+      "sourceSha256": "815eff3c1cc1f052e01ce01f357cc9e1bd19dc8e3e0947ce176d39af56ca6f96",
+      "targetPath": "../../../test/ssr-harness/p38-statuslight-default.jsx",
+      "fixtureSha256AtIntegration": "3c30d3b788109667782da1c0b038819fd5cac38b12bdffa1907b5f87b72fd901",
+      "adaptation": "S-owned actual original unchecked StatusLight JSX with omitted required variant preserved. Fixture kept out of production checkJs profile; type-unqualified, no invented prop or runtime pass claimed."
+    },
+    {
+      "sourcePath": "test/meter/Meter.ssr.test.js",
+      "sourceSha256": "81f202ba0e76b250ea522d50cec411c50c30a19ca904f0a9452fa1f4dae898d7",
+      "targetPath": "../../../test/ssr-harness/p38-meter-fixture.tsx",
+      "fixtureSha256AtIntegration": "7affef5f72c918bb2ead0a2b32d0569a7821b6e05611b21800f9127aeda74e2c",
+      "adaptation": "M-owned complete original typed physical Meter SSR1 body; existing isolated compiler, no qualification claim."
+    },
+    {
+      "sourcePath": "test/well/Well.ssr.test.js",
+      "sourceSha256": "7a56d80d48c33762ab4865e54851d7e93f945903e7e58cb144015ec3514d48b5",
+      "targetPath": "../../../test/ssr-harness/p39-well-default.jsx",
+      "fixtureSha256AtIntegration": "7701c9c63b2cad13aadb3362f9d4b3f2e064800893ee7e3bc07a38dc3d33e792",
+      "adaptation": "W-owned actual original physical unchecked JSX Well SSR1; existing isolated compiler. Not included in checkJs production profile; no fixture type/runtime qualification claim."
+    },
+    {
+      "sourcePath": "test/badge/Badge.ssr.test.js",
+      "sourceSha256": "7b95d13047f132e193661e9a026e7a761eb1678276b10723c760b1d35eca673b",
+      "targetPath": "../../../test/ssr-harness/p39-badge-fixture.tsx",
+      "fixtureSha256AtIntegration": "5a8adf6cb03113914c2df4841697e3fec9b4ec932f41c78455ca143a05ba16a7",
+      "adaptation": "B-final original physical SSR1 fixture; qualified by owner, no repeat."
+    }
+  ],
+  "p30Qualification": {
+    "strict": [
+      "tsconfig.p30-l.json",
+      "tsconfig.p30-b.json",
+      "tsconfig.p30-f.json"
+    ],
+    "strictResult": "all passed",
+    "unitResult": "44 passed;3 explicitly deselected known Form/Checkbox setup cases; full47 retained, not fully qualified",
+    "unitCommand": "rtk proxy node node_modules/vitest/vitest.mjs run --config vitest.config.ts packages/@adobe/react-spectrum/test/button/Button.test.jsx --testNamePattern '^(?!.*(?:prevents default for non-submit types|submit in form using space|submit in form using enter)).*$'",
+    "ssrResult": "original4 passed",
+    "ssrCommand": "rtk proxy node node_modules/vitest/vitest.mjs run --config vitest.config.ts packages/@adobe/react-spectrum/test/button/Button.ssr.test.js",
+    "sourceMockPolicy": {
+      "path": "upstream/react-spectrum/jest.config.js",
+      "sha256": "378e5b7b52c3e5fe9e095fca5e87e48a85c151d303bcdd45fb43140df79f23c3",
+      "sourceLine": 30,
+      "policy": "clearMocks:true mapped locally; source assertions untouched"
+    }
+  },
+  "p37FakerDependency": {
+    "name": "@faker-js/faker",
+    "version": "8.4.1",
+    "scope": "dev",
+    "sourceLock": "upstream/react-spectrum/yarn.lock",
+    "sourceLockLines": [
+      2255,
+      2257
+    ],
+    "sourceRange": "^8.4.1",
+    "installedCommand": "pnpm add --save-dev --save-exact @faker-js/faker@8.4.1 --ignore-scripts",
+    "purpose": "Complete original Performance story; no benchmark gate or data substitute."
+  },
+  "storybookDeclarationTypes": {
+    "package": "@types/react",
+    "version": "19.3.0",
+    "scope": "dev-type-only",
+    "sourceLock": "upstream/react-spectrum/yarn.lock",
+    "sourceLockLines": [
+      10865,
+      10867
+    ],
+    "consumer": "Installed Storybook10.3.5 CSF/router/theming/types declarations",
+    "status": "Declaration-resolution errors eliminated in p34-e; seven S-owned CSS diagnostics remain; no runtime React renderer supplied."
+  }
+}

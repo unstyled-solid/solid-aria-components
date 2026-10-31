@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "identity": {
+    "workspaceName": "@internal/solid-aria-components-stage",
+    "publicationName": null,
+    "version": "0.0.0-private"
+  },
+  "paths": {
+    "packageDirectory": "packages/react-aria-components",
+    "stagedDirectory": "distribution/staged",
+    "localizationDirectory": "distribution/staging-i18n",
+    "sourceRoot": "packages"
+  },
+  "resolution": {
+    "runtimeTemplate": {
+      "types": "./types/{stem}.d.ts",
+      "worker": "./server/{stem}.js",
+      "browser": "./dom/{stem}.js",
+      "deno": "./server/{stem}.js",
+      "node": "./server/{stem}.js",
+      "default": "./server/{stem}.js"
+    },
+    "typeOnlyTemplate": {
+      "types": "./types/{stem}.d.ts"
+    },
+    "conditionOrder": [
+      "types",
+      "worker",
+      "browser",
+      "deno",
+      "node",
+      "default"
+    ],
+    "runtimeFormats": [
+      "esm"
+    ],
+    "cjs": false
+  },
+  "format": {
+    "sideEffects": {
+      "qualified": true,
+      "policy": "file-specific-conservative",
+      "candidatePath": "distribution/initialization-classification.json",
+      "candidateField": "sideEffectsCandidate",
+      "qualificationScope": "Static initialization census only; all unknown expressions conservatively retained, CSS preserved; not runtime parity."
+    }
+  },
+  "native": {
+    "compiler": "babel",
+    "frameworkVersion": "2.0.0-rc.13",
+    "externalPeers": {
+      "solid-js": "2.0.0-rc.13",
+      "@solidjs/web": "2.0.0-rc.13"
+    },
+    "omitClientOnlyMarker": "staged-entrypoints-only",
+    "internalModuleAliases": {
+      "react-aria-components": "packages/react-aria-components/exports/index.ts",
+      "react-aria-components/*": "packages/react-aria-components/exports/*",
+      "react-aria": "packages/react-aria/exports/index.ts",
+      "react-aria/private/*": "packages/react-aria/src/*",
+      "react-aria/*": "packages/react-aria/exports/*",
+      "react-stately": "packages/react-stately/exports/index.ts",
+      "react-stately/private/*": "packages/react-stately/src/*",
+      "react-stately/*": "packages/react-stately/exports/*",
+      "@react-types/shared": "packages/@react-types/shared/src/pilot.d.ts",
+      "@react-stately/flags": "packages/@react-stately/flags/src/index.ts",
+      "@internationalized/date": "packages/@internationalized/date/src/index.ts",
+      "@internationalized/string": "packages/@internationalized/string/src/index.ts",
+      "@internationalized/number": "packages/@internationalized/number/src/index.ts"
+    },
+    "internalizedPackageRoots": [
+      "react-aria-components",
+      "react-aria",
+      "react-stately",
+      "@react-types/shared",
+      "@react-stately/flags",
+      "@internationalized/date",
+      "@internationalized/string",
+      "@internationalized/number"
+    ],
+    "typeIdentity": "packages/@react-types/shared/src/pilot.d.ts"
+  },
+  "imports": {},
+  "dependencies": {
+    "clsx": "2.1.1",
+    "color-space": "1.16.0",
+    "delta-e": "0.0.8"
+  },
+  "qualification": "unqualified-private-staging; source-wide parity null"
+}

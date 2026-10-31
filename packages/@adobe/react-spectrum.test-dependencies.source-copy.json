@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "dependency": "mock-match-media",
+  "requestedVersion": "^1.0.0",
+  "resolvedVersion": "1.0.3",
+  "sources": [
+    {
+      "path": "upstream/react-spectrum/package.json",
+      "sha256": "70d846e886039a253e640e7a7a0fd294a9a5478a83144fd23009d5a34bbf8beb"
+    },
+    {
+      "path": "upstream/react-spectrum/yarn.lock",
+      "sha256": "a52cff9fe53a20b0cc6d301817eef20aaa9f5d40d1a10f99768c1bfd808b5790"
+    },
+    {
+      "path": "upstream/react-spectrum/scripts/setupTests.js",
+      "sha256": "f4697cf950c15e28f0fa078adc129669c5e9ce96b6f413162f500f33a87d4adf"
+    }
+  ],
+  "lockEntry": "mock-match-media@npm:^1.0.0 -> mock-match-media@npm:1.0.3"
+}

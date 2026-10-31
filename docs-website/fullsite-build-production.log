@@ -1,0 +1,44 @@
+
+> build
+> cd packages/dev/s2-docs && DOCS_ENV=dev LIBRARY=react-aria parcel build 'pages/react-aria/**/*.mdx' --target react-static --config .parcelrc-s2-docs --dist-dir ../../../../dist-build --cache-dir ../../../../.parcel-cache-build
+
+/bin/sh: /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/term-size/vendor/macos/term-size: Bad CPU type in executable
+Building...
+
+@parcel/package-manager: ES module dependencies are experimental.
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+@parcel/package-manager: ES module dependencies are experimental.
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+@parcel/package-manager: ES module dependencies are experimental.
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+
+
+
+
+
+
+
+
+
+
+@parcel/package-manager: ES module dependencies are experimental.
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+
+@parcel/packager-react-static: An error occurred in the Server Components 
+render. The specific message is omitted in production builds to avoid leaking 
+sensitive details. A digest property is included on this error instance which 
+may provide additional details about the nature of the error.
+
+  Error: An error occurred in the Server Components render. The specific message
+   is omitted in production builds to avoid leaking sensitive details. A digest 
+  property is included on this error instance which may provide additional 
+  details about the nature of the error.

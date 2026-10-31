@@ -1,0 +1,23 @@
+{
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "mode": "terminal-copy-before-selected-native-extraction",
+  "files": [
+    {
+      "sourcePath": "packages/react-aria-components/stories/Modal.stories.tsx",
+      "originalCopy": "Modal.stories.tsx.txt",
+      "wholeOriginalSha256": "0e39f60c94ef30307ea0c9ade538aca10481c70287a6b91053e7414017abeaa2",
+      "sourceRanges": [[1, 11], [31, 34], [224, 266]],
+      "target": "../p45-dialog-modal-stories.tsx"
+    },
+    {
+      "sourcePath": "packages/react-aria-components/stories/DatePicker.stories.tsx",
+      "originalCopy": "DatePicker.stories.tsx.txt",
+      "wholeOriginalSha256": "20fc415aff302bfb187a9d2f3dbca6ba126c69e342071944df0da35a85e78d56",
+      "sourceRanges": [[1, 11], [33, 66], [166, 228]],
+      "target": "../p45-dialog-date-range.tsx"
+    }
+  ],
+  "adaptation": "Full selected story/example bodies and source metadata retained. Genuine Storybook CSF annotations use native JSX renderer types; direct example invocation accepts absent args. Source has no selected-story args/defaults/decorators to invent. Native CSS property spellings and explicit pixel units preserve React numeric-style meaning; raw div className becomes class. Actual source CSS/clsx/native controls retained. Unrelated stories/imports excluded; no composeStories runtime adapter implemented.",
+  "hashScope": "whole original file; sourceRanges are inclusive 1-based extraction correspondence",
+  "runtimeQualification": "unrun; existing Modal/date-field blockers and pending native composeStories integration retained"
+}

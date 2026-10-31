@@ -1,0 +1,51 @@
+{
+  "frozenSHA": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "artifactEvidence": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p14-workflow-2.3.5/verification.json",
+  "tarballSHA256": "5daf9caf63734a5ebbc4881f0173671aba1c22ad4e14e77a43aaa3cf5a4e7ebb",
+  "SRI": "sha512-b53VIPwPWKb/T5gzE3qs+QlGP5gVrw/LnWV3xMksDU+CRl3rzOKUwxIGiZO8ICyYh1WiyqY4myGlPU/nAynBUg==",
+  "SHA1": "3f5adc5fe2bae25416805b7d92c1ff5bd1e061f0",
+  "SRIAndSHA1Reverified": true,
+  "licenseSHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "licenseCorrespondenceVerified": true,
+  "generatorSHA256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+  "aliasContract": "Submenu source imports local TextItalics from @spectrum-icons/workflow/TextItalic; actual export A4uTextItalic; no separate SVG or module required",
+  "strict": "pending missing tsconfig.p33-i.json",
+  "files": {
+    "packages/@adobe/react-spectrum-workflow/src/AnnotatePen.jsx": {
+      "originalSHA256": "a5ca98605dc4a19bdd2f0dcbddef99373337faae09293ece40721fb79829dd7c",
+      "nativeSHA256": "84f2c539579da81e19d64c48467856d421f81d35c3b1fa37f7494dd818930b17",
+      "artworkAndOrderVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/AnnotatePen.tsx": {
+      "generatedOriginalSHA256": "db7c62ebc74941711ff40a9f932116285fc3da05630b8f0a8225d0a9523d35b0",
+      "nativeSHA256": "c542987121f1b57870e363ee467fcf27c2da20e208c2aee09bebbbb8da4505b5"
+    },
+    "packages/@adobe/react-spectrum-workflow/src/TextIndentIncrease.jsx": {
+      "originalSHA256": "716a4220ff768390fa490cd9c6ca861960fdf883c3094278a6d0429aab99880a",
+      "nativeSHA256": "dde27b14f55b00c909a09a5aebc57779bb0b22ad2df579bc89d5259d1f3f3f6c",
+      "artworkAndOrderVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/TextIndentIncrease.tsx": {
+      "generatedOriginalSHA256": "63754d22a3cd251230c3ce988768cdcac0d52aa107210c23c087c8e44a08fd13",
+      "nativeSHA256": "a839494448a0f136e8c00df3c888ebd34148fb96f9326a3b477dfb2cb787dd0b"
+    },
+    "packages/@adobe/react-spectrum-workflow/src/TextItalic.jsx": {
+      "originalSHA256": "65760c0414d36c660317b5cbd1389472c9c0d0099281177f1d48ef8d86c79c1e",
+      "nativeSHA256": "54c42c782c6c55fb474bb63b1211e1fd296e470a83093a7cb7da33ab3c57e0e3",
+      "artworkAndOrderVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/TextItalic.tsx": {
+      "generatedOriginalSHA256": "f2380a7fbde99ad0a9eb3354157f10ca46b14c7ff18d5c9cb218dc4942b4cc51",
+      "nativeSHA256": "b278cc6795ae0d14595e78ac3f7960f4b535553d8faa63555e63f2dab17517cb"
+    },
+    "packages/@adobe/react-spectrum-workflow/src/Bell.jsx": {
+      "originalSHA256": "03e588e6a0703e5522f9571d2281f47ef36898bdb894efda96e5c6d2dd4b718e",
+      "nativeSHA256": "d4fbf846eb9b18778f58510eb1accda6d19ca6d31d73bb886df5db2cea38283b",
+      "artworkAndOrderVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/Bell.tsx": {
+      "generatedOriginalSHA256": "f24dc962854380ac881cdb86136592ae88d9163c2f30a4018808b61475ecee7e",
+      "nativeSHA256": "7e3a7134e1dbb152d09b636e37e99e6645c8930932fa569a0a76430543049877"
+    }
+  }
+}

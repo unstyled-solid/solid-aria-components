@@ -1,0 +1,36 @@
+{
+  "version": "2.3.5",
+  "tarball": "https://registry.npmjs.org/@adobe/react-spectrum-workflow/-/react-spectrum-workflow-2.3.5.tgz",
+  "publishedSRI": "sha512-b53VIPwPWKb/T5gzE3qs+QlGP5gVrw/LnWV3xMksDU+CRl3rzOKUwxIGiZO8ICyYh1WiyqY4myGlPU/nAynBUg==",
+  "publishedSHA1": "3f5adc5fe2bae25416805b7d92c1ff5bd1e061f0",
+  "tarballSHA256": "5daf9caf63734a5ebbc4881f0173671aba1c22ad4e14e77a43aaa3cf5a4e7ebb",
+  "files": {
+    "package/dist/Folder.js": "3ae17ab6fed21f9633a2c5da6046d3a2a491952edc34bbab8c446de4cc2098c8",
+    "package/dist/ShowMenu.js": "3eb1384d5585a8fb1c63836244054732f354f9e39a34cc914547d6511f17a71f",
+    "package/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "src/icon/Icon.tsx": "7e4a891039f8a1abd6c983988c614fc5844320c8c3b0b9f02fdd758b6df57c1c",
+    "test/icon/Icon.test.js": "3c9e97882eb9f635cee61a8ae01ffe78f0c4afba097d7665b3c113c78047ebe5",
+    "generated/Folder.tsx": "0b9e47ac9b676c850b8716f7028fc5792082d570e6616c1c438a0a1e778d5988",
+    "generated/ShowMenu.tsx": "e4880a75f54665a64360b86dca569eb58a820d25ecc7634b9fa7419e785aa554"
+  },
+  "generatorSHA256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+  "frozenSourceSHA": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "wrapperVersion": "4.3.2",
+  "wrapperManifestSHA256": "7a0e647e073700d52f139ed8bed0e13d186fb341e17e6d377504e4c850de7078",
+  "nativeFiles": {
+    "packages/@adobe/react-spectrum/src/icon/Icon.tsx": "64817c48770a8937c69d1c5b3b3a4e2c32d4534210eeb71a85889ad3dafceef2",
+    "packages/@adobe/react-spectrum/test/icon/Icon.test.jsx": "48e64c8af5fb3eeba9dd1d815219ca88f3941ea7a060d56db7d67b00f47852e3",
+    "packages/@spectrum-icons/workflow/src/Folder.tsx": "7d1d1802588f918059bd1e648474743e2d947c56bc8f129c0b0f8275b1297c67",
+    "packages/@spectrum-icons/workflow/src/ShowMenu.tsx": "0570f479d072799d128e133900b4abc3b9e0a7666e61b1b940b4c68cca63fc18",
+    "packages/@adobe/react-spectrum-workflow/src/Folder.jsx": "460323e422bd98b490be232e6812456e1e61356a584230e06c3d814a7b09678f",
+    "packages/@adobe/react-spectrum-workflow/src/ShowMenu.jsx": "95cf12a0bce26c86502e0f76d6168ca082d967ed0f85fdf6bcd922e065340650"
+  },
+  "artifactMapping": {
+    "package/dist/Folder.js": "packages/@adobe/react-spectrum-workflow/src/Folder.jsx",
+    "package/dist/ShowMenu.js": "packages/@adobe/react-spectrum-workflow/src/ShowMenu.jsx"
+  },
+  "checks": {
+    "IconOriginalCases": "3/3 passed",
+    "strictP14I": "blocked: css-module-types reference and missing declarations for native artwork JSX"
+  }
+}

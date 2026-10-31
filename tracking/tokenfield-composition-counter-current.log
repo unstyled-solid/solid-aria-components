@@ -1,0 +1,37 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+ ❯ |chromium-desktop| packages/react-aria-components/test/TokenField.composition.browser.test.tsx (19 tests | 1 failed | 18 skipped) 1179ms
+     × does not re-render the editable content until composition ends 1178ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.composition.browser.test.tsx:351:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+AssertionError: expected 1 to be greater than 1
+ ❯ toBeGreaterThan packages/react-aria-components/test/TokenField.composition.browser.test.tsx:382:41
+    380|     await commands.commitComposition('hel');
+    381|     // Composition ended -> the content re-renders to match the model.
+    382|     await expect.poll(() => renderCount).toBeGreaterThan(countBefore);
+       |                                         ^
+    383|     await expectDOMText(textbox, 'Ahel');
+    384|   });
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ packages/react-aria-components/test/TokenField.composition.browser.test.tsx:382:4
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 2 skipped (3)
+      Tests  1 failed | 56 skipped (57)
+   Start at  10:13:34
+   Duration  3.60s (transform 0ms, setup 325ms, import 607ms, tests 1.18s, environment 0ms)
+

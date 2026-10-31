@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "packages/react-aria/exports/useDatePicker.ts", "packages/react-aria/exports/useDateRangePicker.ts", "packages/react-aria/test/datepicker/fixtures/p27-programmatic-field.tsx"]
+}

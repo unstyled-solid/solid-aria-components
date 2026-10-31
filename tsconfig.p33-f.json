@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false, "types": ["node", "@testing-library/jest-dom/vitest"]},
+  "files": ["test/intl.d.ts", "packages/react-aria-components/test/AriaMenu.test-util.tsx"]
+}

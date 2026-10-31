@@ -1,0 +1,24 @@
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:129:8 > TokenField browser interactions > focus management > does not steal focus when the value changes while another element is focused
+Error: Test timed out in 20000ms.
+[
+  {
+    "ancestorTitles": [
+      "TokenField browser interactions",
+      "focus management"
+    ],
+    "fullName": "TokenField browser interactions focus management does not steal focus when the value changes while another element is focused",
+    "status": "failed",
+    "title": "does not steal focus when the value changes while another element is focused",
+    "duration": 20147,
+    "failureMessages": [
+      "task@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js?v=eb971400:1784:27\ncreateSuiteCollector/test<@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js?v=eb971400:1817:20\ntest<@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js?v=eb971400:1563:28\nchain@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js?v=eb971400:599:14\n@http://localhost:63315/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/test/TokenField.browser.test.tsx?import&browserv=1791889526468:102:5\ncreateSuiteCollector/collect/<@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js?v=eb971400:1889:47\nrunWithSuite@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js?v=eb971400:2258:8\ncollect@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js?v=eb971400:1889:10\ncollect@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js?v=eb971400:1893:54\nasync*collect@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js?v=eb971400:1893:
+54\nasync*collectTests/<@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js?v=eb971400:2462:50\nasync*$@http://localhost:63315/node_modules/.pnpm/vitest@4.1.11_@types+node@25.9.9_@vitest+browser-playwright@4.1.11_jsdom@27.4.0_vite@8._60d77d6a6d43a768fe63396740e55874/node_modules/vitest/dist/chunks/traces.DT5aQ62U.js?v=eb971400:140:27\ntrace@http://localhost:63315/__vitest_browser__/tester-BJtsJFpD.js:1053:25\ncollectTests@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js?v=eb971400:2433:9\nstartTests@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js?v=eb971400:3280:23\nasync*executeTests/<@http://localhost:63315/__vitest_browser__/tester-BJtsJFpD.js:2230:17\n$@http://localhost:63315/node_modules/.pnpm/vitest@4.1.11_@types+node@25.9.9_@vitest+browser-playwright@4.1.11_jsdom@27.4.0_vite@8._60d77d6a6d43a768fe63396740e55874/node_modules/vitest/dist/chunks/traces.DT5aQ62U.js?v=eb971400:140:27\nexecuteTests@http://localhost:63315/__vitest_browser__/tester-BJtsJFpD.js:2223:18\n@http://localhost:63315/__vitest_browser__/tester-BJtsJFpD.js:2111:15\nasync*@http://localhost:63315/__vitest_browser__/tester-BJtsJFpD.js:2089:9\n"
+    ],
+    "location": {
+      "line": 129,
+      "column": 8
+    },
+    "meta": {},
+    "tags": []
+  }
+]

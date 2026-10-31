@@ -1,0 +1,21 @@
+import type { JSX } from '@solidjs/web';
+/** lucide-react v0.517.0 ISC; original nodes in lucide-source/chevron-left.js. */
+export function ChevronLeft(props: JSX.SvgSVGAttributes<SVGSVGElement> & {
+    className?: string;
+    size?: number;
+}) { return <svg xmlns="http://www.w3.org/2000/svg" width={props.size ?? 24} height={props.size ?? 24} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" {...props} class={['lucide', 'lucide-chevron-left', props.className ?? props.class].filter(Boolean).join(' ')}><path d="m15 18-6-6 6-6"/></svg>; }
+/** lucide-react v0.517.0 ISC; original nodes in lucide-source/chevron-right.js. */
+export function ChevronRight(props: JSX.SvgSVGAttributes<SVGSVGElement> & {
+    className?: string;
+    size?: number;
+}) { return <svg xmlns="http://www.w3.org/2000/svg" width={props.size ?? 24} height={props.size ?? 24} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" {...props} class={['lucide', 'lucide-chevron-right', props.className ?? props.class].filter(Boolean).join(' ')}><path d="m9 18 6-6-6-6"/></svg>; }
+/** lucide-react v0.517.0 ISC; original nodes in lucide-source/check.js. */
+export function Check(props: JSX.SvgSVGAttributes<SVGSVGElement> & {
+    className?: string;
+    size?: number;
+}) { return <svg xmlns="http://www.w3.org/2000/svg" width={props.size ?? 24} height={props.size ?? 24} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" {...props} class={['lucide', 'lucide-check', props.className ?? props.class].filter(Boolean).join(' ')}><path d="M20 6 9 17l-5-5"/></svg>; }
+/** lucide-react v0.517.0 ISC; original nodes in lucide-source/chevron-down.js. */
+export function ChevronDown(props: JSX.SvgSVGAttributes<SVGSVGElement> & {
+    className?: string;
+    size?: number;
+}) { return <svg xmlns="http://www.w3.org/2000/svg" width={props.size ?? 24} height={props.size ?? 24} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" {...props} class={['lucide', 'lucide-chevron-down', props.className ?? props.class].filter(Boolean).join(' ')}><path d="m6 9 6 6 6-6"/></svg>; }

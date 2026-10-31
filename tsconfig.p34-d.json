@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "allowJs": true,
+    "checkJs": true
+  },
+  "files": [
+    "test/intl.d.ts",
+    "test/css.d.ts",
+    "packages/@adobe/react-spectrum/src/dnd/useDragAndDrop.ts",
+    "packages/@adobe/react-spectrum/src/table/DragPreview.tsx",
+    "packages/@adobe/react-spectrum/src/table/InsertionIndicator.tsx",
+    "packages/@adobe/react-spectrum/src/table/RootDropIndicator.tsx",
+    "packages/@adobe/react-spectrum/stories/table/TableDnDExamples.tsx",
+    "packages/@adobe/react-spectrum/stories/table/TableDnDUtilExamples.tsx",
+    "packages/@adobe/react-spectrum/exports/useDragAndDrop.ts"
+  ]
+}

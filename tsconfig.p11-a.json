@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "node_modules/@testing-library/jest-dom/types/vitest.d.ts", "packages/react-aria/src/select/useSelect.ts", "packages/react-aria/src/select/HiddenSelect.tsx", "packages/react-aria/test/select/HiddenSelect.test.tsx"]
+}

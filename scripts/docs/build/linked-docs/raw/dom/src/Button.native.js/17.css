@@ -1,0 +1,27 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .ZObNfn18 {
+    width: 1lh;
+  }
+
+
+  .FObNfn18 {
+    height: 1lh;
+  }
+
+
+  .I67logd18 {
+    margin-inline-start: var(--iconMargin);
+  }
+
+
+  ._va18 {
+    flex-shrink: 0;
+  }
+}
+
+.-macro-static-q0Exm {
+        --macro-data-q0Exm: {"style":{"size":"1lh","marginStart":"--iconMargin","flexShrink":0},"loc":"/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Button.native.js:502:40"};
+      }
+

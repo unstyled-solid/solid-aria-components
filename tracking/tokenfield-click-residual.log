@@ -1,0 +1,90 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+ ❯ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx (91 tests | 1 failed | 90 skipped) 1271ms
+       × replaces token when typing after clicking token 1268ms
+ ❯ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx (91 tests | 1 failed | 90 skipped) 1203ms
+       × replaces token when typing after clicking token 1200ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:764:8 > TokenField browser interactions > insert and delete > replaces token when typing after clicking token
+AssertionError: expected [ { index: 2, offset: +0 }, …(1) ] to deeply equal [ { index: +0, offset: 2 }, …(1) ]
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[33m@@ -1,9 +1,9 @@[39m
+[2m  [[22m
+[2m    {[22m
+[32m-     "index": 0,[39m
+[32m-     "offset": 2,[39m
+[31m+     "index": 2,[39m
+[31m+     "offset": 0,[39m
+[2m    },[22m
+[2m    {[22m
+[2m      "index": 2,[22m
+[2m      "offset": 0,[22m
+[2m    },[22m
+
+ ❯ toEqual packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:96:49
+     94| export async function waitForSelection(textbox: Locator, start: Positi…
+     95|   let el = textbox.element();
+     96|   await expect.poll(() => getFieldSelection(el)).toEqual([start, end]);
+       |                                                 ^
+     97| }
+     98|
+ ❯ waitForSelection packages/react-aria-components/test/TokenField.browser.test.tsx:768:12
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ toEqual packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:96:49
+ ❯ waitForSelection packages/react-aria-components/test/TokenField.browser.test.tsx:768:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:764:8 > TokenField browser interactions > insert and delete > replaces token when typing after clicking token
+AssertionError: expected [ { index: 2, offset: +0 }, …(1) ] to deeply equal [ { index: +0, offset: 2 }, …(1) ]
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[33m@@ -1,9 +1,9 @@[39m
+[2m  [[22m
+[2m    {[22m
+[32m-     "index": 0,[39m
+[32m-     "offset": 2,[39m
+[31m+     "index": 2,[39m
+[31m+     "offset": 0,[39m
+[2m    },[22m
+[2m    {[22m
+[2m      "index": 2,[22m
+[2m      "offset": 0,[22m
+[2m    },[22m
+
+ ❯ waitForSelection packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:96:57
+     94| export async function waitForSelection(textbox: Locator, start: Positi…
+     95|   let el = textbox.element();
+     96|   await expect.poll(() => getFieldSelection(el)).toEqual([start, end]);
+       |                                                         ^
+     97| }
+     98|
+ ❯ textbox packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:94:39
+ ❯ textbox packages/react-aria-components/test/TokenField.browser.test.tsx:768:29
+
+Caused by: Error: Matcher did not succeed in time.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  2 failed | 1 passed (3)
+      Tests  2 failed | 1 passed | 270 skipped (273)
+   Start at  16:30:56
+   Duration  4.74s (transform 0ms, setup 243ms, import 401ms, tests 2.62s, environment 0ms)
+

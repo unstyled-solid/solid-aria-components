@@ -1,0 +1,52 @@
+@layer _.prose, _.a, _.b;
+
+@layer _.a {
+  .Vh18 {
+    stroke: light-dark(rgb(59, 99, 251), rgb(86, 129, 255));
+  }
+
+
+  .Ve18 {
+    stroke: lch(from var(--s2-container-bg) calc((49.44 - l) * infinity) 0 0 / 0.94);
+  }
+
+
+  ._Sa18 {
+    rotate: -90deg;
+  }
+
+
+  ._0d18 {
+    transform-origin: center;
+  }
+
+
+  ._Vwtfhvc18 {
+    stroke-width: 0.1875rem;
+  }
+
+
+  ._V7m7Gv18 {
+    stroke-width: 0.125rem;
+  }
+
+
+  ._VuNalie18 {
+    stroke-width: 0.25rem;
+  }
+}
+
+@layer _.b.l {
+  @media (forced-colors: active) {
+    .VlOVIhfc6LxY918 {
+      stroke: var(--hcm-buttontext, ButtonText);
+    }
+  }
+}
+
+@layer _.b {
+  .VlOVIhfc6LxY918:is([data-hcm], [data-hcm] *) {
+    stroke: var(--hcm-buttontext, ButtonText);
+  }
+}
+

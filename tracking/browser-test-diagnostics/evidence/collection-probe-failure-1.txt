@@ -1,0 +1,15 @@
+11:11:53 am [vite] (client) dependency optimized: @solidjs/signals
+11:11:53 am [vite] (client) optimized dependencies changed. reloading
+[vitest] Vite unexpectedly reloaded a test. This may cause tests to fail, lead to flaky behaviour or duplicated test runs.
+__RUNTIME_PROFILE__{"solidDevelopment":true,"signalsDevelopment":true,"nodeEnvironment":"development"}
+11:11:53 am [vite] (client) [Unhandled rejection] TypeError: this.ctx?.state.getTask is not a function
+ > DiagnosticReporter.onUserConsoleLog scripts/test-diagnostics/reporter.mjs:9:34
+__RUNTIME_PROFILE__{"solidDevelopment":true,"signalsDevelopment":true,"nodeEnvironment":"development"}
+11:11:53 am [vite] (client) [Unhandled rejection] TypeError: this.ctx?.state.getTask is not a function
+ > DiagnosticReporter.onUserConsoleLog scripts/test-diagnostics/reporter.mjs:9:34
+__TEST_DIAGNOSTIC__{"level":"warn","args":["You appear to have multiple instances of Solid. This can lead to unexpected behavior."],"stack":"Error: console capture\n    at captureDiagnostic (http://localhost:63315/Users/avi/avir-oss/solid-aria-components/test/browser/setup.ts?import&browserv=1791889913257:30:10)\n    at console.warn (http://localhost:63315/Users/avi/avir-oss/solid-aria-components/test/browser/setup.ts?import&browserv=1791889913257:58:2)\n    at http://localhost:63315/node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps/solid-js.js?v=24926890:1504:15"}
+__TEST_DIAGNOSTIC__{"level":"warn","args":["You appear to have multiple instances of Solid. This can lead to unexpected behavior."],"stack":"captureDiagnostic@http://localhost:63315/Users/avi/avir-oss/solid-aria-components/test/browser/setup.ts:30:19\n@http://localhost:63315/Users/avi/avir-oss/solid-aria-components/test/browser/setup.ts:58:19\nmodule code@http://localhost:63315/node_modules/.vite/vitest/da39a3ee5e6b4b0d3255bfef95601890afd80709/deps/solid-js.js:1504:19"}
+11:11:54 am [vite] (client) [Unhandled rejection] TypeError: this.ctx?.state.getTask is not a function
+ > DiagnosticReporter.onUserConsoleLog scripts/test-diagnostics/reporter.mjs:9:34
+11:11:54 am [vite] (client) [Unhandled rejection] TypeError: this.ctx?.state.getTask is not a function
+ > DiagnosticReporter.onUserConsoleLog scripts/test-diagnostics/reporter.mjs:9:34

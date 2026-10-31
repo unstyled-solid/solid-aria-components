@@ -1,0 +1,757 @@
+SSR MERGE INPUT [ [], [ 'aria-label', 'children' ] ]
+SSR MERGE INPUT [ [ 'aria-label', 'children' ], [ 'style' ] ]
+SSR INITIAL COLLECTION [ '1', '2', '3' ]
+SSR MERGE INPUT [
+  [],
+  [ 'className', 'style', 'children', 'data-rac', 'render' ],
+  [ 'onFocusIn', 'onFocusOut' ]
+]
+SSR MERGE INPUT [
+  [],
+  [ 'className', 'style', 'children', 'data-rac', 'render' ],
+  [ 'onFocusIn', 'onFocusOut' ]
+]
+SSR NATIVE MERGE [
+  [
+    'className',
+    'style',
+    'children',
+    'data-rac',
+    'render',
+    'onFocusIn',
+    'onFocusOut'
+  ],
+  [
+    'ref',
+    'slot',
+    'data-focused',
+    'data-orientation',
+    'data-focus-visible',
+    'data-disabled',
+    'children'
+  ]
+] [
+  'className',
+  'style',
+  'data-rac',
+  'render',
+  'onFocusIn',
+  'onFocusOut',
+  'ref',
+  'slot',
+  'data-focused',
+  'data-orientation',
+  'data-focus-visible',
+  'data-disabled',
+  'children'
+]
+SSR HOST INPUT div [
+  'className',
+  'style',
+  'data-rac',
+  'render',
+  'onFocusIn',
+  'onFocusOut',
+  'ref',
+  'slot',
+  'data-focused',
+  'data-orientation',
+  'data-focus-visible',
+  'data-disabled',
+  'children'
+] undefined undefined
+SSR MERGE INPUT [
+  [ 'ref', 'onKeyDown' ],
+  [ 'onKeyDown', 'onKeyUp' ],
+  [ 'onKeyDown', 'onKeyUp' ],
+  [ 'onFocusIn', 'onFocusOut', 'onMouseDown' ],
+  [ 'tabIndex', 'data-collection' ]
+]
+SSR MERGE INPUT [
+  [
+    'ref',
+    'onKeyDown',
+    'onKeyUp',
+    'onFocusIn',
+    'onFocusOut',
+    'onMouseDown',
+    'tabIndex',
+    'data-collection'
+  ],
+  [ 'id', 'aria-label', 'aria-labelledby' ]
+]
+SSR MERGE INPUT [
+  [],
+  [ 'className', 'style', 'children', 'data-rac', 'render' ],
+  [
+    'ref',             'onKeyDown',
+    'onKeyUp',         'onFocusIn',
+    'onFocusOut',      'onMouseDown',
+    'data-collection', 'id',
+    'aria-label',      'aria-labelledby',
+    'role',            'aria-orientation',
+    'tabIndex'
+  ]
+]
+SSR MERGE INPUT [
+  [],
+  [ 'className', 'style', 'children', 'data-rac', 'render' ],
+  [
+    'ref',             'onKeyDown',
+    'onKeyUp',         'onFocusIn',
+    'onFocusOut',      'onMouseDown',
+    'data-collection', 'id',
+    'aria-label',      'aria-labelledby',
+    'role',            'aria-orientation',
+    'tabIndex'
+  ]
+]
+SSR NATIVE MERGE [
+  [
+    'className',        'style',
+    'children',         'data-rac',
+    'render',           'ref',
+    'onKeyDown',        'onKeyUp',
+    'onFocusIn',        'onFocusOut',
+    'onMouseDown',      'data-collection',
+    'id',               'aria-label',
+    'aria-labelledby',  'role',
+    'aria-orientation', 'tabIndex'
+  ],
+  [ 'ref', 'data-orientation', 'children' ]
+] [ 'ref', 'data-orientation', 'children' ]
+SSR HOST INPUT div [ 'ref', 'data-orientation', 'children' ] undefined undefined
+SSR MERGE INPUT [
+  [
+    'ref',
+    'onPressStart',
+    'onPressUp',
+    'onPress',
+    'preventFocusOnPress'
+  ],
+  [ 'onPressStart', 'onPress' ]
+]
+SSR MERGE INPUT [
+  [],
+  [
+    'ref',
+    'preventFocusOnPress',
+    'onPressStart',
+    'onPressEnd',
+    'onPressChange',
+    'onPress',
+    'onPressUp',
+    'onClick'
+  ]
+]
+SSR MERGE INPUT [ [], [ 'onKeyDown', 'onClick' ], [ 'data-react-aria-pressable' ] ]
+SSR MERGE INPUT [ [], [ 'isDisabled', 'onPressStart', 'onPressEnd' ] ]
+SSR MERGE INPUT [ [], [ 'onKeyDown', 'onClick' ], [ 'data-react-aria-pressable' ] ]
+SSR MERGE INPUT [
+  [ 'onKeyDown', 'onClick', 'data-react-aria-pressable' ],
+  [ 'aria-describedby' ]
+]
+SSR MERGE INPUT [
+  [
+    'tabIndex',
+    'onFocusIn',
+    'onMouseDown',
+    'data-collection',
+    'data-key'
+  ],
+  [ 'onKeyDown', 'onClick', 'data-react-aria-pressable' ],
+  [
+    'onKeyDown',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby'
+  ],
+  [ 'onDblClick', 'onClick', 'id' ],
+  [ 'onMouseDown' ]
+]
+SSR MERGE INPUT [ [ 'onFocusIn', 'onFocusOut' ], [ 'onKeyDown', 'onKeyUp' ] ]
+SSR MERGE INPUT [
+  [ 'onFocusIn', 'onFocusOut', 'onKeyDown', 'onKeyUp', 'tabIndex' ],
+  []
+]
+SSR MERGE INPUT [
+  [],
+  [ 'onFocusIn', 'onFocusOut', 'onKeyDown', 'onKeyUp', 'tabIndex' ],
+  [],
+  [
+    'tabIndex',
+    'onFocusIn',
+    'data-collection',
+    'data-key',
+    'onKeyDown',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby',
+    'onDblClick',
+    'id',
+    'onPointerDown',
+    'onMouseDown'
+  ],
+  [
+    'id',
+    'aria-selected',
+    'aria-disabled',
+    'aria-controls',
+    'tabIndex',
+    'role'
+  ]
+]
+SSR MERGE INPUT [
+  [],
+  [ 'className', 'style', 'children', 'data-rac', 'render' ],
+  [
+    'onFocusIn',
+    'onFocusOut',
+    'onKeyDown',
+    'onKeyUp',
+    'tabIndex',
+    'data-collection',
+    'data-key',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby',
+    'onDblClick',
+    'id',
+    'onPointerDown',
+    'onMouseDown',
+    'aria-selected',
+    'aria-disabled',
+    'aria-controls',
+    'role'
+  ],
+  [ 'onFocusIn', 'onFocusOut' ],
+  []
+]
+SSR MERGE INPUT [
+  [],
+  [ 'className', 'style', 'children', 'data-rac', 'render' ],
+  [
+    'onFocusIn',
+    'onFocusOut',
+    'onKeyDown',
+    'onKeyUp',
+    'tabIndex',
+    'data-collection',
+    'data-key',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby',
+    'onDblClick',
+    'id',
+    'onPointerDown',
+    'onMouseDown',
+    'aria-selected',
+    'aria-disabled',
+    'aria-controls',
+    'role'
+  ],
+  [ 'onFocusIn', 'onFocusOut' ],
+  []
+]
+SSR NATIVE MERGE [
+  [ 'component' ],
+  [
+    'className',
+    'style',
+    'children',
+    'data-rac',
+    'render',
+    'onFocusIn',
+    'onFocusOut',
+    'onKeyDown',
+    'onKeyUp',
+    'tabIndex',
+    'data-collection',
+    'data-key',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby',
+    'onDblClick',
+    'id',
+    'onPointerDown',
+    'onMouseDown',
+    'aria-selected',
+    'aria-disabled',
+    'aria-controls',
+    'role'
+  ],
+  [
+    'ref',
+    'data-selected',
+    'data-disabled',
+    'data-focused',
+    'data-focus-visible',
+    'data-pressed',
+    'data-hovered',
+    'children'
+  ]
+] [
+  'component',
+  'ref',
+  'data-selected',
+  'data-disabled',
+  'data-focused',
+  'data-focus-visible',
+  'data-pressed',
+  'data-hovered',
+  'children'
+]
+SSR HOST INPUT div [
+  'ref',
+  'data-selected',
+  'data-disabled',
+  'data-focused',
+  'data-focus-visible',
+  'data-pressed',
+  'data-hovered',
+  'children'
+] undefined undefined
+SSR MERGE INPUT [
+  [
+    'ref',
+    'onPressStart',
+    'onPressUp',
+    'onPress',
+    'preventFocusOnPress'
+  ],
+  [ 'onPressStart', 'onPress' ]
+]
+SSR MERGE INPUT [
+  [],
+  [
+    'ref',
+    'preventFocusOnPress',
+    'onPressStart',
+    'onPressEnd',
+    'onPressChange',
+    'onPress',
+    'onPressUp',
+    'onClick'
+  ]
+]
+SSR MERGE INPUT [ [], [ 'onKeyDown', 'onClick' ], [ 'data-react-aria-pressable' ] ]
+SSR MERGE INPUT [ [], [ 'isDisabled', 'onPressStart', 'onPressEnd' ] ]
+SSR MERGE INPUT [ [], [ 'onKeyDown', 'onClick' ], [ 'data-react-aria-pressable' ] ]
+SSR MERGE INPUT [
+  [ 'onKeyDown', 'onClick', 'data-react-aria-pressable' ],
+  [ 'aria-describedby' ]
+]
+SSR MERGE INPUT [
+  [
+    'tabIndex',
+    'onFocusIn',
+    'onMouseDown',
+    'data-collection',
+    'data-key'
+  ],
+  [ 'onKeyDown', 'onClick', 'data-react-aria-pressable' ],
+  [
+    'onKeyDown',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby'
+  ],
+  [ 'onDblClick', 'onClick', 'id' ],
+  [ 'onMouseDown' ]
+]
+SSR MERGE INPUT [ [ 'onFocusIn', 'onFocusOut' ], [ 'onKeyDown', 'onKeyUp' ] ]
+SSR MERGE INPUT [
+  [ 'onFocusIn', 'onFocusOut', 'onKeyDown', 'onKeyUp', 'tabIndex' ],
+  []
+]
+SSR MERGE INPUT [
+  [],
+  [ 'onFocusIn', 'onFocusOut', 'onKeyDown', 'onKeyUp', 'tabIndex' ],
+  [],
+  [
+    'tabIndex',
+    'onFocusIn',
+    'data-collection',
+    'data-key',
+    'onKeyDown',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby',
+    'onDblClick',
+    'id',
+    'onPointerDown',
+    'onMouseDown'
+  ],
+  [
+    'id',
+    'aria-selected',
+    'aria-disabled',
+    'aria-controls',
+    'tabIndex',
+    'role'
+  ]
+]
+SSR MERGE INPUT [
+  [],
+  [ 'className', 'style', 'children', 'data-rac', 'render' ],
+  [
+    'onFocusIn',
+    'onFocusOut',
+    'onKeyDown',
+    'onKeyUp',
+    'tabIndex',
+    'data-collection',
+    'data-key',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby',
+    'onDblClick',
+    'id',
+    'onPointerDown',
+    'onMouseDown',
+    'aria-selected',
+    'aria-disabled',
+    'aria-controls',
+    'role'
+  ],
+  [ 'onFocusIn', 'onFocusOut' ],
+  []
+]
+SSR MERGE INPUT [
+  [],
+  [ 'className', 'style', 'children', 'data-rac', 'render' ],
+  [
+    'onFocusIn',
+    'onFocusOut',
+    'onKeyDown',
+    'onKeyUp',
+    'tabIndex',
+    'data-collection',
+    'data-key',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby',
+    'onDblClick',
+    'id',
+    'onPointerDown',
+    'onMouseDown',
+    'aria-selected',
+    'aria-disabled',
+    'aria-controls',
+    'role'
+  ],
+  [ 'onFocusIn', 'onFocusOut' ],
+  []
+]
+SSR NATIVE MERGE [
+  [ 'component' ],
+  [
+    'className',
+    'style',
+    'children',
+    'data-rac',
+    'render',
+    'onFocusIn',
+    'onFocusOut',
+    'onKeyDown',
+    'onKeyUp',
+    'tabIndex',
+    'data-collection',
+    'data-key',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby',
+    'onDblClick',
+    'id',
+    'onPointerDown',
+    'onMouseDown',
+    'aria-selected',
+    'aria-disabled',
+    'aria-controls',
+    'role'
+  ],
+  [
+    'ref',
+    'data-selected',
+    'data-disabled',
+    'data-focused',
+    'data-focus-visible',
+    'data-pressed',
+    'data-hovered',
+    'children'
+  ]
+] [
+  'component',
+  'ref',
+  'data-selected',
+  'data-disabled',
+  'data-focused',
+  'data-focus-visible',
+  'data-pressed',
+  'data-hovered',
+  'children'
+]
+SSR HOST INPUT div [
+  'ref',
+  'data-selected',
+  'data-disabled',
+  'data-focused',
+  'data-focus-visible',
+  'data-pressed',
+  'data-hovered',
+  'children'
+] undefined undefined
+SSR MERGE INPUT [
+  [
+    'ref',
+    'onPressStart',
+    'onPressUp',
+    'onPress',
+    'preventFocusOnPress'
+  ],
+  [ 'onPressStart', 'onPress' ]
+]
+SSR MERGE INPUT [
+  [],
+  [
+    'ref',
+    'preventFocusOnPress',
+    'onPressStart',
+    'onPressEnd',
+    'onPressChange',
+    'onPress',
+    'onPressUp',
+    'onClick'
+  ]
+]
+SSR MERGE INPUT [ [], [ 'onKeyDown', 'onClick' ], [ 'data-react-aria-pressable' ] ]
+SSR MERGE INPUT [ [], [ 'isDisabled', 'onPressStart', 'onPressEnd' ] ]
+SSR MERGE INPUT [ [], [ 'onKeyDown', 'onClick' ], [ 'data-react-aria-pressable' ] ]
+SSR MERGE INPUT [
+  [ 'onKeyDown', 'onClick', 'data-react-aria-pressable' ],
+  [ 'aria-describedby' ]
+]
+SSR MERGE INPUT [
+  [
+    'tabIndex',
+    'onFocusIn',
+    'onMouseDown',
+    'data-collection',
+    'data-key'
+  ],
+  [ 'onKeyDown', 'onClick', 'data-react-aria-pressable' ],
+  [
+    'onKeyDown',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby'
+  ],
+  [ 'onDblClick', 'onClick', 'id' ],
+  [ 'onMouseDown' ]
+]
+SSR MERGE INPUT [ [ 'onFocusIn', 'onFocusOut' ], [ 'onKeyDown', 'onKeyUp' ] ]
+SSR MERGE INPUT [
+  [ 'onFocusIn', 'onFocusOut', 'onKeyDown', 'onKeyUp', 'tabIndex' ],
+  []
+]
+SSR MERGE INPUT [
+  [],
+  [ 'onFocusIn', 'onFocusOut', 'onKeyDown', 'onKeyUp', 'tabIndex' ],
+  [],
+  [
+    'tabIndex',
+    'onFocusIn',
+    'data-collection',
+    'data-key',
+    'onKeyDown',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby',
+    'onDblClick',
+    'id',
+    'onPointerDown',
+    'onMouseDown'
+  ],
+  [
+    'id',
+    'aria-selected',
+    'aria-disabled',
+    'aria-controls',
+    'tabIndex',
+    'role'
+  ]
+]
+SSR MERGE INPUT [
+  [],
+  [ 'className', 'style', 'children', 'data-rac', 'render' ],
+  [
+    'onFocusIn',
+    'onFocusOut',
+    'onKeyDown',
+    'onKeyUp',
+    'tabIndex',
+    'data-collection',
+    'data-key',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby',
+    'onDblClick',
+    'id',
+    'onPointerDown',
+    'onMouseDown',
+    'aria-selected',
+    'aria-disabled',
+    'aria-controls',
+    'role'
+  ],
+  [ 'onFocusIn', 'onFocusOut' ],
+  []
+]
+SSR MERGE INPUT [
+  [],
+  [ 'className', 'style', 'children', 'data-rac', 'render' ],
+  [
+    'onFocusIn',
+    'onFocusOut',
+    'onKeyDown',
+    'onKeyUp',
+    'tabIndex',
+    'data-collection',
+    'data-key',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby',
+    'onDblClick',
+    'id',
+    'onPointerDown',
+    'onMouseDown',
+    'aria-selected',
+    'aria-disabled',
+    'aria-controls',
+    'role'
+  ],
+  [ 'onFocusIn', 'onFocusOut' ],
+  []
+]
+SSR NATIVE MERGE [
+  [ 'component' ],
+  [
+    'className',
+    'style',
+    'children',
+    'data-rac',
+    'render',
+    'onFocusIn',
+    'onFocusOut',
+    'onKeyDown',
+    'onKeyUp',
+    'tabIndex',
+    'data-collection',
+    'data-key',
+    'onClick',
+    'data-react-aria-pressable',
+    'aria-describedby',
+    'onDblClick',
+    'id',
+    'onPointerDown',
+    'onMouseDown',
+    'aria-selected',
+    'aria-disabled',
+    'aria-controls',
+    'role'
+  ],
+  [
+    'ref',
+    'data-selected',
+    'data-disabled',
+    'data-focused',
+    'data-focus-visible',
+    'data-pressed',
+    'data-hovered',
+    'children'
+  ]
+] [
+  'component',
+  'ref',
+  'data-selected',
+  'data-disabled',
+  'data-focused',
+  'data-focus-visible',
+  'data-pressed',
+  'data-hovered',
+  'children'
+]
+SSR HOST INPUT div [
+  'ref',
+  'data-selected',
+  'data-disabled',
+  'data-focused',
+  'data-focus-visible',
+  'data-pressed',
+  'data-hovered',
+  'children'
+] undefined undefined
+SSR NATIVE MERGE [
+  [ 'id', 'children' ],
+  [ 'tabPanelRef', 'isInitiallySelected', 'isExiting' ]
+] [ 'id', 'children', 'tabPanelRef', 'isInitiallySelected', 'isExiting' ]
+SSR MERGE INPUT [
+  [ 'id', 'aria-label', 'aria-labelledby' ],
+  [ 'tabIndex', 'role', 'aria-describedby', 'aria-details' ]
+]
+SSR MERGE INPUT [
+  [],
+  [
+    'id',
+    'aria-label',
+    'aria-labelledby',
+    'tabIndex',
+    'role',
+    'aria-describedby',
+    'aria-details'
+  ],
+  [ 'onFocusIn', 'onFocusOut' ],
+  [ 'className', 'style', 'children', 'data-rac', 'render' ]
+]
+SSR MERGE INPUT [ [], [ 'className', 'style', 'children', 'data-rac', 'render' ] ]
+SSR NATIVE MERGE [
+  [
+    'id',              'aria-label',
+    'aria-labelledby', 'tabIndex',
+    'role',            'aria-describedby',
+    'aria-details',    'onFocusIn',
+    'onFocusOut',      'className',
+    'style',           'children',
+    'data-rac',        'render'
+  ],
+  [
+    'ref',
+    'data-focused',
+    'data-focus-visible',
+    'inert',
+    'data-inert',
+    'data-entering',
+    'data-exiting',
+    'children'
+  ]
+] [
+  'ref',
+  'data-focused',
+  'data-focus-visible',
+  'inert',
+  'data-inert',
+  'data-entering',
+  'data-exiting',
+  'children'
+]
+SSR HOST INPUT div [
+  'ref',
+  'data-focused',
+  'data-focus-visible',
+  'inert',
+  'data-inert',
+  'data-entering',
+  'data-exiting',
+  'children'
+] undefined undefined
+<template _hk=4></template><div _hk=60l0 data-rac data-orientation="horizontal" class="react-aria-Tabs"><div _hk=60l10001w0 data-orientation="horizontal"><div _hk=60l10001w100010r50 data-selected="true">Left</div><div _hk=60l10001w100110r50>Middle</div><div _hk=60l10001w100210r50>Right</div></div><div _hk=60l10001A13e0>Left content</div></div>

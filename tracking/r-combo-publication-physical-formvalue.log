@@ -1,0 +1,127 @@
+[
+  {
+    "engine": "react",
+    "scenario": "formvalue",
+    "multiple": false,
+    "failure": null,
+    "errors": [],
+    "warnings": [],
+    "rows": [
+      {
+        "phase": "mounted",
+        "inputConnected": true,
+        "inputSame": true,
+        "value": "Dog",
+        "caret": [
+          3,
+          3
+        ],
+        "activeInput": false,
+        "expanded": "false",
+        "activeDescendant": null,
+        "formValues": [
+          "2"
+        ],
+        "changes": [],
+        "inputChanges": [
+          "Dog"
+        ],
+        "selectedText": null,
+        "options": [],
+        "currentOptions": []
+      },
+      {
+        "phase": "controlled-value-first-settled",
+        "inputConnected": true,
+        "inputSame": true,
+        "value": "Dog",
+        "caret": [
+          3,
+          3
+        ],
+        "activeInput": false,
+        "expanded": "false",
+        "activeDescendant": null,
+        "formValues": [
+          "2"
+        ],
+        "changes": [],
+        "inputChanges": [
+          "Dog"
+        ],
+        "selectedText": null,
+        "options": [],
+        "currentOptions": []
+      }
+    ],
+    "url": "http://127.0.0.1:4317/combobox/?formvalue",
+    "inputsStable": true,
+    "browser": "143.0.7499.4",
+    "eventCount": 0,
+    "allTrusted": true
+  },
+  {
+    "engine": "native",
+    "scenario": "formvalue",
+    "multiple": false,
+    "failure": null,
+    "errors": [],
+    "warnings": [
+      "[EFFECT_WRITES_OWN_SOURCE] effect \"effect\" re-ran because of its own write: it wrote \"useControlledState.stateValue\" (\"C\" → \"Dog\"), which fed back into its inputs through memo \"useComboBoxState.filteredCollection\". Two flushes to settle, and the screen rendered the pre-write value in between. The written value is a function of what the effect reads — compute it in a memo (or normalize where the source is written) instead of correcting it after the fact.\n  in <Fixture> › <Form> › <dom.form> › <Host> › computed › effect › <FormContext> › computed › <FormValidationContext> › computed › <ComboBox> › <CollectionBuilder> › <CollectionInner> › <For> › <ComboBoxInner> › effect\n[EFFECT_WRITES_OWN_SOURCE] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#effect_writes_own_source\n[EFFECT_WRITES_OWN_SOURCE] deeper evidence: import { attribution } from \"solid-js/attribution\"; attribution.enable() explains every re-run — why-chains, costs(), feedback(), history(\"hold\" | \"waterfall\") — agent loop: node_modules/@solidjs/diagnostics/skills/agent-loops/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/diagnostics/skills/agent-loops/SKILL.md",
+      "[EFFECT_RELAY_TEAR] memo \"useFormValidationStateImpl.clientError\" ran twice for one write of \"signal\": once in the flush where \"signal\" changed, and again after effect \"effect\" relayed it by writing \"useControlledState.stateValue\" — the first frame showed the new \"signal\" with the stale \"useControlledState.stateValue\" (3 times so far). Nothing else writes \"useControlledState.stateValue\" — it is derived state: make it a memo over what the effect reads and every reader gets it in the same flush.\n  in <Fixture> › <Form> › <dom.form> › <Host> › computed › effect › <FormContext> › computed › <FormValidationContext> › computed › <ComboBox> › <CollectionBuilder> › <CollectionInner> › <For> › <ComboBoxInner> › useFormValidationStateImpl.clientError\n[EFFECT_RELAY_TEAR] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#effect_relay_tear\n[EFFECT_RELAY_TEAR] deeper evidence: import { attribution } from \"solid-js/attribution\"; attribution.enable() explains every re-run — why-chains, costs(), feedback(), history(\"hold\" | \"waterfall\") — agent loop: node_modules/@solidjs/diagnostics/skills/agent-loops/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/diagnostics/skills/agent-loops/SKILL.md"
+    ],
+    "rows": [
+      {
+        "phase": "mounted",
+        "inputConnected": true,
+        "inputSame": true,
+        "value": "Dog",
+        "caret": [
+          3,
+          3
+        ],
+        "activeInput": false,
+        "expanded": "false",
+        "activeDescendant": null,
+        "formValues": [
+          "2"
+        ],
+        "changes": [],
+        "inputChanges": [
+          "Dog"
+        ],
+        "selectedText": null,
+        "options": [],
+        "currentOptions": []
+      },
+      {
+        "phase": "controlled-value-first-settled",
+        "inputConnected": true,
+        "inputSame": true,
+        "value": "Dog",
+        "caret": [
+          3,
+          3
+        ],
+        "activeInput": false,
+        "expanded": "false",
+        "activeDescendant": null,
+        "formValues": [
+          "2"
+        ],
+        "changes": [],
+        "inputChanges": [
+          "Dog"
+        ],
+        "selectedText": null,
+        "options": [],
+        "currentOptions": []
+      }
+    ],
+    "url": "http://127.0.0.1:4318/combobox/?formvalue",
+    "inputsStable": true,
+    "browser": "143.0.7499.4",
+    "eventCount": 0,
+    "allTrusted": true
+  }
+]

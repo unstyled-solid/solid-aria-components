@@ -1,0 +1,68 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  ._Pa18 {
+    position: absolute;
+  }
+
+
+  ._zflWog18 {
+    inset-inline-end: calc(0.1875 * var(--rem, 1rem));
+  }
+
+
+  ._zflWog18 {
+    inset-inline-end: calc(0.1875 * var(--rem, 1rem));
+  }
+
+
+  ._zE18 {
+    inset-inline-end: 4px;
+  }
+
+
+  ._zrEMFue18 {
+    inset-inline-end: calc(0.3125 * var(--rem, 1rem));
+  }
+
+
+  ._zbCyY5d18 {
+    inset-inline-end: calc(0.375 * var(--rem, 1rem));
+  }
+
+
+  ._lflWog18 {
+    bottom: calc(0.1875 * var(--rem, 1rem));
+  }
+
+
+  ._lflWog18 {
+    bottom: calc(0.1875 * var(--rem, 1rem));
+  }
+
+
+  ._lE18 {
+    bottom: 4px;
+  }
+
+
+  ._lrEMFue18 {
+    bottom: calc(0.3125 * var(--rem, 1rem));
+  }
+
+
+  ._lbCyY5d18 {
+    bottom: calc(0.375 * var(--rem, 1rem));
+  }
+
+
+  .-Z4Pn4c-a18 {
+    --scaleX: -1;
+  }
+
+
+  .__Ha18 {
+    scale: var(--scaleX, 1) var(--scaleY, 1);
+  }
+}
+

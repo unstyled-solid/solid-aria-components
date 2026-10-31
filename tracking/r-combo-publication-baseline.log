@@ -1,0 +1,307 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+stdout | packages/react-aria-components/test/ComboBox.test.jsx > ComboBox > should support formValue
+TOOLTIP_FACTORY undefined false undefined Error: 
+    at Object.get each [as each] (/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/src/utils.tsx:246:85)
+    at Object._list (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:71)
+    at Object.updateKeyedMap (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:9066:25)
+    at recompute (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4942:27)
+    at setupComputedNode (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5651:21)
+    at computed (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5512:3)
+    at mapArray (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:8916:16)
+    at file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:50
+    at runWithOwner (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6942:12)
+    at create (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:24)
+TOOLTIP_FACTORY undefined false undefined Error: 
+    at Object.get each [as each] (/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/src/utils.tsx:246:85)
+    at Object._list (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:71)
+    at Object.updateKeyedMap (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:9066:25)
+    at recompute (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4942:27)
+    at setupComputedNode (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5651:21)
+    at computed (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5512:3)
+    at mapArray (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:8916:16)
+    at file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:50
+    at runWithOwner (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6942:12)
+    at create (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:24)
+TOOLTIP_FACTORY object true [
+  [Function: bound read] {
+    Symbol(refresh): <ref *1> {
+      id: undefined,
+      _config: 0,
+      _equals: [Function: isEqual],
+      _disposal: [Function (anonymous)],
+      _queue: [GlobalQueue],
+      _context: [Object],
+      _childCount: 0,
+      _fn: [Function (anonymous)],
+      _value: [Function],
+      _height: 79,
+      _nextHeap: undefined,
+      _prevHeap: [Circular *1],
+      _deps: [Object],
+      _depsTail: [Object],
+      _depGen: 1,
+      _subs: null,
+      _subsTail: null,
+      _parent: [Object],
+      _nextSibling: [Object],
+      _prevSibling: null,
+      _firstChild: [Object],
+      _flags: 0,
+      _statusFlags: 0,
+      _time: 1,
+      _pendingValue: {},
+      _transition: null,
+      _notifiedAt: -1,
+      _loading: false,
+      _x: null,
+      _name: 'computed',
+      _signals: [Array]
+    }
+  },
+  [Function: bound read] {
+    Symbol(refresh): <ref *2> {
+      id: undefined,
+      _config: 0,
+      _equals: [Function: isEqual],
+      _disposal: null,
+      _queue: [GlobalQueue],
+      _context: [Object],
+      _childCount: 0,
+      _fn: [Function (anonymous)],
+      _value: [HTMLInputElement],
+      _height: 79,
+      _nextHeap: undefined,
+      _prevHeap: [Circular *2],
+      _deps: [Object],
+      _depsTail: [Object],
+      _depGen: 1,
+      _subs: null,
+      _subsTail: null,
+      _parent: [Object],
+      _nextSibling: [Object],
+      _prevSibling: null,
+      _firstChild: [Object],
+      _flags: 0,
+      _statusFlags: 0,
+      _time: 1,
+      _pendingValue: {},
+      _transition: null,
+      _notifiedAt: -1,
+      _loading: false,
+      _x: null,
+      _name: 'computed'
+    }
+  },
+  [Function: bound read] {
+    Symbol(refresh): <ref *3> {
+      id: undefined,
+      _config: 0,
+      _equals: [Function: isEqual],
+      _disposal: null,
+      _queue: [GlobalQueue],
+      _context: [Object],
+      _childCount: 0,
+      _fn: [Function (anonymous)],
+      _value: [HTMLButtonElement],
+      _height: 80,
+      _nextHeap: undefined,
+      _prevHeap: [Circular *3],
+      _deps: [Object],
+      _depsTail: [Object],
+      _depGen: 1,
+      _subs: null,
+      _subsTail: null,
+      _parent: [Object],
+      _nextSibling: [Object],
+      _prevSibling: null,
+      _firstChild: [Object],
+      _flags: 0,
+      _statusFlags: 0,
+      _time: 1,
+      _pendingValue: {},
+      _transition: null,
+      _notifiedAt: -1,
+      _loading: false,
+      _x: null,
+      _name: 'computed'
+    }
+  },
+  [Function: bound read] {
+    Symbol(refresh): <ref *4> {
+      id: undefined,
+      _config: 64,
+      _equals: [Function: isEqual],
+      _disposal: null,
+      _queue: [GlobalQueue],
+      _context: [Object],
+      _childCount: 0,
+      _fn: [Function (anonymous)],
+      _value: false,
+      _height: 77,
+      _nextHeap: undefined,
+      _prevHeap: [Circular *4],
+      _deps: [Object],
+      _depsTail: [Object],
+      _depGen: 1,
+      _subs: null,
+      _subsTail: null,
+      _parent: [Object],
+      _nextSibling: [Object],
+      _prevSibling: [Object],
+      _firstChild: [Object],
+      _flags: 0,
+      _statusFlags: 0,
+      _time: 1,
+      _pendingValue: {},
+      _transition: null,
+      _notifiedAt: -1,
+      _loading: false,
+      _x: null,
+      _name: 'computed'
+    }
+  },
+  [Function: bound read] {
+    Symbol(refresh): <ref *5> {
+      id: undefined,
+      _config: 0,
+      _equals: [Function: isEqual],
+      _disposal: null,
+      _queue: [GlobalQueue],
+      _context: [Object],
+      _childCount: 0,
+      _fn: [Function (anonymous)],
+      _value: [HTMLSpanElement],
+      _height: 79,
+      _nextHeap: undefined,
+      _prevHeap: [Circular *5],
+      _deps: [Object],
+      _depsTail: [Object],
+      _depGen: 1,
+      _subs: null,
+      _subsTail: null,
+      _parent: [Object],
+      _nextSibling: [Object],
+      _prevSibling: null,
+      _firstChild: [Object],
+      _flags: 0,
+      _statusFlags: 0,
+      _time: 1,
+      _pendingValue: {},
+      _transition: null,
+      _notifiedAt: -1,
+      _loading: false,
+      _x: null,
+      _name: 'computed'
+    }
+  },
+  [Function: bound read] {
+    Symbol(refresh): <ref *6> {
+      id: undefined,
+      _config: 0,
+      _equals: [Function: isEqual],
+      _disposal: null,
+      _queue: [GlobalQueue],
+      _context: [Object],
+      _childCount: 0,
+      _fn: [Function (anonymous)],
+      _value: [HTMLSpanElement],
+      _height: 79,
+      _nextHeap: undefined,
+      _prevHeap: [Circular *6],
+      _deps: [Object],
+      _depsTail: [Object],
+      _depGen: 1,
+      _subs: null,
+      _subsTail: null,
+      _parent: [Object],
+      _nextSibling: [Object],
+      _prevSibling: null,
+      _firstChild: [Object],
+      _flags: 0,
+      _statusFlags: 0,
+      _time: 1,
+      _pendingValue: {},
+      _transition: null,
+      _notifiedAt: -1,
+      _loading: false,
+      _x: null,
+      _name: 'computed'
+    }
+  },
+  [Function: bound read] {
+    Symbol(refresh): <ref *7> {
+      id: undefined,
+      _config: 33554436,
+      _equals: [Function: isEqual],
+      _disposal: [Array],
+      _queue: [GlobalQueue],
+      _context: [Object],
+      _childCount: 0,
+      _fn: [Function (anonymous)],
+      _value: [Function],
+      _height: 77,
+      _nextHeap: undefined,
+      _prevHeap: [Circular *7],
+      _deps: [Object],
+      _depsTail: [Object],
+      _depGen: 1,
+      _subs: null,
+      _subsTail: null,
+      _parent: [Object],
+      _nextSibling: null,
+      _prevSibling: null,
+      _firstChild: [Object],
+      _flags: 0,
+      _statusFlags: 0,
+      _time: 1,
+      _pendingValue: {},
+      _transition: null,
+      _notifiedAt: -1,
+      _loading: false,
+      _x: null,
+      _name: undefined,
+      _signals: [Array]
+    }
+  }
+] Error: 
+    at Object.get each [as each] (/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/src/utils.tsx:246:85)
+    at Object._list (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:71)
+    at Object.updateKeyedMap (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:9066:25)
+    at recompute (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4942:27)
+    at setupComputedNode (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5651:21)
+    at computed (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5512:3)
+    at mapArray (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:8916:16)
+    at file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:50
+    at runWithOwner (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6942:12)
+    at create (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:24)
+
+ ❯ |solid2-pilot| packages/react-aria-components/test/ComboBox.test.jsx (46 tests | 1 failed | 45 skipped) 118ms
+     × should support formValue 115ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/ComboBox.test.jsx > ComboBox > should support formValue
+Error: [2mexpect([22m[31melement[39m[2m).toHaveValue([22m[32mDog[39m[2m)[22m
+
+Expected the element to have value:
+[32m  Dog[39m
+Received:
+[31m  C[39m
+ ❯ packages/react-aria-components/test/ComboBox.test.jsx:281:19
+    279|     let input = getByRole('combobox');
+    280|     expect(input).not.toHaveAttribute('name');
+    281|     expect(input).toHaveValue('Dog');
+       |                   ^
+    282|     let hiddenInput = document.querySelector('input[type=hidden]');
+    283|     expect(hiddenInput).toHaveAttribute('name', 'test');
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 45 skipped (46)
+   Start at  16:40:14
+   Duration  1.87s (transform 1.12s, setup 103ms, import 1.27s, tests 118ms, environment 247ms)
+

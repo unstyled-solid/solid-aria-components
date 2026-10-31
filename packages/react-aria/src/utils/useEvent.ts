@@ -1,0 +1,36 @@
+/*
+ * Copyright 2021 Adobe. All rights reserved.
+ * This file is licensed to you under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License. You may obtain a copy
+ * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under
+ * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+ * OF ANY KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ */
+
+import {addEvent} from './domHelpers';
+import {EventMapType, RefObject} from '@react-types/shared';
+import {createEffect, createMemo, type Accessor} from 'solid-js';
+import {useEffectEvent} from './useEffectEvent';
+
+export function useEvent<T extends EventTarget, K extends keyof EventMapType<T>>(
+  ref: RefObject<T | null>,
+  event: Extract<K, string> | (string & {}) | Accessor<Extract<K, string> | (string & {})>,
+  listener?: (this: T, ev: EventMapType<Exclude<T, null>>[K]) => any,
+  options?: boolean | AddEventListenerOptions | Accessor<boolean | AddEventListenerOptions | undefined>,
+  getListener?: () => typeof listener
+): void {
+  let handleEvent = useEffectEvent(listener, getListener);
+  let isDisabled = createMemo(() => (getListener ? getListener() : listener) == null);
+
+  createEffect(() => ({target: ref.current, event: typeof event === 'function' ? event() : event,
+    options: typeof options === 'function' ? options() : options, disabled: isDisabled()}), ({target, event, options, disabled}) => {
+    if (disabled || target == null) {
+      return;
+    }
+
+    return addEvent(target, event, handleEvent, options);
+  });
+}

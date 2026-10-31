@@ -1,0 +1,3 @@
+ ✓ |chromium-desktop| packages/react-aria-components/test/Tabs.browser.test.tsx (2 tests) 72ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/Tabs.browser.test.tsx (2 tests) 158ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/Tabs.browser.test.tsx (2 tests) 1491ms

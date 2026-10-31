@@ -1,0 +1,88 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import vanillaDocs from 'docs:vanilla-starter/ColorSlider';
+import '../../tailwind/tailwind.css';
+import Anatomy from '/packages/dev/s2-docs/pages/react-aria/ColorSliderAnatomy.svg';
+
+export const tags = ['input'];
+export const relatedPages = [{'title': 'useColorSlider', 'url': './ColorSlider/useColorSlider'}];
+export const description = 'Allows users to adjust an individual channel of a color value.';
+
+# ColorSlider
+
+<PageDescription>{docs.exports.ColorSlider.description}</PageDescription>
+
+<ExampleSwitcher>
+  <VisualExample solid="ColorSlider/solid-vanilla-1.tsx"
+    docs={vanillaDocs.exports.ColorSlider}
+    links={vanillaDocs.links}
+    props={['label', 'colorSpace', 'channel', 'orientation', 'isDisabled']}
+    initialProps={{channel: 'hue', defaultValue: 'hsl(0, 100%, 50%)'}}
+    type="vanilla"
+    files={["packages/dev/s2-docs/pages/react-aria/ColorSlider/vanilla/ColorSlider.solid.tsx","packages/dev/s2-docs/pages/react-aria/ColorSlider/vanilla/ColorSlider.css"]} />
+  <VisualExample solid="ColorSlider/solid-tailwind-2.tsx"
+    docs={vanillaDocs.exports.ColorSlider}
+    links={vanillaDocs.links}
+    props={['label', 'colorSpace', 'channel', 'orientation', 'isDisabled']}
+    initialProps={{channel: 'hue', defaultValue: 'hsl(0, 100%, 50%)'}}
+    type="tailwind"
+    files={["packages/dev/s2-docs/pages/react-aria/ColorSlider/tailwind/ColorSlider.solid.tsx","packages/dev/s2-docs/pages/react-aria/ColorSlider/tailwind/ColorThumb.solid.tsx"]} />
+</ExampleSwitcher>
+
+## Value
+
+Use the `value` or `defaultValue` prop to set the color value, and the `channel` prop to specify which color channel to display. The value may be a string or <TypeLink type={docs.exports.Color} links={docs.links} /> object, parsed using the <TypeLink type={docs.exports.parseColor} links={docs.links} /> function.
+
+The `onChange` event is called as the user drags, and `onChangeEnd` is called when the thumb is released. These are always called with a `Color` object.
+
+```tsx nativeModule="ColorSlider/solid-example-3.tsx" solid="ColorSlider/solid-example-3.tsx"  files={["packages/dev/s2-docs/pages/react-aria/ColorSlider/solid-example-3.tsx"]}
+import {parseColor} from 'solid-aria-components';
+import {ColorSlider} from './ColorSlider/vanilla/ColorSlider.solid';
+import {createSignal} from 'solid-js';
+function Example() {
+  let [currentValue, setCurrentValue] = createSignal(parseColor('hsl(50, 100%, 50%)'));
+  let [finalValue, setFinalValue] = createSignal(currentValue());
+
+  return (
+    <>
+      <ColorSlider
+        channel="hue"
+        /*- begin highlight -*/
+        value={currentValue()}
+        onChange={setCurrentValue}
+        onChangeEnd={setFinalValue} />
+        {/*- end highlight -*/}
+      <pre style={{'font-size': '12px'}}>
+        onChange value: {currentValue().toString('hex')}{'\n'}
+        onChangeEnd value: {finalValue().toString('hex')}
+      </pre>
+    </>
+  );
+}
+```
+
+## API
+
+<Anatomy
+  role="img"
+  aria-label="Color slider anatomy diagram: Shows a color slider component with labels pointing to its parts, including the track, thumb, label, and output elements." />
+
+```tsx links={{ColorSlider: '#colorslider', SliderOutput: 'Slider#slideroutput', SliderTrack: 'Slider#slidertrack', ColorThumb: '#colorthumb'}}
+<ColorSlider>
+  <Label />
+  <SliderOutput />
+  <SliderTrack>
+    <ColorThumb />
+  </SliderTrack>
+</ColorSlider>
+```
+
+### ColorSlider
+
+<PropTable component={docs.exports.ColorSlider} links={docs.links} showDescription />
+
+### ColorThumb
+
+<PropTable component={docs.exports.ColorThumb} links={docs.links} showDescription />

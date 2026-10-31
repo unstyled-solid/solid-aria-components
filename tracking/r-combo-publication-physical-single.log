@@ -1,0 +1,301 @@
+[
+  {
+    "engine": "react",
+    "scenario": "single",
+    "multiple": false,
+    "failure": null,
+    "errors": [],
+    "warnings": [],
+    "rows": [
+      {
+        "phase": "mounted",
+        "inputConnected": true,
+        "inputSame": true,
+        "value": "Dog",
+        "caret": [
+          3,
+          3
+        ],
+        "activeInput": false,
+        "expanded": "false",
+        "activeDescendant": null,
+        "formValues": [
+          "2"
+        ],
+        "changes": [],
+        "inputChanges": [
+          "Dog"
+        ],
+        "selectedText": null,
+        "options": [],
+        "currentOptions": []
+      },
+      {
+        "phase": "typed-Ca",
+        "inputConnected": true,
+        "inputSame": true,
+        "value": "Ca",
+        "caret": [
+          2,
+          2
+        ],
+        "activeInput": true,
+        "expanded": "true",
+        "activeDescendant": null,
+        "formValues": [
+          "2"
+        ],
+        "changes": [],
+        "inputChanges": [
+          "Dog",
+          "C",
+          "Ca"
+        ],
+        "selectedText": null,
+        "options": [
+          {
+            "connected": true,
+            "same": true,
+            "text": "Cat",
+            "selected": "false"
+          }
+        ],
+        "currentOptions": [
+          {
+            "text": "Cat",
+            "selected": "false"
+          }
+        ]
+      },
+      {
+        "phase": "cat-selected",
+        "inputConnected": true,
+        "inputSame": true,
+        "value": "Cat",
+        "caret": [
+          3,
+          3
+        ],
+        "activeInput": true,
+        "expanded": "false",
+        "activeDescendant": null,
+        "formValues": [
+          "1"
+        ],
+        "changes": [
+          "1"
+        ],
+        "inputChanges": [
+          "Dog",
+          "C",
+          "Ca",
+          "Cat"
+        ],
+        "selectedText": null,
+        "options": [
+          {
+            "connected": false,
+            "same": false,
+            "text": "Cat",
+            "selected": "true"
+          }
+        ],
+        "currentOptions": []
+      },
+      {
+        "phase": "reset",
+        "inputConnected": true,
+        "inputSame": true,
+        "value": "Dog",
+        "caret": [
+          0,
+          0
+        ],
+        "activeInput": false,
+        "expanded": "false",
+        "activeDescendant": null,
+        "formValues": [
+          "2"
+        ],
+        "changes": [
+          "1",
+          "2"
+        ],
+        "inputChanges": [
+          "Dog",
+          "C",
+          "Ca",
+          "Cat",
+          "Dog"
+        ],
+        "selectedText": null,
+        "options": [
+          {
+            "connected": false,
+            "same": false,
+            "text": "Cat",
+            "selected": "true"
+          }
+        ],
+        "currentOptions": []
+      }
+    ],
+    "url": "http://127.0.0.1:4317/combobox/",
+    "inputsStable": true,
+    "browser": "143.0.7499.4",
+    "eventCount": 20,
+    "allTrusted": false
+  },
+  {
+    "engine": "native",
+    "scenario": "single",
+    "multiple": false,
+    "failure": null,
+    "errors": [],
+    "warnings": [
+      "[EFFECT_WRITES_OWN_SOURCE] effect \"effect\" re-ran because of its own write: it wrote \"useControlledState.stateValue\" (\"\" → \"Dog\"), which fed back into its inputs through memo \"useComboBoxState.filteredCollection\". Two flushes to settle, and the screen rendered the pre-write value in between. The written value is a function of what the effect reads — compute it in a memo (or normalize where the source is written) instead of correcting it after the fact.\n  in <Fixture> › <Form> › <dom.form> › <Host> › computed › effect › <FormContext> › computed › <FormValidationContext> › computed › <ComboBox> › <CollectionBuilder> › <CollectionInner> › <For> › <ComboBoxInner> › effect\n[EFFECT_WRITES_OWN_SOURCE] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#effect_writes_own_source\n[EFFECT_WRITES_OWN_SOURCE] deeper evidence: import { attribution } from \"solid-js/attribution\"; attribution.enable() explains every re-run — why-chains, costs(), feedback(), history(\"hold\" | \"waterfall\") — agent loop: node_modules/@solidjs/diagnostics/skills/agent-loops/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/diagnostics/skills/agent-loops/SKILL.md",
+      "[EFFECT_RELAY_TEAR] memo \"useFormValidationStateImpl.clientError\" ran twice for one write of \"signal\": once in the flush where \"signal\" changed, and again after effect \"effect\" relayed it by writing \"useControlledState.stateValue\" — the first frame showed the new \"signal\" with the stale \"useControlledState.stateValue\" (3 times so far). Nothing else writes \"useControlledState.stateValue\" — it is derived state: make it a memo over what the effect reads and every reader gets it in the same flush.\n  in <Fixture> › <Form> › <dom.form> › <Host> › computed › effect › <FormContext> › computed › <FormValidationContext> › computed › <ComboBox> › <CollectionBuilder> › <CollectionInner> › <For> › <ComboBoxInner> › useFormValidationStateImpl.clientError\n[EFFECT_RELAY_TEAR] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#effect_relay_tear\n[EFFECT_RELAY_TEAR] deeper evidence: import { attribution } from \"solid-js/attribution\"; attribution.enable() explains every re-run — why-chains, costs(), feedback(), history(\"hold\" | \"waterfall\") — agent loop: node_modules/@solidjs/diagnostics/skills/agent-loops/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/diagnostics/skills/agent-loops/SKILL.md",
+      "[EFFECT_RELAY_TEAR] effect \"effect\" ran twice for one write of \"useControlledState.stateValue\": once in the flush where \"useControlledState.stateValue\" changed, and again after effect \"effect\" relayed it by writing \"useMultipleSelectionState.focusedKey\" — the first frame showed the new \"useControlledState.stateValue\" with the stale \"useMultipleSelectionState.focusedKey\" (3 times so far). If \"useMultipleSelectionState.focusedKey\" is computed from what the effect reads, make it a memo so readers get it in the same flush; if the write reads something outside the graph (layout, time), the tear is the cost of measuring.\n  in <Fixture> › <Form> › <dom.form> › <Host> › computed › effect › <FormContext> › computed › <FormValidationContext> › computed › <ComboBox> › <CollectionBuilder> › <CollectionInner> › <For> › <ComboBoxInner> › effect",
+      "[HOT_SCOPE_TIME] effect \"effect\" spent 8.3ms of compute inside one 1000ms window (budget 8ms). Latest cause: \"useSlotId.resolvedId\" (write), \"useComboBox.focusedItem\" (derived), \"useControlledState.stateValue\" (write), \"useControlledState.stateValue\" (write), \"useControlledState.stateValue\" (write), \"useControlledState.stateValue\" (write)\n  in <Fixture> › <Form> › <dom.form> › <Host> › computed › effect › <FormContext> › computed › <FormValidationContext> › computed › <ComboBox> › <CollectionBuilder> › <CollectionInner> › <For> › <ComboBoxInner> › <Provider> › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <dom.div> › <Host> › computed › effect › computed › <For> › <Input> › <dom.input> › <Host> › computed › effect\n[HOT_SCOPE_TIME] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#hot_scope_time\n[HOT_SCOPE_TIME] deeper evidence: import { attribution } from \"solid-js/attribution\"; attribution.enable() explains every re-run — why-chains, costs(), feedback(), history(\"hold\" | \"waterfall\") — agent loop: node_modules/@solidjs/diagnostics/skills/agent-loops/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/diagnostics/skills/agent-loops/SKILL.md JSHandle@node"
+    ],
+    "rows": [
+      {
+        "phase": "mounted",
+        "inputConnected": true,
+        "inputSame": true,
+        "value": "Dog",
+        "caret": [
+          3,
+          3
+        ],
+        "activeInput": false,
+        "expanded": "false",
+        "activeDescendant": null,
+        "formValues": [
+          "2"
+        ],
+        "changes": [],
+        "inputChanges": [
+          "Dog"
+        ],
+        "selectedText": null,
+        "options": [],
+        "currentOptions": []
+      },
+      {
+        "phase": "typed-Ca",
+        "inputConnected": true,
+        "inputSame": true,
+        "value": "Ca",
+        "caret": [
+          2,
+          2
+        ],
+        "activeInput": true,
+        "expanded": "true",
+        "activeDescendant": null,
+        "formValues": [
+          "2"
+        ],
+        "changes": [],
+        "inputChanges": [
+          "Dog",
+          "C",
+          "Ca"
+        ],
+        "selectedText": null,
+        "options": [
+          {
+            "connected": true,
+            "same": true,
+            "text": "Cat",
+            "selected": "false"
+          }
+        ],
+        "currentOptions": [
+          {
+            "text": "Cat",
+            "selected": "false"
+          }
+        ]
+      },
+      {
+        "phase": "cat-selected",
+        "inputConnected": true,
+        "inputSame": true,
+        "value": "Cat",
+        "caret": [
+          3,
+          3
+        ],
+        "activeInput": true,
+        "expanded": "false",
+        "activeDescendant": null,
+        "formValues": [
+          "1"
+        ],
+        "changes": [
+          "1"
+        ],
+        "inputChanges": [
+          "Dog",
+          "C",
+          "Ca",
+          "Cat"
+        ],
+        "selectedText": null,
+        "options": [
+          {
+            "connected": false,
+            "same": false,
+            "text": "Cat",
+            "selected": "false"
+          }
+        ],
+        "currentOptions": []
+      },
+      {
+        "phase": "reset",
+        "inputConnected": true,
+        "inputSame": true,
+        "value": "Dog",
+        "caret": [
+          0,
+          0
+        ],
+        "activeInput": false,
+        "expanded": "false",
+        "activeDescendant": null,
+        "formValues": [
+          "2"
+        ],
+        "changes": [
+          "1",
+          "2"
+        ],
+        "inputChanges": [
+          "Dog",
+          "C",
+          "Ca",
+          "Cat",
+          "Dog"
+        ],
+        "selectedText": null,
+        "options": [
+          {
+            "connected": false,
+            "same": false,
+            "text": "Cat",
+            "selected": "false"
+          }
+        ],
+        "currentOptions": []
+      }
+    ],
+    "url": "http://127.0.0.1:4318/combobox/",
+    "inputsStable": true,
+    "browser": "143.0.7499.4",
+    "eventCount": 20,
+    "allTrusted": false
+  }
+]

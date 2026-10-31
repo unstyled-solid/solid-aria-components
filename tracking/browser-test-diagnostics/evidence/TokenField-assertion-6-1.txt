@@ -1,0 +1,23 @@
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:89:8 > TokenField browser interactions > rendering > does not allow editing when read only
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:89:8 > TokenField browser interactions > rendering > does not allow editing when read only
+[
+  {
+    "ancestorTitles": [
+      "TokenField browser interactions",
+      "rendering"
+    ],
+    "fullName": "TokenField browser interactions rendering does not allow editing when read only",
+    "status": "failed",
+    "title": "does not allow editing when read only",
+    "duration": 20009,
+    "failureMessages": [
+      "task@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:1784:36\n@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:1817:20\n@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:1563:32\n@http://localhost:63315/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/test/TokenField.browser.test.tsx:60:5\nrunWithSuite@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:2258:10\nrunWithSuite@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:2255:29\ncollect@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:1889:22\ncollect@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:1884:26\ncollect@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:1893:61"
+    ],
+    "location": {
+      "line": 89,
+      "column": 8
+    },
+    "meta": {},
+    "tags": []
+  }
+]

@@ -1,0 +1,18 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .ZifsFYc18 {
+    width: calc(calc(1.25 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .FifsFYc18 {
+    height: calc(calc(1.25 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  ._va18 {
+    flex-shrink: 0;
+  }
+}
+

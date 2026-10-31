@@ -1,0 +1,2019 @@
+
+> dev
+> cd packages/dev/s2-docs && DOCS_ENV=dev LIBRARY=react-aria parcel 'pages/react-aria/**/*.mdx' -p 4340 --config .parcelrc-s2-docs --dist-dir ../../../../dist --cache-dir ../../../../.parcel-cache --no-cache
+
+/bin/sh: /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/term-size/vendor/macos/term-size: Bad CPU type in executable
+Building...
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:47:10
+    46 | 
+  > 47 | :global(.hljs) {
+  >    |          ^
+    48 |   display: block;
+    49 |   overflow-x: auto;
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:55:10
+    54 | 
+  > 55 | :global(.hljs-comment),
+  >    |          ^
+    56 | :global(.hljs-quote) {
+    57 |   color: var(--hljs-comment-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:61:10
+    60 | 
+  > 61 | :global(.hljs-doctag),
+  >    |          ^
+    62 | :global(.hljs-formula),
+    63 | :global(.hljs-keyword) {
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:63:10
+    62 | :global(.hljs-formula),
+  > 63 | :global(.hljs-keyword) {
+  >    |          ^
+    64 |   color: var(--hljs-keyword-color);
+    65 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:67:10
+    66 | 
+  > 67 | :global(.hljs-deletion),
+  >    |          ^
+    68 | :global(.hljs-name),
+    69 | :global(.hljs-section),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:68:10
+    67 | :global(.hljs-deletion),
+  > 68 | :global(.hljs-name),
+  >    |          ^
+    69 | :global(.hljs-section),
+    70 | :global(.hljs-selector-tag),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:62:10
+    61 | :global(.hljs-doctag),
+  > 62 | :global(.hljs-formula),
+  >    |          ^
+    63 | :global(.hljs-keyword) {
+    64 |   color: var(--hljs-keyword-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:70:10
+    69 | :global(.hljs-section),
+  > 70 | :global(.hljs-selector-tag),
+  >    |          ^
+    71 | :global(.hljs-subst) {
+    72 |   color: var(--hljs-section-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:71:10
+    70 | :global(.hljs-selector-tag),
+  > 71 | :global(.hljs-subst) {
+  >    |          ^
+    72 |   color: var(--hljs-section-color);
+    73 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:69:10
+    68 | :global(.hljs-name),
+  > 69 | :global(.hljs-section),
+  >    |          ^
+    70 | :global(.hljs-selector-tag),
+    71 | :global(.hljs-subst) {
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:75:10
+    74 | 
+  > 75 | :global(.hljs-literal),
+  >    |          ^
+    76 | :global(.hljs-number) {
+    77 |   color: var(--hljs-literal-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:76:10
+    75 | :global(.hljs-literal),
+  > 76 | :global(.hljs-number) {
+  >    |          ^
+    77 |   color: var(--hljs-literal-color);
+    78 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:84:10
+    83 | 
+  > 84 | :global(.hljs-attr),
+  >    |          ^
+    85 | :global(.hljs-addition),
+    86 | :global(.hljs-attribute),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:56:10
+    55 | :global(.hljs-comment),
+  > 56 | :global(.hljs-quote) {
+  >    |          ^
+    57 |   color: var(--hljs-comment-color);
+    58 |   font-style: italic;
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:85:10
+    84 | :global(.hljs-attr),
+  > 85 | :global(.hljs-addition),
+  >    |          ^
+    86 | :global(.hljs-attribute),
+    87 | :global(.hljs-meta-string),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:87:10
+    86 | :global(.hljs-attribute),
+  > 87 | :global(.hljs-meta-string),
+  >    |          ^
+    88 | :global(.hljs-regexp) {
+    89 |   color: var(--hljs-attribute-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:86:10
+    85 | :global(.hljs-addition),
+  > 86 | :global(.hljs-attribute),
+  >    |          ^
+    87 | :global(.hljs-meta-string),
+    88 | :global(.hljs-regexp) {
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:92:10
+    91 | 
+  > 92 | :global(.hljs-built_in),
+  >    |          ^
+    93 | :global(.hljs-class) :global(.hljs-title) {
+    94 |   color: var(--hljs-class-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:93:10
+    92 | :global(.hljs-built_in),
+  > 93 | :global(.hljs-class) :global(.hljs-title) {
+  >    |          ^
+    94 |   color: var(--hljs-class-color);
+    95 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:93:31
+    92 | :global(.hljs-built_in),
+  > 93 | :global(.hljs-class) :global(.hljs-title) {
+  >    |                               ^
+    94 |   color: var(--hljs-class-color);
+    95 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:98:10
+     97 | :global(.hljs-selector-attr),
+  >  98 | :global(.hljs-selector-class),
+  >     |          ^
+     99 | :global(.hljs-selector-pseudo),
+    100 | :global(.hljs-template-variable),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:97:10
+    96 | 
+  > 97 | :global(.hljs-selector-attr),
+  >    |          ^
+    98 | :global(.hljs-selector-class),
+    99 | :global(.hljs-selector-pseudo),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:99:10
+     98 | :global(.hljs-selector-class),
+  >  99 | :global(.hljs-selector-pseudo),
+  >     |          ^
+    100 | :global(.hljs-template-variable),
+    101 | :global(.hljs-type),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:100:10
+     99 | :global(.hljs-selector-pseudo),
+  > 100 | :global(.hljs-template-variable),
+  >     |          ^
+    101 | :global(.hljs-type),
+    102 | :global(.hljs-variable) {
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:101:10
+    100 | :global(.hljs-template-variable),
+  > 101 | :global(.hljs-type),
+  >     |          ^
+    102 | :global(.hljs-variable) {
+    103 |   color: var(--hljs-variable-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:106:10
+    105 | 
+  > 106 | :global(.hljs-bullet),
+  >     |          ^
+    107 | :global(.hljs-link),
+    108 | :global(.hljs-meta),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:80:10
+    79 | 
+  > 80 | :global(.hljs-string) {
+  >    |          ^
+    81 |   color: var(--hljs-string-color);
+    82 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:107:10
+    106 | :global(.hljs-bullet),
+  > 107 | :global(.hljs-link),
+  >     |          ^
+    108 | :global(.hljs-meta),
+    109 | :global(.hljs-selector-id),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:108:10
+    107 | :global(.hljs-link),
+  > 108 | :global(.hljs-meta),
+  >     |          ^
+    109 | :global(.hljs-selector-id),
+    110 | :global(.hljs-symbol),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:109:10
+    108 | :global(.hljs-meta),
+  > 109 | :global(.hljs-selector-id),
+  >     |          ^
+    110 | :global(.hljs-symbol),
+    111 | :global(.hljs-title) {
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:88:10
+    87 | :global(.hljs-meta-string),
+  > 88 | :global(.hljs-regexp) {
+  >    |          ^
+    89 |   color: var(--hljs-attribute-color);
+    90 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:110:10
+    109 | :global(.hljs-selector-id),
+  > 110 | :global(.hljs-symbol),
+  >     |          ^
+    111 | :global(.hljs-title) {
+    112 |   color: var(--hljs-title-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:111:10
+    110 | :global(.hljs-symbol),
+  > 111 | :global(.hljs-title) {
+  >     |          ^
+    112 |   color: var(--hljs-title-color);
+    113 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:115:10
+    114 | 
+  > 115 | :global(.hljs-function) {
+  >     |          ^
+    116 |   color: var(--hljs-function-color);
+    117 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:123:10
+    122 | 
+  > 123 | :global(.hljs-strong) {
+  >     |          ^
+    124 |   font-weight: bold;
+    125 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:127:10
+    126 | 
+  > 127 | :global(.hljs-link) {
+  >     |          ^
+    128 |   text-decoration: underline;
+    129 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:131:10
+    130 | 
+  > 131 | :global(.source),
+  >     |          ^
+    132 | :global(.embedded) {
+    133 |   display: block;
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:132:10
+    131 | :global(.source),
+  > 132 | :global(.embedded) {
+  >     |          ^
+    133 |   display: block;
+    134 |   color: var(--hljs-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:151:10
+    150 | 
+  > 151 | :global(.source) {
+  >     |          ^
+    152 |   background: var(--hljs-background);
+    153 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:160:10
+    159 | 
+  > 160 | :global(.constant),
+  >     |          ^
+    161 | :global(.number),
+    162 | :global(.number .type) {
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:161:10
+    160 | :global(.constant),
+  > 161 | :global(.number),
+  >     |          ^
+    162 | :global(.number .type) {
+    163 |   color: var(--hljs-literal-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:162:10
+    161 | :global(.number),
+  > 162 | :global(.number .type) {
+  >     |          ^
+    163 |   color: var(--hljs-literal-color);
+    164 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:102:10
+    101 | :global(.hljs-type),
+  > 102 | :global(.hljs-variable) {
+  >     |          ^
+    103 |   color: var(--hljs-variable-color);
+    104 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:166:10
+    165 | 
+  > 166 | :global(.function) {
+  >     |          ^
+    167 |   color: var(--hljs-function-color);
+    168 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:119:10
+    118 | 
+  > 119 | :global(.hljs-emphasis) {
+  >     |          ^
+    120 |   font-style: italic;
+    121 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:155:10
+    154 | 
+  > 155 | :global(.embedded) {
+  >     |          ^
+    156 |   display: inline;
+    157 |   padding: 0;
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:170:10
+    169 | 
+  > 170 | :global(.keyword) {
+  >     |          ^
+    171 |   color: var(--hljs-keyword-color);
+    172 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:177:10
+    176 | }
+  > 177 | :global(.tag),
+  >     |          ^
+    178 | :global(.type) {
+    179 |   color: var(--hljs-section-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:174:10
+    173 | 
+  > 174 | :global(.attribute) {
+  >     |          ^
+    175 |   color: var(--hljs-attribute-color);
+    176 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:178:10
+    177 | :global(.tag),
+  > 178 | :global(.type) {
+  >     |          ^
+    179 |   color: var(--hljs-section-color);
+    180 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:182:10
+    181 | 
+  > 182 | :global(.punctuation.special) {
+  >     |          ^
+    183 |   color: var(--hljs-title-color);
+    184 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:186:10
+    185 | 
+  > 186 | :global(.property) {
+  >     |          ^
+    187 |   color: var(--hljs-variable-color);
+    188 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:190:10
+    189 | 
+  > 190 | :global(.string) {
+  >     |          ^
+    191 |   color: var(--hljs-string-color);
+    192 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:194:10
+    193 | 
+  > 194 | :global(.comment) {
+  >     |          ^
+    195 |   color: var(--hljs-comment-color);
+    196 |   font-style: italic;
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:200:10
+    199 | /* regex */
+  > 200 | :global(.string.special) {
+  >     |          ^
+    201 |   :global(.operator) {
+    202 |     color: var(--hljs-keyword-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:201:12
+    200 | :global(.string.special) {
+  > 201 |   :global(.operator) {
+  >     |            ^
+    202 |     color: var(--hljs-keyword-color);
+    203 |   }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:205:12
+    204 | 
+  > 205 |   :global(.punctuation.bracket) {
+  >     |            ^
+    206 |     color: var(--hljs-attribute-color);
+    207 |   }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:210:10
+    209 | 
+  > 210 | :global(.source) mark {
+  >     |          ^
+    211 |   display: block;
+    212 |   position: relative;
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:223:12
+    222 | @media (forced-colors: active) {
+  > 223 |   :global(.source) mark {
+  >     |            ^
+    224 |     forced-color-adjust: none;
+    225 |     background: Mark;
+
+🚨 Build failed.
+
+@parcel/transformer-js: Unexpected token `AriaCell`. Expected jsx identifier
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ListBox/native/tailwind/Table.tsx:182:6
+    181 |   return (
+  > 182 |     <AriaCell
+  >     |      ^^^^^^^^
+    183 |       {...props}
+    184 |       className={cellStyles}
+
+Building...
+Building...
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:55:10
+    54 | 
+  > 55 | :global(.hljs-comment),
+  >    |          ^
+    56 | :global(.hljs-quote) {
+    57 |   color: var(--hljs-comment-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:47:10
+    46 | 
+  > 47 | :global(.hljs) {
+  >    |          ^
+    48 |   display: block;
+    49 |   overflow-x: auto;
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:56:10
+    55 | :global(.hljs-comment),
+  > 56 | :global(.hljs-quote) {
+  >    |          ^
+    57 |   color: var(--hljs-comment-color);
+    58 |   font-style: italic;
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:61:10
+    60 | 
+  > 61 | :global(.hljs-doctag),
+  >    |          ^
+    62 | :global(.hljs-formula),
+    63 | :global(.hljs-keyword) {
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:62:10
+    61 | :global(.hljs-doctag),
+  > 62 | :global(.hljs-formula),
+  >    |          ^
+    63 | :global(.hljs-keyword) {
+    64 |   color: var(--hljs-keyword-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:63:10
+    62 | :global(.hljs-formula),
+  > 63 | :global(.hljs-keyword) {
+  >    |          ^
+    64 |   color: var(--hljs-keyword-color);
+    65 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:67:10
+    66 | 
+  > 67 | :global(.hljs-deletion),
+  >    |          ^
+    68 | :global(.hljs-name),
+    69 | :global(.hljs-section),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:68:10
+    67 | :global(.hljs-deletion),
+  > 68 | :global(.hljs-name),
+  >    |          ^
+    69 | :global(.hljs-section),
+    70 | :global(.hljs-selector-tag),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:69:10
+    68 | :global(.hljs-name),
+  > 69 | :global(.hljs-section),
+  >    |          ^
+    70 | :global(.hljs-selector-tag),
+    71 | :global(.hljs-subst) {
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:70:10
+    69 | :global(.hljs-section),
+  > 70 | :global(.hljs-selector-tag),
+  >    |          ^
+    71 | :global(.hljs-subst) {
+    72 |   color: var(--hljs-section-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:71:10
+    70 | :global(.hljs-selector-tag),
+  > 71 | :global(.hljs-subst) {
+  >    |          ^
+    72 |   color: var(--hljs-section-color);
+    73 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:75:10
+    74 | 
+  > 75 | :global(.hljs-literal),
+  >    |          ^
+    76 | :global(.hljs-number) {
+    77 |   color: var(--hljs-literal-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:76:10
+    75 | :global(.hljs-literal),
+  > 76 | :global(.hljs-number) {
+  >    |          ^
+    77 |   color: var(--hljs-literal-color);
+    78 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:80:10
+    79 | 
+  > 80 | :global(.hljs-string) {
+  >    |          ^
+    81 |   color: var(--hljs-string-color);
+    82 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:84:10
+    83 | 
+  > 84 | :global(.hljs-attr),
+  >    |          ^
+    85 | :global(.hljs-addition),
+    86 | :global(.hljs-attribute),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:85:10
+    84 | :global(.hljs-attr),
+  > 85 | :global(.hljs-addition),
+  >    |          ^
+    86 | :global(.hljs-attribute),
+    87 | :global(.hljs-meta-string),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:86:10
+    85 | :global(.hljs-addition),
+  > 86 | :global(.hljs-attribute),
+  >    |          ^
+    87 | :global(.hljs-meta-string),
+    88 | :global(.hljs-regexp) {
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:87:10
+    86 | :global(.hljs-attribute),
+  > 87 | :global(.hljs-meta-string),
+  >    |          ^
+    88 | :global(.hljs-regexp) {
+    89 |   color: var(--hljs-attribute-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:88:10
+    87 | :global(.hljs-meta-string),
+  > 88 | :global(.hljs-regexp) {
+  >    |          ^
+    89 |   color: var(--hljs-attribute-color);
+    90 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:92:10
+    91 | 
+  > 92 | :global(.hljs-built_in),
+  >    |          ^
+    93 | :global(.hljs-class) :global(.hljs-title) {
+    94 |   color: var(--hljs-class-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:93:10
+    92 | :global(.hljs-built_in),
+  > 93 | :global(.hljs-class) :global(.hljs-title) {
+  >    |          ^
+    94 |   color: var(--hljs-class-color);
+    95 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:93:31
+    92 | :global(.hljs-built_in),
+  > 93 | :global(.hljs-class) :global(.hljs-title) {
+  >    |                               ^
+    94 |   color: var(--hljs-class-color);
+    95 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:97:10
+    96 | 
+  > 97 | :global(.hljs-selector-attr),
+  >    |          ^
+    98 | :global(.hljs-selector-class),
+    99 | :global(.hljs-selector-pseudo),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:98:10
+     97 | :global(.hljs-selector-attr),
+  >  98 | :global(.hljs-selector-class),
+  >     |          ^
+     99 | :global(.hljs-selector-pseudo),
+    100 | :global(.hljs-template-variable),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:99:10
+     98 | :global(.hljs-selector-class),
+  >  99 | :global(.hljs-selector-pseudo),
+  >     |          ^
+    100 | :global(.hljs-template-variable),
+    101 | :global(.hljs-type),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:100:10
+     99 | :global(.hljs-selector-pseudo),
+  > 100 | :global(.hljs-template-variable),
+  >     |          ^
+    101 | :global(.hljs-type),
+    102 | :global(.hljs-variable) {
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:101:10
+    100 | :global(.hljs-template-variable),
+  > 101 | :global(.hljs-type),
+  >     |          ^
+    102 | :global(.hljs-variable) {
+    103 |   color: var(--hljs-variable-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:102:10
+    101 | :global(.hljs-type),
+  > 102 | :global(.hljs-variable) {
+  >     |          ^
+    103 |   color: var(--hljs-variable-color);
+    104 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:106:10
+    105 | 
+  > 106 | :global(.hljs-bullet),
+  >     |          ^
+    107 | :global(.hljs-link),
+    108 | :global(.hljs-meta),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:107:10
+    106 | :global(.hljs-bullet),
+  > 107 | :global(.hljs-link),
+  >     |          ^
+    108 | :global(.hljs-meta),
+    109 | :global(.hljs-selector-id),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:108:10
+    107 | :global(.hljs-link),
+  > 108 | :global(.hljs-meta),
+  >     |          ^
+    109 | :global(.hljs-selector-id),
+    110 | :global(.hljs-symbol),
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:109:10
+    108 | :global(.hljs-meta),
+  > 109 | :global(.hljs-selector-id),
+  >     |          ^
+    110 | :global(.hljs-symbol),
+    111 | :global(.hljs-title) {
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:110:10
+    109 | :global(.hljs-selector-id),
+  > 110 | :global(.hljs-symbol),
+  >     |          ^
+    111 | :global(.hljs-title) {
+    112 |   color: var(--hljs-title-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:111:10
+    110 | :global(.hljs-symbol),
+  > 111 | :global(.hljs-title) {
+  >     |          ^
+    112 |   color: var(--hljs-title-color);
+    113 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:115:10
+    114 | 
+  > 115 | :global(.hljs-function) {
+  >     |          ^
+    116 |   color: var(--hljs-function-color);
+    117 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:119:10
+    118 | 
+  > 119 | :global(.hljs-emphasis) {
+  >     |          ^
+    120 |   font-style: italic;
+    121 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:123:10
+    122 | 
+  > 123 | :global(.hljs-strong) {
+  >     |          ^
+    124 |   font-weight: bold;
+    125 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:131:10
+    130 | 
+  > 131 | :global(.source),
+  >     |          ^
+    132 | :global(.embedded) {
+    133 |   display: block;
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:132:10
+    131 | :global(.source),
+  > 132 | :global(.embedded) {
+  >     |          ^
+    133 |   display: block;
+    134 |   color: var(--hljs-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:151:10
+    150 | 
+  > 151 | :global(.source) {
+  >     |          ^
+    152 |   background: var(--hljs-background);
+    153 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:127:10
+    126 | 
+  > 127 | :global(.hljs-link) {
+  >     |          ^
+    128 |   text-decoration: underline;
+    129 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:155:10
+    154 | 
+  > 155 | :global(.embedded) {
+  >     |          ^
+    156 |   display: inline;
+    157 |   padding: 0;
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:161:10
+    160 | :global(.constant),
+  > 161 | :global(.number),
+  >     |          ^
+    162 | :global(.number .type) {
+    163 |   color: var(--hljs-literal-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:162:10
+    161 | :global(.number),
+  > 162 | :global(.number .type) {
+  >     |          ^
+    163 |   color: var(--hljs-literal-color);
+    164 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:166:10
+    165 | 
+  > 166 | :global(.function) {
+  >     |          ^
+    167 |   color: var(--hljs-function-color);
+    168 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:170:10
+    169 | 
+  > 170 | :global(.keyword) {
+  >     |          ^
+    171 |   color: var(--hljs-keyword-color);
+    172 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:174:10
+    173 | 
+  > 174 | :global(.attribute) {
+  >     |          ^
+    175 |   color: var(--hljs-attribute-color);
+    176 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:177:10
+    176 | }
+  > 177 | :global(.tag),
+  >     |          ^
+    178 | :global(.type) {
+    179 |   color: var(--hljs-section-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:178:10
+    177 | :global(.tag),
+  > 178 | :global(.type) {
+  >     |          ^
+    179 |   color: var(--hljs-section-color);
+    180 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:182:10
+    181 | 
+  > 182 | :global(.punctuation.special) {
+  >     |          ^
+    183 |   color: var(--hljs-title-color);
+    184 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:186:10
+    185 | 
+  > 186 | :global(.property) {
+  >     |          ^
+    187 |   color: var(--hljs-variable-color);
+    188 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:190:10
+    189 | 
+  > 190 | :global(.string) {
+  >     |          ^
+    191 |   color: var(--hljs-string-color);
+    192 | }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:194:10
+    193 | 
+  > 194 | :global(.comment) {
+  >     |          ^
+    195 |   color: var(--hljs-comment-color);
+    196 |   font-style: italic;
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:200:10
+    199 | /* regex */
+  > 200 | :global(.string.special) {
+  >     |          ^
+    201 |   :global(.operator) {
+    202 |     color: var(--hljs-keyword-color);
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:201:12
+    200 | :global(.string.special) {
+  > 201 |   :global(.operator) {
+  >     |            ^
+    202 |     color: var(--hljs-keyword-color);
+    203 |   }
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:160:10
+    159 | 
+  > 160 | :global(.constant),
+  >     |          ^
+    161 | :global(.number),
+    162 | :global(.number .type) {
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:210:10
+    209 | 
+  > 210 | :global(.source) mark {
+  >     |          ^
+    211 |   display: block;
+    212 |   position: relative;
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:223:12
+    222 | @media (forced-colors: active) {
+  > 223 |   :global(.source) mark {
+  >     |            ^
+    224 |     forced-color-adjust: none;
+    225 |     background: Mark;
+
+
+@parcel/transformer-css: 'global' is not recognized as a valid pseudo-class. Did
+ you mean '::global' (pseudo-element) or is this a typo?
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/docs/src/syntax-highlight.css:205:12
+    204 | 
+  > 205 |   :global(.punctuation.bracket) {
+  >     |            ^
+    206 |     color: var(--hljs-attribute-color);
+    207 |   }
+
+🚨 Build failed.
+
+@parcel/core: Failed to resolve 'lucide-react' from 
+'./packages/dev/s2-docs/pages/react-aria/ToggleButton.mdx'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ToggleButton.mdx:45:1
+    44 | import {ToggleButton} from 'vanilla-starter/ToggleButton';
+  > 45 | import {Star} from 'lucide-react';
+  >    | ^
+    46 | 
+    47 | function Example(props) {
+
+@parcel/resolver-default: Cannot find module 'lucide-react'
+Building...
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+🚨 Build failed.
+
+./NativeTransformer.cjs: 
+/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ListBox/native/tailwind/Table.tsx:
+ Unexpected token (185:32)
+
+  183 |       {...props}
+  184 |       className={cellStyles}
+> 185 |       style={({"has-child-items", "is-tree-column", level}) => ({
+      |                                 ^
+  186 |         "padding-inline-start": isTreeColumn
+  187 |           ? 4 + (hasChildItems ? 0 : 20) + (level - 1) * 16
+  188 |           : undefined
+
+  SyntaxError: 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ListBox/native/tailwind/Table.tsx:
+   Unexpected token (185:32)
+  
+    183 |       {...props}
+    184 |       className={cellStyles}
+  > 185 |       style={({"has-child-items", "is-tree-column", level}) => ({
+        |                                 ^
+    186 |         "padding-inline-start": isTreeColumn
+    187 |           ? 4 + (hasChildItems ? 0 : 20) + (level - 1) * 16
+    188 |           : undefined
+      at constructor 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:369:19)
+      at TypeScriptParserMixin.raise 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:6622:19)
+      at TypeScriptParserMixin.unexpected 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:6642:16)
+      at TypeScriptParserMixin.parseObjPropValue 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12013:21)
+      at TypeScriptParserMixin.parseObjPropValue 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9767:18)
+      at TypeScriptParserMixin.parsePropertyDefinition 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11949:17)
+      at TypeScriptParserMixin.parseObjectLike 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11866:21)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11370:23)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4782:20)
+      at TypeScriptParserMixin.parseExprSubscripts 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11107:23)
+      at TypeScriptParserMixin.parseUpdate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11092:21)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11072:23)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9860:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10925:61)
+      at TypeScriptParserMixin.parseExprOps 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10930:23)
+      at TypeScriptParserMixin.parseMaybeConditional 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10907:23)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10857:21)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9809:20)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10826:39
+      at TypeScriptParserMixin.allowInAnd 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12460:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10826:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12527:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11706:28)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11362:23)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4782:20)
+      at TypeScriptParserMixin.parseExprSubscripts 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11107:23)
+      at TypeScriptParserMixin.parseUpdate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11092:21)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11072:23)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9860:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10925:61)
+      at TypeScriptParserMixin.parseExprOps 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10930:23)
+      at TypeScriptParserMixin.parseMaybeConditional 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10907:23)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10857:21)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9809:20)
+      at TypeScriptParserMixin.parseExpressionBase 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10810:23)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10806:39
+      at TypeScriptParserMixin.allowInAnd 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12460:12)
+      at TypeScriptParserMixin.parseExpression 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10806:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4650:31)
+      at TypeScriptParserMixin.jsxParseAttributeValue 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4622:21)
+      at TypeScriptParserMixin.jsxParseAttribute 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4671:38)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4685:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10066:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4680:17)
+      at TypeScriptParserMixin.jsxParseElementAt 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4704:33)
+      at TypeScriptParserMixin.jsxParseElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4767:17)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4777:19)
+      at TypeScriptParserMixin.parseExprSubscripts 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11107:23)
+      at TypeScriptParserMixin.parseUpdate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11092:21)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11072:23)
+
+Building...
+🚨 Build failed.
+
+./NativeTransformer.cjs: 
+/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ListBox/native/tailwind/Table.tsx:
+ Unexpected token (185:32)
+
+  183 |       {...props}
+  184 |       className={cellStyles}
+> 185 |       style={({"has-child-items", "is-tree-column", level}) => ({
+      |                                 ^
+  186 |         "padding-inline-start": isTreeColumn
+  187 |           ? 4 + (hasChildItems ? 0 : 20) + (level - 1) * 16
+  188 |           : undefined
+
+  SyntaxError: 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ListBox/native/tailwind/Table.tsx:
+   Unexpected token (185:32)
+  
+    183 |       {...props}
+    184 |       className={cellStyles}
+  > 185 |       style={({"has-child-items", "is-tree-column", level}) => ({
+        |                                 ^
+    186 |         "padding-inline-start": isTreeColumn
+    187 |           ? 4 + (hasChildItems ? 0 : 20) + (level - 1) * 16
+    188 |           : undefined
+      at constructor 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:369:19)
+      at TypeScriptParserMixin.raise 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:6622:19)
+      at TypeScriptParserMixin.unexpected 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:6642:16)
+      at TypeScriptParserMixin.parseObjPropValue 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12013:21)
+      at TypeScriptParserMixin.parseObjPropValue 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9767:18)
+      at TypeScriptParserMixin.parsePropertyDefinition 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11949:17)
+      at TypeScriptParserMixin.parseObjectLike 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11866:21)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11370:23)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4782:20)
+      at TypeScriptParserMixin.parseExprSubscripts 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11107:23)
+      at TypeScriptParserMixin.parseUpdate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11092:21)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11072:23)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9860:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10925:61)
+      at TypeScriptParserMixin.parseExprOps 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10930:23)
+      at TypeScriptParserMixin.parseMaybeConditional 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10907:23)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10857:21)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9809:20)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10826:39
+      at TypeScriptParserMixin.allowInAnd 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12460:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10826:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12527:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11706:28)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11362:23)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4782:20)
+      at TypeScriptParserMixin.parseExprSubscripts 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11107:23)
+      at TypeScriptParserMixin.parseUpdate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11092:21)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11072:23)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9860:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10925:61)
+      at TypeScriptParserMixin.parseExprOps 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10930:23)
+      at TypeScriptParserMixin.parseMaybeConditional 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10907:23)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10857:21)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9809:20)
+      at TypeScriptParserMixin.parseExpressionBase 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10810:23)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10806:39
+      at TypeScriptParserMixin.allowInAnd 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12460:12)
+      at TypeScriptParserMixin.parseExpression 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10806:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4650:31)
+      at TypeScriptParserMixin.jsxParseAttributeValue 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4622:21)
+      at TypeScriptParserMixin.jsxParseAttribute 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4671:38)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4685:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10066:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4680:17)
+      at TypeScriptParserMixin.jsxParseElementAt 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4704:33)
+      at TypeScriptParserMixin.jsxParseElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4767:17)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4777:19)
+      at TypeScriptParserMixin.parseExprSubscripts 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11107:23)
+      at TypeScriptParserMixin.parseUpdate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11092:21)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11072:23)
+
+Building...
+🚨 Build failed.
+
+@parcel/core: Failed to resolve 'lucide-react' from 
+'./packages/dev/s2-docs/pages/react-aria/index.mdx'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/index.mdx:17:38
+    16 | import {PaginatedCarousel} from './home/PaginatedCarousel';
+  > 17 | import {ArrowRight, CircleUser} from 'lucide-react';
+  >    |                                      ^^^^^^^^^^^^^^
+    18 | import {TextField} from 'tailwind-starter/TextField';
+    19 | import {Popover} from 'tailwind-starter/Popover';
+
+@parcel/resolver-default: Cannot find module 'lucide-react'
+Building...
+🚨 Build failed.
+
+./NativeTransformer.cjs: 
+/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ListBox/native/tailwind/Table.tsx:
+ Unexpected token (185:32)
+
+  183 |       {...props}
+  184 |       className={cellStyles}
+> 185 |       style={({"has-child-items", "is-tree-column", level}) => ({
+      |                                 ^
+  186 |         "padding-inline-start": isTreeColumn
+  187 |           ? 4 + (hasChildItems ? 0 : 20) + (level - 1) * 16
+  188 |           : undefined
+
+  SyntaxError: 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ListBox/native/tailwind/Table.tsx:
+   Unexpected token (185:32)
+  
+    183 |       {...props}
+    184 |       className={cellStyles}
+  > 185 |       style={({"has-child-items", "is-tree-column", level}) => ({
+        |                                 ^
+    186 |         "padding-inline-start": isTreeColumn
+    187 |           ? 4 + (hasChildItems ? 0 : 20) + (level - 1) * 16
+    188 |           : undefined
+      at constructor 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:369:19)
+      at TypeScriptParserMixin.raise 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:6622:19)
+      at TypeScriptParserMixin.unexpected 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:6642:16)
+      at TypeScriptParserMixin.parseObjPropValue 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12013:21)
+      at TypeScriptParserMixin.parseObjPropValue 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9767:18)
+      at TypeScriptParserMixin.parsePropertyDefinition 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11949:17)
+      at TypeScriptParserMixin.parseObjectLike 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11866:21)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11370:23)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4782:20)
+      at TypeScriptParserMixin.parseExprSubscripts 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11107:23)
+      at TypeScriptParserMixin.parseUpdate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11092:21)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11072:23)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9860:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10925:61)
+      at TypeScriptParserMixin.parseExprOps 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10930:23)
+      at TypeScriptParserMixin.parseMaybeConditional 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10907:23)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10857:21)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9809:20)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10826:39
+      at TypeScriptParserMixin.allowInAnd 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12460:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10826:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12527:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11706:28)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11362:23)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4782:20)
+      at TypeScriptParserMixin.parseExprSubscripts 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11107:23)
+      at TypeScriptParserMixin.parseUpdate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11092:21)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11072:23)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9860:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10925:61)
+      at TypeScriptParserMixin.parseExprOps 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10930:23)
+      at TypeScriptParserMixin.parseMaybeConditional 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10907:23)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10857:21)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9809:20)
+      at TypeScriptParserMixin.parseExpressionBase 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10810:23)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10806:39
+      at TypeScriptParserMixin.allowInAnd 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12460:12)
+      at TypeScriptParserMixin.parseExpression 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10806:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4650:31)
+      at TypeScriptParserMixin.jsxParseAttributeValue 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4622:21)
+      at TypeScriptParserMixin.jsxParseAttribute 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4671:38)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4685:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10066:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4680:17)
+      at TypeScriptParserMixin.jsxParseElementAt 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4704:33)
+      at TypeScriptParserMixin.jsxParseElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4767:17)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4777:19)
+      at TypeScriptParserMixin.parseExprSubscripts 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11107:23)
+      at TypeScriptParserMixin.parseUpdate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11092:21)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11072:23)
+
+Building...
+🚨 Build failed.
+
+./NativeTransformer.cjs: 
+/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ListBox/native/tailwind/Table.tsx:
+ Unexpected token (185:32)
+
+  183 |       {...props}
+  184 |       className={cellStyles}
+> 185 |       style={({"has-child-items", "is-tree-column", level}) => ({
+      |                                 ^
+  186 |         "padding-inline-start": isTreeColumn
+  187 |           ? 4 + (hasChildItems ? 0 : 20) + (level - 1) * 16
+  188 |           : undefined
+
+  SyntaxError: 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ListBox/native/tailwind/Table.tsx:
+   Unexpected token (185:32)
+  
+    183 |       {...props}
+    184 |       className={cellStyles}
+  > 185 |       style={({"has-child-items", "is-tree-column", level}) => ({
+        |                                 ^
+    186 |         "padding-inline-start": isTreeColumn
+    187 |           ? 4 + (hasChildItems ? 0 : 20) + (level - 1) * 16
+    188 |           : undefined
+      at constructor 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:369:19)
+      at TypeScriptParserMixin.raise 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:6622:19)
+      at TypeScriptParserMixin.unexpected 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:6642:16)
+      at TypeScriptParserMixin.parseObjPropValue 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12013:21)
+      at TypeScriptParserMixin.parseObjPropValue 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9767:18)
+      at TypeScriptParserMixin.parsePropertyDefinition 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11949:17)
+      at TypeScriptParserMixin.parseObjectLike 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11866:21)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11370:23)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4782:20)
+      at TypeScriptParserMixin.parseExprSubscripts 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11107:23)
+      at TypeScriptParserMixin.parseUpdate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11092:21)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11072:23)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9860:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10925:61)
+      at TypeScriptParserMixin.parseExprOps 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10930:23)
+      at TypeScriptParserMixin.parseMaybeConditional 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10907:23)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10857:21)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9809:20)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10826:39
+      at TypeScriptParserMixin.allowInAnd 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12460:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10826:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12527:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11706:28)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11362:23)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4782:20)
+      at TypeScriptParserMixin.parseExprSubscripts 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11107:23)
+      at TypeScriptParserMixin.parseUpdate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11092:21)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11072:23)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9860:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10925:61)
+      at TypeScriptParserMixin.parseExprOps 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10930:23)
+      at TypeScriptParserMixin.parseMaybeConditional 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10907:23)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10857:21)
+      at TypeScriptParserMixin.parseMaybeAssign 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:9809:20)
+      at TypeScriptParserMixin.parseExpressionBase 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10810:23)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10806:39
+      at TypeScriptParserMixin.allowInAnd 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:12460:12)
+      at TypeScriptParserMixin.parseExpression 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10806:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4650:31)
+      at TypeScriptParserMixin.jsxParseAttributeValue 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4622:21)
+      at TypeScriptParserMixin.jsxParseAttribute 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4671:38)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4685:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:10066:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4680:17)
+      at TypeScriptParserMixin.jsxParseElementAt 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4704:33)
+      at TypeScriptParserMixin.jsxParseElement 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4767:17)
+      at TypeScriptParserMixin.parseExprAtom 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:4777:19)
+      at TypeScriptParserMixin.parseExprSubscripts 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11107:23)
+      at TypeScriptParserMixin.parseUpdate 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11092:21)
+      at TypeScriptParserMixin.parseMaybeUnary 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@babel/parser/lib/index.js:11072:23)
+
+Building...
+Installing buffer...
+
+@parcel/resolver-default: Auto installing polyfill for Node builtin module 
+"buffer/"...
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/seroval/dist/dev/index.js:998:16
+     997 | function encodeArrayBuffer(current) {
+  >  998 | of Buffer !== "undefined") return Buffer.from(current).toString("base
+  >      |      ^^^^^^ used here
+     999 |   const bytes = new Uint8Array(current);
+    1000 |   if (typeof bytes.toBase64 === "function") return bytes.toBase64();
+
+  📝 Learn more: 
+     https://parceljs.org/features/node-emulation/#polyfilling-%26-excluding-builtin-node-modules
+
+🚨 Build failed.
+
+@parcel/core: Failed to resolve 'client-only' from 
+'/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/exports/index.ts'
+
+  /Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/exports/index.ts:15:8
+    14 | // to import it from a React Server Component in a framework like Next.
+  > 15 | import 'client-only';
+  >    |        ^^^^^^^^^^^^^
+    16 | 
+    17 | export {
+
+@parcel/resolver-default: Cannot find module 'client-only'
+Building...
+🚨 Build failed.
+
+@parcel/core: Failed to resolve '@solidjs/web' from 
+'./packages/dev/s2-docs/pages/react-aria/ComboBox.mdx'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ComboBox.mdx:225:1
+    224 | import {createSignal} from 'solid-js';
+  > 225 | import type {Key} from 'solid-aria-components/ComboBox';
+  >     | ^
+    226 | 
+    227 | function Example() {
+
+./NativeResolver.cjs: Package subpath './package.json' is not defined by 
+"exports" in 
+/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@solidjs/web/package.json
+
+  Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './package.json' is not
+   defined by "exports" in 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@solidjs/web/package.json
+      at exportsNotFound (node:internal/modules/esm/resolve:310:10)
+      at packageExportsResolve (node:internal/modules/esm/resolve:658:9)
+      at resolveExports (node:internal/modules/cjs/loader:684:36)
+      at Module._findPath (node:internal/modules/cjs/loader:751:31)
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1460:27)
+      at wrapResolveFilename (node:internal/modules/cjs/loader:1048:27)
+      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1093:12)
+      at require.resolve (node:internal/modules/helpers:209:31)
+      at Object.resolve 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/NativeResolver.cjs:31:48)
+      at ResolverRunner.resolve 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/core/lib/requests/PathRequest.js:229:44)
+
+Building...
+🚨 Build failed.
+
+@parcel/core: Failed to resolve '@solidjs/web' from 
+'./packages/dev/s2-docs/pages/react-aria/ListBox/native/vanilla/ListBox.tsx'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/ListBox/native/vanilla/ListBox.tsx:2:44
+    1 | import {omit} from 'solid-js';
+  > 2 | import {
+  >   |         ^
+    3 |   ListBox as AriaListBox,
+    4 |   ListBoxItem as AriaListBoxItem,
+
+./NativeResolver.cjs: Package subpath './package.json' is not defined by 
+"exports" in 
+/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@solidjs/web/package.json
+
+  Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './package.json' is not
+   defined by "exports" in 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@solidjs/web/package.json
+      at exportsNotFound (node:internal/modules/esm/resolve:310:10)
+      at packageExportsResolve (node:internal/modules/esm/resolve:658:9)
+      at resolveExports (node:internal/modules/cjs/loader:684:36)
+      at Module._findPath (node:internal/modules/cjs/loader:751:31)
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1460:27)
+      at wrapResolveFilename (node:internal/modules/cjs/loader:1048:27)
+      at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1093:12)
+      at require.resolve (node:internal/modules/helpers:209:31)
+      at Object.resolve 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/NativeResolver.cjs:31:48)
+      at ResolverRunner.resolve 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/core/lib/requests/PathRequest.js:229:44)
+
+Building...
+
+@parcel/reporter-dev-server: Could not shutdown devserver because it does not 
+exist.
+Building...
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+🚨 Build failed.
+
+@parcel/core: Failed to resolve 'client-only' from 
+'/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/exports/index.ts'
+
+  /Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/exports/index.ts:15:8
+    14 | // to import it from a React Server Component in a framework like Next.
+  > 15 | import 'client-only';
+  >    |        ^^^^^^^^^^^^^
+    16 | 
+    17 | export {
+
+@parcel/resolver-default: Cannot find module 'client-only'

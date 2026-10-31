@@ -1,0 +1,23 @@
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('ltr')
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('ltr')
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('ltr')
+[
+  {
+    "ancestorTitles": [
+      "TokenField scrolling"
+    ],
+    "fullName": "TokenField scrolling keeps a visible tag field in place after 'Enter' and Backspace ('ltr')",
+    "status": "failed",
+    "title": "keeps a visible tag field in place after 'Enter' and Backspace ('ltr')",
+    "duration": 20021,
+    "failureMessages": [
+      "task@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:1784:36\n@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:1817:20\n@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:1563:32\n@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:2027:11\nforEach@[native code]\n@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:2021:17\n@http://localhost:63315/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:75:4\nrunWithSuite@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:2258:10\nrunWithSuite@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:2255:29\ncollect@http://localhost:63315/node_modules/.pnpm/@vitest+runner@4.1.11/node_modules/@vitest/runner/dist/chunk-artifact.js:1889:22"
+    ],
+    "location": {
+      "line": 51,
+      "column": 4
+    },
+    "meta": {},
+    "tags": []
+  }
+]

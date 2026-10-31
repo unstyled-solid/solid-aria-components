@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.p03-s1.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "types": ["node", "vitest/globals", "@testing-library/jest-dom/vitest"]
+  },
+  "files": [
+    "test/intl.d.ts",
+    "test/css.d.ts",
+    "packages/@adobe/react-spectrum/test/provider/Provider.test.tsx"
+  ]
+}

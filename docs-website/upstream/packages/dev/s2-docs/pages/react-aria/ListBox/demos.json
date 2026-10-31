@@ -1,0 +1,123 @@
+[
+  {
+    "id": "ListBox-1",
+    "module": "./solid-demo01.tsx",
+    "export": "default",
+    "source": "ListBox.mdx",
+    "ordinal": 1,
+    "fence": "render docs={docs.exports.ListBox} links={docs.links} props={['selectionMode']} initialProps={{selectionMode: 'multiple'}} type=\"vanilla\" files={[\"starters/docs/src/ListBox.tsx\", \"starters/docs/src/ListBox.css\"]}",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "ListBox/solid-demo01.tsx"
+  },
+  {
+    "id": "ListBox-2",
+    "module": "./solid-demo02.tsx",
+    "export": "default",
+    "source": "ListBox.mdx",
+    "ordinal": 2,
+    "fence": "render docs={docs.exports.ListBox} links={docs.links} props={['selectionMode']} initialProps={{selectionMode: 'multiple'}} type=\"tailwind\" files={[\"starters/tailwind/src/ListBox.tsx\"]}",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "ListBox/solid-demo02.tsx"
+  },
+  {
+    "id": "ListBox-3",
+    "module": "./solid-demo03.tsx",
+    "export": "default",
+    "source": "ListBox.mdx",
+    "ordinal": 3,
+    "fence": "render",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "ListBox/solid-demo03.tsx"
+  },
+  {
+    "id": "ListBox-4",
+    "module": "./solid-demo04.tsx",
+    "export": "default",
+    "source": "ListBox.mdx",
+    "ordinal": 4,
+    "fence": "render",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "ListBox/solid-demo04.tsx"
+  },
+  {
+    "id": "ListBox-5",
+    "module": "./solid-demo05.tsx",
+    "export": "default",
+    "source": "ListBox.mdx",
+    "ordinal": 5,
+    "fence": "render",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "ListBox/solid-demo05.tsx"
+  },
+  {
+    "id": "ListBox-6",
+    "module": "./solid-demo06.tsx",
+    "export": "default",
+    "source": "ListBox.mdx",
+    "ordinal": 6,
+    "fence": "render",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "ListBox/solid-demo06.tsx"
+  },
+  {
+    "id": "ListBox-7",
+    "module": "./solid-demo07.tsx",
+    "export": "default",
+    "source": "ListBox.mdx",
+    "ordinal": 7,
+    "fence": "render docs={docs.exports.ListBox} links={docs.links} props={['selectionBehavior']} wide",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "ListBox/solid-demo07.tsx"
+  },
+  {
+    "id": "ListBox-8",
+    "module": "./solid-demo08.tsx",
+    "export": "default",
+    "source": "ListBox.mdx",
+    "ordinal": 8,
+    "fence": "render hideImports",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "ListBox/solid-demo08.tsx"
+  },
+  {
+    "id": "ListBox-9",
+    "module": "./solid-demo09.tsx",
+    "export": "default",
+    "source": "ListBox.mdx",
+    "ordinal": 9,
+    "fence": "render docs={docs.exports.ListBox} links={docs.links} props={['selectionMode', 'selectionBehavior', 'disallowEmptySelection']} initialProps={{selectionMode: 'multiple'}} wide",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "ListBox/solid-demo09.tsx"
+  },
+  {
+    "id": "ListBox-10",
+    "module": "./solid-demo10.tsx",
+    "export": "default",
+    "source": "ListBox.mdx",
+    "ordinal": 10,
+    "fence": "render docs={docs.exports.ListBox} links={docs.links} props={['layout', 'orientation']} initialProps={{layout: 'grid'}} wide",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "ListBox/solid-demo10.tsx"
+  },
+  {
+    "id": "ListBox-11",
+    "module": "./solid-demo11.tsx",
+    "export": "default",
+    "source": "ListBox.mdx",
+    "ordinal": 11,
+    "fence": "render",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "ListBox/solid-demo11.tsx"
+  }
+]

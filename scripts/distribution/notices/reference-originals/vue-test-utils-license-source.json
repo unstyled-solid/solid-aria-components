@@ -1,0 +1,12 @@
+{
+  "attributionSource": "upstream/react-spectrum/packages/react-aria/src/utils/isElementVisible.ts:55-58",
+  "attributedRepository": "https://github.com/vuejs/vue-test-utils-next/",
+  "resolvedRepository": "https://github.com/vuejs/test-utils",
+  "licenseAPI": "https://api.github.com/repos/vuejs/vue-test-utils-next/license",
+  "immutableLicenseBlobURL": "https://api.github.com/repos/vuejs/test-utils/git/blobs/896418c7a566ef2314914efb630c0a153b43bd52",
+  "gitBlobSha": "896418c7a566ef2314914efb630c0a153b43bd52",
+  "sha256": "fcb656436f40daac58b400b26ce8bcc7b4ece41ea39267ac8eef74126e57ff02",
+  "license": "MIT",
+  "originalCodeDonorRevision": null,
+  "status": "License text/source verified separately from unversioned original code attribution"
+}

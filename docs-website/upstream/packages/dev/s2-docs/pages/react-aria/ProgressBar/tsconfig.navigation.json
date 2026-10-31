@@ -1,0 +1,17 @@
+{
+  "extends": "../../../../../../../../tsconfig.wave.json",
+  "compilerOptions": {"noEmit": true, "incremental": false, "types": ["node"]},
+  "files": [
+    "../../../../../../../../test/intl.d.ts",
+    "NativeDemo.tsx",
+    "../Meter/NativeDemo.tsx",
+    "../Separator/NativeDemo.tsx",
+    "../Breadcrumbs/NativeDemo.tsx",
+    "../Tabs/NativeDemo.tsx",
+    "../Disclosure/NativeDemo.tsx",
+    "../RadioGroup/NativeDemo.tsx",
+    "../CheckboxGroup/NativeDemo.tsx",
+    "../Tabs/native-package.d.ts"
+  ],
+  "include": ["../Tabs/vanilla/*.tsx", "../Tabs/tailwind/*.tsx", "../Tabs/icons.tsx", "../Tabs/illustrations.tsx", "solid-*.tsx", "../Meter/solid-*.tsx", "../Separator/solid-*.tsx", "../Breadcrumbs/solid-*.tsx", "../Tabs/solid-*.tsx", "../Disclosure/solid-*.tsx", "../RadioGroup/solid-*.tsx", "../CheckboxGroup/solid-*.tsx"]
+}

@@ -1,0 +1,175 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import vanillaDocs from 'docs:vanilla-starter/Popover';
+import '../../tailwind/tailwind.css';
+import Anatomy from '/packages/dev/s2-docs/pages/react-aria/PopoverAnatomy2.svg';
+import {InlineAlert, Heading, Content} from '@react-spectrum/s2'
+
+export const tags = ['popup', 'overlay'];
+export const relatedPages = [{'title': 'usePopover', 'url': './Popover/usePopover'}];
+export const description = 'An overlay element positioned relative to a trigger.';
+
+# Popover
+
+<PageDescription>{docs.exports.Popover.description}</PageDescription>
+
+<ExampleSwitcher>
+  ```tsx  docs={vanillaDocs.exports.Popover} links={vanillaDocs.links} props={['placement', 'offset', 'crossOffset', 'shouldFlip']}  type="vanilla" files={["packages/dev/s2-docs/pages/react-aria/ListBox/native/vanilla/solid-Popover.tsx", "packages/dev/s2-docs/pages/react-aria/ListBox/native/vanilla/Popover.css"]} nativeModule="Popover/solid-demo01.tsx"
+import {DialogTrigger} from 'solid-aria-components/Popover';
+  import {Popover} from './ListBox/native/vanilla/solid-Popover';
+  import {Button} from './ListBox/native/vanilla/solid-Button';
+  import {Switch} from './ListBox/native/vanilla/solid-Switch';
+  import {Settings2} from './../ListBox/native-icons/solid-icons';
+
+  function Example(props: Record<string, unknown>) {
+    return (
+      <DialogTrigger>
+        <Button aria-label="Settings">
+          <Settings2 size={20} />
+        </Button>
+        {/*- begin focus -*/}
+        <Popover {...props}{...props}>
+          <div style={{display: 'flex', "flex-direction": 'column', gap: "12px"}}>
+            <Switch defaultSelected>Wi-Fi</Switch>
+            <Switch defaultSelected>Bluetooth</Switch>
+            <Switch>Mute</Switch>
+          </div>
+        </Popover>
+        {/*- end focus -*/}
+      </DialogTrigger>
+    );
+  }
+  ```
+
+  ```tsx  docs={vanillaDocs.exports.Popover} links={vanillaDocs.links} props={['placement', 'offset', 'crossOffset', 'shouldFlip']} type="tailwind" files={["packages/dev/s2-docs/pages/react-aria/ListBox/native/tailwind/solid-Popover.tsx"]} nativeModule="Popover/solid-demo02.tsx"
+import {DialogTrigger} from 'solid-aria-components/Popover';
+  import {Popover} from './ListBox/native/tailwind/solid-Popover';
+  import {Button} from './ListBox/native/tailwind/solid-Button';
+  import {Switch} from './ListBox/native/tailwind/solid-Switch';
+  import {Settings2} from './../ListBox/native-icons/solid-icons';
+
+  function Example(props: Record<string, unknown>) {
+    return (
+      <DialogTrigger>
+        <Button aria-label="Settings" variant="secondary">
+          <Settings2 size={20} />
+        </Button>
+        {/*- begin focus -*/}
+        <Popover
+          {...props}
+          className="flex flex-col gap-2 p-4"
+          showArrow
+          {...props}>
+          <Switch defaultSelected>Wi-Fi</Switch>
+          <Switch defaultSelected>Bluetooth</Switch>
+          <Switch>Mute</Switch>
+        </Popover>
+        {/*- end focus -*/}
+      </DialogTrigger>
+    );
+  }
+  ```
+</ExampleSwitcher>
+
+## Custom trigger
+
+`DialogTrigger` works with any pressable React Aria component (e.g. [Button](Button), [Link](Link), etc.). Use the `<Pressable>` component or [usePress](usePress) hook to wrap a custom trigger element such as a third party component or DOM element.
+
+```tsx  nativeModule="Popover/solid-demo03.tsx"
+import type {JSX} from '@solidjs/web';
+import {Pressable, DialogTrigger} from 'solid-aria-components/Popover';
+import {Popover} from './ListBox/native/vanilla/solid-Popover';
+
+<DialogTrigger>
+  {/*- begin highlight -*/}
+  <Pressable>
+    {forwardedProps => (<span {...forwardedProps} ref={forwardedProps.ref as JSX.Ref<HTMLSpanElement>} tabindex={forwardedProps.tabIndex} role="button">Custom trigger</span>)}
+  </Pressable>
+  {/*- end highlight -*/}
+  <Popover style={{padding: "16px"}}>
+    This popover was triggered by a custom button.
+  </Popover>
+</DialogTrigger>
+```
+
+<InlineAlert variant="notice">
+  <Heading>Accessibility</Heading>
+  <Content>Any `<Pressable>` child must have an [interactive ARIA role](https://www.w3.org/TR/wai-aria-1.2/#widget_roles) or use an appropriate semantic HTML element so that screen readers can announce the trigger. Trigger components must forward their `ref` and spread all props to a DOM element.</Content>
+</InlineAlert>
+
+```tsx
+function CustomTrigger(props) {
+  return <button {...props} />;
+}
+```
+
+## Custom anchor
+
+To position a popover relative to a different element than its trigger, use the `triggerRef` and `isOpen` props instead of `<DialogTrigger>`. `onOpenChange` will be called when the user closes the popover.
+
+```tsx  nativeModule="Popover/solid-demo04.tsx"
+import {createSignal} from 'solid-js';
+import {createSignal as createRefSignal} from 'solid-js';
+import {Popover} from './ListBox/native/vanilla/solid-Popover';
+import {Button} from './ListBox/native/vanilla/solid-Button';
+
+function Example() {
+  let [isOpen, setOpen] = createSignal(false);
+  let [triggerElement, setTriggerElement] = createRefSignal<HTMLSpanElement | null>(null);
+  let triggerRef = {get current() { return triggerElement(); }};
+
+  return (
+    <div>
+      <Button onPress={() => setOpen(true)}>Trigger</Button>
+      <span ref={setTriggerElement} style={{"padding-left": "12px"}}>Popover will be positioned relative to me</span>
+      <Popover
+        style={{padding: "16px"}}
+        /*- begin highlight -*/
+        triggerRef={triggerRef}
+        isOpen={isOpen()}
+        onOpenChange={setOpen}>
+        {/*- end highlight -*/}
+        I'm over here!
+      </Popover>
+    </div>
+  );
+}
+```
+
+## Examples
+
+<ExampleList tag="popover" pages={props.pages} />
+
+## API
+
+<Anatomy />
+
+```tsx links={{DialogTrigger: '#dialogtrigger', Button: 'Button', Popover: '#popover', OverlayArrow: '#overlayarrow'}}
+<DialogTrigger>
+  <Button />
+  <Popover>
+    <OverlayArrow />
+  </Popover>
+</DialogTrigger>
+```
+
+### DialogTrigger
+
+<PropTable component={docs.exports.DialogTrigger} links={docs.links} showDescription />
+
+### Popover
+
+<PropTable
+  component={docs.exports.Popover}
+  links={docs.links}
+  showDescription
+  cssVariables={{
+    '--trigger-width': 'The width of the popover trigger element.',
+    '--trigger-anchor-point': 'The position of the trigger relative to the popover. Use with `transform-origin` when applying scale transitions.'
+  }} />
+
+### OverlayArrow
+
+<PropTable component={docs.exports.OverlayArrow} links={docs.links} showDescription />

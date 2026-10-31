@@ -1,0 +1,63 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .sb18 {
+    display: block;
+  }
+
+
+  .tr18 {
+    fill: light-dark(rgb(41, 41, 41), rgb(219, 219, 219));
+  }
+
+
+  .ZDldWXb18 {
+    width: calc(calc(0.625 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .FrIlH4c18 {
+    height: calc(calc(0.3125 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  ._Sb18 {
+    rotate: 0deg;
+  }
+
+
+  ._Sc18 {
+    rotate: 180deg;
+  }
+
+
+  ._Sa18 {
+    rotate: -90deg;
+  }
+
+
+  ._Sd18 {
+    rotate: 90deg;
+  }
+
+
+  .-_7PloMd-e18 {
+    --translateX: -25%;
+  }
+
+
+  .__Ya18 {
+    translate: var(--translateX, 0) var(--translateY, 0);
+  }
+
+
+  .-_7PloMd-y18 {
+    --translateX: 25%;
+  }
+
+
+  .__Ya18 {
+    translate: var(--translateX, 0) var(--translateY, 0);
+  }
+}
+

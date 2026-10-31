@@ -1,0 +1,9 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+
+ Test Files  2 passed (2)
+      Tests  7 passed | 79 skipped (86)
+   Start at  16:29:03
+   Duration  1.66s (transform 1.31s, setup 280ms, import 1.47s, tests 420ms, environment 566ms)
+

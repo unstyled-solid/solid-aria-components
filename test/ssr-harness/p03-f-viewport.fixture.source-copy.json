@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "mode": "source-derived-fixture",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "source": "upstream/react-spectrum/packages/react-aria/test/utils/useViewportSize.ssr.test.tsx",
+  "sourceSha256": "f90a58e3b70ee57ca8dde83a3df019c9233a4ef52e3cf130dce0c474528480c6",
+  "sourceLines": [
+    [
+      20,
+      27
+    ],
+    [
+      36,
+      43
+    ]
+  ],
+  "target": "test/ssr-harness/p03-f-viewport.fixture.tsx",
+  "adaptation": "Terminal-copied original suite, extracted its two inline components into ViewportEmpty and ViewportDimensions with actual native hook import. Original dimension markup retained.",
+  "supportingSetup": {
+    "source": "upstream/react-spectrum/scripts/setupTests.js",
+    "sourceSha256": "f4697cf950c15e28f0fa078adc129669c5e9ce96b6f413162f500f33a87d4adf",
+    "sourceLines": [
+      119,
+      129
+    ],
+    "adaptation": "Original window/client dimension projection applied locally in viewport source suite and restored after each case."
+  }
+}

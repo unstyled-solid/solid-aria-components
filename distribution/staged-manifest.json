@@ -1,0 +1,821 @@
+{
+  "name": "@internal/solid-aria-components-stage",
+  "version": "0.0.0-private",
+  "private": true,
+  "type": "module",
+  "description": "Private native Solid staging of copied React Aria Components source; not published or parity-qualified.",
+  "license": "Apache-2.0",
+  "sideEffects": [
+    "./dom/@internationalized/number/src/NumberFormatter.js",
+    "./dom/@internationalized/number/src/NumberParser.js",
+    "./dom/i18n/index.js",
+    "./dom/react-aria-components/src/Breadcrumbs.js",
+    "./dom/react-aria-components/src/Button.js",
+    "./dom/react-aria-components/src/Calendar.js",
+    "./dom/react-aria-components/src/Collection.js",
+    "./dom/react-aria-components/src/ComboBox.js",
+    "./dom/react-aria-components/src/GridList.js",
+    "./dom/react-aria-components/src/Header.js",
+    "./dom/react-aria-components/src/Input.js",
+    "./dom/react-aria-components/src/Label.js",
+    "./dom/react-aria-components/src/ListBox.js",
+    "./dom/react-aria-components/src/Menu.js",
+    "./dom/react-aria-components/src/SearchField.js",
+    "./dom/react-aria-components/src/Select.js",
+    "./dom/react-aria-components/src/Separator.js",
+    "./dom/react-aria-components/src/Sheet.js",
+    "./dom/react-aria-components/src/Table.js",
+    "./dom/react-aria-components/src/Tabs.js",
+    "./dom/react-aria-components/src/TagGroup.js",
+    "./dom/react-aria-components/src/Text.js",
+    "./dom/react-aria-components/src/TextField.js",
+    "./dom/react-aria-components/src/TokenField.js",
+    "./dom/react-aria-components/src/Tree.js",
+    "./dom/react-aria-components/src/utils.js",
+    "./dom/react-aria/src/dnd/DragManager.js",
+    "./dom/react-aria/src/dnd/constants.js",
+    "./dom/react-aria/src/focus/FocusScope.js",
+    "./dom/react-aria/src/i18n/useDefaultLocale.js",
+    "./dom/react-aria/src/interactions/useFocusVisible.js",
+    "./dom/react-aria/src/utils/isFocusable.js",
+    "./dom/react-aria/src/utils/keyboard.js",
+    "./dom/react-aria/src/utils/openLink.js",
+    "./dom/react-aria/src/utils/platform.js",
+    "./dom/react-aria/src/utils/runAfterTransition.js",
+    "./dom/react-aria/src/utils/useId.js",
+    "./dom/react-stately/src/color/Color.js",
+    "./dom/react-stately/src/color/useColorAreaState.js",
+    "./dom/react-stately/src/color/useColorFieldState.js",
+    "./dom/react-stately/src/color/useColorWheelState.js",
+    "./dom/react-stately/src/datepicker/placeholders.js",
+    "./dom/react-stately/src/datepicker/utils.js",
+    "./dom/react-stately/src/layout/GridLayout.js",
+    "./dom/react-stately/src/layout/WaterfallLayout.js",
+    "./dom/react-stately/src/radio/useRadioGroupState.js",
+    "./dom/react-stately/src/table/Cell.js",
+    "./dom/react-stately/src/table/Column.js",
+    "./dom/react-stately/src/table/Row.js",
+    "./dom/react-stately/src/table/TableBody.js",
+    "./dom/react-stately/src/table/TableCollection.js",
+    "./dom/react-stately/src/table/TableHeader.js",
+    "./dom/react-stately/src/tokenfield/TokenFieldValue.js",
+    "./server/@internationalized/number/src/NumberFormatter.js",
+    "./server/@internationalized/number/src/NumberParser.js",
+    "./server/i18n/index.js",
+    "./server/react-aria-components/src/Breadcrumbs.js",
+    "./server/react-aria-components/src/Button.js",
+    "./server/react-aria-components/src/Collection.js",
+    "./server/react-aria-components/src/ComboBox.js",
+    "./server/react-aria-components/src/GridList.js",
+    "./server/react-aria-components/src/Header.js",
+    "./server/react-aria-components/src/Input.js",
+    "./server/react-aria-components/src/Label.js",
+    "./server/react-aria-components/src/ListBox.js",
+    "./server/react-aria-components/src/Menu.js",
+    "./server/react-aria-components/src/SearchField.js",
+    "./server/react-aria-components/src/Select.js",
+    "./server/react-aria-components/src/Separator.js",
+    "./server/react-aria-components/src/Sheet.js",
+    "./server/react-aria-components/src/Table.js",
+    "./server/react-aria-components/src/Tabs.js",
+    "./server/react-aria-components/src/TagGroup.js",
+    "./server/react-aria-components/src/Text.js",
+    "./server/react-aria-components/src/TextField.js",
+    "./server/react-aria-components/src/TokenField.js",
+    "./server/react-aria-components/src/Tree.js",
+    "./server/react-aria-components/src/utils.js",
+    "./server/react-aria/src/dnd/DragManager.js",
+    "./server/react-aria/src/dnd/constants.js",
+    "./server/react-aria/src/focus/FocusScope.js",
+    "./server/react-aria/src/i18n/useDefaultLocale.js",
+    "./server/react-aria/src/interactions/useFocusVisible.js",
+    "./server/react-aria/src/select/HiddenSelect.js",
+    "./server/react-aria/src/utils/isFocusable.js",
+    "./server/react-aria/src/utils/keyboard.js",
+    "./server/react-aria/src/utils/openLink.js",
+    "./server/react-aria/src/utils/platform.js",
+    "./server/react-aria/src/utils/runAfterTransition.js",
+    "./server/react-aria/src/utils/useId.js",
+    "./server/react-stately/src/color/Color.js",
+    "./server/react-stately/src/color/useColorAreaState.js",
+    "./server/react-stately/src/color/useColorFieldState.js",
+    "./server/react-stately/src/color/useColorWheelState.js",
+    "./server/react-stately/src/datepicker/placeholders.js",
+    "./server/react-stately/src/datepicker/utils.js",
+    "./server/react-stately/src/layout/GridLayout.js",
+    "./server/react-stately/src/layout/WaterfallLayout.js",
+    "./server/react-stately/src/radio/useRadioGroupState.js",
+    "./server/react-stately/src/table/Cell.js",
+    "./server/react-stately/src/table/Column.js",
+    "./server/react-stately/src/table/Row.js",
+    "./server/react-stately/src/table/TableBody.js",
+    "./server/react-stately/src/table/TableCollection.js",
+    "./server/react-stately/src/table/TableHeader.js",
+    "./server/react-stately/src/tokenfield/TokenFieldValue.js",
+    "./**/*.css"
+  ],
+  "main": "./server/react-aria-components/exports/index.js",
+  "types": "./types/react-aria-components/exports/index.d.ts",
+  "exports": {
+    "./Autocomplete": {
+      "types": "./types/react-aria-components/exports/Autocomplete.d.ts",
+      "worker": "./server/react-aria-components/exports/Autocomplete.js",
+      "browser": "./dom/react-aria-components/exports/Autocomplete.js",
+      "deno": "./server/react-aria-components/exports/Autocomplete.js",
+      "node": "./server/react-aria-components/exports/Autocomplete.js",
+      "default": "./server/react-aria-components/exports/Autocomplete.js"
+    },
+    "./Breadcrumbs": {
+      "types": "./types/react-aria-components/exports/Breadcrumbs.d.ts",
+      "worker": "./server/react-aria-components/exports/Breadcrumbs.js",
+      "browser": "./dom/react-aria-components/exports/Breadcrumbs.js",
+      "deno": "./server/react-aria-components/exports/Breadcrumbs.js",
+      "node": "./server/react-aria-components/exports/Breadcrumbs.js",
+      "default": "./server/react-aria-components/exports/Breadcrumbs.js"
+    },
+    "./Button": {
+      "types": "./types/react-aria-components/exports/Button.d.ts",
+      "worker": "./server/react-aria-components/exports/Button.js",
+      "browser": "./dom/react-aria-components/exports/Button.js",
+      "deno": "./server/react-aria-components/exports/Button.js",
+      "node": "./server/react-aria-components/exports/Button.js",
+      "default": "./server/react-aria-components/exports/Button.js"
+    },
+    "./Calendar": {
+      "types": "./types/react-aria-components/exports/Calendar.d.ts",
+      "worker": "./server/react-aria-components/exports/Calendar.js",
+      "browser": "./dom/react-aria-components/exports/Calendar.js",
+      "deno": "./server/react-aria-components/exports/Calendar.js",
+      "node": "./server/react-aria-components/exports/Calendar.js",
+      "default": "./server/react-aria-components/exports/Calendar.js"
+    },
+    "./Checkbox": {
+      "types": "./types/react-aria-components/exports/Checkbox.d.ts",
+      "worker": "./server/react-aria-components/exports/Checkbox.js",
+      "browser": "./dom/react-aria-components/exports/Checkbox.js",
+      "deno": "./server/react-aria-components/exports/Checkbox.js",
+      "node": "./server/react-aria-components/exports/Checkbox.js",
+      "default": "./server/react-aria-components/exports/Checkbox.js"
+    },
+    "./CheckboxGroup": {
+      "types": "./types/react-aria-components/exports/CheckboxGroup.d.ts",
+      "worker": "./server/react-aria-components/exports/CheckboxGroup.js",
+      "browser": "./dom/react-aria-components/exports/CheckboxGroup.js",
+      "deno": "./server/react-aria-components/exports/CheckboxGroup.js",
+      "node": "./server/react-aria-components/exports/CheckboxGroup.js",
+      "default": "./server/react-aria-components/exports/CheckboxGroup.js"
+    },
+    "./Collection": {
+      "types": "./types/react-aria-components/exports/Collection.d.ts",
+      "worker": "./server/react-aria-components/exports/Collection.js",
+      "browser": "./dom/react-aria-components/exports/Collection.js",
+      "deno": "./server/react-aria-components/exports/Collection.js",
+      "node": "./server/react-aria-components/exports/Collection.js",
+      "default": "./server/react-aria-components/exports/Collection.js"
+    },
+    "./CollectionBuilder": {
+      "types": "./types/react-aria-components/exports/CollectionBuilder.d.ts",
+      "worker": "./server/react-aria-components/exports/CollectionBuilder.js",
+      "browser": "./dom/react-aria-components/exports/CollectionBuilder.js",
+      "deno": "./server/react-aria-components/exports/CollectionBuilder.js",
+      "node": "./server/react-aria-components/exports/CollectionBuilder.js",
+      "default": "./server/react-aria-components/exports/CollectionBuilder.js"
+    },
+    "./ColorArea": {
+      "types": "./types/react-aria-components/exports/ColorArea.d.ts",
+      "worker": "./server/react-aria-components/exports/ColorArea.js",
+      "browser": "./dom/react-aria-components/exports/ColorArea.js",
+      "deno": "./server/react-aria-components/exports/ColorArea.js",
+      "node": "./server/react-aria-components/exports/ColorArea.js",
+      "default": "./server/react-aria-components/exports/ColorArea.js"
+    },
+    "./ColorField": {
+      "types": "./types/react-aria-components/exports/ColorField.d.ts",
+      "worker": "./server/react-aria-components/exports/ColorField.js",
+      "browser": "./dom/react-aria-components/exports/ColorField.js",
+      "deno": "./server/react-aria-components/exports/ColorField.js",
+      "node": "./server/react-aria-components/exports/ColorField.js",
+      "default": "./server/react-aria-components/exports/ColorField.js"
+    },
+    "./ColorPicker": {
+      "types": "./types/react-aria-components/exports/ColorPicker.d.ts",
+      "worker": "./server/react-aria-components/exports/ColorPicker.js",
+      "browser": "./dom/react-aria-components/exports/ColorPicker.js",
+      "deno": "./server/react-aria-components/exports/ColorPicker.js",
+      "node": "./server/react-aria-components/exports/ColorPicker.js",
+      "default": "./server/react-aria-components/exports/ColorPicker.js"
+    },
+    "./ColorSlider": {
+      "types": "./types/react-aria-components/exports/ColorSlider.d.ts",
+      "worker": "./server/react-aria-components/exports/ColorSlider.js",
+      "browser": "./dom/react-aria-components/exports/ColorSlider.js",
+      "deno": "./server/react-aria-components/exports/ColorSlider.js",
+      "node": "./server/react-aria-components/exports/ColorSlider.js",
+      "default": "./server/react-aria-components/exports/ColorSlider.js"
+    },
+    "./ColorSwatch": {
+      "types": "./types/react-aria-components/exports/ColorSwatch.d.ts",
+      "worker": "./server/react-aria-components/exports/ColorSwatch.js",
+      "browser": "./dom/react-aria-components/exports/ColorSwatch.js",
+      "deno": "./server/react-aria-components/exports/ColorSwatch.js",
+      "node": "./server/react-aria-components/exports/ColorSwatch.js",
+      "default": "./server/react-aria-components/exports/ColorSwatch.js"
+    },
+    "./ColorSwatchPicker": {
+      "types": "./types/react-aria-components/exports/ColorSwatchPicker.d.ts",
+      "worker": "./server/react-aria-components/exports/ColorSwatchPicker.js",
+      "browser": "./dom/react-aria-components/exports/ColorSwatchPicker.js",
+      "deno": "./server/react-aria-components/exports/ColorSwatchPicker.js",
+      "node": "./server/react-aria-components/exports/ColorSwatchPicker.js",
+      "default": "./server/react-aria-components/exports/ColorSwatchPicker.js"
+    },
+    "./ColorThumb": {
+      "types": "./types/react-aria-components/exports/ColorThumb.d.ts",
+      "worker": "./server/react-aria-components/exports/ColorThumb.js",
+      "browser": "./dom/react-aria-components/exports/ColorThumb.js",
+      "deno": "./server/react-aria-components/exports/ColorThumb.js",
+      "node": "./server/react-aria-components/exports/ColorThumb.js",
+      "default": "./server/react-aria-components/exports/ColorThumb.js"
+    },
+    "./ColorWheel": {
+      "types": "./types/react-aria-components/exports/ColorWheel.d.ts",
+      "worker": "./server/react-aria-components/exports/ColorWheel.js",
+      "browser": "./dom/react-aria-components/exports/ColorWheel.js",
+      "deno": "./server/react-aria-components/exports/ColorWheel.js",
+      "node": "./server/react-aria-components/exports/ColorWheel.js",
+      "default": "./server/react-aria-components/exports/ColorWheel.js"
+    },
+    "./ComboBox": {
+      "types": "./types/react-aria-components/exports/ComboBox.d.ts",
+      "worker": "./server/react-aria-components/exports/ComboBox.js",
+      "browser": "./dom/react-aria-components/exports/ComboBox.js",
+      "deno": "./server/react-aria-components/exports/ComboBox.js",
+      "node": "./server/react-aria-components/exports/ComboBox.js",
+      "default": "./server/react-aria-components/exports/ComboBox.js"
+    },
+    "./DateField": {
+      "types": "./types/react-aria-components/exports/DateField.d.ts",
+      "worker": "./server/react-aria-components/exports/DateField.js",
+      "browser": "./dom/react-aria-components/exports/DateField.js",
+      "deno": "./server/react-aria-components/exports/DateField.js",
+      "node": "./server/react-aria-components/exports/DateField.js",
+      "default": "./server/react-aria-components/exports/DateField.js"
+    },
+    "./DatePicker": {
+      "types": "./types/react-aria-components/exports/DatePicker.d.ts",
+      "worker": "./server/react-aria-components/exports/DatePicker.js",
+      "browser": "./dom/react-aria-components/exports/DatePicker.js",
+      "deno": "./server/react-aria-components/exports/DatePicker.js",
+      "node": "./server/react-aria-components/exports/DatePicker.js",
+      "default": "./server/react-aria-components/exports/DatePicker.js"
+    },
+    "./DateRangePicker": {
+      "types": "./types/react-aria-components/exports/DateRangePicker.d.ts",
+      "worker": "./server/react-aria-components/exports/DateRangePicker.js",
+      "browser": "./dom/react-aria-components/exports/DateRangePicker.js",
+      "deno": "./server/react-aria-components/exports/DateRangePicker.js",
+      "node": "./server/react-aria-components/exports/DateRangePicker.js",
+      "default": "./server/react-aria-components/exports/DateRangePicker.js"
+    },
+    "./Dialog": {
+      "types": "./types/react-aria-components/exports/Dialog.d.ts",
+      "worker": "./server/react-aria-components/exports/Dialog.js",
+      "browser": "./dom/react-aria-components/exports/Dialog.js",
+      "deno": "./server/react-aria-components/exports/Dialog.js",
+      "node": "./server/react-aria-components/exports/Dialog.js",
+      "default": "./server/react-aria-components/exports/Dialog.js"
+    },
+    "./Disclosure": {
+      "types": "./types/react-aria-components/exports/Disclosure.d.ts",
+      "worker": "./server/react-aria-components/exports/Disclosure.js",
+      "browser": "./dom/react-aria-components/exports/Disclosure.js",
+      "deno": "./server/react-aria-components/exports/Disclosure.js",
+      "node": "./server/react-aria-components/exports/Disclosure.js",
+      "default": "./server/react-aria-components/exports/Disclosure.js"
+    },
+    "./DisclosureGroup": {
+      "types": "./types/react-aria-components/exports/DisclosureGroup.d.ts",
+      "worker": "./server/react-aria-components/exports/DisclosureGroup.js",
+      "browser": "./dom/react-aria-components/exports/DisclosureGroup.js",
+      "deno": "./server/react-aria-components/exports/DisclosureGroup.js",
+      "node": "./server/react-aria-components/exports/DisclosureGroup.js",
+      "default": "./server/react-aria-components/exports/DisclosureGroup.js"
+    },
+    "./DropZone": {
+      "types": "./types/react-aria-components/exports/DropZone.d.ts",
+      "worker": "./server/react-aria-components/exports/DropZone.js",
+      "browser": "./dom/react-aria-components/exports/DropZone.js",
+      "deno": "./server/react-aria-components/exports/DropZone.js",
+      "node": "./server/react-aria-components/exports/DropZone.js",
+      "default": "./server/react-aria-components/exports/DropZone.js"
+    },
+    "./FieldError": {
+      "types": "./types/react-aria-components/exports/FieldError.d.ts",
+      "worker": "./server/react-aria-components/exports/FieldError.js",
+      "browser": "./dom/react-aria-components/exports/FieldError.js",
+      "deno": "./server/react-aria-components/exports/FieldError.js",
+      "node": "./server/react-aria-components/exports/FieldError.js",
+      "default": "./server/react-aria-components/exports/FieldError.js"
+    },
+    "./FileTrigger": {
+      "types": "./types/react-aria-components/exports/FileTrigger.d.ts",
+      "worker": "./server/react-aria-components/exports/FileTrigger.js",
+      "browser": "./dom/react-aria-components/exports/FileTrigger.js",
+      "deno": "./server/react-aria-components/exports/FileTrigger.js",
+      "node": "./server/react-aria-components/exports/FileTrigger.js",
+      "default": "./server/react-aria-components/exports/FileTrigger.js"
+    },
+    "./Focusable": {
+      "types": "./types/react-aria-components/exports/Focusable.d.ts",
+      "worker": "./server/react-aria-components/exports/Focusable.js",
+      "browser": "./dom/react-aria-components/exports/Focusable.js",
+      "deno": "./server/react-aria-components/exports/Focusable.js",
+      "node": "./server/react-aria-components/exports/Focusable.js",
+      "default": "./server/react-aria-components/exports/Focusable.js"
+    },
+    "./Form": {
+      "types": "./types/react-aria-components/exports/Form.d.ts",
+      "worker": "./server/react-aria-components/exports/Form.js",
+      "browser": "./dom/react-aria-components/exports/Form.js",
+      "deno": "./server/react-aria-components/exports/Form.js",
+      "node": "./server/react-aria-components/exports/Form.js",
+      "default": "./server/react-aria-components/exports/Form.js"
+    },
+    "./GridList": {
+      "types": "./types/react-aria-components/exports/GridList.d.ts",
+      "worker": "./server/react-aria-components/exports/GridList.js",
+      "browser": "./dom/react-aria-components/exports/GridList.js",
+      "deno": "./server/react-aria-components/exports/GridList.js",
+      "node": "./server/react-aria-components/exports/GridList.js",
+      "default": "./server/react-aria-components/exports/GridList.js"
+    },
+    "./Group": {
+      "types": "./types/react-aria-components/exports/Group.d.ts",
+      "worker": "./server/react-aria-components/exports/Group.js",
+      "browser": "./dom/react-aria-components/exports/Group.js",
+      "deno": "./server/react-aria-components/exports/Group.js",
+      "node": "./server/react-aria-components/exports/Group.js",
+      "default": "./server/react-aria-components/exports/Group.js"
+    },
+    "./Header": {
+      "types": "./types/react-aria-components/exports/Header.d.ts",
+      "worker": "./server/react-aria-components/exports/Header.js",
+      "browser": "./dom/react-aria-components/exports/Header.js",
+      "deno": "./server/react-aria-components/exports/Header.js",
+      "node": "./server/react-aria-components/exports/Header.js",
+      "default": "./server/react-aria-components/exports/Header.js"
+    },
+    "./Heading": {
+      "types": "./types/react-aria-components/exports/Heading.d.ts",
+      "worker": "./server/react-aria-components/exports/Heading.js",
+      "browser": "./dom/react-aria-components/exports/Heading.js",
+      "deno": "./server/react-aria-components/exports/Heading.js",
+      "node": "./server/react-aria-components/exports/Heading.js",
+      "default": "./server/react-aria-components/exports/Heading.js"
+    },
+    "./I18nProvider": {
+      "types": "./types/react-aria-components/exports/I18nProvider.d.ts",
+      "worker": "./server/react-aria-components/exports/I18nProvider.js",
+      "browser": "./dom/react-aria-components/exports/I18nProvider.js",
+      "deno": "./server/react-aria-components/exports/I18nProvider.js",
+      "node": "./server/react-aria-components/exports/I18nProvider.js",
+      "default": "./server/react-aria-components/exports/I18nProvider.js"
+    },
+    "./Input": {
+      "types": "./types/react-aria-components/exports/Input.d.ts",
+      "worker": "./server/react-aria-components/exports/Input.js",
+      "browser": "./dom/react-aria-components/exports/Input.js",
+      "deno": "./server/react-aria-components/exports/Input.js",
+      "node": "./server/react-aria-components/exports/Input.js",
+      "default": "./server/react-aria-components/exports/Input.js"
+    },
+    "./Keyboard": {
+      "types": "./types/react-aria-components/exports/Keyboard.d.ts",
+      "worker": "./server/react-aria-components/exports/Keyboard.js",
+      "browser": "./dom/react-aria-components/exports/Keyboard.js",
+      "deno": "./server/react-aria-components/exports/Keyboard.js",
+      "node": "./server/react-aria-components/exports/Keyboard.js",
+      "default": "./server/react-aria-components/exports/Keyboard.js"
+    },
+    "./Label": {
+      "types": "./types/react-aria-components/exports/Label.d.ts",
+      "worker": "./server/react-aria-components/exports/Label.js",
+      "browser": "./dom/react-aria-components/exports/Label.js",
+      "deno": "./server/react-aria-components/exports/Label.js",
+      "node": "./server/react-aria-components/exports/Label.js",
+      "default": "./server/react-aria-components/exports/Label.js"
+    },
+    "./Link": {
+      "types": "./types/react-aria-components/exports/Link.d.ts",
+      "worker": "./server/react-aria-components/exports/Link.js",
+      "browser": "./dom/react-aria-components/exports/Link.js",
+      "deno": "./server/react-aria-components/exports/Link.js",
+      "node": "./server/react-aria-components/exports/Link.js",
+      "default": "./server/react-aria-components/exports/Link.js"
+    },
+    "./ListBox": {
+      "types": "./types/react-aria-components/exports/ListBox.d.ts",
+      "worker": "./server/react-aria-components/exports/ListBox.js",
+      "browser": "./dom/react-aria-components/exports/ListBox.js",
+      "deno": "./server/react-aria-components/exports/ListBox.js",
+      "node": "./server/react-aria-components/exports/ListBox.js",
+      "default": "./server/react-aria-components/exports/ListBox.js"
+    },
+    "./Menu": {
+      "types": "./types/react-aria-components/exports/Menu.d.ts",
+      "worker": "./server/react-aria-components/exports/Menu.js",
+      "browser": "./dom/react-aria-components/exports/Menu.js",
+      "deno": "./server/react-aria-components/exports/Menu.js",
+      "node": "./server/react-aria-components/exports/Menu.js",
+      "default": "./server/react-aria-components/exports/Menu.js"
+    },
+    "./Meter": {
+      "types": "./types/react-aria-components/exports/Meter.d.ts",
+      "worker": "./server/react-aria-components/exports/Meter.js",
+      "browser": "./dom/react-aria-components/exports/Meter.js",
+      "deno": "./server/react-aria-components/exports/Meter.js",
+      "node": "./server/react-aria-components/exports/Meter.js",
+      "default": "./server/react-aria-components/exports/Meter.js"
+    },
+    "./Modal": {
+      "types": "./types/react-aria-components/exports/Modal.d.ts",
+      "worker": "./server/react-aria-components/exports/Modal.js",
+      "browser": "./dom/react-aria-components/exports/Modal.js",
+      "deno": "./server/react-aria-components/exports/Modal.js",
+      "node": "./server/react-aria-components/exports/Modal.js",
+      "default": "./server/react-aria-components/exports/Modal.js"
+    },
+    "./NavigationTree": {
+      "types": "./types/react-aria-components/exports/NavigationTree.d.ts",
+      "worker": "./server/react-aria-components/exports/NavigationTree.js",
+      "browser": "./dom/react-aria-components/exports/NavigationTree.js",
+      "deno": "./server/react-aria-components/exports/NavigationTree.js",
+      "node": "./server/react-aria-components/exports/NavigationTree.js",
+      "default": "./server/react-aria-components/exports/NavigationTree.js"
+    },
+    "./NumberField": {
+      "types": "./types/react-aria-components/exports/NumberField.d.ts",
+      "worker": "./server/react-aria-components/exports/NumberField.js",
+      "browser": "./dom/react-aria-components/exports/NumberField.js",
+      "deno": "./server/react-aria-components/exports/NumberField.js",
+      "node": "./server/react-aria-components/exports/NumberField.js",
+      "default": "./server/react-aria-components/exports/NumberField.js"
+    },
+    "./Popover": {
+      "types": "./types/react-aria-components/exports/Popover.d.ts",
+      "worker": "./server/react-aria-components/exports/Popover.js",
+      "browser": "./dom/react-aria-components/exports/Popover.js",
+      "deno": "./server/react-aria-components/exports/Popover.js",
+      "node": "./server/react-aria-components/exports/Popover.js",
+      "default": "./server/react-aria-components/exports/Popover.js"
+    },
+    "./Pressable": {
+      "types": "./types/react-aria-components/exports/Pressable.d.ts",
+      "worker": "./server/react-aria-components/exports/Pressable.js",
+      "browser": "./dom/react-aria-components/exports/Pressable.js",
+      "deno": "./server/react-aria-components/exports/Pressable.js",
+      "node": "./server/react-aria-components/exports/Pressable.js",
+      "default": "./server/react-aria-components/exports/Pressable.js"
+    },
+    "./PreviewTrigger": {
+      "types": "./types/react-aria-components/exports/PreviewTrigger.d.ts",
+      "worker": "./server/react-aria-components/exports/PreviewTrigger.js",
+      "browser": "./dom/react-aria-components/exports/PreviewTrigger.js",
+      "deno": "./server/react-aria-components/exports/PreviewTrigger.js",
+      "node": "./server/react-aria-components/exports/PreviewTrigger.js",
+      "default": "./server/react-aria-components/exports/PreviewTrigger.js"
+    },
+    "./ProgressBar": {
+      "types": "./types/react-aria-components/exports/ProgressBar.d.ts",
+      "worker": "./server/react-aria-components/exports/ProgressBar.js",
+      "browser": "./dom/react-aria-components/exports/ProgressBar.js",
+      "deno": "./server/react-aria-components/exports/ProgressBar.js",
+      "node": "./server/react-aria-components/exports/ProgressBar.js",
+      "default": "./server/react-aria-components/exports/ProgressBar.js"
+    },
+    "./RadioGroup": {
+      "types": "./types/react-aria-components/exports/RadioGroup.d.ts",
+      "worker": "./server/react-aria-components/exports/RadioGroup.js",
+      "browser": "./dom/react-aria-components/exports/RadioGroup.js",
+      "deno": "./server/react-aria-components/exports/RadioGroup.js",
+      "node": "./server/react-aria-components/exports/RadioGroup.js",
+      "default": "./server/react-aria-components/exports/RadioGroup.js"
+    },
+    "./RangeCalendar": {
+      "types": "./types/react-aria-components/exports/RangeCalendar.d.ts",
+      "worker": "./server/react-aria-components/exports/RangeCalendar.js",
+      "browser": "./dom/react-aria-components/exports/RangeCalendar.js",
+      "deno": "./server/react-aria-components/exports/RangeCalendar.js",
+      "node": "./server/react-aria-components/exports/RangeCalendar.js",
+      "default": "./server/react-aria-components/exports/RangeCalendar.js"
+    },
+    "./SearchField": {
+      "types": "./types/react-aria-components/exports/SearchField.d.ts",
+      "worker": "./server/react-aria-components/exports/SearchField.js",
+      "browser": "./dom/react-aria-components/exports/SearchField.js",
+      "deno": "./server/react-aria-components/exports/SearchField.js",
+      "node": "./server/react-aria-components/exports/SearchField.js",
+      "default": "./server/react-aria-components/exports/SearchField.js"
+    },
+    "./Select": {
+      "types": "./types/react-aria-components/exports/Select.d.ts",
+      "worker": "./server/react-aria-components/exports/Select.js",
+      "browser": "./dom/react-aria-components/exports/Select.js",
+      "deno": "./server/react-aria-components/exports/Select.js",
+      "node": "./server/react-aria-components/exports/Select.js",
+      "default": "./server/react-aria-components/exports/Select.js"
+    },
+    "./SelectionIndicator": {
+      "types": "./types/react-aria-components/exports/SelectionIndicator.d.ts",
+      "worker": "./server/react-aria-components/exports/SelectionIndicator.js",
+      "browser": "./dom/react-aria-components/exports/SelectionIndicator.js",
+      "deno": "./server/react-aria-components/exports/SelectionIndicator.js",
+      "node": "./server/react-aria-components/exports/SelectionIndicator.js",
+      "default": "./server/react-aria-components/exports/SelectionIndicator.js"
+    },
+    "./Separator": {
+      "types": "./types/react-aria-components/exports/Separator.d.ts",
+      "worker": "./server/react-aria-components/exports/Separator.js",
+      "browser": "./dom/react-aria-components/exports/Separator.js",
+      "deno": "./server/react-aria-components/exports/Separator.js",
+      "node": "./server/react-aria-components/exports/Separator.js",
+      "default": "./server/react-aria-components/exports/Separator.js"
+    },
+    "./SharedElementTransition": {
+      "types": "./types/react-aria-components/exports/SharedElementTransition.d.ts",
+      "worker": "./server/react-aria-components/exports/SharedElementTransition.js",
+      "browser": "./dom/react-aria-components/exports/SharedElementTransition.js",
+      "deno": "./server/react-aria-components/exports/SharedElementTransition.js",
+      "node": "./server/react-aria-components/exports/SharedElementTransition.js",
+      "default": "./server/react-aria-components/exports/SharedElementTransition.js"
+    },
+    "./Sheet": {
+      "types": "./types/react-aria-components/exports/Sheet.d.ts",
+      "worker": "./server/react-aria-components/exports/Sheet.js",
+      "browser": "./dom/react-aria-components/exports/Sheet.js",
+      "deno": "./server/react-aria-components/exports/Sheet.js",
+      "node": "./server/react-aria-components/exports/Sheet.js",
+      "default": "./server/react-aria-components/exports/Sheet.js"
+    },
+    "./Slider": {
+      "types": "./types/react-aria-components/exports/Slider.d.ts",
+      "worker": "./server/react-aria-components/exports/Slider.js",
+      "browser": "./dom/react-aria-components/exports/Slider.js",
+      "deno": "./server/react-aria-components/exports/Slider.js",
+      "node": "./server/react-aria-components/exports/Slider.js",
+      "default": "./server/react-aria-components/exports/Slider.js"
+    },
+    "./Switch": {
+      "types": "./types/react-aria-components/exports/Switch.d.ts",
+      "worker": "./server/react-aria-components/exports/Switch.js",
+      "browser": "./dom/react-aria-components/exports/Switch.js",
+      "deno": "./server/react-aria-components/exports/Switch.js",
+      "node": "./server/react-aria-components/exports/Switch.js",
+      "default": "./server/react-aria-components/exports/Switch.js"
+    },
+    "./Table": {
+      "types": "./types/react-aria-components/exports/Table.d.ts",
+      "worker": "./server/react-aria-components/exports/Table.js",
+      "browser": "./dom/react-aria-components/exports/Table.js",
+      "deno": "./server/react-aria-components/exports/Table.js",
+      "node": "./server/react-aria-components/exports/Table.js",
+      "default": "./server/react-aria-components/exports/Table.js"
+    },
+    "./Tabs": {
+      "types": "./types/react-aria-components/exports/Tabs.d.ts",
+      "worker": "./server/react-aria-components/exports/Tabs.js",
+      "browser": "./dom/react-aria-components/exports/Tabs.js",
+      "deno": "./server/react-aria-components/exports/Tabs.js",
+      "node": "./server/react-aria-components/exports/Tabs.js",
+      "default": "./server/react-aria-components/exports/Tabs.js"
+    },
+    "./TagGroup": {
+      "types": "./types/react-aria-components/exports/TagGroup.d.ts",
+      "worker": "./server/react-aria-components/exports/TagGroup.js",
+      "browser": "./dom/react-aria-components/exports/TagGroup.js",
+      "deno": "./server/react-aria-components/exports/TagGroup.js",
+      "node": "./server/react-aria-components/exports/TagGroup.js",
+      "default": "./server/react-aria-components/exports/TagGroup.js"
+    },
+    "./Text": {
+      "types": "./types/react-aria-components/exports/Text.d.ts",
+      "worker": "./server/react-aria-components/exports/Text.js",
+      "browser": "./dom/react-aria-components/exports/Text.js",
+      "deno": "./server/react-aria-components/exports/Text.js",
+      "node": "./server/react-aria-components/exports/Text.js",
+      "default": "./server/react-aria-components/exports/Text.js"
+    },
+    "./TextArea": {
+      "types": "./types/react-aria-components/exports/TextArea.d.ts",
+      "worker": "./server/react-aria-components/exports/TextArea.js",
+      "browser": "./dom/react-aria-components/exports/TextArea.js",
+      "deno": "./server/react-aria-components/exports/TextArea.js",
+      "node": "./server/react-aria-components/exports/TextArea.js",
+      "default": "./server/react-aria-components/exports/TextArea.js"
+    },
+    "./TextField": {
+      "types": "./types/react-aria-components/exports/TextField.d.ts",
+      "worker": "./server/react-aria-components/exports/TextField.js",
+      "browser": "./dom/react-aria-components/exports/TextField.js",
+      "deno": "./server/react-aria-components/exports/TextField.js",
+      "node": "./server/react-aria-components/exports/TextField.js",
+      "default": "./server/react-aria-components/exports/TextField.js"
+    },
+    "./TimeField": {
+      "types": "./types/react-aria-components/exports/TimeField.d.ts",
+      "worker": "./server/react-aria-components/exports/TimeField.js",
+      "browser": "./dom/react-aria-components/exports/TimeField.js",
+      "deno": "./server/react-aria-components/exports/TimeField.js",
+      "node": "./server/react-aria-components/exports/TimeField.js",
+      "default": "./server/react-aria-components/exports/TimeField.js"
+    },
+    "./Toast": {
+      "types": "./types/react-aria-components/exports/Toast.d.ts",
+      "worker": "./server/react-aria-components/exports/Toast.js",
+      "browser": "./dom/react-aria-components/exports/Toast.js",
+      "deno": "./server/react-aria-components/exports/Toast.js",
+      "node": "./server/react-aria-components/exports/Toast.js",
+      "default": "./server/react-aria-components/exports/Toast.js"
+    },
+    "./ToggleButton": {
+      "types": "./types/react-aria-components/exports/ToggleButton.d.ts",
+      "worker": "./server/react-aria-components/exports/ToggleButton.js",
+      "browser": "./dom/react-aria-components/exports/ToggleButton.js",
+      "deno": "./server/react-aria-components/exports/ToggleButton.js",
+      "node": "./server/react-aria-components/exports/ToggleButton.js",
+      "default": "./server/react-aria-components/exports/ToggleButton.js"
+    },
+    "./ToggleButtonGroup": {
+      "types": "./types/react-aria-components/exports/ToggleButtonGroup.d.ts",
+      "worker": "./server/react-aria-components/exports/ToggleButtonGroup.js",
+      "browser": "./dom/react-aria-components/exports/ToggleButtonGroup.js",
+      "deno": "./server/react-aria-components/exports/ToggleButtonGroup.js",
+      "node": "./server/react-aria-components/exports/ToggleButtonGroup.js",
+      "default": "./server/react-aria-components/exports/ToggleButtonGroup.js"
+    },
+    "./TokenField": {
+      "types": "./types/react-aria-components/exports/TokenField.d.ts",
+      "worker": "./server/react-aria-components/exports/TokenField.js",
+      "browser": "./dom/react-aria-components/exports/TokenField.js",
+      "deno": "./server/react-aria-components/exports/TokenField.js",
+      "node": "./server/react-aria-components/exports/TokenField.js",
+      "default": "./server/react-aria-components/exports/TokenField.js"
+    },
+    "./Toolbar": {
+      "types": "./types/react-aria-components/exports/Toolbar.d.ts",
+      "worker": "./server/react-aria-components/exports/Toolbar.js",
+      "browser": "./dom/react-aria-components/exports/Toolbar.js",
+      "deno": "./server/react-aria-components/exports/Toolbar.js",
+      "node": "./server/react-aria-components/exports/Toolbar.js",
+      "default": "./server/react-aria-components/exports/Toolbar.js"
+    },
+    "./Tooltip": {
+      "types": "./types/react-aria-components/exports/Tooltip.d.ts",
+      "worker": "./server/react-aria-components/exports/Tooltip.js",
+      "browser": "./dom/react-aria-components/exports/Tooltip.js",
+      "deno": "./server/react-aria-components/exports/Tooltip.js",
+      "node": "./server/react-aria-components/exports/Tooltip.js",
+      "default": "./server/react-aria-components/exports/Tooltip.js"
+    },
+    "./Tree": {
+      "types": "./types/react-aria-components/exports/Tree.d.ts",
+      "worker": "./server/react-aria-components/exports/Tree.js",
+      "browser": "./dom/react-aria-components/exports/Tree.js",
+      "deno": "./server/react-aria-components/exports/Tree.js",
+      "node": "./server/react-aria-components/exports/Tree.js",
+      "default": "./server/react-aria-components/exports/Tree.js"
+    },
+    "./Virtualizer": {
+      "types": "./types/react-aria-components/exports/Virtualizer.d.ts",
+      "worker": "./server/react-aria-components/exports/Virtualizer.js",
+      "browser": "./dom/react-aria-components/exports/Virtualizer.js",
+      "deno": "./server/react-aria-components/exports/Virtualizer.js",
+      "node": "./server/react-aria-components/exports/Virtualizer.js",
+      "default": "./server/react-aria-components/exports/Virtualizer.js"
+    },
+    "./VisuallyHidden": {
+      "types": "./types/react-aria-components/exports/VisuallyHidden.d.ts",
+      "worker": "./server/react-aria-components/exports/VisuallyHidden.js",
+      "browser": "./dom/react-aria-components/exports/VisuallyHidden.js",
+      "deno": "./server/react-aria-components/exports/VisuallyHidden.js",
+      "node": "./server/react-aria-components/exports/VisuallyHidden.js",
+      "default": "./server/react-aria-components/exports/VisuallyHidden.js"
+    },
+    "./composeRenderProps": {
+      "types": "./types/react-aria-components/exports/composeRenderProps.d.ts",
+      "worker": "./server/react-aria-components/exports/composeRenderProps.js",
+      "browser": "./dom/react-aria-components/exports/composeRenderProps.js",
+      "deno": "./server/react-aria-components/exports/composeRenderProps.js",
+      "node": "./server/react-aria-components/exports/composeRenderProps.js",
+      "default": "./server/react-aria-components/exports/composeRenderProps.js"
+    },
+    ".": {
+      "types": "./types/react-aria-components/exports/index.d.ts",
+      "worker": "./server/react-aria-components/exports/index.js",
+      "browser": "./dom/react-aria-components/exports/index.js",
+      "deno": "./server/react-aria-components/exports/index.js",
+      "node": "./server/react-aria-components/exports/index.js",
+      "default": "./server/react-aria-components/exports/index.js"
+    },
+    "./slots": {
+      "types": "./types/react-aria-components/exports/slots.d.ts",
+      "worker": "./server/react-aria-components/exports/slots.js",
+      "browser": "./dom/react-aria-components/exports/slots.js",
+      "deno": "./server/react-aria-components/exports/slots.js",
+      "node": "./server/react-aria-components/exports/slots.js",
+      "default": "./server/react-aria-components/exports/slots.js"
+    },
+    "./useAsyncList": {
+      "types": "./types/react-aria-components/exports/useAsyncList.d.ts",
+      "worker": "./server/react-aria-components/exports/useAsyncList.js",
+      "browser": "./dom/react-aria-components/exports/useAsyncList.js",
+      "deno": "./server/react-aria-components/exports/useAsyncList.js",
+      "node": "./server/react-aria-components/exports/useAsyncList.js",
+      "default": "./server/react-aria-components/exports/useAsyncList.js"
+    },
+    "./useDrag": {
+      "types": "./types/react-aria-components/exports/useDrag.d.ts",
+      "worker": "./server/react-aria-components/exports/useDrag.js",
+      "browser": "./dom/react-aria-components/exports/useDrag.js",
+      "deno": "./server/react-aria-components/exports/useDrag.js",
+      "node": "./server/react-aria-components/exports/useDrag.js",
+      "default": "./server/react-aria-components/exports/useDrag.js"
+    },
+    "./useDragAndDrop": {
+      "types": "./types/react-aria-components/exports/useDragAndDrop.d.ts",
+      "worker": "./server/react-aria-components/exports/useDragAndDrop.js",
+      "browser": "./dom/react-aria-components/exports/useDragAndDrop.js",
+      "deno": "./server/react-aria-components/exports/useDragAndDrop.js",
+      "node": "./server/react-aria-components/exports/useDragAndDrop.js",
+      "default": "./server/react-aria-components/exports/useDragAndDrop.js"
+    },
+    "./useDrop": {
+      "types": "./types/react-aria-components/exports/useDrop.d.ts",
+      "worker": "./server/react-aria-components/exports/useDrop.js",
+      "browser": "./dom/react-aria-components/exports/useDrop.js",
+      "deno": "./server/react-aria-components/exports/useDrop.js",
+      "node": "./server/react-aria-components/exports/useDrop.js",
+      "default": "./server/react-aria-components/exports/useDrop.js"
+    },
+    "./useListData": {
+      "types": "./types/react-aria-components/exports/useListData.d.ts",
+      "worker": "./server/react-aria-components/exports/useListData.js",
+      "browser": "./dom/react-aria-components/exports/useListData.js",
+      "deno": "./server/react-aria-components/exports/useListData.js",
+      "node": "./server/react-aria-components/exports/useListData.js",
+      "default": "./server/react-aria-components/exports/useListData.js"
+    },
+    "./useRenderProps": {
+      "types": "./types/react-aria-components/exports/useRenderProps.d.ts",
+      "worker": "./server/react-aria-components/exports/useRenderProps.js",
+      "browser": "./dom/react-aria-components/exports/useRenderProps.js",
+      "deno": "./server/react-aria-components/exports/useRenderProps.js",
+      "node": "./server/react-aria-components/exports/useRenderProps.js",
+      "default": "./server/react-aria-components/exports/useRenderProps.js"
+    },
+    "./useTreeData": {
+      "types": "./types/react-aria-components/exports/useTreeData.d.ts",
+      "worker": "./server/react-aria-components/exports/useTreeData.js",
+      "browser": "./dom/react-aria-components/exports/useTreeData.js",
+      "deno": "./server/react-aria-components/exports/useTreeData.js",
+      "node": "./server/react-aria-components/exports/useTreeData.js",
+      "default": "./server/react-aria-components/exports/useTreeData.js"
+    },
+    "./i18n": {
+      "types": "./types/i18n/index.d.ts",
+      "worker": "./server/i18n/index.js",
+      "browser": "./dom/i18n/index.js",
+      "deno": "./server/i18n/index.js",
+      "node": "./server/i18n/index.js",
+      "default": "./server/i18n/index.js"
+    },
+    "./i18n/*": {
+      "types": "./types/i18n/lang.d.ts",
+      "worker": "./server/i18n/*.js",
+      "browser": "./dom/i18n/*.js",
+      "deno": "./server/i18n/*.js",
+      "node": "./server/i18n/*.js",
+      "default": "./server/i18n/*.js"
+    },
+    "./package.json": "./package.json",
+    "./private/*": null
+  },
+  "peerDependencies": {
+    "solid-js": "2.0.0-rc.13",
+    "@solidjs/web": "2.0.0-rc.13"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "color-space": "1.16.0",
+    "delta-e": "0.0.8"
+  },
+  "files": [
+    "dom",
+    "server",
+    "types",
+    "LICENSE",
+    "NOTICE",
+    "THIRD-PARTY-NOTICES.md",
+    "notices"
+  ]
+}

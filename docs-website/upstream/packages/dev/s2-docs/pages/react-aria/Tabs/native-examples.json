@@ -1,0 +1,70 @@
+[
+  {
+    "page": "ProgressBar",
+    "modules": [
+      "ProgressBar/solid-visual-1.tsx",
+      "ProgressBar/solid-visual-2.tsx",
+      "ProgressBar/solid-visual-3.tsx",
+      "ProgressBar/solid-visual-4.tsx"
+    ]
+  },
+  {
+    "page": "Meter",
+    "modules": [
+      "Meter/solid-visual-1.tsx",
+      "Meter/solid-visual-2.tsx",
+      "Meter/solid-visual-3.tsx"
+    ]
+  },
+  {
+    "page": "Separator",
+    "modules": [
+      "Separator/solid-visual-1.tsx",
+      "Separator/solid-visual-2.tsx"
+    ]
+  },
+  {
+    "page": "Breadcrumbs",
+    "modules": [
+      "Breadcrumbs/solid-example-1.tsx",
+      "Breadcrumbs/solid-example-2.tsx",
+      "Breadcrumbs/solid-example-3.tsx"
+    ]
+  },
+  {
+    "page": "Tabs",
+    "modules": [
+      "Tabs/solid-example-1.tsx",
+      "Tabs/solid-example-2.tsx",
+      "Tabs/solid-example-3.tsx",
+      "Tabs/solid-example-4.tsx"
+    ]
+  },
+  {
+    "page": "Disclosure",
+    "modules": [
+      "Disclosure/solid-example-1.tsx",
+      "Disclosure/solid-example-2.tsx",
+      "Disclosure/solid-example-3.tsx",
+      "Disclosure/solid-example-4.tsx"
+    ]
+  },
+  {
+    "page": "RadioGroup",
+    "modules": [
+      "RadioGroup/solid-example-1.tsx",
+      "RadioGroup/solid-example-2.tsx",
+      "RadioGroup/solid-example-3.tsx",
+      "RadioGroup/solid-example-4.tsx"
+    ]
+  },
+  {
+    "page": "CheckboxGroup",
+    "modules": [
+      "CheckboxGroup/solid-example-1.tsx",
+      "CheckboxGroup/solid-example-2.tsx",
+      "CheckboxGroup/solid-example-3.tsx",
+      "CheckboxGroup/solid-example-4.tsx"
+    ]
+  }
+]

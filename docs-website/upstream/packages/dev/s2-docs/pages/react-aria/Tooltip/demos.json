@@ -1,0 +1,46 @@
+[
+  {
+    "id": "Tooltip-1",
+    "module": "./solid-demo01.tsx",
+    "export": "default",
+    "source": "Tooltip.mdx",
+    "ordinal": 1,
+    "fence": "render docs={vanillaDocs.exports.Tooltip} links={vanillaDocs.links} props={['placement', 'offset', 'crossOffset', 'shouldFlip']}  type=\"vanilla\" files={[\"starters/docs/src/Tooltip.tsx\", \"starters/docs/src/Tooltip.css\"]}",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "Tooltip/solid-demo01.tsx"
+  },
+  {
+    "id": "Tooltip-2",
+    "module": "./solid-demo02.tsx",
+    "export": "default",
+    "source": "Tooltip.mdx",
+    "ordinal": 2,
+    "fence": "render docs={vanillaDocs.exports.Tooltip} links={vanillaDocs.links} props={['placement', 'offset', 'crossOffset', 'shouldFlip']} type=\"tailwind\" files={[\"starters/tailwind/src/Tooltip.tsx\"]}",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "Tooltip/solid-demo02.tsx"
+  },
+  {
+    "id": "Tooltip-3",
+    "module": "./solid-demo03.tsx",
+    "export": "default",
+    "source": "Tooltip.mdx",
+    "ordinal": 3,
+    "fence": "render docs={docs.exports.TooltipTrigger} links={docs.links} props={['trigger', 'delay', 'closeDelay', 'isDisabled', 'shouldCloseOnPress']} type=\"vanilla\"",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "Tooltip/solid-demo03.tsx"
+  },
+  {
+    "id": "Tooltip-4",
+    "module": "./solid-demo04.tsx",
+    "export": "default",
+    "source": "Tooltip.mdx",
+    "ordinal": 4,
+    "fence": "render",
+    "mount": "mount",
+    "title": "title",
+    "hostModule": "Tooltip/solid-demo04.tsx"
+  }
+]

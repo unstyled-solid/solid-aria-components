@@ -1,0 +1,70 @@
+{
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "mode": "terminal-copy-before-native-adaptation",
+  "files": [
+    {
+      "sourcePath": "packages/@react-spectrum/s2/s2wf-icons/S2_Icon_ChevronRight_20_N.svg",
+      "capturePath": "S2_Icon_ChevronRight_20_N.svg",
+      "sha256": "221f99c4fef47e88e1fa32c89cf4cd02b06f02537d1529f4790d9408480e709c"
+    },
+    {
+      "sourcePath": "packages/dev/parcel-transformer-s2-icon/IconTransformer.js",
+      "capturePath": "IconTransformer.js",
+      "sha256": "1f3a636ead0f8c5bfceb5f2fa81d9911184ae497c95507bf4213faf0c9e54d02"
+    },
+    {
+      "sourcePath": "packages/dev/parcel-transformer-s2-icon/package.json",
+      "capturePath": "transformer.package.json",
+      "sha256": "44babd93f6497e996c697d3b9119d25d0bebcb999d3b92dad4def4b82f1559fe"
+    },
+    {
+      "sourcePath": "packages/@react-spectrum/s2/package.json",
+      "capturePath": "s2.package.json",
+      "sha256": "13eedfe8d69bf8521ad0e3c274416365eff09f2be83d364a492d88b6c5169e0e"
+    },
+    {
+      "sourcePath": ".parcelrc-build",
+      "capturePath": "parcelrc-build.txt",
+      "sha256": "d9765475e6181ff609eb879a046de235be186a566ec8f7cf1fe9df63f0d69c6b"
+    },
+    {
+      "sourcePath": "parcel-v3/.parcelrc-icons",
+      "capturePath": "parcelrc-icons-v3.txt",
+      "sha256": "f150b0d89f027e9735e41c7ba8bc995be143a8102bd445ef4c318e026a8175f1"
+    },
+    {
+      "sourcePath": "LICENSE",
+      "capturePath": "LICENSE",
+      "sha256": "7dfe6526888bac51759c99f9a51262ba2711a8c12a067f2181609dd9a4066b84"
+    }
+  ],
+  "sourceExport": "@react-spectrum/s2/icons/ChevronRight -> ./s2wf-icons/S2_Icon_ChevronRight_20_N.svg",
+  "nativeModuleDestination": "packages/@react-spectrum/s2/icons/ChevronRight.tsx",
+  "pipeline": "Actual frozen IconTransformer configuration executed through SVGR8.1.0; native P61createIcon callback adaptation emitted and source-generated SVG AST verified",
+  "requiredDependencies": {
+    "@svgr/core": "8.1.0",
+    "@svgr/plugin-svgo": "8.1.0",
+    "@svgr/plugin-jsx": "8.1.0"
+  },
+  "status": "Actual source transform and native template emitted; qualification reported separately.",
+  "generated": {
+    "sourceGenerated": "source-generated.tsx.txt",
+    "sourceGeneratedSha256": "f44a331c697465f5fd734bae545da5a6840149c1fd2032aac7cec77ddd2d9abb",
+    "actualVersions": {
+      "@svgr/core": "8.1.0",
+      "@svgr/plugin-svgo": "8.1.0",
+      "@svgr/plugin-jsx": "8.1.0",
+      "@adobe/spectrum-tokens": "14.15.0",
+      "svgo": "3.3.2"
+    },
+    "frozenSvgoVersion": "3.3.2",
+    "svgoVersionDifference": false,
+    "nativeModule": "../ChevronRight.tsx",
+    "nativeSha256": "24f79d44f745f7f4614a45520298f18f747b1b157f71f0869bf8ae3cea528816",
+    "templatePath": "native-template.cjs",
+    "templateSha256": "62bf5583d5bb509ea14969ba041c267ca2e05ec2098299c8781aaebe340b04f8",
+    "pipelineAdapterPath": "generate.cjs",
+    "pipelineAdapterSha256": "e24e9c629e9ad118abdb2e29b5432f78204c467e798a211f0b30820ac1220f41",
+    "adaptation": "Source SVGR/SVGO geometry, attributes and token colors unchanged; React imports/forwardRef replaced by canonical native createIcon callback with derived SVG props and props.ref."
+  }
+}

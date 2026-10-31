@@ -1,0 +1,97 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+stderr | packages/react-aria-components/test/ComboBox.ssr.test.js > ComboBox SSR > should point ref correctly after hydration
+[STRICT_READ_UNTRACKED] Reactive value "useObjectRef.revision" read directly in an effect callback will not update. Move it into a tracking scope (JSX, a memo, or an effect's compute function).
+[STRICT_READ_UNTRACKED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#strict_read_untracked
+[REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash. Error: [STRICT_READ_UNTRACKED] Reactive value "useObjectRef.revision" read directly in an effect callback will not update. Move it into a tracking scope (JSX, a memo, or an effect's compute function).
+[STRICT_READ_UNTRACKED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#strict_read_untracked
+    at Console.console.warn (/Users/avi/avir-oss/solid-aria-components/scripts/setupTests.js:82:48)
+    at reportDiagnostic (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:701:65)
+    at warnStrictReadUntracked (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:732:3)
+    at read (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6513:5)
+    at attach.current (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/utils/useObjectRef.ts:69:13)
+    at /Users/avi/avir-oss/solid-aria-components/test/ssr-harness/p15-combobox-ref.tsx:24:59
+    at setTriggers (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6790:36)
+    at capture (/Users/avi/avir-oss/solid-aria-components/test/ssr-harness/p15-combobox-ref.tsx:24:25)
+    at Object._effectFn (/Users/avi/avir-oss/solid-aria-components/test/ssr-harness/p15-combobox-ref.tsx:26:58)
+    at runEffect (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1888:30)
+[REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+[REACTIVITY_HALTED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#reactivity_halted
+
+ ❯ |solid2-pilot| packages/react-aria-components/test/ComboBox.ssr.test.js (2 tests | 1 failed | 1 skipped) 880ms
+     × should point ref correctly after hydration 879ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/ComboBox.ssr.test.js > ComboBox SSR > should point ref correctly after hydration
+Error: [REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash.
+ ❯ Console.console.error scripts/setupTests.js:65:48
+     63|
+     64|     error.apply(console, arguments);
+     65|     throw message instanceof Error ? message : new Error(message);
+       |                                                ^
+     66|   };
+     67| }
+ ❯ haltReactivity node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1755:68
+ ❯ runEffect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1900:7
+ ❯ runQueue node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:2742:50
+ ❯ GlobalQueue.run node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1799:7
+ ❯ GlobalQueue.flush node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:2132:12
+ ❯ flush node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:2729:17
+ ❯ flushFixture packages/dev/test-utils/src/renderOverride.tsx:74:3
+ ❯ act packages/dev/test-utils/src/renderOverride.tsx:114:3
+ ❯ Object.eventWrapper packages/dev/test-utils/src/renderOverride.tsx:133:38
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+⎯⎯⎯⎯⎯⎯ Unhandled Errors ⎯⎯⎯⎯⎯⎯
+
+Vitest caught 2 unhandled errors during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+Error: [REACTIVITY_HALTED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#reactivity_halted
+ ❯ Console.console.warn scripts/setupTests.js:82:48
+     80|
+     81|     warn.apply(console, arguments);
+     82|     throw message instanceof Error ? message : new Error(message);
+       |                                                ^
+     83|   };
+     84| }
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:659:27
+ ❯ processTicksAndRejections node:internal/process/task_queues:104:5
+
+This error originated in "packages/react-aria-components/test/ComboBox.ssr.test.js" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The latest test that might've caused the error is "should point ref correctly after hydration". It might mean one of the following:
+- The error was thrown, while Vitest was running this test.
+- If the error occurred after the test had been completed, this was the last documented test before it was thrown.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+Error: [REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+ ❯ Console.console.error scripts/setupTests.js:65:48
+     63|
+     64|     error.apply(console, arguments);
+     65|     throw message instanceof Error ? message : new Error(message);
+       |                                                ^
+     66|   };
+     67| }
+ ❯ notifyHalted node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1762:11
+ ❯ schedule node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1638:5
+ ❯ GlobalQueue.initTransition node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:2315:5
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2117:19
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2111:12
+ ❯ runWithOwner node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6942:12
+ ❯ Function.<anonymous> packages/react-aria/src/utils/useObjectRef.ts:72:19
+ ❯ runDisposal node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:3273:16
+
+This error originated in "packages/react-aria-components/test/ComboBox.ssr.test.js" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 1 skipped (2)
+     Errors  2 errors
+   Start at  17:16:03
+   Duration  2.29s (transform 875ms, setup 99ms, import 969ms, tests 880ms, environment 239ms)
+

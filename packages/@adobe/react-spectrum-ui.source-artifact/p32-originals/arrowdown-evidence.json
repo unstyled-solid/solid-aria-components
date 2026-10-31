@@ -1,0 +1,10 @@
+{
+  "packages/@spectrum-icons/ui/src/ArrowDownSmall.tsx": {
+    "originalSHA256": "488525c76a79b7659868906f0e28010870356a47ee70277ee4dc99df549768ea",
+    "nativeSHA256": "319fd5ffc1815e782c7933ac0fb12e6fea4f39542f29ce849cef66495b96c353"
+  },
+  "packages/@adobe/react-spectrum-ui/src/ArrowDownSmall.jsx": {
+    "originalSHA256": "16176e3cb5b7d636d887df0c88455f41f04851be499015d0ac36e7f286c635e4",
+    "nativeSHA256": "b8a1ef585205fda2ba95901c3b50c95bd1f5eab88587ed0aac9c04a6c15f65b7"
+  }
+}

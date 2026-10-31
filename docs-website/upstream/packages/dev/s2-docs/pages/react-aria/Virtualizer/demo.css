@@ -1,0 +1,26 @@
+.resizable {
+  resize: horizontal;
+  width: 400px;
+  min-width: 240px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.expandable-item {
+  display: grid;
+  padding: 4px;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  align-items: center;
+
+  .react-aria-Text {
+    grid-column: 1 / 1;
+  }
+  .react-aria-Button {
+    grid-column: 2 / 2;
+  }
+  .react-aria-Text[slot="description"] {
+    grid-column: 1 / span 2;
+    padding-top: 4px;
+  }
+}

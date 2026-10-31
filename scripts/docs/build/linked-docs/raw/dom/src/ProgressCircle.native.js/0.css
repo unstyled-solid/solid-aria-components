@@ -1,0 +1,48 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .-Ovbhqd-g4hn3s18 {
+    --s2-container-bg: white;
+  }
+
+
+  .-Ovbhqd-gcwrnr18 {
+    --s2-container-bg: black;
+  }
+
+
+  .Z4dY0ec18 {
+    width: calc(calc(2 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .ZxhYlec18 {
+    width: calc(calc(1 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .Z86Xkgc18 {
+    width: calc(calc(4 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .F4dY0ec18 {
+    height: calc(calc(2 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .FxhYlec18 {
+    height: calc(calc(1 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .F86Xkgc18 {
+    height: calc(calc(4 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .fa18 {
+    aspect-ratio: 1/1;
+  }
+}
+

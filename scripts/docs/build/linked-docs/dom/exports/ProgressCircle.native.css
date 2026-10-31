@@ -1,0 +1,146 @@
+@layer _.prose;
+
+@layer _.a {
+  .-Ovbhqd-g4hn3s18 {
+    --s2-container-bg: white;
+  }
+
+  .-Ovbhqd-gcwrnr18 {
+    --s2-container-bg: black;
+  }
+
+  .Z4dY0ec18 {
+    width: calc(calc(2 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  .ZxhYlec18 {
+    width: calc(calc(1 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  .Z86Xkgc18 {
+    width: calc(calc(4 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  .F4dY0ec18 {
+    height: calc(calc(2 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  .FxhYlec18 {
+    height: calc(calc(1 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  .F86Xkgc18 {
+    height: calc(calc(4 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  .fa18 {
+    aspect-ratio: 1;
+  }
+
+  .Vf18 {
+    stroke: var(--lightningcss-light, #dadada) var(--lightningcss-dark, #393939);
+  }
+
+  .Vd18 {
+    stroke: lch(from var(--s2-container-bg) calc((49.44 - l) * infinity) 0 0 / .17);
+  }
+
+  .Vh18 {
+    stroke: var(--lightningcss-light, #3b63fb) var(--lightningcss-dark, #5681ff);
+  }
+
+  .Ve18 {
+    stroke: lch(from var(--s2-container-bg) calc((49.44 - l) * infinity) 0 0 / .94);
+  }
+
+  ._Sa18 {
+    rotate: -90deg;
+  }
+
+  ._0d18 {
+    transform-origin: center;
+  }
+
+  .VRWHrbc18 {
+    stroke: #0000;
+  }
+
+  ._Vwtfhvc18 {
+    stroke-width: .1875rem;
+  }
+
+  ._V7m7Gv18 {
+    stroke-width: .125rem;
+  }
+
+  ._VuNalie18 {
+    stroke-width: .25rem;
+  }
+}
+
+@layer _.b {
+  .VlOVIhfcceMNLe18:is([data-hcm], [data-hcm] *) {
+    stroke: var(--hcm-background, Background);
+  }
+
+  ._VlOVIhfc7m7Gv18:is([data-hcm], [data-hcm] *) {
+    stroke-width: .125rem;
+  }
+
+  ._VlOVIhfcai5a018:is([data-hcm], [data-hcm] *) {
+    stroke-width: .0625rem;
+  }
+
+  ._VlOVIhfcwtfhvc18:is([data-hcm], [data-hcm] *) {
+    stroke-width: .1875rem;
+  }
+
+  .VlOVIhfc6LxY918:is([data-hcm], [data-hcm] *) {
+    stroke: var(--hcm-buttontext, ButtonText);
+  }
+}
+
+@layer _.b.l {
+  @media (forced-colors: active) {
+    .VlOVIhfcceMNLe18 {
+      stroke: var(--hcm-background, Background);
+    }
+
+    ._VlOVIhfc7m7Gv18 {
+      stroke-width: .125rem;
+    }
+
+    ._VlOVIhfcai5a018 {
+      stroke-width: .0625rem;
+    }
+
+    ._VlOVIhfcwtfhvc18 {
+      stroke-width: .1875rem;
+    }
+
+    .VlOVIhfc6LxY918 {
+      stroke: var(--hcm-buttontext, ButtonText);
+    }
+  }
+}
+
+@keyframes Z8Un9b {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes uw9JJd {
+  0%, 100% {
+    stroke-dashoffset: 75px;
+  }
+
+  30% {
+    stroke-dashoffset: 20px;
+  }
+}
+/*# sourceMappingURL=ProgressCircle.native.css.map */

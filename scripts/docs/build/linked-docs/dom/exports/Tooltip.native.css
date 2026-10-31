@@ -1,0 +1,525 @@
+@layer _.a {
+  :where(:root, :host) {
+    --s2-color-scheme: light dark;
+    --s2-scale: 1;
+    --s2-font-size-base: 14;
+    --lightningcss-light: initial;
+    --lightningcss-dark: ;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :where(:root, :host) {
+      --lightningcss-light: ;
+      --lightningcss-dark: initial;
+    }
+  }
+
+  @media not ((hover: hover) and (pointer: fine)) {
+    :where(:root, :host) {
+      --s2-scale: 1.25;
+      --s2-font-size-base: 17;
+    }
+  }
+
+  .-Ovbhqd-gX18 {
+    --s2-container-bg: var(--lightningcss-light, #fff) var(--lightningcss-dark, #111);
+  }
+
+  .-Ovbhqd-gqlRAZb18 {
+    --s2-container-bg: var(--lightningcss-light, #f8f8f8) var(--lightningcss-dark, #1b1b1b);
+  }
+
+  .-Ovbhqd-g_g18 {
+    --s2-container-bg: var(--lightningcss-light, #fff) var(--lightningcss-dark, #222);
+  }
+
+  .gEzkoQe18 {
+    background-color: var(--s2-container-bg);
+    background-color: var(--s2-container-bg);
+    background-color: var(--s2-container-bg);
+  }
+
+  ._Bb18 {
+    isolation: isolate;
+  }
+
+  .-ICUGx-_pb18 {
+    --s2-color-scheme: light;
+  }
+
+  .-ICUGx-_pa18 {
+    --s2-color-scheme: dark;
+  }
+
+  ._pK8eoyd18 {
+    color-scheme: var(--s2-color-scheme);
+  }
+
+  .-NvXmrd-_ZN8Gi4c18 {
+    --lightningcss-light: initial;
+  }
+
+  .-NvXmrd-_ZLmU18 {
+    --lightningcss-light:  ;
+  }
+
+  .-j9blY-_ZLmU18 {
+    --lightningcss-dark:  ;
+  }
+
+  .-j9blY-_ZN8Gi4c18 {
+    --lightningcss-dark: initial;
+  }
+
+  ._Ca18 {
+    justify-content: center;
+  }
+
+  .eb18 {
+    align-items: center;
+  }
+
+  .L3HJbhc18 {
+    max-width: calc(calc(10 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  .MAyFGYc18 {
+    min-height: var(--M);
+  }
+
+  ._oa18 {
+    box-sizing: border-box;
+  }
+
+  .uk18 {
+    font-family: var(--s2-font-family-sans, adobe-clean-spectrum-vf), adobe-clean-variable, adobe-clean, ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .-_6BNtrc-b18 {
+    --fs: pow(1.125, -1);
+  }
+
+  .vFHT6Dd18 {
+    font-size: round(var(--s2-font-size-base, 14) * var(--fs) / 16 * var(--rem, 1rem), 1px);
+  }
+
+  .xb18 {
+    font-weight: 400;
+  }
+
+  ._xa18 {
+    font-synthesis-weight: none;
+  }
+
+  ._Fd18 {
+    line-height: round(1em * (1.15 + (1 - ((min(32, var(--s2-font-size-base, 14) * var(--fs)) - 10)) / 22) * .15), 2px);
+  }
+
+  .pr18 {
+    color: var(--lightningcss-light, #fff) var(--lightningcss-dark, #111);
+  }
+
+  ._kJ8iPYd18 {
+    border-top-width: var(--_k);
+  }
+
+  .hXMFGYc18 {
+    border-bottom-width: var(--h);
+  }
+
+  .g018 {
+    background-color: var(--lightningcss-light, #292929) var(--lightningcss-dark, #dbdbdb);
+  }
+
+  .oH5kTnc18 {
+    border-start-start-radius: calc(.5 * var(--rem, 1rem));
+  }
+
+  .nH5kTnc18 {
+    border-start-end-radius: calc(.5 * var(--rem, 1rem));
+  }
+
+  .kH5kTnc18 {
+    border-end-start-radius: calc(.5 * var(--rem, 1rem));
+  }
+
+  .jH5kTnc18 {
+    border-end-end-radius: calc(.5 * var(--rem, 1rem));
+  }
+
+  .Sv18 {
+    padding-inline-start: calc(var(--F, var(--M)) * 3 / 8);
+  }
+
+  .Rv18 {
+    padding-inline-end: calc(var(--F, var(--M)) * 3 / 8);
+  }
+
+  .Tu7Fubd18 {
+    padding-top: calc((var(--M) - var(--_k, 0px) - var(--h, 0px) - 1lh) / 2);
+  }
+
+  .Qu7Fubd18 {
+    padding-bottom: calc((var(--M) - var(--_k, 0px) - var(--h, 0px) - 1lh) / 2);
+  }
+
+  .Yd18 {
+    transition-property: color, background-color, var(--gp, color), border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, translate, scale, rotate, filter, backdrop-filter;
+  }
+
+  .Xc18 {
+    transition-duration: .2s;
+  }
+
+  ._2c18 {
+    transition-timing-function: cubic-bezier(.5, 0, 1, 1);
+  }
+
+  .-_7PloMd-G18 {
+    --translateX: 4px;
+  }
+
+  .-_7PloMd-m18 {
+    --translateX: -4px;
+  }
+
+  .-_8PloMd-F18 {
+    --translateY: 4px;
+  }
+
+  .-_8PloMd-l18 {
+    --translateY: -4px;
+  }
+
+  ._Ia18 {
+    opacity: 0;
+    opacity: 0;
+  }
+
+  .-nTSCV-LTAEPe18 {
+    overflow-wrap: break-word;
+  }
+
+  .-M_-MCe2o8c18 {
+    --M: calc(calc(1.5 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  .sb18 {
+    display: block;
+  }
+
+  .tr18 {
+    fill: var(--lightningcss-light, #292929) var(--lightningcss-dark, #dbdbdb);
+  }
+
+  .ZDldWXb18 {
+    width: calc(calc(.625 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  .FrIlH4c18 {
+    height: calc(calc(.3125 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  ._Sb18 {
+    rotate: 0deg;
+  }
+
+  ._Sc18 {
+    rotate: 180deg;
+  }
+
+  ._Sa18 {
+    rotate: -90deg;
+  }
+
+  ._Sd18 {
+    rotate: 90deg;
+  }
+
+  .-_7PloMd-e18 {
+    --translateX: -25%;
+  }
+
+  .-_7PloMd-y18 {
+    --translateX: 25%;
+  }
+
+  .__Ya18 {
+    translate: var(--translateX, 0) var(--translateY, 0);
+  }
+}
+
+@layer _.prose;
+
+@layer _.b {
+  .ucJ9TBTb18:lang(ar) {
+    font-family: adobe-clean-arabic, myriad-arabic, ui-sans-serif, system-ui, sans-serif;
+  }
+
+  ._FnuYUweb18:is(:lang(ja), :lang(ko), :lang(zh), :lang(zh-Hant), :lang(zh-Hans), :lang(zh-CN), :lang(zh-SG)) {
+    line-height: 1.5;
+  }
+
+  .plOVIhfc6LxY918:is([data-hcm], [data-hcm] *) {
+    color: var(--hcm-buttontext, ButtonText);
+  }
+
+  .mlOVIhfcb18:is([data-hcm], [data-hcm] *) {
+    border-inline-start-width: 1px;
+  }
+
+  .llOVIhfcb18:is([data-hcm], [data-hcm] *) {
+    border-inline-end-width: 1px;
+  }
+
+  ._jlOVIhfcf18:is([data-hcm], [data-hcm] *) {
+    border-style: solid;
+  }
+
+  .ilOVIhfcA18:is([data-hcm], [data-hcm] *) {
+    border-color: #0000;
+  }
+
+  .-_k_-lOVIhfc_kb18:is([data-hcm], [data-hcm] *) {
+    --_k: 1px;
+  }
+
+  .-h_-lOVIhfchb18:is([data-hcm], [data-hcm] *) {
+    --h: 1px;
+  }
+}
+
+@layer _.b.D1v0V {
+  @media (prefers-color-scheme: dark) {
+    .-ICUGx-D1v0V_pa18 {
+      --s2-color-scheme: dark;
+    }
+
+    .-NvXmrd-D1v0V_ZLmU18 {
+      --lightningcss-light:  ;
+    }
+
+    .-j9blY-D1v0V_ZN8Gi4c18 {
+      --lightningcss-dark: initial;
+    }
+  }
+}
+
+@font-face {
+  font-family: adobe-clean-spectrum-vf;
+  src: url("https://use.typekit.net/af/ca4cba/0000000000000000775c55a1/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n1&v=3") format("woff2"), url("https://use.typekit.net/af/ca4cba/0000000000000000775c55a1/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n1&v=3") format("woff"), url("https://use.typekit.net/af/ca4cba/0000000000000000775c55a1/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n1&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 100 900;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: adobe-clean-spectrum-srf-vf;
+  src: url("https://use.typekit.net/af/4a1d0d/0000000000000000775c55a4/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n1&v=3") format("woff2"), url("https://use.typekit.net/af/4a1d0d/0000000000000000775c55a4/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n1&v=3") format("woff"), url("https://use.typekit.net/af/4a1d0d/0000000000000000775c55a4/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n1&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 100 1000;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: adobe-clean-spectrum-vf;
+  src: url("https://use.typekit.net/af/8a3244/0000000000000000775c55a2/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i1&v=3") format("woff2"), url("https://use.typekit.net/af/8a3244/0000000000000000775c55a2/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i1&v=3") format("woff"), url("https://use.typekit.net/af/8a3244/0000000000000000775c55a2/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i1&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 100 900;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: adobe-clean-spectrum-srf-vf;
+  src: url("https://use.typekit.net/af/45f67c/0000000000000000775c55a3/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i1&v=3") format("woff2"), url("https://use.typekit.net/af/45f67c/0000000000000000775c55a3/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i1&v=3") format("woff"), url("https://use.typekit.net/af/45f67c/0000000000000000775c55a3/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i1&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 100 1000;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: adobe-clean-arabic;
+  src: url("https://use.typekit.net/af/ce4383/0000000000000000775e72dc/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/ce4383/0000000000000000775e72dc/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/ce4383/0000000000000000775e72dc/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: adobe-clean-arabic;
+  src: url("https://use.typekit.net/af/502696/0000000000000000775e72d7/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/502696/0000000000000000775e72d7/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/502696/0000000000000000775e72d7/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n5&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: adobe-clean-arabic;
+  src: url("https://use.typekit.net/af/756050/0000000000000000775e72db/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/756050/0000000000000000775e72db/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/756050/0000000000000000775e72db/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: adobe-clean-arabic;
+  src: url("https://use.typekit.net/af/6adae5/0000000000000000775e72d9/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n8&v=3") format("woff2"), url("https://use.typekit.net/af/6adae5/0000000000000000775e72d9/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n8&v=3") format("woff"), url("https://use.typekit.net/af/6adae5/0000000000000000775e72d9/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n8&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: adobe-clean-arabic;
+  src: url("https://use.typekit.net/af/cccd38/0000000000000000775e72dd/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n9&v=3") format("woff2"), url("https://use.typekit.net/af/cccd38/0000000000000000775e72dd/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n9&v=3") format("woff"), url("https://use.typekit.net/af/cccd38/0000000000000000775e72dd/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n9&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: adobe-clean-hebrew;
+  src: url("https://use.typekit.net/af/6c5b6b/0000000000000000775e7343/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/6c5b6b/0000000000000000775e7343/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/6c5b6b/0000000000000000775e7343/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: adobe-clean-hebrew;
+  src: url("https://use.typekit.net/af/6d4553/0000000000000000775e7345/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/6d4553/0000000000000000775e7345/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/6d4553/0000000000000000775e7345/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n5&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: adobe-clean-hebrew;
+  src: url("https://use.typekit.net/af/f7ca66/0000000000000000775e7341/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/f7ca66/0000000000000000775e7341/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/f7ca66/0000000000000000775e7341/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: adobe-clean-hebrew;
+  src: url("https://use.typekit.net/af/329f4d/0000000000000000775e7342/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n8&v=3") format("woff2"), url("https://use.typekit.net/af/329f4d/0000000000000000775e7342/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n8&v=3") format("woff"), url("https://use.typekit.net/af/329f4d/0000000000000000775e7342/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n8&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: adobe-clean-hebrew;
+  src: url("https://use.typekit.net/af/34b661/0000000000000000775e733f/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n9&v=3") format("woff2"), url("https://use.typekit.net/af/34b661/0000000000000000775e733f/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n9&v=3") format("woff"), url("https://use.typekit.net/af/34b661/0000000000000000775e733f/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n9&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: source-code-pro;
+  src: url("https://use.typekit.net/af/88da4d/00000000000000007758ce1a/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/88da4d/00000000000000007758ce1a/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/88da4d/00000000000000007758ce1a/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: source-code-pro;
+  src: url("https://use.typekit.net/af/80f457/00000000000000007758ce1d/31/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/80f457/00000000000000007758ce1d/31/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/80f457/00000000000000007758ce1d/31/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@layer _.c {
+  .ud3Euai18:lang(he) {
+    font-family: adobe-clean-hebrew, myriad-hebrew, ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@layer _.d {
+  .uea18:lang(ja) {
+    font-family: adobe-clean-han-japanese, Hiragino Kaku Gothic ProN, ヒラギノ角ゴ ProN W3, Osaka, YuGothic, Yu Gothic, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+  }
+}
+
+@layer _.e {
+  .ugb18:lang(ko) {
+    font-family: adobe-clean-han-korean, source-han-korean, Malgun Gothic, Apple Gothic, sans-serif;
+  }
+}
+
+@layer _.f {
+  .uhd18:lang(zh) {
+    font-family: adobe-clean-han-traditional, source-han-traditional, MingLiu, Heiti TC Light, sans-serif;
+  }
+}
+
+@layer _.g {
+  .uje18:lang(zh-hant) {
+    font-family: adobe-clean-han-traditional, source-han-traditional, MingLiu, Microsoft JhengHei UI, Microsoft JhengHei, Heiti TC Light, sans-serif;
+  }
+}
+
+@layer _.h {
+  .u2NhKxcl18:lang(zh-HK) {
+    font-family: adobe-clean-han-hong-kong, source-han-hong-kong, MingLiu, Microsoft JhengHei UI, Microsoft JhengHei, Heiti TC Light, sans-serif;
+  }
+}
+
+@layer _.i {
+  .uic18:is(:lang(zh-Hans), :lang(zh-CN), :lang(zh-SG)) {
+    font-family: adobe-clean-han-simplified-c, source-han-simplified-c, SimSun, Heiti SC Light, sans-serif;
+  }
+}
+
+@layer _.b.l {
+  @media (forced-colors: active) {
+    .plOVIhfc6LxY918 {
+      color: var(--hcm-buttontext, ButtonText);
+    }
+
+    .mlOVIhfcb18 {
+      border-inline-start-width: 1px;
+    }
+
+    .llOVIhfcb18 {
+      border-inline-end-width: 1px;
+    }
+
+    ._jlOVIhfcf18 {
+      border-style: solid;
+    }
+
+    .ilOVIhfcA18 {
+      border-color: #0000;
+    }
+
+    .-_k_-lOVIhfc_kb18 {
+      --_k: 1px;
+    }
+
+    .-h_-lOVIhfchb18 {
+      --h: 1px;
+    }
+  }
+}
+/*# sourceMappingURL=Tooltip.native.css.map */

@@ -1,0 +1,138 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import '../../tailwind/tailwind.css';
+import vanillaDocs from 'docs:vanilla-starter/ColorField';
+import docs from 'docs:react-aria-components';
+import Anatomy from '/packages/dev/s2-docs/pages/react-aria/ColorFieldAnatomy.svg';
+
+export const tags = ['input'];
+export const relatedPages = [{'title': 'useColorField', 'url': './ColorField/useColorField'}];
+export const description = 'Allows users to edit a hex color or individual color channel value.';
+
+# ColorField
+
+<PageDescription>{docs.exports.ColorField.description}</PageDescription>
+
+<ExampleSwitcher>
+  <VisualExample solid="ColorField/solid-vanilla-1.tsx"
+    docs={vanillaDocs.exports.ColorField}
+    links={vanillaDocs.links}
+    props={['label', 'colorSpace', 'channel', 'description', 'isDisabled']}
+    initialProps={{label: 'Color', defaultValue: '#ff0000', placeholder: 'Enter a color'}}
+    type="vanilla"
+    files={["packages/dev/s2-docs/pages/react-aria/ColorField/vanilla/ColorField.solid.tsx","packages/dev/s2-docs/pages/react-aria/ColorField/vanilla/ColorField.css"]} />
+  <VisualExample solid="ColorField/solid-tailwind-2.tsx"
+    docs={vanillaDocs.exports.ColorField}
+    links={vanillaDocs.links}
+    props={['label', 'colorSpace', 'channel', 'description', 'isDisabled']}
+    initialProps={{label: 'Color', defaultValue: '#ff0000', placeholder: 'Enter a color'}}
+    type="tailwind"
+    files={["packages/dev/s2-docs/pages/react-aria/ColorField/tailwind/ColorField.solid.tsx"]} />
+</ExampleSwitcher>
+
+## Value
+
+Use the `value` or `defaultValue` prop to set the color value, and `onChange` to handle user input. The value may be a string or <TypeLink type={docs.exports.Color} links={docs.links} /> object, parsed using the <TypeLink type={docs.exports.parseColor} links={docs.links} /> function. `onChange` is always called with a `Color` object.
+
+```tsx nativeModule="ColorField/solid-example-3.tsx" solid="ColorField/solid-example-3.tsx"  files={["packages/dev/s2-docs/pages/react-aria/ColorField/solid-example-3.tsx"]}
+import {ColorField} from './ColorField/vanilla/ColorField.solid';
+import {parseColor, type Color} from 'solid-aria-components';
+import {createSignal} from 'solid-js';
+function Example() {
+  let [value, setValue] = createSignal<Color | null>(parseColor('#e73623'));
+
+  return (
+    <div>
+      <ColorField
+        label="Primary color"
+        placeholder="Enter a color"
+        value={value()}
+        onChange={setValue} />
+      <pre style={{'font-size': '12px'}}>Current value: {value()?.toString('hex')}</pre>
+    </div>
+  );
+}
+```
+
+## Channel
+
+By default, ColorField displays a hex value. Set the `colorSpace` and `channel` props to display a specific color channel.
+
+```tsx nativeModule="ColorField/solid-example-4.tsx" solid="ColorField/solid-example-4.tsx"  files={["packages/dev/s2-docs/pages/react-aria/ColorField/solid-example-4.tsx"]}
+import {ColorField} from './ColorField/vanilla/ColorField.solid';
+import {parseColor, type Color} from 'solid-aria-components';
+import {createSignal} from 'solid-js';
+function Example() {
+  let [color, setColor] = createSignal<Color | null>(parseColor('#7f007f'));
+
+  return (
+    <div style={{ display: 'flex', "flex-direction": 'column', gap: "8px" }}>
+      <ColorField
+        label="Hue"
+
+        value={color()}
+        onChange={setColor}
+        /*- begin highlight -*/
+        colorSpace="hsl"
+        channel="hue" />
+        {/*- end highlight -*/}
+      <ColorField
+        label="Saturation"
+        value={color()}
+        onChange={setColor}
+        colorSpace="hsl"
+        channel="saturation" />
+      <ColorField
+        label="Lightness"
+        value={color()}
+        onChange={setColor}
+        colorSpace="hsl"
+        channel="lightness" />
+      <pre style={{'font-size': '12px'}}>Current value: {color()?.toString('hex')}</pre>
+    </div>
+  );
+}
+```
+
+## Forms
+
+Use the `name` prop to submit the text value to the server. Set the `isRequired` prop to validate the value, or implement custom client or server-side validation. See the [Forms](forms) guide to learn more.
+
+```tsx nativeModule="ColorField/solid-example-5.tsx" solid="ColorField/solid-example-5.tsx"  files={["packages/dev/s2-docs/pages/react-aria/ColorField/solid-example-5.tsx"]}
+import {ColorField} from './ColorField/vanilla/ColorField.solid';
+import {Button} from './ColorField/vanilla/Button.solid';
+import {Form} from './ColorField/vanilla/Form.solid';
+function Example(props: Record<string, unknown>) {
+  return (
+    <Form>
+      <ColorField
+        {...props}
+        label="Brand color"
+        placeholder="Enter a color"
+        ///- begin highlight -///
+        name="brandColor"
+        isRequired />
+        {/*- end highlight -*/}
+      <Button type="submit" style={{"margin-top": "8px"}}>Submit</Button>
+    </Form>
+  );
+}
+```
+
+## API
+
+<Anatomy />
+
+```tsx links={{ColorField: '#colorfield'}}
+<ColorField>
+  <Label />
+  <Input />
+  <Text slot="description" />
+  <FieldError />
+</ColorField>
+```
+
+### ColorField
+
+<PropTable component={docs.exports.ColorField} links={docs.links} />

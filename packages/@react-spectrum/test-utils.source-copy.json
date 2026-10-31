@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/solid-aria-components/upstream/react-spectrum/packages/@react-spectrum/test-utils",
+  "target": "/Users/avi/avir-oss/solid-aria-components/packages/@react-spectrum/test-utils",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "files": [
+    {
+      "path": "src/testSetup.ts",
+      "bytes": 1366,
+      "sha256": "8ada910177df4a59ee2be55c0a6ec692fada6fd0720757988244677b05ff20c9",
+      "category": "source-or-helper"
+    }
+  ]
+}

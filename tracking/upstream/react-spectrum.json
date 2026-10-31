@@ -1,0 +1,8 @@
+{
+  "repositoryUrl": "https://github.com/adobe/react-spectrum.git",
+  "branch": "main",
+  "submodulePath": "upstream/react-spectrum",
+  "baselineSourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "fetchedCandidateSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "verifiedParitySha": null
+}

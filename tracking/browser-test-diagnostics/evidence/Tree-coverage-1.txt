@@ -1,0 +1,3 @@
+ ✓ |chromium-desktop| packages/react-aria-components/test/Tree.browser.test.tsx (1 test) 472ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/Tree.browser.test.tsx (1 test) 542ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/Tree.browser.test.tsx (1 test) 609ms

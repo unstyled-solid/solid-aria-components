@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "mode": "checked-in-source-adapted",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "sourcePackageVersion": "3.7.2",
+  "license": "Apache-2.0",
+  "licenseSourcePath": "upstream/react-spectrum/LICENSE",
+  "licenseSha256": "7dfe6526888bac51759c99f9a51262ba2711a8c12a067f2181609dd9a4066b84",
+  "durableArtifact": "packages/@spectrum-icons/illustrations.source-artifact",
+  "files": [
+    {
+      "path": "src/NoSearchResults.tsx",
+      "sha256": "8a1e2d1e4dc6401e843a1cb4d72bbd293a5b09b3f98857fe5ec1992c9c9d03bf",
+      "bytes": 1082,
+      "nativeSha256AtIntegration": "4101c0f4ca01bf5ee2afb8e8b7c0bce43bd704e9fb0b84285d715d5612538f42",
+      "adaptation": "I-owned actual checked-in artwork native adaptation; full original retained, no generator. Qualification pending owner."
+    },
+    {
+      "path": "package.json",
+      "sha256": "f3545b70632dce03ad039f6c6ee10feaa5b57918b80126afa8cb2f2513258b8c",
+      "bytes": 1373
+    }
+  ]
+}

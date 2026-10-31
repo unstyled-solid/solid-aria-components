@@ -1,0 +1,44 @@
+[
+  {
+    "module": "Virtualizer/solid-demo01.tsx",
+    "ordinal": 1,
+    "source": "Virtualizer.mdx",
+    "fence": "render docs={docs.exports.ListLayoutOptions} links={docs.links} props={['rowSize', 'gap', 'padding']} initialProps={{rowSize: 32, gap: 4, padding: 4}} propsObject=\"layoutOptions\" wide"
+  },
+  {
+    "module": "Virtualizer/solid-demo02.tsx",
+    "ordinal": 2,
+    "source": "Virtualizer.mdx",
+    "fence": "render docs={docs.exports.ListLayoutOptions} links={docs.links} props={['gap', 'padding']} initialProps={{estimatedRowSize: 75, gap: 4, padding: 4}} propsObject=\"layoutOptions\" wide"
+  },
+  {
+    "module": "Virtualizer/solid-demo03.tsx",
+    "ordinal": 3,
+    "source": "Virtualizer.mdx",
+    "fence": "render docs={docs.exports.ListLayoutOptions} links={docs.links} props={['gap', 'padding']} initialProps={{estimatedRowSize: 100, gap: 8, padding: 8, orientation: 'horizontal'}} propsObject=\"layoutOptions\" wide"
+  },
+  {
+    "module": "Virtualizer/solid-demo04.tsx",
+    "ordinal": 4,
+    "source": "Virtualizer.mdx",
+    "fence": "render docs={docs.exports.GridLayoutOptions} links={docs.links} props={['minItemSize', 'maxItemSize', 'minSpace', 'maxColumns', 'preserveAspectRatio']} initialProps={{minItemSize: {width: 100, height: 140}, minSpace: {width: 8, height: 8}}} propsObject=\"layoutOptions\" wide"
+  },
+  {
+    "module": "Virtualizer/solid-demo05.tsx",
+    "ordinal": 5,
+    "source": "Virtualizer.mdx",
+    "fence": "render docs={docs.exports.WaterfallLayoutOptions} links={docs.links} props={['minItemSize', 'maxItemSize', 'minSpace', 'maxColumns']} initialProps={{minItemSize: {width: 150, height: 150}, minSpace: {width: 8, height: 8}}} propsObject=\"layoutOptions\" wide"
+  },
+  {
+    "module": "Virtualizer/solid-demo06.tsx",
+    "ordinal": 6,
+    "source": "Virtualizer.mdx",
+    "fence": "render docs={docs.exports.TableLayoutProps} links={docs.links} props={['rowHeight', 'headingHeight', 'padding', 'gap']} initialProps={{rowHeight: 32, headingHeight: 32, padding: 4, gap: 4}} propsObject=\"layoutOptions\" wide"
+  },
+  {
+    "module": "Virtualizer/solid-demo07.tsx",
+    "ordinal": 7,
+    "source": "Virtualizer.mdx",
+    "fence": "render links={docs.links} wide"
+  }
+]

@@ -1,0 +1,6 @@
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.composition.browser.test.tsx (19 tests | 19 skipped)
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.composition.browser.test.tsx (19 tests | 19 skipped)
+ ↓ |firefox-desktop| packages/react-aria-components/test/ShadowDOMFocus.browser.test.tsx (3 tests | 3 skipped)
+ Test Files  30 passed | 3 skipped (33)
+      Tests  358 passed | 41 skipped (399)
+   Duration  14.83s (transform 0ms, setup 17.06s, import 71.44s, tests 45.52s, environment 0ms)

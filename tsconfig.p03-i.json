@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "packages/react-aria/src/overlays/useOverlayPosition.ts", "packages/react-aria/src/overlays/useCloseOnScroll.ts", "packages/react-aria/src/overlays/calculatePosition.ts", "packages/react-aria/src/overlays/useOverlayTrigger.ts", "packages/react-aria/src/overlays/useModalOverlay.ts", "packages/react-aria/src/overlays/usePopover.ts", "packages/react-stately/src/overlays/useOverlayTriggerState.ts"]
+}

@@ -1,0 +1,12 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  ._Ja18 {
+    order: 0;
+  }
+}
+
+.-macro-static-hI2n9d {
+        --macro-data-hI2n9d: {"style":{"order":0},"loc":"/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/server/src/Button.native.js:367:44"};
+      }
+

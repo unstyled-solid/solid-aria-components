@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "scope": "existing final RAC distribution gates; not globally diagnostic-clean",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "solidVersion": "2.0.0-rc.13",
+  "sourceFileCount": 2385,
+  "sourceBeforeSha256": "f18dea8ccaa17747043f685c1c1b4c610e2b46a5c2dd2bd253f6d59457cc6182",
+  "sourceAfterSha256": "f18dea8ccaa17747043f685c1c1b4c610e2b46a5c2dd2bd253f6d59457cc6182",
+  "archiveSha256": "9f8c0463cf8f56dbfd907b58a16a34cc809c8d2a3842bca92c4c2311474325a7",
+  "archiveSha512": "be4e371c22230a0665ccfa03b9abb2163086d74e5fe5ad182d5148da7cb620146900b89ead4aab3a04ae7626de9d5e08b9d7433498998c531358f1a96b5a50dd",
+  "reportSha256": "196882b3b0fa877ce222250e3a70369cf118a4bbaa9c5dcb83524bc008d2d874",
+  "executedConsumerCommands": 106,
+  "conditionCounts": {
+    "resolution": 64,
+    "server": 24,
+    "browser": 8,
+    "browserWorkerServer": 8
+  },
+  "optimized": [
+    {
+      "label": "empty",
+      "libraryModules": 0,
+      "bytes": 116,
+      "gzipBytes": 123
+    },
+    {
+      "label": "unused",
+      "libraryModules": 0,
+      "bytes": 117,
+      "gzipBytes": 125
+    },
+    {
+      "label": "root",
+      "libraryModules": 22,
+      "bytes": 24270,
+      "gzipBytes": 7267
+    },
+    {
+      "label": "subpath",
+      "libraryModules": 22,
+      "bytes": 24399,
+      "gzipBytes": 7290
+    }
+  ],
+  "notices": [
+    {
+      "destination": "notices/react-interactions-MIT.txt",
+      "sha256": "85bc9edafd1dcaa1760871a79226bf12738b0a31fb4f984b325f5d0c0304e49f"
+    },
+    {
+      "destination": "notices/jest-dom-MIT.txt",
+      "sha256": "bf8fd38056b7606deccfcadb4d8ca1c210082d8ef5513426d2650daedc30bed3"
+    },
+    {
+      "destination": "notices/vue-test-utils-MIT.txt",
+      "sha256": "fcb656436f40daac58b400b26ce8bcc7b4ece41ea39267ac8eef74126e57ff02"
+    }
+  ],
+  "provenanceGaps": [
+    {
+      "kind": "donor-provenance",
+      "path": "packages/react-aria/src/utils/isElementVisible.ts",
+      "donor": "@testing-library/jest-dom",
+      "reason": "Original donor revision unspecified in frozen attribution; installed license retained, exact mapping deferred."
+    },
+    {
+      "kind": "donor-code-revision",
+      "path": "packages/react-aria/src/utils/isElementVisible.ts",
+      "donor": "@vue/test-utils",
+      "licenseTextVerified": true,
+      "reason": "Genuine attributed-repository MIT license/blob verified; original code donor revision remains unpinned in the frozen source header."
+    }
+  ],
+  "activity": "4 React.Activity-specific originals NOT APPLICABLE; not passes or blockers",
+  "compiledInputVerification": {
+    "sourceMapsWithExactSourceHash": 1388,
+    "emptyMapsWithNoSourcesOrMappings": 2
+  },
+  "remainingFinalByteGates": [],
+  "runnerProcesses": "all106 commands completed exit0; no packaging runners left",
+  "archive": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/final-distribution-fresh-xyNV6y/internal-solid-aria-components-stage-0.0.0-private.tgz",
+  "blockers": [],
+  "artifactDirectory": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/final-distribution-fresh-xyNV6y",
+  "historicalEvidenceDirectory": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/final-distribution-fresh-xyNV6y",
+  "consumer": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/rac-packed-M8kTxc",
+  "evidenceDirectory": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/final-distribution-fresh-xyNV6y/evidence-retry",
+  "temporarySymlink": {
+    "status": "passed",
+    "link": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/node_modules",
+    "backup": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/node_modules.distribution-backup-5600c347-f85a-43ec-9e69-5977827033ba",
+    "archive": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/final-distribution-fresh-xyNV6y/internal-solid-aria-components-stage-0.0.0-private.tgz",
+    "evidence": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/final-distribution-fresh-xyNV6y/evidence-retry",
+    "restored": true,
+    "target": "/Users/avi/avir-oss/solid-aria-components/node_modules",
+    "exit": {
+      "code": 0,
+      "signal": null
+    },
+    "commands": 106
+  },
+  "qualificationLimits": [
+    "Not globally diagnostic-clean; Users warning1 retained as donor-topology-consistent pending coordinator review.",
+    "Autocomplete controlled Escape popup closure unqualified; action/repeat identity/focus/caret proof remains separate.",
+    "External transport limits remain recorded; no full-site parity or publishing approval."
+  ]
+}

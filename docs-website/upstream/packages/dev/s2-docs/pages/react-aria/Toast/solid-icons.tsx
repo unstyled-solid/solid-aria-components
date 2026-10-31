@@ -1,0 +1,4 @@
+/** Exact lucide-react 0.517.0 icon nodes; ISC license. Native Solid SVG renderer. */
+import {omit} from 'solid-js';
+export function XIcon(props: any) { return <svg xmlns="http://www.w3.org/2000/svg" width={props.size ?? 24} height={props.size ?? 24} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" {...omit(props, "size", "className")} class={props.className}><path d={"M18 6 6 18"} /><path d={"m6 6 12 12"} /></svg>; }
+export function X(props: any) { return <svg xmlns="http://www.w3.org/2000/svg" width={props.size ?? 24} height={props.size ?? 24} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" {...omit(props, "size", "className")} class={props.className}><path d={"M18 6 6 18"} /><path d={"m6 6 12 12"} /></svg>; }

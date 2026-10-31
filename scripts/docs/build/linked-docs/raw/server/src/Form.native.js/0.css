@@ -1,0 +1,48 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .se18 {
+    display: grid;
+  }
+
+
+  .DS1aTJb18 {
+    grid-template-columns: [field] 1fr;
+  }
+
+
+  .Dfzkwne18 {
+    grid-template-columns: [label] auto [field] 1fr;
+  }
+
+
+  .UB1JKEb18 {
+    row-gap: calc(1 * var(--rem, 1rem));
+  }
+
+
+  .UkmMJWb18 {
+    row-gap: calc(1.25 * var(--rem, 1rem));
+  }
+
+
+  .Us7Vxmb18 {
+    row-gap: calc(1.5 * var(--rem, 1rem));
+  }
+
+
+  .UerlM8c18 {
+    row-gap: calc(2 * var(--rem, 1rem));
+  }
+
+
+  .Ud9wcl18 {
+    row-gap: calc(2.5 * var(--rem, 1rem));
+  }
+
+
+  .qf18 {
+    column-gap: 0.7142857142857143em;
+  }
+}
+

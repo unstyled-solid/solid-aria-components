@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "mode": "frozen-generator-adapted",
+  "package": "@spectrum-icons/workflow",
+  "version": "4.3.2",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "generator": {
+    "path": "upstream/react-spectrum/packages/@spectrum-icons/workflow/scripts/generateIcons.cjs",
+    "sha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8"
+  },
+  "manifest": {
+    "path": "upstream/react-spectrum/packages/@spectrum-icons/workflow/package.json",
+    "sha256": "7a0e647e073700d52f139ed8bed0e13d186fb341e17e6d377504e4c850de7078"
+  },
+  "durableArtifact": "packages/@adobe/react-spectrum-workflow.source-artifact",
+  "artworkProvenance": "packages/@adobe/react-spectrum-workflow.source-copy.json",
+  "files": [
+    {
+      "path": "generated/Folder.tsx",
+      "sha256": "0b9e47ac9b676c850b8716f7028fc5792082d570e6616c1c438a0a1e778d5988",
+      "targetPath": "src/Folder.tsx",
+      "adaptation": "Frozen generator output adapted to native Icon render-child composition and original workflow artwork import."
+    },
+    {
+      "path": "generated/ShowMenu.tsx",
+      "sha256": "e4880a75f54665a64360b86dca569eb58a820d25ecc7634b9fa7419e785aa554",
+      "targetPath": "src/ShowMenu.tsx",
+      "adaptation": "Frozen generator output adapted to native Icon render-child composition and original workflow artwork import."
+    },
+    {
+      "path": "src/Checkmark.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/generated/Checkmark.tsx",
+      "generatedSha256": "2367258a0de01e5f8bc4a044f8a79cf6464b619f43e8e41c8c78faf9487a42e4",
+      "nativeSha256AtIntegration": "4bb8c084973d4040ba44492471c1b824d36cc4fa1a3f3402a67bec4fad1c127c",
+      "adaptation": "I-owned native Icon/UIIcon composition; generated original copied durably and hashes verified. No React artwork executed."
+    },
+    {
+      "path": "src/HelpOutline.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/generated/HelpOutline.tsx",
+      "generatedSha256": "0ad6af84c5d4682e8328e8317baf306caea09d405451c6c810115d21c9bb02ba",
+      "nativeSha256AtIntegration": "b4b8d46bbf8f1838ee1e28637009282fcba2037de319e7fba585c76658201306",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon composition; final generated-original/native/generator correspondence verified and original retained durably."
+    },
+    {
+      "path": "src/InfoOutline.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/generated/InfoOutline.tsx",
+      "generatedSha256": "2d3cdbe3a4a6ef858ac6a1ffc2030053f2ab157a4efe8054de658f46b43c9ade",
+      "nativeSha256AtIntegration": "08953eb3b1b0a86f67c454e204cdd974cb85f8cf9988450f46ea3991470304c6",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon composition; final generated-original/native/generator correspondence verified and original retained durably."
+    },
+    {
+      "path": "src/AlignCenter.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/generated/AlignCenter.tsx",
+      "generatedSha256": "ff48d0a4434aa074ad67b5007e82874036c7a5816be63ed8606b561bed77a856",
+      "nativeSha256AtIntegration": "a7bbb76f6def3dce55edbe2aeb8087975396fefdab4b4f492370ea138ce33446",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon composition; final generated-original/native/generator correspondence verified and original retained durably."
+    },
+    {
+      "path": "src/AlignLeft.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/generated/AlignLeft.tsx",
+      "generatedSha256": "6dd37c369f391358956644afb3e4818033fe4870babd1569a3c27a925f3324e8",
+      "nativeSha256AtIntegration": "292fb552872baae24b411d544ca670895439aa0a25bca2cdbfb3770429cc47e0",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon composition; final generated-original/native/generator correspondence verified and original retained durably."
+    },
+    {
+      "path": "src/AlignRight.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/generated/AlignRight.tsx",
+      "generatedSha256": "7f5118633875d453f5c4ce5c1cf1b691f33cb9cc54a12d3c7e54868c8e1017b5",
+      "nativeSha256AtIntegration": "3c387295676cd3a1b236b22fded5ca834f1f8b2cdbf9d9af910b90a01827981e",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon composition; final generated-original/native/generator correspondence verified and original retained durably."
+    },
+    {
+      "path": "src/Copy.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/generated/Copy.tsx",
+      "generatedSha256": "94ba8b6aee7b4a20941b0a252911c8a38871ad1aed6f0b8ba95b2c1f9ea9af05",
+      "nativeSha256AtIntegration": "77a3b3b7e84f0d312e263026d0390d605c1b2bc7574aa9f0583ec99ca2009ae8",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon composition; final generated-original/native/generator correspondence verified and original retained durably."
+    },
+    {
+      "path": "src/Cut.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/generated/Cut.tsx",
+      "generatedSha256": "2f5f8354a2f93cc707a2ef614e90767ae4759e072e1b137505483c0e8348c7bc",
+      "nativeSha256AtIntegration": "ead87769b016fb04b36c12e4538f6f72d8038a655cb629669172b7b497acfad0",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon composition; final generated-original/native/generator correspondence verified and original retained durably."
+    },
+    {
+      "path": "src/Paste.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/generated/Paste.tsx",
+      "generatedSha256": "e21ba3454244a0f819fea18c506c01b428f952601518180fe816fefc9a9141e3",
+      "nativeSha256AtIntegration": "514b0249998d54f7e38378c93b995a43767b834f456ef450f3f0625542b8b49d",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon composition; final generated-original/native/generator correspondence verified and original retained durably."
+    },
+    {
+      "path": "src/More.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/generated/More.tsx",
+      "generatedSha256": "251447d4b63e5260e66b5438b3119db862bbfd5dfa5b9811c9e25a49f022d03c",
+      "nativeSha256AtIntegration": "da991ca741375f72238923d3c2669c136a85eb2ced0d2e2772dd335343085144",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon wrapper; complete generated original retained and final source/native/generator hashes verified."
+    },
+    {
+      "path": "src/Edit.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/generated/Edit.tsx",
+      "generatedSha256": "c537072fc5ac7e548caac193fe0f62f05d64c23640d0ae7c705b8707150d4d31",
+      "nativeSha256AtIntegration": "1e3ec89a3030e38f94ea9580b4887488ed1d0907f4f0625fd83287b05247c08f",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon wrapper; complete generated original retained and final source/native/generator hashes verified."
+    },
+    {
+      "path": "src/ChevronLeft.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/generated/ChevronLeft.tsx",
+      "generatedSha256": "26da2f0cd9c9df893331f68e69959bfd6f3d1fcfcdbfd42ec5b54c5f005c99d8",
+      "nativeSha256AtIntegration": "46aef9c87b2db9e8d02c7e6944ea5bc6c8c7ebd2987b00760b06bc2788cffa75",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon wrapper; complete generated original retained and final source/native/generator hashes verified."
+    },
+    {
+      "path": "src/ChevronRight.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/generated/ChevronRight.tsx",
+      "generatedSha256": "8e7799c06b3c753597ebcdf14d169bfa67c0309ddde0e105fffea5d0ed72928d",
+      "nativeSha256AtIntegration": "91e3a8dc5e504f2107e031f4c990876eff3e4bef716f89353993a0de2193567d",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon wrapper; complete generated original retained and final source/native/generator hashes verified."
+    },
+    {
+      "path": "src/AnnotatePen.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/p33-originals/AnnotatePen.tsx",
+      "generatedSha256": "db7c62ebc74941711ff40a9f932116285fc3da05630b8f0a8225d0a9523d35b0",
+      "nativeSha256AtIntegration": "c542987121f1b57870e363ee467fcf27c2da20e208c2aee09bebbbb8da4505b5",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p33-originals/p33-evidence.json"
+    },
+    {
+      "path": "src/TextIndentIncrease.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/p33-originals/TextIndentIncrease.tsx",
+      "generatedSha256": "63754d22a3cd251230c3ce988768cdcac0d52aa107210c23c087c8e44a08fd13",
+      "nativeSha256AtIntegration": "a839494448a0f136e8c00df3c888ebd34148fb96f9326a3b477dfb2cb787dd0b",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p33-originals/p33-evidence.json"
+    },
+    {
+      "path": "src/TextItalic.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/p33-originals/TextItalic.tsx",
+      "generatedSha256": "f2380a7fbde99ad0a9eb3354157f10ca46b14c7ff18d5c9cb218dc4942b4cc51",
+      "nativeSha256AtIntegration": "b278cc6795ae0d14595e78ac3f7960f4b535553d8faa63555e63f2dab17517cb",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p33-originals/p33-evidence.json"
+    },
+    {
+      "path": "src/Bell.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/p33-originals/Bell.tsx",
+      "generatedSha256": "f24dc962854380ac881cdb86136592ae88d9163c2f30a4018808b61475ecee7e",
+      "nativeSha256AtIntegration": "7e3a7134e1dbb152d09b636e37e99e6645c8930932fa569a0a76430543049877",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p33-originals/p33-evidence.json"
+    },
+    {
+      "path": "src/Add.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/p35-originals/Add.tsx",
+      "generatedSha256": "32dbdca8eb032fbadf30d1715eb49bb7501087354763e093c01815d958c1ed92",
+      "nativeSha256AtIntegration": "5d4bbc0b31200ab502daf3477bc2de3d6c8e78d8718e99cdc4031accbb17895a",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p35-originals/p35-evidence.json"
+    },
+    {
+      "path": "src/Delete.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/p35-originals/Delete.tsx",
+      "generatedSha256": "66f3c3932efab1ae630445dafe70546823a549706cd963b4217e589b19bd2590",
+      "nativeSha256AtIntegration": "c893578f1cfaa0d7361c88cd4c54298bb86b1ed60b89c7ee87e372fe2058b5f6",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p35-originals/p35-evidence.json"
+    },
+    {
+      "path": "src/CheckmarkCircle.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-workflow.source-artifact/p39-originals/CheckmarkCircle.tsx",
+      "generatedSha256": "719040e99d1592fa78fad110cfccc4aa7c129f21c50abcb3009ffb9e360cc3c8",
+      "nativeSha256AtIntegration": "0b6e5e52721a9a07ac098af831bb5373f248b71eb4a14bada230700a4510175d",
+      "generatorSha256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+      "evidencePath": "packages/@adobe/react-spectrum-workflow.source-artifact/p39-originals/p39-evidence.json"
+    }
+  ]
+}

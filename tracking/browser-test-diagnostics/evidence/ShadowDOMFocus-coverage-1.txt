@@ -1,0 +1,3 @@
+ ✓ |chromium-desktop| packages/react-aria-components/test/ShadowDOMFocus.browser.test.tsx (3 tests) 18783ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/ShadowDOMFocus.browser.test.tsx (3 tests) 22554ms
+ ↓ |firefox-desktop| packages/react-aria-components/test/ShadowDOMFocus.browser.test.tsx (3 tests | 3 skipped)

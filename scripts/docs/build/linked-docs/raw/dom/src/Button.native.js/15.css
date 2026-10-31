@@ -1,0 +1,22 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .TAzEcG18 {
+    padding-top: var(--labelPadding);
+  }
+
+
+  .QAzEcG18 {
+    padding-bottom: var(--labelPadding);
+  }
+
+
+  ._Jb18 {
+    order: 1;
+  }
+}
+
+.-macro-static-mexTqc {
+        --macro-data-mexTqc: {"style":{"paddingY":"--labelPadding","order":1},"loc":"/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Button.native.js:488:40"};
+      }
+

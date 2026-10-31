@@ -1,0 +1,112 @@
+{
+  "frozenSHA": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "strict": "./node_modules/.bin/tsc -p tsconfig.p32-i.json passed",
+  "generatorClosureEvidence": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p29-frozen-generator/resolution-verification.json",
+  "files": {
+    "packages/@adobe/react-spectrum-workflow/src/More.jsx": {
+      "originalSHA256": "c87bd8abd4660efe61f31bf02abce3ce794e62757e820e5c6c7acb604e2846d5",
+      "nativeSHA256": "4ce2d0e34972010500ab9a1b5e724fb6a84b8b9af3cb60fbf8fbfe295a7f0681",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/More.tsx": {
+      "originalSHA256": "251447d4b63e5260e66b5438b3119db862bbfd5dfa5b9811c9e25a49f022d03c",
+      "nativeSHA256": "da991ca741375f72238923d3c2669c136a85eb2ced0d2e2772dd335343085144",
+      "generatedExpressArtworkRetained": false
+    },
+    "packages/@adobe/react-spectrum-workflow/src/Edit.jsx": {
+      "originalSHA256": "a92a4a5e4e04a6f8bf54752be31ca5dd54ed53d8c6a72fbd474480191302e2e5",
+      "nativeSHA256": "9921b58f7c2fc9b4540a038731a419c44d3c33e690b95e7d9036c7d2ffba40d5",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/Edit.tsx": {
+      "originalSHA256": "c537072fc5ac7e548caac193fe0f62f05d64c23640d0ae7c705b8707150d4d31",
+      "nativeSHA256": "1e3ec89a3030e38f94ea9580b4887488ed1d0907f4f0625fd83287b05247c08f",
+      "generatedExpressArtworkRetained": false
+    },
+    "packages/@adobe/react-spectrum-workflow/src/ChevronLeft.jsx": {
+      "originalSHA256": "5a1b516a21c248ec9f240cba9247ca7a2a9ec982c2042166d49213e256b71218",
+      "nativeSHA256": "45896338f0329f5efb6f12b3708dabef54af94a33d362a633bc4da900a8696a7",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/ChevronLeft.tsx": {
+      "originalSHA256": "26da2f0cd9c9df893331f68e69959bfd6f3d1fcfcdbfd42ec5b54c5f005c99d8",
+      "nativeSHA256": "46aef9c87b2db9e8d02c7e6944ea5bc6c8c7ebd2987b00760b06bc2788cffa75",
+      "generatedExpressArtworkRetained": false
+    },
+    "packages/@adobe/react-spectrum-workflow/src/ChevronRight.jsx": {
+      "originalSHA256": "ea0fb46f0403569dcd501d445f4724fc541541936617af897c4da369c58487cf",
+      "nativeSHA256": "c1a38c597189b16e91e22a0a38e98b98223dd350dceba99b7f4a0b0941c42aeb",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/ChevronRight.tsx": {
+      "originalSHA256": "8e7799c06b3c753597ebcdf14d169bfa67c0309ddde0e105fffea5d0ed72928d",
+      "nativeSHA256": "91e3a8dc5e504f2107e031f4c990876eff3e4bef716f89353993a0de2193567d",
+      "generatedExpressArtworkRetained": false
+    },
+    "packages/@adobe/react-spectrum-ui/src/AlertSmall.jsx": {
+      "originalSHA256": "f3678cd331e8cf70ef7a7714e5858577d3535f5ecd65373f63165ebecdb4b546",
+      "nativeSHA256": "cc9ebf65ff2db5ac1096b609cace7992efaa2c9b1b4f36a4e7757d51615c48e3",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/ui/src/AlertSmall.tsx": {
+      "originalSHA256": "842730cb1d5a68f0bde634a19764aaa55d1529aa250a60d12ab97e334d3f8211",
+      "nativeSHA256": "f6466e6e688d86a451973e2eb165dc98d9252a56415b7e42c8f9e014d9932a1f",
+      "generatedExpressArtworkRetained": true
+    },
+    "packages/@adobe/react-spectrum-ui/src/InfoSmall.jsx": {
+      "originalSHA256": "52c93feb8414e88de3f32fa456ea01e70e6e48dd087bf95d7a6242717a8ebe86",
+      "nativeSHA256": "b2d7860daa56fe7bb0bc8292a455782cf7fc473465f440ece5e012fce6186557",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/ui/src/InfoSmall.tsx": {
+      "originalSHA256": "ebb1223aff1c463987bc6e9190be506037132fe4bd3c72b0a502b6513c8483bc",
+      "nativeSHA256": "8bcfa4edc3d90c50c90f27d17db32d3450869785edd69769e3c8a7ba6bf01d00",
+      "generatedExpressArtworkRetained": true
+    },
+    "packages/@adobe/react-spectrum-ui/src/SuccessSmall.jsx": {
+      "originalSHA256": "019185afa8c9d4657dbd3e24e5b510e0d77a5e63a4bfb5bbd4767a2edf721023",
+      "nativeSHA256": "fa24955b496de64930844a68c501fb6e63379b0a19aac1d48be8d29937e09b0e",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/ui/src/SuccessSmall.tsx": {
+      "originalSHA256": "015c4e317fd2b7a22672fa436a2c37646442be6e77442d3151d8664123f69481",
+      "nativeSHA256": "c9760c4a34e3d0597456756f2819e91c28c209fd00e8a00ccacb516e935fe687",
+      "generatedExpressArtworkRetained": true
+    },
+    "packages/@spectrum-icons/ui/express/SX_Alert_14_S.svg": {
+      "sha256": "d21ad5642d0ad6412f0a285ca55f995a31e50d9fe8dbf63acc1b23c8f4c6c4bd",
+      "byteIdentical": true
+    },
+    "packages/@spectrum-icons/ui/express/SX_Info_14_S.svg": {
+      "sha256": "7b6e7fb3ce2b7a271a68ff5e293710e36316dcb445ef9c9675f4f9362b2e5869",
+      "byteIdentical": true
+    },
+    "packages/@spectrum-icons/ui/express/SX_CheckmarkCircle_14_S.svg": {
+      "sha256": "19df761086095d1462fec2c0a78cb3949a196b16addf767991471fb0ab456ca4",
+      "byteIdentical": true
+    }
+  },
+  "artifacts": {
+    "workflow": {
+      "evidence": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p14-workflow-2.3.5/verification.json",
+      "tarballSHA256": "5daf9caf63734a5ebbc4881f0173671aba1c22ad4e14e77a43aaa3cf5a4e7ebb",
+      "SRI": "sha512-b53VIPwPWKb/T5gzE3qs+QlGP5gVrw/LnWV3xMksDU+CRl3rzOKUwxIGiZO8ICyYh1WiyqY4myGlPU/nAynBUg==",
+      "SRIAndSHA1Reverified": true,
+      "licenseSHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenseCorrespondenceVerified": true
+    },
+    "ui": {
+      "evidence": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/spectrum-ui-1.2.1.tpCFWA/verification.json",
+      "tarballSHA256": "021c9956d1b1774b4db2378cf2d7365d4b9c11681eb8599eaf7958bbb4c19b46",
+      "SRI": "sha512-wcrbEE2O/9WnEn6avBnaVRRx88S5PLFsPLr4wffzlbMfXeQsy+RMQwaJd3cbzrn18/j04Isit7f7Emfn0dhrJA==",
+      "SRIAndSHA1Reverified": true,
+      "licenseSHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenseCorrespondenceVerified": true
+    }
+  },
+  "generators": {
+    "upstream/react-spectrum/packages/@spectrum-icons/workflow/scripts/generateIcons.cjs": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+    "upstream/react-spectrum/packages/@spectrum-icons/ui/scripts/generateIcons.cjs": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+    "upstream/react-spectrum/packages/@spectrum-icons/build-tools/compileSVG.js": "9f74dd058523096ad2da74d1310631fa82647e0852ce9d68d4dcebf6e49e5e02"
+  }
+}

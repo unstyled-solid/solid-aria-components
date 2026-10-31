@@ -1,0 +1,181 @@
+{
+  "docsEnv": "1",
+  "results": [
+    {
+      "branch": "dom",
+      "sourceGraph": "scripts/docs/build/input/dom/graph.json",
+      "nativeSources": 38,
+      "stageJoins": 46,
+      "assets": [
+        {
+          "source": "packages/@react-spectrum/s2/src/font-faces.css",
+          "target": "scripts/docs/build/input/dom/src/font-faces.css",
+          "sha256": "0d39b28293ababc35b9c77ad599b566132594570e5f5252058d2a580cb72a2b5"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/ui-icons/S2_CornerTriangleSize75.svg",
+          "target": "scripts/docs/build/input/dom/assets/S2_CornerTriangleSize75.svg",
+          "sha256": "150a4a7aefa3bbd5cd5a2d357b49dafb369aec89725fb318eba9d13a77391335",
+          "transport": "existing native CornerTriangle JSX"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/ui-icons/S2_CornerTriangleSize100.svg",
+          "target": "scripts/docs/build/input/dom/assets/S2_CornerTriangleSize100.svg",
+          "sha256": "3717fe073f5e5839ade1176810bebcea41775eef10cfaa7e73e07b38ecfc86fe",
+          "transport": "existing native CornerTriangle JSX"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/ui-icons/S2_CornerTriangleSize200.svg",
+          "target": "scripts/docs/build/input/dom/assets/S2_CornerTriangleSize200.svg",
+          "sha256": "6403787d45c9cfc6ea769bff954827191ea0a540a082f4a3f2facae71a621997",
+          "transport": "existing native CornerTriangle JSX"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/ui-icons/S2_CornerTriangleSize300.svg",
+          "target": "scripts/docs/build/input/dom/assets/S2_CornerTriangleSize300.svg",
+          "sha256": "1eedde2f8aae7849b257e204f2ff6b2e2478330f1389f3310950029a8f3cffe8",
+          "transport": "existing native CornerTriangle JSX"
+        }
+      ],
+      "bundles": [
+        {
+          "file": "scripts/docs/build/linked-docs/dom/selected.native.js",
+          "type": "js",
+          "sha256": "99d5fb2646c33ca91c0b4ed3ae4061602d20e0669d34b4fcc7a97bf56b11fd6b",
+          "bytes": 1067659,
+          "imports": [
+            "./selected.native.css",
+            "@solidjs/web",
+            "solid-js",
+            "clsx"
+          ],
+          "exports": [
+            "Provider",
+            "ColorSchemeContext",
+            "useLocale",
+            "Divider",
+            "DividerContext",
+            "Button",
+            "ButtonContext",
+            "Text",
+            "LinkButtonContext",
+            "usePendingState",
+            "LinkButton",
+            "ButtonGroup",
+            "ButtonGroupContext",
+            "ActionButton",
+            "ActionButtonContext",
+            "NotificationBadge",
+            "ActionButtonGroup",
+            "ActionButtonGroupContext",
+            "ProgressCircle",
+            "ProgressCircleContext",
+            "Avatar",
+            "AvatarContext",
+            "Image",
+            "ImageContext",
+            "NotificationBadgeContext",
+            "Link",
+            "LinkContext",
+            "Tooltip",
+            "TooltipTrigger"
+          ]
+        },
+        {
+          "file": "scripts/docs/build/linked-docs/dom/selected.native.css",
+          "type": "css",
+          "sha256": "c7ca27bbd68b99638db76cd2ff5d8baebbb1911979355704ffbcba0b16995789",
+          "bytes": 49390
+        }
+      ]
+    },
+    {
+      "branch": "server",
+      "sourceGraph": "scripts/docs/build/input/server/graph.json",
+      "nativeSources": 38,
+      "stageJoins": 46,
+      "assets": [
+        {
+          "source": "packages/@react-spectrum/s2/src/font-faces.css",
+          "target": "scripts/docs/build/input/server/src/font-faces.css",
+          "sha256": "0d39b28293ababc35b9c77ad599b566132594570e5f5252058d2a580cb72a2b5"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/ui-icons/S2_CornerTriangleSize75.svg",
+          "target": "scripts/docs/build/input/server/assets/S2_CornerTriangleSize75.svg",
+          "sha256": "150a4a7aefa3bbd5cd5a2d357b49dafb369aec89725fb318eba9d13a77391335",
+          "transport": "existing native CornerTriangle JSX"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/ui-icons/S2_CornerTriangleSize100.svg",
+          "target": "scripts/docs/build/input/server/assets/S2_CornerTriangleSize100.svg",
+          "sha256": "3717fe073f5e5839ade1176810bebcea41775eef10cfaa7e73e07b38ecfc86fe",
+          "transport": "existing native CornerTriangle JSX"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/ui-icons/S2_CornerTriangleSize200.svg",
+          "target": "scripts/docs/build/input/server/assets/S2_CornerTriangleSize200.svg",
+          "sha256": "6403787d45c9cfc6ea769bff954827191ea0a540a082f4a3f2facae71a621997",
+          "transport": "existing native CornerTriangle JSX"
+        },
+        {
+          "source": "packages/@react-spectrum/s2/ui-icons/S2_CornerTriangleSize300.svg",
+          "target": "scripts/docs/build/input/server/assets/S2_CornerTriangleSize300.svg",
+          "sha256": "1eedde2f8aae7849b257e204f2ff6b2e2478330f1389f3310950029a8f3cffe8",
+          "transport": "existing native CornerTriangle JSX"
+        }
+      ],
+      "bundles": [
+        {
+          "file": "scripts/docs/build/linked-docs/server/selected.native.js",
+          "type": "js",
+          "sha256": "dc2edec8b0cec66e47b32aa9ce7af46fddd4db1e3472d344e2e55003e4fbab32",
+          "bytes": 1089300,
+          "imports": [
+            "./selected.native.6b18c0cc.css",
+            "@solidjs/web",
+            "solid-js",
+            "clsx"
+          ],
+          "exports": [
+            "Provider",
+            "ColorSchemeContext",
+            "useLocale",
+            "Divider",
+            "DividerContext",
+            "Button",
+            "ButtonContext",
+            "Text",
+            "LinkButtonContext",
+            "usePendingState",
+            "LinkButton",
+            "ButtonGroup",
+            "ButtonGroupContext",
+            "ActionButton",
+            "ActionButtonContext",
+            "NotificationBadge",
+            "ActionButtonGroup",
+            "ActionButtonGroupContext",
+            "ProgressCircle",
+            "ProgressCircleContext",
+            "Avatar",
+            "AvatarContext",
+            "Image",
+            "ImageContext",
+            "NotificationBadgeContext",
+            "Link",
+            "LinkContext",
+            "Tooltip",
+            "TooltipTrigger"
+          ]
+        },
+        {
+          "file": "scripts/docs/build/linked-docs/server/selected.native.6b18c0cc.css",
+          "type": "css",
+          "sha256": "f63b49838aab6466120b13633d17785487e3bf9343d3493ac103272a2395c3c3",
+          "bytes": 47405
+        }
+      ]
+    }
+  ]
+}

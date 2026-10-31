@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "packages/react-aria-components/src/Button.tsx", "packages/react-aria-components/src/FileTrigger.tsx", "packages/react-aria/src/live-announcer/LiveAnnouncer.tsx"]
+}

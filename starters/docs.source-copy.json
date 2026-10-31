@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/solid-aria-components/upstream/react-spectrum/starters/docs",
+  "target": "/Users/avi/avir-oss/solid-aria-components/starters/docs",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "intakeStatus": "frozen-source-only-not-native-or-runnable",
+  "files": [
+    {
+      "path": "package.json",
+      "bytes": 1076,
+      "sha256": "ff42600d8f4a22c83969d5edb198ba7a30e1ee108d21ae46409ffe56181ce8da",
+      "category": "source-or-build-input"
+    },
+    {
+      "path": "src/Content.css",
+      "bytes": 37,
+      "sha256": "48a0f685881b4692925f6e30b57edb0c8b24ce1edad395dd790fabd611201898",
+      "category": "style"
+    },
+    {
+      "path": "src/Content.tsx",
+      "bytes": 355,
+      "sha256": "ce6346e4465387d800cf75102405e56df5ef70e8ab14ba793e0b105a603411ca",
+      "category": "source-or-build-input"
+    },
+    {
+      "path": "src/Form.css",
+      "bytes": 2012,
+      "sha256": "92e8e4831bef2a6a7842caa864dcc58c4ac91d5b7560c0fd222e72890973da76",
+      "category": "style"
+    },
+    {
+      "path": "src/Form.tsx",
+      "bytes": 945,
+      "sha256": "eae27474fdce285eea6074003813ec2266588c56029cb31050831b923adb623d",
+      "category": "source-or-build-input"
+    },
+    {
+      "path": "src/ProgressBar.css",
+      "bytes": 2323,
+      "sha256": "1e6bf43f875d1e9bffb5d3e932d549c8bf46714c74f2fdc6292c22ac135442c2",
+      "category": "style"
+    },
+    {
+      "path": "src/ProgressBar.tsx",
+      "bytes": 815,
+      "sha256": "67a8c149d8e51a3db13601c10c1d3f1875f35923666207a69fa47a0a4c8cc060",
+      "category": "source-or-build-input"
+    },
+    {
+      "path": "src/ProgressCircle.tsx",
+      "bytes": 2137,
+      "sha256": "e180c2137b5aa7fbcd05b3fd50f08f50d1b694589c96c8cd146e03ee4be1048d",
+      "category": "source-or-build-input"
+    },
+    {
+      "path": "src/theme.css",
+      "bytes": 8232,
+      "sha256": "b9221d8a721028fea9aebcfd7b6f8620a7fba8d3fac19e3ef954e94a48fc511c",
+      "category": "style"
+    },
+    {
+      "path": "src/utilities.css",
+      "bytes": 10298,
+      "sha256": "97df44ee6db140bb92546efbfb7456f245a489ff837428e049800dcab24fb799",
+      "category": "style"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 554,
+      "sha256": "b59bf5ef78280242dce2f25721a600dbb3a984e6e2be0824a7513f92bad09b74",
+      "category": "source-or-build-input"
+    },
+    {
+      "path": "LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 11335,
+      "sha256": "7dfe6526888bac51759c99f9a51262ba2711a8c12a067f2181609dd9a4066b84",
+      "category": "license"
+    }
+  ],
+  "license": {
+    "sourcePath": "LICENSE",
+    "sha256": "7dfe6526888bac51759c99f9a51262ba2711a8c12a067f2181609dd9a4066b84",
+    "identity": "Frozen repository Apache-2.0 LICENSE; source headers retained"
+  },
+  "importEdges": [
+    {
+      "from": "starters/docs/src/ProgressBar.tsx",
+      "import": "react-aria-components/ProgressBar",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/docs/src/ProgressBar.tsx",
+      "import": "./Form",
+      "target": "starters/docs/src/Form.tsx",
+      "status": "selected-local"
+    },
+    {
+      "from": "starters/docs/src/ProgressBar.tsx",
+      "import": "./ProgressBar.css",
+      "target": "starters/docs/src/ProgressBar.css",
+      "status": "selected-local"
+    },
+    {
+      "from": "starters/docs/src/ProgressCircle.tsx",
+      "import": "react-aria-components/composeRenderProps",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/docs/src/ProgressCircle.tsx",
+      "import": "react-aria-components/ProgressBar",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/docs/src/ProgressCircle.tsx",
+      "import": "react-aria-components/ProgressBar",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/docs/src/Form.tsx",
+      "import": "react-aria-components/Form",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/docs/src/Form.tsx",
+      "import": "react-aria-components/Label",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/docs/src/Form.tsx",
+      "import": "react-aria-components/FieldError",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/docs/src/Form.tsx",
+      "import": "react-aria-components/Button",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/docs/src/Form.tsx",
+      "import": "react-aria-components/Text",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/docs/src/Form.tsx",
+      "import": "./Form.css",
+      "target": "starters/docs/src/Form.css",
+      "status": "selected-local"
+    },
+    {
+      "from": "starters/docs/src/Form.tsx",
+      "import": "./Content",
+      "target": "starters/docs/src/Content.tsx",
+      "status": "selected-local"
+    },
+    {
+      "from": "starters/docs/src/ProgressBar.css",
+      "import": "./theme.css",
+      "target": "starters/docs/src/theme.css",
+      "status": "selected-local"
+    },
+    {
+      "from": "starters/docs/src/ProgressBar.css",
+      "import": "./utilities.css",
+      "target": "starters/docs/src/utilities.css",
+      "status": "selected-local"
+    },
+    {
+      "from": "starters/docs/src/Form.css",
+      "import": "./theme.css",
+      "target": "starters/docs/src/theme.css",
+      "status": "selected-local"
+    },
+    {
+      "from": "starters/docs/src/Content.tsx",
+      "import": "react-aria-components/Heading",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/docs/src/Content.tsx",
+      "import": "react-aria-components/Text",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/docs/src/Content.tsx",
+      "import": "./Content.css",
+      "target": "starters/docs/src/Content.css",
+      "status": "selected-local"
+    }
+  ]
+}

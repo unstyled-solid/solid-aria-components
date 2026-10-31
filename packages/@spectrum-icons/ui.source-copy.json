@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "mode": "frozen-template-generated-adapted",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "generator": "upstream/react-spectrum/packages/@spectrum-icons/ui/scripts/generateIcons.cjs",
+  "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+  "artworkPackage": {
+    "name": "@adobe/react-spectrum-ui",
+    "version": "1.2.1",
+    "tarballSha256": "021c9956d1b1774b4db2378cf2d7365d4b9c11681eb8599eaf7958bbb4c19b46"
+  },
+  "files": [
+    {
+      "path": "src/CornerTriangle.tsx",
+      "generatedSha256": "5332b12e363a051a0172ca25d9c6863b9a2b92099bc6ceaef51134d98818cea6",
+      "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/CornerTriangle.tsx",
+      "adaptation": "Native UIIcon render-child composition preserving original generated wrapper semantics."
+    },
+    {
+      "path": "src/CrossLarge.tsx",
+      "generatedSha256": "1339dacbcb9501f31fc6f5d0ab210d80c7f03150d2d67a05c58a918b31b90f05",
+      "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/CrossLarge.tsx",
+      "adaptation": "Native UIIcon render-child composition preserving original generated wrapper semantics."
+    },
+    {
+      "path": "src/CheckmarkSmall.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/CheckmarkSmall.tsx",
+      "generatedSha256": "da45974e542d295a0eba23efb53656a8b25d330a14f8089b7072eda7d4f827f2",
+      "nativeSha256AtIntegration": "a022b51445eb5259a1dbfbd7f56c6c82b30319caa8e622da8abd4e479776b921",
+      "adaptation": "I-owned native Icon/UIIcon composition; generated original copied durably and hashes verified. No React artwork executed."
+    },
+    {
+      "path": "src/DashSmall.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/DashSmall.tsx",
+      "generatedSha256": "6855c3a0514875ddadb0ddd67bd05e0a585f914f547be3f0129762fe634ad76a",
+      "nativeSha256AtIntegration": "737b1b5458cc64c8dad904bf3199b38c9bf4279303468be07b79528905ed3764",
+      "adaptation": "I-owned native Icon/UIIcon composition; generated original copied durably and hashes verified. No React artwork executed."
+    },
+    {
+      "path": "src/CheckmarkMedium.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/CheckmarkMedium.tsx",
+      "generatedSha256": "7d6347b7abd842367e632479895134ec3ab7d1d47a017ae94bd838e2c4ad4dcd",
+      "nativeSha256AtIntegration": "9b3dd80a211c57e0ab78d628b4ac9559ecd719c2bfd83b4fdf0a39427af1088b",
+      "adaptation": "I-owned native Icon/UIIcon composition; generated original copied durably and hashes verified. No React artwork executed."
+    },
+    {
+      "path": "src/Asterisk.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/Asterisk.tsx",
+      "generatedSha256": "3ecce29720b88064dac14c18e093551e571a6a645cc1d00cff9bd90606191734",
+      "nativeSha256AtIntegration": "cb1bec55cfeb4f48df55d28b37bf0cf50c19bcb3a0ac51be3eeee6543f1e8625",
+      "adaptation": "I-owned native Icon/UIIcon composition; generated original copied durably and hashes verified. No React artwork executed."
+    },
+    {
+      "path": "src/Magnifier.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/Magnifier.tsx",
+      "generatedSha256": "6874712cfa63cae7387110e672e053c8c3993dca59af1c6a54b57bf747f51f67",
+      "nativeSha256AtIntegration": "8a495c3572691119df66b904c1c8c5c4fc204d1fbf80ede9f461851ee715e419",
+      "adaptation": "I-owned native Icon/UIIcon composition; generated original copied durably and hashes verified. No React artwork executed."
+    },
+    {
+      "path": "src/CrossSmall.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/CrossSmall.tsx",
+      "generatedSha256": "207e39b8079a087116b926f49b2934596a0919bd3ed9b034d5195ed984c1d270",
+      "nativeSha256AtIntegration": "220507957d4c361bf39997cf6f045544e15422417c5e54e27e47c01818aa2359",
+      "adaptation": "I-owned native Icon/UIIcon composition; generated original copied durably and hashes verified. No React artwork executed."
+    },
+    {
+      "path": "src/AlertMedium.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/AlertMedium.tsx",
+      "generatedSha256": "a44531a482fdad61bfd41a6d0c0349d9f98585183fbafe805ace3aa857e13e0a",
+      "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+      "adaptation": "Source original generated with actual frozen compileSVG/SVGR and wrapper template from verified Express SVG and exactly verified isolated dependencies. I owns native adaptation; no standard-only fallback or hand-drawn SVG."
+    },
+    {
+      "path": "src/ChevronDownMedium.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/ChevronDownMedium.tsx",
+      "generatedSha256": "7258e7e704966b0e76689c3ad37a31836e991bb34227959abd48adfe3cefb4a8",
+      "nativeSha256AtIntegration": "fe0dc0cf36a2004f7771412775563a95e6d4cc4d6255d6074383965be6be88a7",
+      "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon composition; final generated-original/native/generator correspondence verified and original retained durably."
+    },
+    {
+      "path": "src/AlertSmall.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/AlertSmall.tsx",
+      "generatedSha256": "842730cb1d5a68f0bde634a19764aaa55d1529aa250a60d12ab97e334d3f8211",
+      "nativeSha256AtIntegration": "f6466e6e688d86a451973e2eb165dc98d9252a56415b7e42c8f9e014d9932a1f",
+      "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon wrapper; complete generated original retained and final source/native/generator hashes verified."
+    },
+    {
+      "path": "src/InfoSmall.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/InfoSmall.tsx",
+      "generatedSha256": "ebb1223aff1c463987bc6e9190be506037132fe4bd3c72b0a502b6513c8483bc",
+      "nativeSha256AtIntegration": "8bcfa4edc3d90c50c90f27d17db32d3450869785edd69769e3c8a7ba6bf01d00",
+      "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon wrapper; complete generated original retained and final source/native/generator hashes verified."
+    },
+    {
+      "path": "src/SuccessSmall.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/SuccessSmall.tsx",
+      "generatedSha256": "015c4e317fd2b7a22672fa436a2c37646442be6e77442d3151d8664123f69481",
+      "nativeSha256AtIntegration": "c9760c4a34e3d0597456756f2819e91c28c209fd00e8a00ccacb516e935fe687",
+      "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon wrapper; complete generated original retained and final source/native/generator hashes verified."
+    },
+    {
+      "path": "src/ArrowDownSmall.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/ArrowDownSmall.tsx",
+      "generatedSha256": "488525c76a79b7659868906f0e28010870356a47ee70277ee4dc99df549768ea",
+      "nativeSha256AtIntegration": "319fd5ffc1815e782c7933ac0fb12e6fea4f39542f29ce849cef66495b96c353",
+      "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/arrowdown-evidence.json",
+      "adaptation": "I-completed native Icon/UIIcon wrapper; complete generated original retained and final source/native/generator hashes verified."
+    },
+    {
+      "path": "src/ChevronLeftMedium.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/ChevronLeftMedium.tsx",
+      "generatedSha256": "af2c1632533da8002df2b927f88a42d248dabc4ea5a28fb1cd05ec069b204ccf",
+      "nativeSha256AtIntegration": "7f61a9d4c3e7719eba1ae18929308782caae5b5ced84b3beb8cbf1d3a07e2683",
+      "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p34-originals/p34-evidence.json",
+      "adaptation": "I-final actual native UIIcon wrapper; complete generated original retained and hashes verified; no Express branch in frozen generator."
+    },
+    {
+      "path": "src/ChevronRightMedium.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/ChevronRightMedium.tsx",
+      "generatedSha256": "4b67b5d1bbb167e204c5c3ba385799750881aa02e9a3415ab389ea65dad93f48",
+      "nativeSha256AtIntegration": "88d1e3dfb19af6e78823439cddd359a54a20c516ec92be1cdb977a8504f621c9",
+      "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p34-originals/p34-evidence.json",
+      "adaptation": "I-final actual native UIIcon wrapper; complete generated original retained and hashes verified; no Express branch in frozen generator."
+    },
+    {
+      "path": "src/ListGripper.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/frozen-wrapper-output/ListGripper.tsx",
+      "generatedSha256": "ba4f3bd6b610568cb3c22bf634e8741ad3f8ae2be415fd1a707f6f9538ffa38e",
+      "nativeSha256AtIntegration": "ad92d5778f8649007fb73a9a63bb3482bf8ee493bf4f8568ba379b24f23b9f6c",
+      "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p34-originals/p34-evidence.json",
+      "adaptation": "I-final actual native UIIcon wrapper; complete generated original retained and hashes verified; no Express branch in frozen generator."
+    },
+    {
+      "path": "src/FolderBreadcrumb.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/p36-originals/FolderBreadcrumb.tsx",
+      "generatedSha256": "5fbe9a6138845f0e28afe964cbb1a0b29e9e665b53842dfdbc4f0a653ba5c1f6",
+      "nativeSha256AtIntegration": "4bc5b1863c37bc874ec9ec43308724bbf8f714bb52cf9e3ea85e608d6a7b6fe2",
+      "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p36-originals/p36-evidence.json"
+    },
+    {
+      "path": "src/ChevronRightSmall.tsx",
+      "generatedOriginal": "packages/@adobe/react-spectrum-ui.source-artifact/p36-originals/ChevronRightSmall.tsx",
+      "generatedSha256": "5e3933294f22b884bdfbb4134fc5f256744ea5334d45efd7452ae97babfcb004",
+      "nativeSha256AtIntegration": "2403b79189e08b88e774ff7845b94b93b264337818cb3935b91b5c4e1b214ceb",
+      "generatorSha256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p36-originals/p36-evidence.json"
+    },
+    {
+      "path": "express/SX_More_18.svg",
+      "sha256": "af1c896eb6ebd87b6f123944f57bdc343c16b44e56a7f29a7eb4377f46c1a8dc",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p36-originals/p36-evidence.json"
+    },
+    {
+      "path": "express/SX_ChevronRight_18.svg",
+      "sha256": "10f236a410a8fe020e6c05f8aaa88ffce2efe582d572b36f2e9131c57ece062f",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p36-originals/p36-evidence.json"
+    }
+  ],
+  "expressArtwork": {
+    "sourcePath": "upstream/react-spectrum/packages/@spectrum-icons/ui/express/SX_Alert_18_N.svg",
+    "sha256": "5bed518b7bc1edd7d8cec1b618a2e9d81d3737ad31fb840f42bdae54383ea7fe",
+    "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+    "consumer": "src/AlertMedium.tsx",
+    "adaptation": "Actual frozen Express artwork/generator branch; I owns generated native branch and fidelity evidence. No standard-only replacement authorized."
+  },
+  "expressGeneratorClosure": {
+    "path": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/generator-closure.json",
+    "sha256": "fc6943dbfb5db420c131420d993e05064f45ab257784046a9b7e152a8f549188",
+    "commandPath": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/generate-alert-original.mjs",
+    "commandSha256": "a4666266e8baa1948e18b45acd2d6ed6aa5dfd0ed229096c4822ba4792bb9869",
+    "status": "Installed in approved isolated directory; 101 actual installed nodes/144 dependency edges verified against frozen closure, no unrecorded versions; actual frozen compileSVG/template executed successfully. Native wrapper remains I-owned.",
+    "isolatedDirectory": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p29-frozen-generator",
+    "installCommand": "npm install --ignore-scripts --no-audit --no-fund --strict-peer-deps",
+    "installedPackageManifest": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/generator-install/package.json",
+    "installedPackageManifestSha256": "6004557f465d48b094ccccc275c59e83529a81e59ee7bf6acbc4f99f20115ad9",
+    "installedLock": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/generator-install/package-lock.json",
+    "installedLockSha256": "add9a447193a57a253954abf7e1b8864271755926939ec32e6567b221af10656",
+    "resolutionVerification": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/generator-install/resolution-verification.json",
+    "resolutionVerificationSha256": "0afd40053b48e9fb614fd53c0e029dff723f3a31fb8cee495c495619dc473545",
+    "executedCommand": "node packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/generate-alert-original.mjs /private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p29-frozen-generator",
+    "resolvedInstallFindings": "First install had helper-validator-identifier7.29.7 instead of7.28.5; exact global unique-version overrides resolved this. Version-specific css-tree/mdn-data edges retained. Node package-exports metadata probing corrected to actual module search paths. No dependency/source patches; no active blocker."
+  },
+  "p32ExpressArtwork": [
+    {
+      "path": "packages/@spectrum-icons/ui/express/SX_Alert_14_S.svg",
+      "sha256": "d21ad5642d0ad6412f0a285ca55f995a31e50d9fe8dbf63acc1b23c8f4c6c4bd",
+      "sourcePath": "upstream/react-spectrum/packages/@spectrum-icons/ui/express/SX_Alert_14_S.svg",
+      "byteIdentical": true
+    },
+    {
+      "path": "packages/@spectrum-icons/ui/express/SX_Info_14_S.svg",
+      "sha256": "7b6e7fb3ce2b7a271a68ff5e293710e36316dcb445ef9c9675f4f9362b2e5869",
+      "sourcePath": "upstream/react-spectrum/packages/@spectrum-icons/ui/express/SX_Info_14_S.svg",
+      "byteIdentical": true
+    },
+    {
+      "path": "packages/@spectrum-icons/ui/express/SX_CheckmarkCircle_14_S.svg",
+      "sha256": "19df761086095d1462fec2c0a78cb3949a196b16addf767991471fb0ab456ca4",
+      "sourcePath": "upstream/react-spectrum/packages/@spectrum-icons/ui/express/SX_CheckmarkCircle_14_S.svg",
+      "byteIdentical": true
+    }
+  ],
+  "p32CompilerClosureEvidence": {
+    "path": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/generator-install/resolution-verification.json",
+    "sha256": "0afd40053b48e9fb614fd53c0e029dff723f3a31fb8cee495c495619dc473545",
+    "compileSVGSha256": "9f74dd058523096ad2da74d1310631fa82647e0852ce9d68d4dcebf6e49e5e02"
+  },
+  "p36CompilerClosureEvidence": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/generator-install/resolution-verification.json"
+}

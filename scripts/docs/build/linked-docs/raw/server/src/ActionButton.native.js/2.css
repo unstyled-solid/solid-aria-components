@@ -1,0 +1,27 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .z2U5Crc18 {
+    grid-column-start: icon;
+  }
+
+
+  .y2U5Crc18 {
+    grid-column-end: icon;
+  }
+
+
+  .B2U5Crc18 {
+    grid-row-start: icon;
+  }
+
+
+  .A2U5Crc18 {
+    grid-row-end: icon;
+  }
+}
+
+.-macro-static-goEGA {
+        --macro-data-goEGA: {"style":{"gridArea":"icon"},"loc":"/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/server/src/ActionButton.native.js:76:32"};
+      }
+

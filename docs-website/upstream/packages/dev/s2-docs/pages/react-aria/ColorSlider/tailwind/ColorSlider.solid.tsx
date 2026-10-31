@@ -1,0 +1,54 @@
+import {omit} from 'solid-js';
+'use client';
+
+import {
+  ColorSlider as AriaColorSlider,
+  type ColorSliderProps as AriaColorSliderProps,
+  SliderOutput,
+  SliderTrack
+} from 'solid-aria-components';
+import {tv} from 'tailwind-variants';
+import {Label} from './Field.solid';
+import {composeTailwindRenderProps} from './utils';
+import {ColorThumb} from './ColorThumb.solid';
+
+const trackStyles = tv({
+  base: 'group col-span-2 rounded-md',
+  variants: {
+    orientation: {
+      horizontal: 'w-full h-6',
+      vertical: 'w-6 h-50'
+    },
+    isDisabled: {
+      true: 'bg-neutral-300 dark:bg-neutral-800 forced-colors:bg-[GrayText]'
+    }
+  }
+});
+
+interface ColorSliderProps extends AriaColorSliderProps {
+  label?: string;
+}
+
+export function ColorSlider(live0: ColorSliderProps) {
+  return (
+    <AriaColorSlider
+      {...omit(live0, "label")}
+      className={composeTailwindRenderProps(
+        live0.className,
+        'font-sans orientation-horizontal:grid orientation-vertical:flex grid-cols-[1fr_auto] flex-col items-center gap-2 orientation-horizontal:w-56'
+      )}>
+      <Label>{live0.label}</Label>
+      <SliderOutput className="text-sm text-neutral-500 dark:text-neutral-400 font-medium orientation-vertical:hidden" />
+      <SliderTrack
+        className={trackStyles}
+        style={(live1) => ({
+          ...live1.defaultStyle,
+          background: live1.isDisabled
+            ? undefined
+            : `${live1.defaultStyle.background}, repeating-conic-gradient(#CCC 0% 25%, white 0% 50%) 50% / 16px 16px`
+        })}>
+        <ColorThumb />
+      </SliderTrack>
+    </AriaColorSlider>
+  );
+}

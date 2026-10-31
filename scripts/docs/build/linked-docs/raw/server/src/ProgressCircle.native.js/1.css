@@ -1,0 +1,78 @@
+@layer _.prose, _.a, _.b;
+
+@layer _.a {
+  .Vf18 {
+    stroke: light-dark(rgb(218, 218, 218), rgb(57, 57, 57));
+  }
+
+
+  .Vd18 {
+    stroke: lch(from var(--s2-container-bg) calc((49.44 - l) * infinity) 0 0 / 0.17);
+  }
+
+
+  ._Vwtfhvc18 {
+    stroke-width: 0.1875rem;
+  }
+
+
+  ._V7m7Gv18 {
+    stroke-width: 0.125rem;
+  }
+
+
+  ._VuNalie18 {
+    stroke-width: 0.25rem;
+  }
+}
+
+@layer _.b.l {
+  @media (forced-colors: active) {
+    .VlOVIhfcceMNLe18 {
+      stroke: var(--hcm-background, Background);
+    }
+  }
+
+
+  @media (forced-colors: active) {
+    ._VlOVIhfc7m7Gv18 {
+      stroke-width: 0.125rem;
+    }
+  }
+
+
+  @media (forced-colors: active) {
+    ._VlOVIhfcai5a018 {
+      stroke-width: 0.0625rem;
+    }
+  }
+
+
+  @media (forced-colors: active) {
+    ._VlOVIhfcwtfhvc18 {
+      stroke-width: 0.1875rem;
+    }
+  }
+}
+
+@layer _.b {
+  .VlOVIhfcceMNLe18:is([data-hcm], [data-hcm] *) {
+    stroke: var(--hcm-background, Background);
+  }
+
+
+  ._VlOVIhfc7m7Gv18:is([data-hcm], [data-hcm] *) {
+    stroke-width: 0.125rem;
+  }
+
+
+  ._VlOVIhfcai5a018:is([data-hcm], [data-hcm] *) {
+    stroke-width: 0.0625rem;
+  }
+
+
+  ._VlOVIhfcwtfhvc18:is([data-hcm], [data-hcm] *) {
+    stroke-width: 0.1875rem;
+  }
+}
+

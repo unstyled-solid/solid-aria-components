@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "files": [
+    {"sourcePath": "upstream/react-spectrum/test/browser/setup.ts", "sha256": "49bd397d52a8662232042b24bf1083d5613e0624a36a6f6321dd0cb59ff4bd3c", "targetPath": "test/browser/setup.ts", "adaptation": "Terminal copied before adapting imports to native renderer cleanup; original console tracking/checks and process shim retained."},
+    {"sourcePath": "upstream/react-spectrum/vitest.browser.config.ts", "sha256": "9c40a05047f36b48ed7028db2ba586ad1ff2abe33af546ce989b55b2e443439f", "targetPath": "vitest.browser.config.ts", "adaptation": "Scoped source browser lanes retain three desktop engines,1280x720,20000ms and development mode; native compiler/Intl/CSS/aliases replace React and unrelated source build plugins. P27 adds all three original TokenField suites without changing platform/lifecycle gates owned by fixtures."},
+    {"sourcePath": "upstream/react-spectrum/vitest.browser.config.ts", "sha256": "9c40a05047f36b48ed7028db2ba586ad1ff2abe33af546ce989b55b2e443439f", "sourceLines": [[167,202],[278,335]], "targetPath": "test/browser/p27-commands.ts", "adaptation": "Terminal copy to approved temporary path before extracting actual commands and BrowserCommands declarations; only explicit parameter annotations/export boundary added. Original clipboard lock/unlock, per-page cached CDP sessions, imeSetComposition/insertText and mouse commands preserved. Chromium-only source composition platform gates remain fixture-owned; no simulated composition."}
+  ],
+  "tooling": {"vitest": "4.1.11", "browserProvider": "@vitest/browser-playwright@4.1.11", "playwright": "1.57.0", "frozenCorrespondence": "Frozen yarn.lock resolves Playwright1.57.0 and browser-playwright4.0.18; provider4.1.11 instead matches existing root Vitest4.1.11. Native framework remains2.0.0-rc.13."}
+}

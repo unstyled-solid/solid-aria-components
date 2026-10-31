@@ -1,0 +1,78 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .sd18 {
+    display: flex;
+  }
+
+
+  ._tc18 {
+    flex-direction: row;
+  }
+
+
+  ._ta18 {
+    flex-direction: column;
+  }
+
+
+  .Uahikk18 {
+    row-gap: calc(0.125 * var(--rem, 1rem));
+  }
+
+
+  .UR3ltQc18 {
+    row-gap: calc(0.25 * var(--rem, 1rem));
+  }
+
+
+  .UR3ltQc18 {
+    row-gap: calc(0.25 * var(--rem, 1rem));
+  }
+
+
+  .UH5kTnc18 {
+    row-gap: calc(0.5 * var(--rem, 1rem));
+  }
+
+
+  .UH5kTnc18 {
+    row-gap: calc(0.5 * var(--rem, 1rem));
+  }
+
+
+  .UH5kTnc18 {
+    row-gap: calc(0.5 * var(--rem, 1rem));
+  }
+
+
+  .qahikk18 {
+    column-gap: calc(0.125 * var(--rem, 1rem));
+  }
+
+
+  .qR3ltQc18 {
+    column-gap: calc(0.25 * var(--rem, 1rem));
+  }
+
+
+  .qR3ltQc18 {
+    column-gap: calc(0.25 * var(--rem, 1rem));
+  }
+
+
+  .qH5kTnc18 {
+    column-gap: calc(0.5 * var(--rem, 1rem));
+  }
+
+
+  .qH5kTnc18 {
+    column-gap: calc(0.5 * var(--rem, 1rem));
+  }
+
+
+  .qH5kTnc18 {
+    column-gap: calc(0.5 * var(--rem, 1rem));
+  }
+}
+

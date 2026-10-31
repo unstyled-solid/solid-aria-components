@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "mode": "registry-artifact-adapted",
+  "package": "@adobe/react-spectrum-ui",
+  "version": "1.2.1",
+  "metadataURL": "https://registry.npmjs.org/@adobe%2freact-spectrum-ui/1.2.1",
+  "dist": {
+    "shasum": "31651a1c664b014bd7b4f8a2265e26ae418aecec",
+    "tarball": "https://registry.npmjs.org/@adobe/react-spectrum-ui/-/react-spectrum-ui-1.2.1.tgz",
+    "fileCount": 78,
+    "integrity": "sha512-wcrbEE2O/9WnEn6avBnaVRRx88S5PLFsPLr4wffzlbMfXeQsy+RMQwaJd3cbzrn18/j04Isit7f7Emfn0dhrJA==",
+    "signatures": [
+      {
+        "sig": "MEUCIQCeKyw7YHvU/hxAMY8ECy4Lh1/1U1cIkyuYgIi4qzmXDQIgfWvjC+NLcU1UyCZSlqNj+dWWreeMWXdjzHBtZLjzSec=",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 182364
+  },
+  "tarballSha256": "021c9956d1b1774b4db2378cf2d7365d4b9c11681eb8599eaf7958bbb4c19b46",
+  "durableArtifact": "packages/@adobe/react-spectrum-ui.source-artifact",
+  "files": [
+    {
+      "path": "src/CornerTriangle.js",
+      "sha256": "8560b6389be13962a68ef2e48f818791ccdf2a4c927fbb7c9dbfd1565919fd33",
+      "targetPath": "src/CornerTriangle.jsx",
+      "adaptation": "Native Solid JSX adaptation of registry artwork; original M/L SVG data retained."
+    },
+    {
+      "path": "src/CrossLarge.js",
+      "sha256": "62ec5b4d1d7deda26ca1baa3b435506e118ada5510690cadc629408616a9043f",
+      "targetPath": "src/CrossLarge.jsx",
+      "adaptation": "Native Solid JSX adaptation of registry artwork; original M/L SVG data retained."
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "targetPath": "LICENSE"
+    },
+    {
+      "path": "src/CheckmarkSmall.js",
+      "sha256": "04273cd6b7b0daf1bb323c7dada74103f9305d4f2294fab80a4a19c1c10b96f3",
+      "targetPath": "src/CheckmarkSmall.jsx",
+      "sourceArchiveMember": "package/src/CheckmarkSmall.js",
+      "adaptation": "I-owned native artwork adaptation; source archive hash verified by F. Native adaptation qualification remains I-owned.",
+      "nativeSha256AtIntegration": "06e6cf273f463cace2f2d6f558a96d7d6c1e3b21620b5283d84955646bf54889",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/p29-evidence.json"
+    },
+    {
+      "path": "src/DashSmall.js",
+      "sha256": "b5db96dab49867b7f10fa852e90c938cb077444218d112880a54216621bfed92",
+      "targetPath": "src/DashSmall.jsx",
+      "sourceArchiveMember": "package/src/DashSmall.js",
+      "adaptation": "I-owned native artwork adaptation; source archive hash verified by F. Native adaptation qualification remains I-owned.",
+      "nativeSha256AtIntegration": "2e09474b24d99d7cab99bad02532cf5676576b7dddce8d72b8320dedbe29f8a3",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/p29-evidence.json"
+    },
+    {
+      "path": "src/AlertMedium.js",
+      "sha256": "6f7f8e6b53770fbd4058822b114e1460760cb389d9d87ca3bcc67d87611045f7",
+      "targetPath": "src/AlertMedium.jsx",
+      "sourceArchiveMember": "package/src/AlertMedium.js",
+      "adaptation": "I-owned native artwork adaptation; source archive hash verified by F. Native adaptation qualification remains I-owned.",
+      "nativeSha256AtIntegration": "07fccd0eeae479bf95f9769fc063b1d3d2df54a0d39d116bc61b8b07b98354ef",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/p29-evidence.json"
+    },
+    {
+      "path": "src/CheckmarkMedium.js",
+      "sha256": "ac818ad8087dfe3be9c49d4ff9a1e7b28711e2349c9a5583510d994eecbce29e",
+      "targetPath": "src/CheckmarkMedium.jsx",
+      "sourceArchiveMember": "package/src/CheckmarkMedium.js",
+      "adaptation": "I-owned native artwork adaptation; source archive hash verified by F. Native adaptation qualification remains I-owned.",
+      "nativeSha256AtIntegration": "e0a6d09a260df86b3c24a9d32a62e2671b244b3e681fd11c44215b5d8668ca14",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/p29-evidence.json"
+    },
+    {
+      "path": "src/Asterisk.js",
+      "sha256": "44e96769ccc43c735d81087e703f96e19c7b995f0dd386226a0f533640da0a57",
+      "targetPath": "src/Asterisk.jsx",
+      "sourceArchiveMember": "package/src/Asterisk.js",
+      "adaptation": "I-owned native artwork adaptation; source archive hash verified by F. Native adaptation qualification remains I-owned.",
+      "nativeSha256AtIntegration": "1a58d0d8daa10635a653b4c5ea51a7d3fafe3119bbb79738951bba9127c739c7",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/p29-evidence.json"
+    },
+    {
+      "path": "src/Magnifier.js",
+      "sha256": "8e49abc14ad4bbfe399c5420b89dc24eced1e0c32a0884d24be4e1329273add9",
+      "targetPath": "src/Magnifier.jsx",
+      "sourceArchiveMember": "package/src/Magnifier.js",
+      "adaptation": "I-owned native artwork adaptation; source archive hash verified by F. Native adaptation qualification remains I-owned.",
+      "nativeSha256AtIntegration": "6ed057d2987166a1ece341fba5b0acc0bb38a9d4e85da40d72db80bd1193a5a4",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/p29-evidence.json"
+    },
+    {
+      "path": "src/CrossSmall.js",
+      "sha256": "189bf5342500bb502d76f5de29299980cca4fcb925a710c6aa55ebdd6ad59559",
+      "targetPath": "src/CrossSmall.jsx",
+      "sourceArchiveMember": "package/src/CrossSmall.js",
+      "adaptation": "I-owned native artwork adaptation; source archive hash verified by F. Native adaptation qualification remains I-owned.",
+      "nativeSha256AtIntegration": "090acffe8f3c3b662b8c289e7627221eacd32a09e0fa6275fb793b7ee996d71f",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/p29-evidence.json"
+    },
+    {
+      "path": "src/ChevronDownMedium.js",
+      "sha256": "134f38d447588ddaeb2ed04f8b996cbc8194f623acaba13e6416f3b666bf8f95",
+      "targetPath": "src/ChevronDownMedium.jsx",
+      "sourceArchiveMember": "package/src/ChevronDownMedium.js",
+      "adaptation": "I-completed native artwork; verified archive source/original/native hashes and owner artwork-correspondence evidence. No substituted SVG or React runtime execution.",
+      "nativeSha256AtIntegration": "616dec579305b60f0bdce5bb63ee2d4251112f7aa0612b4a39088dac25e8111d",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json"
+    },
+    {
+      "path": "src/AlertSmall.js",
+      "sha256": "f3678cd331e8cf70ef7a7714e5858577d3535f5ecd65373f63165ebecdb4b546",
+      "sourceArchiveMember": "package/src/AlertSmall.js",
+      "targetPath": "src/AlertSmall.jsx",
+      "adaptation": "I-completed actual native artwork; final archive/original/native hashes verified. No guessed glyphs or React runtime execution.",
+      "nativeSha256AtIntegration": "cc9ebf65ff2db5ac1096b609cace7992efaa2c9b1b4f36a4e7757d51615c48e3",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json"
+    },
+    {
+      "path": "src/InfoSmall.js",
+      "sha256": "52c93feb8414e88de3f32fa456ea01e70e6e48dd087bf95d7a6242717a8ebe86",
+      "sourceArchiveMember": "package/src/InfoSmall.js",
+      "targetPath": "src/InfoSmall.jsx",
+      "adaptation": "I-completed actual native artwork; final archive/original/native hashes verified. No guessed glyphs or React runtime execution.",
+      "nativeSha256AtIntegration": "b2d7860daa56fe7bb0bc8292a455782cf7fc473465f440ece5e012fce6186557",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json"
+    },
+    {
+      "path": "src/SuccessSmall.js",
+      "sha256": "019185afa8c9d4657dbd3e24e5b510e0d77a5e63a4bfb5bbd4767a2edf721023",
+      "sourceArchiveMember": "package/src/SuccessSmall.js",
+      "targetPath": "src/SuccessSmall.jsx",
+      "adaptation": "I-completed actual native artwork; final archive/original/native hashes verified. No guessed glyphs or React runtime execution.",
+      "nativeSha256AtIntegration": "fa24955b496de64930844a68c501fb6e63379b0a19aac1d48be8d29937e09b0e",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json"
+    },
+    {
+      "path": "src/ArrowDownSmall.js",
+      "sha256": "16176e3cb5b7d636d887df0c88455f41f04851be499015d0ac36e7f286c635e4",
+      "targetPath": "src/ArrowDownSmall.jsx",
+      "sourceArchiveMember": "package/src/ArrowDownSmall.js",
+      "nativeSha256AtIntegration": "b8a1ef585205fda2ba95901c3b50c95bd1f5eab88587ed0aac9c04a6c15f65b7",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/arrowdown-evidence.json",
+      "adaptation": "I-completed actual native artwork; final archive/original/native hashes verified. No guessed glyphs or React runtime execution."
+    },
+    {
+      "path": "src/ChevronLeftMedium.js",
+      "sha256": "bc2c48fe68fb4a67144c17146e510d4bbf87cb0be36c154900fb30887861a768",
+      "sourceArchiveMember": "package/src/ChevronLeftMedium.js",
+      "targetPath": "src/ChevronLeftMedium.jsx",
+      "nativeSha256AtIntegration": "eaee72d80d6817aff4b2a6efb4c9018f03dcae4521cd676e5b2b78c2812d13ce",
+      "adaptation": "I-final native JSX artwork. Final native/original archive member/SRI/SHA1/license correspondence verified; no React runtime execution.",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p34-originals/p34-evidence.json"
+    },
+    {
+      "path": "src/ChevronRightMedium.js",
+      "sha256": "fe0dca5f06a3c60a94b151405e02f5c675aa8f25bf3f420b4f118e174a7872f5",
+      "sourceArchiveMember": "package/src/ChevronRightMedium.js",
+      "targetPath": "src/ChevronRightMedium.jsx",
+      "nativeSha256AtIntegration": "858e654a00db96d9d8e38bcb5a7f129f90a745feabe0309fbbf3275c941c5018",
+      "adaptation": "I-final native JSX artwork. Final native/original archive member/SRI/SHA1/license correspondence verified; no React runtime execution.",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p34-originals/p34-evidence.json"
+    },
+    {
+      "path": "src/ListGripper.js",
+      "sha256": "a95cce7ce1b87257bedcdb5d8c09c36beddd12b7e725947d77aae3df1eaf0259",
+      "sourceArchiveMember": "package/src/ListGripper.js",
+      "targetPath": "src/ListGripper.jsx",
+      "nativeSha256AtIntegration": "aca5949cc0f8aa376ce2411c120f1f924a98c6fed1151f36deda2fac179268a3",
+      "adaptation": "I-final native JSX artwork. Final native/original archive member/SRI/SHA1/license correspondence verified; no React runtime execution.",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p34-originals/p34-evidence.json"
+    },
+    {
+      "path": "src/FolderBreadcrumb.js",
+      "sha256": "1a94c3ffbbd966021abb2d7ce314bc4a13bebff549036276439337705d1e993e",
+      "targetPath": "src/FolderBreadcrumb.jsx",
+      "nativeSha256AtIntegration": "89b2149a5574f5d005030e5f05d86e33f16763d6be20f403fbacc5e04b70e365",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p36-originals/p36-evidence.json"
+    },
+    {
+      "path": "src/ChevronRightSmall.js",
+      "sha256": "342d591e0a0853f1e803787ad94ac0cab82b41e2d074e3020887061c4c40f305",
+      "targetPath": "src/ChevronRightSmall.jsx",
+      "nativeSha256AtIntegration": "5560f53861184f8b0971a7c9e94af0a9e2990bd5e9ae3da54089510ffd5fc0f0",
+      "evidencePath": "packages/@adobe/react-spectrum-ui.source-artifact/p36-originals/p36-evidence.json"
+    }
+  ],
+  "p29Evidence": {
+    "path": "packages/@adobe/react-spectrum-ui.source-artifact/p29-originals/p29-evidence.json",
+    "sha256": "a783cc2eb91794ee021eba5f5370b678141cda08c3cc9699bc652cb10a22c6dc",
+    "status": "I evidence/native hashes verified; immutable snapshot retains original pending AlertMedium status."
+  },
+  "p31Evidence": {
+    "path": "packages/@adobe/react-spectrum-ui.source-artifact/p31-originals/p31-evidence.json",
+    "sha256": "4f4feea5a8cd16ef5cfb113b1caa31bcde8584aea2bc6639f4a080c7e6e93dc6",
+    "status": "Nine final native wrappers/artworks and generator hashes verified; durable original copies, archive SRI/SHA1/licenses reverified. Owner strict result retained without rerun."
+  },
+  "p32Evidence": {
+    "path": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/p32-evidence.json",
+    "sha256": "50bc5a6a95a50c57de5a6cffebf2e52a994459e7705bd824f8d16404ad3d9417",
+    "arrowDownEvidence": "packages/@adobe/react-spectrum-ui.source-artifact/p32-originals/arrowdown-evidence.json",
+    "arrowDownEvidenceSha256": "4abe72e5d153cc1d048c673ccdae3ae060377497a77d2b462e77b5997c19ac88",
+    "status": "Original seven plus explicitly assigned ArrowDownSmall final source/native hashes, generators, Express SVGs, archive SRI/SHA1 and licenses verified; no qualification reruns."
+  },
+  "p34Evidence": {
+    "path": "packages/@adobe/react-spectrum-ui.source-artifact/p34-originals/p34-evidence.json",
+    "sha256": "47590e988eb76c9ec935c0fd0f2fc66ce02bcf010ff57e58c5979c8f1229be0d",
+    "status": "All3 final artwork/wrapper originals and native hashes verified; strict separately owner-resumed, not rerun."
+  },
+  "p36Evidence": {
+    "path": "packages/@adobe/react-spectrum-ui.source-artifact/p36-originals/p36-evidence.json",
+    "sha256": "ff859671185223dd8e54e5b1701f4d61d94e1d5b14da0227a39c7751a0d69b1e",
+    "status": "Actual wrapper/artwork/Express/generator/compiler/license/archive hashes verified; no qualification reruns."
+  }
+}

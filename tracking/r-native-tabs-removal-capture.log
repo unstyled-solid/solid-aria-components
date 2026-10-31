@@ -1,0 +1,27 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+CAPTURE cached row setup 1
+CAPTURE cached row setup 2
+CAPTURE cached row setup 3
+CAPTURE collection image [ 1, 2, 3 ]
+CAPTURE cached row setup 1
+CAPTURE cached row setup 2
+CAPTURE cached row setup 3
+CAPTURE cached row setup 4
+CAPTURE cached row setup 4
+CAPTURE cached row dispose 4
+CAPTURE cached row dispose 3
+CAPTURE cached row dispose 2
+CAPTURE cached row dispose 1
+CAPTURE cached row dispose 4
+CAPTURE cached row dispose 3
+CAPTURE cached row dispose 2
+CAPTURE cached row dispose 1
+CAPTURE collection image [ 1, 2, 3, 4 ]
+
+ Test Files  1 passed (1)
+      Tests  1 passed | 41 skipped (42)
+   Start at  13:06:46
+   Duration  1.92s (transform 1.15s, setup 109ms, import 1.29s, tests 181ms, environment 237ms)
+

@@ -1,0 +1,92 @@
+{
+  "frozenSHA": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "originalsDirectory": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p29-icons-originals",
+  "generators": {
+    "upstream/react-spectrum/packages/@spectrum-icons/ui/scripts/generateIcons.cjs": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+    "upstream/react-spectrum/packages/@spectrum-icons/workflow/scripts/generateIcons.cjs": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+    "upstream/react-spectrum/packages/@spectrum-icons/build-tools/compileSVG.js": "9f74dd058523096ad2da74d1310631fa82647e0852ce9d68d4dcebf6e49e5e02"
+  },
+  "files": {
+    "packages/@adobe/react-spectrum-ui/src/CheckmarkSmall.jsx": {
+      "originalSHA256": "04273cd6b7b0daf1bb323c7dada74103f9305d4f2294fab80a4a19c1c10b96f3",
+      "nativeSHA256": "06e6cf273f463cace2f2d6f558a96d7d6c1e3b21620b5283d84955646bf54889",
+      "pathDataEqual": true
+    },
+    "packages/@spectrum-icons/ui/src/CheckmarkSmall.tsx": {
+      "originalSHA256": "da45974e542d295a0eba23efb53656a8b25d330a14f8089b7072eda7d4f827f2",
+      "nativeSHA256": "a022b51445eb5259a1dbfbd7f56c6c82b30319caa8e622da8abd4e479776b921"
+    },
+    "packages/@adobe/react-spectrum-ui/src/DashSmall.jsx": {
+      "originalSHA256": "b5db96dab49867b7f10fa852e90c938cb077444218d112880a54216621bfed92",
+      "nativeSHA256": "2e09474b24d99d7cab99bad02532cf5676576b7dddce8d72b8320dedbe29f8a3",
+      "pathDataEqual": true
+    },
+    "packages/@spectrum-icons/ui/src/DashSmall.tsx": {
+      "originalSHA256": "6855c3a0514875ddadb0ddd67bd05e0a585f914f547be3f0129762fe634ad76a",
+      "nativeSHA256": "737b1b5458cc64c8dad904bf3199b38c9bf4279303468be07b79528905ed3764"
+    },
+    "packages/@adobe/react-spectrum-ui/src/AlertMedium.jsx": {
+      "originalSHA256": "6f7f8e6b53770fbd4058822b114e1460760cb389d9d87ca3bcc67d87611045f7",
+      "nativeSHA256": "07fccd0eeae479bf95f9769fc063b1d3d2df54a0d39d116bc61b8b07b98354ef",
+      "pathDataEqual": true
+    },
+    "packages/@adobe/react-spectrum-ui/src/CheckmarkMedium.jsx": {
+      "originalSHA256": "ac818ad8087dfe3be9c49d4ff9a1e7b28711e2349c9a5583510d994eecbce29e",
+      "nativeSHA256": "e0a6d09a260df86b3c24a9d32a62e2671b244b3e681fd11c44215b5d8668ca14",
+      "pathDataEqual": true
+    },
+    "packages/@spectrum-icons/ui/src/CheckmarkMedium.tsx": {
+      "originalSHA256": "7d6347b7abd842367e632479895134ec3ab7d1d47a017ae94bd838e2c4ad4dcd",
+      "nativeSHA256": "9b3dd80a211c57e0ab78d628b4ac9559ecd719c2bfd83b4fdf0a39427af1088b"
+    },
+    "packages/@adobe/react-spectrum-ui/src/Asterisk.jsx": {
+      "originalSHA256": "44e96769ccc43c735d81087e703f96e19c7b995f0dd386226a0f533640da0a57",
+      "nativeSHA256": "1a58d0d8daa10635a653b4c5ea51a7d3fafe3119bbb79738951bba9127c739c7",
+      "pathDataEqual": true
+    },
+    "packages/@spectrum-icons/ui/src/Asterisk.tsx": {
+      "originalSHA256": "3ecce29720b88064dac14c18e093551e571a6a645cc1d00cff9bd90606191734",
+      "nativeSHA256": "cb1bec55cfeb4f48df55d28b37bf0cf50c19bcb3a0ac51be3eeee6543f1e8625"
+    },
+    "packages/@adobe/react-spectrum-ui/src/Magnifier.jsx": {
+      "originalSHA256": "8e49abc14ad4bbfe399c5420b89dc24eced1e0c32a0884d24be4e1329273add9",
+      "nativeSHA256": "6ed057d2987166a1ece341fba5b0acc0bb38a9d4e85da40d72db80bd1193a5a4",
+      "pathDataEqual": true
+    },
+    "packages/@spectrum-icons/ui/src/Magnifier.tsx": {
+      "originalSHA256": "6874712cfa63cae7387110e672e053c8c3993dca59af1c6a54b57bf747f51f67",
+      "nativeSHA256": "8a495c3572691119df66b904c1c8c5c4fc204d1fbf80ede9f461851ee715e419"
+    },
+    "packages/@adobe/react-spectrum-ui/src/CrossSmall.jsx": {
+      "originalSHA256": "189bf5342500bb502d76f5de29299980cca4fcb925a710c6aa55ebdd6ad59559",
+      "nativeSHA256": "090acffe8f3c3b662b8c289e7627221eacd32a09e0fa6275fb793b7ee996d71f",
+      "pathDataEqual": true
+    },
+    "packages/@spectrum-icons/ui/src/CrossSmall.tsx": {
+      "originalSHA256": "207e39b8079a087116b926f49b2934596a0919bd3ed9b034d5195ed984c1d270",
+      "nativeSHA256": "220507957d4c361bf39997cf6f045544e15422417c5e54e27e47c01818aa2359"
+    },
+    "packages/@spectrum-icons/ui/express/SX_Alert_18_N.svg": {
+      "sha256": "5bed518b7bc1edd7d8cec1b618a2e9d81d3737ad31fb840f42bdae54383ea7fe",
+      "byteIdentical": true
+    },
+    "packages/@adobe/react-spectrum-workflow/src/Checkmark.jsx": {
+      "originalSHA256": "120a85865de0e0a2abf6c8d0c557b81d5f37a67a7bb63c2bd29aa4db025e8169",
+      "nativeSHA256": "2ebf1204559f4c76bb186372457984ea6173870c67a9778248bb0801e8858ef6"
+    },
+    "packages/@spectrum-icons/workflow/src/Checkmark.tsx": {
+      "originalSHA256": "2367258a0de01e5f8bc4a044f8a79cf6464b619f43e8e41c8c78faf9487a42e4",
+      "nativeSHA256": "4bb8c084973d4040ba44492471c1b824d36cc4fa1a3f3402a67bec4fad1c127c"
+    },
+    "packages/@adobe/react-spectrum-ui/LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "existingUnchanged": true
+    },
+    "packages/@adobe/react-spectrum-workflow/LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "existingUnchanged": true
+    }
+  },
+  "alertStatus": "Express wrapper pending exact frozen compileSVG/SVGR dependency closure; no standard-only wrapper created",
+  "strictStatus": "not run: required AlertMedium.tsx absent"
+}

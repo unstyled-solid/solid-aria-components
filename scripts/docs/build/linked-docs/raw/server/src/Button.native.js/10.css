@@ -1,0 +1,23 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .TAzEcG18 {
+    padding-top: var(--labelPadding);
+  }
+
+
+  .QAzEcG18 {
+    padding-bottom: var(--labelPadding);
+  }
+
+
+  ._Jb18 {
+    order: 1;
+  }
+
+
+  ._6b18 {
+    visibility: hidden;
+  }
+}
+

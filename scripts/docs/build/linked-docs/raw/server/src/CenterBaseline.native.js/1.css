@@ -1,0 +1,5 @@
+@layer _.a {
+  .FRGfhd {
+  &::before { content: " "; width: 0; visibility: hidden }
+  }
+}

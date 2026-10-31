@@ -1,0 +1,45 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+DESC CHILD SETUP 1 true
+DESC DOCUMENT NOTIFY
+DESC DOCUMENT IMAGE 1 [ 1 ]
+DESC CHILD SETTLED 1
+DESC CHILD UPDATE 1 true
+DESC CHILD SETUP 2 true
+DESC DOCUMENT NOTIFY
+DESC CHILD SETTLED 2
+DESC DOCUMENT IMAGE 1 [ 1 ]
+DESC DOCUMENT NOTIFY
+ ❯ |solid2-pilot| packages/react-aria-components/test/ListBox.test.jsx (105 tests | 1 failed | 104 skipped) 119ms
+     × should update collection when descendants update 115ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/ListBox.test.jsx > ListBox > should update collection when descendants update
+AssertionError: expected [ 'One' ] to deeply equal [ 'One', 'Two' ]
+
+- Expected
++ Received
+
+  [
+    "One",
+-   "Two",
+  ]
+
+ ❯ packages/react-aria-components/test/ListBox.test.jsx:376:60
+    374|
+    375|     act(() => setShowTwo(true));
+    376|     expect(getAllByRole('option').map(o => o.textContent)).toEqual(['O…
+       |                                                            ^
+    377|
+    378|     act(() => setShowTwo(false));
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 104 skipped (105)
+   Start at  17:18:23
+   Duration  2.08s (transform 1.33s, setup 98ms, import 1.53s, tests 119ms, environment 239ms)
+

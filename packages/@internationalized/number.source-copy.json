@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/solid-aria-components/upstream/react-spectrum/packages/@internationalized/number",
+  "target": "/Users/avi/avir-oss/solid-aria-components/packages/@internationalized/number",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "files": [
+    {
+      "path": "docs/index.mdx",
+      "bytes": 3022,
+      "sha256": "fa0e72ead8dad372b3e768e29deca21ef03febad6e9975a3eb3727601fab6ab6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/NumberFormatter.mdx",
+      "bytes": 1885,
+      "sha256": "eeb9cc9302de01c78c3997d31a2a590abdda6b85490a39735763a075f1df1f04",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "docs/NumberParser.mdx",
+      "bytes": 8072,
+      "sha256": "e4309e6836585724388b77003973c9d2729f5fd679a824a29ccb12303426f0d0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "index.ts",
+      "bytes": 644,
+      "sha256": "594e47e9541abd266230f1ab8a4011cff08fe222cda671d39d216df48d1a3b5b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1067,
+      "sha256": "cb35a1b63c3b18673a6a5dc8d469bc02c75021a6f054d0ee323e161dc3274824",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1759,
+      "sha256": "318e52accf17d0a4ed2c1900b509203e4bf19244576663193aae12d20ca46cea",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 778,
+      "sha256": "ac56cf009d03953c5aac62dc80eb8b2994b80093286c51453d4dfd3fd4415c74",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/NumberFormatter.ts",
+      "bytes": 5708,
+      "sha256": "ee65e9b02c6e2c89c67414ddb93a9371f5343c2917aeba55318b9dc848ffe917",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/NumberParser.ts",
+      "bytes": 16998,
+      "sha256": "18336c2d35af10b9b1b6f8edc60a60fc15e025e818a9da05d0d08f551ba516c1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/numberFormatSignDisplayPolyfill.test.js",
+      "bytes": 1784,
+      "sha256": "fd152906219f728f660c6e0130691928ca84139db6e7bff56dff04a0319a726e",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/NumberParser.test.js",
+      "bytes": 37632,
+      "sha256": "7fdf0837ed9f2610654f69c7f4f3163481f260767fced1128ca93706cc1e44f8",
+      "category": "test-or-type-spec"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution"
+}

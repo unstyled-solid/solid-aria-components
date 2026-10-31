@@ -1,0 +1,74 @@
+{
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "mode": "terminal-copy-before-adaptation",
+  "files": [
+    {
+      "sourcePath": "packages/dev/parcel-transformer-mdx-docs/MDXTransformer.js",
+      "originalCopy": "source-originals/packages/dev/parcel-transformer-mdx-docs/MDXTransformer.js",
+      "sha256": "62694246f1b151930b00fd5cd15abd376a66beeb85b17488422db6319ff82c0a"
+    },
+    {
+      "sourcePath": "packages/dev/parcel-transformer-mdx-docs/MDXFragments.js",
+      "originalCopy": "source-originals/packages/dev/parcel-transformer-mdx-docs/MDXFragments.js",
+      "sha256": "171ac2f0a717729282a1109761cb0005383bc1d48c1f238dc305d5d934249061"
+    },
+    {
+      "sourcePath": "packages/dev/parcel-transformer-mdx-docs/processCSS.js",
+      "originalCopy": "source-originals/packages/dev/parcel-transformer-mdx-docs/processCSS.js",
+      "sha256": "64d0848c1eb54203fa082ca2cd1be789d1740eb8ff546d3c4a88fde60f5ed46e"
+    },
+    {
+      "sourcePath": "packages/dev/parcel-transformer-mdx-docs/package.json",
+      "originalCopy": "source-originals/packages/dev/parcel-transformer-mdx-docs/package.json",
+      "sha256": "a1c39a81a2fdd8fe06ef140ab2dcd879f35b596c88a10c96dd0f11506e6f9190"
+    },
+    {
+      "sourcePath": "packages/dev/parcel-transformer-docs/DocsTransformer.js",
+      "originalCopy": "source-originals/packages/dev/parcel-transformer-docs/DocsTransformer.js",
+      "sha256": "4f1ec9d2cf52bf517b04c7300f98d1784646d311cbe0b0d724a47649bb149bf6"
+    },
+    {
+      "sourcePath": "packages/dev/parcel-transformer-docs/package.json",
+      "originalCopy": "source-originals/packages/dev/parcel-transformer-docs/package.json",
+      "sha256": "8da2b41ddbaa098e48ae67361e1da1e7f3964522babc2f21f09bc991f5fe8470"
+    },
+    {
+      "sourcePath": "packages/dev/parcel-packager-docs/DocsPackager.js",
+      "originalCopy": "source-originals/packages/dev/parcel-packager-docs/DocsPackager.js",
+      "sha256": "0ec166ea8252a80d9746b3287a791e5d49dc29b4ed89a648523fff4f6c16f16d"
+    },
+    {
+      "sourcePath": "packages/dev/parcel-packager-docs/package.json",
+      "originalCopy": "source-originals/packages/dev/parcel-packager-docs/package.json",
+      "sha256": "d3813178afb6b456cfa70b8df44773c29ef2bb3bfa2946730e81923f2cc3e1cf"
+    },
+    {
+      "sourcePath": "packages/dev/s2-docs/MDXTransformer.mjs",
+      "originalCopy": "source-originals/packages/dev/s2-docs/MDXTransformer.mjs",
+      "sha256": "71cb00f4c713a898448b1f0f5d574ceb21a7646be6202c5dcb2bb2138cd280df"
+    },
+    {
+      "sourcePath": ".yarn/patches/remark-mdx-npm-2.0.0-rc.2-7a71234e1f.patch",
+      "originalCopy": "source-originals/.yarn/patches/remark-mdx-npm-2.0.0-rc.2-7a71234e1f.patch",
+      "sha256": "c093ca05d46c89d63c97f9a72afef77d12d6576925940644a2051da9243d82b5"
+    },
+    {
+      "sourcePath": ".yarn/patches/remark-parse-npm-10.0.1-e654d7df78.patch",
+      "originalCopy": "source-originals/.yarn/patches/remark-parse-npm-10.0.1-e654d7df78.patch",
+      "sha256": "30b8768810b245ff77824ff1dd719496fee199451d69f724f68b92cb540e88f3"
+    }
+  ],
+  "adapters": [
+    {
+      "path": "expand-example-switcher.mjs",
+      "sourcePath": "packages/dev/s2-docs/MDXTransformer.mjs",
+      "sha256": "40b507d652fbbaa3ecf2d79139903625688c128e5d6aa2fc6c8249affc7106e5",
+      "adaptation": "Removed Parcel wrapper only; source preprocessing function returns code/replaced; genuine JSON5 remains required. Syntax checked; not executed."
+    }
+  ],
+  "patchAssessment": {
+    "remarkMdx": "Only index.d.ts Options import path changed; no runtime grammar change",
+    "remarkParse": "Only lib/index.d.ts Options import path changed; no runtime grammar change",
+    "dependencyPatchApplied": false
+  }
+}

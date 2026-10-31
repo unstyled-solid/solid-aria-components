@@ -1,0 +1,16 @@
+node_modules/
+.DS_Store
+.ccc/
+.cocoindex_code/
+.vite/
+coverage/
+dist/
+test/ssr-harness/.generated/
+**/.parcel-cache*/
+**/.probe-cache/
+docs-website/.npm-cache/
+docs-website/dist*/
+distribution/staged/
+distribution/staging-i18n/
+tracking/browser-test-diagnostics/raw/
+tracking/browser-test-diagnostics/rerun-*/raw/

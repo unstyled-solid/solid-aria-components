@@ -1,0 +1,3 @@
+ ✓ |chromium-desktop| packages/react-aria-components/test/GridList.browser.test.tsx (3 tests) 313ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/GridList.browser.test.tsx (3 tests) 717ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/GridList.browser.test.tsx (3 tests) 10226ms

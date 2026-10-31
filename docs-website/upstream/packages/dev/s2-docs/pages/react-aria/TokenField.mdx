@@ -1,0 +1,397 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import vanillaDocs from 'docs:vanilla-starter/TokenField';
+import '../../tailwind/tailwind.css';
+
+export const tags = ['input', 'token', 'mention', 'tag', 'autocomplete', 'ai', 'prompt', 'comment', 'multi-select', 'combobox', 'search'];
+export const version = 'alpha';
+export const description = 'Allows users to enter text with inline tokens such as mentions, tags, or object references.';
+
+# TokenField
+
+<PageDescription>{docs.exports.TokenField.description}</PageDescription>
+
+<ExampleSwitcher>
+  ```tsx nativeModule="TokenField/solid-example-1.tsx" solid="TokenField/solid-example-1.tsx" files={["packages/dev/s2-docs/pages/react-aria/TokenField/vanilla/TokenField.solid.tsx","packages/dev/s2-docs/pages/react-aria/TokenField/vanilla/TokenField.css","packages/dev/s2-docs/pages/react-aria/TokenField/TokenizingFieldValue.solid.ts"]}  docs={vanillaDocs.exports.TokenField} links={vanillaDocs.links} props={['label', 'description', 'allowsNewlines', 'isDisabled']} initialProps={{label: 'Message', allowsNewlines: true}} type="vanilla" 
+  import { Token, TokenField } from './TokenField/vanilla/TokenField.solid';
+  import { TokenizingFieldValue } from './TokenizingFieldValue.solid';
+  function Example(props: Record<string, unknown>) {
+      return (<TokenField {...props} defaultValue={TokenizingFieldValue.tokenize('This example automatically tokenizes #hashtags and @usernames in the text.', /(?<=[\s\u200B]|^)[#@][^\s\u200B]+(?=[\s\u200B])/g)}>
+    {segment => <Token>{segment.text}</Token>}
+      </TokenField>);
+  }
+  ```
+
+  ```tsx nativeModule="TokenField/solid-example-2.tsx" solid="TokenField/solid-example-2.tsx" files={["packages/dev/s2-docs/pages/react-aria/TokenField/tailwind/TokenField.solid.tsx","packages/dev/s2-docs/pages/react-aria/TokenField/TokenizingFieldValue.solid.ts"]}  docs={vanillaDocs.exports.TokenField} links={vanillaDocs.links} props={['label', 'description', 'allowsNewlines', 'isDisabled']} initialProps={{label: 'Message', allowsNewlines: true}} type="tailwind" 
+  import { Token, TokenField } from './TokenField/tailwind/TokenField.solid';
+  import { TokenizingFieldValue } from './TokenizingFieldValue.solid';
+  function Example(props: Record<string, unknown>) {
+      return (<TokenField {...props} defaultValue={TokenizingFieldValue.tokenize('This example automatically tokenizes #hashtags and @usernames in the text.', /(?<=[\s\u200B]|^)[#@][^\s\u200B]+(?=[\s\u200B])/g)}>
+    {segment => <Token>{segment.text}</Token>}
+      </TokenField>);
+  }
+  ```
+</ExampleSwitcher>
+
+## Value
+
+`TokenField` is controlled via a `TokenFieldValue` value, which represents a sequence of text and token segments. Use the `value` or `defaultValue` prop to set the value, and `onChange` to handle user input.
+
+```tsx nativeModule="TokenField/solid-example-3.tsx" solid="TokenField/solid-example-3.tsx" files={["packages/dev/s2-docs/pages/react-aria/TokenField/solid-example-3.tsx"]} 
+import { Token, TokenField } from './TokenField/vanilla/TokenField.solid';
+import { TokenFieldValue } from 'solid-aria-components';
+import { createSignal } from 'solid-js';
+function Example() {
+    let [value, setValue] = createSignal(new TokenFieldValue([
+        { type: 'text', text: 'Hello ' },
+        { type: 'token', text: '@username' },
+        { type: 'text', text: '!' }
+    ]));
+    return (<>
+      {/*- begin highlight -*/}
+      <TokenField value={value()} onChange={setValue} label="Message">
+        {segment => <Token>{segment.text}</Token>}
+      </TokenField>
+      {/*- end highlight -*/}
+      <p>Value: {value().toString()}</p>
+    </>);
+}
+```
+
+## Tokenization
+
+Extend the `TokenFieldValue` class to customize how text is converted into tokens. Override the `tokenize` method to parse user input, and use `createFieldValue` to return new instances of your subclass when the value changes.
+
+```tsx nativeModule="TokenField/solid-example-4.tsx" solid="TokenField/solid-example-4.tsx" files={["packages/dev/s2-docs/pages/react-aria/TokenField/solid-example-4.tsx"]} 
+import { Token, TokenField } from './TokenField/vanilla/TokenField.solid';
+import { TokenizingFieldValue } from './TokenizingFieldValue.solid';
+function Example(props: Record<string, unknown>) {
+    return (<TokenField allowsNewlines defaultValue={TokenizingFieldValue.tokenize('This example automatically tokenizes #hashtags and @usernames in the text.', /(?<=[\s\u200B]|^)[#@][^\s\u200B]+(?=[\s\u200B])/g)} label="Message">
+  {segment => <Token>{segment.text}</Token>}
+    </TokenField>);
+}
+```
+
+## Autocomplete
+
+Combine `TokenField` with [Autocomplete](Autocomplete) to provide inline completions such as @mentions and slash commands. Use `TokenFieldValue.findText` to locate the anchor character, and `tokenFieldPositionToDOMRange` to position a [Popover](Popover) relative to the filter text.
+
+```tsx nativeModule="TokenField/solid-example-5.tsx" solid="TokenField/solid-example-5.tsx" files={["packages/dev/s2-docs/pages/react-aria/TokenField/solid-example-5.tsx"]} 
+import { Autocomplete } from 'solid-aria-components';
+import { Text } from 'solid-aria-components';
+import { Token, TokenField } from './TokenField/vanilla/TokenField.solid';
+import { tokenFieldPositionToDOMRange } from '../../../../../../../../packages/react-aria-components/exports/TokenField';
+import { TokenFieldValue } from 'solid-aria-components';
+import { Menu, MenuItem } from './TokenField/vanilla/Menu.solid';
+import { Popover } from './TokenField/vanilla/Popover.solid';
+import { createMemo, createSignal } from 'solid-js';
+type Item = {
+    username: string;
+} | {
+    command: string;
+    description: string;
+};
+/*- begin collapse -*/
+const usernames = [
+    { username: 'alexmiller' },
+    { username: 'sarahjones' },
+    { username: 'davidkim' },
+    { username: 'emmawatson' },
+    { username: 'oliverliu' },
+    { username: 'ellagreen' },
+    { username: 'lucasbrown' },
+    { username: 'amandarivera' },
+    { username: 'masonlee' },
+    { username: 'nataliasmith' },
+    { username: 'benjamintaylor' },
+    { username: 'zoewilson' },
+    { username: 'henrywalker' },
+    { username: 'madelineyoung' },
+    { username: 'noahscott' },
+    { username: 'lucygonzalez' },
+    { username: 'jacobmartin' },
+    { username: 'averymoore' },
+    { username: 'loganmurphy' },
+    { username: 'miahernandez' },
+    { username: 'danieladair' },
+    { username: 'sofiacox' },
+    { username: 'jackharris' },
+    { username: 'chloebaker' },
+    { username: 'liamrodriguez' }
+];
+/*- end collapse -*/
+/*- begin collapse -*/
+const slashCommands = [
+    { command: 'gif', description: 'Insert a GIF' },
+    { command: 'todo', description: 'Add a todo list item' },
+    { command: 'mention', description: 'Mention a user with @username' },
+    { command: 'date', description: 'Insert the current date' },
+    { command: 'quote', description: 'Insert a quote block' }
+];
+/*- end collapse -*/
+function Example() {
+    let inputRef: {
+        current: HTMLDivElement | null;
+    } = { current: null };
+    let [value, setValue] = createSignal(new TokenFieldValue([
+        { type: 'text', text: 'This example has autocomplete for ' },
+        { type: 'token', text: '@usernames' },
+        { type: 'text', text: ' and ' },
+        { type: 'token', text: '/commands' }
+    ]));
+    let filter = createMemo(() => {
+        let filterAnchor = value().findText(value().caretPosition, TokenFieldValue.Direction.Backward, /(?<=^|\s)[@/]/);
+        if (filterAnchor != null) {
+            let filterValue = value().slice(filterAnchor, value().caretPosition).toString();
+            return [filterAnchor, filterValue] as const;
+        }
+        return [null, null] as const;
+    });
+    let filterAnchor = () => filter()[0];
+    let items = createMemo<Item[]>(() => {
+        let filterValue = filter()[1];
+        if (filterValue?.startsWith('/'))
+            return slashCommands.filter(item => item.command.includes(filterValue.slice(1)));
+        if (filterValue?.startsWith('@'))
+            return usernames.filter(item => item.username.includes(filterValue.slice(1)));
+        return [];
+    });
+    return (
+    /*- begin highlight -*/
+    <Autocomplete>
+      <TokenField value={value()} onChange={setValue} label="Prompt" allowsNewlines inputRef={node => { inputRef.current = node; }}>
+        {segment => <Token>{segment.text}</Token>}
+      </TokenField>
+      <Popover triggerRef={inputRef} isOpen={filterAnchor() != null && items().length > 0} isNonModal hideArrow placement="bottom start" trigger="MenuTrigger" getTargetRect={target => {
+            return tokenFieldPositionToDOMRange(target, filterAnchor()!).getBoundingClientRect();
+        }}>
+        <Menu items={items()} dependencies={[filterAnchor()]}>
+          {item => (<MenuItem id={'username' in item ? item.username : item.command} onAction={() => {
+                setValue(value => value.replaceRangeWithSegments(filterAnchor()!, value.caretPosition, [
+                    {
+                        type: 'token',
+                        text: 'username' in item ? '@' + item.username : item.command
+                    },
+                    { type: 'text', text: ' ' }
+                ], false));
+            }}>
+              <Text slot="label">{'username' in item ? item.username : item.command}</Text>
+              {'description' in item ? <Text slot="description">{item.description}</Text> : null}
+            </MenuItem>)}
+        </Menu>
+      </Popover>
+    </Autocomplete>
+    /*- end highlight -*/
+    );
+}
+```
+
+## Tag field
+
+Use a custom `TokenFieldValue` to build a tag input. This example converts comma, space, or newline separated text into tokens.
+
+```tsx nativeModule="TokenField/solid-example-6.tsx" solid="TokenField/solid-example-6.tsx" files={["packages/dev/s2-docs/pages/react-aria/TokenField/TagFieldValue.solid.ts"]}  
+import { Token, TokenField } from './TokenField/vanilla/TokenField.solid';
+import { TagFieldValue } from './TagFieldValue.solid';
+function Example(props: Record<string, unknown>) {
+    return (<TokenField allowsNewlines defaultValue={new TagFieldValue([
+            { type: 'token', text: 'Architecture' },
+            { type: 'token', text: 'Design' },
+            { type: 'token', text: 'Development' },
+            { type: 'token', text: 'Marketing' },
+            { type: 'token', text: 'Sales' }
+        ])} label="Categories">
+  {segment => <Token>{segment.text}</Token>}
+    </TokenField>);
+}
+```
+
+## Search
+
+Token fields can be used to build advanced search UIs with structured query tokens. This example suggests filters based on the current text segment.
+
+```tsx nativeModule="TokenField/solid-example-7.tsx" solid="TokenField/solid-example-7.tsx" files={["packages/dev/s2-docs/pages/react-aria/TokenField/solid-example-7.tsx"]} 
+import { Autocomplete } from 'solid-aria-components';
+import { Collection } from 'solid-aria-components';
+import { Token, TokenField } from './TokenField/vanilla/TokenField.solid';
+import { Header, Menu, MenuItem, MenuSection } from './TokenField/vanilla/Menu.solid';
+import { Popover } from './TokenField/vanilla/Popover.solid';
+import { createSignal, createMemo } from 'solid-js';
+import { TokenFieldValue } from 'solid-aria-components';
+/*- begin collapse -*/
+const usernames = [
+    { username: 'alexmiller' },
+    { username: 'sarahjones' },
+    { username: 'davidkim' },
+    { username: 'emmawatson' },
+    { username: 'oliverliu' },
+    { username: 'ellagreen' },
+    { username: 'lucasbrown' },
+    { username: 'amandarivera' },
+    { username: 'masonlee' },
+    { username: 'nataliasmith' },
+    { username: 'benjamintaylor' },
+    { username: 'zoewilson' },
+    { username: 'henrywalker' },
+    { username: 'madelineyoung' },
+    { username: 'noahscott' },
+    { username: 'lucygonzalez' },
+    { username: 'jacobmartin' },
+    { username: 'averymoore' },
+    { username: 'loganmurphy' },
+    { username: 'miahernandez' },
+    { username: 'danieladair' },
+    { username: 'sofiacox' },
+    { username: 'jackharris' },
+    { username: 'chloebaker' },
+    { username: 'liamrodriguez' }
+];
+/*- end collapse -*/
+function Example() {
+    let inputRef: {
+        current: HTMLDivElement | null;
+    } = { current: null };
+    let [value, setValue] = createSignal(new TokenFieldValue([{ type: 'token', text: 'From: Alice Smith' }]));
+    let suggestions = createMemo(() => {
+        let last = value().segments[value().caretPosition.index];
+        let filterText = last?.type === 'text' ? last.text : null;
+        let suggestions: {
+            name: string;
+            items: string[];
+        }[] = [];
+        if (filterText != null) {
+            let users = usernames
+                .filter(item => item.username.includes(filterText))
+                .map(u => u.username)
+                .slice(0, 5);
+            if (users.length > 0) {
+                if (!value().segments.some(segment => segment.type === 'token' && segment.text.startsWith('From: '))) {
+                    suggestions.push({
+                        name: 'From',
+                        items: users
+                    });
+                }
+                suggestions.push({
+                    name: 'To',
+                    items: users
+                });
+            }
+            suggestions.push({
+                name: 'Subject',
+                items: [filterText]
+            });
+        }
+        return suggestions;
+    });
+    return (<Autocomplete>
+      <TokenField role="searchbox" value={value()} onChange={setValue} label="Search" inputRef={node => { inputRef.current = node; }}>
+        {segment => <Token>{segment.text}</Token>}
+      </TokenField>
+      <Popover triggerRef={inputRef} isOpen={suggestions().length > 0} isNonModal hideArrow placement="bottom start" style={{ "width": 'var(--trigger-width)' }} trigger="MenuTrigger">
+        <Menu items={suggestions()}>
+          {section => (<MenuSection>
+              <Header>{section.name}</Header>
+              <Collection items={section.items}>
+                {item => (<MenuItem id={section.name + '-' + item} onAction={() => {
+                    setValue(value => value.replaceRangeWithSegments({ index: value.caretPosition.index, offset: 0 }, value.caretPosition, [{ type: 'token', text: section.name + ': ' + item }], false));
+                }}>
+                    {item}
+                  </MenuItem>)}
+              </Collection>
+            </MenuSection>)}
+        </Menu>
+      </Popover>
+    </Autocomplete>);
+}
+```
+
+## ComboBox
+
+Use `TokenField` as the input for a [ComboBox](ComboBox) to build a multi-select field with tokens. Synchronize the `TokenFieldValue` with the ComboBox `value` and `inputValue` props using a custom segment list class.
+
+```tsx nativeModule="TokenField/solid-example-8.tsx" solid="TokenField/solid-example-8.tsx" files={["packages/dev/s2-docs/pages/react-aria/TokenField/ComboBoxTokenFieldValue.solid.ts"]}  
+import { ComboBox } from 'solid-aria-components';
+import { Token, TokenField } from './TokenField/vanilla/TokenField.solid';
+import { ComboBoxItem, ComboBoxListBox } from './TokenField/vanilla/ComboBox.solid';
+import { FieldButton, Label } from './TokenField/vanilla/Form.solid';
+import { Popover } from './TokenField/vanilla/Popover.solid';
+import { ComboBoxTokenFieldValue } from './ComboBoxTokenFieldValue.solid';
+import { ChevronDown } from './TokenField/native-icons/solid-icons';
+import { createSignal } from 'solid-js';
+/*- begin collapse -*/
+const usernames = [
+    { username: 'alexmiller' },
+    { username: 'sarahjones' },
+    { username: 'davidkim' },
+    { username: 'emmawatson' },
+    { username: 'oliverliu' },
+    { username: 'ellagreen' },
+    { username: 'lucasbrown' },
+    { username: 'amandarivera' },
+    { username: 'masonlee' },
+    { username: 'nataliasmith' },
+    { username: 'benjamintaylor' },
+    { username: 'zoewilson' },
+    { username: 'henrywalker' },
+    { username: 'madelineyoung' },
+    { username: 'noahscott' },
+    { username: 'lucygonzalez' },
+    { username: 'jacobmartin' },
+    { username: 'averymoore' },
+    { username: 'loganmurphy' },
+    { username: 'miahernandez' },
+    { username: 'danieladair' },
+    { username: 'sofiacox' },
+    { username: 'jackharris' },
+    { username: 'chloebaker' },
+    { username: 'liamrodriguez' }
+];
+/*- end collapse -*/
+function Example() {
+    let [value, setValue] = createSignal(new ComboBoxTokenFieldValue([]));
+    return (<ComboBox selectionMode="multiple" style={{ "width": "500px", "max-width": '100%' }} value={value().getSelectedKeys()} inputValue={value().getInputValue()} onChange={keys => setValue(value().setSelectedKeys(keys))}>
+      <Label>Users</Label>
+      <div class="combobox-field">
+        <TokenField value={value()} onChange={setValue} placeholder="Select users" style={{ "padding-inline-end": "36px" }}>
+          {segment => <Token>{segment.text}</Token>}
+        </TokenField>
+        <FieldButton>
+          <ChevronDown />
+        </FieldButton>
+      </div>
+      <Popover hideArrow className="combobox-popover">
+        <ComboBoxListBox items={usernames}>
+          {state => <ComboBoxItem id={state.username}>{state.username}</ComboBoxItem>}
+        </ComboBoxListBox>
+      </Popover>
+    </ComboBox>);
+}
+```
+
+## API
+
+```tsx links={{TokenField: '#tokenfield', TokenInput: '#token-input', Token: '#token'}}
+<TokenField>
+  <Label />
+  <TokenInput>{segment => <Token />}</TokenInput>
+  <Text slot="description" />
+</TokenField>
+```
+
+### TokenField
+
+<PropTable component={docs.exports.TokenField} links={docs.links} />
+
+### TokenInput
+
+<PropTable component={docs.exports.TokenInput} links={docs.links} />
+
+### Token
+
+<PropTable component={docs.exports.Token} links={docs.links} />
+
+### TokenFieldValue
+
+<ClassAPI class={docs.exports.TokenFieldValue} links={docs.links} />

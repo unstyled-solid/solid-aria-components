@@ -1,0 +1,8 @@
+{
+  "package": "@parcel/transformer-svg-react",
+  "version": "2.16.3",
+  "tarball": "https://registry.npmjs.org/@parcel/transformer-svg-react/-/transformer-svg-react-2.16.3.tgz",
+  "integrity": "sha512-ADv3K3VSdRvnO9Cn28IHsXYPhlc7kka/wFLQyY1SCM/6UWutel8B83PvmR2gQQNCQ9L5Q4L+HCweesQjU9CeDQ==",
+  "sourceSha256": "b51ac36fe07f7545c063f10e70b5798929242cb6fd4e77b5356e1b91c696ce02",
+  "mode": "integrity-verified published frozen-version artifact; terminal-copied before Parcel-boundary adaptation"
+}

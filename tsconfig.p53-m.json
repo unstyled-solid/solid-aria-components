@@ -1,0 +1,37 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "types": ["node", "vitest/globals", "@vitest/browser-playwright/context"],
+    "paths": {
+      "react-aria/private/*": ["packages/react-aria/src/*"],
+      "react-aria/test/*": ["packages/react-aria/test/*"],
+      "react-aria/*": ["packages/react-aria/exports/*"],
+      "react-stately/private/*": ["packages/react-stately/src/*"],
+      "react-stately/*": ["packages/react-stately/exports/*"],
+      "@react-types/shared": ["packages/@react-types/shared/src/pilot.d.ts"],
+      "@react-stately/flags": ["packages/@react-stately/flags/src/index.ts"],
+      "@adobe/react-spectrum/private/*": ["packages/@adobe/react-spectrum/src/*"],
+      "@adobe/react-spectrum/*": ["packages/@adobe/react-spectrum/exports/*"],
+      "@spectrum-icons/ui/*": ["packages/@spectrum-icons/ui/src/*"],
+      "@adobe/react-spectrum-ui/dist/*": ["packages/@adobe/react-spectrum-ui/src/*"],
+      "@spectrum-icons/workflow/*": ["packages/@spectrum-icons/workflow/src/*"],
+      "@spectrum-icons/illustrations/NoSearchResults": ["packages/@spectrum-icons/illustrations/src/NoSearchResults.tsx"],
+      "@adobe/react-spectrum-workflow/dist/*": ["packages/@adobe/react-spectrum-workflow/src/*"],
+      "react-aria-components/Heading": ["packages/react-aria-components/src/Heading.tsx"],
+      "react-aria-components/Checkbox": ["packages/react-aria-components/src/Checkbox.tsx"],
+      "react-aria-components/PreviewTrigger": ["packages/react-aria-components/exports/PreviewTrigger.ts"],
+      "react-aria-components/test/AriaMenu.test-util": ["packages/react-aria-components/test/AriaMenu.test-util.tsx"],
+      "react-aria-components/slots": ["packages/react-aria-components/src/utils.tsx"],
+      "@react-aria/test-utils": ["packages/@react-aria/test-utils/src/user.ts"],
+      "@internationalized/number": ["packages/@internationalized/number/src/index.ts"],
+      "@internationalized/date": ["packages/@internationalized/date/src/index.ts"],
+      "@internationalized/date/tests/*": ["packages/@internationalized/date/tests/*"],
+      "@internationalized/string": ["packages/@internationalized/string/src/index.ts"],
+      "@react-spectrum/test-utils-internal": ["packages/dev/test-utils/src/renderOverride.tsx"],
+      "vitest-browser-react": ["test/browser/render.tsx"]
+    }
+  },
+  "files": ["test/intl.d.ts", "test/browser/p27-commands.ts"],
+  "include": ["packages/react-aria-components/test/Modal.browser.test.tsx"]
+}

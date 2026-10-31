@@ -1,0 +1,131 @@
+@layer _.prose, _.a, _.b;
+
+@layer _.a {
+  .-Ovbhqd-g4hn3s18 {
+    --s2-container-bg: white;
+  }
+
+
+  .-Ovbhqd-gcwrnr18 {
+    --s2-container-bg: black;
+  }
+
+
+  ._df18 {
+    align-self: stretch;
+  }
+
+
+  .gF18 {
+    background-color: light-dark(rgb(225, 225, 225), rgb(50, 50, 50));
+  }
+
+
+  .g018 {
+    background-color: light-dark(rgb(41, 41, 41), rgb(219, 219, 219));
+  }
+
+
+  .gg18 {
+    background-color: lch(from var(--s2-container-bg) calc((49.44 - l) * infinity) 0 0 / 0.14);
+  }
+
+
+  .gi18 {
+    background-color: lch(from var(--s2-container-bg) calc((49.44 - l) * infinity) 0 0 / 0.85);
+  }
+
+
+  ._je18 {
+    border-style: none;
+  }
+
+
+  .og18 {
+    border-start-start-radius: 9999px;
+  }
+
+
+  .ng18 {
+    border-start-end-radius: 9999px;
+  }
+
+
+  .kg18 {
+    border-end-start-radius: 9999px;
+  }
+
+
+  .jg18 {
+    border-end-end-radius: 9999px;
+  }
+
+
+  .Jy18 {
+    margin-top: 0rem;
+  }
+
+
+  .Gy18 {
+    margin-bottom: 0rem;
+  }
+
+
+  .Iy18 {
+    margin-inline-start: 0rem;
+  }
+
+
+  .Hy18 {
+    margin-inline-end: 0rem;
+  }
+
+
+  ._ua18 {
+    flex-grow: 0;
+  }
+
+
+  ._va18 {
+    flex-shrink: 0;
+  }
+
+
+  .FLvNfn18 {
+    height: 2px;
+  }
+
+
+  .FceNfn18 {
+    height: 1px;
+  }
+
+
+  .FT4Nfn18 {
+    height: 4px;
+  }
+
+
+  .ZLvNfn18 {
+    width: 2px;
+  }
+
+
+  .ZceNfn18 {
+    width: 1px;
+  }
+
+
+  .ZT4Nfn18 {
+    width: 4px;
+  }
+}
+
+@layer _.b.l {
+  @media (forced-colors: active) {
+    .gl_a18 {
+      background-color: ButtonBorder;
+    }
+  }
+}
+

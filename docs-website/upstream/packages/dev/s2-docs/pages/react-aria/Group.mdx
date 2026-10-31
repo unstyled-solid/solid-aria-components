@@ -1,0 +1,31 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import vanillaDocs from 'docs:vanilla-starter/InputGroup';
+import '../../tailwind/tailwind.css';
+
+export const tags = [];
+export const description = 'Represents a set of related UI controls, and supports interactive states for styling.';
+
+# Group
+
+<PageDescription>{docs.exports.Group.description}</PageDescription>
+
+```tsx nativeModule="Group/solid-example-1.tsx" solid="Group/solid-example-1.tsx" files={["packages/dev/s2-docs/pages/react-aria/Group/vanilla/InputGroup.solid.tsx","packages/dev/s2-docs/pages/react-aria/Group/vanilla/InputGroup.css"]}   docs={vanillaDocs.exports.InputGroup} links={vanillaDocs.links} props={['label', 'isDisabled', 'isInvalid']} initialProps={{label: 'Serial number'}} type="vanilla" 
+import { InputGroup } from './Group/vanilla/InputGroup.solid';
+import { Input } from 'solid-aria-components';
+function Example(props: Record<string, unknown>) {
+    return (<InputGroup {...props}>
+  <Input style={{ "width": '3ch', "box-sizing": 'content-box' }} maxlength={3} aria-label="First 3 digits" placeholder="000"/>
+  –
+  <Input style={{ "width": '2ch', "box-sizing": 'content-box' }} maxlength={2} aria-label="Middle 2 digits" placeholder="00"/>
+  –
+  <Input style={{ "width": '4ch', "box-sizing": 'content-box' }} maxlength={4} aria-label="Last 4 digits" placeholder="0000"/>
+    </InputGroup>);
+}
+```
+
+## API
+
+<PropTable component={docs.exports.Group} links={docs.links} />

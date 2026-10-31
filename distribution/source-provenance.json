@@ -1,0 +1,3216 @@
+{
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "sourceManifestSha256": "bc5f13b2553362dd25d312c37ac0169a75138d35babd03ce3b58bdd293767906",
+  "entryCount": 83,
+  "localization": {
+    "inputCount": 782,
+    "locales": [
+      "ar-AE",
+      "bg-BG",
+      "cs-CZ",
+      "da-DK",
+      "de-DE",
+      "el-GR",
+      "en-US",
+      "es-ES",
+      "et-EE",
+      "fi-FI",
+      "fr-FR",
+      "he-IL",
+      "hr-HR",
+      "hu-HU",
+      "it-IT",
+      "ja-JP",
+      "ko-KR",
+      "lt-LT",
+      "lv-LV",
+      "nb-NO",
+      "nl-NL",
+      "pl-PL",
+      "pt-BR",
+      "pt-PT",
+      "ro-RO",
+      "ru-RU",
+      "sk-SK",
+      "sl-SI",
+      "sr-SP",
+      "sv-SE",
+      "tr-TR",
+      "uk-UA",
+      "zh-CN",
+      "zh-TW"
+    ],
+    "inputs": [
+      {
+        "path": "packages/react-aria/intl/autocomplete/ar-AE.json",
+        "sha256": "c8f2cbaccab197afb7552a42f95d33a96fdd7812e914b9dfaee4fcae249bb80c"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/bg-BG.json",
+        "sha256": "de0f3e1f3c6347da5a768e3f154d7ba8b0667893aedbd76ecd586e41799be35c"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/cs-CZ.json",
+        "sha256": "f7b88a71972c20f9d583ef486fbdd7615d70eacc83c5660e7d6ba90c1a80654a"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/da-DK.json",
+        "sha256": "f339755aa391051d1eb6374da2729f3a92a5a65f5802943b31a6527459c201dd"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/de-DE.json",
+        "sha256": "91b8c87ae91c0b875b6f276faff0b8b09ab969bfd31dd3a7a5af5a5c0d7daa27"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/el-GR.json",
+        "sha256": "5ebc25d0cec379c2a5c09b7897d938bc606f71313a0355c623b9dabeb16fde77"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/en-US.json",
+        "sha256": "becb5556179dd858ad31e9f316f151668de31c3fcd9d42ec25268ca14750c252"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/es-ES.json",
+        "sha256": "4ad13f5935df6e7ea462ea6988f944e9df71976eb27f3bb6ec9171fdfdaf6674"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/et-EE.json",
+        "sha256": "9e4df04c70011d4eac9fb3a43c7f0a7609f47c8499a5da59562f879a18b0190f"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/fi-FI.json",
+        "sha256": "a9d8e5f0608149c1be546dd56eaf641ccb0439b5fb65a8af781806d68b6e8f0c"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/fr-FR.json",
+        "sha256": "becb5556179dd858ad31e9f316f151668de31c3fcd9d42ec25268ca14750c252"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/he-IL.json",
+        "sha256": "0818b4e57420e89c609f9e3d29eb138518a3bf7619ec07650265421107ecc4ad"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/hr-HR.json",
+        "sha256": "1b0316adbeac6d698c5a103fa862409dca25cdcc7d6df16936d62275851dcf38"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/hu-HU.json",
+        "sha256": "b56161d94255ba97393f1859c2db654de79b44e60d5a877ee7927015452fa38a"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/it-IT.json",
+        "sha256": "16978de24709f13c1804c43c57c9a59fa8043d30319bcdb8c2db9ba55c1e6ebd"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/ja-JP.json",
+        "sha256": "8e0c3785dcfb68f6c50dc4550bbf4b41b2b62b9cddfaebc1d4a3018b954a11a5"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/ko-KR.json",
+        "sha256": "981709d7d5cad0fad39bd555e99769172da61044ac9929b61b5d1b079cc0751a"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/lt-LT.json",
+        "sha256": "69d08bb3bd6fd08f964044760c368ecfbfbfee31fb38efa510f91106efbe0a64"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/lv-LV.json",
+        "sha256": "e6e312b946976e08514615a280b6046414a77786e1500a5adad6da771b2a7e18"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/nb-NO.json",
+        "sha256": "f339755aa391051d1eb6374da2729f3a92a5a65f5802943b31a6527459c201dd"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/nl-NL.json",
+        "sha256": "89e23657205b6f727484923703146ba728d9c5cf6627949e64b6d8e5e0b236d7"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/pl-PL.json",
+        "sha256": "1beb63437c0f3b31c6a04840cca9b1c4780fd010b94efb86d3cee5e81527e123"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/pt-BR.json",
+        "sha256": "60d70056f894cd2de85b12f4246633f9de8cf243f0d0c06eebb98c89e2b067d1"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/pt-PT.json",
+        "sha256": "60d70056f894cd2de85b12f4246633f9de8cf243f0d0c06eebb98c89e2b067d1"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/ro-RO.json",
+        "sha256": "f95f7c560576c6234cf0b98599cde28400f63e1b3904e328bf9c3de0a5ff62b3"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/ru-RU.json",
+        "sha256": "de0f3e1f3c6347da5a768e3f154d7ba8b0667893aedbd76ecd586e41799be35c"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/sk-SK.json",
+        "sha256": "f7b88a71972c20f9d583ef486fbdd7615d70eacc83c5660e7d6ba90c1a80654a"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/sl-SI.json",
+        "sha256": "57a137873bbf6a8434e502f4cdf88f3855ad3a107ca40796668eee23899f64bf"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/sr-SP.json",
+        "sha256": "ac71d0f66e04aaf8f92abceee51c90d07ed839864942dc41e84bf4e0aa583edc"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/sv-SE.json",
+        "sha256": "fd8248343f1e527c7696f1e7000d89077f45a16d041d8e3cd5db3062e4199852"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/tr-TR.json",
+        "sha256": "b7dfae03362f87ba6721a06647d4d60d1ed1d6cd8601903e2e37d1dca2a69195"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/uk-UA.json",
+        "sha256": "e3ea191f11676e82082398b8b3f86e5d217059b312c2c6643bdabd9db6bbaa23"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/zh-CN.json",
+        "sha256": "2c06935284296743d8dbe7dee683e0c018f99bb2c69ae127b2eefc6b07f92ba7"
+      },
+      {
+        "path": "packages/react-aria/intl/autocomplete/zh-TW.json",
+        "sha256": "c8ab859015410368bc1ad5ed820f36828b28a7c71ae894ca85fa43f335dbe0ea"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/ar-AE.json",
+        "sha256": "a3e6e3aafcc2e55a2c6233065c03eac74e9f28b690052f197865ef48c48fb19a"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/bg-BG.json",
+        "sha256": "2f4543194e1a9ed1ee01281a1ce1e678b56ab4b972717fce4647d96a39bfdef0"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/cs-CZ.json",
+        "sha256": "ac91864460d99fb9bd8df0401c0f5d0171c9462f886c05fcba8f89157d39c48f"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/da-DK.json",
+        "sha256": "df03694e6299298c58dd67d09cf35cc07ed071d010ed5488926c68190a64c2fb"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/de-DE.json",
+        "sha256": "e917baeced52faa0cf415313c33adf535cd15503f86819571b044e043079a6e7"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/el-GR.json",
+        "sha256": "c1ecbbd8aa271c9e4b2958f1d2a3ec55e481db8cfd13b31d36252f8bac072ada"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/en-US.json",
+        "sha256": "e917baeced52faa0cf415313c33adf535cd15503f86819571b044e043079a6e7"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/es-ES.json",
+        "sha256": "bd7fdf11acd6369fc26dd47fad42e3d2039c063354bceac757e8d4aedd5dd284"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/et-EE.json",
+        "sha256": "7808a1566033e3259d844d68860c81660831f0997a948c4d67587212e8919a41"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/fi-FI.json",
+        "sha256": "c244edcd041e8e82cd1eec30664dfa203fda87b6b77ae6efb5338c946e74d02d"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/fr-FR.json",
+        "sha256": "9c87d5706fc63af3c9575a85ac544602ae9628ca9a678ae7b5c89d455af23a02"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/he-IL.json",
+        "sha256": "f4096c978e31c16a9beeda1b69a13585212ea03c6bb89088d3b90b1b30633cf2"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/hr-HR.json",
+        "sha256": "a745e21effe1ce00a37c90f3962de11119850f597b843f151a1a551f7ced6079"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/hu-HU.json",
+        "sha256": "8e0b88dd965162fa5f75813bedde7710a672da772be8d94383b7ef1de2fe5678"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/it-IT.json",
+        "sha256": "beb98203ec5a82e73d7bd95c0d23398ddea0d80d6cc747af955b9ffb6f2cdfa1"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/ja-JP.json",
+        "sha256": "ee52eb349f9892efb656a2020c5dee34c22c3af2781e4c9d71cc2ba5299e73b9"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/ko-KR.json",
+        "sha256": "2240a86ea5c6c8221e30fa12e79f7b20ac21b2636a46fe9242881032bd450473"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/lt-LT.json",
+        "sha256": "85f8b100c1b94f1950d28ee48773e5717d278973fd7623a88add90c3c641633b"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/lv-LV.json",
+        "sha256": "a83ef4da797d1006392b79dc5f677bcacb06db371cd30cc3cd9771435f04a92c"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/nb-NO.json",
+        "sha256": "94b6b24742d7862f285e39c684c6a65e602e24bcc3948e060cc2b21c7d00a1b2"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/nl-NL.json",
+        "sha256": "f862ebf3a02cc1c497fa8a26da4f91ec8ed4f8eba4404598b8da7a3955093de7"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/pl-PL.json",
+        "sha256": "349049b0fa31c81c5ebbf024bdf927d47524caa199d679a0584e8b85c10a6a52"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/pt-BR.json",
+        "sha256": "9740a11801f7b74e32763667162e1ac98ff752949569c604f2b8a717b6470c54"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/pt-PT.json",
+        "sha256": "bcef6ea11b7e9e0b195bf7f5a29499a5fd6729797c66f8e8b24c8173cc820f66"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/ro-RO.json",
+        "sha256": "f85ee7152d34e91f3a84e9c24b95f5a71b8cfc21961a87a3f3717175a6a667ac"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/ru-RU.json",
+        "sha256": "5c333cc686b36627a3fac8a2137d4bb2b22abb1fb4736d2f548d5b1aab6ea720"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/sk-SK.json",
+        "sha256": "56278a112a57bbe1fdbf14babe572b1478ed116c4d33cbd12cca86d032135954"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/sl-SI.json",
+        "sha256": "905c3edd96b7311cccaeb1aafbfdf1ef3db781712f4f18a162cb7a075076d9c3"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/sr-SP.json",
+        "sha256": "c38e85b1bb7f6a3db3276b9bf0cf178e136e903059d8a28c3b2e763d9d5d26fa"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/sv-SE.json",
+        "sha256": "305b85c6faa0c31f5913a1ceb5af13ba8eb5865a205d51f5337b49c84af3b6d4"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/tr-TR.json",
+        "sha256": "eb283eb202c226248e1115fffb0d0bc494671e058321b174e8bed2d79a433746"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/uk-UA.json",
+        "sha256": "cf92427f6b5730d27563479072b40d8b87be8d79a41258b0555c2ca56e5eb0f5"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/zh-CN.json",
+        "sha256": "904775dde8d90264df11b23f7ad502c8cc1e584ff7288ff7e35de667a0f48ee6"
+      },
+      {
+        "path": "packages/react-aria/intl/breadcrumbs/zh-TW.json",
+        "sha256": "50d4dc4839568cbc65803df0cfb17434ccb8b5041053668806a9d5d19e5dd872"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/ar-AE.json",
+        "sha256": "8acc0d631deaab550def0ab23e9b5a4f04a7589cfc4569bd1c628ca4eab5ada6"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/bg-BG.json",
+        "sha256": "89b35f818d91e9f124b0c30163b0717579ca977e399819fb9ee5238db308d225"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/cs-CZ.json",
+        "sha256": "0dd3fc92d06392942b0359ec1426bbfc53f5c90128a40c6619b4f5e9797a99ea"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/da-DK.json",
+        "sha256": "ac59f282afb8c3e8d03d713aede5ab1fefd25a86a1c59cde326e0346a3c79416"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/de-DE.json",
+        "sha256": "b71e32ca67adda5510a0a4832f5f687d0fcc512229677822d7c1a57bc0cc9b5f"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/el-GR.json",
+        "sha256": "3b36b892358641f06fe4e8e2529a030061f0b6183172a64a08c8c6399a26369f"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/en-US.json",
+        "sha256": "343177259be7ae7af3e59b30b056bd125ccf3855df70b9b4ade1436560998adf"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/es-ES.json",
+        "sha256": "902ac911f7a69def5abe503cba491a7e22ee33021dca400a9429c60ebfd2b707"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/et-EE.json",
+        "sha256": "a1b427dbd79d012d3a85818c7e0629b68b6bbdbe0d783c8297a572c8eb2110f9"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/fi-FI.json",
+        "sha256": "028cb87ff0e86d0c9a77ed929f3f4bc7f05309d95b4ba9eccd34057fcf08a612"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/fr-FR.json",
+        "sha256": "09b96f89e98850fad74c70efa815c6a060bd6726959b444bcb6c23d7665e963d"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/he-IL.json",
+        "sha256": "7d94917c0c78a7884e1cb28764fdd83af885dad269a0d960eb3e932f3137d527"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/hr-HR.json",
+        "sha256": "dbc05f5c0f8a0324308f060a1ddd5ed350eb188f82e95703db809b6a84c06839"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/hu-HU.json",
+        "sha256": "275f02a168d5bc12475215cfff63ab914feb30c11d3f781ed90a8f4bd3d337e5"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/it-IT.json",
+        "sha256": "ee998c9ab275d1c70d4fa3d349226a62c47dd37aaaefc03c15f63eb7f5e4eb69"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/ja-JP.json",
+        "sha256": "b34837d660408f27cc1717a731a641eee7f12462f8b212ba3568a1ebc6956c94"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/ko-KR.json",
+        "sha256": "c3d43ff627751d294d6f7b555ec33d27b140a62935f09ba66533fdd0bcc48787"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/lt-LT.json",
+        "sha256": "fc9addd7804c34a455419ce9c6dbe59bf7d8bf2dbe529c2c0fe7c590482358d1"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/lv-LV.json",
+        "sha256": "8b70a3898a97df58349b146ee9b69cea18936a8725d08dfe23df9ef09cbc6942"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/nb-NO.json",
+        "sha256": "07d3eab75742d37f5ae8449a6e30b6225936e31ba332bed6c247ef03e433abc8"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/nl-NL.json",
+        "sha256": "776675bfec7dca070c060260879e7d9bbee7eb2006c9f4cd041ae8b0244c3f07"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/pl-PL.json",
+        "sha256": "94164d5aa04cff5312b7a728ab4fade01175dd57c9e9eecd17fb36f8cf96a023"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/pt-BR.json",
+        "sha256": "b487b5b8d246f033542d58a26d517f2908b2d67372c44fac39213178bc1f7ea7"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/pt-PT.json",
+        "sha256": "256e9b75c9fa98148de79e9b2a389b4f39b02435feedc5e4b00f11172c02abf1"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/ro-RO.json",
+        "sha256": "5e4c20f64d9f861281e9a39575a682ca93617ff86f808fadb3ac24ef491bc31a"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/ru-RU.json",
+        "sha256": "a0c996be70744df290fe362df829140112a85d12f0b3a51785bdc18894d66982"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/sk-SK.json",
+        "sha256": "d7ddddd7a9f9403a77999d018122702dd1b27130c728b471115fb673cf29e48d"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/sl-SI.json",
+        "sha256": "5478468820ce91c62f067cc1bd61ff5385402ee07a34be230a2e3e6ac37f8aba"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/sr-SP.json",
+        "sha256": "cb41fc3884a484233963997540fb53555d6bd11e7f1a3c045454deef7750b13f"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/sv-SE.json",
+        "sha256": "f9b86d916e50baf86152e8f10825250737a75324c3d722441abc0e43bab5c175"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/tr-TR.json",
+        "sha256": "5573e90f5941883e81cd2e2998d66899349a8d71a408419006791209c6203aa6"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/uk-UA.json",
+        "sha256": "a81ef984630619338de06ded906b71d39b60cbd72a2d0ab15eafe94f5cf41ea0"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/zh-CN.json",
+        "sha256": "569329c633e9e5d8668247340a019f0fef951ee35848a1c501122274c905c93f"
+      },
+      {
+        "path": "packages/react-aria/intl/calendar/zh-TW.json",
+        "sha256": "aeb9df6992fd964aeac449a349af64744700f6a2e3528355e588e520dffd6006"
+      },
+      {
+        "path": "packages/react-aria/intl/color/ar-AE.json",
+        "sha256": "4f3b49386f7ef1becdabc0b32d043b0564332fb77a3766b5fd3c430b24c78d5c"
+      },
+      {
+        "path": "packages/react-aria/intl/color/bg-BG.json",
+        "sha256": "5ea8735b33c9cb935f222e4562331850c849fc1ca895fff1f1518cce611ba023"
+      },
+      {
+        "path": "packages/react-aria/intl/color/cs-CZ.json",
+        "sha256": "11bbb962f2dd5f6796220e6a6d6eb2b6ed3c25b151c2e6006a5c060623de1f47"
+      },
+      {
+        "path": "packages/react-aria/intl/color/da-DK.json",
+        "sha256": "f1d36fda5a896fb370a82d30f8b776f511bb3dac4a4c00048f52f0e86c3a872a"
+      },
+      {
+        "path": "packages/react-aria/intl/color/de-DE.json",
+        "sha256": "2bfdfaafc029acf7233f2f1d4eb09001dc84874ce9f29827461e53dac0548b20"
+      },
+      {
+        "path": "packages/react-aria/intl/color/el-GR.json",
+        "sha256": "6c8b2466c8e320a5b68e7eb19a75d3d1da84d213c346d013489538b51ee457dd"
+      },
+      {
+        "path": "packages/react-aria/intl/color/en-US.json",
+        "sha256": "76e50fa3634d6ad8b084a36c8969cbdb4a92715a33af7142fb1d4b52de378293"
+      },
+      {
+        "path": "packages/react-aria/intl/color/es-ES.json",
+        "sha256": "27d815ad925d6594c3d851d222830a8a213e480c70c653d8e12c8ea0f28ffe8c"
+      },
+      {
+        "path": "packages/react-aria/intl/color/et-EE.json",
+        "sha256": "5e6f7e9b5a2e7490e960e22f74dbd36e0d3adeca394423cc2fb9d8a6ffafebac"
+      },
+      {
+        "path": "packages/react-aria/intl/color/fi-FI.json",
+        "sha256": "8fb4df4850cb1307653d70a5cb24fd3432f1eca8ec9acc863063f30a1f109f64"
+      },
+      {
+        "path": "packages/react-aria/intl/color/fr-FR.json",
+        "sha256": "f6bde05cdbd52b070610799629f2d83265d381001c7067ef82c1d5cf20f4ae21"
+      },
+      {
+        "path": "packages/react-aria/intl/color/he-IL.json",
+        "sha256": "f0c7a4f1fef83453ce880a443361d1014593b625b390f92396f77eaacf93d05c"
+      },
+      {
+        "path": "packages/react-aria/intl/color/hr-HR.json",
+        "sha256": "59a56877af02b4898d07570ca639163ec60980ed58764536d148bd7b60fec6cc"
+      },
+      {
+        "path": "packages/react-aria/intl/color/hu-HU.json",
+        "sha256": "daf7943c2df414436d547a1a1ee5836ba3ce4e0247a021fd4d988dc8a4e827d5"
+      },
+      {
+        "path": "packages/react-aria/intl/color/it-IT.json",
+        "sha256": "445ad36c6509dd6a0f5979cad4b70bbbe1d13f5e229dbd3fa483b631e9d0a127"
+      },
+      {
+        "path": "packages/react-aria/intl/color/ja-JP.json",
+        "sha256": "5b26d8d0f9f031fd9835cd4a44cd09561d51e84305fb850315d72b4dde03ce8a"
+      },
+      {
+        "path": "packages/react-aria/intl/color/ko-KR.json",
+        "sha256": "853c36c35df8a613e87550f8e3440804ae5b58fe23c6778b077e35b6bd7ce11b"
+      },
+      {
+        "path": "packages/react-aria/intl/color/lt-LT.json",
+        "sha256": "588fda83c966c9daaac267dbea6f0600dcdb35b0e413003a38a2b3b633f76fed"
+      },
+      {
+        "path": "packages/react-aria/intl/color/lv-LV.json",
+        "sha256": "5bd536593f2cd3a5df81c399f34465b1f9c65b3035972af31db8bd2ec1854d0c"
+      },
+      {
+        "path": "packages/react-aria/intl/color/nb-NO.json",
+        "sha256": "5ce0f7e28d76b9f3752d747263b523670c631a0586ff1233e72e9f61bb8d0c0b"
+      },
+      {
+        "path": "packages/react-aria/intl/color/nl-NL.json",
+        "sha256": "ec2de0e7210a51628ca81a1e4a042e6b969131c8b5bc3400739b05dc602f862a"
+      },
+      {
+        "path": "packages/react-aria/intl/color/pl-PL.json",
+        "sha256": "38e1378f7299067f26f72c48b6febc4db71c3b80bc0801341715b41f2ad2ec73"
+      },
+      {
+        "path": "packages/react-aria/intl/color/pt-BR.json",
+        "sha256": "461db1d1ed800b30afb1f57cab0a3dd2da468c7b69a405c135c1fe51bf1a8008"
+      },
+      {
+        "path": "packages/react-aria/intl/color/pt-PT.json",
+        "sha256": "d56341c7f0e91e0d105f6ccea3e521e9535c429fe69e6fba974ffa564524cc6c"
+      },
+      {
+        "path": "packages/react-aria/intl/color/ro-RO.json",
+        "sha256": "b4adaf413a259a533b903fdbcf392bc379171f1a8635670b05a421a44f766ae3"
+      },
+      {
+        "path": "packages/react-aria/intl/color/ru-RU.json",
+        "sha256": "9e9a485690f66837ee617e4aabeaee72017bdfffd6ac1621a40921b302678486"
+      },
+      {
+        "path": "packages/react-aria/intl/color/sk-SK.json",
+        "sha256": "110f2009d7684532fa8a792fd628feaa8c80aa757852a76edd7b4debdec406de"
+      },
+      {
+        "path": "packages/react-aria/intl/color/sl-SI.json",
+        "sha256": "6cf01683f91302fad07454df08a279029e8c86dad0d86cdcfc3f13952d788408"
+      },
+      {
+        "path": "packages/react-aria/intl/color/sr-SP.json",
+        "sha256": "e93bccf8b96dc2572897dbb3a3fed5d6f9d28adc38d681ce4ba0ab419da916ad"
+      },
+      {
+        "path": "packages/react-aria/intl/color/sv-SE.json",
+        "sha256": "63eee7e56e74e8d123eb54faabc303c2cbb2b50db2b5941bb0650c61d541a325"
+      },
+      {
+        "path": "packages/react-aria/intl/color/tr-TR.json",
+        "sha256": "5ab89a673245c157815d2f8ce682bc6d80f5a6cc359d8e28e97f1d89eb4495e3"
+      },
+      {
+        "path": "packages/react-aria/intl/color/uk-UA.json",
+        "sha256": "1c649da242d5609ea838701d24aa7ab80410ea0ff4a2de951c94df9a1d5a1a75"
+      },
+      {
+        "path": "packages/react-aria/intl/color/zh-CN.json",
+        "sha256": "169158088271b47c11df684d93a11b5ca5ee3c511eba734647af92d863a279c1"
+      },
+      {
+        "path": "packages/react-aria/intl/color/zh-TW.json",
+        "sha256": "d7e1afaf69b95117754674955b57e74998567cbbe8f6fe6761a49795c529f50d"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/ar-AE.json",
+        "sha256": "4d56de6dc0000643a3c027a2ba15f29885070e21a89b2827939ae884bd9a5050"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/bg-BG.json",
+        "sha256": "de0fe19640455fec465871ce0d69d2c447551c72cb84693f4152a2abae1bd597"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/cs-CZ.json",
+        "sha256": "310757557c04fc053ca44f0d46de6b44f68d3c42cc1d2e0a76289f9523abbf6f"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/da-DK.json",
+        "sha256": "ca028d99a56ee55a849ae8571db61e25cea54595dfc8404899ae03a7075de2e5"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/de-DE.json",
+        "sha256": "405cebb13891c2909b8a0d38bb680f7ef22d9c8d4d531aec1cb119356e6d958a"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/el-GR.json",
+        "sha256": "f7cd26452a1702d9e652feae0051399761c90479c9d7d34027944ada8707d29e"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/en-US.json",
+        "sha256": "2d62eba9769d35c76ad07e65bc3fd6c0423b343e31ee2a34a7ee34393bee1d19"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/es-ES.json",
+        "sha256": "10fac16b0c0d55abd6395ffb95f929d94e3362e1fa13cafaba3b0ac632edcd84"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/et-EE.json",
+        "sha256": "7163b4de45c815e64dda605b9dca08ed5f7f3455c4cb1d4c0e17057d8ee97943"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/fi-FI.json",
+        "sha256": "63c50bd5338cfd4527ac90f78c1895fa9893a6b65e9e3b6f0a34095138314726"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/fr-FR.json",
+        "sha256": "6ba24d3072bd11dccfda02bb08d3cad0441bd4ba0f7cdb1cb18faa55d0f941e7"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/he-IL.json",
+        "sha256": "942fb557e3eb2195157b7d9418fd94a882ef0720850953424edd7a36623689b6"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/hr-HR.json",
+        "sha256": "347fb6b553661d1deaa7fec1c5b54f182d52ab93ef1ed34d7732eb5991af64f6"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/hu-HU.json",
+        "sha256": "e45d3ac66ab21eff8c19d59bedc2f908448fc5f10765a47c0792efa45cc81078"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/it-IT.json",
+        "sha256": "a08f46f15631659b5b23c50541e7b619615187df89dc26a715e80ea1e71afc5e"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/ja-JP.json",
+        "sha256": "68fd838b93823029309bae350c8fbf9d8a4ed56e8be209f196db2e1b1b6309db"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/ko-KR.json",
+        "sha256": "a8856e09781bd141513419c9a675d5ad9ace536ec8ff22fe4ff5d54ca20b3382"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/lt-LT.json",
+        "sha256": "1e748f4605b56c2d919b38d27ecdf3724fbb440a8a2dd62c5a9db640ee3cf916"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/lv-LV.json",
+        "sha256": "4594aebb07c5d53b0cda3131f864ec71651c71839c99f449752958508e670e9f"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/nb-NO.json",
+        "sha256": "84be2b451f5e648b6509c79169a8f354f7a870b6e86e2b5d3c2ec05e63307668"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/nl-NL.json",
+        "sha256": "eaf93476c43fe85a610703fd903882884abea5fbe3881166283568f15a60d2fc"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/pl-PL.json",
+        "sha256": "35bc27a32b8fa7cccd8febaf57e712ee2d5bb423b499e60bef20fc567aabca23"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/pt-BR.json",
+        "sha256": "1ce80ad2c1150a86ea71c53f9857eca4c4ec23813cd1780f61da74e9c62d98e5"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/pt-PT.json",
+        "sha256": "1bc36f3b4865ef3c1fa5d45a47f134764cd3b323b060522a71081646b55558bf"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/ro-RO.json",
+        "sha256": "1d6d1d200e6f3057b388a7af3699021d98c2ce8e279771d554100fbf6ac9b68f"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/ru-RU.json",
+        "sha256": "fc88526aac66183f2c22422bd1ec1f28857b4c3f08f5c23659d89289062f255a"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/sk-SK.json",
+        "sha256": "7e3d20c2916b4bd0f6e899ab978f48e9eb8c8d881b7fcfa0a8f2549b30266433"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/sl-SI.json",
+        "sha256": "5a2387249cda16465b653791c7458e48a6e6a2c354d3ede3a54938ddaea9c947"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/sr-SP.json",
+        "sha256": "2e84f83e9eabb6b4dff1e03a6f13a09cfb76e45a8bd34fe19392c6f7321f8453"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/sv-SE.json",
+        "sha256": "600b8c3dde996aa16cc33ef3530f2b107fec9d68dbce2d92d8c749d43928a3c4"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/tr-TR.json",
+        "sha256": "0a6de4e160acf6aa058715e8d2e0ce28904a7ea3d103132b8784399409711c7c"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/uk-UA.json",
+        "sha256": "0ff9e8b6b86f3331d0922cb30b072c9a780f39c4d0979774c78fa9d7de44749d"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/zh-CN.json",
+        "sha256": "26a8f0f281adc1f354f5895b629c36142eb437c1cf0e970b6bd9327a688298b0"
+      },
+      {
+        "path": "packages/react-aria/intl/combobox/zh-TW.json",
+        "sha256": "733b5f04491ead3a8dd6fe44ae2f0e3d0603a02b5e5369a24d2b7e71d217ce05"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/ar-AE.json",
+        "sha256": "4367f35d31a6f36a87f6d39e51b16bee13f9e47c07fbac3a67f6cd0aeced1a6b"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/bg-BG.json",
+        "sha256": "c529c45e2ebdfc01aa9e628af04306a8697cab46970d77ed848530d69bf6a628"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/cs-CZ.json",
+        "sha256": "488552514ef26399098afc8a8f9baab1fbffce3b0ee3f755a5d260b09c6a65d9"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/da-DK.json",
+        "sha256": "7920d7cab2598549d8af20b786a53effa3ac99a9090c5811b4883b160f8f5836"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/de-DE.json",
+        "sha256": "183b23db4d816e779ad318862d6a9a70935eb840cfa3baa4b0c08da02c45e8bb"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/el-GR.json",
+        "sha256": "94b91baa3db396e8e7676ee63e8ba2bd3707b68a549c82a56ab8956ac57ef845"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/en-US.json",
+        "sha256": "2d85d2cfa04c2f90f3ba1ffcff07a15e493e16998e4c082d65d2339cbb09f997"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/es-ES.json",
+        "sha256": "97da6b0882514267bf203b5e3485ad32b1facb8d1daa6a59f2b66db181a7b6e5"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/et-EE.json",
+        "sha256": "e0023d51632b0bce59d56b46f78aee4e7c196537cd0ca5e712d6b8343748ceb0"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/fi-FI.json",
+        "sha256": "163ac752177462e93937ad95a9ae360767b42c21118d6318f9739caceabb8f20"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/fr-FR.json",
+        "sha256": "d847340e41e5cf991bcfcaa2a660de6166b6791426a8225d6f9d2bac3ad9b96a"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/he-IL.json",
+        "sha256": "effc46331ca4f64ef42c7542a0a2a3f555049d8c9165cfe3636907e6103c4656"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/hr-HR.json",
+        "sha256": "6fac2c1391e697de76d8646ff9553dbc58a6c94684a9af6461bc1a7da1e388aa"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/hu-HU.json",
+        "sha256": "f97c4588cab6c110a25af94778fad33cda99848a190e9904662a1999a066b475"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/it-IT.json",
+        "sha256": "309a80a4f76dd584f68dc0f4d135a96aa7758bfc6b921e30d07ddda371379d77"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/ja-JP.json",
+        "sha256": "15f0f45167a3986ecee204996771e130cdd5f43f4dbff8adad8c52c18f4f7b4c"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/ko-KR.json",
+        "sha256": "893df7d0d1dadff1e3e98ea73f3f1c1f8fb3c759aad2d0c6f4fd02615dc43a74"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/lt-LT.json",
+        "sha256": "bd302c21ea627939a0bf892728c8047bc12026f2a6d8bc05105e9223a03006f9"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/lv-LV.json",
+        "sha256": "f62f5cdc2721528919baeb4df9a704b6e975a421410393362edaedb4bb2b5bec"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/nb-NO.json",
+        "sha256": "5c9af327c8cad6414710ca32fe5b2f677217e2cd70d72cb402e27bd8f335abbd"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/nl-NL.json",
+        "sha256": "86d98769dd8faaeaaf59d35483478266accefceb3ad09898d3320065bd6cd816"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/pl-PL.json",
+        "sha256": "b99e402b5f374757f12ca5578fdc92788699bc292a84db3b38467f364c23903a"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/pt-BR.json",
+        "sha256": "42ee2ec2f9a3c5463cea726e5122f423a38d395d1a5e7f1f2dfaccc60919a77e"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/pt-PT.json",
+        "sha256": "9f1c32963223d198ef08e787a37e1dd19c3bad528d567d2cb5acf8416f765942"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/ro-RO.json",
+        "sha256": "b9f5f8e60a1fd53a71d5b5ca49259e256e95bfe7833e2b4df08d868f3f350e2b"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/ru-RU.json",
+        "sha256": "10e8f6fefd5f0a168b1e7b411d640f7eb1e5268b6081bf816c771311c6817c2f"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/sk-SK.json",
+        "sha256": "71869a1db6a861f15e8afc17d35e54026803fdfa2922d2df37236695c3fb0fac"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/sl-SI.json",
+        "sha256": "bb39f05bbb57d89b573a0e1201513361d0234c93fa4af081772b72833c6cd728"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/sr-SP.json",
+        "sha256": "fae46695f6c10ad967812cc8097e32abdfbd0f8b85c990f7e5f7719922327048"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/sv-SE.json",
+        "sha256": "cbf79a30f96486cf96dca3dc011ee79cfececc3b76656acf851552d8f2885c98"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/tr-TR.json",
+        "sha256": "b5301a58ab55a7b01ec4455c6806110695cd94733d9f38b116ac0b7029f2c2f8"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/uk-UA.json",
+        "sha256": "f1349fe087bc2518f75ef9981c585a2f6a52ce80973c20a387679bb9ef7ec908"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/zh-CN.json",
+        "sha256": "94b54de8df04e779d9c0fce4e735c643d9ccf0df02c1af970efc98fcd2d1b96c"
+      },
+      {
+        "path": "packages/react-aria/intl/datepicker/zh-TW.json",
+        "sha256": "edf24732fe87e67d52a9e104c0623636a2459926389a0880c8b4d99fb8d845b5"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/ar-AE.json",
+        "sha256": "51deb03aee84cbdc228beb6676fc146b1e95267e10e2ddae7af543b768a2a68b"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/bg-BG.json",
+        "sha256": "3893ac167f97dc742735c4d8f0f5a99267510bc84f84003350061f0954d754cd"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/cs-CZ.json",
+        "sha256": "eaf13514647ae3bb5eeabebce546edcd867ab253c293ea517ef5fcf6a8277964"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/da-DK.json",
+        "sha256": "9a05423b3ce7f1260488dbdf3515a443989477690bcdb17d36b14d20d05b4181"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/de-DE.json",
+        "sha256": "135f8dcd3a064f4f655137299cb2d7860dd880d93d1e97222577a5d4e7cc9904"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/el-GR.json",
+        "sha256": "ed32f389569c49b2a6b592b897390247dffe693bdd76ce3a9bf1f101748fb695"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/en-US.json",
+        "sha256": "a3b8b6216bb3be330052a24336385b9260f090ce17f7287672091d401377be37"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/es-ES.json",
+        "sha256": "6438d4fcdd2a6c1a5e2299e98a4ded16889ecc03a5f28e07aac03ef53ac1cd3a"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/et-EE.json",
+        "sha256": "6293d0772b1f0090f82792ba01a800ca228245eb8cd67ab7bf9b5ca71b41709a"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/fi-FI.json",
+        "sha256": "634ab64c468a5514e4abcb729d46681fa2f04a4d33acddd142e9cca5ebf3b019"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/fr-FR.json",
+        "sha256": "3bdd9f788d1bfe6411b79c98f535e41a77d34744474cf60036033084b2c316b7"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/he-IL.json",
+        "sha256": "01b026f38235e0875c8a996f02bcf8c91f4e507edf3e002a9e597ba2d139a3b9"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/hr-HR.json",
+        "sha256": "fd25cd8d1cfd1c3d02894a2d746fd10b5c8155cc3246aeaa1922edb8c9ea35ee"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/hu-HU.json",
+        "sha256": "cad7681496234cb4d97387e8106036c3438f698a1338d2f75d0cddef69728ab8"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/it-IT.json",
+        "sha256": "a55ec1da281c063345c90dca136a5a826a241509ae019b82c2f21ae793b1f676"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/ja-JP.json",
+        "sha256": "281b35ac4e4cfdd7706742bd037d7606414f4ae4b97f1416e16aca58d06a30fb"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/ko-KR.json",
+        "sha256": "e6e4e444829b6b8eab1e3c7a9416b4f3fc996bbf40868175a19d8669dc011d01"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/lt-LT.json",
+        "sha256": "c7162489632e1c932737435eabe87646c11fb198b9c9b59a02f52e4e56c91adf"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/lv-LV.json",
+        "sha256": "89463e16c6dd09e96000956736327561d425347e21d26b53d0436c0eda422558"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/nb-NO.json",
+        "sha256": "f99f09d0530d4d55153c989c833847ec1be3d155cb5723ec8518a216cb43dce8"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/nl-NL.json",
+        "sha256": "54592feb5a828450d8d3855ad3290f77371c1a21dd9d7bedd3e04f2364ed6e50"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/pl-PL.json",
+        "sha256": "1522e5b37ffa1a0fe98acdf58eb522cb9a3f20237022e3834e6bb992b127d246"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/pt-BR.json",
+        "sha256": "e49a263b90c63575943c5f4de59e54c3926633599cf4ed0c7e23dd986020e8c8"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/pt-PT.json",
+        "sha256": "74f569dc6933f69112012231280e8b83cd68bac3851ff07bae069998163017d6"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/ro-RO.json",
+        "sha256": "85fb7146f566de932a2dbcd4a7d36a97b893ec1b6277854b8c2e5d62337b2fb4"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/ru-RU.json",
+        "sha256": "c5478b13b0788d8cecc390baf4be57222646d677214e64ddf293f755357ad504"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/sk-SK.json",
+        "sha256": "8ce82b37d56bbf802cf139ecd59a44b833583c124e4a62b83ae7fc7304c492c1"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/sl-SI.json",
+        "sha256": "04da8727cd38e5d113c41c5000a04578a8e67c64570b8c18f901070174587708"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/sr-SP.json",
+        "sha256": "e52e4f90efd996c80f2aec976694fd52f6ec870259e5e6b6fb6464f5a24bdb11"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/sv-SE.json",
+        "sha256": "b420cf18c834cdac7408813342f299df3e29d253b4e627cd55e6809a3cbe45c0"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/tr-TR.json",
+        "sha256": "6973893caaae5e06fa3cdf155359142f2916b445ddc616dc5e2d53296908047a"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/uk-UA.json",
+        "sha256": "5eb1dd37738dbfef0f0d540d7fe39c1ba9b8137998b6cbd3f7d4a3c62665c39f"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/zh-CN.json",
+        "sha256": "4ab1d80edc2d5ae021564b10a02c42dde104eb398fccb89bcc6fe6ed480852ca"
+      },
+      {
+        "path": "packages/react-aria/intl/dnd/zh-TW.json",
+        "sha256": "f1b1289daa3d61b277a6b9265b869bf2750123fa9fd4436419595880541e172a"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/ar-AE.json",
+        "sha256": "df0920525e00f925aed7d419eaabd40c6dece24ca16bf7cf6552d039ef0b8da8"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/bg-BG.json",
+        "sha256": "0c72497a2b1d117aaf9a64ced1fb6dbfcf144e32eb951d1fc39cbacc12023f15"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/cs-CZ.json",
+        "sha256": "0e60c1bf60b28833b53a661ec8f6cecf8bdf7af11c5b1d858dffc99d9a61725f"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/da-DK.json",
+        "sha256": "8aae4fbd30f2fc1c34cef7c9c916884fd61bca032026f73e8e4fd73e9a0dae1c"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/de-DE.json",
+        "sha256": "54ffa67593bdbb4f1b542b17e866bac97aa1c510e1f5aba37fe5393a7a3e9f89"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/el-GR.json",
+        "sha256": "eea4e5fd14bd22b67d48318b50fd7da8c3835683dd476cbd82065cfbd7c8ef7b"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/en-US.json",
+        "sha256": "cffd87f62439ab63d2801b440c210a19509ac0edbef26143c5efbe7f77bea8f6"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/es-ES.json",
+        "sha256": "5d1b885b0275ddd31e800ae394cc7541acb2938da6a4a878350276fc2eb9cbfb"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/et-EE.json",
+        "sha256": "bf802c21cb500080ad1a1a156d63c2b8ab4a96dd09364ff67c491eac53f5a510"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/fi-FI.json",
+        "sha256": "1b316d2799af1eb88ff69089c27c222f2aaafe6bc659c7636c5ff92c80cacbfe"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/fr-FR.json",
+        "sha256": "c41c76094b8f7067109f8d2e741cb6237af6b47818de0798512cda75fcb253c8"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/he-IL.json",
+        "sha256": "3fe9dfc9e5d8db5bcf877b4bd2b3485b223054aed4ed32565a49fe65fd7b9b3d"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/hr-HR.json",
+        "sha256": "846a82ab7d706bb0d0f8ce6ba9dd6ce1950cb93a51a525d3ab8098bb7eb3370a"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/hu-HU.json",
+        "sha256": "a3cea6ff20243e1c5f82c9b071312973dd09948b6cb57ef8edc5fc4617aacf26"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/it-IT.json",
+        "sha256": "b671f83e556c6b9e02377f9fbe81b2e44dc7b7ee371a24f66c7daf98c0c793a8"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/ja-JP.json",
+        "sha256": "edc7b7718cf7d407f947524063e8f408729c9af268c5b126018b95732623e27e"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/ko-KR.json",
+        "sha256": "4e076ef6e42b722748188f22bee512ad8b7f7763a6e2721b4562811ea881fcec"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/lt-LT.json",
+        "sha256": "f6f8f4ecac756d4eb9e0ad504764e42343c9a11267d2d80a9b1b9b89083c03ed"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/lv-LV.json",
+        "sha256": "90adfd7ebe51e9724fbfd1780716eb2855e48d8b49696981859ea14fcdcf43f4"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/nb-NO.json",
+        "sha256": "3728b824d929b21cdcd85fc559a2f88f66470d59a16e447586f0f7390d7b9d4d"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/nl-NL.json",
+        "sha256": "677f40fa95f625b1bcdf8912a33b3f3f09b886f31335a9bfbcf91f181c4d0f09"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/pl-PL.json",
+        "sha256": "ebd56380b94da4f17f8c2ddc4002deb7f99a2c030093665d6d9b33b30fc6f82f"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/pt-BR.json",
+        "sha256": "3e0f7b7e5d1677cce1905fac303c2bcb552a591d3e7bd990fc007d159545a212"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/pt-PT.json",
+        "sha256": "f159727354cc0ec462a3318ea2b1809fd6ada507624a64ae5f12d769c6e24c94"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/ro-RO.json",
+        "sha256": "15f7fa7c5af17813387ff77710bd6270cf495572f6d390bd7e7d247e7649fd81"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/ru-RU.json",
+        "sha256": "79100c26371418790a237ec862c9487c4b52ec4274b42bd40293af68558a903d"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/sk-SK.json",
+        "sha256": "4fb511d5757e684d2a2184b8f4c985fef296b632205d957decf75817720e27b0"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/sl-SI.json",
+        "sha256": "05c8e88b13b28965bd299aa8f90703c1163e8d30ca6640dfbef90828f0649296"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/sr-SP.json",
+        "sha256": "76eb6eed174df0cbb5188bcf77cee986c0f48db948eb98d4aa807e6dcb300ed6"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/sv-SE.json",
+        "sha256": "c84356600cf0db9161ea90005353427926d4f34a439a4cd7e93b7218f5c3aa11"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/tr-TR.json",
+        "sha256": "1552726f3f1df03c41648d56d62cf8cc9b58e6203af69296facefacf58de2e1b"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/uk-UA.json",
+        "sha256": "6619976ba6f02035d188f9a6104e78dbfaa764c3bb992583ebac625114832caf"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/zh-CN.json",
+        "sha256": "c34a55f7842cfdd9eee81e697c6de846667754a60e743ef81dfb6a9ec12b3f6b"
+      },
+      {
+        "path": "packages/react-aria/intl/grid/zh-TW.json",
+        "sha256": "9c63659b6cc7ba1f519ab97fecc34800ec0ee6609395e71b7dbfcfec0fc1c2b8"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/ar-AE.json",
+        "sha256": "85182b6dd0e353b9fa01e00bb4aa8b12db1ff215901812d9dac2c4f8ec3bbb33"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/bg-BG.json",
+        "sha256": "dbd0098d1d1ef5a644fbb733b25d0f772de75098879adbac49d333051d58512f"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/cs-CZ.json",
+        "sha256": "d938f01484976e0d142ff7b364876196f4472c9a8e145baa0b4d0fd58bb6038e"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/da-DK.json",
+        "sha256": "c24731e77cef77dcb3f78b3747ab3d3c42ca10edcd54db38a640bb2a277c9707"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/de-DE.json",
+        "sha256": "d01d199d39cb833e4eb44a65c0e2aa95498e1c353ce74d0907091971aa1c3cc7"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/el-GR.json",
+        "sha256": "fcae8e219dc77fee4dca4e1945c627bbd93d206293a2bb8d109156c9c3696044"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/en-US.json",
+        "sha256": "b6b557f8d24bc37fa4758d96ae61de5631aa5f94c4c00f1f8d20caed2ce40e35"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/es-ES.json",
+        "sha256": "2ee77840513a2f5c2b6e4cddbc7c8badf6a7851edee8ced55988d1e532a90e38"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/et-EE.json",
+        "sha256": "7fcbbb23a715ec7574760bf8d05344ab68b5aa430be1d2eef402f9a31a02cd70"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/fi-FI.json",
+        "sha256": "9284d200c7682991cd0d5eb7b67181271682f490ce7f37f92fcbc7c6fffd6dac"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/fr-FR.json",
+        "sha256": "e92168cb12ac98fddb7543c4ee2ce755a1ec1bf6c8f28c942f77a23a69486a69"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/he-IL.json",
+        "sha256": "912d36bd2f66eece8d028407816186511e46b531ce250f64c3e84509ffb9cf0b"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/hr-HR.json",
+        "sha256": "fa26233150f3194683485dd2b5f767ec24e96649bc242f43e684be26fc8ff299"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/hu-HU.json",
+        "sha256": "acb342f2b94f434d00b5ef350263fc063068a4027b6e9153a9e505a9b79ce701"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/it-IT.json",
+        "sha256": "88d8398be84a6f4317542bb92205930c101e5ef28c55e5de47180abfe0ce97cc"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/ja-JP.json",
+        "sha256": "90a3777196b4bcb12111f34b8a8b1a611933a7c08611057803e2c72587cfb0b7"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/ko-KR.json",
+        "sha256": "60ccd12669f2bc2f369ea16b9f6275c969e2c8b330c38273ba029f4bc3d9a2c0"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/lt-LT.json",
+        "sha256": "95df4ce4465efcc441784e84629dc64e40b6b467fca396ef158493967b1f34e5"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/lv-LV.json",
+        "sha256": "06095687ae817c85422a8df42f0d1825c5347f8cf7e6ac7725ae2d1837fc6efc"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/nb-NO.json",
+        "sha256": "1630879e8b71ce1446c2f6e9b8d1c8c221988f3826401169333969658bbbffdc"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/nl-NL.json",
+        "sha256": "11041a2a34d06d18ea456eb5aac6cb277561a732bcf715adc8a9da8818a1b0ce"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/pl-PL.json",
+        "sha256": "a9c353c1f7d33fc1fb033610fe6869d362edd23909ab291c80acfb783ec0c488"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/pt-BR.json",
+        "sha256": "76b660610d96ebb5f1dfda5d0162423c421927a56dcd2a6c64e8cc64077e2a0a"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/pt-PT.json",
+        "sha256": "304019493197dfeb9291a092b149a969900450cef9b4494036e2d51a33665f3c"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/ro-RO.json",
+        "sha256": "f46f8aa78208f8306052e4860a7352c008772eaefe181f72f057ecf3b313acca"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/ru-RU.json",
+        "sha256": "427610c177b96277d0e32ae9b5bb9017f4aabde94f39be211a05530b7a1e3313"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/sk-SK.json",
+        "sha256": "a8352cf63c3292bb433a7ed4b1da8319350461f2d8958823090ce53d505f9898"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/sl-SI.json",
+        "sha256": "9e970fbad506e2527da6e786e7202415bc8730418a83a04c4581d9be207be581"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/sr-SP.json",
+        "sha256": "ec0f6ec3349e38877e1186097bf8488d49a91e00419675c02cc7d7e5606b6ec3"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/sv-SE.json",
+        "sha256": "c61f2a7d45e8c62b38b03f78187989196b0e808baff0142b971461166d12d755"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/tr-TR.json",
+        "sha256": "d194dc662ccc70143a62210c1ff1f5407186d6bf00846368ee89d54297d4acc8"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/uk-UA.json",
+        "sha256": "9bde1112c83e710016587b279a215810196d51f0c11fbcb7ab218ed71a621d8c"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/zh-CN.json",
+        "sha256": "ef63dcc9001fb876f0c8c6472c6437fbac570dde9df40b4f2fdec90a2fcf0e37"
+      },
+      {
+        "path": "packages/react-aria/intl/gridlist/zh-TW.json",
+        "sha256": "fe442c683d41cf6875d13e8d498c53e711163b52996772bf49525bf150ee4122"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/ar-AE.json",
+        "sha256": "07ae9e6fe50ddd6ce9464f98a74321e4d32c98ec700acf5b793421b7b4c056f7"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/bg-BG.json",
+        "sha256": "3cda43fae8089258b5e8c08338679d6c7731f2a3971873d7cfd371042a83c66b"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/cs-CZ.json",
+        "sha256": "51ba178d34f1bacd6ab04c9b94e71eccd7ae7ffcfaa1b5d669099139d487edcd"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/da-DK.json",
+        "sha256": "d0498adfd4ff10a7fe26ff38518077888441129876e1ba5860a4ade2e72b1ccb"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/de-DE.json",
+        "sha256": "780ca88678890a2307a70a8c606402a28a828c9402c5ce0275057760584e612d"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/el-GR.json",
+        "sha256": "4165020b48f9088f6f5bd06a196bba0460083a382b96648da086ca6035e95761"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/en-US.json",
+        "sha256": "54fd9b27eceb27c35caa2a08dee8bcd31cff577eab3f3752a636dd7848eb94df"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/es-ES.json",
+        "sha256": "535809464a1036c35b3dd4a7b69f4729a483e674aab746ce99a9fa25aac3af27"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/et-EE.json",
+        "sha256": "05beec02c4e58f7aa6c0a63b9459e30c43eb4a15b8792fcb82158adced0c08a5"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/fi-FI.json",
+        "sha256": "1d7c2941837d220ad35779746d182c3452caf8ec8905bb6ddae7577b4dac7155"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/fr-FR.json",
+        "sha256": "8ea5619e0dfbf687843cafdae99077034196b538cd63358d9ac1d542e96bcd53"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/he-IL.json",
+        "sha256": "f96f9ebe2d3ff85481e670208cf1224593e054a6e468465e363e1b46f7ecb9da"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/hr-HR.json",
+        "sha256": "939278e015274f3935dfc7cb9b34123b09f8653d3343132407c4c0156f11b98d"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/hu-HU.json",
+        "sha256": "83a09d502f9b057932414f6907ca472abd5ac78ac7820b48aeb0b5d8b5860850"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/it-IT.json",
+        "sha256": "ca2d9b2674ed798cdfb3731d8068d460ea77f309530e2fcc8f883a972386fecc"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/ja-JP.json",
+        "sha256": "c357516e2f55490c40e414ce1bcb73c540b370dc10805b988fc7cf2cf9fd8fce"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/ko-KR.json",
+        "sha256": "732a3bbdbd96f8154336629d2ba4a6ad2702b0604d6b0f501300f57bc40cca61"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/lt-LT.json",
+        "sha256": "990e55206cab29bed32df7ea035a372887d39bb6afaf02ac266a4613043b447c"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/lv-LV.json",
+        "sha256": "cde9e53afc193fc2631bc0e6c637a8a59d90eaf41a1b9bf8b95980446c284fde"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/nb-NO.json",
+        "sha256": "a3512291fe0d6fa8a20379269085d80a31d262047bc2e9e4229b77e8a618d435"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/nl-NL.json",
+        "sha256": "c581eadeb2ea4c081fffb4de13ab4cf3fdb22d6075de307e0d6783c0a1f70846"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/pl-PL.json",
+        "sha256": "1e32845bb344df8b94de8af6ae365a6a45250a1913180de2ae178761b7bc1c98"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/pt-BR.json",
+        "sha256": "b09abe83d8feba74e9a5c4a3c94731469b4b8a596ace890c384170e0ccb14aa1"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/pt-PT.json",
+        "sha256": "113acb51ca60a8d35cf3cbf793a05136c9b0305b4d5ebe6cbc73c96931878e4a"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/ro-RO.json",
+        "sha256": "f24f8de284577b35f96719c4b7115be16143bfd8e5b9f9aa54f59c1becd646df"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/ru-RU.json",
+        "sha256": "c57994ab5bf6d7717bea14973a1a1fe71050e9a224504555cecb3a3082b79d70"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/sk-SK.json",
+        "sha256": "5603229157bd4b76fe3f71c50c6d1eea59d87be19663a9a01d054bdb3ec5ff1e"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/sl-SI.json",
+        "sha256": "26b58ffffb710a48fe73f84e50869784c4ef98c263a947df59b62df94a8361b7"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/sr-SP.json",
+        "sha256": "e2597a38da73493e74e370885d2e62253b994cdf387a081d9df75875fc1cd254"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/sv-SE.json",
+        "sha256": "815aef6d2ea07351f20005b13bbe4aee3fde29d0a81f23b3f4314c854fc776e9"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/tr-TR.json",
+        "sha256": "4e932a5be9503eca5e202aa74deac0c7e79cbae636ea38146086b905ad9b6a62"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/uk-UA.json",
+        "sha256": "04bbd456972b9b9923f672426a20b5b3a12387d21b374c48359702b7c5c153f5"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/zh-CN.json",
+        "sha256": "ed010a6a03007ec44367c20d33619fc4742a19da62eb05626483064e7ccea30b"
+      },
+      {
+        "path": "packages/react-aria/intl/menu/zh-TW.json",
+        "sha256": "16b07d67dedace25a3c8fbed2efe4a1822b34b0be9aca2ca4ef6db43c04bc5a1"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/ar-AE.json",
+        "sha256": "103b2399df31987cc3d45f52d647eb8d47eece25f6a61e85a0c5bf175cb2c6c6"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/bg-BG.json",
+        "sha256": "4a5dae49eacaa6fb04545e82899d3a80ca82d7cdc588e58ddd31138da10e6b34"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/cs-CZ.json",
+        "sha256": "0e7ff0d13bf7a4893f9d535e918d1a8053c132e72cdd35cee06914a6dd230ab1"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/da-DK.json",
+        "sha256": "da0203fa85835c669622cb6fee1d6daa290bd26532a07be00eac9990eeba3be9"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/de-DE.json",
+        "sha256": "a0383520f217f248916e9b92d63f2b50da8f18a73831dfd4a5fbd2b1b1c73d0f"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/el-GR.json",
+        "sha256": "f4187a50dfe767a1ca2fb153733c964c437ffda1b59fa2a44a27b83f37f5b83d"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/en-US.json",
+        "sha256": "41e5fc9d5a46aa11f1e4f7a497194a3c9055b1f54a2cb6d70f7c954fb65e12ac"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/es-ES.json",
+        "sha256": "dd626e523b04b436ec855b87508d77c8dcefcd12c6541b41c285391930d3b648"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/et-EE.json",
+        "sha256": "972b627e5db8a8ee5932380818eb601d2f772ecba0bc7d63765283153f980ff7"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/fi-FI.json",
+        "sha256": "4cd1195c3932cceeea08bd55a2035bc965842df73e3dba96d76a8d3a00ee3795"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/fr-FR.json",
+        "sha256": "0e0d6a351b5075c9cfbe8ac5ab253860da42e9725ffd594ffc58a63e88b4bc8f"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/he-IL.json",
+        "sha256": "73403610622ddd086dbacf4995aed7b7a21e3c4886d51fa4118b0dc41ae9ae83"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/hr-HR.json",
+        "sha256": "0275a24ef614265e8041ef2c126a31f7a3ce5117f41039100c97a216f3f2591a"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/hu-HU.json",
+        "sha256": "17a7d39597a590e74d8224d3f457e0d9ce3baaef0fd939aed7208e6f5c8875d9"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/it-IT.json",
+        "sha256": "3c2e3339b2035273c6b84ba2f393df5dae564b1b7a9ada91a05cd179dbfc5862"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/ja-JP.json",
+        "sha256": "3a95a21d0f7691ba4bb226b52fdeed5d1f258510ec5afb00eb836eb38d538063"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/ko-KR.json",
+        "sha256": "bee5d1f51a502b5825c402bbaa61857b15854945573d9d14c856ec389122244b"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/lt-LT.json",
+        "sha256": "1b59a7a3f9305be91e8a76ab58b4db93ebd233aaf5c606edff618528816b9207"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/lv-LV.json",
+        "sha256": "981a71482d497676627705a36b552c2dcdeaf366de578fa5dba1f885cae1b34d"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/nb-NO.json",
+        "sha256": "440614588cd02769393a31f3e3a955e5cb98990f56d112b3b3f609a1bfe3c331"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/nl-NL.json",
+        "sha256": "31235c181b3242550808f1c10d7ebbf8dae17c69a8325604d48932e6230464f3"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/pl-PL.json",
+        "sha256": "916527b9b2ec0f2c4192045e5b5791db9720f99371f327e4f8f4ae2bacfc6f24"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/pt-BR.json",
+        "sha256": "dddda44e9e13a85e868cda1f5dce91572baf3bae5d329cdeec5fa0266a4f338d"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/pt-PT.json",
+        "sha256": "80bb52c3caafadf1c51e84f03734bcdc1915e082ea57a59f7dbe9f888efe2395"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/ro-RO.json",
+        "sha256": "fcdbbb05a5a3a071c8bd3dcbb4f75c2244c17a4db64ba0e0ffc0f6f744445e12"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/ru-RU.json",
+        "sha256": "07c2d7eb6a8d0451c6d9ebd656b6904d4e50d91e1bb8046ddf193731df3512eb"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/sk-SK.json",
+        "sha256": "4503bdbff1f79232c3d5dfabfc712f7a1a4ebe2593837a70c72e4f4a7699a06d"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/sl-SI.json",
+        "sha256": "e656f8baa4e82016ca1708c9de9ee53a3186533254ce73bc2701be9a52bf26ee"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/sr-SP.json",
+        "sha256": "0275a24ef614265e8041ef2c126a31f7a3ce5117f41039100c97a216f3f2591a"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/sv-SE.json",
+        "sha256": "251b8667649bef99aad57e58ac7b1155da02e5ff2a2f5760e6a4400198b89cbf"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/tr-TR.json",
+        "sha256": "3215bceaa0147a77eec85d076bc42db5bb912dc2e609ee78ef69ef19e255d4a4"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/uk-UA.json",
+        "sha256": "49b4eb45e1a39f02679ab6180bd994f6a27636cc04e9c824d121464b611ad333"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/zh-CN.json",
+        "sha256": "69ef91bacd6048c4216bc4c42871ede6b728751cf5cc5277480bafaa8782690c"
+      },
+      {
+        "path": "packages/react-aria/intl/numberfield/zh-TW.json",
+        "sha256": "5fa2531d3a2509d317d805a2eebea8cf27b91b9b0783bfe607912c2826e974a8"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/ar-AE.json",
+        "sha256": "dbcd979d02107f9f0446719d3cf7457e808024ab51bcd51520ef073608937b06"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/bg-BG.json",
+        "sha256": "5109d7b2a2ace36a798592064f05f3cda9c1db257ae890983a6a86ac3f43cf62"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/cs-CZ.json",
+        "sha256": "fc65728d9cbae7afdcc7eadc0d4c6d7101d9b9e6329bb6fe4d417a226842a471"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/da-DK.json",
+        "sha256": "ace2a7fcb68fc2e7421bbaca1c64e1b34c6001fde58b65cbc2616f69574f46e9"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/de-DE.json",
+        "sha256": "03024c27d33a437bbb88c94f6beb1a9d8b282c55e73e74d525d8cc1cc3e37fa1"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/el-GR.json",
+        "sha256": "47bdaaf0e77a1f8aedc533e352fc493379818f42a18014570da4bd1f4ecab3e6"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/en-US.json",
+        "sha256": "afb2e13ada1af555704c5490f93963fea8debd0e1fcfdde032d8465cb2d5f5d0"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/es-ES.json",
+        "sha256": "e2c2c3eb54a7fd68497850fd9c7dbd3dcae2389bc2bc3b67ae4f5f66bb52a055"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/et-EE.json",
+        "sha256": "8c1fe5654dc33473a5a7117204b2a8d8ea4f71dba9874e69a7512049a7a1f75b"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/fi-FI.json",
+        "sha256": "fab8ffffef1edce20cdaf13f32ec9dfbdf0ad14454b390bf10a707ee98040218"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/fr-FR.json",
+        "sha256": "01ef936c83f3aa21d71aaa98c39d5f6957b448917b6493b3577404eed23a819a"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/he-IL.json",
+        "sha256": "7cf6308fd56d7d2bd67e88495453828a0466cf4aa27f021290cc391fe592795e"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/hr-HR.json",
+        "sha256": "5f69d8686023b9805663235dbe4a48111bf00fcfa40b1e21d6b6ae372e6f83f6"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/hu-HU.json",
+        "sha256": "c8b3844cc49691d5a92784c2ec39426b4fa72468278bf5968d1a3b77e0da0197"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/it-IT.json",
+        "sha256": "baaa084376f258a5c6a2fdf1a459819113a009dcbc2d7221f98ff3b25705276a"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/ja-JP.json",
+        "sha256": "5375516affd3bcab0393c3f0258c9f86d813d2296c0c93db53d91e04de0233bf"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/ko-KR.json",
+        "sha256": "43281bb5a2618a60a4a4593d1f7333aa7ad318a0556a1bf1855217a4f3bd8715"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/lt-LT.json",
+        "sha256": "341241b52243d85f48199c587c66f1cbc00db36a928b5200c705f062cdf36bdb"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/lv-LV.json",
+        "sha256": "a5f2c2222d37f5c2fa0354815a5ec12bc2ba3081cf9142789ee4c445a1e35746"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/nb-NO.json",
+        "sha256": "02f69186de261f050450171a8b3ab3dd31472b92d3ccd5e4879104187ccaefdf"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/nl-NL.json",
+        "sha256": "4d62cb2f2270329b175dd30b47f82130eb17e5def2b2fd1ef86338f3842a6e92"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/pl-PL.json",
+        "sha256": "3011da3e1c0d53409870131edcd66d72f0537b76295c32f934dee41d7ba9e569"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/pt-BR.json",
+        "sha256": "e2c2c3eb54a7fd68497850fd9c7dbd3dcae2389bc2bc3b67ae4f5f66bb52a055"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/pt-PT.json",
+        "sha256": "bc2cb91656635785cf6e27154e0f4665e3c3c17e2434dc11b91f9abea544b13c"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/ro-RO.json",
+        "sha256": "b1ed13c32e1399224bdd78f17295f9fd94bb5cafbe0f4528bf6631affa0550cb"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/ru-RU.json",
+        "sha256": "8fcb000e7988a1fcfe196fb88e4ebe23fe36aa63c4fcd0ada2fddaddde0f2521"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/sk-SK.json",
+        "sha256": "bbe1063eaef1c70c6a44b3132d4aeb1ec04dcf03b2a53b7aea5e5a7fb60aa6bc"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/sl-SI.json",
+        "sha256": "797b0d01915e9871516658b0a7a1a7bfeb1eacf6546488a9ac40de81f774145e"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/sr-SP.json",
+        "sha256": "5f69d8686023b9805663235dbe4a48111bf00fcfa40b1e21d6b6ae372e6f83f6"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/sv-SE.json",
+        "sha256": "5e7e583201e10dccfded0b29db70191b15d6cb3ea476457cf9a9a68e5da55b3d"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/tr-TR.json",
+        "sha256": "8833131f3365e2db0d5a079465344e065fe918cc9edfa48b3ab1dc9ed8edafcd"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/uk-UA.json",
+        "sha256": "eb3dc82f0207ab7954a64e130476f53d164ab3c4a9e30884c84301bf443e51c8"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/zh-CN.json",
+        "sha256": "128e4eb582e9b41779090a5e08623adb7707eca2c6beeca6e9a454c2c0f12b78"
+      },
+      {
+        "path": "packages/react-aria/intl/overlays/zh-TW.json",
+        "sha256": "1aa2c5ee02d0f7b543f78b8b72cf690e73029b0c0ce800fad5ebbba99f2a63f3"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/ar-AE.json",
+        "sha256": "2c151ad2f3043b5d6cbdb0b0703aacf014d4731c9a28bdb67e78bfea3348c8bd"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/bg-BG.json",
+        "sha256": "1b628aed51db0bc3f9921bb92ed1b5c34545a221e16c4421aa84827e6d8e86c2"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/cs-CZ.json",
+        "sha256": "125142dfc62753eec7500959c21e0dd0196e75677d30ad4ed8645731f318e967"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/da-DK.json",
+        "sha256": "ef0bcaaaa4cfaa00846168e741fba9df3e8771c64c35005af595c02239aa7775"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/de-DE.json",
+        "sha256": "ef41d81b4975bed4a59cf8341ccb5aee00a4f07a9f241a7529f139a66bc092e8"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/el-GR.json",
+        "sha256": "97de491f26003553e6bb47902579e125d3e08379701ac220f3b4d9b2a1f0a46f"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/en-US.json",
+        "sha256": "b3e43d4581180dc09b2cdbf720551b810b0f8619c70627ca9e3828959769ff6f"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/es-ES.json",
+        "sha256": "2a92c0768c452d482c15392e7d3cd4d8a76cfd14286bea06694325f544a7dd97"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/et-EE.json",
+        "sha256": "7b5e615e14cc45ee813221fe8ad0f5bcc1bbd4148d27752cb6dc619149093020"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/fi-FI.json",
+        "sha256": "5273da8cedcabe015686c14096a8c87196d27185feeccc877ab1ffdbe5f76ac0"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/fr-FR.json",
+        "sha256": "e9bbcaeb228b3cc79ac946aae5e0c8071c627dec4eac74113b99511218c46d28"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/he-IL.json",
+        "sha256": "b74bd0a81068a60dfd88b9151bb3fe8f4e3efacf20c1c90dc15364987e2e65f8"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/hr-HR.json",
+        "sha256": "65f011e471663b53184a8aa42cc500af684f86677474f6fbdde00807feb6ecd7"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/hu-HU.json",
+        "sha256": "6de3ad764785a7bca43656f52d2c319dc209e59ae399cf71355dd48199cfa603"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/it-IT.json",
+        "sha256": "b2b8d7c09292f5db6903825261598b17d08aefe198fbe6ef13ed8ab526c1002c"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/ja-JP.json",
+        "sha256": "d195972806e465c504a8a9a3351cd6ee14a5951ceb9d2b0da665f5d49130b01c"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/ko-KR.json",
+        "sha256": "553f6bfaff79b5c151982c32987d54e490fc70132f1d0720d9370516ed72f737"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/lt-LT.json",
+        "sha256": "3784c5c614ae4729a976614568f9108305e0fa802c8bdce54afc5c3fd50680e5"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/lv-LV.json",
+        "sha256": "051188d5656357f924875f2ca3b6e368ce716e74b511e2232beb0aafe18043fb"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/nb-NO.json",
+        "sha256": "00a3f5450c21449559a125a295a7127efdfc3f242bf1c86bbf880518fd8d5f0c"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/nl-NL.json",
+        "sha256": "a9c80f365d01c059226a46dda6ae1fa374b55b639b12e3bd87db51948447c13a"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/pl-PL.json",
+        "sha256": "6c8596d36a886af5e445cbfb0bff547456ef534be3c137f04295076d6c222f2e"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/pt-BR.json",
+        "sha256": "91232035e830cef6ed04574b19ad9cbf5857c061a396997bbcb1c980ec4d755d"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/pt-PT.json",
+        "sha256": "2e914c4a1bf82d3356e5985f763afe6d20de4d8c6fb1dae3b75bd36772b3b29b"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/ro-RO.json",
+        "sha256": "8c58f239017cd4d9d531932a6f3d44be3af37a3dbac332b9c11a0f8986740b39"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/ru-RU.json",
+        "sha256": "c8fbee5095cab4c8cf53f2f95fa6a3a57982c6cb647d7d4be2daacc84d1caae5"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/sk-SK.json",
+        "sha256": "35d975a5f2a48e378437049f1c46de46492ce5d4e852d90a37f37dded3a1d5e5"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/sl-SI.json",
+        "sha256": "29b1cf0238cef247e7ea73eec1b619c54c8e8cd5d30d740a3285808afcab529e"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/sr-SP.json",
+        "sha256": "5a74e1d0e99569b4f43fd2b15abc2a9eef60d0047d686da7ce9e127065a25657"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/sv-SE.json",
+        "sha256": "efac0ce5a75bb62b0740f29754dc401330b674366e2926977d555a28575ea559"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/tr-TR.json",
+        "sha256": "271232ab8c80e961d635c818308e5f2b114b73d728b7acecd52a3b5e7a5b7591"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/uk-UA.json",
+        "sha256": "5d250a7fe003f7ea4ba32b644f8f00b7054f20665c99880f73d0a683f2dd34be"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/zh-CN.json",
+        "sha256": "097a29378ba0fe83ab38213a2004a2bb199b20e87b722f1d6367f76a588c5253"
+      },
+      {
+        "path": "packages/react-aria/intl/previewtrigger/zh-TW.json",
+        "sha256": "b5518594d077055f23c5914fdf04faffddaf5274238dbe24e8538d8bfbe8ce9d"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/ar-AE.json",
+        "sha256": "826a9778b8fdb8d5bb63519c43201104a6b07f08d180a93ad41afad497a34f95"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/bg-BG.json",
+        "sha256": "414cb99243bad914dcfab657171534bddc365bccafad563c65350eda0bdac6d9"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/cs-CZ.json",
+        "sha256": "98f082751da2006bf1297fcd293f2ae3109eb664f5d884f97aaf3aafd71ee708"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/da-DK.json",
+        "sha256": "b98ecb4b0f3b82bfcc65e965d9d1d583a5473baf6eb8702ae4788e926d688c2d"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/de-DE.json",
+        "sha256": "83202fd0127b641552942c554295083e42e6fc2ce87966cb1b685484a71f4dca"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/el-GR.json",
+        "sha256": "190ab0c9cd03f42f61d2b4d7097119eff7e41e9d0a49f48777b51d3c14cfde61"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/en-US.json",
+        "sha256": "0f16090934c0c8199096bd0992d034d86c0ec9ff96fbf82dbc98909349273875"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/es-ES.json",
+        "sha256": "ce578931ca62602f845a0778dcfe8cf7b5c6c2ea4b3aa196712f215e3ee9c642"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/et-EE.json",
+        "sha256": "b35546f2a3e758f7316511f6d19ec87fff1f380fce1db9dfdb13f5993535e8c3"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/fi-FI.json",
+        "sha256": "685fa7f5ceffa3c3e6376ffc8a240d7897683705b6364996304fe5da3324e585"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/fr-FR.json",
+        "sha256": "6451bd1138dd28a20b3c645582f17f3f4896236d36f8f43e003967d27be4cac2"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/he-IL.json",
+        "sha256": "06b466ca05cff7ffe3d07992a066c7a2825949739bbe379884330ad2b257d39f"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/hr-HR.json",
+        "sha256": "650f00eb058a5fbcb06b8c34b4ada17f901b41a129496ef652f0293a0814363c"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/hu-HU.json",
+        "sha256": "20507832712a6a5673d5a8ed599b31794ca96eec2e749771247dfdd8a98627e5"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/it-IT.json",
+        "sha256": "22de8c0f787f0f9f66be5841da1a3c65cca6460269505a14d7e57a1d48b86421"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/ja-JP.json",
+        "sha256": "9bd7d1a18169ed4365b75876266f50d53a8c546b56ad51722474e62ab6e6e7e8"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/ko-KR.json",
+        "sha256": "98933bc97a482aed275179c524415006ba12cb8fb538e5e0c424d2d9a737ef55"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/lt-LT.json",
+        "sha256": "76f1b09ee07b1b6bc06fce2651cfe4dfc5380b026394922fb45f80d5bb8889de"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/lv-LV.json",
+        "sha256": "80b1a91bed0f5cb20f499252cfc858fea54696b49e63dbbe7be0edc35f6511e2"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/nb-NO.json",
+        "sha256": "b8d956048df495ec88b52371ea9cdd95096c7b1b3b312f95986cd6b893c36077"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/nl-NL.json",
+        "sha256": "d18c78fc1f3392e0edb806a4d35f4a4a67b45405d8874dddb3a98900d075dd7d"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/pl-PL.json",
+        "sha256": "bab093a9ad70bc67c7a6cef66b79b63f99d6056c41a01920ae2db80841af6ea4"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/pt-BR.json",
+        "sha256": "f5da0550f8398af3c6f10771c1fbe6e31b282a256bba229cb431f0ee9d2a8319"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/pt-PT.json",
+        "sha256": "f5da0550f8398af3c6f10771c1fbe6e31b282a256bba229cb431f0ee9d2a8319"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/ro-RO.json",
+        "sha256": "9c7a6ee9e1ebc754e9b99443cd4300231958539f7ad86005342ec409cf1a01ae"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/ru-RU.json",
+        "sha256": "b772803582e5c4b0257e0faed4aabb0a77bd3cb7b3ea19ffd233d1066eedea38"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/sk-SK.json",
+        "sha256": "89c3cd9d28d008495e359074cbad4c20a966dcd53ddf4638b3c3cc2e532cd01a"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/sl-SI.json",
+        "sha256": "74b62c3edc496dd8f90262b5603cfbce21cb8798065cd87e9e2826f5625aca3b"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/sr-SP.json",
+        "sha256": "650f00eb058a5fbcb06b8c34b4ada17f901b41a129496ef652f0293a0814363c"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/sv-SE.json",
+        "sha256": "ac818f70d8a80902023a5ef0f329e27bda9f2c6e2e05a988c4275320146143c8"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/tr-TR.json",
+        "sha256": "1ccf5ad863ccc7de44fa8869d456ae622c4d333f40393824cfc5c2bd75848a36"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/uk-UA.json",
+        "sha256": "6263938ded82cadeb71dbe007c292a0123cb09f95500501c32f1f83bac70d41a"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/zh-CN.json",
+        "sha256": "b5ae9521be441e53776aca3f1af4c4e0a028b99f485605f1ba1aed6dafcc3d6a"
+      },
+      {
+        "path": "packages/react-aria/intl/searchfield/zh-TW.json",
+        "sha256": "bf2cb4739580b7579df3d1fed8d43c2931d1916a794bd3e6d750288da736493c"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/ar-AE.json",
+        "sha256": "1b94b24be10bb06c62f7dacb9eb6d76441a3f288c684bb1ec0a62195298b0574"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/bg-BG.json",
+        "sha256": "63bf7a4e8a63f726c98d5e031a1fd97c1148fef0a84a1fa413b20aef7ec36ac8"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/cs-CZ.json",
+        "sha256": "01ed66e6f6af5cc14e3b9c882efe690b7e4f877f5411108af6ca53901c3a9886"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/da-DK.json",
+        "sha256": "391848e638de8fff0f7a776337e939ff7118186d2b8d0dc8fe65d8a35fc3b768"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/de-DE.json",
+        "sha256": "4f78b1f24502cab0b411e30e15020c8406446849fceccd2e7e5d69c5c145cdfb"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/el-GR.json",
+        "sha256": "47f9b89632fc09dc5e7e9c8b451e9f63169eeaa597b9737a0612932388127cbf"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/en-US.json",
+        "sha256": "8f5a77f9413a562ec5ccd2438bc7e72bdc1e1cda460285af4fc243d9d7305b71"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/es-ES.json",
+        "sha256": "0677c5a97c262c2397c5469301f0902301eb6d291df02f5a767bafa6e9322804"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/et-EE.json",
+        "sha256": "606ff83e57fd5660590fb357389178a6e7806f9e35269f0ff866f5330dcaab70"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/fi-FI.json",
+        "sha256": "23652d52ed19988e74f7dae5f237e3806770bce405773a8cec991e1540094869"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/fr-FR.json",
+        "sha256": "2fdf7b35e0a01743ae9019bbcbed6499851b5b5f9fa0d75ea11089112b74691b"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/he-IL.json",
+        "sha256": "9ab4fa7f803be4db258e4908d801e7887468f95e3270f0dd2bc1f53d9553cd34"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/hr-HR.json",
+        "sha256": "f5446ddd5557c078ede9607ecf5d7355ba10a8414e21b3592905e66be7ee7aec"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/hu-HU.json",
+        "sha256": "42bc0526a9dc0175cf0fd5fe32444684ba7a824cc8af91214b5b12c946656230"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/it-IT.json",
+        "sha256": "7ba19090e740c3d486b1cf733ce16455f87cc2a74e3b645a88101a2b5caf6a19"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/ja-JP.json",
+        "sha256": "56be32b7566bf7bc11d35d623c5b013e89bc408c03c50eeef2ab808470390b53"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/ko-KR.json",
+        "sha256": "96b0fffd20b99537edb2e353eee1be430f2be1905965c1cb6510196d72cd3794"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/lt-LT.json",
+        "sha256": "1c93c0b80df62a5c790ef87855b990ecbc60935ddad1310a7817fba5d60d6906"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/lv-LV.json",
+        "sha256": "b231ec4106d37995115213d18f63455de1d2e562ff1fe3cc965dfd1fd62edd82"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/nb-NO.json",
+        "sha256": "391848e638de8fff0f7a776337e939ff7118186d2b8d0dc8fe65d8a35fc3b768"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/nl-NL.json",
+        "sha256": "6b236e57896476e308a2900c19026db1335674b2226aaa8e527a12fef75fc223"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/pl-PL.json",
+        "sha256": "d53edbb3a4bdb4d87c1dbdd60c7d24f1adbb0403390bf68f6e2a5a09f72a7cde"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/pt-BR.json",
+        "sha256": "58bec7b756a1a94a500312700d3a7c81475c2d8ca4aa0d9ecfb063cb8e6ebc01"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/pt-PT.json",
+        "sha256": "58bec7b756a1a94a500312700d3a7c81475c2d8ca4aa0d9ecfb063cb8e6ebc01"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/ro-RO.json",
+        "sha256": "61bfe334c871329b80272e72e6c7f62d9e35dc37a21ff12b3cb67424e9a79a90"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/ru-RU.json",
+        "sha256": "9db5535df6c53e3847ec5b957b6eb73952186c1c8c47c6b1fb7a55b9c4c017b8"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/sk-SK.json",
+        "sha256": "6686b6ab30ecc95da068614a07a3be9334a87622f5355a732312eb3bf0fd9f41"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/sl-SI.json",
+        "sha256": "27c2a5e4a8a8d1a6bdf16d2a7a112a7f284a97d2db7d264e6c1970059924c366"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/sr-SP.json",
+        "sha256": "f5446ddd5557c078ede9607ecf5d7355ba10a8414e21b3592905e66be7ee7aec"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/sv-SE.json",
+        "sha256": "4d674252f754d0aee4848871868c0751de92dabfb3c0734b2533f8dfcd24657b"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/tr-TR.json",
+        "sha256": "0bcfd226d8090b77861087a9ca4c70773f2d37adfd6d72d218123591e07f9224"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/uk-UA.json",
+        "sha256": "02a3a61d7a2fde513d93664cfc7f67bac5885f046b0d8958b919c41eb0cc3e0e"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/zh-CN.json",
+        "sha256": "56be32b7566bf7bc11d35d623c5b013e89bc408c03c50eeef2ab808470390b53"
+      },
+      {
+        "path": "packages/react-aria/intl/spinbutton/zh-TW.json",
+        "sha256": "daa122fcd94ba08c4a513ccc610a004530514b09d222db381a61f9990ec8267f"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/ar-AE.json",
+        "sha256": "66f8b7109d036bd6162a66495f35ee290415683b40572d9be57a45c3f124d896"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/bg-BG.json",
+        "sha256": "26b18292e1ee3500b6ec2f45ad67de326e467b9bcf7a8ad33038be9c1472b00e"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/cs-CZ.json",
+        "sha256": "03a28419ea3adcf589961bd455344b3c9bdeb2a7a6c2252f64b0c3a8aee589f5"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/da-DK.json",
+        "sha256": "45963924044b941c51390f2b495fc56bc39da5f2f56f9bd841b84a439c7dcd43"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/de-DE.json",
+        "sha256": "2e81bd7a10d31a46d3f5999c6d9d1bfdb3fc22b36405a22313ef2549a86bcf82"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/el-GR.json",
+        "sha256": "f1d796f22b389f1a122ad384b5f14be315c22bc55c2d7a8cdd102326d9e04adb"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/en-US.json",
+        "sha256": "fd7bfe3464a0b95ad8caf2e41970e395e2cb8358acf2e300e29afdd7869f43d4"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/es-ES.json",
+        "sha256": "6144dd19f3def3b4f564a8497e4e6e774f1e46de08fe7c66aa68bd41156dd2b5"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/et-EE.json",
+        "sha256": "c110fd171c3ace8c124866c8767679a613430d6f3d4bab0728b393090c593a7e"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/fi-FI.json",
+        "sha256": "0bf4d6602b733c49d1cf84fd2b1fb2bf24b4efb18d5861d94dc43e114bf7a063"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/fr-FR.json",
+        "sha256": "6a2818fc80624f50d955ded7ffd419774ddcbeda45ce33401f7d2270aa736ed4"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/he-IL.json",
+        "sha256": "64af4bfa40387a68e8b45bcfeebcd3d5de356f8f39e83b20006225a079575cfa"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/hr-HR.json",
+        "sha256": "208ea5370dbfdb079476656c5a2122dceb8c6d6981f2c2ec5bb4d4fb505448c0"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/hu-HU.json",
+        "sha256": "9f54d38604e6b662b1cc47e9a4b915e6c17736e4b26143115aa13ddbdd21a097"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/it-IT.json",
+        "sha256": "047ea98e3eda0ae28f94dd3ddf1fd4de4a4dcb702bfc9abac335a54f65d253c8"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/ja-JP.json",
+        "sha256": "a2263254ff3221bc007ff1da48fab3301626cab61836b850692313c22fe4576b"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/ko-KR.json",
+        "sha256": "8d680edd77cd53905809ec413776ee59dd460c0dbddfa5bb6fb715081bf99c7c"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/lt-LT.json",
+        "sha256": "01b02462d9d508007c14cdbb5524752189a357f645af67caf34f86131b1b1f57"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/lv-LV.json",
+        "sha256": "60adb3a168f6549fdd5b0f0453d6d0b9d8181aa6944bba17042ae9a13c20c501"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/nb-NO.json",
+        "sha256": "a122e03c60f806720fab7cd74d21a53dc6cc2dc872a7a9025c840118506815c4"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/nl-NL.json",
+        "sha256": "82e167b1c9b9465fd7fb75634f0532ba6507b6fd0cb9867782f879b7956b036e"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/pl-PL.json",
+        "sha256": "4dd58c3ebde30e143a892532c36098a5510cb811eaf1b2617783b7f05a27641d"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/pt-BR.json",
+        "sha256": "470f0fe4ee822f2900d0b59c93aa9f8c2f3784245b736fb0975d1b9f413eaacc"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/pt-PT.json",
+        "sha256": "a052aa2205bc83cf2f9e69f81b7fe6b0c88c0903f9846feb4a67ea03489c6fb7"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/ro-RO.json",
+        "sha256": "2904a6da823fe372918880675fe664f0d9b23667619a8641b0e761492aab595c"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/ru-RU.json",
+        "sha256": "327a62c15326ce9dee763d8d5b7732c06c71930548ed0f7bc41954ca6298e72f"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/sk-SK.json",
+        "sha256": "d1153a8eb5f6d518d3ebb495a488d992408458e781f7e0e52e608374c3741fe7"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/sl-SI.json",
+        "sha256": "6d48abdde9dc0e4f7f5109aafb3d6245df8501df081132c544188d2004b3026a"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/sr-SP.json",
+        "sha256": "208ea5370dbfdb079476656c5a2122dceb8c6d6981f2c2ec5bb4d4fb505448c0"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/sv-SE.json",
+        "sha256": "b52e0278800ea35eb1064e9162ee01ae705b49dd3d9109252034b9d586e5a3a0"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/tr-TR.json",
+        "sha256": "4c3481984ba8492a67032b2d3032bb6b5cd692c3a2ea32153afdbdfa2455f7d9"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/uk-UA.json",
+        "sha256": "3e510450e6ef724504b18167f61ff3bba0db1403b9751e775c5fa3722fa0ba09"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/zh-CN.json",
+        "sha256": "a17792cad9f4747c5b1784c3efeffedf4dec3baea778fcde3db16b3c1a81efff"
+      },
+      {
+        "path": "packages/react-aria/intl/steplist/zh-TW.json",
+        "sha256": "cecff3a22f588398acb279953f7b2dc0644507bcc139b09238f1d9d84675f016"
+      },
+      {
+        "path": "packages/react-aria/intl/table/ar-AE.json",
+        "sha256": "6e658d1e8fb7e33cd4af9310edec370ff0b99f213be15f264f3fc8043d805de8"
+      },
+      {
+        "path": "packages/react-aria/intl/table/bg-BG.json",
+        "sha256": "5e89c0f82468fceb941e720806f49ff028eb9e6f430a6cdf25d6d18a6789c54b"
+      },
+      {
+        "path": "packages/react-aria/intl/table/cs-CZ.json",
+        "sha256": "84cf46eace7ff04bbceeadfd96932b5a867d20c41895f0aaafb98711c28a0444"
+      },
+      {
+        "path": "packages/react-aria/intl/table/da-DK.json",
+        "sha256": "80ac5f2bd8c7a60250823417ec93f395ad2c01b678d304884fe5b4edc8b1455c"
+      },
+      {
+        "path": "packages/react-aria/intl/table/de-DE.json",
+        "sha256": "dd0e7d4ec8918e740b24b69763fed99eb1e90125b70e8396f2cd1cc4a3487304"
+      },
+      {
+        "path": "packages/react-aria/intl/table/el-GR.json",
+        "sha256": "50242b49a63e0b5efe5a2ea49e0ba147586d480f79150b387cda1af471bbef6a"
+      },
+      {
+        "path": "packages/react-aria/intl/table/en-US.json",
+        "sha256": "6f4c4e216cb7a69cd9390929bd7fcc26a7dd0719b55557bd52ee7337ddf70425"
+      },
+      {
+        "path": "packages/react-aria/intl/table/es-ES.json",
+        "sha256": "e835aeb4d7f3c14af8e3dd7dd71beabaf606ece0ea6f71a2045d141db967bbd7"
+      },
+      {
+        "path": "packages/react-aria/intl/table/et-EE.json",
+        "sha256": "f92a86be2d733bf3d79a9f7de05cb2c251a49b4d360eef0679f0c3f7fb83151a"
+      },
+      {
+        "path": "packages/react-aria/intl/table/fi-FI.json",
+        "sha256": "bac6b952a8dbf39dbeede480f7f8e8bd4cca567cdd368deac4ba726f36faf0db"
+      },
+      {
+        "path": "packages/react-aria/intl/table/fr-FR.json",
+        "sha256": "ae8753be38c4463e5db33db7d49d2a75d243672503a6a2a085bb562920dbd1a7"
+      },
+      {
+        "path": "packages/react-aria/intl/table/he-IL.json",
+        "sha256": "fdcd287b05ca34b913a69f674bc0275c8d87464ab82dfdbd067fd30bc89e0dba"
+      },
+      {
+        "path": "packages/react-aria/intl/table/hr-HR.json",
+        "sha256": "caa120d9e229bd9b371550293df9c52443bb2710621b2c823d835b5acdd2ee3d"
+      },
+      {
+        "path": "packages/react-aria/intl/table/hu-HU.json",
+        "sha256": "bf759583d056e61082081e0e65268cc2351cc4da064bf2881c3297c9cac5d48c"
+      },
+      {
+        "path": "packages/react-aria/intl/table/it-IT.json",
+        "sha256": "7cc238d37be5b80c0d9962092057e2cd3eeb206f79de1bb23752268e5ccb0e73"
+      },
+      {
+        "path": "packages/react-aria/intl/table/ja-JP.json",
+        "sha256": "7082e8a1f831b2ee17b5926c6a5d611fce08727651361eed1349f7109cabe77e"
+      },
+      {
+        "path": "packages/react-aria/intl/table/ko-KR.json",
+        "sha256": "069b5f0a4a11eeb8b2e48193975c324c4be79a3320ed19bc8bc6c2f59f65997e"
+      },
+      {
+        "path": "packages/react-aria/intl/table/lt-LT.json",
+        "sha256": "528ac2e30556db95e047e9f28443d3d0914ab83ce8263c4395d7b11cf0d38fbc"
+      },
+      {
+        "path": "packages/react-aria/intl/table/lv-LV.json",
+        "sha256": "92d902d7a8ec78cab5243274f9f341219c33bbdc9fd96b0790c2ed78022c2812"
+      },
+      {
+        "path": "packages/react-aria/intl/table/nb-NO.json",
+        "sha256": "879fee9d7e1f5a1d9c3d039f2df817d46899ce80a4cb1a078a27f772bbeeb4e5"
+      },
+      {
+        "path": "packages/react-aria/intl/table/nl-NL.json",
+        "sha256": "d4901ebb462f22b5bf41bed55a9ce07fbf9895be9c630fc770d1698920c27d91"
+      },
+      {
+        "path": "packages/react-aria/intl/table/pl-PL.json",
+        "sha256": "2e599c82b475807deca4dafea755dd230a6052bc76caab9949a894c79f2fea4b"
+      },
+      {
+        "path": "packages/react-aria/intl/table/pt-BR.json",
+        "sha256": "af61ed37e407a56235ea2b2cc4ad95f55b8145e4c7f032eb3b442f846069ba32"
+      },
+      {
+        "path": "packages/react-aria/intl/table/pt-PT.json",
+        "sha256": "909270e2390a3b82bada24e3c1ff3848c6474b645c6c608c443e57e5325c1e89"
+      },
+      {
+        "path": "packages/react-aria/intl/table/ro-RO.json",
+        "sha256": "fbe65758d331a09669c6c86cc2ab74c97644791d48d44b1735b9d004f1d3d458"
+      },
+      {
+        "path": "packages/react-aria/intl/table/ru-RU.json",
+        "sha256": "f1031097e88b6c894fe3be806e7e9ffba85fdecdb345b36f601d9e6f7dd1ef3f"
+      },
+      {
+        "path": "packages/react-aria/intl/table/sk-SK.json",
+        "sha256": "e04363ff3df8f33e402671c83f5d50270890b68edb641318c50e8c4c40149d65"
+      },
+      {
+        "path": "packages/react-aria/intl/table/sl-SI.json",
+        "sha256": "41475c3500bbe7bbb7a4265a76d52728fcb7c2dc00b65db4c1e2fec51c976931"
+      },
+      {
+        "path": "packages/react-aria/intl/table/sr-SP.json",
+        "sha256": "cfec84e77518aeba6be92ae0e4c4cc91898eab32d28165c43b06c63fe3521470"
+      },
+      {
+        "path": "packages/react-aria/intl/table/sv-SE.json",
+        "sha256": "51913cf4b522e3bc64daba0de1f05c1d4b6ed14e10219accd053f15bc6e2ea4c"
+      },
+      {
+        "path": "packages/react-aria/intl/table/tr-TR.json",
+        "sha256": "52dd1e22ad1c49a016addaac76c02e12a1e119c89c8ab30f7ef111cf31db9bf3"
+      },
+      {
+        "path": "packages/react-aria/intl/table/uk-UA.json",
+        "sha256": "d838fb22639b4bdbb1d8b2bc6b566ccc3d606bb08bfad86ebaec7fbb9a69dadd"
+      },
+      {
+        "path": "packages/react-aria/intl/table/zh-CN.json",
+        "sha256": "ea78751346e20a6845a36fdf5d6b15affc86bdaacf06d4b5dc748523f64dcb68"
+      },
+      {
+        "path": "packages/react-aria/intl/table/zh-TW.json",
+        "sha256": "f13edec833b49fcb495db85130d995a4d4aabe4e6f5b0f8edc62e2d716e7efb8"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/ar-AE.json",
+        "sha256": "b040e32db2eef78af91cfab93fc6ae319ce88ac496558168f328abb246a0e696"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/bg-BG.json",
+        "sha256": "f1403ce4ca2706b51928f2cf53514353c0525fb5c2a03e0c498b07ed02d7f12b"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/cs-CZ.json",
+        "sha256": "72615fc5692199796e461ed5ea99ba7f09f7ab6c7585aa843b484b9dba978f00"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/da-DK.json",
+        "sha256": "66ba0b271f87fcd7d6c815c1d904d35fd3d6114508bc6ded455bcf3746ab69c4"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/de-DE.json",
+        "sha256": "14201dcf6a7b0f908c3e6dab8d59011c71af843f9ebad70bd0843006c7974393"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/el-GR.json",
+        "sha256": "1bf5d0f24bfe724d9f5e809d718f534031ad7a1607cd6bb00fdfed431880eba6"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/en-US.json",
+        "sha256": "d26fb774bb62b9ca2e7ac3ece295dbcfb122f0abd203965f42b67ebd0640adc8"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/es-ES.json",
+        "sha256": "ac9bcb27a5db38f542b4d95af45d67745c3a2c55cc3da57d1473cc1675e0d1cb"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/et-EE.json",
+        "sha256": "874ce37dd020bd2223eac1a8df0a7f365c8054cf200a28243b2722792d27864f"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/fi-FI.json",
+        "sha256": "672462aa6f810057e0451a0677e935417664cefcb6b75de629740874a6907515"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/fr-FR.json",
+        "sha256": "9bd439de5a11b7e519f1ff894f98cc9009197128089a65468ac56d6bb788c956"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/he-IL.json",
+        "sha256": "3515109974460406b8bae7cd605256fd3a6a02f510a3a42d9c3778a218bfe637"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/hr-HR.json",
+        "sha256": "eb636e052d77cafd58c2673790f3f1ab136353a8ca6e8df0f152beb7ef925f83"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/hu-HU.json",
+        "sha256": "5561ec24cb312f497389bdb13ae9837e58abb86fd47db1801f7c0fdeda000b7e"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/it-IT.json",
+        "sha256": "6821a945f88022fd0626f26b59b7eb0d803719fe23c94dfc6f8a0b39f099d0f9"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/ja-JP.json",
+        "sha256": "d6310f19b9d91e8b93ee8c7c8eff30b7f4d9da98e0b68db460c138c506fcaced"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/ko-KR.json",
+        "sha256": "155fcb02b86b5fbaa289b7eaa3e4530abff058fffd355f6d92543252a7f35ba3"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/lt-LT.json",
+        "sha256": "69a46d9af4d90e5820096ae62cde7c4f5c990e5e4c46a876eaffeda319fbd117"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/lv-LV.json",
+        "sha256": "b2e0304152c119e30a1d32aa701f9d97a1bf2d4e5e8b9e2f629400acdd0320ba"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/nb-NO.json",
+        "sha256": "695774e9e38d51c25eeca4145af618554317ca2b15a64fdec8c5fd6cb239c9cb"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/nl-NL.json",
+        "sha256": "330f3e888224a83c58abe04af514e9c574649db97e8355281e5745bcd639a33b"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/pl-PL.json",
+        "sha256": "5cf19b4f9075f7f38d765c9811b95d499595a6269fab2f8d0b392738c50ef9ba"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/pt-BR.json",
+        "sha256": "22dd72ca256f25eea4d6b27a3a6613d2879ab8bb554620779a2296bda730c77a"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/pt-PT.json",
+        "sha256": "047f1e682f7d62a4fab8e6cf8a092370d0c40ce8c016a3948d5891c5e3705c7c"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/ro-RO.json",
+        "sha256": "83af5e1e024193342b0f9a028368d82b1f52454d99186e6b7a9f622b44114f43"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/ru-RU.json",
+        "sha256": "2c3955567a68ec2c2e4eab42d640d7acf52545ebd4c42310760c8bb6ae6fa4d0"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/sk-SK.json",
+        "sha256": "47f2ff6ad5541729f0bfe63637cde0aeb2f96195e87fc70906cec9e1605675ab"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/sl-SI.json",
+        "sha256": "a749806acd1f808a29c2090e4ef986545255a926e3ce4b7c1cdfdde1fa3f6c2f"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/sr-SP.json",
+        "sha256": "a67a81bdfafded3b25d71ba5e73c2f590d05fad9a4f8c815b4233ce5df0141d7"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/sv-SE.json",
+        "sha256": "43d69ea8cf179dd3d71a6fdeab5c6de9d73f9aa40fa5e0f33bc6e6abcbfce98e"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/tr-TR.json",
+        "sha256": "cdbfc88b760f767903591544a458f057d1fe79daa77bed981492d3cd51d4b4b5"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/uk-UA.json",
+        "sha256": "5044ad2fab3cbc1f02299ccdd9050c46d9190ade7babe611b22c4e92da749696"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/zh-CN.json",
+        "sha256": "6c235347e63615306b90d3ad0f9adcfb8c34f52b91187b6c29f13b32a7d8b423"
+      },
+      {
+        "path": "packages/react-aria/intl/tag/zh-TW.json",
+        "sha256": "a3ea06de7cefacf665de344d8caa76e2675e5949aec87a61fc93d87adecb99a4"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/ar-AE.json",
+        "sha256": "04fee142eeb2dbbd63210a2f8dff60aefa281bcd3edf5c303460f5c0da49d399"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/bg-BG.json",
+        "sha256": "259753b6c2421080b7556e7fcdc6369d88f6fff8a4fcebb57f4a33b3ee6a4967"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/cs-CZ.json",
+        "sha256": "c6e5f5c10086ad148a7d6eb6538ab6db53d475d86bcff9ab22d51b8ca612266f"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/da-DK.json",
+        "sha256": "85070266beab8fff908d26be6ba1c438dbc2dcbbcb130d8474ff579f4a8664f3"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/de-DE.json",
+        "sha256": "0cc2b04282f32701ea1f81e380b41c55546593f08855601e1ad317fc4c5f59f9"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/el-GR.json",
+        "sha256": "cca91c3aed7aeb9f1f7089f36045128ea76a6fe54433cfd0ffdbbb1fbde1d5e6"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/en-US.json",
+        "sha256": "51c19bd49e58f723823cfdcdc3ebe0e568e5dd3320e2fa2336767000b3603112"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/es-ES.json",
+        "sha256": "8e17f3964b1e6268d59ffcfe130ec6468a78e8ab5a80a73494a2a5ea38f5a69a"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/et-EE.json",
+        "sha256": "cb987add71df738d05311d971c8dbb76912508d8a2ce3870ce78fda489f7ce1f"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/fi-FI.json",
+        "sha256": "2a59d69dbc0b9207cc73f574c1b8467c64908373bac7522723420a44ce47f794"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/fr-FR.json",
+        "sha256": "853ca139a3968e747df743b8810b10aec2c36b572fb7d4949962d46ed727b676"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/he-IL.json",
+        "sha256": "ea68ceae3262f182ba802402a57250c24d14e3b19a6957933a1f7bb3f2504590"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/hr-HR.json",
+        "sha256": "2333d41c6cc4ba154167633204e862e6270dbab41a7d0109d6be278cf2f16edb"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/hu-HU.json",
+        "sha256": "d23600844287f6823dbc6ce04a352a0569a1036deb6b6165b691c3e556f6bdf0"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/it-IT.json",
+        "sha256": "9b350ff71ed82df11b26e60ac07942854777f7ccc572899f48b7e3db814e3cdb"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/ja-JP.json",
+        "sha256": "37bf55fe5d7febf33fd5376859ccc7a311fcbe9865307e70eeb2d1639dc79da1"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/ko-KR.json",
+        "sha256": "9962b9ef9cf20bf6553b35d2ea3de0dc776d91ac1936ac3348adb08117cabcb2"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/lt-LT.json",
+        "sha256": "468b6a334092247e995a771ffb1de5ecb85c7dabc42ce52ca7931e53edd4c934"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/lv-LV.json",
+        "sha256": "82efaf96a6c16bf67f8ad256c04e3737bb7d38c0e3945e30b4abb9f8e6d26eec"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/nb-NO.json",
+        "sha256": "d6993ad37d549ff0f049cf939d5d498c15b33dcb4e796cb7d42b42d396c285c6"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/nl-NL.json",
+        "sha256": "43f893777126a7bcedf261447aac2f6fe0f9af557b6f1717b85cc0bb14b315b8"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/pl-PL.json",
+        "sha256": "770fb740cf53a0b053c5b3349b31cbc83af884c99cbe6dc9b65201a768814711"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/pt-BR.json",
+        "sha256": "13c4662a521b3fa13755ecab6b00dcc23f268f977e59893e9f82292e50ffd62f"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/pt-PT.json",
+        "sha256": "13c4662a521b3fa13755ecab6b00dcc23f268f977e59893e9f82292e50ffd62f"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/ro-RO.json",
+        "sha256": "24732c548143054c3a946ad096f760a5132d6864e603996d4439c62f3cfb290e"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/ru-RU.json",
+        "sha256": "49ee924788d9e1b5d5b5813647b55f64f95309a629742b1644a3be4fef979cc0"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/sk-SK.json",
+        "sha256": "27f973252a84b065a339531b1d05548b1e0f7e6fe267580850773d9048f21e72"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/sl-SI.json",
+        "sha256": "f8959a42a2c5a64226b0f0da7fb1dd81ad4570708ef1600765448a1179ef552f"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/sr-SP.json",
+        "sha256": "86470640972204c17cc46b98022b2aac5780805180482aac5fae74da8b3b53ed"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/sv-SE.json",
+        "sha256": "dbbc70670d6b5267a7fe7d193617ca4f60e53a19651b18f4a8c9cc6e0b52a718"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/tr-TR.json",
+        "sha256": "1b739cf810df78824e31110b88ecea9a24e1e2ee04bb4d6113e59a1cc0ee8df2"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/uk-UA.json",
+        "sha256": "7c2c43c640b69127cd15e969bb7eaeec071bc1be87ff4f978fd11aa23a15b469"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/zh-CN.json",
+        "sha256": "f3bfcc42cdd9b898fa38f65a3e820c9cad992fafc586f2de9d96fe1678e48140"
+      },
+      {
+        "path": "packages/react-aria/intl/toast/zh-TW.json",
+        "sha256": "fad3bf14a96c437a352daed5ed77ce492103fad713ecc32bbffb159fe83c5f1c"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/ar-AE.json",
+        "sha256": "9eb887952b92165874f2d51e78d25700a22bb2f52666927e54044ce02e97c354"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/bg-BG.json",
+        "sha256": "8652140c5cd73a561eeb45dc82048f7c77184a6c0fa1f35700320fb9ca959c2f"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/cs-CZ.json",
+        "sha256": "c8e4169ec8dac6bbdc01c6eae1ba83487b8fb8538b7bbe168ab3c2872040992e"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/da-DK.json",
+        "sha256": "88937aa79d7c4b554baca3906f9488ee89903a365f1ec372ed3a4bece320a3ff"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/de-DE.json",
+        "sha256": "475fd35edb163114874eba568a1a5d835db866a643b8059f8ff6e8f0413c9838"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/el-GR.json",
+        "sha256": "b729ded16cd6e31f1eec2fc229c60ff540053da69ced8f7902f479c90168c43e"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/en-US.json",
+        "sha256": "8b0969cded9a7435dbff8f73b5d52f4858b1e02d02637bcf61113c75b645d317"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/es-ES.json",
+        "sha256": "28b5bd3861531f9c6bf7782c19d8d36410e7ea8ada51c08d1482ce7fa910311e"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/et-EE.json",
+        "sha256": "e8d6eb1f93c1092fe7f56d2ae0798bef583b3d3e9095c6a0698656d9ccdaa32f"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/fi-FI.json",
+        "sha256": "28b5dee919abf3f23b888f7e7f5ca3baf44e1e6301379618f390a2b6df35fe9d"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/fr-FR.json",
+        "sha256": "f81b499ecd65caf9f12748be1279a1a9c153e59101e17ff3809dc1dc244f0e7c"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/he-IL.json",
+        "sha256": "384395056e53bf605677739875e6b2f62ca7ea4fc33c6d9041958ec1d8dbab17"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/hr-HR.json",
+        "sha256": "31434f8327384a3681898eb7b61a4b1c13cf369783ae4bf94a54f3d979230446"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/hu-HU.json",
+        "sha256": "b136c34bf43952c41c171f2ab62b394da5b19be88013dfe3d03ff7f140f791a7"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/it-IT.json",
+        "sha256": "a4736ff08d3b35ab07be8c0fcbd51976ccb6583809ede4d724b4a2c3a8a80b62"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/ja-JP.json",
+        "sha256": "76555bd647a5d64a94b5a1b232b78acd78d3a31f7bc55782f3036e904163f1bd"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/ko-KR.json",
+        "sha256": "b27c772581e751f824e7604a14dd6987720e51d6fa1094b8419969028bbc56eb"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/lt-LT.json",
+        "sha256": "6df56b7f4a59ddc627a569c0852f9f0f4b1820f1f54a4fb5f85236af753eb308"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/lv-LV.json",
+        "sha256": "ec0b372b2ac2e1e9d92c78f3179e45a385ed3f51e95645306e6c9a090255077f"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/nb-NO.json",
+        "sha256": "9da62b8a37f2a2779ef495057ba1d358a77b22a1e59d2e8c37792ed2fbef45d9"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/nl-NL.json",
+        "sha256": "8c8b009b6b8700f846328fc5012a2541fa40b40df618ed13021df9c80ea1b385"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/pl-PL.json",
+        "sha256": "1dbea053599fc830bfe689fe213504fa6598db80b18c5bb47e6f62fe3c686ca7"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/pt-BR.json",
+        "sha256": "410207a6d04310d5b4408973b35b54aeee8ffb7eede13543fed877f479e286d4"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/pt-PT.json",
+        "sha256": "e813071f6ae28685e357592c8d6bab4f3977b3027ab964e5fc95f7ee5c439a86"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/ro-RO.json",
+        "sha256": "b4f07df6bd983575757847da9a6bd73211832468c60b6f80cc89c1e68eafa50b"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/ru-RU.json",
+        "sha256": "d3404ca370baed4590f8ac19c0a132ef625f84aa8b0536e39508bbda40dc6a61"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/sk-SK.json",
+        "sha256": "8604e2a49f8ce7183bb5acb92e39d453ee281bacd7f35bb6e6f81ba61c601460"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/sl-SI.json",
+        "sha256": "51ab22fd42b59781adf346db1ca7e98459749bade76fd6d3450211398119b1d3"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/sr-SP.json",
+        "sha256": "0096919d557ae0fd6bf84c476389c58850e8cbf29bb0f76345161c129954e692"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/sv-SE.json",
+        "sha256": "17faded33aeeb2b0cb4ace753f7adf1d46d9272f4972ad65979ee95431d887c3"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/tr-TR.json",
+        "sha256": "2244fb26717f5c71e03db7a413d73c4c402c72fdbbebe52da114ec48b6031acb"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/uk-UA.json",
+        "sha256": "73c8326ab26f13a1102ccd0c1fe61441ba41edbf9e1bb775c4578f32f58b47c4"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/zh-CN.json",
+        "sha256": "4c315a8a84cc5405b3b70ef98634148eec7c09ea89bd2f74674f344512055aea"
+      },
+      {
+        "path": "packages/react-aria/intl/tree/zh-TW.json",
+        "sha256": "9c3b93d8c37550c9e3ef0d04c2f9cbbc97781404dbd3040759b2f52d32b134da"
+      },
+      {
+        "path": "packages/react-aria-components/intl/ar-AE.json",
+        "sha256": "e263066f249a83f9829709ba04fca29be03507ce596cb7d462602232975d7b35"
+      },
+      {
+        "path": "packages/react-aria-components/intl/bg-BG.json",
+        "sha256": "04c4e493bf26e187abd47c1d03278abfd7eba813e9a4ff3f4957199221bb0f2c"
+      },
+      {
+        "path": "packages/react-aria-components/intl/cs-CZ.json",
+        "sha256": "00325d7f5a1e1c208188b27598488f56d376fe425d03a75249a2f49f4ae58443"
+      },
+      {
+        "path": "packages/react-aria-components/intl/da-DK.json",
+        "sha256": "2561cd4a72e253a8b8ae12b3abb9f52c0ef88aaebc8681736d30508b38340acd"
+      },
+      {
+        "path": "packages/react-aria-components/intl/de-DE.json",
+        "sha256": "edc503e9a017d353011f9b355d3322ae1112f56dc96012ecf19b42723051a524"
+      },
+      {
+        "path": "packages/react-aria-components/intl/el-GR.json",
+        "sha256": "2fc5130c9394c32412229a2870793f572c8d95b9f71a97d1fe1af6c983ff9f80"
+      },
+      {
+        "path": "packages/react-aria-components/intl/en-US.json",
+        "sha256": "dd5901b6458603a0e624945082a4e787903b0bf42804a328ff2516b63407aa3e"
+      },
+      {
+        "path": "packages/react-aria-components/intl/es-ES.json",
+        "sha256": "6d8f95c4eae82374a687766e0fbf3de6e254b250d5e20d79ed07653d6f06230e"
+      },
+      {
+        "path": "packages/react-aria-components/intl/et-EE.json",
+        "sha256": "6b130df3af7116313b7a7f1b98d21a68c7c2fc8e428b3636d8a02db8452b4442"
+      },
+      {
+        "path": "packages/react-aria-components/intl/fi-FI.json",
+        "sha256": "205b7dfba44b843c8a246530d4bb5bd9d449474f2c744690a8610e07ce61392f"
+      },
+      {
+        "path": "packages/react-aria-components/intl/fr-FR.json",
+        "sha256": "61274d3fe9e00a13c4c3f03668bdd973a19411650b54b4d9d023d4ea576c2d69"
+      },
+      {
+        "path": "packages/react-aria-components/intl/he-IL.json",
+        "sha256": "9636880a556c8e4cbc4c7a0f36e83586ad6813c44d4ab17bbefdd792ed1d93cd"
+      },
+      {
+        "path": "packages/react-aria-components/intl/hr-HR.json",
+        "sha256": "146a35c684b8e5a5e54df4bcc78a2f0012a3f44f167edbcca98de0107f5e5b1d"
+      },
+      {
+        "path": "packages/react-aria-components/intl/hu-HU.json",
+        "sha256": "dbadbee9154d906dae1d13bc188b9f18cf3f72a60750f65c5f3b42ece74642fb"
+      },
+      {
+        "path": "packages/react-aria-components/intl/it-IT.json",
+        "sha256": "633271f79f14575fab0b28d4003e5b9dc05a2bce73479c700a1e83c241d83aee"
+      },
+      {
+        "path": "packages/react-aria-components/intl/ja-JP.json",
+        "sha256": "a922f02fabc548bbc489c04486930277cc31c8d8c62693f843cbdb06d0b0d240"
+      },
+      {
+        "path": "packages/react-aria-components/intl/ko-KR.json",
+        "sha256": "ffdda867dc1a21413d219a942a8dd73a31fb0947ec6b2ffdb9429389af1d22ba"
+      },
+      {
+        "path": "packages/react-aria-components/intl/lt-LT.json",
+        "sha256": "09fc50d2064fe99c704e80cc30eb1087ce18c09cc96e8c434bd9e63c2284dbf2"
+      },
+      {
+        "path": "packages/react-aria-components/intl/lv-LV.json",
+        "sha256": "59da9caf79386209b3f520f58b99dad8c850187a6609b8166dc6e3e67acf978e"
+      },
+      {
+        "path": "packages/react-aria-components/intl/nb-NO.json",
+        "sha256": "1d57cd2870524c9acf718073f3f6ca36f33a414888210023d4086cc975531b0d"
+      },
+      {
+        "path": "packages/react-aria-components/intl/nl-NL.json",
+        "sha256": "d7db09b55a1a0deb64dd36dcf7ff9741655314a584c3c5f769a37766c412cf59"
+      },
+      {
+        "path": "packages/react-aria-components/intl/pl-PL.json",
+        "sha256": "f1410b59d2d1a78490d57be0bfb5e77e86d1ef4bf5e9c04615a2bb1984b28464"
+      },
+      {
+        "path": "packages/react-aria-components/intl/pt-BR.json",
+        "sha256": "17a33ec5a019803509880bf64ca0db2b3739529eba4736b176353f293a21d4e5"
+      },
+      {
+        "path": "packages/react-aria-components/intl/pt-PT.json",
+        "sha256": "17a33ec5a019803509880bf64ca0db2b3739529eba4736b176353f293a21d4e5"
+      },
+      {
+        "path": "packages/react-aria-components/intl/ro-RO.json",
+        "sha256": "d087b9f11ad1c7cd522c32f0e6c0ecbf861aa0dfb20b2cf354b393d344448ecc"
+      },
+      {
+        "path": "packages/react-aria-components/intl/ru-RU.json",
+        "sha256": "ed30e5197bc5a0993d711d842e9039e5df9a2502f8cf46c88b9460c2d4341c12"
+      },
+      {
+        "path": "packages/react-aria-components/intl/sk-SK.json",
+        "sha256": "04dbb2abfc74e0a9f265b4a28df7552b7147464e72c5f074bdcf5989d4f5bec4"
+      },
+      {
+        "path": "packages/react-aria-components/intl/sl-SI.json",
+        "sha256": "0587e23064aba87c1594f13305d36fbc3ab5e305cf3e38147189cc26be81eb2a"
+      },
+      {
+        "path": "packages/react-aria-components/intl/sr-SP.json",
+        "sha256": "210aabbac3db30b239a673a2eb0065d43b537083b5c4ed69a9067307575da464"
+      },
+      {
+        "path": "packages/react-aria-components/intl/sv-SE.json",
+        "sha256": "fca229b120fa7304c37fbf507c9465a247300e4e7710e9afe6433368626b2b55"
+      },
+      {
+        "path": "packages/react-aria-components/intl/tr-TR.json",
+        "sha256": "3a22d8c29734af8dadd0d99440657e37efc7f8f412d09754634c156e4bd5a4b7"
+      },
+      {
+        "path": "packages/react-aria-components/intl/uk-UA.json",
+        "sha256": "d6ed2f529d917094764814d2161da500e58a3505f3d7ae473a471ee4a35ad3cd"
+      },
+      {
+        "path": "packages/react-aria-components/intl/zh-CN.json",
+        "sha256": "ed4798d35dd013fbf84bbe6b9a79361f12a5d167546cf4007c84ab41c1fc7faf"
+      },
+      {
+        "path": "packages/react-aria-components/intl/zh-TW.json",
+        "sha256": "8b69a87af50efd5b6a928ce245b2571f87ba4e7971fe27a04b3006c98d198b29"
+      },
+      {
+        "path": "packages/react-stately/intl/color/ar-AE.json",
+        "sha256": "5ffff35c22eb031c6ebdc4164c09f92add9bfee8d8cc6276d72735d38bcd88ae"
+      },
+      {
+        "path": "packages/react-stately/intl/color/bg-BG.json",
+        "sha256": "63dc488fb0742d1ef1a7329cdf3b6d756d8c086d8ad19671b53a00752428dc72"
+      },
+      {
+        "path": "packages/react-stately/intl/color/cs-CZ.json",
+        "sha256": "8864b893faec86a9331ed66eda68763e0e0cd02502e912035fe97ea89414e5ef"
+      },
+      {
+        "path": "packages/react-stately/intl/color/da-DK.json",
+        "sha256": "1f2c1813f1fb0ad551f8788bc5807d3d65e737e07b75c2ac06c4ebc69aa28e2b"
+      },
+      {
+        "path": "packages/react-stately/intl/color/de-DE.json",
+        "sha256": "77e79fff64bcfde02669e45fa94db8a6f00378bff5ad08adc14a4c4fccb2cd80"
+      },
+      {
+        "path": "packages/react-stately/intl/color/el-GR.json",
+        "sha256": "c9974ba453401b94e664032048062b5504075ca9ed92beb6e30d1bc97126bca0"
+      },
+      {
+        "path": "packages/react-stately/intl/color/en-US.json",
+        "sha256": "cd9ab56ed18b90502d045d6842b6aa0c0f2d63eb1915b2f3131ba51f6a733072"
+      },
+      {
+        "path": "packages/react-stately/intl/color/es-ES.json",
+        "sha256": "0724d137ef3b9dde604b46614654c5b815c3612d0da714f386b66bf88cad8a06"
+      },
+      {
+        "path": "packages/react-stately/intl/color/et-EE.json",
+        "sha256": "cc6f3c7d312890a8b96d54e3fa7dfade80c9eccad2a62969e3f56f987306fa7f"
+      },
+      {
+        "path": "packages/react-stately/intl/color/fi-FI.json",
+        "sha256": "ab22b5717b499c10d67ce0acb05ea6fd553e89a3994eeac981545d28c91d8730"
+      },
+      {
+        "path": "packages/react-stately/intl/color/fr-FR.json",
+        "sha256": "3fc0646cef59e404bdf91a83c19b8a345c6a81e0a7461d96edbcd5a5ad5adee1"
+      },
+      {
+        "path": "packages/react-stately/intl/color/he-IL.json",
+        "sha256": "7071d20ed28d09d0bc7d16e13b7bbb0b6831398c3468af50786fdf5dc0614fb0"
+      },
+      {
+        "path": "packages/react-stately/intl/color/hr-HR.json",
+        "sha256": "84e313666f71ba3a7f5fe840e291f66b194a45894dc7bd8edfa18083841f0864"
+      },
+      {
+        "path": "packages/react-stately/intl/color/hu-HU.json",
+        "sha256": "7593cf30465d36de71da604204b12d06bc347ba98ff49f089364211d05aca629"
+      },
+      {
+        "path": "packages/react-stately/intl/color/it-IT.json",
+        "sha256": "c2b59a2bbc8c573651f6d37c14aec7ba60d97898fccdfb6e2a7acddbff897b6a"
+      },
+      {
+        "path": "packages/react-stately/intl/color/ja-JP.json",
+        "sha256": "dfb675dda9159432123e8b6c881f54fc6b6d8bf1b15c9e1c98b158d85bcfdbcf"
+      },
+      {
+        "path": "packages/react-stately/intl/color/ko-KR.json",
+        "sha256": "f79e4b45a2a98244e191e9d7f4e2e789b98e80e67ce8983c55936797deadf106"
+      },
+      {
+        "path": "packages/react-stately/intl/color/lt-LT.json",
+        "sha256": "51b8029097b1dd85104f2b962161d28c30436e4da99176222335e9ba6f00ba87"
+      },
+      {
+        "path": "packages/react-stately/intl/color/lv-LV.json",
+        "sha256": "308106b2e5370025a9a545a2740fa8eb25bc511824f83f6240f928514a06eb26"
+      },
+      {
+        "path": "packages/react-stately/intl/color/nb-NO.json",
+        "sha256": "d26cdb95b954fa565b15c663e8c47e3755316839133c0498b79099cfea49b5f1"
+      },
+      {
+        "path": "packages/react-stately/intl/color/nl-NL.json",
+        "sha256": "3a83c91b54b36dbd0dbdf839c61ec16f4d00527e0bbc5ae1d42a84274abf9d52"
+      },
+      {
+        "path": "packages/react-stately/intl/color/pl-PL.json",
+        "sha256": "efbdb940e155807573101d9ca9c6813c7acde48fcb50d7d3974ae16fe33d7be9"
+      },
+      {
+        "path": "packages/react-stately/intl/color/pt-BR.json",
+        "sha256": "aff85cd233a40f1423d1f15a23987e169934235aa8e635c542ce17102647d041"
+      },
+      {
+        "path": "packages/react-stately/intl/color/pt-PT.json",
+        "sha256": "8b74750fc9c47624560e6a7cc658de6c7615914a9ba6d187da2f86cf0adc11b6"
+      },
+      {
+        "path": "packages/react-stately/intl/color/ro-RO.json",
+        "sha256": "5302f15bb7d82fd981edb2c3810e4c72ff903c2c2e425efbf9a2a0ab3263214e"
+      },
+      {
+        "path": "packages/react-stately/intl/color/ru-RU.json",
+        "sha256": "28015208ec5ede528a66d9c5789346bcff2b0d01486fbfc2ed2badc3d8bb65c0"
+      },
+      {
+        "path": "packages/react-stately/intl/color/sk-SK.json",
+        "sha256": "afba40a1f3345192bf83d52f1bdf1abf009f298ce30a055de92e6849ac981343"
+      },
+      {
+        "path": "packages/react-stately/intl/color/sl-SI.json",
+        "sha256": "6187d21c29fcb4ac409fd8040addbae2d374f9ba223443e55cbc59903841ac4b"
+      },
+      {
+        "path": "packages/react-stately/intl/color/sr-SP.json",
+        "sha256": "8ca31810b6e4bbe17604090cb0a974ba74ee9bf053b4fe4bfec24ad9c301917e"
+      },
+      {
+        "path": "packages/react-stately/intl/color/sv-SE.json",
+        "sha256": "6029772666ccb8a752c85dd909a055ab7d3c4bf043be271d0734d40908a3b6a3"
+      },
+      {
+        "path": "packages/react-stately/intl/color/tr-TR.json",
+        "sha256": "a0af7a97da41b8e05296c7526e0a54a1ae5a9e865155423bae1e9e9f92a8186e"
+      },
+      {
+        "path": "packages/react-stately/intl/color/uk-UA.json",
+        "sha256": "09f4333168404521f7bcbe42b444253f1f8d1b42fa1cf757421bd8877f688cd0"
+      },
+      {
+        "path": "packages/react-stately/intl/color/zh-CN.json",
+        "sha256": "e29bf625bd718f69999aac97a5a6205aabe7fab85c542d59de94069bffbc7f64"
+      },
+      {
+        "path": "packages/react-stately/intl/color/zh-TW.json",
+        "sha256": "ec52b3b7824dd76d8e9a2aee9adc8ca07a7005d33f361ff92685484f02b79c94"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/ar-AE.json",
+        "sha256": "46cac51edcd13170f5ac4f2b7bff3c3b941497d975e44c3b73799bc1d277db59"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/bg-BG.json",
+        "sha256": "9bd10273d232a4e42b57c248dc1cfac134bb7009c9c59fb56f5f23444d933fcc"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/cs-CZ.json",
+        "sha256": "a667eb7ec982748c09c452fbbdf4b91f44d5d18c5681dc6a6581e731ba98af95"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/da-DK.json",
+        "sha256": "de95f11aa7e082d8006fdfec94e90894ca96b00be97c6780859482e55bfccd19"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/de-DE.json",
+        "sha256": "555c11c9ec693dbef47239152cd1945435737df0f1b2c0c4b997c5c3d21a996e"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/el-GR.json",
+        "sha256": "fab143c6df84e9aab798b1068b4be4c77565cb0c429dd941bba00c86d7c9b2ae"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/en-US.json",
+        "sha256": "e4c6071472447449f72d19568eeb5f33af0867e415d1b91a7da93bb80af6ecde"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/es-ES.json",
+        "sha256": "394b0ac4196c96810c6e30338f81c7efca452921f29cf77935985bcebfc59894"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/et-EE.json",
+        "sha256": "0c13cca051ecff70a48b3461d25ec1b94c4e0a3bad6c594ab1c5789c8268c571"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/fi-FI.json",
+        "sha256": "b403c43c556d9a1871159b2de6538ec7893385b09924c60c1ec731f893073b41"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/fr-FR.json",
+        "sha256": "47c835f2ad5cc47519ecec9df3208ce3b1564cfe92428185db27f9f9bffe8bd8"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/he-IL.json",
+        "sha256": "c4d1a07b02f42689025e4d5b264eb3ce49c5afe46fd154d0523baff6a105ed3f"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/hr-HR.json",
+        "sha256": "d3272d91f9144637c404bda332d5ee9c04df5bb08f092a234f9961f6d82e0568"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/hu-HU.json",
+        "sha256": "ae9daf7758967958c21693b2c6ca412035a0b25e95f83795e904a7662b5e0213"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/it-IT.json",
+        "sha256": "b03925aa2f7efc0bdde92b33943493f8195b721fd8046b04b2d2e25e94f34605"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/ja-JP.json",
+        "sha256": "369f42a0d7cd030bbf6ea9d26748fae95e9f65b2c208343c15a2aa912efdde7b"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/ko-KR.json",
+        "sha256": "97d6aac2b154c347faadb4938f2d359935b257917fe05a626112947751bb12fb"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/lt-LT.json",
+        "sha256": "610109ff3249c09550adbf079d553d6bb3a23a8344a4a2e6ceb9fe52dd2683d6"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/lv-LV.json",
+        "sha256": "66883560f40dfe01729fcd18a5d9a24733917d1c0bcef37d393d0a5546f8baf9"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/nb-NO.json",
+        "sha256": "b73970f3894bdb57239f980b939d327b8b0224c03714a0439138326db5fb02f4"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/nl-NL.json",
+        "sha256": "d8cede6c6ac938d49ea4657c1299dfe9adee61cdc7bc9f6c314f6edc580309bf"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/pl-PL.json",
+        "sha256": "1a633e126b2f2d1e93aa9db263f7acc456fa5e52275db1c5d28b7b891b525903"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/pt-BR.json",
+        "sha256": "34e5a7bcf3374295f8aa45268b2e5fe145c256fb343898be1b77091a106e56b2"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/pt-PT.json",
+        "sha256": "5e5d5dbb725833402411f5cb17acfc00efee2a52f86904c6225fef8259873ba7"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/ro-RO.json",
+        "sha256": "2e777b353638d123837be66a59a8bb2e77781476a818c2a7a5a60ca6ce97f8dd"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/ru-RU.json",
+        "sha256": "322f6f30eaa7b85084027c2c5e3d0fb8f26b6d72db1f298355c7fb387dd6b605"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/sk-SK.json",
+        "sha256": "1fac15b4ed05b6a848cfa49234fd620b51bb95a16caf03cd2c53f3d78384bb87"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/sl-SI.json",
+        "sha256": "52e19f3b7c9b4cf9e2482b8c93d7c7420fd1ce6f415f32ef751e0f7a2cdf2d75"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/sr-SP.json",
+        "sha256": "2a259ea63db9dd7db376d1cf06efda4d73d877b0df8db73501bde8c29d21bce4"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/sv-SE.json",
+        "sha256": "6052c494e423b05165ce41630e4802e2b42a560ee1891e71202c4c471d304dc3"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/tr-TR.json",
+        "sha256": "a3576b8ae0dcc102ae0070f1d2559d79fc02db10cc06f0f59557ad092f355eed"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/uk-UA.json",
+        "sha256": "c62c98c0e6657716c08ea22c9cfdaf2f4908bfd00de0a5ab123fb1113226ff22"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/zh-CN.json",
+        "sha256": "bf2c32bab9bf2bc8844d938747654a07b3ad30992512e96ee0e4559c15eb4a98"
+      },
+      {
+        "path": "packages/react-stately/intl/datepicker/zh-TW.json",
+        "sha256": "2fbeddcfd1536122f6b0fa453e90fa9875f29e770d6ef7c7e23cdea417010c7a"
+      }
+    ]
+  },
+  "buildOnlyDependencies": {
+    "glob": {
+      "version": "11.0.3",
+      "frozenLockLines": [
+        17639,
+        17641
+      ]
+    },
+    "@swc/core": {
+      "version": "1.12.1",
+      "frozenLockLines": [
+        10167,
+        10169
+      ]
+    },
+    "@internationalized/string-compiler": {
+      "version": "3.4.1",
+      "resolution": "file:packages/@internationalized/string-compiler",
+      "sourceSha256": "0f71f9812b5008ce03e22599785621513c3ce9bd2e5af7f6b047a0727492cf3e"
+    }
+  },
+  "verifiedParitySha": null,
+  "localizationSourceFiles": [
+    {
+      "sourcePath": "upstream/react-spectrum/scripts/buildI18n.js",
+      "sourceSha256": "3b7bd321a6d11a2d234bc89f4393e2fa6de2018907eff02c2e4296d798a15273",
+      "targetPath": "scripts/buildI18n.js",
+      "nativeSha256AtIntegration": "2bce943a5559de3fec291e736a553aac066f3859e03d2559e3bfa035e001cc16"
+    },
+    {
+      "sourcePath": "upstream/react-spectrum/packages/react-aria/src/i18n/server.tsx",
+      "sourceSha256": "e260543272bd12c4c393c06daeb20d9b36020a7f86cba3bdb04c33c0ca75fa9c",
+      "targetPath": "packages/react-aria/src/i18n/server.tsx",
+      "nativeSha256AtIntegration": "9c0eef8797a888e826d00960f0acf6e7e52d1356fb4cfce9de4ae44a36848fbc"
+    },
+    {
+      "sourcePath": "upstream/react-spectrum/packages/react-aria/test/i18n/server.test.js",
+      "sourceSha256": "38e5d24c71b80ea1f567115e0da3b4461e1ca00137f55e81fd7affa60dc4334e",
+      "targetPath": "packages/react-aria/test/i18n/server.test.js",
+      "nativeSha256AtIntegration": "38e5d24c71b80ea1f567115e0da3b4461e1ca00137f55e81fd7affa60dc4334e"
+    }
+  ]
+}

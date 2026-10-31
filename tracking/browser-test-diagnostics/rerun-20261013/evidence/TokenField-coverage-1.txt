@@ -1,0 +1,9 @@
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.composition.browser.test.tsx (19 tests | 19 skipped)
+ ✓ |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx (7 tests) 29960ms
+ ✓ |chromium-desktop| packages/react-aria-components/test/TokenField.composition.browser.test.tsx (19 tests) 32829ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx (7 tests) 33225ms
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.composition.browser.test.tsx (19 tests | 19 skipped)
+ ❯ |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx (7 tests | 1 failed) 43788ms
+ ✓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx (91 tests) 82280ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx (91 tests) 93250ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx (91 tests) 116181ms

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "./node_modules/.bin/vitest",
+    "run",
+    "--config",
+    "vitest.browser.config.ts",
+    "packages/react-aria-components/test/TokenField.scroll.browser.test.tsx",
+    "--reporter=verbose"
+  ],
+  "cwd": "/Users/avi/avir-oss/solid-aria-components",
+  "startedAt": "2026-10-10T02:11:07.426928+03:00",
+  "log": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p27-scroll7-three-engine-20261010-021107.log",
+  "exitCode": 1,
+  "finishedAt": "2026-10-10T02:11:12.330627+03:00"
+}

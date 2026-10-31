@@ -1,0 +1,1591 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/solid-aria-components/upstream/react-spectrum/packages/react-stately",
+  "target": "/Users/avi/avir-oss/solid-aria-components/packages/react-stately",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 50,
+      "sha256": "d2ba669d374f64a716edb0ecc6eac98aa5fe4d6802fcbf24998d2b89945014cd",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "exports/Color.ts",
+      "bytes": 816,
+      "sha256": "9a0a9a4376c742b9bbc238ece859504ee24321688cac20668630b4f7b5ed6dce",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/index.ts",
+      "bytes": 10879,
+      "sha256": "81cc5dc6d8e2fd512c84efd9d086d2554b087415c872f3c5699ad5271e7a6f84",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/Item.ts",
+      "bytes": 719,
+      "sha256": "e1d1cebebb116feb5b993ec81c8eb24861eb20ad8d65c2cd9c26b7535ae58e33",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/autocomplete/useAutocompleteState.ts",
+      "bytes": 174,
+      "sha256": "3a8640c3633a727286ec02379b86b9b462058f4b6440e3da3d62516d97b63a26",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/collections/CollectionBuilder.ts",
+      "bytes": 78,
+      "sha256": "ca7578c39841d1cfac60c4e5968b52ae12f250f5c27f232cd3f05680edbca187",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/collections/getChildNodes.ts",
+      "bytes": 139,
+      "sha256": "e0d6aca3d6d554b1c6357e34a524a745322f6cd16ce16468c38fdd35871a4ff3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/collections/getItemCount.ts",
+      "bytes": 68,
+      "sha256": "55abdd19d0eaf9006630e5b846aaa649f0ae97192c45698b00322fcd8b69080e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/collections/types.ts",
+      "bytes": 65,
+      "sha256": "8b53b7dd63e4ea44271297969a85449558665ea66ec9d862d71d68f3aa232a8c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/collections/useCollection.ts",
+      "bytes": 70,
+      "sha256": "e79ed6524b33fc5698581b50e49fe7f78af8668dd8033a8eb5321374b600d7f5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/datepicker/utils.ts",
+      "bytes": 69,
+      "sha256": "9def50465685f5a58d3a30fa114c55a856731a5f5283b337f96e7e61de7cdf2f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/flags/flags.ts",
+      "bytes": 119,
+      "sha256": "bbf3d426c1c88756557c4198b806ec5d3e7fc796bc06f15498c072ff83510cdd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/form/useFormValidationState.ts",
+      "bytes": 240,
+      "sha256": "fd84d3262b51068dd0f5bdcc2e60e09cae28627ea1c9cbef30dac14956bd7de4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/grid/GridCollection.ts",
+      "bytes": 126,
+      "sha256": "d72f3c82b53168fe40c97aa17316c766aaf70a3f9c98b714167f7bb4e19a003b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/grid/useGridState.ts",
+      "bytes": 100,
+      "sha256": "1efa4dc686cf520a163ed7df3f3b2802f2770e54ec437c6be05028a01ddb6c5f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/list/ListCollection.ts",
+      "bytes": 65,
+      "sha256": "34a7103aebba277fe88641546c9d0c2f5f27039ce36341e1f112e33644c37dba",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/selection/SelectionManager.ts",
+      "bytes": 74,
+      "sha256": "3b5f630152d9fe5e5f45bf9dec22837e33f55042c7067f54f9aef868ad43aae6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/steplist/useStepListState.ts",
+      "bytes": 121,
+      "sha256": "a6cb996862c30eff5d668422772d0eb29d937fa97295ffd6d772f56d0eaff4a7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/table/TableCollection.ts",
+      "bytes": 116,
+      "sha256": "e9d0a22561b83eacc1aae31843006dc611c2c502a3a08c0a5654b8ae38257982",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/table/TableColumnLayout.ts",
+      "bytes": 72,
+      "sha256": "c230349f3ebd017c98601f5bdacd6516592a66aa63fb716fb44790db82f061fc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/table/useTableState.ts",
+      "bytes": 80,
+      "sha256": "27804af56d920d03d3fdb478aa8491e9f84ce8a7ef763eb229747fbcffc7b623",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/table/useTreeGridState.ts",
+      "bytes": 132,
+      "sha256": "3eacf79ea21deb4d49f3bb6d7488eb7c8740d2392b26b36af98682525394a37c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/tree/TreeCollection.ts",
+      "bytes": 65,
+      "sha256": "30abe2eb3d77a30169f40912274e23ca61554af9cd029d62412aaa29a5a9355c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/private/utils/number.ts",
+      "bytes": 81,
+      "sha256": "739d75864683e052c1ae970eebf5e7dc5cafc01015dda8a32d1c5ea12fdcd6a3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/Section.ts",
+      "bytes": 728,
+      "sha256": "571a30c5b046273a8353b0f7392f5d96ed165ba90ebff5edd196915ad737cbcc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useAsyncList.ts",
+      "bytes": 834,
+      "sha256": "ea63329a7964b1d832f119aa0774ee5f1e2bc582fd85dc4d884a5e58fafc66c0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useCalendarState.ts",
+      "bytes": 917,
+      "sha256": "4ce5433656eee6d8cf2f8c5abfbf452ffa5f842fd866c962e47def285fac1286",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useCheckboxGroupState.ts",
+      "bytes": 798,
+      "sha256": "62fd13d5a8cfdb3745f82944dd6fd3be2d00849497d47290d18d6a69b5e9e417",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useColorAreaState.ts",
+      "bytes": 901,
+      "sha256": "1816b9bd165d9c59bb71fd2eaece89bdf60504b179f3d358a4df8e121adb48e9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useColorFieldState.ts",
+      "bytes": 1005,
+      "sha256": "39c9ae9d972fc3df92b87f6d582a3cc6fca60a7bc65d483acf8913be6e7bd075",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useColorPickerState.ts",
+      "bytes": 912,
+      "sha256": "192053f546fc871f165d03fdb29cb993e010409ab14b6b84f90fd737f48d0333",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useColorSliderState.ts",
+      "bytes": 990,
+      "sha256": "ae32e167ae8083deebbe433ca7db0813a70c9b0cd7abb45608a69ecd1517eae6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useColorWheelState.ts",
+      "bytes": 906,
+      "sha256": "8d7ccd93b8a5e73cf9b085048c9dd9a3d8c14ef8d2d5cdeb19eab514b1985208",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useComboBoxState.ts",
+      "bytes": 868,
+      "sha256": "e9434aa5799ca8508e6b19bf4ad16eac1a285d55109ddfbde25cdb79e7accef0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useControlledState.ts",
+      "bytes": 68,
+      "sha256": "cb9ac42520e253a8db5ec68aa6f8b935be699b9bfba2fde5ebf7d84aef73c0d4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useDateFieldState.ts",
+      "bytes": 975,
+      "sha256": "e0f1878170f5f0ed3c6db360a4e1c8622c5d86acb346047fa98c855907490b04",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useDatePickerState.ts",
+      "bytes": 906,
+      "sha256": "df1ed32ee4815d283c9872e8655f943afd1b2ab2d3aaa4e8117d95ba27111639",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useDateRangePickerState.ts",
+      "bytes": 955,
+      "sha256": "b19c2bb0a778b22addd636a1462ed4d007bef9bc8ce9782036e5d73744fc36d2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useDisclosureGroupState.ts",
+      "bytes": 818,
+      "sha256": "0bc8e98aca2515cead8d6087ba139224a59371f779a2a8919c41eb48639add79",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useDisclosureState.ts",
+      "bytes": 787,
+      "sha256": "eed9bdac882ca5b73e385cc6f01c4001da63186986c47e19ac4272f6bb5be8e1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useDraggableCollectionState.ts",
+      "bytes": 830,
+      "sha256": "09b8165520b524b5a6cfe718ac7a58e06879e07bf628ee1e44ff9dfc883bec2b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useDroppableCollectionState.ts",
+      "bytes": 830,
+      "sha256": "51c1df0354234f0687a2826eba4ea38fd7bda02a5c761cf4ee4ff211c52f1e03",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useListData.ts",
+      "bytes": 743,
+      "sha256": "da7dbbad969a32c925b45ff459e00307e9a17ede0ffadc384ea2fa8031cf894d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useListState.ts",
+      "bytes": 775,
+      "sha256": "ecfd355cf60b499e993622cd0cea80ff00dc719ce327e50078bbb38e5fbfedad",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useMenuTriggerState.ts",
+      "bytes": 1002,
+      "sha256": "682233c8a570edb2b610ed32dbdb04686d173a6a88bddbab82f5099646b6e7f6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useMultipleSelectionState.ts",
+      "bytes": 1013,
+      "sha256": "3dad3921cb18503200a83e70a1ce260b550a091e079bd4cdfe6109da74b34aff",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useNumberFieldState.ts",
+      "bytes": 879,
+      "sha256": "4e8a2ed359764a4aa59f26074522e59e1a620b9367cc67dc1c6beaec2e201532",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useOverlayTriggerState.ts",
+      "bytes": 809,
+      "sha256": "95ce964b8268517a45fffa525d74541ee7712a7a5a2d44775f63fc43777740ff",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useRadioGroupState.ts",
+      "bytes": 777,
+      "sha256": "3f4a41e1a106ba5984fadc61d8f6f4c31f510d55f5763779cf5cdae944aa6e3e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useRangeCalendarState.ts",
+      "bytes": 941,
+      "sha256": "65a4c70b8ba17b536c368a5c47a3971fb36037b5904e5e02512fb68f8def5cd5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useSearchFieldState.ts",
+      "bytes": 794,
+      "sha256": "fe97bb2b83c03cbd5f88d22b9f58d40a0ba330dbf32bd328ec3ba67dcad801dc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useSelectState.ts",
+      "bytes": 836,
+      "sha256": "2253455e8ec40ad69e9c33953f04a14ba395e5826e313da0ade792865c2b65bc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useSingleSelectListState.ts",
+      "bytes": 893,
+      "sha256": "acfb9c4e00a5ea0404327b059ab34f0baf3f31a1a36bbcf6a9890cbde91cf466",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useSliderState.ts",
+      "bytes": 779,
+      "sha256": "7ea9737730dd058a33caa189e6c02a7307630477c4b55d46eaf52ec18aebf1a7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useTableState.ts",
+      "bytes": 1715,
+      "sha256": "2b833eda35ad76d73ca3a91567b1962b4f81ee090f402fde511d01c5cf18608f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useTabListState.ts",
+      "bytes": 781,
+      "sha256": "7a6d84d9a5a3e93a721e69a67bd013b796471e2a0077e81df3e68abf1a0ad593",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useTimeFieldState.ts",
+      "bytes": 902,
+      "sha256": "f995a49fbfc3ef1fd0c4b30775a62bb98cb8899fc55a6e488315855206f38349",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useToastState.ts",
+      "bytes": 820,
+      "sha256": "a5b2568e17794766a722ce52e199c22bc16c58bdbb2fe9f1ec6e629bd45cdca1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useToggleGroupState.ts",
+      "bytes": 784,
+      "sha256": "3226c3780e903ce31bfbd4af853c63ed2c72dfae38cc32a35f61dee4b9bbb60d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useToggleState.ts",
+      "bytes": 779,
+      "sha256": "66544f309fe8ca21686ca237761b16985590d0e0c4d006365cda4f7fbe448026",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useTokenFieldState.ts",
+      "bytes": 1018,
+      "sha256": "b86b288a6c1200cc542ed4514bcf78d70807bb8336edb1b9fe5b1cb3b3485b28",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useTooltipTriggerState.ts",
+      "bytes": 801,
+      "sha256": "b0f3ab1752f52c4ac040aee9f4abdbd2d9b3b5e5a5e25910b959ec38e4687608",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useTreeData.ts",
+      "bytes": 742,
+      "sha256": "8613879690cb11244918d6c70203ac59740450d3ba59734995ebcabf2011b295",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useTreeState.ts",
+      "bytes": 743,
+      "sha256": "a527c5209705ae7140ce5415f401cec7b2fa3f9bc318fb82a8184b23ddeafc33",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "exports/useVirtualizerState.ts",
+      "bytes": 835,
+      "sha256": "afbc04433fe31807e2e6a62ec6e152712d60925e919c892859806b1012fb6172",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "intl/color/ar-AE.json",
+      "bytes": 1212,
+      "sha256": "5ffff35c22eb031c6ebdc4164c09f92add9bfee8d8cc6276d72735d38bcd88ae",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/bg-BG.json",
+      "bytes": 1304,
+      "sha256": "63dc488fb0742d1ef1a7329cdf3b6d756d8c086d8ad19671b53a00752428dc72",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/cs-CZ.json",
+      "bytes": 1101,
+      "sha256": "8864b893faec86a9331ed66eda68763e0e0cd02502e912035fe97ea89414e5ef",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/da-DK.json",
+      "bytes": 991,
+      "sha256": "1f2c1813f1fb0ad551f8788bc5807d3d65e737e07b75c2ac06c4ebc69aa28e2b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/de-DE.json",
+      "bytes": 1008,
+      "sha256": "77e79fff64bcfde02669e45fa94db8a6f00378bff5ad08adc14a4c4fccb2cd80",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/el-GR.json",
+      "bytes": 1327,
+      "sha256": "c9974ba453401b94e664032048062b5504075ca9ed92beb6e30d1bc97126bca0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/en-US.json",
+      "bytes": 1004,
+      "sha256": "cd9ab56ed18b90502d045d6842b6aa0c0f2d63eb1915b2f3131ba51f6a733072",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/es-ES.json",
+      "bytes": 1054,
+      "sha256": "0724d137ef3b9dde604b46614654c5b815c3612d0da714f386b66bf88cad8a06",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/et-EE.json",
+      "bytes": 1051,
+      "sha256": "cc6f3c7d312890a8b96d54e3fa7dfade80c9eccad2a62969e3f56f987306fa7f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/fi-FI.json",
+      "bytes": 1081,
+      "sha256": "ab22b5717b499c10d67ce0acb05ea6fd553e89a3994eeac981545d28c91d8730",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/fr-FR.json",
+      "bytes": 1013,
+      "sha256": "3fc0646cef59e404bdf91a83c19b8a345c6a81e0a7461d96edbcd5a5ad5adee1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/he-IL.json",
+      "bytes": 1149,
+      "sha256": "7071d20ed28d09d0bc7d16e13b7bbb0b6831398c3468af50786fdf5dc0614fb0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/hr-HR.json",
+      "bytes": 1093,
+      "sha256": "84e313666f71ba3a7f5fe840e291f66b194a45894dc7bd8edfa18083841f0864",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/hu-HU.json",
+      "bytes": 1078,
+      "sha256": "7593cf30465d36de71da604204b12d06bc347ba98ff49f089364211d05aca629",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/it-IT.json",
+      "bytes": 1032,
+      "sha256": "c2b59a2bbc8c573651f6d37c14aec7ba60d97898fccdfb6e2a7acddbff897b6a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/ja-JP.json",
+      "bytes": 1200,
+      "sha256": "dfb675dda9159432123e8b6c881f54fc6b6d8bf1b15c9e1c98b158d85bcfdbcf",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/ko-KR.json",
+      "bytes": 1076,
+      "sha256": "f79e4b45a2a98244e191e9d7f4e2e789b98e80e67ce8983c55936797deadf106",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/lt-LT.json",
+      "bytes": 1123,
+      "sha256": "51b8029097b1dd85104f2b962161d28c30436e4da99176222335e9ba6f00ba87",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/lv-LV.json",
+      "bytes": 1070,
+      "sha256": "308106b2e5370025a9a545a2740fa8eb25bc511824f83f6240f928514a06eb26",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/nb-NO.json",
+      "bytes": 989,
+      "sha256": "d26cdb95b954fa565b15c663e8c47e3755316839133c0498b79099cfea49b5f1",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/nl-NL.json",
+      "bytes": 1010,
+      "sha256": "3a83c91b54b36dbd0dbdf839c61ec16f4d00527e0bbc5ae1d42a84274abf9d52",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/pl-PL.json",
+      "bytes": 1139,
+      "sha256": "efbdb940e155807573101d9ca9c6813c7acde48fcb50d7d3974ae16fe33d7be9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/pt-BR.json",
+      "bytes": 1059,
+      "sha256": "aff85cd233a40f1423d1f15a23987e169934235aa8e635c542ce17102647d041",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/pt-PT.json",
+      "bytes": 1077,
+      "sha256": "8b74750fc9c47624560e6a7cc658de6c7615914a9ba6d187da2f86cf0adc11b6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/ro-RO.json",
+      "bytes": 1054,
+      "sha256": "5302f15bb7d82fd981edb2c3810e4c72ff903c2c2e425efbf9a2a0ab3263214e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/ru-RU.json",
+      "bytes": 1445,
+      "sha256": "28015208ec5ede528a66d9c5789346bcff2b0d01486fbfc2ed2badc3d8bb65c0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/sk-SK.json",
+      "bytes": 1094,
+      "sha256": "afba40a1f3345192bf83d52f1bdf1abf009f298ce30a055de92e6849ac981343",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/sl-SI.json",
+      "bytes": 1044,
+      "sha256": "6187d21c29fcb4ac409fd8040addbae2d374f9ba223443e55cbc59903841ac4b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/sr-SP.json",
+      "bytes": 1087,
+      "sha256": "8ca31810b6e4bbe17604090cb0a974ba74ee9bf053b4fe4bfec24ad9c301917e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/sv-SE.json",
+      "bytes": 985,
+      "sha256": "6029772666ccb8a752c85dd909a055ab7d3c4bf043be271d0734d40908a3b6a3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/tr-TR.json",
+      "bytes": 1048,
+      "sha256": "a0af7a97da41b8e05296c7526e0a54a1ae5a9e865155423bae1e9e9f92a8186e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/uk-UA.json",
+      "bytes": 1476,
+      "sha256": "09f4333168404521f7bcbe42b444253f1f8d1b42fa1cf757421bd8877f688cd0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/zh-CN.json",
+      "bytes": 1017,
+      "sha256": "e29bf625bd718f69999aac97a5a6205aabe7fab85c542d59de94069bffbc7f64",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/color/zh-TW.json",
+      "bytes": 926,
+      "sha256": "ec52b3b7824dd76d8e9a2aee9adc8ca07a7005d33f361ff92685484f02b79c94",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/ar-AE.json",
+      "bytes": 354,
+      "sha256": "46cac51edcd13170f5ac4f2b7bff3c3b941497d975e44c3b73799bc1d277db59",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/bg-BG.json",
+      "bytes": 378,
+      "sha256": "9bd10273d232a4e42b57c248dc1cfac134bb7009c9c59fb56f5f23444d933fcc",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/cs-CZ.json",
+      "bytes": 279,
+      "sha256": "a667eb7ec982748c09c452fbbdf4b91f44d5d18c5681dc6a6581e731ba98af95",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/da-DK.json",
+      "bytes": 264,
+      "sha256": "de95f11aa7e082d8006fdfec94e90894ca96b00be97c6780859482e55bfccd19",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/de-DE.json",
+      "bytes": 272,
+      "sha256": "555c11c9ec693dbef47239152cd1945435737df0f1b2c0c4b997c5c3d21a996e",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/el-GR.json",
+      "bytes": 461,
+      "sha256": "fab143c6df84e9aab798b1068b4be4c77565cb0c429dd941bba00c86d7c9b2ae",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/en-US.json",
+      "bytes": 229,
+      "sha256": "e4c6071472447449f72d19568eeb5f33af0867e415d1b91a7da93bb80af6ecde",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/es-ES.json",
+      "bytes": 277,
+      "sha256": "394b0ac4196c96810c6e30338f81c7efca452921f29cf77935985bcebfc59894",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/et-EE.json",
+      "bytes": 264,
+      "sha256": "0c13cca051ecff70a48b3461d25ec1b94c4e0a3bad6c594ab1c5789c8268c571",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/fi-FI.json",
+      "bytes": 294,
+      "sha256": "b403c43c556d9a1871159b2de6538ec7893385b09924c60c1ec731f893073b41",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/fr-FR.json",
+      "bytes": 297,
+      "sha256": "47c835f2ad5cc47519ecec9df3208ce3b1564cfe92428185db27f9f9bffe8bd8",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/he-IL.json",
+      "bytes": 345,
+      "sha256": "c4d1a07b02f42689025e4d5b264eb3ce49c5afe46fd154d0523baff6a105ed3f",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/hr-HR.json",
+      "bytes": 263,
+      "sha256": "d3272d91f9144637c404bda332d5ee9c04df5bb08f092a234f9961f6d82e0568",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/hu-HU.json",
+      "bytes": 312,
+      "sha256": "ae9daf7758967958c21693b2c6ca412035a0b25e95f83795e904a7662b5e0213",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/it-IT.json",
+      "bytes": 283,
+      "sha256": "b03925aa2f7efc0bdde92b33943493f8195b721fd8046b04b2d2e25e94f34605",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/ja-JP.json",
+      "bytes": 320,
+      "sha256": "369f42a0d7cd030bbf6ea9d26748fae95e9f65b2c208343c15a2aa912efdde7b",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/ko-KR.json",
+      "bytes": 279,
+      "sha256": "97d6aac2b154c347faadb4938f2d359935b257917fe05a626112947751bb12fb",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/lt-LT.json",
+      "bytes": 277,
+      "sha256": "610109ff3249c09550adbf079d553d6bb3a23a8344a4a2e6ceb9fe52dd2683d6",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/lv-LV.json",
+      "bytes": 269,
+      "sha256": "66883560f40dfe01729fcd18a5d9a24733917d1c0bcef37d393d0a5546f8baf9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/nb-NO.json",
+      "bytes": 249,
+      "sha256": "b73970f3894bdb57239f980b939d327b8b0224c03714a0439138326db5fb02f4",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/nl-NL.json",
+      "bytes": 254,
+      "sha256": "d8cede6c6ac938d49ea4657c1299dfe9adee61cdc7bc9f6c314f6edc580309bf",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/pl-PL.json",
+      "bytes": 315,
+      "sha256": "1a633e126b2f2d1e93aa9db263f7acc456fa5e52275db1c5d28b7b891b525903",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/pt-BR.json",
+      "bytes": 257,
+      "sha256": "34e5a7bcf3374295f8aa45268b2e5fe145c256fb343898be1b77091a106e56b2",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/pt-PT.json",
+      "bytes": 265,
+      "sha256": "5e5d5dbb725833402411f5cb17acfc00efee2a52f86904c6225fef8259873ba7",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/ro-RO.json",
+      "bytes": 303,
+      "sha256": "2e777b353638d123837be66a59a8bb2e77781476a818c2a7a5a60ca6ce97f8dd",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/ru-RU.json",
+      "bytes": 373,
+      "sha256": "322f6f30eaa7b85084027c2c5e3d0fb8f26b6d72db1f298355c7fb387dd6b605",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/sk-SK.json",
+      "bytes": 275,
+      "sha256": "1fac15b4ed05b6a848cfa49234fd620b51bb95a16caf03cd2c53f3d78384bb87",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/sl-SI.json",
+      "bytes": 258,
+      "sha256": "52e19f3b7c9b4cf9e2482b8c93d7c7420fd1ce6f415f32ef751e0f7a2cdf2d75",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/sr-SP.json",
+      "bytes": 263,
+      "sha256": "2a259ea63db9dd7db376d1cf06efda4d73d877b0df8db73501bde8c29d21bce4",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/sv-SE.json",
+      "bytes": 272,
+      "sha256": "6052c494e423b05165ce41630e4802e2b42a560ee1891e71202c4c471d304dc3",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/tr-TR.json",
+      "bytes": 275,
+      "sha256": "a3576b8ae0dcc102ae0070f1d2559d79fc02db10cc06f0f59557ad092f355eed",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/uk-UA.json",
+      "bytes": 351,
+      "sha256": "c62c98c0e6657716c08ea22c9cfdaf2f4908bfd00de0a5ab123fb1113226ff22",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/zh-CN.json",
+      "bytes": 245,
+      "sha256": "bf2c32bab9bf2bc8844d938747654a07b3ad30992512e96ee0e4559c15eb4a98",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "intl/datepicker/zh-TW.json",
+      "bytes": 239,
+      "sha256": "2fbeddcfd1536122f6b0fa453e90fa9875f29e770d6ef7c7e23cdea417010c7a",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2391,
+      "sha256": "2e19c7d23fcc5de2a3cd3bd5fd65a42687e816c31cd30ae5b0233890fe70e968",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2319,
+      "sha256": "143fc2a93e8d90e8691083f5be5189a711c5ea822229be22e8777124e11f9b95",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/autocomplete/useAutocompleteState.ts",
+      "bytes": 2559,
+      "sha256": "f251a8773069547eef78e24930c59d9e09bd09f3ad34446dde648573371c26cb",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/calendar/types.ts",
+      "bytes": 9725,
+      "sha256": "34398fb39b42080ff96d4e5e683e9822827343bd8ae776713371192fb1cd4eef",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/calendar/useCalendarState.ts",
+      "bytes": 17001,
+      "sha256": "5c6eb043eeb32d0a496d8bf91f000fc258a1dc87eddd9c26ae165f3299444367",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/calendar/useRangeCalendarState.ts",
+      "bytes": 10073,
+      "sha256": "77a21a48a28c45463ce8b0f0c03373f6a2cfc296c53d839926050135f7a14818",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/calendar/utils.ts",
+      "bytes": 4347,
+      "sha256": "a6c58ce6993c56e9317aacce0fcdbb499c1faea8f58384291eda8bc03b725005",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/checkbox/useCheckboxGroupState.ts",
+      "bytes": 4919,
+      "sha256": "d42e92683242bee8cb15359cf8cbd6a53528689b11ada26500ec70523f30a081",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/collections/CollectionBuilder.ts",
+      "bytes": 9952,
+      "sha256": "b99c3ec101683d2f542806f891c89ef9c14b823163822992c4d4840a659e253c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/collections/getChildNodes.ts",
+      "bytes": 3230,
+      "sha256": "a3627a6a4ecdb9614fbb7997cc86119b61b0f9566f0a8e1f44706fd8eda00c29",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/collections/getItemCount.ts",
+      "bytes": 1378,
+      "sha256": "e01e92304a80509612cb4ab7d1ccea5c4107208c768862897a14a151d1bf8250",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/collections/Item.ts",
+      "bytes": 2655,
+      "sha256": "5f916fe876b74d1205a152972176d3c08da372d2d49585c029aa45f91a18fc5c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/collections/Section.ts",
+      "bytes": 1961,
+      "sha256": "a3c8b672d2d11f0b38146eaac2f0bf61928b0d472f1dd71bef2c3c9f744b8074",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/collections/types.ts",
+      "bytes": 1163,
+      "sha256": "5315c2fa151a2d8e01817810287d8e923ee963337821bc51f9607b0a07a26fdc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/collections/useCollection.ts",
+      "bytes": 1691,
+      "sha256": "cc83bab827e6bca8cd737d7530331bc83c1313893c14bea8203fb3c966191354",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/color/Color.ts",
+      "bytes": 26342,
+      "sha256": "e893ab2fd48c5b27cb193934b5a03fd400b29b94079817389f5b966b42817339",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/color/types.ts",
+      "bytes": 3144,
+      "sha256": "6cc24aed3b05f0d8d828c14f1370da0ac320d315b40c185839a8bcf8fe2da149",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/color/useColor.ts",
+      "bytes": 1014,
+      "sha256": "80fe06007162473c44b4ef0e0eef8f70cab1d78d2550c617644a9b06884f8a6f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/color/useColorAreaState.ts",
+      "bytes": 9028,
+      "sha256": "2aa6dc80994bf5c17b321aa11712297695fdde8fb248dbf06ddde9292fae9a79",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/color/useColorChannelFieldState.ts",
+      "bytes": 2923,
+      "sha256": "00da27d7e1ef8aa27c51a0b64a0ffb380f838c9876552527ad9deb9d3d1d45fa",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/color/useColorFieldState.ts",
+      "bytes": 7428,
+      "sha256": "20b589d093f31b6be902b1518e0425f8df54611ada5a05f24502463db326ebd1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/color/useColorPickerState.ts",
+      "bytes": 924,
+      "sha256": "b3cb216fd5b2a873955e0b3a144d7c67e7a22d1b2d1c17c7b02a21a76f02375f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/color/useColorSliderState.ts",
+      "bytes": 5092,
+      "sha256": "7569c3f63f6edf1b506c5087017a87657b65ba868ba1c9477d3c0dc96dc6dfc3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/color/useColorWheelState.ts",
+      "bytes": 7267,
+      "sha256": "ef4acd1d34b1cb2f0704c9bbd857fa0c769df8806d8a9c15402fe02526e3634a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/combobox/useComboBoxState.ts",
+      "bytes": 24372,
+      "sha256": "6ce44722abff964a4af2550d997e1b687d157127f5c3a92adc4573bdefe47c5a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/data/useAsyncList.ts",
+      "bytes": 13337,
+      "sha256": "fe8f4e852b630442b829d339d853f154a9b03c879f44fad8f7662d1bde15b8ff",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/data/useListData.ts",
+      "bytes": 12321,
+      "sha256": "a4f8f7929cb47fd8f6db58965957c8563e2053b2935f07dbaa6a478c0d91a843",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/data/useTreeData.ts",
+      "bytes": 17435,
+      "sha256": "1ade6cff48b0570386ffe0b1b739d12d5819529d43fd8793bccaf03c994916c2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/datepicker/IncompleteDate.ts",
+      "bytes": 12690,
+      "sha256": "634e671d3e956b9190d0251fb6d8de5d8441f6ac3ca9f56f3c48e65c7fe96a60",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/datepicker/placeholders.ts",
+      "bytes": 5493,
+      "sha256": "0ca8d95f58a578ee0da71c68724eb84ffd2b3e9c3d527e128555b3879b2cda21",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/datepicker/types.ts",
+      "bytes": 5903,
+      "sha256": "96074ccdaedeaf0cb0ad48a98d5c3cd998b8b51bee3e583ed5d369484c2bc650",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/datepicker/useDateFieldState.ts",
+      "bytes": 19729,
+      "sha256": "bb8535c56e0002979fa8ccaa813e1be67ff4b0e6354d8faf01f30a22f77977c3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/datepicker/useDatePickerState.ts",
+      "bytes": 8423,
+      "sha256": "a00167cf49aeb893e665c86f3ee67d3e6dd1ebcc3556395adc2b24cbfd5c4130",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/datepicker/useDateRangePickerState.ts",
+      "bytes": 14487,
+      "sha256": "97e4ea555677a573a31c8139c0c75547a471edc817193fe97c1083c017a127a9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/datepicker/useTimeFieldState.ts",
+      "bytes": 3881,
+      "sha256": "ff3013c9197fe5ff248f9709c208ea98434667b2ee21208152b856e50e98956a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/datepicker/utils.ts",
+      "bytes": 9033,
+      "sha256": "57318b40b57c89f9550dfcac3e322940ca67d1b9ef3a779c493bc7280db770d6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/disclosure/useDisclosureGroupState.ts",
+      "bytes": 3194,
+      "sha256": "f96e9a2b367504e5a2fef55619d623dffc984a9c6a091ce51002b2c63a559760",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/disclosure/useDisclosureState.ts",
+      "bytes": 2172,
+      "sha256": "25df483129acbd8d047e10450c8224085f0de71224a17007120e0e54269c864d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/dnd/useDraggableCollectionState.ts",
+      "bytes": 5905,
+      "sha256": "6a1da721a079c65f36945dd752fc7c2345136785182e4f64aab2079706243271",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/dnd/useDroppableCollectionState.ts",
+      "bytes": 8351,
+      "sha256": "748856ad26c7ed72e27cb6a1da609c26a926b923e6dfa31c4a1e59d344e5ec7a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/flags/flags.ts",
+      "bytes": 957,
+      "sha256": "526c281c52a3605743c2afc295483190ad7218ab12b9295db7ec1d330c926b57",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/form/useFormValidationState.ts",
+      "bytes": 9689,
+      "sha256": "32e03f74fc93dd00b0cc2596b157b15a4889ad3621da7197e81f124e304ff8ac",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/grid/GridCollection.ts",
+      "bytes": 5808,
+      "sha256": "8ef283ddca97c30e620e5aec8ba3eef9ad81b6babf7d46e1340e2867db62f97d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/grid/useGridState.ts",
+      "bytes": 4958,
+      "sha256": "00df2e0ea58073e782655cb18b64fd5211ce044a19c08dfa4373546c9d8c022f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/layout/GridLayout.ts",
+      "bytes": 15978,
+      "sha256": "bdb74d910bbbc96524ccae915618c44cc5c32b4a6824ea2f27834d1be4c2d075",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/layout/ListLayout.ts",
+      "bytes": 31516,
+      "sha256": "aaba6bb2bea5d1920192ebc16a0b1dd52016b0d59a31a4cc48550196cef39f93",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/layout/TableLayout.ts",
+      "bytes": 26322,
+      "sha256": "d4c49f6d3469688cf0a5a9e4cbd31962c8a3934e73de9bc6e6814337bc899fda",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/layout/WaterfallLayout.ts",
+      "bytes": 14055,
+      "sha256": "8484504c1907842210216946cdd18e73b50ffcc642da421cb47a507742853870",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/list/ListCollection.ts",
+      "bytes": 3076,
+      "sha256": "8a136a3bdc771db4ae991b4c9b82fb17cefa752daae4748a43ffa60efa86b6d0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/list/useListState.ts",
+      "bytes": 5129,
+      "sha256": "cd343c18ee7bfa80c69fdcc27d50be3eba05f77239a5533139934d3435031988",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/list/useSingleSelectListState.ts",
+      "bytes": 2924,
+      "sha256": "99a56967661ae9c6441805d4d419fe8a634cd36acc28f055ebbae4df444cb5e6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/menu/useMenuTriggerState.ts",
+      "bytes": 3589,
+      "sha256": "1dc3886ccebdad6e2cd1babc672fff5b8076483a3365870446bd2252174dd587",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/menu/useSubmenuTriggerState.ts",
+      "bytes": 3471,
+      "sha256": "84ae02ac643bb49d2b1965704779c6e8fc58d592d002a27160ce2274bb498850",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/numberfield/useNumberFieldState.ts",
+      "bytes": 13465,
+      "sha256": "e5aac3c933744e27037bf0b7689fce90cf6a0a62800f685916cca37437054bf6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/overlays/useOverlayTriggerState.ts",
+      "bytes": 2410,
+      "sha256": "2b1145ebb19097f863a2303924ab5f9bcb7614df0af9b4ae682e95b3ea83357e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/radio/useRadioGroupState.ts",
+      "bytes": 3959,
+      "sha256": "5f89ef467542775ef71c1ccc5528f5830b02ea6c43bf06446d000ead5cf19b50",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/searchfield/useSearchFieldState.ts",
+      "bytes": 1976,
+      "sha256": "ff6fb64c62b9e41312640250e634588aa48da8dcd7e31aca9d9a9b2b08ec61ec",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/select/useSelectState.ts",
+      "bytes": 8822,
+      "sha256": "679221363eb4e0b2230ec81305c700fe39e394f509260ee9abb414685024059e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/selection/Selection.ts",
+      "bytes": 1268,
+      "sha256": "8a3264ec9935175d4def88856cc875169381550be386c1328478f11db3cf7bf3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/selection/SelectionManager.ts",
+      "bytes": 14397,
+      "sha256": "fd3e59785000c0732f89e067cd77a677e496fe707526c866cf084ba09015cde0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/selection/types.ts",
+      "bytes": 5318,
+      "sha256": "60cd8f91463917421e63e996c6354052658158dec5c27d69a977f88717b5e972",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/selection/useMultipleSelectionState.ts",
+      "bytes": 4995,
+      "sha256": "f7d89762f13a3718711ca8fcb5bf25d1b905e1a363bf5ea8a0e12fefe73d4f4f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/slider/useSliderState.ts",
+      "bytes": 12211,
+      "sha256": "e58eab5acc52e651cb53acaa6e9045827089764f608752edf11a2f1360490b44",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/steplist/useStepListState.ts",
+      "bytes": 5774,
+      "sha256": "ccad9eb17c32749b7962e2193bacafc0b8107cb980c57f5eaddee830adab5a34",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/table/Cell.ts",
+      "bytes": 1928,
+      "sha256": "c53c37a0496f0a8d84b1dad6b5d8ef80a2b7fdcfd00d5df3963720dcb1d531c5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/table/Column.ts",
+      "bytes": 4970,
+      "sha256": "2bcc7fcc5357849877b54f17eeac7c199b1067da98bbff3d4aff4be839c29b8b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/table/Row.ts",
+      "bytes": 5491,
+      "sha256": "ba805819814b977df27fb245d9659d91206e7d2ca5c0892ae3b42310840005cd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/table/TableBody.ts",
+      "bytes": 2618,
+      "sha256": "df89249a600359ebccd89fb1e109a816e5b0582fb1ed2ae88f7b6e9d004d1c3e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/table/TableCollection.ts",
+      "bytes": 11021,
+      "sha256": "16fa8205fcc1db8b723e1d62ec15931d61ea52118a22baad492ddedddbfa3c9e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/table/TableColumnLayout.ts",
+      "bytes": 5350,
+      "sha256": "35ffe333cf104e551b495beb46795c3c338d21880833a9316a66badd670023f8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/table/TableHeader.ts",
+      "bytes": 2509,
+      "sha256": "b7cea01aa4e0d950195829d22a927aca8729fa58ce9326ac6785ac647b94484c",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/table/TableUtils.ts",
+      "bytes": 10502,
+      "sha256": "ceea685fcdfcfd8ed75e4dd45d20c5cf92e4d1c4d724ef289d1a3711872c2479",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/table/useTableColumnResizeState.ts",
+      "bytes": 6155,
+      "sha256": "c954a7a27482712969c00d5abee8d18c4e708f90c8d2e91572530c388b0a7dc6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/table/useTableState.ts",
+      "bytes": 7857,
+      "sha256": "bbfdeae85e2ba5cf432ada312cc8feaf3778803c8bcb720ac37e549f7fa7d4a5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/table/useTreeGridState.ts",
+      "bytes": 7368,
+      "sha256": "b4e7c332cec90369ead2c0fb1e9059ed7a1b2576f86e37e7d093a36a7c85d2fc",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/tabs/useTabListState.ts",
+      "bytes": 4746,
+      "sha256": "e59268d5ffd9a1f80b461622414247276f7a829def37b6a74242c173943987a6",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/toast/useToastState.ts",
+      "bytes": 6067,
+      "sha256": "72e080e7a928cb8e751c96152e7faf328458df9e02701dba02e11a06aa4991e7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/toggle/useToggleGroupState.ts",
+      "bytes": 3274,
+      "sha256": "ab1305d72f72cd9fd92617c43010ce34d0c88a528609a390541235e7c1f515ea",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/toggle/useToggleState.ts",
+      "bytes": 2778,
+      "sha256": "6cc1f0d587e415f8aed35c55ecb6dca820be17e753bedfda221ba6e99cb34292",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/tokenfield/TokenFieldValue.ts",
+      "bytes": 14896,
+      "sha256": "1df7c61b2f41f6b5a8efe7a17d18b9b6ac0abb182233ea4f8e95b28d4dcae375",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/tokenfield/useTokenFieldState.ts",
+      "bytes": 1915,
+      "sha256": "efd287f0015c001258e76cd9c182765d580904ca2e4527183b8d3b6da9a761c9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/tooltip/useTooltipTriggerState.ts",
+      "bytes": 6565,
+      "sha256": "893ebe4d14e52b397b9733479ec3d2a27b4749e3e382b1c4b9209a2675fd2c56",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/tree/TreeCollection.ts",
+      "bytes": 2779,
+      "sha256": "8292748d4c46db802741fc690a681cf93b973f70e27f216e1b673c6dedb55ac1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/tree/useTreeState.ts",
+      "bytes": 3582,
+      "sha256": "21e55a2f781b9dc4b02d4e3c36d2cb134bd69c92e8f26b53e5e5815087cc6689",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/utils/number.ts",
+      "bytes": 2774,
+      "sha256": "8493f8a9b8e85c8605d61acdf4aaf4e2db25489e89f70aa78afc910abc8669c8",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/utils/useControlledState.ts",
+      "bytes": 3694,
+      "sha256": "76af0a03ada56423781f66216882730e0e6dfbfce45db3c4f53f27abae251d9f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/virtualizer/Layout.ts",
+      "bytes": 4046,
+      "sha256": "825cb3cd4d15a83f6b058cc0dc1d2d4011297c3ad632fe4a86553a438ac7e0a5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/virtualizer/LayoutInfo.ts",
+      "bytes": 3613,
+      "sha256": "be40163f10d949bb56a03bbee62431b0c52c04317c43cf9ba87b7e6e7cd348c2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/virtualizer/OverscanManager.ts",
+      "bytes": 1682,
+      "sha256": "fb5d7ccbc066daf79f38d71c93abbebec2e5efb8cc31ea7de0d655c332ef6d12",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/virtualizer/Point.ts",
+      "bytes": 1196,
+      "sha256": "0f40dd3f0235b1307be684f09ef89b7a94399fd3941aec3d5bf179b6dabf2355",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/virtualizer/Rect.ts",
+      "bytes": 4841,
+      "sha256": "885566bb8b62c5e86cde325e2b1c3502af5bbe4d1b5450fdaedefd4bfe4262f3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/virtualizer/ReusableView.ts",
+      "bytes": 3224,
+      "sha256": "8794d9cc5324d0a7758ac8b7fd4f4bc143c9a22388ec81a929a7fa8656791f82",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/virtualizer/ScrollAnchor.ts",
+      "bytes": 10993,
+      "sha256": "54d0ddc41d08c5e3ec219328b1f90295c8e25af13d15d2fbba13f3796f42b92f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/virtualizer/Size.ts",
+      "bytes": 1199,
+      "sha256": "ebb510d6e9671e836dbbe7f15ffae923ab781dba5fa87ec4936ca0f5d47e936e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/virtualizer/types.ts",
+      "bytes": 1576,
+      "sha256": "5f9b346afa6bc5ebaff9d2880c3907621e57cea01fce808915a191919f283374",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/virtualizer/useVirtualizerState.ts",
+      "bytes": 4286,
+      "sha256": "fc700dd7ebee3eda99a3eedc00995bcd60a72d520f993a1905b0885f808216c1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/virtualizer/utils.ts",
+      "bytes": 910,
+      "sha256": "8120667b24dcb8b1f6f3d6b154b6b86588afcf126c09e3dd0aefd119f48b4df3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/virtualizer/Virtualizer.ts",
+      "bytes": 16358,
+      "sha256": "d98bd0f093804dde0fbff1663d901122c9e1fb4567c6680a464f9e0040eda0d4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "stories/tree/useTreeState.stories.tsx",
+      "bytes": 5661,
+      "sha256": "094f28018dce4d6c49119720df9cec003aeb408fccebdbcf0113723bd9aa1c2a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "test/calendar/useCalendarState.test.ts",
+      "bytes": 3927,
+      "sha256": "b6fee388517cae45dab687295ace5ee20817229e887ea29f3486ae96d76592ad",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/checkbox/useCheckboxGroupState.test.tsx",
+      "bytes": 9322,
+      "sha256": "388e4d02d0ada1076b707d60e10ba93cf74a27a1b96cd4ad61176db281ba2a03",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/color/Color.test.tsx",
+      "bytes": 23740,
+      "sha256": "225eb4b9eefbbdd90f6939dc658696bdeb09753313d10aeccd5c912bd0f4df48",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/color/useColor.test.js",
+      "bytes": 1611,
+      "sha256": "683a96196c2aac1fff280e3a021e454e2f0e6c382fd8a68dfc8a10690b422978",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/color/useColorFieldState.test.js",
+      "bytes": 10721,
+      "sha256": "712ef2d592f32f2f2d2a115500524a7f95a1f82e4ba163d786a5c76a2d2c33e1",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/combobox/useComboBoxState.test.js",
+      "bytes": 17884,
+      "sha256": "1b69af89b7c582abeabf18e9195e4a051d3f721e93fec453b8fceced69c9f3c4",
+      "category": "test-or-type-spec",
+      "targetPath": "test/combobox/useComboBoxState.test.jsx"
+    },
+    {
+      "path": "test/data/useAsyncList.test.js",
+      "bytes": 38811,
+      "sha256": "bfe368658372dae1b264c0c88878a63c816728ae024376b1d78d69a0b3fc2bf2",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/data/useListData.test.js",
+      "bytes": 30361,
+      "sha256": "b674737bf6eca7ba9c5df06a18e8674e13fe6709abc4f22cc328453b89d53300",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/data/useTreeData.test.js",
+      "bytes": 57306,
+      "sha256": "c23beff4753fbf241411a60eec0fe577e64cd7636f654088cd381c9e62fc4c86",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/disclosure/useDisclosureGroupState.test.ts",
+      "bytes": 4155,
+      "sha256": "adb8c54df9b8e994f27d73bca1edcfb63de43b63024cc15213d6d5dd00124c1e",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/disclosure/useDisclosureState.test.ts",
+      "bytes": 2686,
+      "sha256": "493e65ba0fc2ed14a803b894b20b08e469d027d0822b23849dda32bae71a5af7",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/numberfield/useNumberFieldState.test.ts",
+      "bytes": 3091,
+      "sha256": "74841fa27a9c4ee9f18c4632cee3bfb07655b5293f9bde27f793ddd3c2ee348e",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/searchfield/useSearchFieldState.test.js",
+      "bytes": 3353,
+      "sha256": "fcc47793fe206c8c6bc67958e6a3aa4ec2aabce82eb98c841a8336f183ec19ee",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/slider/useSliderState.test.js",
+      "bytes": 7278,
+      "sha256": "b757766a8f93b68749dfc806be5bb9c315163c70fdbcb2b28dda37bf1d9d2de2",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/table/TableUtils.test.js",
+      "bytes": 12697,
+      "sha256": "5e0f4841b276e8631f3b5fbcd87285fa66d8b7803f2c33a59dabae09b2992a54",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/toast/useToastState.test.js",
+      "bytes": 10262,
+      "sha256": "7d2750b20a492b78ce20d9e8fdb1ccd1eb71d36fd79b4732a54d5993cc785321",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/tokenfield/TokenFieldValue.test.ts",
+      "bytes": 42265,
+      "sha256": "b26ffd58bf8b6af71ad7b4b9faec33bb500631c27df300633ccbabc5b89dc222",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/tooltip/useTooltipTriggerState.test.js",
+      "bytes": 15865,
+      "sha256": "960c0db9520a1c97920857f9883d9de223793b23bf8567aebccde500d27d6f08",
+      "category": "test-or-type-spec",
+      "targetPath": "test/tooltip/useTooltipTriggerState.test.jsx"
+    },
+    {
+      "path": "test/tree/useTreeState.test.js",
+      "bytes": 2440,
+      "sha256": "54284a6782eb1d6b15aa0bdc5646055e929d28629798b1834a2dc20a1b667aa8",
+      "category": "test-or-type-spec",
+      "targetPath": "test/tree/useTreeState.test.jsx"
+    },
+    {
+      "path": "test/utils/number.test.ts",
+      "bytes": 2680,
+      "sha256": "5b0a2d88e6a5cdf2130a8b699fef0e61456763ff6cca15879d3a23a62f8650f8",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/utils/useControlledState.test.tsx",
+      "bytes": 19720,
+      "sha256": "1fd8ba11f7565b58736ea99d6166e072f747d6501fd3bad211c591407cc5d4a6",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/virtualizer/GridLayout.test.ts",
+      "bytes": 6776,
+      "sha256": "0466847b07391a9b2b454897564df4919f59b56b800aa4e1c34451cc62a58ee7",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/virtualizer/LayoutInfo.test.tsx",
+      "bytes": 1322,
+      "sha256": "4183bf0ecfea1196e278114af741eed47cd9b45544ff515884f60fb2faeb8e24",
+      "category": "test-or-type-spec"
+    },
+    {
+      "path": "test/virtualizer/ScrollAnchor.test.ts",
+      "bytes": 18500,
+      "sha256": "b8c169efff2cceb85a848d8514f9154b50061d1dfe00496066190573dec25b76",
+      "category": "test-or-type-spec"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution",
+  "extractions": [
+    {
+      "sourcePath": "src/datepicker/useDatePickerState.ts",
+      "sourceSha256": "a00167cf49aeb893e665c86f3ee67d3e6dd1ebcc3556395adc2b24cbfd5c4130",
+      "sourceLines": [
+        43,
+        88
+      ],
+      "targetPath": "src/datepicker/DatePickerStateTypes.ts",
+      "adaptation": "Complete unchanged DatePickerState declaration, with genuine DateFormatter/date/time/field-format/overlay/form-validation dependencies imported type-only. No picker runtime or method weakening; owners adopt the adjacent private type import."
+    },
+    {
+      "sourcePath": "src/datepicker/useDateRangePickerState.ts",
+      "sourceSha256": "97e4ea555677a573a31c8139c0c75547a471edc817193fe97c1083c017a127a9",
+      "sourceLines": [
+        47,
+        102
+      ],
+      "targetPath": "src/datepicker/DateRangePickerStateTypes.ts",
+      "adaptation": "Complete unchanged TimeRange alias and DateRangePickerState declaration with genuine dependencies imported type-only; source method signatures/value nullability retained. No picker runtime migration."
+    },
+    {
+      "sourcePath": "src/table/useTreeGridState.ts",
+      "sourceSha256": "b4e7c332cec90369ead2c0fb1e9059ed7a1b2576f86e37e7d093a36a7c85d2fc",
+      "sourceLines": [
+        22,
+        31
+      ],
+      "targetPath": "src/table/TreeGridTypes.ts",
+      "adaptation": "Complete TreeGridState declaration with unchanged fields and TableState/Key/GridNode type-only dependencies; isolates Table's declaration edge from unported tree-grid runtime. Future native runtime must import/reexport this canonical declaration, not duplicate or substitute a runtime hook."
+    },
+    {
+      "sourcePath": "src/table/Column.ts",
+      "sourceSha256": "2bcc7fcc5357849877b54f17eeac7c199b1067da98bbff3d4aff4be839c29b8b",
+      "sourceLines": [
+        18,
+        27
+      ],
+      "targetPath": "src/table/ColumnTypes.ts",
+      "adaptation": "Extract complete ColumnStaticSize, ColumnDynamicSize and ColumnSize declarations unchanged; TableColumnLayout/TableUtils use type-only imports. Full original IGridCollection/GridNode/ITableCollection declarations reused from canonical framework-neutral GridCollection/TableCollection; no Column/Table product runtime mounted or adapted."
+    }
+  ]
+}

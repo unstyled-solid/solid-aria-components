@@ -1,0 +1,12 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  ._va18 {
+    flex-shrink: 0;
+  }
+}
+
+.-macro-static-sBTnRc {
+        --macro-data-sBTnRc: {"style":{"flexShrink":0},"loc":"/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ButtonGroup.native.js:130:16"};
+      }
+

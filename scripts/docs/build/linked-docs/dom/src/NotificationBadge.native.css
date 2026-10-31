@@ -1,0 +1,253 @@
+@layer _.prose;
+
+@layer _.a {
+  .sd18 {
+    display: flex;
+  }
+
+  .sk18 {
+    display: none;
+  }
+
+  .uk18 {
+    font-family: var(--s2-font-family-sans, adobe-clean-spectrum-vf), adobe-clean-variable, adobe-clean, ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .-_6BNtrc-a18 {
+    --fs: pow(1.125, -2);
+  }
+
+  .-_6BNtrc-b18 {
+    --fs: pow(1.125, -1);
+  }
+
+  .-_6BNtrc-c18 {
+    --fs: pow(1.125, 0);
+  }
+
+  .vFHT6Dd18 {
+    font-size: round(var(--s2-font-size-base, 14) * var(--fs) / 16 * var(--rem, 1rem), 1px);
+  }
+
+  .xb18 {
+    font-weight: 400;
+  }
+
+  ._xa18 {
+    font-synthesis-weight: none;
+  }
+
+  ._Fd18 {
+    line-height: round(1em * (1.15 + (1 - ((min(32, var(--s2-font-size-base, 14) * var(--fs)) - 10)) / 22) * .15), 2px);
+  }
+
+  .px18 {
+    color: #fff;
+  }
+
+  .ph18 {
+    color: lch(from var(--g, var(--s2-container-bg)) calc((49.44 - l) * infinity) 0 0 / 1);
+  }
+
+  ._Ca18 {
+    justify-content: center;
+  }
+
+  .eb18 {
+    align-items: center;
+  }
+
+  .gqMFGYc18 {
+    background-color: var(--g);
+  }
+
+  .FRuFGYc18 {
+    height: var(--F);
+  }
+
+  .fa18 {
+    aspect-ratio: 1;
+    aspect-ratio: 1;
+  }
+
+  .ZK18 {
+    width: max-content;
+  }
+
+  .Sv18 {
+    padding-inline-start: calc(var(--F, var(--M)) * 3 / 8);
+  }
+
+  .Rv18 {
+    padding-inline-end: calc(var(--F, var(--M)) * 3 / 8);
+  }
+
+  .oh18 {
+    border-start-start-radius: calc(var(--F, var(--M, 9999px)) / 2);
+  }
+
+  .nh18 {
+    border-start-end-radius: calc(var(--F, var(--M, 9999px)) / 2);
+  }
+
+  .kh18 {
+    border-end-start-radius: calc(var(--F, var(--M, 9999px)) / 2);
+  }
+
+  .jh18 {
+    border-end-end-radius: calc(var(--F, var(--M, 9999px)) / 2);
+  }
+
+  .-g_-g218 {
+    --g: var(--lightningcss-light, #3b63fb) var(--lightningcss-dark, #4069fd);
+  }
+
+  .-g_-g_c18 {
+    --g: lch(from var(--s2-container-bg) calc((49.44 - l) * infinity) 0 0 / 1);
+  }
+
+  .-F_-FAMzobb18 {
+    --F: calc(calc(.75 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  .-F_-FObNfn18 {
+    --F: 1lh;
+  }
+
+  .-F_-F7wvBT18 {
+    --F: calc(calc(.5 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  .-F_-FxhYlec18 {
+    --F: calc(calc(1 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  .-F_-Fd60gf18 {
+    --F: calc(calc(1.125 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+  .-F_-Fspvr8c18 {
+    --F: .857143em;
+  }
+}
+
+@layer _.b {
+  .ucJ9TBTb18:lang(ar) {
+    font-family: adobe-clean-arabic, myriad-arabic, ui-sans-serif, system-ui, sans-serif;
+  }
+
+  ._FnuYUweb18:is(:lang(ja), :lang(ko), :lang(zh), :lang(zh-Hant), :lang(zh-Hans), :lang(zh-CN), :lang(zh-SG)) {
+    line-height: 1.5;
+  }
+
+  .plOVIhfc6LxY918:is([data-hcm], [data-hcm] *) {
+    color: var(--hcm-buttontext, ButtonText);
+  }
+
+  ._jlOVIhfcf18:is([data-hcm], [data-hcm] *) {
+    border-style: solid;
+  }
+
+  ._klOVIhfcb18:is([data-hcm], [data-hcm] *) {
+    border-top-width: 1px;
+  }
+
+  .hlOVIhfcb18:is([data-hcm], [data-hcm] *) {
+    border-bottom-width: 1px;
+  }
+
+  .mlOVIhfcb18:is([data-hcm], [data-hcm] *) {
+    border-inline-start-width: 1px;
+  }
+
+  .llOVIhfcb18:is([data-hcm], [data-hcm] *) {
+    border-inline-end-width: 1px;
+  }
+
+  .ilOVIhfcCp4usd18:is([data-hcm], [data-hcm] *) {
+    border-color: var(--hcm-buttonborder, ButtonBorder);
+  }
+
+  .-g_-lOVIhfcg8qxrJ18:is([data-hcm], [data-hcm] *) {
+    --g: var(--hcm-buttonface, ButtonFace);
+  }
+}
+
+@layer _.c {
+  .ud3Euai18:lang(he) {
+    font-family: adobe-clean-hebrew, myriad-hebrew, ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@layer _.d {
+  .uea18:lang(ja) {
+    font-family: adobe-clean-han-japanese, Hiragino Kaku Gothic ProN, ヒラギノ角ゴ ProN W3, Osaka, YuGothic, Yu Gothic, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+  }
+}
+
+@layer _.e {
+  .ugb18:lang(ko) {
+    font-family: adobe-clean-han-korean, source-han-korean, Malgun Gothic, Apple Gothic, sans-serif;
+  }
+}
+
+@layer _.f {
+  .uhd18:lang(zh) {
+    font-family: adobe-clean-han-traditional, source-han-traditional, MingLiu, Heiti TC Light, sans-serif;
+  }
+}
+
+@layer _.g {
+  .uje18:lang(zh-hant) {
+    font-family: adobe-clean-han-traditional, source-han-traditional, MingLiu, Microsoft JhengHei UI, Microsoft JhengHei, Heiti TC Light, sans-serif;
+  }
+}
+
+@layer _.h {
+  .u2NhKxcl18:lang(zh-HK) {
+    font-family: adobe-clean-han-hong-kong, source-han-hong-kong, MingLiu, Microsoft JhengHei UI, Microsoft JhengHei, Heiti TC Light, sans-serif;
+  }
+}
+
+@layer _.i {
+  .uic18:is(:lang(zh-Hans), :lang(zh-CN), :lang(zh-SG)) {
+    font-family: adobe-clean-han-simplified-c, source-han-simplified-c, SimSun, Heiti SC Light, sans-serif;
+  }
+}
+
+@layer _.b.l {
+  @media (forced-colors: active) {
+    .plOVIhfc6LxY918 {
+      color: var(--hcm-buttontext, ButtonText);
+    }
+
+    ._jlOVIhfcf18 {
+      border-style: solid;
+    }
+
+    ._klOVIhfcb18 {
+      border-top-width: 1px;
+    }
+
+    .hlOVIhfcb18 {
+      border-bottom-width: 1px;
+    }
+
+    .mlOVIhfcb18 {
+      border-inline-start-width: 1px;
+    }
+
+    .llOVIhfcb18 {
+      border-inline-end-width: 1px;
+    }
+
+    .ilOVIhfcCp4usd18 {
+      border-color: var(--hcm-buttonborder, ButtonBorder);
+    }
+
+    .-g_-lOVIhfcg8qxrJ18 {
+      --g: var(--hcm-buttonface, ButtonFace);
+    }
+  }
+}
+/*# sourceMappingURL=NotificationBadge.native.css.map */

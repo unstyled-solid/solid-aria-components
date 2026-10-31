@@ -1,0 +1,41 @@
+
+> build
+> cd packages/dev/s2-docs && DOCS_ENV=dev LIBRARY=react-aria parcel build 'pages/react-aria/**/*.mdx' --target react-static --config .parcelrc-s2-docs --dist-dir ../../../../dist-build --cache-dir ../../../../.parcel-cache-build
+
+/bin/sh: /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/term-size/vendor/macos/term-size: Bad CPU type in executable
+Building...
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+Bundling...
+Packaging & Optimizing...
+🚨 Build failed.
+
+@parcel/packager-react-static: Cannot read properties of undefined (reading 
+'guideUrl')
+
+
+  TypeError: Cannot read properties of undefined (reading 'guideUrl')
+      at installConsoleFooter 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/solid-js/dist/solid.dev.js:1631:40)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/solid-js/dist/solid.dev.js:1673:1
+      at runModule 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/packager-react-static/lib/ReactStaticPackager.js:615:3)
+      at loadAsset 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/packager-react-static/lib/ReactStaticPackager.js:473:12)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/packager-react-static/lib/ReactStaticPackager.js:426:19
+      at Array.forEach (<anonymous>)
+      at require 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/packager-react-static/lib/ReactStaticPackager.js:422:20)
+      at 
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@solidjs/web/dist/web.dev.js:123:16
+      at runModule 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/packager-react-static/lib/ReactStaticPackager.js:615:3)
+      at loadAsset 
+  (/Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/@parcel/packager-react-static/lib/ReactStaticPackager.js:473:12)
+sh: line 1: 21889 Abort trap: 6           DOCS_ENV=dev LIBRARY=react-aria parcel build 'pages/react-aria/**/*.mdx' --target react-static --config .parcelrc-s2-docs --dist-dir ../../../../dist-build --cache-dir ../../../../.parcel-cache-build

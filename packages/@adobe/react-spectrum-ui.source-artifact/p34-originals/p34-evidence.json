@@ -1,0 +1,53 @@
+{
+  "frozenSHA": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "tarballSHA256": "021c9956d1b1774b4db2378cf2d7365d4b9c11681eb8599eaf7958bbb4c19b46",
+  "publishedDist": {
+    "shasum": "31651a1c664b014bd7b4f8a2265e26ae418aecec",
+    "tarball": "https://registry.npmjs.org/@adobe/react-spectrum-ui/-/react-spectrum-ui-1.2.1.tgz",
+    "fileCount": 78,
+    "integrity": "sha512-wcrbEE2O/9WnEn6avBnaVRRx88S5PLFsPLr4wffzlbMfXeQsy+RMQwaJd3cbzrn18/j04Isit7f7Emfn0dhrJA==",
+    "signatures": [
+      {
+        "sig": "MEUCIQCeKyw7YHvU/hxAMY8ECy4Lh1/1U1cIkyuYgIi4qzmXDQIgfWvjC+NLcU1UyCZSlqNj+dWWreeMWXdjzHBtZLjzSec=",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 182364
+  },
+  "SRIAndSHA1Reverified": true,
+  "licenseSHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "licenseCorrespondenceVerified": true,
+  "generatorSHA256": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622",
+  "sourceConsumer": "upstream/react-spectrum/packages/@adobe/react-spectrum/src/table/TableViewBase.tsx imports lines16/17/48",
+  "ExpressBranches": "none in frozen generator",
+  "strict": "pending tsconfig.p34-i.json",
+  "files": {
+    "packages/@adobe/react-spectrum-ui/src/ChevronLeftMedium.jsx": {
+      "originalSHA256": "bc2c48fe68fb4a67144c17146e510d4bbf87cb0be36c154900fb30887861a768",
+      "nativeSHA256": "eaee72d80d6817aff4b2a6efb4c9018f03dcae4521cd676e5b2b78c2812d13ce",
+      "shapeAttributesAndOrderEqual": true
+    },
+    "packages/@spectrum-icons/ui/src/ChevronLeftMedium.tsx": {
+      "generatedOriginalSHA256": "af2c1632533da8002df2b927f88a42d248dabc4ea5a28fb1cd05ec069b204ccf",
+      "nativeSHA256": "7f61a9d4c3e7719eba1ae18929308782caae5b5ced84b3beb8cbf1d3a07e2683"
+    },
+    "packages/@adobe/react-spectrum-ui/src/ChevronRightMedium.jsx": {
+      "originalSHA256": "fe0dca5f06a3c60a94b151405e02f5c675aa8f25bf3f420b4f118e174a7872f5",
+      "nativeSHA256": "858e654a00db96d9d8e38bcb5a7f129f90a745feabe0309fbbf3275c941c5018",
+      "shapeAttributesAndOrderEqual": true
+    },
+    "packages/@spectrum-icons/ui/src/ChevronRightMedium.tsx": {
+      "generatedOriginalSHA256": "4b67b5d1bbb167e204c5c3ba385799750881aa02e9a3415ab389ea65dad93f48",
+      "nativeSHA256": "88d1e3dfb19af6e78823439cddd359a54a20c516ec92be1cdb977a8504f621c9"
+    },
+    "packages/@adobe/react-spectrum-ui/src/ListGripper.jsx": {
+      "originalSHA256": "a95cce7ce1b87257bedcdb5d8c09c36beddd12b7e725947d77aae3df1eaf0259",
+      "nativeSHA256": "aca5949cc0f8aa376ce2411c120f1f924a98c6fed1151f36deda2fac179268a3",
+      "shapeAttributesAndOrderEqual": true
+    },
+    "packages/@spectrum-icons/ui/src/ListGripper.tsx": {
+      "generatedOriginalSHA256": "ba4f3bd6b610568cb3c22bf634e8741ad3f8ae2be415fd1a707f6f9538ffa38e",
+      "nativeSHA256": "ad92d5778f8649007fb73a9a63bb3482bf8ee493bf4f8568ba379b24f23b9f6c"
+    }
+  }
+}

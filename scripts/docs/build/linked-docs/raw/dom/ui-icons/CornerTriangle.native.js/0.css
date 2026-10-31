@@ -1,0 +1,43 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .ZrIlH4c18 {
+    width: calc(calc(0.3125 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .Z1cJjHb18 {
+    width: calc(calc(0.375 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .ZFJusud18 {
+    width: calc(calc(0.4375 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .ZrIlH4c18 {
+    width: calc(calc(0.3125 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .FrIlH4c18 {
+    height: calc(calc(0.3125 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .F1cJjHb18 {
+    height: calc(calc(0.375 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .FFJusud18 {
+    height: calc(calc(0.4375 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .FrIlH4c18 {
+    height: calc(calc(0.3125 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+}
+

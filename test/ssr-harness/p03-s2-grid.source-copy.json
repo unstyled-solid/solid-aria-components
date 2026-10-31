@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "mode": "source-derived-fixture",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "source": "upstream/react-spectrum/packages/@adobe/react-spectrum/test/layout/Grid.ssr.test.js",
+  "sourceSha256": "4d0bc5b3e15feedc0253148e0de66551ee47f7457b90811feec2fa3bac00f7b0",
+  "sourceLines": [
+    20,
+    21
+  ],
+  "target": "test/ssr-harness/p03-s2-grid.tsx",
+  "adaptation": "Fixture extracts original Grid element with native source export import."
+}

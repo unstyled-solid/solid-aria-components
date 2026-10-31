@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.p53-m.json",
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "types": ["node", "vitest/globals", "@vitest/browser-playwright/context"]
+  },
+  "files": ["test/intl.d.ts", "test/browser/p27-commands.ts"],
+  "include": ["packages/react-aria-components/test/Dialog.browser.test.tsx"]
+}

@@ -1,0 +1,42 @@
+/*
+ * Copyright 2023 Adobe. All rights reserved.
+ * This file is licensed to you under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License. You may obtain a copy
+ * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under
+ * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+ * OF ANY KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ */
+
+import {RefObject} from '@react-types/shared';
+import {createEffect} from 'solid-js';
+import {useEffectEvent} from './useEffectEvent';
+
+export function useFormReset<T>(
+  ref: RefObject<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement | null> | undefined,
+  initialValue: T | (() => T),
+  onReset: (value: T) => void
+): void {
+  let handleReset = useEffectEvent((e: Event) => {
+    if (onReset && !e.defaultPrevented) {
+      onReset(typeof initialValue === 'function' ? (initialValue as () => T)() : initialValue);
+    }
+  });
+
+  createEffect(() => ref?.current, element => {
+    // Form association is a DOM property, resolved after render commits rather
+    // than while the ref's reactive compute phase sees a detached element.
+    let form = element?.form;
+
+    // 'reset' does not compose across shadow DOM boundaries, but this listener is intentionally
+    // scoped to this specific form element (not a global target), so shadow root propagation does
+    // not apply here.
+    // oxlint-disable-next-line rsp-rules/no-non-composing-event-listener
+    form?.addEventListener('reset', handleReset);
+    return () => {
+      form?.removeEventListener('reset', handleReset);
+    };
+  });
+}

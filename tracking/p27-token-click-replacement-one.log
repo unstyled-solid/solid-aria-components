@@ -1,0 +1,361 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:79:8 > TokenField browser interactions > rendering > should render textbox and tokens
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:89:8 > TokenField browser interactions > rendering > does not allow editing when read only
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:99:8 > TokenField browser interactions > rendering > is not editable or focusable when disabled
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:124:8 > TokenField browser interactions > focus management > does not focus the field on mount
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:129:8 > TokenField browser interactions > focus management > does not steal focus when the value changes while another element is focused
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:142:8 > TokenField browser interactions > caret movement > skips over token with ArrowRight from end of preceding text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:155:8 > TokenField browser interactions > caret movement > navigates between adjacent tokens with ArrowRight
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:166:8 > TokenField browser interactions > caret movement > navigates between adjacent tokens with ArrowLeft
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:173:8 > TokenField browser interactions > caret movement > skips over token with ArrowLeft from start of following text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:180:8 > TokenField browser interactions > caret movement > skips over token with ArrowRight from end of preceding text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:187:8 > TokenField browser interactions > caret movement > skips over adjacent token with ArrowRight from start of first token
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:195:8 > TokenField browser interactions > caret movement > skips over adjacent token with ArrowLeft from start of second token
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:203:8 > TokenField browser interactions > caret movement > moves over an emoji as a single grapheme
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:214:8 > TokenField browser interactions > caret movement > moves to field start with Home on single line
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:222:8 > TokenField browser interactions > caret movement > moves to field end with End on single line
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:230:8 > TokenField browser interactions > caret movement > moves to previous line boundary with Home in multiline field
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:238:8 > TokenField browser interactions > caret movement > moves to end of line with End in multiline field
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:246:8 > TokenField browser interactions > caret movement > moves caret backward by word with word navigation shortcut
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:255:8 > TokenField browser interactions > caret movement > moves caret forward by word with word navigation shortcut
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:264:8 > TokenField browser interactions > caret movement > word navigation skips over token backward as atomic unit
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:272:8 > TokenField browser interactions > caret movement > word navigation skips over token forward as atomic unit
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:280:8 > TokenField browser interactions > caret movement > moves to line start with line navigation shortcut in multiline field
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:289:8 > TokenField browser interactions > caret movement > moves to line end with line navigation shortcut in multiline field
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:299:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves to field start with Control+a on single line
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:311:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves to field end with Control+e on single line
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:323:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves to previous line boundary with Control+a in multiline field
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:335:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves to end of line with Control+e in multiline field
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:347:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > skips over token with Control+f from end of preceding text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:358:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > skips over token with Control+b from start of following text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:369:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves over an emoji as a single grapheme with Control+f and Control+b
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:388:8 > TokenField browser interactions > rtl caret movement > moves the caret in the visual direction in RTL text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:401:8 > TokenField browser interactions > rtl caret movement > skips over a token in the visual direction in RTL text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:415:8 > TokenField browser interactions > rtl caret movement > extends the selection in the visual direction in RTL text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:425:8 > TokenField browser interactions > rtl caret movement > extends the selection across a token in RTL text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:435:8 > TokenField browser interactions > rtl caret movement > moves the caret by word in the visual direction in RTL text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:453:8 > TokenField browser interactions > rtl caret movement > moves to the line boundaries with Home and End in RTL text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:467:8 > TokenField browser interactions > bidirectional text > deletes the previous character with Backspace in RTL text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:477:8 > TokenField browser interactions > bidirectional text > crosses a token atomically in mixed RTL and LTR text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:492:8 > TokenField browser interactions > bidirectional text > moves through and back across mixed bidirectional text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:508:8 > TokenField browser interactions > selection > selects token atomically when extending selection across it
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:529:8 > TokenField browser interactions > selection > marks token as selected on double-click
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:536:8 > TokenField browser interactions > selection > selects entire line including tokens on triple-click
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:545:8 > TokenField browser interactions > selection > select-all then typing replaces entire field
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:556:8 > TokenField browser interactions > selection > deletes selection spanning token and text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:563:8 > TokenField browser interactions > selection > extends selection across token with Shift+ArrowRight
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:572:8 > TokenField browser interactions > selection > extends selection across token with Shift+ArrowLeft
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:581:8 > TokenField browser interactions > selection > extends selection to the left with Shift+ArrowLeft
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:589:8 > TokenField browser interactions > selection > moves selection back to the right with Shift+ArrowRight without extending past the anchor
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:601:8 > TokenField browser interactions > selection > extends back to the left after moving right with Shift+ArrowLeft
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:614:8 > TokenField browser interactions > selection > keeps direction when shrinking a selection across a token
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:628:8 > TokenField browser interactions > selection > collapses the selection to the right edge with ArrowRight
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:636:8 > TokenField browser interactions > selection > collapses the selection to the left edge with ArrowLeft
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:643:8 > TokenField browser interactions > selection > extends a double-clicked word to the left with Shift+ArrowLeft
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:667:8 > TokenField browser interactions > selection > extends a double-clicked word to the right with Shift+ArrowRight
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:681:8 > TokenField browser interactions > selection > extends selection backward by word with word selection shortcut
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:690:8 > TokenField browser interactions > selection > extends selection forward by word with word selection shortcut
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:703:8 > TokenField browser interactions > selection > extends selection backward by word across token
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:713:8 > TokenField browser interactions > selection > extends selection to line start with line selection shortcut
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:722:8 > TokenField browser interactions > selection > extends selection to line end with line selection shortcut
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:733:8 > TokenField browser interactions > insert and delete > types at end of empty text field
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:741:8 > TokenField browser interactions > insert and delete > types in the middle of text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:749:8 > TokenField browser interactions > insert and delete > inserts at clicked position in text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:79:5 > TokenField browser interactions > rendering > should render textbox and tokens
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:89:5 > TokenField browser interactions > rendering > does not allow editing when read only
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:99:5 > TokenField browser interactions > rendering > is not editable or focusable when disabled
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:124:5 > TokenField browser interactions > focus management > does not focus the field on mount
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:129:5 > TokenField browser interactions > focus management > does not steal focus when the value changes while another element is focused
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:142:5 > TokenField browser interactions > caret movement > skips over token with ArrowRight from end of preceding text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:155:5 > TokenField browser interactions > caret movement > navigates between adjacent tokens with ArrowRight
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:166:5 > TokenField browser interactions > caret movement > navigates between adjacent tokens with ArrowLeft
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:173:5 > TokenField browser interactions > caret movement > skips over token with ArrowLeft from start of following text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:180:5 > TokenField browser interactions > caret movement > skips over token with ArrowRight from end of preceding text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:187:5 > TokenField browser interactions > caret movement > skips over adjacent token with ArrowRight from start of first token
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:195:5 > TokenField browser interactions > caret movement > skips over adjacent token with ArrowLeft from start of second token
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:203:5 > TokenField browser interactions > caret movement > moves over an emoji as a single grapheme
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:214:5 > TokenField browser interactions > caret movement > moves to field start with Home on single line
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:222:5 > TokenField browser interactions > caret movement > moves to field end with End on single line
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:230:5 > TokenField browser interactions > caret movement > moves to previous line boundary with Home in multiline field
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:238:5 > TokenField browser interactions > caret movement > moves to end of line with End in multiline field
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:246:5 > TokenField browser interactions > caret movement > moves caret backward by word with word navigation shortcut
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:255:5 > TokenField browser interactions > caret movement > moves caret forward by word with word navigation shortcut
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:264:5 > TokenField browser interactions > caret movement > word navigation skips over token backward as atomic unit
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:272:5 > TokenField browser interactions > caret movement > word navigation skips over token forward as atomic unit
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:280:5 > TokenField browser interactions > caret movement > moves to line start with line navigation shortcut in multiline field
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:289:5 > TokenField browser interactions > caret movement > moves to line end with line navigation shortcut in multiline field
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:299:7 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves to field start with Control+a on single line
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:311:7 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves to field end with Control+e on single line
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:323:7 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves to previous line boundary with Control+a in multiline field
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:335:7 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves to end of line with Control+e in multiline field
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:347:7 > TokenField browser interactions > caret movement > macOS Control shortcuts > skips over token with Control+f from end of preceding text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:358:7 > TokenField browser interactions > caret movement > macOS Control shortcuts > skips over token with Control+b from start of following text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:369:7 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves over an emoji as a single grapheme with Control+f and Control+b
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:388:5 > TokenField browser interactions > rtl caret movement > moves the caret in the visual direction in RTL text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:401:5 > TokenField browser interactions > rtl caret movement > skips over a token in the visual direction in RTL text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:415:5 > TokenField browser interactions > rtl caret movement > extends the selection in the visual direction in RTL text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:425:5 > TokenField browser interactions > rtl caret movement > extends the selection across a token in RTL text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:435:5 > TokenField browser interactions > rtl caret movement > moves the caret by word in the visual direction in RTL text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:453:5 > TokenField browser interactions > rtl caret movement > moves to the line boundaries with Home and End in RTL text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:467:5 > TokenField browser interactions > bidirectional text > deletes the previous character with Backspace in RTL text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:477:5 > TokenField browser interactions > bidirectional text > crosses a token atomically in mixed RTL and LTR text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:492:5 > TokenField browser interactions > bidirectional text > moves through and back across mixed bidirectional text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:508:5 > TokenField browser interactions > selection > selects token atomically when extending selection across it
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:529:5 > TokenField browser interactions > selection > marks token as selected on double-click
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:536:5 > TokenField browser interactions > selection > selects entire line including tokens on triple-click
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:545:5 > TokenField browser interactions > selection > select-all then typing replaces entire field
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:556:5 > TokenField browser interactions > selection > deletes selection spanning token and text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:563:5 > TokenField browser interactions > selection > extends selection across token with Shift+ArrowRight
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:572:5 > TokenField browser interactions > selection > extends selection across token with Shift+ArrowLeft
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:581:5 > TokenField browser interactions > selection > extends selection to the left with Shift+ArrowLeft
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:589:5 > TokenField browser interactions > selection > moves selection back to the right with Shift+ArrowRight without extending past the anchor
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:601:5 > TokenField browser interactions > selection > extends back to the left after moving right with Shift+ArrowLeft
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:614:5 > TokenField browser interactions > selection > keeps direction when shrinking a selection across a token
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:628:5 > TokenField browser interactions > selection > collapses the selection to the right edge with ArrowRight
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:636:5 > TokenField browser interactions > selection > collapses the selection to the left edge with ArrowLeft
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:643:5 > TokenField browser interactions > selection > extends a double-clicked word to the left with Shift+ArrowLeft
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:667:5 > TokenField browser interactions > selection > extends a double-clicked word to the right with Shift+ArrowRight
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:681:5 > TokenField browser interactions > selection > extends selection backward by word with word selection shortcut
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:690:5 > TokenField browser interactions > selection > extends selection forward by word with word selection shortcut
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:703:5 > TokenField browser interactions > selection > extends selection backward by word across token
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:713:5 > TokenField browser interactions > selection > extends selection to line start with line selection shortcut
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:722:5 > TokenField browser interactions > selection > extends selection to line end with line selection shortcut
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:733:5 > TokenField browser interactions > insert and delete > types at end of empty text field
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:741:5 > TokenField browser interactions > insert and delete > types in the middle of text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:749:5 > TokenField browser interactions > insert and delete > inserts at clicked position in text
+ ✓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:764:5 > TokenField browser interactions > insert and delete > replaces token when typing after clicking token 130ms
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:773:5 > TokenField browser interactions > insert and delete > deletes one character with Backspace
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:781:5 > TokenField browser interactions > insert and delete > deletes one character with Delete
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:788:5 > TokenField browser interactions > insert and delete > deletes full emoji as one grapheme with Backspace
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:798:5 > TokenField browser interactions > insert and delete > deletes full emoji as one grapheme with Delete
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:807:5 > TokenField browser interactions > insert and delete > deletes token with Backspace at boundary after token
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:814:5 > TokenField browser interactions > insert and delete > deletes token with Delete at boundary before token
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:821:5 > TokenField browser interactions > insert and delete > deletes selection with Delete key
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:828:5 > TokenField browser interactions > insert and delete > deletes selection with Backspace key
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:835:5 > TokenField browser interactions > insert and delete > deletes previous word with word-delete shortcut
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:843:5 > TokenField browser interactions > insert and delete > deletes next word with word-delete shortcut
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:851:5 > TokenField browser interactions > insert and delete > deletes to start of line with line-delete shortcut
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:861:5 > TokenField browser interactions > insert and delete > deletes forward to end of line with line-delete forward shortcut
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:882:5 > TokenField browser interactions > multiline > does not insert a newline on Enter in a single-line field
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:891:5 > TokenField browser interactions > multiline > inserts a newline on Enter in a multiline field
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:902:5 > TokenField browser interactions > multiline > removes newlines from pasted text in a single-line field
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:923:5 > TokenField browser interactions > multiline > keeps newlines from pasted text in a multiline field
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:945:5 > TokenField browser interactions > clipboard > pastes plain text at caret
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:963:5 > TokenField browser interactions > clipboard > copy and paste preserves token segments within field
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:982:5 > TokenField browser interactions > clipboard > cuts selected text
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:999:5 > TokenField browser interactions > clipboard > cut removes selection and paste restores elsewhere
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1022:5 > TokenField browser interactions > clipboard > ignores malformed data under the custom clipboard type without crashing
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1036:5 > TokenField browser interactions > clipboard > ignores valid JSON with invalid segments under the custom clipboard type
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1062:5 > TokenField browser interactions > undo and redo > undoes typing
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1072:5 > TokenField browser interactions > undo and redo > coalesces consecutive typing into one undo step
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1082:5 > TokenField browser interactions > undo and redo > coalesces consecutive typing in a second field instance
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1101:5 > TokenField browser interactions > undo and redo > redoes after undo
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1118:5 > TokenField browser interactions > undo and redo > new edit after undo replaces redo branch
+ ↓ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1137:5 > TokenField browser interactions > undo and redo > restores the selection when undoing a replacement
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:79:8 > TokenField browser interactions > rendering > should render textbox and tokens
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:89:8 > TokenField browser interactions > rendering > does not allow editing when read only
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:99:8 > TokenField browser interactions > rendering > is not editable or focusable when disabled
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:124:8 > TokenField browser interactions > focus management > does not focus the field on mount
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:129:8 > TokenField browser interactions > focus management > does not steal focus when the value changes while another element is focused
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:142:8 > TokenField browser interactions > caret movement > skips over token with ArrowRight from end of preceding text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:155:8 > TokenField browser interactions > caret movement > navigates between adjacent tokens with ArrowRight
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:166:8 > TokenField browser interactions > caret movement > navigates between adjacent tokens with ArrowLeft
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:173:8 > TokenField browser interactions > caret movement > skips over token with ArrowLeft from start of following text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:180:8 > TokenField browser interactions > caret movement > skips over token with ArrowRight from end of preceding text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:187:8 > TokenField browser interactions > caret movement > skips over adjacent token with ArrowRight from start of first token
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:195:8 > TokenField browser interactions > caret movement > skips over adjacent token with ArrowLeft from start of second token
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:203:8 > TokenField browser interactions > caret movement > moves over an emoji as a single grapheme
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:214:8 > TokenField browser interactions > caret movement > moves to field start with Home on single line
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:222:8 > TokenField browser interactions > caret movement > moves to field end with End on single line
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:230:8 > TokenField browser interactions > caret movement > moves to previous line boundary with Home in multiline field
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:238:8 > TokenField browser interactions > caret movement > moves to end of line with End in multiline field
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:246:8 > TokenField browser interactions > caret movement > moves caret backward by word with word navigation shortcut
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:255:8 > TokenField browser interactions > caret movement > moves caret forward by word with word navigation shortcut
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:264:8 > TokenField browser interactions > caret movement > word navigation skips over token backward as atomic unit
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:272:8 > TokenField browser interactions > caret movement > word navigation skips over token forward as atomic unit
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:280:8 > TokenField browser interactions > caret movement > moves to line start with line navigation shortcut in multiline field
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:289:8 > TokenField browser interactions > caret movement > moves to line end with line navigation shortcut in multiline field
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:299:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves to field start with Control+a on single line
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:311:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves to field end with Control+e on single line
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:323:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves to previous line boundary with Control+a in multiline field
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:335:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves to end of line with Control+e in multiline field
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:347:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > skips over token with Control+f from end of preceding text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:358:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > skips over token with Control+b from start of following text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:369:10 > TokenField browser interactions > caret movement > macOS Control shortcuts > moves over an emoji as a single grapheme with Control+f and Control+b
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:388:8 > TokenField browser interactions > rtl caret movement > moves the caret in the visual direction in RTL text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:401:8 > TokenField browser interactions > rtl caret movement > skips over a token in the visual direction in RTL text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:415:8 > TokenField browser interactions > rtl caret movement > extends the selection in the visual direction in RTL text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:425:8 > TokenField browser interactions > rtl caret movement > extends the selection across a token in RTL text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:435:8 > TokenField browser interactions > rtl caret movement > moves the caret by word in the visual direction in RTL text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:453:8 > TokenField browser interactions > rtl caret movement > moves to the line boundaries with Home and End in RTL text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:467:8 > TokenField browser interactions > bidirectional text > deletes the previous character with Backspace in RTL text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:477:8 > TokenField browser interactions > bidirectional text > crosses a token atomically in mixed RTL and LTR text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:492:8 > TokenField browser interactions > bidirectional text > moves through and back across mixed bidirectional text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:508:8 > TokenField browser interactions > selection > selects token atomically when extending selection across it
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:529:8 > TokenField browser interactions > selection > marks token as selected on double-click
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:536:8 > TokenField browser interactions > selection > selects entire line including tokens on triple-click
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:545:8 > TokenField browser interactions > selection > select-all then typing replaces entire field
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:556:8 > TokenField browser interactions > selection > deletes selection spanning token and text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:563:8 > TokenField browser interactions > selection > extends selection across token with Shift+ArrowRight
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:572:8 > TokenField browser interactions > selection > extends selection across token with Shift+ArrowLeft
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:581:8 > TokenField browser interactions > selection > extends selection to the left with Shift+ArrowLeft
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:589:8 > TokenField browser interactions > selection > moves selection back to the right with Shift+ArrowRight without extending past the anchor
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:601:8 > TokenField browser interactions > selection > extends back to the left after moving right with Shift+ArrowLeft
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:614:8 > TokenField browser interactions > selection > keeps direction when shrinking a selection across a token
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:628:8 > TokenField browser interactions > selection > collapses the selection to the right edge with ArrowRight
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:636:8 > TokenField browser interactions > selection > collapses the selection to the left edge with ArrowLeft
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:643:8 > TokenField browser interactions > selection > extends a double-clicked word to the left with Shift+ArrowLeft
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:667:8 > TokenField browser interactions > selection > extends a double-clicked word to the right with Shift+ArrowRight
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:681:8 > TokenField browser interactions > selection > extends selection backward by word with word selection shortcut
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:690:8 > TokenField browser interactions > selection > extends selection forward by word with word selection shortcut
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:703:8 > TokenField browser interactions > selection > extends selection backward by word across token
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:713:8 > TokenField browser interactions > selection > extends selection to line start with line selection shortcut
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:722:8 > TokenField browser interactions > selection > extends selection to line end with line selection shortcut
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:733:8 > TokenField browser interactions > insert and delete > types at end of empty text field
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:741:8 > TokenField browser interactions > insert and delete > types in the middle of text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:749:8 > TokenField browser interactions > insert and delete > inserts at clicked position in text
+ × |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:764:8 > TokenField browser interactions > insert and delete > replaces token when typing after clicking token 1165ms
+   → expected [ { index: 2, offset: +0 }, …(1) ] to deeply equal [ { index: +0, offset: 2 }, …(1) ]
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:773:8 > TokenField browser interactions > insert and delete > deletes one character with Backspace
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:781:8 > TokenField browser interactions > insert and delete > deletes one character with Delete
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:788:8 > TokenField browser interactions > insert and delete > deletes full emoji as one grapheme with Backspace
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:798:8 > TokenField browser interactions > insert and delete > deletes full emoji as one grapheme with Delete
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:807:8 > TokenField browser interactions > insert and delete > deletes token with Backspace at boundary after token
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:814:8 > TokenField browser interactions > insert and delete > deletes token with Delete at boundary before token
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:821:8 > TokenField browser interactions > insert and delete > deletes selection with Delete key
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:828:8 > TokenField browser interactions > insert and delete > deletes selection with Backspace key
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:835:8 > TokenField browser interactions > insert and delete > deletes previous word with word-delete shortcut
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:843:8 > TokenField browser interactions > insert and delete > deletes next word with word-delete shortcut
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:851:8 > TokenField browser interactions > insert and delete > deletes to start of line with line-delete shortcut
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:861:8 > TokenField browser interactions > insert and delete > deletes forward to end of line with line-delete forward shortcut
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:882:8 > TokenField browser interactions > multiline > does not insert a newline on Enter in a single-line field
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:891:8 > TokenField browser interactions > multiline > inserts a newline on Enter in a multiline field
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:902:8 > TokenField browser interactions > multiline > removes newlines from pasted text in a single-line field
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:923:8 > TokenField browser interactions > multiline > keeps newlines from pasted text in a multiline field
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:945:8 > TokenField browser interactions > clipboard > pastes plain text at caret
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:963:8 > TokenField browser interactions > clipboard > copy and paste preserves token segments within field
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:982:8 > TokenField browser interactions > clipboard > cuts selected text
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:999:8 > TokenField browser interactions > clipboard > cut removes selection and paste restores elsewhere
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1022:8 > TokenField browser interactions > clipboard > ignores malformed data under the custom clipboard type without crashing
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1036:8 > TokenField browser interactions > clipboard > ignores valid JSON with invalid segments under the custom clipboard type
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1062:8 > TokenField browser interactions > undo and redo > undoes typing
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1072:8 > TokenField browser interactions > undo and redo > coalesces consecutive typing into one undo step
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1082:8 > TokenField browser interactions > undo and redo > coalesces consecutive typing in a second field instance
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1101:8 > TokenField browser interactions > undo and redo > redoes after undo
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1118:8 > TokenField browser interactions > undo and redo > new edit after undo replaces redo branch
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1137:8 > TokenField browser interactions > undo and redo > restores the selection when undoing a replacement
+ × |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:764:8 > TokenField browser interactions > insert and delete > replaces token when typing after clicking token 1154ms
+   → expected [ { index: 2, offset: +0 }, …(1) ] to deeply equal [ { index: +0, offset: 2 }, …(1) ]
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:773:8 > TokenField browser interactions > insert and delete > deletes one character with Backspace
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:781:8 > TokenField browser interactions > insert and delete > deletes one character with Delete
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:788:8 > TokenField browser interactions > insert and delete > deletes full emoji as one grapheme with Backspace
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:798:8 > TokenField browser interactions > insert and delete > deletes full emoji as one grapheme with Delete
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:807:8 > TokenField browser interactions > insert and delete > deletes token with Backspace at boundary after token
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:814:8 > TokenField browser interactions > insert and delete > deletes token with Delete at boundary before token
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:821:8 > TokenField browser interactions > insert and delete > deletes selection with Delete key
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:828:8 > TokenField browser interactions > insert and delete > deletes selection with Backspace key
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:835:8 > TokenField browser interactions > insert and delete > deletes previous word with word-delete shortcut
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:843:8 > TokenField browser interactions > insert and delete > deletes next word with word-delete shortcut
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:851:8 > TokenField browser interactions > insert and delete > deletes to start of line with line-delete shortcut
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:861:8 > TokenField browser interactions > insert and delete > deletes forward to end of line with line-delete forward shortcut
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:882:8 > TokenField browser interactions > multiline > does not insert a newline on Enter in a single-line field
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:891:8 > TokenField browser interactions > multiline > inserts a newline on Enter in a multiline field
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:902:8 > TokenField browser interactions > multiline > removes newlines from pasted text in a single-line field
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:923:8 > TokenField browser interactions > multiline > keeps newlines from pasted text in a multiline field
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:945:8 > TokenField browser interactions > clipboard > pastes plain text at caret
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:963:8 > TokenField browser interactions > clipboard > copy and paste preserves token segments within field
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:982:8 > TokenField browser interactions > clipboard > cuts selected text
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:999:8 > TokenField browser interactions > clipboard > cut removes selection and paste restores elsewhere
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1022:8 > TokenField browser interactions > clipboard > ignores malformed data under the custom clipboard type without crashing
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1036:8 > TokenField browser interactions > clipboard > ignores valid JSON with invalid segments under the custom clipboard type
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1062:8 > TokenField browser interactions > undo and redo > undoes typing
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1072:8 > TokenField browser interactions > undo and redo > coalesces consecutive typing into one undo step
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1082:8 > TokenField browser interactions > undo and redo > coalesces consecutive typing in a second field instance
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1101:8 > TokenField browser interactions > undo and redo > redoes after undo
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1118:8 > TokenField browser interactions > undo and redo > new edit after undo replaces redo branch
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:1137:8 > TokenField browser interactions > undo and redo > restores the selection when undoing a replacement
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:764:8 > TokenField browser interactions > insert and delete > replaces token when typing after clicking token
+AssertionError: expected [ { index: 2, offset: +0 }, …(1) ] to deeply equal [ { index: +0, offset: 2 }, …(1) ]
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[33m@@ -1,9 +1,9 @@[39m
+[2m  [[22m
+[2m    {[22m
+[32m-     "index": 0,[39m
+[32m-     "offset": 2,[39m
+[31m+     "index": 2,[39m
+[31m+     "offset": 0,[39m
+[2m    },[22m
+[2m    {[22m
+[2m      "index": 2,[22m
+[2m      "offset": 0,[22m
+[2m    },[22m
+
+ ❯ toEqual packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:96:49
+     94| export async function waitForSelection(textbox: Locator, start: Positi…
+     95|   let el = textbox.element();
+     96|   await expect.poll(() => getFieldSelection(el)).toEqual([start, end]);
+       |                                                 ^
+     97| }
+     98|
+ ❯ waitForSelection packages/react-aria-components/test/TokenField.browser.test.tsx:768:12
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ toEqual packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:96:49
+ ❯ waitForSelection packages/react-aria-components/test/TokenField.browser.test.tsx:768:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:764:8 > TokenField browser interactions > insert and delete > replaces token when typing after clicking token
+AssertionError: expected [ { index: 2, offset: +0 }, …(1) ] to deeply equal [ { index: +0, offset: 2 }, …(1) ]
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[33m@@ -1,9 +1,9 @@[39m
+[2m  [[22m
+[2m    {[22m
+[32m-     "index": 0,[39m
+[32m-     "offset": 2,[39m
+[31m+     "index": 2,[39m
+[31m+     "offset": 0,[39m
+[2m    },[22m
+[2m    {[22m
+[2m      "index": 2,[22m
+[2m      "offset": 0,[22m
+[2m    },[22m
+
+ ❯ waitForSelection packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:96:57
+     94| export async function waitForSelection(textbox: Locator, start: Positi…
+     95|   let el = textbox.element();
+     96|   await expect.poll(() => getFieldSelection(el)).toEqual([start, end]);
+       |                                                         ^
+     97| }
+     98|
+ ❯ textbox packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:94:39
+ ❯ textbox packages/react-aria-components/test/TokenField.browser.test.tsx:768:29
+
+Caused by: Error: Matcher did not succeed in time.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  2 failed | 1 passed (3)
+      Tests  2 failed | 1 passed | 270 skipped (273)
+   Start at  23:14:23
+   Duration  2.83s (transform 0ms, setup 216ms, import 586ms, tests 2.45s, environment 0ms)
+

@@ -1,0 +1,3 @@
+ ✓ |chromium-desktop| packages/react-aria-components/test/Modal.browser.test.tsx (1 test) 931ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/Modal.browser.test.tsx (1 test) 887ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/Modal.browser.test.tsx (1 test) 972ms

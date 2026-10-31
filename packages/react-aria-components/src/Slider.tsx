@@ -1,0 +1,450 @@
+/*
+ * Copyright 2022 Adobe. All rights reserved.
+ * This file is licensed to you under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License. You may obtain a copy
+ * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under
+ * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+ * OF ANY KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ */
+
+import {
+  AriaSliderProps,
+  AriaSliderThumbProps,
+  useSlider,
+  useSliderThumb
+} from 'react-aria/useSlider';
+
+import {clamp} from 'react-stately/private/utils/number';
+import {
+  ClassNameOrFunction,
+  ContextValue,
+  dom,
+  Provider,
+  RenderProps,
+  SlotProps,
+  useContextProps,
+  useRenderProps,
+  useSlot,
+  useSlottedContext
+} from './utils';
+import {filterDOMProps} from 'react-aria/filterDOMProps';
+import {GlobalDOMAttributes, RefObject} from '@react-types/shared';
+import {HoverEvents, Orientation} from '@react-types/shared';
+import {LabelContext} from './Label';
+import {mergeProps} from 'react-aria/mergeProps';
+import {createContext, merge, omit, useContext} from 'solid-js';
+import type {JSX} from '@solidjs/web';
+import {useObjectRef, type Ref as NativeRef} from 'react-aria/private/utils/useObjectRef';
+import {useSyncRef} from 'react-aria/private/utils/useSyncRef';
+import {SliderState, useSliderState} from 'react-stately/useSliderState';
+import {useFocusRing} from 'react-aria/useFocusRing';
+import {useHover} from 'react-aria/useHover';
+import {useNumberFormatter} from 'react-aria/useNumberFormatter';
+import {VisuallyHidden} from 'react-aria/VisuallyHidden';
+
+export interface SliderProps<T = number | number[]>
+  extends
+    Omit<AriaSliderProps<T>, 'label'>,
+    RenderProps<SliderRenderProps>,
+    SlotProps,
+    GlobalDOMAttributes<HTMLDivElement> {
+  /**
+   * The CSS [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className) for the
+   * element. A function may be provided to compute the class based on component state.
+   *
+   * @default 'react-aria-Slider'
+   */
+  className?: ClassNameOrFunction<SliderRenderProps>;
+  /**
+   * The display format of the value label.
+   */
+  formatOptions?: Intl.NumberFormatOptions;
+}
+
+export const SliderContext = createContext<ContextValue<SliderProps, HTMLDivElement>>(null);
+export const SliderStateContext = createContext<SliderState | null>(null);
+export const SliderTrackContext =
+  createContext<ContextValue<SliderTrackContextValue, HTMLDivElement>>(null);
+export const SliderFillContext = createContext<ContextValue<SliderFillProps, HTMLDivElement>>(null);
+export const SliderOutputContext =
+  createContext<ContextValue<SliderOutputContextValue, HTMLOutputElement>>(null);
+
+export interface SliderRenderProps {
+  /**
+   * The orientation of the slider.
+   *
+   * @selector [data-orientation="horizontal | vertical"]
+   */
+  orientation: Orientation;
+  /**
+   * Whether the slider is disabled.
+   *
+   * @selector [data-disabled]
+   */
+  isDisabled: boolean;
+  /**
+   * State of the slider.
+   */
+  state: SliderState;
+}
+
+/**
+ * A slider allows a user to select one or more values within a range.
+ */
+export function Slider<T extends number | number[]>(input: SliderProps<T> & {ref?: NativeRef<HTMLDivElement>}): JSX.Element {
+  let localRef = useObjectRef<HTMLDivElement>();
+  useSyncRef(input, localRef);
+  let [props, ref] = useContextProps(input, localRef, SliderContext);
+  let trackRef = useObjectRef<HTMLDivElement>();
+  let numberFormatter = useNumberFormatter(() => props.formatOptions ?? {});
+  let state = useSliderState(merge(props, {get numberFormatter() { return numberFormatter(); }}));
+  let [labelRef, label] = useSlot(() => !props['aria-label'] && !props['aria-labelledby']);
+  let {groupProps, trackProps, labelProps, outputProps} = useSlider(
+    merge(props, {get label() { return label(); }}),
+    state,
+    trackRef
+  );
+
+  let renderProps = useRenderProps(merge(props, {
+    // Local JSX owns its children independently of the slider's value bag.
+    // Read the rightmost source first, matching the source merge override rule,
+    // so looking up context slot props does not subscribe static JSX to value.
+    get children() {
+      let children = input.children;
+      return children !== undefined ? children : props.children;
+    },
+    values: {
+      get orientation() { return state.orientation; },
+      get isDisabled() { return state.isDisabled; },
+      state
+    },
+    defaultClassName: 'react-aria-Slider'
+  }));
+
+  let DOMProps = omit(filterDOMProps(props, {global: true}), 'id');
+
+  return (
+    <Provider
+      values={[
+        [SliderStateContext, state],
+        [SliderTrackContext, mergeProps(trackProps, {ref: trackRef}) as SliderTrackContextValue & {ref: typeof trackRef}],
+        [SliderOutputContext, outputProps as SliderOutputContextValue],
+        [LabelContext, mergeProps(labelProps, {ref: labelRef})]
+      ]}>
+      <dom.div
+        {...mergeProps(DOMProps, renderProps, groupProps)}
+        ref={ref}
+        slot={props.slot || undefined}
+        data-orientation={state.orientation}
+        data-disabled={state.isDisabled || undefined}
+      />
+    </Provider>
+  );
+}
+
+export interface SliderOutputProps
+  extends RenderProps<SliderRenderProps, 'output'>, SlotProps, GlobalDOMAttributes<HTMLOutputElement> {
+  /**
+   * The CSS [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className) for the
+   * element. A function may be provided to compute the class based on component state.
+   *
+   * @default 'react-aria-SliderOutput'
+   */
+  className?: ClassNameOrFunction<SliderRenderProps>;
+}
+interface SliderOutputContextValue
+  extends
+    Omit<JSX.OutputHTMLAttributes<HTMLOutputElement>, 'children' | 'className' | 'style' | 'ref' | 'slot' | keyof SliderOutputProps>,
+    SliderOutputProps {}
+
+/**
+ * A slider output displays the current value of a slider as text.
+ */
+export function SliderOutput(input: SliderOutputProps & {ref?: NativeRef<HTMLOutputElement>}): JSX.Element {
+  let localRef = useObjectRef<HTMLOutputElement>();
+  useSyncRef(input, localRef);
+  let [props, ref] = useContextProps(input, localRef, SliderOutputContext);
+  let otherProps = omit(props, 'children', 'style', 'className', 'render', 'ref', 'slot');
+  let state = useContext(SliderStateContext)!;
+  let renderProps = useRenderProps({
+    get className() { return props.className; },
+    get style() { return props.style; },
+    get children() { return props.children; },
+    get render() { return props.render; },
+    get defaultChildren() { return state.getFormattedValue(); },
+    defaultClassName: 'react-aria-SliderOutput',
+    values: {
+      get orientation() { return state.orientation; },
+      get isDisabled() { return state.isDisabled; },
+      state
+    }
+  });
+
+  return (
+    <dom.output
+      {...otherProps}
+      {...renderProps}
+      ref={ref}
+      data-orientation={state.orientation || undefined}
+      slot={props.slot ?? undefined}
+      data-disabled={state.isDisabled || undefined}
+    />
+  );
+}
+
+export interface SliderTrackRenderProps extends SliderRenderProps {
+  /**
+   * Whether the slider track is currently hovered with a mouse.
+   *
+   * @selector [data-hovered]
+   */
+  isHovered: boolean;
+}
+
+export interface SliderTrackProps
+  extends HoverEvents, RenderProps<SliderTrackRenderProps>, SlotProps, GlobalDOMAttributes<HTMLDivElement> {
+  /**
+   * The CSS [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className) for the
+   * element. A function may be provided to compute the class based on component state.
+   *
+   * @default 'react-aria-SliderTrack'
+   */
+  className?: ClassNameOrFunction<SliderTrackRenderProps>;
+}
+interface SliderTrackContextValue
+  extends
+    Omit<JSX.HTMLAttributes<HTMLDivElement>, 'children' | 'className' | 'style' | 'ref' | 'slot' | keyof SliderTrackProps>,
+    SliderTrackProps {}
+
+/**
+ * A slider track is a container for one or more slider thumbs.
+ */
+export function SliderTrack(input: SliderTrackProps & {ref?: NativeRef<HTMLDivElement>}): JSX.Element {
+  let localRef = useObjectRef<HTMLDivElement>();
+  useSyncRef(input, localRef);
+  let [props, ref] = useContextProps(input, localRef, SliderTrackContext);
+  let state = useContext(SliderStateContext)!;
+  let otherProps = omit(props, 'onHoverStart', 'onHoverEnd', 'onHoverChange', 'ref');
+  let {hoverProps, isHovered} = useHover({get onHoverStart() { return props.onHoverStart; }, get onHoverEnd() { return props.onHoverEnd; }, get onHoverChange() { return props.onHoverChange; }});
+  let renderProps = useRenderProps(merge(props, {
+    defaultClassName: 'react-aria-SliderTrack',
+    values: {
+      get orientation() { return state.orientation; },
+      get isDisabled() { return state.isDisabled; },
+      get isHovered() { return isHovered(); },
+      state
+    }
+  }));
+
+  return (
+    <dom.div
+      {...mergeProps(otherProps, hoverProps)}
+      {...renderProps}
+      ref={ref}
+      data-hovered={isHovered() || undefined}
+      data-orientation={state.orientation || undefined}
+      data-disabled={state.isDisabled || undefined}
+    />
+  );
+}
+
+export interface SliderThumbRenderProps {
+  /**
+   * State of the slider.
+   */
+  state: SliderState;
+  /**
+   * Whether this thumb is currently being dragged.
+   *
+   * @selector [data-dragging]
+   */
+  isDragging: boolean;
+  /**
+   * Whether the thumb is currently hovered with a mouse.
+   *
+   * @selector [data-hovered]
+   */
+  isHovered: boolean;
+  /**
+   * Whether the thumb is currently focused.
+   *
+   * @selector [data-focused]
+   */
+  isFocused: boolean;
+  /**
+   * Whether the thumb is keyboard focused.
+   *
+   * @selector [data-focus-visible]
+   */
+  isFocusVisible: boolean;
+  /**
+   * Whether the thumb is disabled.
+   *
+   * @selector [data-disabled]
+   */
+  isDisabled: boolean;
+}
+
+export interface SliderThumbProps
+  extends
+    Omit<AriaSliderThumbProps, 'label' | 'validationState'>,
+    HoverEvents,
+    RenderProps<SliderThumbRenderProps>,
+    GlobalDOMAttributes<HTMLDivElement> {
+  /**
+   * The CSS [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className) for the
+   * element. A function may be provided to compute the class based on component state.
+   *
+   * @default 'react-aria-SliderThumb'
+   */
+  className?: ClassNameOrFunction<SliderThumbRenderProps>;
+  /**
+   * A ref for the HTML input element.
+   */
+  inputRef?: RefObject<HTMLInputElement | null>;
+}
+
+/**
+ * A slider thumb represents an individual value that the user can adjust within a slider track.
+ */
+export function SliderThumb(props: SliderThumbProps & {ref?: NativeRef<HTMLDivElement>}): JSX.Element {
+  let ref = useObjectRef<HTMLDivElement>();
+  useSyncRef(props, ref);
+  let state = useContext(SliderStateContext)!;
+  let trackContext = useSlottedContext(SliderTrackContext)!;
+  let inputRef = useObjectRef<HTMLInputElement>();
+  useSyncRef({get ref() { return props.inputRef; }}, inputRef);
+  let [labelRef, label] = useSlot(() => !props['aria-label'] && !props['aria-labelledby']);
+  let {thumbProps, inputProps, labelProps, isDragging, isFocused, isDisabled} = useSliderThumb(
+    merge(props, {
+      get index() { return props.index ?? 0; },
+      get trackRef() { return trackContext.ref as unknown as RefObject<HTMLDivElement | null>; },
+      inputRef,
+      get label() { return label(); }
+    }),
+    state
+  );
+
+  let {focusProps, isFocusVisible} = useFocusRing();
+  let {hoverProps, isHovered} = useHover(props);
+
+  let renderProps = useRenderProps(merge(props, {
+    defaultClassName: 'react-aria-SliderThumb',
+    values: {
+      state,
+      get isHovered() { return isHovered(); },
+      get isDragging() { return isDragging(); },
+      get isFocused() { return isFocused(); },
+      get isFocusVisible() { return isFocusVisible(); },
+      get isDisabled() { return isDisabled(); }
+    }
+  }));
+
+  let DOMProps = omit(filterDOMProps(props, {global: true}), 'id');
+
+  return (
+    <dom.div
+      {...mergeProps(DOMProps, thumbProps, hoverProps)}
+      {...renderProps}
+      ref={ref}
+      style={{...thumbProps.style, ...renderProps.style}}
+      data-hovered={isHovered() || undefined}
+      data-dragging={isDragging() || undefined}
+      data-focused={isFocused() || undefined}
+      data-focus-visible={isFocusVisible() || undefined}
+      data-disabled={isDisabled() || undefined}>
+      <VisuallyHidden>
+        <input {...mergeProps(inputProps, focusProps) as JSX.InputHTMLAttributes<HTMLInputElement>} ref={inputRef} tabindex={inputProps.tabIndex} />
+      </VisuallyHidden>
+      <Provider values={[[LabelContext, mergeProps(labelProps, {ref: labelRef})]]}>
+        {renderProps.children}
+      </Provider>
+    </dom.div>
+  );
+}
+
+export interface SliderFillRenderProps extends SliderRenderProps {
+  /**
+   * Whether the slider fill is currently hovered with a mouse.
+   *
+   * @selector [data-hovered]
+   */
+  isHovered: boolean;
+}
+
+export interface SliderFillProps
+  extends HoverEvents, RenderProps<SliderFillRenderProps>, GlobalDOMAttributes<HTMLDivElement> {
+  /**
+   * The offset from which to start the fill.
+   *
+   * @default 0
+   */
+  offset?: number;
+  /**
+   * The CSS [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className) for the
+   * element. A function may be provided to compute the class based on component state.
+   *
+   * @default 'react-aria-SliderFill'
+   */
+  className?: ClassNameOrFunction<SliderFillRenderProps>;
+}
+
+/**
+ * Displays the selected range.
+ */
+export function SliderFill(input: SliderFillProps & {ref?: NativeRef<HTMLDivElement>}): JSX.Element {
+  let localRef = useObjectRef<HTMLDivElement>();
+  useSyncRef(input, localRef);
+  let [props, ref] = useContextProps(input, localRef, SliderFillContext);
+  let state = useContext(SliderStateContext)!;
+  let otherProps = omit(props, 'onHoverStart', 'onHoverEnd', 'onHoverChange', 'ref');
+  let {hoverProps, isHovered} = useHover({get onHoverStart() { return props.onHoverStart; }, get onHoverEnd() { return props.onHoverEnd; }, get onHoverChange() { return props.onHoverChange; }});
+
+  let offset = () =>
+    props.offset != null
+      ? clamp(props.offset, state.getThumbMinValue(0), state.getThumbMaxValue(0))
+      : state.getThumbMinValue(0);
+  let start = () =>
+    state.values.length > 1 ? state.getThumbPercent(0) * 100 : state.getValuePercent(offset()) * 100;
+  let end = () => state.values.length > 0 ? state.getThumbPercent(state.values.length - 1) * 100 : 0;
+  let startPercent = () => Math.min(start(), end());
+  let endPercent = () => Math.max(start(), end());
+  let sizePercent = () => Math.max(0, endPercent() - startPercent());
+
+  let renderProps = useRenderProps(merge(props, {
+    defaultClassName: 'react-aria-SliderFill',
+    get defaultStyle(): JSX.CSSProperties { return state.orientation === 'vertical'
+        ? {
+            position: 'absolute',
+            bottom: `${startPercent()}%`,
+            height: `${sizePercent()}%`,
+            width: '100%'
+          }
+        : {
+            position: 'absolute',
+            'inset-inline-start': `${startPercent()}%`,
+            width: `${sizePercent()}%`,
+            height: '100%'
+          }; },
+    values: {
+      get orientation() { return state.orientation; },
+      get isDisabled() { return state.isDisabled; },
+      get isHovered() { return isHovered(); },
+      state
+    }
+  }));
+
+  return (
+    <dom.div
+      {...mergeProps(otherProps, hoverProps)}
+      {...renderProps}
+      ref={ref}
+      data-hovered={isHovered() || undefined}
+      data-orientation={state.orientation || undefined}
+      data-disabled={state.isDisabled || undefined}
+    />
+  );
+}

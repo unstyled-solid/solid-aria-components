@@ -1,0 +1,153 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+ ❯ |solid2-pilot| packages/react-aria-components/test/Tabs.ssr.test.js (1 test | 1 failed) 1154ms
+     × should render without errors 1152ms
+stderr | packages/react-aria-components/test/Table.ssr.test.js > Table SSR > should render without errors
+[REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash. Error: Hydration Mismatch. Unable to find DOM nodes for hydration key: b0A1u200200200200200200a013510017520A18522002002002002000010t50
+    at getNextElement (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:1623:13)
+    at staticElement (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:2398:26)
+    at file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:2375:18
+    at readSerializedOrCompute (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:220:20)
+    at Object._fn (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:795:25)
+    at recompute (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4942:27)
+    at setupComputedNode (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5651:21)
+    at computed (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5512:3)
+    at createMemo (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2357:19)
+    at hydrateSignalLike (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:795:10)
+[REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+[REACTIVITY_HALTED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#reactivity_halted
+
+ ❯ |solid2-pilot| packages/react-aria-components/test/Table.ssr.test.js (1 test | 1 failed) 1368ms
+     × should render without errors 1367ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/Table.ssr.test.js > Table SSR > should render without errors
+Error: [REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+ ❯ notifyStatus node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4488:13
+ ❯ recompute node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4985:7
+ ❯ setupComputedNode node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5651:21
+ ❯ computed node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5512:3
+ ❯ mapArray node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:8916:16
+ ❯ node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:50
+ ❯ runWithOwner node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6942:12
+ ❯ create node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:24
+ ❯ For node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1450:40
+ ❯ node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:59:28
+
+Caused by: Error: [REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+ ❯ Console.console.error scripts/setupTests.js:65:48
+ ❯ notifyHalted node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1762:11
+ ❯ schedule node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1638:5
+ ❯ GlobalQueue.enqueue node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1833:5
+ ❯ effect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1739:21
+ ❯ createEffect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2442:3
+ ❯ hydratedEffect node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:922:3
+ ❯ hydratedCreateEffect node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:928:10
+ ❯ createEffect node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1038:68
+ ❯ useSyncRef packages/react-aria/src/utils/useSyncRef.ts:24:3
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/Tabs.ssr.test.js > Tabs SSR > should render without errors
+TestingLibraryElementError: Unable to find an accessible element with the role "tab"
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<template[39m
+      [33m_hk[39m=[32m"4"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33m_hk[39m=[32m"60l0"[39m
+      [33mclass[39m=[32m"react-aria-Tabs"[39m
+      [33mdata-orientation[39m=[32m"horizontal"[39m
+      [33mdata-rac[39m=[32m""[39m
+    [36m>[39m
+      [36m<div[39m
+        [33m_hk[39m=[32m"60l10001w0"[39m
+        [33mdata-orientation[39m=[32m"horizontal"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33m_hk[39m=[32m"60l10001w100010r50"[39m
+          [33mdata-selected[39m=[32m"true"[39m
+        [36m>[39m
+          [0mLeft[0m
+        [36m</div>[39m
+        [36m<div[39m
+          [33m_hk[39m=[32m"60l10001w100110r50"[39m
+        [36m>[39m
+          [0mMiddle[0m
+        [36m</div>[39m
+        [36m<div[39m
+          [33m_hk[39m=[32m"60l10001w100210r50"[39m
+        [36m>[39m
+          [0mRight[0m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33m_hk[39m=[32m"60l10001A13e0"[39m
+      [36m>[39m
+        [0mLeft content[0m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:109:15
+ ❯ runAfterServer packages/react-aria-components/test/Tabs.ssr.test.js:25:27
+     23|       () => {
+     24|         // Assert that server rendered stuff into the HTML.
+     25|         let tabs = screen.getAllByRole('tab');
+       |                           ^
+     26|         expect(tabs.map(o => o.textContent)).toEqual(['Left', 'Middle'…
+     27|         let tabpanel = screen.getByRole('tabpanel');
+ ❯ testSSR packages/dev/test-utils/src/testSSR.tsx:36:5
+ ❯ packages/react-aria-components/test/Tabs.ssr.test.js:19:11
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+⎯⎯⎯⎯⎯⎯ Unhandled Errors ⎯⎯⎯⎯⎯⎯
+
+Vitest caught 2 unhandled errors during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+ReferenceError: _$HY is not defined
+ ❯ node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:1749:31
+ ❯ processTicksAndRejections node:internal/process/task_queues:104:5
+
+This error originated in "packages/react-aria-components/test/Table.ssr.test.js" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The latest test that might've caused the error is "should render without errors". It might mean one of the following:
+- The error was thrown, while Vitest was running this test.
+- If the error occurred after the test had been completed, this was the last documented test before it was thrown.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+Error: [REACTIVITY_HALTED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#reactivity_halted
+ ❯ Console.console.warn scripts/setupTests.js:82:48
+     80|
+     81|     warn.apply(console, arguments);
+     82|     throw message instanceof Error ? message : new Error(message);
+       |                                                ^
+     83|   };
+     84| }
+
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:659:27
+ ❯ processTicksAndRejections node:internal/process/task_queues:104:5
+
+This error originated in "packages/react-aria-components/test/Table.ssr.test.js" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The latest test that might've caused the error is "should render without errors". It might mean one of the following:
+- The error was thrown, while Vitest was running this test.
+- If the error occurred after the test had been completed, this was the last documented test before it was thrown.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+ Test Files  2 failed | 1 passed (3)
+      Tests  2 failed | 1 passed (3)
+     Errors  2 errors
+   Start at  13:13:20
+   Duration  4.43s (transform 2.51s, setup 443ms, import 2.89s, tests 3.29s, environment 983ms)
+

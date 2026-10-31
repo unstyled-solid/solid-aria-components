@@ -1,0 +1,264 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+stderr | packages/react-aria-components/test/Tabs.test.jsx > Tabs > should support render props
+[STRICT_READ_UNTRACKED] Reactive value read directly in <For> will not update. Move it into a tracking scope (JSX, a memo, or an effect's compute function).
+  in <Tabs> › <CollectionBuilder> › <Hidden> › <HiddenContext> › computed › <CollectionDocumentContext> › computed
+[STRICT_READ_UNTRACKED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#strict_read_untracked
+[REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash. Error: [STRICT_READ_UNTRACKED] Reactive value read directly in <For> will not update. Move it into a tracking scope (JSX, a memo, or an effect's compute function).
+  in <Tabs> › <CollectionBuilder> › <Hidden> › <HiddenContext> › computed › <CollectionDocumentContext> › computed
+[STRICT_READ_UNTRACKED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#strict_read_untracked
+    at Console.console.warn (/Users/avi/avir-oss/solid-aria-components/scripts/setupTests.js:82:48)
+    at reportDiagnostic (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:701:65)
+    at warnStrictReadUntracked (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:732:3)
+    at read (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6513:5)
+    at leafOf (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:3589:39)
+    at mergeLookup (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:4142:17)
+    at mergeGet (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:4149:17)
+    at Object.orientation [as get] (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:4305:45)
+    at value (/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/test/Tabs.test.jsx:219:12)
+    at children (/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/src/utils.tsx:256:58)
+[REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+[REACTIVITY_HALTED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#reactivity_halted
+
+stderr | packages/react-aria-components/test/Tabs.test.jsx > Tabs > can add tabs and keep the current selected key
+[STRICT_READ_UNTRACKED] Reactive value read directly in <For> will not update. Move it into a tracking scope (JSX, a memo, or an effect's compute function).
+  in <Example> › <Tabs> › <CollectionBuilder> › <CollectionInner> › <For> › <TabsInner> › <dom.div> › <Host> › computed › effect › <TabsContext> › computed › <TabListStateContext> › computed › <For> › <TabList> › <TabListInner> › <dom.div> › <Host> › computed › effect › <SharedElementTransition> › <SharedElementContext> › computed › <CollectionRoot> › <For> › <FocusableContext> › computed › <Component> › <Dynamic> › <Anonymous> › computed › <Host> › computed › effect › <SelectionIndicatorContext> › computed
+[REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash. Error: [STRICT_READ_UNTRACKED] Reactive value read directly in <For> will not update. Move it into a tracking scope (JSX, a memo, or an effect's compute function).
+  in <Example> › <Tabs> › <CollectionBuilder> › <CollectionInner> › <For> › <TabsInner> › <dom.div> › <Host> › computed › effect › <TabsContext> › computed › <TabListStateContext> › computed › <For> › <TabList> › <TabListInner> › <dom.div> › <Host> › computed › effect › <SharedElementTransition> › <SharedElementContext> › computed › <CollectionRoot> › <For> › <FocusableContext> › computed › <Component> › <Dynamic> › <Anonymous> › computed › <Host> › computed › effect › <SelectionIndicatorContext> › computed
+    at Console.console.warn (/Users/avi/avir-oss/solid-aria-components/scripts/setupTests.js:82:48)
+    at reportDiagnostic (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:701:65)
+    at warnStrictReadUntracked (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:732:3)
+    at read (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6513:5)
+    at leafOf (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:3589:39)
+    at mergeLookup (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:4142:17)
+    at mergeGet (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:4149:17)
+    at Object.isSelected [as get] (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:4305:45)
+    at child (/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/test/Tabs.test.jsx:827:22)
+    at Result.useSSRCollectionNode.value (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/collections/CollectionBuilder.tsx:257:46)
+[REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+
+stderr | packages/react-aria-components/test/Tabs.test.jsx > Tabs > can add tabs and keep the current selected key
+There is no tab id, please check if you have rendered the tab panel before the tab list.
+There is no tab id, please check if you have rendered the tab panel before the tab list.
+There is no tab id, please check if you have rendered the tab panel before the tab list.
+There is no tab id, please check if you have rendered the tab panel before the tab list.
+There is no tab id, please check if you have rendered the tab panel before the tab list.
+There is no tab id, please check if you have rendered the tab panel before the tab list.
+There is no tab id, please check if you have rendered the tab panel before the tab list.
+There is no tab id, please check if you have rendered the tab panel before the tab list.
+
+ ❯ |solid2-pilot| packages/react-aria-components/test/Tabs.test.jsx (42 tests | 2 failed | 36 skipped) 193ms
+     × should support render props 19ms
+     × can add tabs and keep the current selected key 12ms
+(node:30634) Warning: `--localstorage-file` was provided without a valid path
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 3 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/Table.test.jsx > Table > should support disabled state
+Error: [REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+ ❯ notifyStatus node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4488:13
+ ❯ recompute node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4985:7
+ ❯ setupComputedNode node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5651:21
+ ❯ computed node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5512:3
+ ❯ mapArray node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:8916:16
+ ❯ node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:50
+ ❯ runWithOwner node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6942:12
+ ❯ create node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:24
+ ❯ list node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1451:43
+ ❯ flatten node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:10223:18
+
+Caused by: Error: [REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+ ❯ Console.console.error scripts/setupTests.js:65:48
+ ❯ notifyHalted node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1762:11
+ ❯ schedule node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1638:5
+ ❯ GlobalQueue.enqueue node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1833:5
+ ❯ effect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1739:21
+ ❯ createEffect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2442:3
+ ❯ createEffect node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1038:68
+ ❯ useSyncRef packages/react-aria/src/utils/useSyncRef.ts:24:3
+ ❯ Component packages/react-aria/src/collections/CollectionBuilder.tsx:281:5
+ ❯ node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:59:28
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/Tabs.test.jsx > Tabs > should support render props
+Error: [REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash.
+ ❯ notifyStatus node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4488:13
+ ❯ recompute node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4985:7
+ ❯ effect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1732:3
+ ❯ createRenderEffect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2477:3
+ ❯ createRenderEffect node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1037:86
+ ❯ effect node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:81:5
+ ❯ insert node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:1051:3
+ ❯ Hidden packages/react-aria/src/collections/Hidden.tsx:36:34
+     36| }
+     37|
+     38| /** Creates a component that forwards its ref and returns null if it i…
+       |                               ^
+     39| // Note: this function is handled specially in the documentation gener…
+     40| export function createHideableComponent<T, P = {}>(
+ ❯ node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/refresh.dev.js:33:32
+ ❯ untrack node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5881:12
+
+Caused by: Error: [REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash.
+ ❯ Console.console.error scripts/setupTests.js:65:48
+ ❯ haltReactivity node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1755:68
+ ❯ Object.notifyEffectStatus node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1783:7
+ ❯ notifyStatus node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4544:16
+ ❯ recompute node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4985:7
+ ❯ effect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1732:3
+ ❯ createRenderEffect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2477:3
+ ❯ createRenderEffect node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1037:86
+ ❯ effect node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:81:5
+ ❯ node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:1057:5
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/3]⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/Tabs.test.jsx > Tabs > can add tabs and keep the current selected key
+Error: [REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash.
+ ❯ notifyStatus node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4488:13
+ ❯ recompute node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4985:7
+ ❯ effect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1732:3
+ ❯ createRenderEffect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2477:3
+ ❯ createRenderEffect node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1037:86
+ ❯ effect node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:81:5
+ ❯ insert node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:1051:3
+ ❯ spread node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:830:67
+ ❯ staticElement node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:2399:3
+ ❯ Object._fn node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:2375:18
+
+Caused by: Error: [REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash.
+ ❯ Console.console.error scripts/setupTests.js:65:48
+ ❯ haltReactivity node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1755:68
+ ❯ Object.notifyEffectStatus node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1783:7
+ ❯ notifyStatus node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4544:16
+ ❯ recompute node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4985:7
+ ❯ effect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1732:3
+ ❯ createRenderEffect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2477:3
+ ❯ createRenderEffect node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1037:86
+ ❯ effect node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:81:5
+ ❯ node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:1057:5
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/3]⎯
+
+⎯⎯⎯⎯⎯⎯ Unhandled Errors ⎯⎯⎯⎯⎯⎯
+
+Vitest caught 8 unhandled errors during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+Error: [REACTIVITY_HALTED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#reactivity_halted
+ ❯ Console.console.warn scripts/setupTests.js:82:48
+     80|
+     81|     warn.apply(console, arguments);
+     82|     throw message instanceof Error ? message : new Error(message);
+       |                                                ^
+     83|   };
+     84| }
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:659:27
+ ❯ processTicksAndRejections node:internal/process/task_queues:104:5
+
+This error originated in "packages/react-aria-components/test/Tabs.test.jsx" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The latest test that might've caused the error is "should support render props". It might mean one of the following:
+- The error was thrown, while Vitest was running this test.
+- If the error occurred after the test had been completed, this was the last documented test before it was thrown.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+Error: [REACTIVITY_HALTED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#reactivity_halted
+ ❯ Console.console.warn scripts/setupTests.js:82:48
+     80|
+     81|     warn.apply(console, arguments);
+     82|     throw message instanceof Error ? message : new Error(message);
+       |                                                ^
+     83|   };
+     84| }
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:659:27
+ ❯ processTicksAndRejections node:internal/process/task_queues:104:5
+
+This error originated in "packages/react-aria-components/test/Table.test.jsx" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The latest test that might've caused the error is "should support disabled state". It might mean one of the following:
+- The error was thrown, while Vitest was running this test.
+- If the error occurred after the test had been completed, this was the last documented test before it was thrown.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+Error: [REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+ ❯ Console.console.error scripts/setupTests.js:65:48
+     63|
+     64|     error.apply(console, arguments);
+     65|     throw message instanceof Error ? message : new Error(message);
+       |                                                ^
+     66|   };
+     67| }
+ ❯ notifyHalted node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1762:11
+ ❯ schedule node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1638:5
+ ❯ GlobalQueue.initTransition node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:2315:5
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2117:19
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2111:12
+ ❯ runWithOwner node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6942:12
+ ❯ Function.<anonymous> packages/react-aria/src/utils/useObjectRef.ts:72:19
+ ❯ runDisposal node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:3273:16
+
+This error originated in "packages/react-aria-components/test/Tabs.test.jsx" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+Error: [REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+ ❯ Console.console.error scripts/setupTests.js:65:48
+     63|
+     64|     error.apply(console, arguments);
+     65|     throw message instanceof Error ? message : new Error(message);
+       |                                                ^
+     66|   };
+     67| }
+ ❯ notifyHalted node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1762:11
+ ❯ schedule node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1638:5
+ ❯ GlobalQueue.initTransition node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:2315:5
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2117:19
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2111:12
+ ❯ runWithOwner node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6942:12
+ ❯ Function.<anonymous> packages/react-aria/src/utils/useObjectRef.ts:72:19
+ ❯ runDisposal node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:3273:16
+
+This error originated in "packages/react-aria-components/test/Table.test.jsx" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+Error: [birpc] function "toJSON" not found
+ ❯ EventEmitter.onMessage node_modules/.pnpm/vitest@4.1.11_@types+node@25.9.9_@vitest+browser-playwright@4.1.11_jsdom@27.4.0_vite@8._60d77d6a6d43a768fe63396740e55874/node_modules/vitest/dist/chunks/index.Chj8NDwU.js:160:37
+ ❯ processTicksAndRejections node:internal/process/task_queues:104:5
+
+This error originated in "packages/react-aria-components/test/Table.test.jsx" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+Error: [birpc] function "toJSON" not found
+ ❯ EventEmitter.onMessage node_modules/.pnpm/vitest@4.1.11_@types+node@25.9.9_@vitest+browser-playwright@4.1.11_jsdom@27.4.0_vite@8._60d77d6a6d43a768fe63396740e55874/node_modules/vitest/dist/chunks/index.Chj8NDwU.js:160:37
+ ❯ processTicksAndRejections node:internal/process/task_queues:104:5
+
+This error originated in "packages/react-aria-components/test/Table.test.jsx" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+
+⎯⎯⎯⎯⎯⎯⎯ Test Run Error ⎯⎯⎯⎯⎯⎯⎯
+RangeError: Maximum call stack size exceeded
+ ❯ writeChannelMessage node:internal/child_process/serialization:114:9
+ ❯ process.target._send node:internal/child_process:858:17
+ ❯ process.target.send node:internal/child_process:759:19
+ ❯ post node_modules/.pnpm/vitest@4.1.11_@types+node@25.9.9_@vitest+browser-playwright@4.1.11_jsdom@27.4.0_vite@8._60d77d6a6d43a768fe63396740e55874/node_modules/vitest/dist/chunks/init-forks.H5ZuobOQ.js:16:16
+ ❯ send node_modules/.pnpm/vitest@4.1.11_@types+node@25.9.9_@vitest+browser-playwright@4.1.11_jsdom@27.4.0_vite@8._60d77d6a6d43a768fe63396740e55874/node_modules/vitest/dist/chunks/index.Chj8NDwU.js:48:32
+ ❯ handler node_modules/.pnpm/vitest@4.1.11_@types+node@25.9.9_@vitest+browser-playwright@4.1.11_jsdom@27.4.0_vite@8._60d77d6a6d43a768fe63396740e55874/node_modules/vitest/dist/chunks/index.Chj8NDwU.js:80:10
+ ❯ _call node_modules/.pnpm/vitest@4.1.11_@types+node@25.9.9_@vitest+browser-playwright@4.1.11_jsdom@27.4.0_vite@8._60d77d6a6d43a768fe63396740e55874/node_modules/vitest/dist/chunks/index.Chj8NDwU.js:85:15
+ ❯ sendCall node_modules/.pnpm/vitest@4.1.11_@types+node@25.9.9_@vitest+browser-playwright@4.1.11_jsdom@27.4.0_vite@8._60d77d6a6d43a768fe63396740e55874/node_modules/vitest/dist/chunks/index.Chj8NDwU.js:118:33
+ ❯ node_modules/.pnpm/vitest@4.1.11_@types+node@25.9.9_@vitest+browser-playwright@4.1.11_jsdom@27.4.0_vite@8._60d77d6a6d43a768fe63396740e55874/node_modules/vitest/dist/chunks/rpc.MzXet3jl.js:127:19
+ ❯ withSafeTimers node_modules/.pnpm/vitest@4.1.11_@types+node@25.9.9_@vitest+browser-playwright@4.1.11_jsdom@27.4.0_vite@8._60d77d6a6d43a768fe63396740e55874/node_modules/vitest/dist/chunks/rpc.MzXet3jl.js:91:10
+
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+EnvironmentTeardownError: [vitest-worker]: Closing rpc while "onUnhandledError" was pending
+This error originated in "packages/react-aria-components/test/Table.test.jsx" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+ Test Files  1 failed (2)
+      Tests  3 failed | 4 passed | 205 skipped (220)
+     Errors  8 errors
+   Start at  12:26:48
+   Duration  15.11s (transform 3.56s, setup 300ms, import 4.10s, tests 193ms, environment 762ms)
+

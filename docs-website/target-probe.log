@@ -1,0 +1,13 @@
+/bin/sh: /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/term-size/vendor/macos/term-size: Bad CPU type in executable
+Building...
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+🚨 Build failed.
+
+@parcel/core: Failed to resolve '@react-types/shared' from 
+'/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/exports/index.ts'
+@parcel/resolver-default: Cannot find module '@react-types/shared'

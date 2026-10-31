@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "test/css.d.ts"],
+  "include": [
+    "packages/@react-spectrum/s2/src/Breadcrumbs.tsx",
+    "packages/@react-spectrum/s2/src/types.ts",
+    "packages/@react-spectrum/s2/exports/Breadcrumbs.ts",
+    "packages/@react-spectrum/s2/ui-icons/Chevron.tsx"
+  ]
+}

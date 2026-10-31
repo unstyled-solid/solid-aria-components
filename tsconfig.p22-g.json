@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "packages/react-aria/src/gridlist/useGridList.ts", "packages/react-aria/src/gridlist/useGridListItem.ts", "packages/react-aria/src/gridlist/useGridListSection.ts", "packages/react-aria/src/gridlist/useGridListSelectionCheckbox.ts", "packages/react-aria/src/gridlist/utils.ts", "packages/react-aria/src/grid/useGridSelectionCheckbox.ts"]
+}

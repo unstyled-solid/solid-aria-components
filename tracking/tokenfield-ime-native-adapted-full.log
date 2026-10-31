@@ -1,0 +1,17 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ Test Files  1 passed | 2 skipped (3)
+      Tests  19 passed | 38 skipped (57)
+   Start at  19:06:09
+   Duration  3.87s (transform 0ms, setup 345ms, import 677ms, tests 1.13s, environment 0ms)
+

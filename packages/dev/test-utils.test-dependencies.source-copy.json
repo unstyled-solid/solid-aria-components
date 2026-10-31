@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "dependency": "@types/aria-query",
+  "requestedVersion": "^5.0.1",
+  "resolvedVersion": "5.0.1",
+  "targetVersion": "5.0.1",
+  "scope": "devDependencies; real jest-dom Vitest matcher declarations for aria-query 5",
+  "sources": [
+    {
+      "path": "upstream/react-spectrum/yarn.lock",
+      "sha256": "a52cff9fe53a20b0cc6d301817eef20aaa9f5d40d1a10f99768c1bfd808b5790"
+    }
+  ],
+  "lockEntry": "@types/aria-query@npm:^5.0.1 -> @types/aria-query@npm:5.0.1"
+}

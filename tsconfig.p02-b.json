@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "packages/react-aria/src/interactions/usePress.ts", "packages/react-aria/src/interactions/useHover.ts", "packages/react-aria/src/interactions/context.ts", "packages/react-aria/src/interactions/PressResponder.tsx", "packages/react-aria/src/interactions/Pressable.tsx", "packages/react-aria/src/interactions/textSelection.ts", "packages/react-aria/src/button/useButton.ts", "packages/react-aria/src/utils/useEffectEvent.ts"]
+}

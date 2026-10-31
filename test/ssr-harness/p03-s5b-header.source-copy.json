@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "mode": "source-derived-fixture",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "source": "upstream/react-spectrum/packages/@adobe/react-spectrum/test/view/Header.ssr.test.js",
+  "sourceSha256": "6f590944a04e56d94ac69e1356fa2a491a2ea91bd595c2556614f8470b814a2e",
+  "sourceLines": [
+    20,
+    21
+  ],
+  "target": "test/ssr-harness/p03-s5b-header.tsx",
+  "adaptation": "Extract original inline JSX into exported Fixture, importing actual native component subpath. Original element props/content retained."
+}

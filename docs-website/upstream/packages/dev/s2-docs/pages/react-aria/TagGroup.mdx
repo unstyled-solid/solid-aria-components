@@ -1,0 +1,190 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import {TagGroup as VanillaTagGroup, Tag} from 'vanilla-starter/TagGroup';
+import vanillaDocs from 'docs:vanilla-starter/TagGroup';
+import '../../tailwind/tailwind.css';
+import Anatomy from '/packages/dev/s2-docs/pages/react-aria/TagGroupAnatomy2.svg';
+import {InlineAlert, Heading, Content} from '@react-spectrum/s2';
+
+export const tags = ['chips', 'pills'];
+export const relatedPages = [{'title': 'useTagGroup', 'url': './TagGroup/useTagGroup'}];
+export const description = 'A focusable list of labels, categories, keywords, filters, or other items.';
+
+# TagGroup
+
+<PageDescription>{docs.exports.TagGroup.description}</PageDescription>
+
+<ExampleSwitcher>
+  ```tsx  docs={vanillaDocs.exports.TagGroup} links={docs.links} props={['label', 'selectionMode', 'description', 'errorMessage']} initialProps={{label: 'Categories', selectionMode: 'multiple'}} type="vanilla" files={["packages/dev/s2-docs/pages/react-aria/ListBox/native/vanilla/solid-TagGroup.tsx", "packages/dev/s2-docs/pages/react-aria/ListBox/native/vanilla/TagGroup.css"]} nativeModule="TagGroup/solid-demo01.tsx"
+import {TagGroup, Tag} from './ListBox/native/vanilla/solid-TagGroup';
+
+  <TagGroup{...props}>
+    <Tag>News</Tag>
+    <Tag>Travel</Tag>
+    <Tag>Gaming</Tag>
+    <Tag>Shopping</Tag>
+  </TagGroup>
+  ```
+
+  ```tsx  docs={vanillaDocs.exports.TagGroup} links={docs.links} props={['label', 'selectionMode', 'description', 'errorMessage']} initialProps={{label: 'Categories', selectionMode: 'multiple'}} type="tailwind" files={["packages/dev/s2-docs/pages/react-aria/ListBox/native/tailwind/solid-TagGroup.tsx"]} nativeModule="TagGroup/solid-demo02.tsx"
+import {TagGroup, Tag} from './ListBox/native/tailwind/solid-TagGroup';
+
+  <TagGroup{...props}>
+    <Tag>News</Tag>
+    <Tag>Travel</Tag>
+    <Tag>Gaming</Tag>
+    <Tag>Shopping</Tag>
+  </TagGroup>
+  ```
+
+</ExampleSwitcher>
+
+## Content
+
+`TagGroup` follows the [Collection Components API](collections?component=TagGroup), accepting both static and dynamic collections. This example shows a dynamic collection, passing a list of objects to the `items` prop, and a function to render the children. Items can be removed via the `onRemove` event.
+
+```tsx  nativeModule="TagGroup/solid-demo03.tsx"
+import {TagGroup, Tag} from './ListBox/native/vanilla/solid-TagGroup';
+import {useListData} from 'solid-aria-components/useListData';
+
+function Example() {
+  let list = useListData({
+    initialItems: [
+      { id: 1, name: 'News' },
+      { id: 2, name: 'Travel' },
+      { id: 3, name: 'Gaming' },
+      { id: 4, name: 'Shopping' }
+    ]
+  });
+
+  return (
+    <TagGroup
+      label="Categories"
+      /*- begin highlight -*/
+      items={list.items}
+      onRemove={(keys) => list.remove(...keys)}
+      renderEmptyState={() => <div>No categories</div>}>
+      {/*- end highlight -*/}
+      {(item) => <Tag>{item.name}</Tag>}
+    </TagGroup>
+  );
+}
+```
+
+### Links
+
+Use the `href` prop on a `<Tag>` to create a link.
+
+```tsx  nativeModule="TagGroup/solid-demo04.tsx"
+import {TagGroup, Tag} from './ListBox/native/vanilla/solid-TagGroup';
+
+<TagGroup label="Photo categories">
+  {/*- begin highlight -*/}
+  <Tag href="https://en.wikipedia.org/wiki/Landscape_photography" target="_blank">Landscape</Tag>
+  {/*- end highlight -*/}
+  <Tag href="https://en.wikipedia.org/wiki/Portrait_photography" target="_blank">Portrait</Tag>
+  <Tag href="https://en.wikipedia.org/wiki/Macro_photography" target="_blank">Macro</Tag>
+  <Tag href="https://en.wikipedia.org/wiki/Night_photography" target="_blank">Night</Tag>
+  <Tag href="https://en.wikipedia.org/wiki/Dualphotography" target="_blank">Dual</Tag>
+  <Tag href="https://en.wikipedia.org/wiki/Golden_hour_(photography)" target="_blank">Golden Hour</Tag>
+</TagGroup>
+```
+
+<InlineAlert variant="notice">
+  <Heading>Client-side routing</Heading>
+  <Content>Due to [HTML spec limitations](https://github.com/w3c/html-aria/issues/473), tags cannot be rendered as `<a>` elements. React Aria handles link clicks with JavaScript and triggers native navigation. When using a client-side router, use the `onAction` event to programmatically trigger navigation instead of the `href` prop.</Content>
+</InlineAlert>
+
+## Selection and actions
+
+Use the `selectionMode` prop to enable single or multiple selection. The selected items can be controlled via the `selectedKeys` prop, matching the `id` prop of the items. Items can be disabled with the `isDisabled` prop. See the [selection guide](selection?component=TagGroup) for more details.
+
+```tsx  docs={docs.exports.TagGroup} links={docs.links} props={['selectionMode', 'selectionBehavior', 'disallowEmptySelection']} initialProps={{selectionMode: 'multiple'}} wide nativeModule="TagGroup/solid-demo05.tsx"
+import type {Selection} from 'solid-aria-components/TagGroup';
+import {TagGroup, Tag} from './ListBox/native/vanilla/solid-TagGroup';
+import {createSignal} from 'solid-js';
+
+function Example(props: Record<string, unknown>) {
+  let [selected, setSelected] = createSignal<Selection>(new Set());
+
+  return (
+    <div>
+      <TagGroup
+        {...props}
+        label="Amenities"
+        ///- begin highlight -///
+        {...props}
+        selectedKeys={selected()}
+        onSelectionChange={setSelected}
+        ///- end highlight -///
+      >
+        <Tag id="laundry">Laundry</Tag>
+        <Tag id="fitness">Fitness center</Tag>
+        <Tag id="parking" isDisabled>Parking</Tag>
+        <Tag id="pool">Swimming pool</Tag>
+        <Tag id="breakfast">Breakfast</Tag>
+      </TagGroup>
+      <p>Current selection: {selected() === 'all' ? 'all' : [...selected()].join(', ')}</p>
+    </div>
+  );
+}
+```
+
+Use the `onAction` prop to handle item actions.
+
+```tsx  wide nativeModule="TagGroup/solid-demo06.tsx"
+import {TagGroup, Tag} from './ListBox/native/vanilla/solid-TagGroup';
+
+function Example() {
+  return (
+    <TagGroup
+      label="Music genres"
+      ///- begin highlight -///
+      onAction={key => alert(`Clicked ${key}`)}
+      ///- end highlight -///
+    >
+      <Tag id="rock">Rock</Tag>
+      <Tag id="jazz">Jazz</Tag>
+      <Tag id="pop">Pop</Tag>
+      <Tag id="classical">Classical</Tag>
+      <Tag id="edm">EDM</Tag>
+    </TagGroup>
+  );
+}
+```
+
+## Examples
+
+<ExampleList tag="taggroup" pages={props.pages} />
+
+## API
+
+<Anatomy />
+
+```tsx links={{TagGroup: '#taggroup', TagList: '#taglist', Tag: '#tag', Button: 'Button', SelectionIndicator: 'selection#animated-selectionindicator'}}
+<TagGroup>
+  <Label />
+  <TagList>
+    <Tag>
+      <SelectionIndicator />
+      <Button slot="remove" />
+    </Tag>
+  </TagList>
+  <Text slot="description" />
+  <Text slot="errorMessage" />
+</TagGroup>
+```
+
+### TagGroup
+
+<PropTable component={docs.exports.TagGroup} links={docs.links} showDescription />
+
+### TagList
+
+<PropTable component={docs.exports.TagList} links={docs.links} showDescription />
+
+### Tag
+
+<PropTable component={docs.exports.Tag} links={docs.links} showDescription />

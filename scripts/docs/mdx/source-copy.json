@@ -1,0 +1,25 @@
+{
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "files": [
+    {
+      "sourcePath": "upstream/react-spectrum/packages/dev/parcel-transformer-mdx-docs/MDXTransformer.js",
+      "target": "MDXTransformer.cjs",
+      "originalSha256": "62694246f1b151930b00fd5cd15abd376a66beeb85b17488422db6319ff82c0a",
+      "nativeSha256": "497052dd7114fe139b24d41f74b64dd8d234d4b579bd76cbc5a84612c1b39100"
+    },
+    {
+      "sourcePath": "upstream/react-spectrum/packages/dev/parcel-transformer-mdx-docs/MDXFragments.js",
+      "target": "MDXFragments.cjs",
+      "originalSha256": "171ac2f0a717729282a1109761cb0005383bc1d48c1f238dc305d5d934249061",
+      "nativeSha256": "171ac2f0a717729282a1109761cb0005383bc1d48c1f238dc305d5d934249061"
+    },
+    {
+      "sourcePath": "upstream/react-spectrum/packages/dev/parcel-transformer-mdx-docs/processCSS.js",
+      "target": "processCSS.cjs",
+      "originalSha256": "64d0848c1eb54203fa082ca2cd1be789d1740eb8ff546d3c4a88fde60f5ed46e",
+      "nativeSha256": "b61cfbd9eb9711f613b7fa544277fb01a7c9a26c030416f130852ca8fa493cb5"
+    }
+  ],
+  "adaptation": "Source plugin algorithms/order preserved; Parcel wrapper/client bundles replaced by JSX/metadata output, genuine MDX jsx/provider API, native style text, full TOC export; explicit unsupported legacy executable fence and CSS dependency errors.",
+  "qualification": "Full unchanged 84-line ProgressBar/four examples and source joins compiled; page/provider native DOM/server lowering passed. No linked host/SSG/runtime qualification."
+}

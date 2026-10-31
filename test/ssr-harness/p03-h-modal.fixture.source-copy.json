@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "mode": "source-derived-fixture",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "source": "upstream/react-spectrum/packages/react-aria/test/overlays/useModal.ssr.test.js",
+  "sourceSha256": "fe59de20ba50330cae8320261167e1a698809f69414c510f6ac551a5379b28a3",
+  "sourceLines": [
+    19,
+    28
+  ],
+  "target": "test/ssr-harness/p03-h-modal.fixture.tsx",
+  "adaptation": "Extract the original inline SSR JSX into exported ModalSSR; import actual native useModal implementation and remove React import. Original provider attributes and child markup retained."
+}

@@ -1,0 +1,163 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+stderr | packages/react-aria-components/test/Table.test.jsx > Table > should support disabled state
+[REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash. TypeError: Cannot read properties of undefined (reading 'allowsSorting')
+    at /Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/test/Table.test.jsx:109:18
+    at Object._fn (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:97:27)
+    at recompute (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4942:27)
+    at setupComputedNode (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5651:21)
+    at computed (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5512:3)
+    at createMemo (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2357:19)
+    at createMemo (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1015:39)
+    at _$memo (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:97:10)
+    at /Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/test/Table.test.jsx:108:18
+    at Object._fn (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:97:27)
+[REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+[REACTIVITY_HALTED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#reactivity_halted
+
+stderr | packages/react-aria-components/test/Table.test.jsx > Table > supports removing rows
+TypeError: Cannot read properties of null (reading 'selectionManager')
+    at Object.get selectionManager [as selectionManager] (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/grid/useGridCell.ts:156:42)
+    at manager (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/selection/useSelectableItem.ts:131:31)
+    at Object.element.element [as _fn] (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/selection/useSelectableItem.ts:182:70)
+    at recompute (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4942:27)
+    at effect (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1732:3)
+    at createEffect (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2442:3)
+    at createEffect (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1038:68)
+    at useSelectableItem (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/selection/useSelectableItem.ts:182:3)
+    at useGridCell (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/grid/useGridCell.ts:155:32)
+    at useTableColumnHeader (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/table/useTableColumnHeader.ts:74:25)
+[REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash. TypeError: Cannot read properties of null (reading 'selectionManager')
+    at Object.get selectionManager [as selectionManager] (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/grid/useGridCell.ts:156:42)
+    at manager (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/selection/useSelectableItem.ts:131:31)
+    at Object.element.element [as _fn] (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/selection/useSelectableItem.ts:182:70)
+    at recompute (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4942:27)
+    at effect (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1732:3)
+    at createEffect (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2442:3)
+    at createEffect (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1038:68)
+    at useSelectableItem (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/selection/useSelectableItem.ts:182:3)
+    at useGridCell (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/grid/useGridCell.ts:155:32)
+    at useTableColumnHeader (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/table/useTableColumnHeader.ts:74:25)
+[REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+
+stderr | packages/react-aria-components/test/Table.test.jsx > Table > should support updating and reordering a row at the same time
+[REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash. TypeError: Cannot read properties of undefined (reading 'allowsSorting')
+    at /Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/test/Table.test.jsx:109:18
+    at Object._fn (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:97:27)
+    at recompute (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4942:27)
+    at setupComputedNode (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5651:21)
+    at computed (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5512:3)
+    at createMemo (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2357:19)
+    at createMemo (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1015:39)
+    at _$memo (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:97:10)
+    at /Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/test/Table.test.jsx:108:18
+    at Object._fn (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:97:27)
+[REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+
+ ❯ |solid2-pilot| packages/react-aria-components/test/Table.test.jsx (178 tests | 3 failed | 175 skipped) 273ms
+     × should support disabled state 253ms
+     × supports removing rows 7ms
+     × should support updating and reordering a row at the same time 11ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 3 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/Table.test.jsx > Table > should support disabled state
+ FAIL  |solid2-pilot| packages/react-aria-components/test/Table.test.jsx > Table > should support updating and reordering a row at the same time
+Error: [REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+ ❯ notifyStatus node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4488:13
+ ❯ recompute node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4985:7
+ ❯ setupComputedNode node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5651:21
+ ❯ computed node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5512:3
+ ❯ mapArray node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:8916:16
+ ❯ node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:50
+ ❯ runWithOwner node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6942:12
+ ❯ create node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:24
+ ❯ list node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1451:43
+ ❯ flatten node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:10223:18
+
+Caused by: Error: [REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+ ❯ Console.console.error scripts/setupTests.js:65:48
+ ❯ notifyHalted node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1762:11
+ ❯ schedule node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1638:5
+ ❯ GlobalQueue.enqueue node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1833:5
+ ❯ effect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1739:21
+ ❯ createEffect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2442:3
+ ❯ createEffect node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1038:68
+ ❯ useSyncRef packages/react-aria/src/utils/useSyncRef.ts:24:3
+ ❯ Component packages/react-aria/src/collections/CollectionBuilder.tsx:281:5
+ ❯ node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:59:28
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/Table.test.jsx > Table > supports removing rows
+Error: [REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash.
+ ❯ Console.console.error scripts/setupTests.js:65:48
+     63|
+     64|     error.apply(console, arguments);
+     65|     throw message instanceof Error ? message : new Error(message);
+       |                                                ^
+     66|   };
+     67| }
+ ❯ haltReactivity node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1755:68
+ ❯ runEffect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1864:9
+ ❯ runQueue node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:2742:50
+ ❯ GlobalQueue.run node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1799:7
+ ❯ GlobalQueue.flush node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:2132:12
+ ❯ flush node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:2729:17
+ ❯ render node_modules/.pnpm/@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13/node_modules/@solidjs/web/dist/web.dev.js:504:5
+ ❯ render node_modules/.pnpm/@solidjs+testing-library@1.0.0-beta.3_@solidjs+web@2.0.0-rc.13_solid-js@2.0.0-rc.13__solid-js@2.0.0-rc.13/node_modules/@solidjs/testing-library/dist/index.js:36:66
+ ❯ customRender packages/dev/test-utils/src/renderOverride.tsx:90:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/3]⎯
+
+⎯⎯⎯⎯⎯⎯ Unhandled Errors ⎯⎯⎯⎯⎯⎯
+
+Vitest caught 2 unhandled errors during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+Error: [REACTIVITY_HALTED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#reactivity_halted
+ ❯ Console.console.warn scripts/setupTests.js:82:48
+     80|
+     81|     warn.apply(console, arguments);
+     82|     throw message instanceof Error ? message : new Error(message);
+       |                                                ^
+     83|   };
+     84| }
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:659:27
+ ❯ processTicksAndRejections node:internal/process/task_queues:104:5
+
+This error originated in "packages/react-aria-components/test/Table.test.jsx" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The latest test that might've caused the error is "should support disabled state". It might mean one of the following:
+- The error was thrown, while Vitest was running this test.
+- If the error occurred after the test had been completed, this was the last documented test before it was thrown.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+Error: [REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+ ❯ Console.console.error scripts/setupTests.js:65:48
+     63|
+     64|     error.apply(console, arguments);
+     65|     throw message instanceof Error ? message : new Error(message);
+       |                                                ^
+     66|   };
+     67| }
+ ❯ notifyHalted node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1762:11
+ ❯ schedule node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1638:5
+ ❯ GlobalQueue.initTransition node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:2315:5
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2117:19
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2111:12
+ ❯ runWithOwner node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6942:12
+ ❯ Function.<anonymous> packages/react-aria/src/utils/useObjectRef.ts:72:19
+ ❯ runDisposal node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:3273:16
+
+This error originated in "packages/react-aria-components/test/Table.test.jsx" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+ Test Files  1 failed (1)
+      Tests  3 failed | 175 skipped (178)
+     Errors  2 errors
+   Start at  12:32:53
+   Duration  2.57s (transform 1.56s, setup 105ms, import 1.75s, tests 273ms, environment 246ms)
+

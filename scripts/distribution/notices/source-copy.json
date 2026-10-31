@@ -1,0 +1,39 @@
+{
+  "mode": "terminal-copy-before-adaptation",
+  "files": [
+    {
+      "path": "stage.mjs",
+      "original": "/Users/avi/.config/opencode/skills/react-to-solid-v2-port/assets/baseui-reference/scripts/distribution/notices/stage.mjs",
+      "sha256": "36fa089e2adbc8bd9f40582be338fdfd97bfa71bb6a1a7509b41d43d52d250e6",
+      "nativeSha256AtAdaptation": "b9fa57a52a99a3d4c6401ad20497bb961b09b5f4abf5d8841265715842a7faf1",
+      "adaptation": "Actual reference copier adapted to approved private Adobe graph and policy; unrelated audit/docs imports removed. No build, graph reconstruction, source fetch or tracker framework."
+    },
+    {
+      "path": "reference-originals/react-spectrum-React-NOTICE.txt",
+      "original": "/Users/avi/.config/opencode/skills/react-to-solid-v2-port/assets/baseui-reference/scripts/distribution/notices/licenses/react-spectrum-React-NOTICE.txt",
+      "sha256": "85bc9edafd1dcaa1760871a79226bf12738b0a31fb4f984b325f5d0c0304e49f",
+      "referenceAttributionCommit": "b35d5c02fe900badccd0cf1a8f23bb593419f238",
+      "reactAttributionCommit": "cc7c1aece46a6b69b41958d731e0fd27c94bfc6c"
+    }
+  ],
+  "scaffoldNotices": [
+    {
+      "path": "reference-originals/LICENSE",
+      "sha256": "07fc1b39d69d14bc7d40482a628f47226258eb01265db68ae684944b916beb2a",
+      "stagedWithRuntime": false
+    },
+    {
+      "path": "reference-originals/NOTICE",
+      "sha256": "a455804134cd18eaf4b6769c616e61a5ae63f939bad45e2e364c2d2a0ee38fb4",
+      "stagedWithRuntime": false
+    }
+  ],
+  "status": "Actual D closure staged and --check passed; five explicit source/donor provenance gaps retained, no release qualification",
+  "capturedVueLicense": {
+    "path": "reference-originals/vue-test-utils-MIT.txt",
+    "sha256": "fcb656436f40daac58b400b26ce8bcc7b4ece41ea39267ac8eef74126e57ff02",
+    "provenancePath": "reference-originals/vue-test-utils-license-source.json",
+    "gitBlobSha": "896418c7a566ef2314914efb630c0a153b43bd52",
+    "originalCodeDonorRevision": null
+  }
+}

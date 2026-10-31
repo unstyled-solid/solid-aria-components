@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/solid-aria-components/upstream/react-spectrum/packages/@react-stately/flags",
+  "target": "/Users/avi/avir-oss/solid-aria-components/packages/@react-stately/flags",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "files": [
+    {
+      "path": "src/index.ts",
+      "bytes": 749,
+      "sha256": "574d85120e4a43870f3169067040dbc6bc2e73a9212381cf854cdb520b27d972",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1154,
+      "sha256": "c619d01e1f570c19775fd0aa0c568a0e083af3f016f560109853867383c25fc7",
+      "category": "source-or-helper"
+    }
+  ]
+}

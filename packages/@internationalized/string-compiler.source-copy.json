@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/solid-aria-components/upstream/react-spectrum/packages/@internationalized/string-compiler",
+  "target": "/Users/avi/avir-oss/solid-aria-components/packages/@internationalized/string-compiler",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "files": [
+    {
+      "path": "package.json",
+      "bytes": 521,
+      "sha256": "435196c365f4d9afeaf02f34afb4a146f5e32fff3c66dd52965c563732edb204",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "README.md",
+      "bytes": 152,
+      "sha256": "6e47477a112a7e113cfe2d72cb201311a446e35d6fb54b0871e655074ee1c856",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/stringCompiler.d.ts",
+      "bytes": 1036,
+      "sha256": "69b46afaa18a5b51f6e2b69e3a378d74ba1484609afa2c4becc7e04903fbc38a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/stringCompiler.js",
+      "bytes": 3359,
+      "sha256": "0f71f9812b5008ce03e22599785621513c3ce9bd2e5af7f6b047a0727492cf3e",
+      "category": "source-or-helper"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution"
+}

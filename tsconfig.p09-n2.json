@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "packages/react-aria/src/numberfield/useNumberField.ts", "packages/react-aria/src/textfield/useFormattedTextField.ts", "packages/react-aria/src/spinbutton/useSpinButton.ts", "packages/react-aria/src/interactions/useScrollWheel.ts", "packages/react-aria/test/numberfield/useNumberField.test.ts"]
+}

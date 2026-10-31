@@ -1,0 +1,22 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .gH18 {
+    background-color: light-dark(rgb(233, 233, 233), rgb(44, 44, 44));
+  }
+
+
+  ._Nc18 {
+    overflow-x: hidden;
+  }
+
+
+  .Pc18 {
+    overflow-y: hidden;
+  }
+}
+
+.-macro-static-g1owt {
+        --macro-data-g1owt: {"style":{"backgroundColor":"gray-100","overflow":"hidden"},"loc":"/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/Image.native.js:65:22"};
+      }
+

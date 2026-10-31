@@ -1,0 +1,47 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import vanillaDocs from 'docs:vanilla-starter/ColorSwatch';
+import '../../tailwind/tailwind.css';
+
+export const tags = [];
+export const relatedPages = [{'title': 'useColorSwatch', 'url': './ColorSwatch/useColorSwatch'}];
+export const description = 'Displays a preview of a selected color.';
+
+# ColorSwatch
+
+<PageDescription>{docs.exports.ColorSwatch.description}</PageDescription>
+
+<ExampleSwitcher>
+  <VisualExample solid="ColorSwatch/solid-vanilla-1.tsx"
+    docs={vanillaDocs.exports.ColorSwatch}
+    links={vanillaDocs.links}
+    props={[]}
+    initialProps={{color: '#f00'}}
+    type="vanilla"
+    files={["packages/dev/s2-docs/pages/react-aria/ColorSwatch/vanilla/ColorSwatch.solid.tsx","packages/dev/s2-docs/pages/react-aria/ColorSwatch/vanilla/ColorSwatch.css"]} />
+  <VisualExample solid="ColorSwatch/solid-tailwind-2.tsx"
+    docs={vanillaDocs.exports.ColorSwatch}
+    links={vanillaDocs.links}
+    props={[]}
+    initialProps={{color: '#f00'}}
+    type="tailwind"
+    files={["packages/dev/s2-docs/pages/react-aria/ColorSwatch/tailwind/ColorSwatch.solid.tsx"]} />
+</ExampleSwitcher>
+
+## Accessibility
+
+By default, ColorSwatch includes a localized color description for screen reader users (e.g. "dark vibrant blue"). Use the `colorName` prop to override this. Set an `aria-label` to provide additional context. In this example, a screen reader will announce "Fire truck red, Background color".
+
+```tsx nativeModule="ColorSwatch/solid-example-3.tsx" solid="ColorSwatch/solid-example-3.tsx" expanded files={["packages/dev/s2-docs/pages/react-aria/ColorSwatch/solid-example-3.tsx"]}
+import {ColorSwatch} from './ColorSwatch/vanilla/ColorSwatch.solid';
+<ColorSwatch
+  color="#f00"
+  aria-label="Background color"
+  colorName="Fire truck red" />
+```
+
+## API
+
+<PropTable component={docs.exports.ColorSwatch} links={docs.links} />

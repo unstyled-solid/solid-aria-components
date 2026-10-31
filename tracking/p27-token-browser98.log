@@ -1,0 +1,1103 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+9:26:12 PM [vite] (client) Re-optimizing dependencies because lockfile has changed
+ ❯ |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx (7 tests | 7 failed) 31ms
+     × keeps a visible tag field in place after 'Enter' and Backspace ('ltr') 16ms
+     × keeps a visible tag field in place after 'Enter' and Backspace ('rtl') 2ms
+     × keeps a visible tag field in place after 'comma' and Backspace ('ltr') 2ms
+     × keeps a visible tag field in place after 'comma' and Backspace ('rtl') 1ms
+     × keeps a visible field in place when Backspace leaves a trailing token (ltr) 3ms
+     × keeps a visible field in place when Backspace leaves a trailing token (rtl) 4ms
+     × scrolls newly created tokens into view when they wrap below the viewport 2ms
+ ❯ |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx (7 tests | 7 failed) 64ms
+     × keeps a visible tag field in place after 'Enter' and Backspace ('ltr') 30ms
+     × keeps a visible tag field in place after 'Enter' and Backspace ('rtl') 7ms
+     × keeps a visible tag field in place after 'comma' and Backspace ('ltr') 5ms
+     × keeps a visible tag field in place after 'comma' and Backspace ('rtl') 3ms
+     × keeps a visible field in place when Backspace leaves a trailing token (ltr) 9ms
+     × keeps a visible field in place when Backspace leaves a trailing token (rtl) 4ms
+     × scrolls newly created tokens into view when they wrap below the viewport 3ms
+ ❯ |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx (7 tests | 7 failed) 60ms
+     × keeps a visible tag field in place after 'Enter' and Backspace ('ltr') 15ms
+     × keeps a visible tag field in place after 'Enter' and Backspace ('rtl') 8ms
+     × keeps a visible tag field in place after 'comma' and Backspace ('ltr') 9ms
+     × keeps a visible tag field in place after 'comma' and Backspace ('rtl') 4ms
+     × keeps a visible field in place when Backspace leaves a trailing token (ltr) 8ms
+     × keeps a visible field in place when Backspace leaves a trailing token (rtl) 8ms
+     × scrolls newly created tokens into view when they wrap below the viewport 6ms
+ ❯ |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx (91 tests | 10 failed) 29809ms
+       × skips over token with ArrowRight from end of preceding text 83ms
+       × skips over adjacent token with ArrowLeft from start of second token 93ms
+       × marks token as selected on double-click 1050ms
+       × selects entire line including tokens on triple-click 35ms
+       × select-all then typing replaces entire field 1068ms
+       × extends selection across token with Shift+ArrowRight 50ms
+       × extends selection across token with Shift+ArrowLeft 76ms
+       × keeps direction when shrinking a selection across a token 1088ms
+       × extends selection backward by word across token 59ms
+       × cut removes selection and paste restores elsewhere 19905ms
+(node:96807) TimeoutNegativeWarning: -18 is a negative number.
+Timeout duration was set to 1.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ❯ |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx (91 tests | 11 failed) 50150ms
+       × skips over token with ArrowRight from end of preceding text 106ms
+       × skips over adjacent token with ArrowLeft from start of second token 95ms
+       × marks token as selected on double-click 1069ms
+       × selects entire line including tokens on triple-click 49ms
+       × select-all then typing replaces entire field 1078ms
+       × extends selection across token with Shift+ArrowRight 57ms
+       × extends selection across token with Shift+ArrowLeft 61ms
+       × keeps direction when shrinking a selection across a token 1080ms
+       × extends selection backward by word across token 55ms
+       × replaces token when typing after clicking token 1110ms
+       × cut removes selection and paste restores elsewhere 19905ms
+ ❯ |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx (91 tests | 12 failed) 69544ms
+       × skips over token with ArrowRight from end of preceding text 89ms
+       × skips over adjacent token with ArrowLeft from start of second token 79ms
+       × marks token as selected on double-click 1057ms
+       × selects entire line including tokens on triple-click 61ms
+       × select-all then typing replaces entire field 1097ms
+       × extends selection across token with Shift+ArrowRight 59ms
+       × extends selection across token with Shift+ArrowLeft 81ms
+       × keeps direction when shrinking a selection across a token 1082ms
+       × extends selection backward by word across token 74ms
+       × replaces token when typing after clicking token 1158ms
+       × pastes plain text at caret 19925ms
+       × cut removes selection and paste restores elsewhere 19906ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 54 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:142:5 > TokenField browser interactions > caret movement > skips over token with ArrowRight from end of preceding text
+VitestBrowserElementError: Cannot find element with locator: locator('div').first().getByRole('textbox', { name: 'TokenField-3' })
+
+[36m<div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"react-aria-TokenField"[39m
+    [33mdata-rac[39m=[32m""[39m
+  [36m>[39m
+    [36m<div[39m
+      [33maria-disabled[39m=[32m"false"[39m
+      [33maria-label[39m=[32m"TokenField-3"[39m
+      [33maria-multiline[39m=[32m"false"[39m
+      [33maria-readonly[39m=[32m"false"[39m
+      [33mclass[39m=[32m"react-aria-TokenInput"[39m
+      [33mcontenteditable[39m=[32m"true"[39m
+      [33mdata-focused[39m=[32m""[39m
+      [33mdata-rac[39m=[32m""[39m
+      [33mid[39m=[32m"react-aria8053960604-cl-25"[39m
+      [33mrole[39m=[32m"textbox"[39m
+      [33mstyle[39m=[32m"white-space: pre-wrap;"[39m
+      [33mtabindex[39m=[32m"0"[39m
+    [36m>[39m
+      [0mab[0m
+      [36m<span[39m
+        [33mdata-react-aria-token[39m=[32m""[39m
+      [36m>[39m
+        [0m​[0m
+        [90m<!--$-->[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"react-aria-Token"[39m
+          [33mcontenteditable[39m=[32m"false"[39m
+          [33mdata-rac[39m=[32m""[39m
+          [33mstyle[39m=[32m"user-select: all; -webkit-tap-highlight-color: transparent;"[39m
+        [36m>[39m
+          [0mTOK[0m
+        [36m</span>[39m
+        [90m<!--/-->[39m
+        [0m​[0m
+      [36m</span>[39m
+      [0mcd[0m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m
+ ❯ element packages/react-aria-components/test/TokenField.browser.test.tsx:146:23
+    144|       await navigateCaret(textbox, abTokCd, {index: 0, offset: 2});
+    145|       await userEvent.keyboard('{ArrowRight}');
+    146|       let el = textbox.element();
+       |                       ^
+    147|       await expect
+    148|         .poll(() => {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/54]⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:195:5 > TokenField browser interactions > caret movement > skips over adjacent token with ArrowLeft from start of second token
+VitestBrowserElementError: Cannot find element with locator: locator('div').filter({ hasText: 'AB' }).first().getByRole('textbox', { name: 'TokenField-9' })
+
+[36m<div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"react-aria-TokenField"[39m
+    [33mdata-rac[39m=[32m""[39m
+  [36m>[39m
+    [36m<div[39m
+      [33maria-disabled[39m=[32m"false"[39m
+      [33maria-label[39m=[32m"TokenField-9"[39m
+      [33maria-multiline[39m=[32m"false"[39m
+      [33maria-readonly[39m=[32m"false"[39m
+      [33mclass[39m=[32m"react-aria-TokenInput"[39m
+      [33mcontenteditable[39m=[32m"true"[39m
+      [33mdata-focused[39m=[32m""[39m
+      [33mdata-rac[39m=[32m""[39m
+      [33mid[39m=[32m"react-aria8053960604-cl-55"[39m
+      [33mrole[39m=[32m"textbox"[39m
+      [33mstyle[39m=[32m"white-space: pre-wrap;"[39m
+      [33mtabindex[39m=[32m"0"[39m
+    [36m>[39m
+      [36m<span[39m
+        [33mdata-react-aria-token[39m=[32m""[39m
+      [36m>[39m
+        [0m​[0m
+        [90m<!--$-->[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"react-aria-Token"[39m
+          [33mcontenteditable[39m=[32m"false"[39m
+          [33mdata-rac[39m=[32m""[39m
+          [33mstyle[39m=[32m"user-select: all; -webkit-tap-highlight-color: transparent;"[39m
+        [36m>[39m
+          [0mA[0m
+        [36m</span>[39m
+        [90m<!--/-->[39m
+        [0m​[0m
+      [36m</span>[39m
+      [36m<span[39m
+        [33mdata-react-aria-token[39m=[32m""[39m
+      [36m>[39m
+        [0m​[0m
+        [90m<!--$-->[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"react-aria-Token"[39m
+          [33mcontenteditable[39m=[32m"false"[39m
+          [33mdata-rac[39m=[32m""[39m
+          [33mstyle[39m=[32m"user-select: all; -webkit-tap-highlight-color: transparent;"[39m
+        [36m>[39m
+          [0mB[0m
+        [36m</span>[39m
+        [90m<!--/-->[39m
+        [0m​[0m
+      [36m</span>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m
+ ❯ element packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:95:19
+     93|
+     94| export async function waitForSelection(textbox: Locator, start: Positi…
+     95|   let el = textbox.element();
+       |                   ^
+     96|   await expect.poll(() => getFieldSelection(el)).toEqual([start, end]);
+     97| }
+ ❯ waitForSelection packages/react-aria-components/test/TokenField.browser.test.tsx:200:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/54]⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:529:5 > TokenField browser interactions > selection > marks token as selected on double-click
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:533:69
+    531|       await userEvent.dblClick(textbox.getByText('TOK'));
+    532|       let tokenEl = textbox.getByText('TOK').element();
+    533|       await expect.poll(() => tokenEl.getAttribute('data-selected')).t…
+       |                                                                     ^
+    534|     });
+    535|
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ packages/react-aria-components/test/TokenField.browser.test.tsx:533:6
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/54]⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:536:5 > TokenField browser interactions > selection > selects entire line including tokens on triple-click
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:542:58
+    540|       await userEvent.tripleClick(textbox.getByText('TOK'));
+    541|       await waitForSelection(textbox, {index: 0, offset: 0}, {index: 2…
+    542|       await expect(tokenEl.getAttribute('data-selected')).toBe('true');
+       |                                                          ^
+    543|     });
+    544|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/54]⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:545:5 > TokenField browser interactions > selection > select-all then typing replaces entire field
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:551:69
+    549|       await userEvent.keyboard(`{${mod}>}a{/${mod}}`);
+    550|       let tokenEl = textbox.getByText('TOK').element();
+    551|       await expect.poll(() => tokenEl.getAttribute('data-selected')).t…
+       |                                                                     ^
+    552|       await userEvent.keyboard('z');
+    553|       await waitForFieldText(getValue, 'z');
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ packages/react-aria-components/test/TokenField.browser.test.tsx:551:6
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/54]⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:563:5 > TokenField browser interactions > selection > extends selection across token with Shift+ArrowRight
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:569:58
+    567|       await userEvent.keyboard('{Shift>}{ArrowRight}{ArrowRight}{Arrow…
+    568|       await waitForSelection(textbox, {index: 0, offset: 1}, {index: 2…
+    569|       await expect(tokenEl.getAttribute('data-selected')).toBe('true');
+       |                                                          ^
+    570|     });
+    571|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/54]⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:572:5 > TokenField browser interactions > selection > extends selection across token with Shift+ArrowLeft
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:578:58
+    576|       await userEvent.keyboard('{Shift>}{ArrowLeft}{ArrowLeft}{ArrowLe…
+    577|       await waitForSelection(textbox, {index: 0, offset: 1}, {index: 2…
+    578|       await expect(tokenEl.getAttribute('data-selected')).toBe('true');
+       |                                                          ^
+    579|     });
+    580|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/54]⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:614:5 > TokenField browser interactions > selection > keeps direction when shrinking a selection across a token
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:621:69
+    619|       await userEvent.keyboard('{Shift>}{ArrowLeft}{/Shift}');
+    620|       await waitForSelection(textbox, {index: 0, offset: 2}, {index: 2…
+    621|       await expect.poll(() => tokenEl.getAttribute('data-selected')).t…
+       |                                                                     ^
+    622|       // Shift+ArrowRight shrinks back across the token rather than ex…
+    623|       await userEvent.keyboard('{Shift>}{ArrowRight}{/Shift}');
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ packages/react-aria-components/test/TokenField.browser.test.tsx:621:6
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/54]⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:703:5 > TokenField browser interactions > selection > extends selection backward by word across token
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:710:58
+    708|       await userEvent.keyboard(`{Shift>}{${mod}>}{ArrowLeft}{/${mod}}{…
+    709|       await waitForSelection(textbox, {index: 0, offset: 2}, {index: 2…
+    710|       await expect(tokenEl.getAttribute('data-selected')).toBe('true');
+       |                                                          ^
+    711|     });
+    712|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/54]⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:999:5 > TokenField browser interactions > clipboard > cut removes selection and paste restores elsewhere
+TimeoutError: locator.click: Timeout 19793ms exceeded.
+Call log:
+  - waiting for locator('[data-vitest="true"]').contentFrame().locator('div').filter({ hasText: 'hello' }).first().getByRole('textbox', { name: 'TokenField-82' })
+
+ ❯ click packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:100:18
+     98|
+     99| export async function focusField(locator: Locator) {
+    100|   await userEvent.click(locator);
+       |                  ^
+    101|   await expect.element(locator).toHaveFocus();
+    102| }
+ ❯ focusField packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:129:8
+ ❯ navigateCaret packages/react-aria-components/test/TokenField.browser.test.tsx:1014:14
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/54]⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('ltr')
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('rtl')
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('ltr')
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('rtl')
+TypeError: screen.getByTestId is not a function
+ ❯ getByTestId packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:67:28
+     65|         </div>
+     66|       );
+     67|       let scroller = screen.getByTestId('scroller').element();
+       |                            ^
+     68|       let input = screen.getByRole('textbox', {name: 'Tags'});
+     69|       scroller.scrollTop = 450;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/54]⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:92:4 > TokenField scrolling > keeps a visible field in place when Backspace leaves a trailing token (ltr)
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:92:4 > TokenField scrolling > keeps a visible field in place when Backspace leaves a trailing token (rtl)
+TypeError: screen.getByTestId is not a function
+ ❯ getByTestId packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:115:28
+    113|         </div>
+    114|       );
+    115|       let scroller = screen.getByTestId('scroller').element();
+       |                            ^
+    116|       let input = screen.getByRole('textbox', {name: 'Tags'});
+    117|       scroller.scrollTop = 450;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/54]⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:131:3 > TokenField scrolling > scrolls newly created tokens into view when they wrap below the viewport
+TypeError: screen.getByTestId is not a function
+ ❯ getByTestId packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:143:26
+    141|       </div>
+    142|     );
+    143|     let scroller = screen.getByTestId('scroller').element();
+       |                          ^
+    144|     let input = screen.getByRole('textbox', {name: 'Tags'});
+    145|     await userEvent.click(input);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[13/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:142:8 > TokenField browser interactions > caret movement > skips over token with ArrowRight from end of preceding text
+VitestBrowserElementError: Cannot find element with locator: locator('div').first().getByRole('textbox', { name: 'TokenField-3' })
+
+[36m<div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"react-aria-TokenField"[39m
+    [33mdata-rac[39m=[32m""[39m
+  [36m>[39m
+    [36m<div[39m
+      [33maria-disabled[39m=[32m"false"[39m
+      [33maria-label[39m=[32m"TokenField-3"[39m
+      [33maria-multiline[39m=[32m"false"[39m
+      [33maria-readonly[39m=[32m"false"[39m
+      [33mclass[39m=[32m"react-aria-TokenInput"[39m
+      [33mcontenteditable[39m=[32m"true"[39m
+      [33mdata-focused[39m=[32m""[39m
+      [33mdata-rac[39m=[32m""[39m
+      [33mid[39m=[32m"react-aria3612604899-cl-25"[39m
+      [33mrole[39m=[32m"textbox"[39m
+      [33mstyle[39m=[32m"white-space: pre-wrap;"[39m
+      [33mtabindex[39m=[32m"0"[39m
+    [36m>[39m
+      [0mab[0m
+      [36m<span[39m
+        [33mdata-react-aria-token[39m=[32m""[39m
+      [36m>[39m
+        [0m​[0m
+        [90m<!--$-->[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"react-aria-Token"[39m
+          [33mcontenteditable[39m=[32m"false"[39m
+          [33mdata-rac[39m=[32m""[39m
+          [33mstyle[39m=[32m"user-select: all;"[39m
+        [36m>[39m
+          [0mTOK[0m
+        [36m</span>[39m
+        [90m<!--/-->[39m
+        [0m​[0m
+      [36m</span>[39m
+      [0mcd[0m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m
+ ❯ element packages/react-aria-components/test/TokenField.browser.test.tsx:146:23
+    144|       await navigateCaret(textbox, abTokCd, {index: 0, offset: 2});
+    145|       await userEvent.keyboard('{ArrowRight}');
+    146|       let el = textbox.element();
+       |                       ^
+    147|       await expect
+    148|         .poll(() => {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[14/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:195:8 > TokenField browser interactions > caret movement > skips over adjacent token with ArrowLeft from start of second token
+VitestBrowserElementError: Cannot find element with locator: locator('div').filter({ hasText: 'AB' }).first().getByRole('textbox', { name: 'TokenField-9' })
+
+[36m<div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"react-aria-TokenField"[39m
+    [33mdata-rac[39m=[32m""[39m
+  [36m>[39m
+    [36m<div[39m
+      [33maria-disabled[39m=[32m"false"[39m
+      [33maria-label[39m=[32m"TokenField-9"[39m
+      [33maria-multiline[39m=[32m"false"[39m
+      [33maria-readonly[39m=[32m"false"[39m
+      [33mclass[39m=[32m"react-aria-TokenInput"[39m
+      [33mcontenteditable[39m=[32m"true"[39m
+      [33mdata-focused[39m=[32m""[39m
+      [33mdata-rac[39m=[32m""[39m
+      [33mid[39m=[32m"react-aria3612604899-cl-55"[39m
+      [33mrole[39m=[32m"textbox"[39m
+      [33mstyle[39m=[32m"white-space: pre-wrap;"[39m
+      [33mtabindex[39m=[32m"0"[39m
+    [36m>[39m
+      [36m<span[39m
+        [33mdata-react-aria-token[39m=[32m""[39m
+      [36m>[39m
+        [0m​[0m
+        [90m<!--$-->[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"react-aria-Token"[39m
+          [33mcontenteditable[39m=[32m"false"[39m
+          [33mdata-rac[39m=[32m""[39m
+          [33mstyle[39m=[32m"user-select: all;"[39m
+        [36m>[39m
+          [0mA[0m
+        [36m</span>[39m
+        [90m<!--/-->[39m
+        [0m​[0m
+      [36m</span>[39m
+      [36m<span[39m
+        [33mdata-react-aria-token[39m=[32m""[39m
+      [36m>[39m
+        [0m​[0m
+        [90m<!--$-->[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"react-aria-Token"[39m
+          [33mcontenteditable[39m=[32m"false"[39m
+          [33mdata-rac[39m=[32m""[39m
+          [33mstyle[39m=[32m"user-select: all;"[39m
+        [36m>[39m
+          [0mB[0m
+        [36m</span>[39m
+        [90m<!--/-->[39m
+        [0m​[0m
+      [36m</span>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m
+ ❯ element packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:95:19
+     93|
+     94| export async function waitForSelection(textbox: Locator, start: Positi…
+     95|   let el = textbox.element();
+       |                   ^
+     96|   await expect.poll(() => getFieldSelection(el)).toEqual([start, end]);
+     97| }
+ ❯ waitForSelection packages/react-aria-components/test/TokenField.browser.test.tsx:200:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[15/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:529:8 > TokenField browser interactions > selection > marks token as selected on double-click
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:533:69
+    531|       await userEvent.dblClick(textbox.getByText('TOK'));
+    532|       let tokenEl = textbox.getByText('TOK').element();
+    533|       await expect.poll(() => tokenEl.getAttribute('data-selected')).t…
+       |                                                                     ^
+    534|     });
+    535|
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:533:69
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[16/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:536:8 > TokenField browser interactions > selection > selects entire line including tokens on triple-click
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:542:58
+    540|       await userEvent.tripleClick(textbox.getByText('TOK'));
+    541|       await waitForSelection(textbox, {index: 0, offset: 0}, {index: 2…
+    542|       await expect(tokenEl.getAttribute('data-selected')).toBe('true');
+       |                                                          ^
+    543|     });
+    544|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[17/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:545:8 > TokenField browser interactions > selection > select-all then typing replaces entire field
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:551:69
+    549|       await userEvent.keyboard(`{${mod}>}a{/${mod}}`);
+    550|       let tokenEl = textbox.getByText('TOK').element();
+    551|       await expect.poll(() => tokenEl.getAttribute('data-selected')).t…
+       |                                                                     ^
+    552|       await userEvent.keyboard('z');
+    553|       await waitForFieldText(getValue, 'z');
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:551:69
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[18/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:563:8 > TokenField browser interactions > selection > extends selection across token with Shift+ArrowRight
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:569:58
+    567|       await userEvent.keyboard('{Shift>}{ArrowRight}{ArrowRight}{Arrow…
+    568|       await waitForSelection(textbox, {index: 0, offset: 1}, {index: 2…
+    569|       await expect(tokenEl.getAttribute('data-selected')).toBe('true');
+       |                                                          ^
+    570|     });
+    571|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[19/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:572:8 > TokenField browser interactions > selection > extends selection across token with Shift+ArrowLeft
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:578:58
+    576|       await userEvent.keyboard('{Shift>}{ArrowLeft}{ArrowLeft}{ArrowLe…
+    577|       await waitForSelection(textbox, {index: 0, offset: 1}, {index: 2…
+    578|       await expect(tokenEl.getAttribute('data-selected')).toBe('true');
+       |                                                          ^
+    579|     });
+    580|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[20/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:614:8 > TokenField browser interactions > selection > keeps direction when shrinking a selection across a token
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:621:69
+    619|       await userEvent.keyboard('{Shift>}{ArrowLeft}{/Shift}');
+    620|       await waitForSelection(textbox, {index: 0, offset: 2}, {index: 2…
+    621|       await expect.poll(() => tokenEl.getAttribute('data-selected')).t…
+       |                                                                     ^
+    622|       // Shift+ArrowRight shrinks back across the token rather than ex…
+    623|       await userEvent.keyboard('{Shift>}{ArrowRight}{/Shift}');
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:621:69
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[21/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:703:8 > TokenField browser interactions > selection > extends selection backward by word across token
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ toBe packages/react-aria-components/test/TokenField.browser.test.tsx:710:58
+    708|       await userEvent.keyboard(`{Shift>}{${mod}>}{ArrowLeft}{/${mod}}{…
+    709|       await waitForSelection(textbox, {index: 0, offset: 2}, {index: 2…
+    710|       await expect(tokenEl.getAttribute('data-selected')).toBe('true');
+       |                                                          ^
+    711|     });
+    712|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[22/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:764:8 > TokenField browser interactions > insert and delete > replaces token when typing after clicking token
+AssertionError: expected [ { index: 2, offset: +0 }, …(1) ] to deeply equal [ { index: +0, offset: 2 }, …(1) ]
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[33m@@ -1,9 +1,9 @@[39m
+[2m  [[22m
+[2m    {[22m
+[32m-     "index": 0,[39m
+[32m-     "offset": 2,[39m
+[31m+     "index": 2,[39m
+[31m+     "offset": 0,[39m
+[2m    },[22m
+[2m    {[22m
+[2m      "index": 2,[22m
+[2m      "offset": 0,[22m
+[2m    },[22m
+
+ ❯ toEqual packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:96:49
+     94| export async function waitForSelection(textbox: Locator, start: Positi…
+     95|   let el = textbox.element();
+     96|   await expect.poll(() => getFieldSelection(el)).toEqual([start, end]);
+       |                                                 ^
+     97| }
+     98|
+ ❯ waitForSelection packages/react-aria-components/test/TokenField.browser.test.tsx:768:12
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ toEqual packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:96:49
+ ❯ waitForSelection packages/react-aria-components/test/TokenField.browser.test.tsx:768:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[23/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:945:8 > TokenField browser interactions > clipboard > pastes plain text at caret
+TimeoutError: locator.click: Timeout -18ms exceeded.
+Call log:
+  - waiting for locator('[data-vitest="true"]').contentFrame().locator('div').filter({ hasText: 'ab' }).first().getByRole('textbox', { name: 'TokenField-77' })
+
+ ❯ click packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:100:18
+     98|
+     99| export async function focusField(locator: Locator) {
+    100|   await userEvent.click(locator);
+       |                  ^
+    101|   await expect.element(locator).toHaveFocus();
+    102| }
+ ❯ focusField packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:129:8
+ ❯ navigateCaret packages/react-aria-components/test/TokenField.browser.test.tsx:955:14
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[24/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:999:8 > TokenField browser interactions > clipboard > cut removes selection and paste restores elsewhere
+TimeoutError: locator.click: Timeout 19786ms exceeded.
+Call log:
+  - waiting for locator('[data-vitest="true"]').contentFrame().locator('div').filter({ hasText: 'hello' }).first().getByRole('textbox', { name: 'TokenField-80' })
+
+ ❯ click packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:100:18
+     98|
+     99| export async function focusField(locator: Locator) {
+    100|   await userEvent.click(locator);
+       |                  ^
+    101|   await expect.element(locator).toHaveFocus();
+    102| }
+ ❯ focusField packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:129:8
+ ❯ navigateCaret packages/react-aria-components/test/TokenField.browser.test.tsx:1014:14
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[25/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('ltr')
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('rtl')
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('ltr')
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('rtl')
+TypeError: screen.getByTestId is not a function
+ ❯ getByTestId packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:67:28
+     65|         </div>
+     66|       );
+     67|       let scroller = screen.getByTestId('scroller').element();
+       |                            ^
+     68|       let input = screen.getByRole('textbox', {name: 'Tags'});
+     69|       scroller.scrollTop = 450;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[26/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:92:4 > TokenField scrolling > keeps a visible field in place when Backspace leaves a trailing token (ltr)
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:92:4 > TokenField scrolling > keeps a visible field in place when Backspace leaves a trailing token (rtl)
+TypeError: screen.getByTestId is not a function
+ ❯ getByTestId packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:115:28
+    113|         </div>
+    114|       );
+    115|       let scroller = screen.getByTestId('scroller').element();
+       |                            ^
+    116|       let input = screen.getByRole('textbox', {name: 'Tags'});
+    117|       scroller.scrollTop = 450;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[27/54]⎯
+
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:131:6 > TokenField scrolling > scrolls newly created tokens into view when they wrap below the viewport
+TypeError: screen.getByTestId is not a function
+ ❯ getByTestId packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:143:26
+    141|       </div>
+    142|     );
+    143|     let scroller = screen.getByTestId('scroller').element();
+       |                          ^
+    144|     let input = screen.getByRole('textbox', {name: 'Tags'});
+    145|     await userEvent.click(input);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[28/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:142:8 > TokenField browser interactions > caret movement > skips over token with ArrowRight from end of preceding text
+VitestBrowserElementError: Cannot find element with locator: locator('div').first().getByRole('textbox', { name: 'TokenField-3' })
+
+[36m<div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"react-aria-TokenField"[39m
+    [33mdata-rac[39m=[32m""[39m
+  [36m>[39m
+    [36m<div[39m
+      [33maria-disabled[39m=[32m"false"[39m
+      [33maria-label[39m=[32m"TokenField-3"[39m
+      [33maria-multiline[39m=[32m"false"[39m
+      [33maria-readonly[39m=[32m"false"[39m
+      [33mclass[39m=[32m"react-aria-TokenInput"[39m
+      [33mcontenteditable[39m=[32m"true"[39m
+      [33mdata-focused[39m=[32m""[39m
+      [33mdata-rac[39m=[32m""[39m
+      [33mid[39m=[32m"react-aria1999664871-cl-25"[39m
+      [33mrole[39m=[32m"textbox"[39m
+      [33mstyle[39m=[32m"white-space: pre-wrap;"[39m
+      [33mtabindex[39m=[32m"0"[39m
+    [36m>[39m
+      [0mab[0m
+      [36m<span[39m
+        [33mdata-react-aria-token[39m=[32m""[39m
+      [36m>[39m
+        [0m​[0m
+        [90m<!--$-->[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"react-aria-Token"[39m
+          [33mcontenteditable[39m=[32m"false"[39m
+          [33mdata-rac[39m=[32m""[39m
+          [33mstyle[39m=[32m"-webkit-user-select: all; -webkit-tap-highlight-color: transparent;"[39m
+        [36m>[39m
+          [0mTOK[0m
+        [36m</span>[39m
+        [90m<!--/-->[39m
+        [0m​[0m
+      [36m</span>[39m
+      [0mcd[0m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m
+ ❯ packages/react-aria-components/test/TokenField.browser.test.tsx:146:31
+    144|       await navigateCaret(textbox, abTokCd, {index: 0, offset: 2});
+    145|       await userEvent.keyboard('{ArrowRight}');
+    146|       let el = textbox.element();
+       |                               ^
+    147|       await expect
+    148|         .poll(() => {
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[29/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:195:8 > TokenField browser interactions > caret movement > skips over adjacent token with ArrowLeft from start of second token
+VitestBrowserElementError: Cannot find element with locator: locator('div').filter({ hasText: 'AB' }).first().getByRole('textbox', { name: 'TokenField-9' })
+
+[36m<div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"react-aria-TokenField"[39m
+    [33mdata-rac[39m=[32m""[39m
+  [36m>[39m
+    [36m<div[39m
+      [33maria-disabled[39m=[32m"false"[39m
+      [33maria-label[39m=[32m"TokenField-9"[39m
+      [33maria-multiline[39m=[32m"false"[39m
+      [33maria-readonly[39m=[32m"false"[39m
+      [33mclass[39m=[32m"react-aria-TokenInput"[39m
+      [33mcontenteditable[39m=[32m"true"[39m
+      [33mdata-focused[39m=[32m""[39m
+      [33mdata-rac[39m=[32m""[39m
+      [33mid[39m=[32m"react-aria1999664871-cl-55"[39m
+      [33mrole[39m=[32m"textbox"[39m
+      [33mstyle[39m=[32m"white-space: pre-wrap;"[39m
+      [33mtabindex[39m=[32m"0"[39m
+    [36m>[39m
+      [36m<span[39m
+        [33mdata-react-aria-token[39m=[32m""[39m
+      [36m>[39m
+        [0m​[0m
+        [90m<!--$-->[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"react-aria-Token"[39m
+          [33mcontenteditable[39m=[32m"false"[39m
+          [33mdata-rac[39m=[32m""[39m
+          [33mstyle[39m=[32m"-webkit-user-select: all; -webkit-tap-highlight-color: transparent;"[39m
+        [36m>[39m
+          [0mA[0m
+        [36m</span>[39m
+        [90m<!--/-->[39m
+        [0m​[0m
+      [36m</span>[39m
+      [36m<span[39m
+        [33mdata-react-aria-token[39m=[32m""[39m
+      [36m>[39m
+        [0m​[0m
+        [90m<!--$-->[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"react-aria-Token"[39m
+          [33mcontenteditable[39m=[32m"false"[39m
+          [33mdata-rac[39m=[32m""[39m
+          [33mstyle[39m=[32m"-webkit-user-select: all; -webkit-tap-highlight-color: transparent;"[39m
+        [36m>[39m
+          [0mB[0m
+        [36m</span>[39m
+        [90m<!--/-->[39m
+        [0m​[0m
+      [36m</span>[39m
+    [36m</div>[39m
+  [36m</div>[39m
+[36m</div>[39m
+ ❯ waitForSelection packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:95:27
+     93|
+     94| export async function waitForSelection(textbox: Locator, start: Positi…
+     95|   let el = textbox.element();
+       |                           ^
+     96|   await expect.poll(() => getFieldSelection(el)).toEqual([start, end]);
+     97| }
+ ❯ textbox packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:94:39
+ ❯ textbox packages/react-aria-components/test/TokenField.browser.test.tsx:200:29
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[30/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:529:8 > TokenField browser interactions > selection > marks token as selected on double-click
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ packages/react-aria-components/test/TokenField.browser.test.tsx:533:74
+    531|       await userEvent.dblClick(textbox.getByText('TOK'));
+    532|       let tokenEl = textbox.getByText('TOK').element();
+    533|       await expect.poll(() => tokenEl.getAttribute('data-selected')).t…
+       |                                                                          ^
+    534|     });
+    535|
+
+Caused by: Error: Matcher did not succeed in time.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[31/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:536:8 > TokenField browser interactions > selection > selects entire line including tokens on triple-click
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ packages/react-aria-components/test/TokenField.browser.test.tsx:542:63
+    540|       await userEvent.tripleClick(textbox.getByText('TOK'));
+    541|       await waitForSelection(textbox, {index: 0, offset: 0}, {index: 2…
+    542|       await expect(tokenEl.getAttribute('data-selected')).toBe('true');
+       |                                                               ^
+    543|     });
+    544|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[32/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:545:8 > TokenField browser interactions > selection > select-all then typing replaces entire field
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ packages/react-aria-components/test/TokenField.browser.test.tsx:551:74
+    549|       await userEvent.keyboard(`{${mod}>}a{/${mod}}`);
+    550|       let tokenEl = textbox.getByText('TOK').element();
+    551|       await expect.poll(() => tokenEl.getAttribute('data-selected')).t…
+       |                                                                          ^
+    552|       await userEvent.keyboard('z');
+    553|       await waitForFieldText(getValue, 'z');
+
+Caused by: Error: Matcher did not succeed in time.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[33/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:563:8 > TokenField browser interactions > selection > extends selection across token with Shift+ArrowRight
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ packages/react-aria-components/test/TokenField.browser.test.tsx:569:63
+    567|       await userEvent.keyboard('{Shift>}{ArrowRight}{ArrowRight}{Arrow…
+    568|       await waitForSelection(textbox, {index: 0, offset: 1}, {index: 2…
+    569|       await expect(tokenEl.getAttribute('data-selected')).toBe('true');
+       |                                                               ^
+    570|     });
+    571|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[34/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:572:8 > TokenField browser interactions > selection > extends selection across token with Shift+ArrowLeft
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ packages/react-aria-components/test/TokenField.browser.test.tsx:578:63
+    576|       await userEvent.keyboard('{Shift>}{ArrowLeft}{ArrowLeft}{ArrowLe…
+    577|       await waitForSelection(textbox, {index: 0, offset: 1}, {index: 2…
+    578|       await expect(tokenEl.getAttribute('data-selected')).toBe('true');
+       |                                                               ^
+    579|     });
+    580|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[35/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:614:8 > TokenField browser interactions > selection > keeps direction when shrinking a selection across a token
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ packages/react-aria-components/test/TokenField.browser.test.tsx:621:74
+    619|       await userEvent.keyboard('{Shift>}{ArrowLeft}{/Shift}');
+    620|       await waitForSelection(textbox, {index: 0, offset: 2}, {index: 2…
+    621|       await expect.poll(() => tokenEl.getAttribute('data-selected')).t…
+       |                                                                          ^
+    622|       // Shift+ArrowRight shrinks back across the token rather than ex…
+    623|       await userEvent.keyboard('{Shift>}{ArrowRight}{/Shift}');
+
+Caused by: Error: Matcher did not succeed in time.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[36/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:703:8 > TokenField browser interactions > selection > extends selection backward by word across token
+AssertionError: expected '' to be 'true' // Object.is equality
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+
+ ❯ packages/react-aria-components/test/TokenField.browser.test.tsx:710:63
+    708|       await userEvent.keyboard(`{Shift>}{${mod}>}{ArrowLeft}{/${mod}}{…
+    709|       await waitForSelection(textbox, {index: 0, offset: 2}, {index: 2…
+    710|       await expect(tokenEl.getAttribute('data-selected')).toBe('true');
+       |                                                               ^
+    711|     });
+    712|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[37/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:764:8 > TokenField browser interactions > insert and delete > replaces token when typing after clicking token
+AssertionError: expected [ { index: 2, offset: +0 }, …(1) ] to deeply equal [ { index: +0, offset: 2 }, …(1) ]
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[33m@@ -1,9 +1,9 @@[39m
+[2m  [[22m
+[2m    {[22m
+[32m-     "index": 0,[39m
+[32m-     "offset": 2,[39m
+[31m+     "index": 2,[39m
+[31m+     "offset": 0,[39m
+[2m    },[22m
+[2m    {[22m
+[2m      "index": 2,[22m
+[2m      "offset": 0,[22m
+[2m    },[22m
+
+ ❯ waitForSelection packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:96:57
+     94| export async function waitForSelection(textbox: Locator, start: Positi…
+     95|   let el = textbox.element();
+     96|   await expect.poll(() => getFieldSelection(el)).toEqual([start, end]);
+       |                                                         ^
+     97| }
+     98|
+ ❯ textbox packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:94:39
+ ❯ textbox packages/react-aria-components/test/TokenField.browser.test.tsx:768:29
+
+Caused by: Error: Matcher did not succeed in time.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[38/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.browser.test.tsx:999:8 > TokenField browser interactions > clipboard > cut removes selection and paste restores elsewhere
+TimeoutError: locator.click: Timeout 19811ms exceeded.
+Call log:
+  - waiting for locator('[data-vitest="true"]').contentFrame().locator('div').filter({ hasText: 'hello' }).first().getByRole('textbox', { name: 'TokenField-81' })
+
+ ❯ locator packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:100:24
+     98|
+     99| export async function focusField(locator: Locator) {
+    100|   await userEvent.click(locator);
+       |                        ^
+    101|   await expect.element(locator).toHaveFocus();
+    102| }
+ ❯ locator packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:99:33
+ ❯ textbox packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:129:19
+ ❯ textbox packages/react-aria-components/test/utils/tokenFieldBrowserUtils.tsx:128:36
+ ❯ textbox packages/react-aria-components/test/TokenField.browser.test.tsx:1014:28
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[39/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('ltr')
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('rtl')
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('ltr')
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('rtl')
+TypeError: screen.getByTestId is not a function. (In 'screen.getByTestId("scroller")', 'screen.getByTestId' is undefined)
+ ❯ packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:67:40
+     65|         </div>
+     66|       );
+     67|       let scroller = screen.getByTestId('scroller').element();
+       |                                        ^
+     68|       let input = screen.getByRole('textbox', {name: 'Tags'});
+     69|       scroller.scrollTop = 450;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[40/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:92:4 > TokenField scrolling > keeps a visible field in place when Backspace leaves a trailing token (ltr)
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:92:4 > TokenField scrolling > keeps a visible field in place when Backspace leaves a trailing token (rtl)
+TypeError: screen.getByTestId is not a function. (In 'screen.getByTestId("scroller")', 'screen.getByTestId' is undefined)
+ ❯ packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:115:40
+    113|         </div>
+    114|       );
+    115|       let scroller = screen.getByTestId('scroller').element();
+       |                                        ^
+    116|       let input = screen.getByRole('textbox', {name: 'Tags'});
+    117|       scroller.scrollTop = 450;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[41/54]⎯
+
+ FAIL  |webkit-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:131:6 > TokenField scrolling > scrolls newly created tokens into view when they wrap below the viewport
+TypeError: screen.getByTestId is not a function. (In 'screen.getByTestId("scroller")', 'screen.getByTestId' is undefined)
+ ❯ packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:143:38
+    141|       </div>
+    142|     );
+    143|     let scroller = screen.getByTestId('scroller').element();
+       |                                      ^
+    144|     let input = screen.getByRole('textbox', {name: 'Tags'});
+    145|     await userEvent.click(input);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[42/54]⎯
+
+
+ Test Files  6 failed (6)
+      Tests  54 failed | 240 passed (294)
+   Start at  21:26:12
+   Duration  72.81s (transform 0ms, setup 561ms, import 1.35s, tests 149.66s, environment 0ms)
+

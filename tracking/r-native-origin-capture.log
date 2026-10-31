@@ -1,0 +1,83 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+stdout | packages/react-aria-components/test/Table.test.jsx > Table > column resizing > Resizing > interactions > can resize 'Height' to be -50 px different
+CAPTURE MyColumn setup 1 name
+CAPTURE MyColumn setup 2 type
+CAPTURE MyColumn setup 3 height
+CAPTURE MyColumn setup 4 weight
+CAPTURE MyColumn setup 5 level
+CAPTURE Column setup name
+CAPTURE children invoke 1 false
+CAPTURE Resizer setup
+CAPTURE Column setup type
+CAPTURE children invoke 1 false
+CAPTURE Resizer setup
+CAPTURE Column setup height
+CAPTURE children invoke 1 false
+CAPTURE Resizer setup
+CAPTURE Column setup weight
+CAPTURE children invoke 1 false
+CAPTURE Resizer setup
+CAPTURE Column setup level
+CAPTURE children invoke 1 false
+CAPTURE Resizer setup
+CAPTURE down connected true
+CAPTURE children invoke 2 true
+CAPTURE Resizer setup
+CAPTURE children invoke 2 true
+CAPTURE Resizer setup
+CAPTURE children invoke 2 true
+CAPTURE Resizer setup
+CAPTURE children invoke 2 true
+CAPTURE Resizer setup
+CAPTURE children invoke 2 true
+CAPTURE Resizer setup
+CAPTURE Resizer dispose
+CAPTURE Resizer dispose
+CAPTURE Resizer dispose
+CAPTURE Resizer dispose
+CAPTURE Resizer dispose
+CAPTURE move connected false
+CAPTURE up connected false
+
+stdout | packages/react-aria-components/test/Table.test.jsx > Table > column resizing > Resizing > interactions > can resize 'Height' to be -50 px different
+CAPTURE Resizer dispose
+CAPTURE Column dispose level
+CAPTURE Resizer dispose
+CAPTURE Column dispose weight
+CAPTURE Resizer dispose
+CAPTURE Column dispose height
+CAPTURE Resizer dispose
+CAPTURE Column dispose type
+CAPTURE Resizer dispose
+CAPTURE Column dispose name
+CAPTURE MyColumn dispose 5
+CAPTURE MyColumn dispose 4
+CAPTURE MyColumn dispose 3
+CAPTURE MyColumn dispose 2
+CAPTURE MyColumn dispose 1
+
+ ❯ |solid2-pilot| packages/react-aria-components/test/Table.test.jsx (178 tests | 1 failed | 177 skipped) 258ms
+           × can resize 'Height' to be -50 px different 256ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/Table.test.jsx > Table > column resizing > Resizing > interactions > can resize 'Height' to be -50 px different
+AssertionError: expected "vi.fn()" to be called 1 times, but got 0 times
+ ❯ packages/react-aria/test/table/tableResizingTests.tsx:226:31
+    224|             expect(resizer).toHaveAttribute('max', `${Number.MAX_SAFE_…
+    225|           });
+    226|           expect(onResizeEnd).toHaveBeenCalledTimes(1);
+       |                               ^
+    227|           expect(onResizeEnd).toHaveBeenCalledWith(mapFromWidths(colum…
+    228|         }
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 177 skipped (178)
+   Start at  12:21:37
+   Duration  2.48s (transform 1.57s, setup 105ms, import 1.76s, tests 258ms, environment 254ms)
+

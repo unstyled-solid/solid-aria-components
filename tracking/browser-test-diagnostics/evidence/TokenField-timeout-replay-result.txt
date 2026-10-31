@@ -1,0 +1,24 @@
+TokenField timeout follow-up — 2026-10-13
+
+Existing tests and production source unchanged. No repair applied.
+Initial named replay: 18 passed across Chromium, Firefox, WebKit.
+Complete existing TokenField family: 313 passed, 38 original skips (351 total).
+Engine/file instances: 7 passed, 2 original composition skips.
+Final named replay after removing temporary instrumentation: 18 passed.
+Original diagnostic collector captured 0 console records in final replay.
+Six implementation/browser-fixture SHA256 hashes match their baseline.
+No timeouts, actions, assertions or skips changed; no distribution bytes changed.
+
+Temporary investigative replay retained original input identity, read-only
+value/focus, external controlled-value focus and scrollTop450 through the
+existing Enter/comma and Backspace flow. See separate identity excerpt.
+Final behavioral qualification was uninstrumented.
+
+Historical seven timeouts did not reproduce. Their root cause remains unproven;
+these results do not establish a repair or prove automation contention.
+No full eleven-suite collection rerun is claimed.
+
+Raw backing evidence:
+/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/tokenfield-timeouts-20261013/
+Files: RESULT.md, reproduce.log, family.log, identity-captured.log, final.log,
+final-console.jsonl, baseline.sha256.

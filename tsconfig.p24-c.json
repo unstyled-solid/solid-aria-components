@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "test/css.d.ts", "packages/react-aria-components/src/Tree.tsx", "packages/react-aria-components/test/fixtures/p24-tree-stories.tsx"]
+}

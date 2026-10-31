@@ -1,0 +1,205 @@
+{
+  "docsEnv": "1",
+  "records": [
+    {
+      "branch": "dom",
+      "source": "packages/@react-spectrum/s2/src/Provider.tsx",
+      "sourceSha256": "4c3a04bafa86bc9742ead8a2b430a769d1146d20fa33d6b1388ba6a646d12286",
+      "nativeInput": "scripts/docs/macros/parcel-input/dom/Provider.native.js"
+    },
+    {
+      "branch": "dom",
+      "source": "packages/@react-spectrum/s2/src/Divider.tsx",
+      "sourceSha256": "08905fe9983c00237e9a69e5435133e459249f4cbaf9bb651fddedb0c7c961af",
+      "nativeInput": "scripts/docs/macros/parcel-input/dom/Divider.native.js"
+    },
+    {
+      "branch": "dom",
+      "file": "scripts/docs/macros/linked-docs/dom/Provider.native.js",
+      "type": "js",
+      "bytes": 11410,
+      "sha256": "a32c220feba67df2ad13dd71f432d2d9dc449c3ef743ad966f6089601e19094d",
+      "imports": [
+        "./Provider.native.css",
+        "@solidjs/web",
+        "solid-js",
+        "react-aria/filterDOMProps",
+        "./Fonts",
+        "react-aria/I18nProvider",
+        "../style/runtime",
+        "react-aria/private/utils/openLink"
+      ],
+      "exports": [
+        "ColorSchemeContext",
+        "Provider"
+      ],
+      "unlinkedSourceImports": [
+        "react-aria/filterDOMProps",
+        "./Fonts",
+        "react-aria/I18nProvider",
+        "../style/runtime",
+        "react-aria/private/utils/openLink"
+      ]
+    },
+    {
+      "branch": "dom",
+      "file": "scripts/docs/macros/linked-docs/dom/Provider.native.css",
+      "type": "css",
+      "bytes": 1757,
+      "sha256": "ddcbf9cdf7c36136e991b9acbffc68986f0779a18fc8efea0cee05a7eb49a5e8"
+    },
+    {
+      "branch": "dom",
+      "file": "scripts/docs/macros/linked-docs/dom/Divider.native.js",
+      "type": "js",
+      "bytes": 9349,
+      "sha256": "e227f2f0ebe8234221e88686d1bb1195f859bcb3ff46f1f0a1700830dcef700c",
+      "imports": [
+        "./Divider.native.css",
+        "@solidjs/web",
+        "solid-js",
+        "react-aria-components/Separator",
+        "./useDOMRef",
+        "./useSpectrumContextProps"
+      ],
+      "exports": [
+        "DividerContext",
+        "divider",
+        "Divider"
+      ],
+      "unlinkedSourceImports": [
+        "react-aria-components/Separator",
+        "./useDOMRef",
+        "./useSpectrumContextProps"
+      ]
+    },
+    {
+      "branch": "dom",
+      "file": "scripts/docs/macros/linked-docs/dom/Divider.native.css",
+      "type": "css",
+      "bytes": 1747,
+      "sha256": "29b6853cf3407f2f6e748bbdb3fd05749b395a8b6834f817dde45f76deeaab55"
+    },
+    {
+      "branch": "server",
+      "source": "packages/@react-spectrum/s2/src/Provider.tsx",
+      "sourceSha256": "4c3a04bafa86bc9742ead8a2b430a769d1146d20fa33d6b1388ba6a646d12286",
+      "nativeInput": "scripts/docs/macros/parcel-input/server/Provider.native.js"
+    },
+    {
+      "branch": "server",
+      "source": "packages/@react-spectrum/s2/src/Divider.tsx",
+      "sourceSha256": "08905fe9983c00237e9a69e5435133e459249f4cbaf9bb651fddedb0c7c961af",
+      "nativeInput": "scripts/docs/macros/parcel-input/server/Divider.native.js"
+    },
+    {
+      "branch": "server",
+      "file": "scripts/docs/macros/linked-docs/server/Provider.native.js",
+      "type": "js",
+      "bytes": 14043,
+      "sha256": "e6147204f188ce04cd9d44ac8168021622b3369148c0efec0322b9667e06b950",
+      "imports": [
+        "./Provider.native.cee65002.css",
+        "@solidjs/web",
+        "solid-js",
+        "react-aria/filterDOMProps",
+        "./Fonts",
+        "react-aria/I18nProvider",
+        "../style/runtime",
+        "react-aria/private/utils/openLink"
+      ],
+      "exports": [
+        "ColorSchemeContext",
+        "Provider"
+      ],
+      "unlinkedSourceImports": [
+        "react-aria/filterDOMProps",
+        "./Fonts",
+        "react-aria/I18nProvider",
+        "../style/runtime",
+        "react-aria/private/utils/openLink"
+      ]
+    },
+    {
+      "branch": "server",
+      "file": "scripts/docs/macros/linked-docs/server/Provider.native.cee65002.css",
+      "type": "css",
+      "bytes": 1588,
+      "sha256": "dcdadb3d79a60151aa5c9035e24a03e1c4c6977e4bf4ebbe6d87a2dc5398e7f4"
+    },
+    {
+      "branch": "server",
+      "file": "scripts/docs/macros/linked-docs/server/Divider.native.js",
+      "type": "js",
+      "bytes": 9292,
+      "sha256": "f44b698315747f517e39729a7bc3d306e798566032a91d7084532627d6470289",
+      "imports": [
+        "./Divider.native.22459f67.css",
+        "@solidjs/web",
+        "solid-js",
+        "react-aria-components/Separator",
+        "./useDOMRef",
+        "./useSpectrumContextProps"
+      ],
+      "exports": [
+        "DividerContext",
+        "divider",
+        "Divider"
+      ],
+      "unlinkedSourceImports": [
+        "react-aria-components/Separator",
+        "./useDOMRef",
+        "./useSpectrumContextProps"
+      ]
+    },
+    {
+      "branch": "server",
+      "file": "scripts/docs/macros/linked-docs/server/Divider.native.22459f67.css",
+      "type": "css",
+      "bytes": 1676,
+      "sha256": "56c8fdb9bee2bbf41ea77bb28ea23ac49615e25075b18a29b9c70a4f5467d8f7"
+    },
+    {
+      "branch": "dom",
+      "file": "scripts/docs/macros/linked-docs/raw/dom/Provider/0.css",
+      "type": "raw-css",
+      "bytes": 792,
+      "sha256": "cdba8d1877c861ba16ccadda95468d717f5ab89f785d000ba2224620f4a08d99"
+    },
+    {
+      "branch": "dom",
+      "file": "scripts/docs/macros/linked-docs/raw/dom/Provider/1.css",
+      "type": "raw-css",
+      "bytes": 1516,
+      "sha256": "67ce0844c94226272fcdfa2fa8a795346af53bce5b2ee226b0b538461a59a58f"
+    },
+    {
+      "branch": "dom",
+      "file": "scripts/docs/macros/linked-docs/raw/dom/Divider/0.css",
+      "type": "raw-css",
+      "bytes": 1694,
+      "sha256": "8d9bd534f33108175a16b7cbc35d92683b8c4e98e824d612e630fd14bd9568b8"
+    },
+    {
+      "branch": "server",
+      "file": "scripts/docs/macros/linked-docs/raw/server/Provider/0.css",
+      "type": "raw-css",
+      "bytes": 792,
+      "sha256": "cdba8d1877c861ba16ccadda95468d717f5ab89f785d000ba2224620f4a08d99"
+    },
+    {
+      "branch": "server",
+      "file": "scripts/docs/macros/linked-docs/raw/server/Provider/1.css",
+      "type": "raw-css",
+      "bytes": 1516,
+      "sha256": "67ce0844c94226272fcdfa2fa8a795346af53bce5b2ee226b0b538461a59a58f"
+    },
+    {
+      "branch": "server",
+      "file": "scripts/docs/macros/linked-docs/raw/server/Divider/0.css",
+      "type": "raw-css",
+      "bytes": 1694,
+      "sha256": "8d9bd534f33108175a16b7cbc35d92683b8c4e98e824d612e630fd14bd9568b8"
+    }
+  ]
+}

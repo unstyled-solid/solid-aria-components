@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "mode": "source-derived-fixture",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "source": "upstream/react-spectrum/packages/@adobe/react-spectrum/test/text/Text.ssr.test.js",
+  "sourceSha256": "fd3a87c596d441deffbcef124f9a87f993851c0800f6443c5087ec8df88919da",
+  "sourceLines": [
+    20,
+    21
+  ],
+  "target": "test/ssr-harness/p03-s2-text.tsx",
+  "adaptation": "Fixture extracts original Text element with native source export import."
+}

@@ -1,0 +1,24 @@
+{
+  "frozenSHA": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "artifactEvidence": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p14-workflow-2.3.5/verification.json",
+  "tarballSHA256": "5daf9caf63734a5ebbc4881f0173671aba1c22ad4e14e77a43aaa3cf5a4e7ebb",
+  "publishedSRI": "sha512-b53VIPwPWKb/T5gzE3qs+QlGP5gVrw/LnWV3xMksDU+CRl3rzOKUwxIGiZO8ICyYh1WiyqY4myGlPU/nAynBUg==",
+  "publishedSHA1": "3f5adc5fe2bae25416805b7d92c1ff5bd1e061f0",
+  "SRIAndSHA1Reverified": true,
+  "generatorSHA256": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+  "licenseSHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "licenseCorrespondenceVerified": true,
+  "sourceConsumer": "upstream/react-spectrum/packages/@adobe/react-spectrum/test/badge/Badge.test.js imports @spectrum-icons/workflow/CheckmarkCircle",
+  "strict": "./node_modules/.bin/tsc -p tsconfig.p39-a.json passed",
+  "files": {
+    "packages/@spectrum-icons/workflow/src/CheckmarkCircle.tsx": {
+      "originalSHA256": "719040e99d1592fa78fad110cfccc4aa7c129f21c50abcb3009ffb9e360cc3c8",
+      "nativeSHA256": "0b6e5e52721a9a07ac098af831bb5373f248b71eb4a14bada230700a4510175d"
+    },
+    "packages/@adobe/react-spectrum-workflow/src/CheckmarkCircle.jsx": {
+      "originalSHA256": "40c380967597bc8682ba76f6be8016173472149c2ccdb49952a6d97d2ca310c6",
+      "nativeSHA256": "19146aee67d613b9c826545408a8d4791b51986d6ea60449707bb8a880347e37"
+    }
+  },
+  "artworkCorrespondenceVerified": true
+}

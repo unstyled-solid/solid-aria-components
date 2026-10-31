@@ -1,0 +1,201 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import vanillaDocs from 'docs:vanilla-starter/Popover';
+import '../../tailwind/tailwind.css';
+import Anatomy from '/packages/dev/s2-docs/pages/react-aria/PreviewTriggerAnatomy.svg';
+import {InlineAlert, Heading, Content} from '@react-spectrum/s2'
+
+export const tags = ['popup', 'overlay', 'preview', 'link', 'hover', 'tooltip'];
+export const description = 'Displays a non-modal preview of content on hover, focus, or long press.';
+
+# PreviewTrigger
+
+<PageDescription>{docs.exports.PreviewTrigger.description}</PageDescription>
+
+<ExampleSwitcher>
+  ```tsx nativeModule="PreviewTrigger/solid-example-1.tsx" solid="PreviewTrigger/solid-example-1.tsx"  type="vanilla" docs={vanillaDocs.exports.Popover} links={vanillaDocs.links} props={['placement', 'offset', 'crossOffset', 'shouldFlip']} files={["packages/dev/s2-docs/pages/react-aria/PreviewTrigger/solid-example-1.tsx"]}
+  import {createSignal, Show, omit, flush} from 'solid-js';
+  import type {JSX} from '@solidjs/web';
+  "use client";
+  
+  import { PreviewTrigger } from "solid-aria-components/PreviewTrigger";
+  import { Popover } from "../ListBox/native/vanilla/solid-Popover";
+  import { Link } from "../Link/vanilla/Link.solid";
+  import { Button } from "../Button/vanilla/Button.solid";
+  function ProfilePreview(popoverProps) {
+    return <PreviewTrigger>
+          <Link href={popoverProps.href}>@{popoverProps.handle}</Link>
+          <Popover style={{
+        "width": "280px"
+      }} {...popoverProps}>
+            <div style={{
+          "display": 'flex',
+          "gap": "8px",
+          "align-items": 'center'
+        }}>
+              <img alt="" src={popoverProps.avatar} style={{
+            "width": "40px",
+            "height": "40px",
+            "border-radius": '50%'
+          }} />
+              <div style={{
+            "min-width": "0px"
+          }}>
+                <div style={{
+              "font-weight": 600,
+              "font-size": 'var(--font-size)'
+            }}>{popoverProps.name}</div>
+                <div style={{
+              "font-size": 'var(--font-size-sm)'
+            }}>@{popoverProps.handle}</div>
+              </div>
+              <Button style={{
+            "margin-left": 'auto'
+          }} variant="secondary">Follow</Button>
+            </div>
+            <div style={{
+          "font-size": 'var(--font-size)',
+          "margin-top": "12px"
+        }}>{popoverProps.bio}</div>
+          </Popover>
+        </PreviewTrigger>;
+  }
+  function Example(props) {
+    return <p style={{
+      "max-width": "480px"
+    }}>
+          Just shipped a new release with help from{' '}
+          <ProfilePreview handle="mayachen" name="Maya Chen" bio="UI engineer, accessibility advocate, and component library enthusiast." avatar="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" href="#" {...props} />
+          {' '}and{' '}
+          <ProfilePreview handle="cwebb" name="Charles Webb" bio="Design systems, docs, and developer experience." avatar="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" href="#" {...props} />
+          !
+        </p>;
+  }
+  ```
+
+   ```tsx nativeModule="PreviewTrigger/solid-example-4.tsx" solid="PreviewTrigger/solid-example-4.tsx"  type="tailwind" docs={vanillaDocs.exports.Popover} links={vanillaDocs.links} props={['placement', 'offset', 'crossOffset', 'shouldFlip']} files={["packages/dev/s2-docs/pages/react-aria/PreviewTrigger/solid-example-4.tsx"]}
+   import {createSignal, Show, omit, flush} from 'solid-js';
+   import type {JSX} from '@solidjs/web';
+   "use client";
+   
+   import { PreviewTrigger } from "solid-aria-components/PreviewTrigger";
+   import { Popover } from "../ListBox/native/tailwind/solid-Popover";
+   import { Link } from "../Link/tailwind/Link.solid";
+   import { Button } from "../Button/tailwind/Button.solid";
+   function ProfilePreview(popoverProps) {
+     return <PreviewTrigger>
+           <Link href={popoverProps.href}>@{popoverProps.handle}</Link>
+           <Popover className="w-[280px] p-2" {...popoverProps}>
+             <div className="flex gap-2 items-center">
+               <img alt="" src={popoverProps.avatar} className="size-10 rounded-full shrink-0" />
+               <div className="min-w-0">
+                 <div className="text-sm font-semibold">{popoverProps.name}</div>
+                 <div className="text-xs">@{popoverProps.handle}</div>
+               </div>
+               <Button className="ml-auto" variant="secondary" onPress={() => alert(`Followed @${popoverProps.handle}`)}>Follow</Button>
+             </div>
+             <div className="text-sm mt-3">{popoverProps.bio}</div>
+           </Popover>
+         </PreviewTrigger>;
+   }
+   function Example(props) {
+     return <p className="max-w-[480px]">
+           {'Just shipped a new release with help from '}
+           <ProfilePreview handle="mayachen" name="Maya Chen" bio="UI engineer, accessibility advocate, and component library enthusiast." avatar="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" href="#" {...props} />
+           {' and '}
+           <ProfilePreview handle="cwebb" name="Charles Webb" bio="Design systems, docs, and developer experience." avatar="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" href="#" {...props} />
+           !
+         </p>;
+   }
+   ```
+
+</ExampleSwitcher>
+
+## Interactions
+
+Previews appear after a warmup delay when hovering with a pointer or receiving keyboard focus. Once a preview is displayed, other previews display immediately. If the user waits for the cooldown period before hovering another element, the warmup timer restarts. On touch devices, previews open on long press.
+
+When a preview is open, pressing <Keyboard>Tab</Keyboard> moves focus into the preview so users can interact with its contents. Press <Keyboard>Escape</Keyboard> to close the preview and return focus to the trigger.
+
+```tsx nativeModule="PreviewTrigger/solid-example-2.tsx" solid="PreviewTrigger/solid-example-2.tsx"  type="vanilla" docs={docs.exports.PreviewTrigger} links={docs.links} props={['delay', 'closeDelay', 'isDisabled']} files={["packages/dev/s2-docs/pages/react-aria/PreviewTrigger/solid-example-2.tsx"]}
+import {createSignal, Show, omit, flush} from 'solid-js';
+import type {JSX} from '@solidjs/web';
+"use client";
+
+import { PreviewTrigger } from "solid-aria-components/PreviewTrigger";
+import { Popover } from "../ListBox/native/vanilla/solid-Popover";
+import { Link } from "../Link/vanilla/Link.solid";
+import { Button } from "../Button/vanilla/Button.solid";
+function IssuePreview(props) {
+  return /*- begin highlight -*/<PreviewTrigger {...props} /* PROPS */>
+      {/*- end highlight -*/}
+      <Link href={props.href}>#{props.number}</Link>
+      <Popover style={{
+      "width": "280px"
+    }}>
+        <div style={{
+        "font-weight": 600,
+        "font-size": 'var(--font-size)'
+      }}>{props.title}</div>
+        <div style={{
+        "font-size": 'var(--font-size-sm)',
+        "margin-top": "4px"
+      }}>#{props.number} · {props.status}</div>
+        <div style={{
+        "font-size": 'var(--font-size-sm)',
+        "margin-top": "4px"
+      }}>Opened by {props.author}</div>
+        <Button style={{
+        "margin-top": "12px"
+      }} variant="secondary">View issue</Button>
+      </Popover>
+    </PreviewTrigger>;
+}
+function Example(props) {
+  return <p style={{
+    "max-width": "480px"
+  }}>
+      {'Merged fixes for '}
+      {/*- begin highlight -*/}
+      <IssuePreview {...props} /* PROPS */ number={1234} title="Add PreviewTrigger component" status="Open" author="mayachen" href="#" />
+      {/*- end highlight -*/}
+      {' and '}
+      <IssuePreview {...props} /* PROPS */ number={5678} title="Improve Popover safe area behavior" status="Closed" author="cwebb" href="#" />
+      .
+    </p>;
+}
+```
+
+## Custom trigger
+
+`PreviewTrigger` works with any focusable React Aria component (e.g. [Link](Link), [Button](Button), etc.). Use the `<Focusable>` component to wrap a custom trigger element such as a third party component or DOM element.
+
+```tsx nativeModule="PreviewTrigger/solid-example-3.tsx" solid="PreviewTrigger/solid-example-3.tsx"  files={["packages/dev/s2-docs/pages/react-aria/PreviewTrigger/solid-example-3.tsx"]}
+import { createSignal, Show, omit, flush } from 'solid-js';
+import type { JSX } from '@solidjs/web';
+"use client";
+import { PreviewTrigger } from "solid-aria-components/PreviewTrigger";
+import { Focusable } from "solid-aria-components/Tooltip";
+import { Popover } from "../ListBox/native/vanilla/solid-Popover";
+```tsx
+const CustomTrigger = (props) => (
+  <a {...props} />
+);
+```
+
+## API
+
+<Anatomy />
+
+```tsx links={{PreviewTrigger: '#previewtrigger', Link: 'Link', Button: 'Button', Popover: 'Popover'}}
+<PreviewTrigger>
+  <Link />, <Button />, or <Focusable />
+  <Popover />
+</PreviewTrigger>
+```
+
+### PreviewTrigger
+
+<PropTable component={docs.exports.PreviewTrigger} links={docs.links} />

@@ -1,0 +1,43 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .ZokSYvd18 {
+    width: calc(calc(0.875 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .Zd60gf18 {
+    width: calc(calc(1.125 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .ZifsFYc18 {
+    width: calc(calc(1.25 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .ZCe2o8c18 {
+    width: calc(calc(1.5 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .FokSYvd18 {
+    height: calc(calc(0.875 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .Fd60gf18 {
+    height: calc(calc(1.125 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .FifsFYc18 {
+    height: calc(calc(1.25 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+
+
+  .FCe2o8c18 {
+    height: calc(calc(1.5 * var(--rem, 1rem)) * var(--s2-scale));
+  }
+}
+

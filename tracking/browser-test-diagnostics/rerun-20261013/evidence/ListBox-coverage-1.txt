@@ -1,0 +1,3 @@
+ ✓ |chromium-desktop| packages/react-aria-components/test/ListBox.browser.test.tsx (2 tests) 152ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/ListBox.browser.test.tsx (2 tests) 348ms
+ ✓ |firefox-desktop| packages/react-aria-components/test/ListBox.browser.test.tsx (2 tests) 4946ms

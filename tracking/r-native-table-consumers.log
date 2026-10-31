@@ -1,0 +1,410 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+stderr | packages/react-aria-components/test/Table.test.jsx > Table > should support disabled state
+[STRICT_READ_UNTRACKED] Reactive value read directly in <For> will not update. Move it into a tracking scope (JSX, a memo, or an effect's compute function).
+  in <TestTable> › <Table> › <CollectionBuilder> › <CollectionInner> › <For> › <TableInner> › <Provider> › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <FocusScope> › <FocusContext> › computed › computed › <TableElementType> › <Element> › computed › <Host> › computed › effect › <SharedElementTransition> › <SharedElementContext> › computed › <CollectionRoot> › <For> › <Component> › <For> › <TableHeaderRow> › <TableHeaderRowElementType> › <Element> › computed › effect › <Provider> › computed › <Context> › computed › computed › <Context> › computed › computed › <CollectionBranch> › <For> › <FocusableContext> › computed › <Component> › <ColumnElementType> › <Element> › computed › <Host> › computed › effect › <Provider> › computed › <Context> › computed › computed › <Context> › computed › computed
+[STRICT_READ_UNTRACKED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#strict_read_untracked
+[REACTIVITY_HALTED] An uncaught error halted the reactive system. No further updates will be processed. Handle errors with <Errored> or treat this as a crash. Error: [STRICT_READ_UNTRACKED] Reactive value read directly in <For> will not update. Move it into a tracking scope (JSX, a memo, or an effect's compute function).
+  in <TestTable> › <Table> › <CollectionBuilder> › <CollectionInner> › <For> › <TableInner> › <Provider> › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <Context> › computed › computed › <FocusScope> › <FocusContext> › computed › computed › <TableElementType> › <Element> › computed › <Host> › computed › effect › <SharedElementTransition> › <SharedElementContext> › computed › <CollectionRoot> › <For> › <Component> › <For> › <TableHeaderRow> › <TableHeaderRowElementType> › <Element> › computed › effect › <Provider> › computed › <Context> › computed › computed › <Context> › computed › computed › <CollectionBranch> › <For> › <FocusableContext> › computed › <Component> › <ColumnElementType> › <Element> › computed › <Host> › computed › effect › <Provider> › computed › <Context> › computed › computed › <Context> › computed › computed
+[STRICT_READ_UNTRACKED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#strict_read_untracked
+    at Console.console.warn (/Users/avi/avir-oss/solid-aria-components/scripts/setupTests.js:82:48)
+    at reportDiagnostic (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:701:65)
+    at warnStrictReadUntracked (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:732:3)
+    at read (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6513:5)
+    at Object.get children [as children] (/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/test/Table.test.jsx:129:44)
+    at Object.children [as get] (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:4318:49)
+    at value (/Users/avi/avir-oss/solid-aria-components/packages/react-aria/src/collections/CollectionBuilder.tsx:254:75)
+    at children (/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/src/utils.tsx:256:58)
+    at Object.wrappedMap [as _map] (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:8896:18)
+    at mapper (file:///Users/avi/avir-oss/solid-aria-components/node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:9095:27)
+[REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+[REACTIVITY_HALTED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#reactivity_halted
+
+ ❯ |solid2-pilot| packages/react-aria-components/test/Table.test.jsx (178 tests | 3 failed | 170 skipped) 724ms
+     × should support disabled state 231ms
+     × supports removing rows 103ms
+     × should support updating and reordering a row at the same time 59ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 3 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/Table.test.jsx > Table > should support disabled state
+Error: [REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+ ❯ notifyStatus node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4488:13
+ ❯ recompute node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:4985:7
+ ❯ setupComputedNode node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5651:21
+ ❯ computed node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:5512:3
+ ❯ mapArray node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:8916:16
+ ❯ node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:50
+ ❯ runWithOwner node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:6942:12
+ ❯ create node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1449:24
+ ❯ list node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1451:43
+ ❯ flatten node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:10223:18
+
+Caused by: Error: [REACTIVITY_HALTED] Update ignored: the reactive system was halted by an earlier uncaught error.
+ ❯ Console.console.error scripts/setupTests.js:65:48
+ ❯ notifyHalted node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1762:11
+ ❯ schedule node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1638:5
+ ❯ GlobalQueue.enqueue node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:1833:5
+ ❯ effect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:1739:21
+ ❯ createEffect node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev.js:2442:3
+ ❯ createEffect node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:1038:68
+ ❯ useSyncRef packages/react-aria/src/utils/useSyncRef.ts:24:3
+ ❯ Component packages/react-aria/src/collections/CollectionBuilder.tsx:281:5
+ ❯ node_modules/.pnpm/solid-js@2.0.0-rc.13/node_modules/solid-js/dist/solid.dev.js:59:28
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/Table.test.jsx > Table > supports removing rows
+TestingLibraryElementError: Unable to find an accessible element with the role "rowheader"
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+[36m<tr[39m
+  [33maria-labelledby[39m=[32m"react-aria-cl-146-3-name"[39m
+  [33mclass[39m=[32m"react-aria-Row"[39m
+  [33mdata-collection[39m=[32m"react-aria-cl-147"[39m
+  [33mdata-focus-visible[39m=[32m"true"[39m
+  [33mdata-focus-visible-within[39m=[32m"true"[39m
+  [33mdata-focused[39m=[32m"true"[39m
+  [33mdata-has-child-items[39m=[32m"true"[39m
+  [33mdata-key[39m=[32m"3"[39m
+  [33mdata-level[39m=[32m"1"[39m
+  [33mdata-rac[39m=[32m""[39m
+  [33mid[39m=[32m"react-aria-cl-164"[39m
+  [33mrole[39m=[32m"row"[39m
+  [33mstyle[39m=[32m"--table-row-level: 1;"[39m
+  [33mtabindex[39m=[32m"0"[39m
+[36m/>[39m
+ ❯ Object.getElementError node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ getAllByRole node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:109:15
+ ❯ packages/react-aria-components/test/Table.test.jsx:1160:32
+    1158|     gridRows = tableTester.getRows();
+    1159|     expect(gridRows).toHaveLength(3);
+    1160|     cell = within(gridRows[1]).getAllByRole('rowheader')[0];
+       |                                ^
+    1161|     expect(cell).toHaveTextContent('bootmgr');
+    1162|     expect(document.activeElement).toBe(cell);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/3]⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/Table.test.jsx > Table > should support updating and reordering a row at the same time
+TestingLibraryElementError: Unable to find an accessible element with the role "rowheader"
+
+Here are the accessible roles:
+
+  grid:
+
+  Name "Files":
+  [36m<table[39m
+    [33maria-describedby[39m=[32m""[39m
+    [33maria-label[39m=[32m"Files"[39m
+    [33mclass[39m=[32m"react-aria-Table"[39m
+    [33mdata-collection[39m=[32m"react-aria-cl-217"[39m
+    [33mdata-rac[39m=[32m""[39m
+    [33mid[39m=[32m"react-aria-cl-216"[39m
+    [33mrole[39m=[32m"grid"[39m
+    [33mtabindex[39m=[32m"0"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  rowgroup:
+
+  Name "":
+  [36m<thead[39m
+    [33mclass[39m=[32m"react-aria-TableHeader"[39m
+    [33mdata-rac[39m=[32m""[39m
+    [33mrole[39m=[32m"rowgroup"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<tbody[39m
+    [33mclass[39m=[32m"react-aria-TableBody"[39m
+    [33mdata-rac[39m=[32m""[39m
+    [33mrole[39m=[32m"rowgroup"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  row:
+
+  Name "Name Type Date Modified":
+  [36m<tr[39m
+    [33mrole[39m=[32m"row"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<tr[39m
+    [33maria-labelledby[39m=[32m"react-aria-cl-216-2-name"[39m
+    [33mclass[39m=[32m"react-aria-Row"[39m
+    [33mdata-has-child-items[39m=[32m"true"[39m
+    [33mdata-key[39m=[32m"2"[39m
+    [33mdata-level[39m=[32m"1"[39m
+    [33mdata-rac[39m=[32m""[39m
+    [33mid[39m=[32m"react-aria-cl-228"[39m
+    [33mrole[39m=[32m"row"[39m
+    [33mstyle[39m=[32m"--table-row-level: 1;"[39m
+    [33mtabindex[39m=[32m"-1"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<tr[39m
+    [33maria-labelledby[39m=[32m"react-aria-cl-216-1-name"[39m
+    [33mclass[39m=[32m"react-aria-Row"[39m
+    [33mdata-has-child-items[39m=[32m"true"[39m
+    [33mdata-key[39m=[32m"1"[39m
+    [33mdata-level[39m=[32m"1"[39m
+    [33mdata-rac[39m=[32m""[39m
+    [33mid[39m=[32m"react-aria-cl-222"[39m
+    [33mrole[39m=[32m"row"[39m
+    [33mstyle[39m=[32m"--table-row-level: 1;"[39m
+    [33mtabindex[39m=[32m"-1"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<tr[39m
+    [33maria-labelledby[39m=[32m"react-aria-cl-216-3-name"[39m
+    [33mclass[39m=[32m"react-aria-Row"[39m
+    [33mdata-has-child-items[39m=[32m"true"[39m
+    [33mdata-key[39m=[32m"3"[39m
+    [33mdata-level[39m=[32m"1"[39m
+    [33mdata-rac[39m=[32m""[39m
+    [33mid[39m=[32m"react-aria-cl-234"[39m
+    [33mrole[39m=[32m"row"[39m
+    [33mstyle[39m=[32m"--table-row-level: 1;"[39m
+    [33mtabindex[39m=[32m"-1"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<tr[39m
+    [33maria-labelledby[39m=[32m"react-aria-cl-216-4-name"[39m
+    [33mclass[39m=[32m"react-aria-Row"[39m
+    [33mdata-has-child-items[39m=[32m"true"[39m
+    [33mdata-key[39m=[32m"4"[39m
+    [33mdata-level[39m=[32m"1"[39m
+    [33mdata-rac[39m=[32m""[39m
+    [33mid[39m=[32m"react-aria-cl-240"[39m
+    [33mrole[39m=[32m"row"[39m
+    [33mstyle[39m=[32m"--table-row-level: 1;"[39m
+    [33mtabindex[39m=[32m"-1"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  columnheader:
+
+  Name "Name":
+  [36m<th[39m
+    [33maria-colindex[39m=[32m"1"[39m
+    [33mclass[39m=[32m"react-aria-Column"[39m
+    [33mdata-key[39m=[32m"name"[39m
+    [33mdata-rac[39m=[32m""[39m
+    [33mdata-react-aria-pressable[39m=[32m"true"[39m
+    [33mid[39m=[32m"react-aria-cl-216-name"[39m
+    [33mrole[39m=[32m"columnheader"[39m
+    [33mtabindex[39m=[32m"-1"[39m
+  [36m/>[39m
+
+  Name "Type":
+  [36m<th[39m
+    [33maria-colindex[39m=[32m"2"[39m
+    [33mclass[39m=[32m"react-aria-Column"[39m
+    [33mdata-key[39m=[32m"type"[39m
+    [33mdata-rac[39m=[32m""[39m
+    [33mdata-react-aria-pressable[39m=[32m"true"[39m
+    [33mid[39m=[32m"react-aria-cl-216-type"[39m
+    [33mrole[39m=[32m"columnheader"[39m
+    [33mtabindex[39m=[32m"-1"[39m
+  [36m/>[39m
+
+  Name "Date Modified":
+  [36m<th[39m
+    [33maria-colindex[39m=[32m"3"[39m
+    [33mclass[39m=[32m"react-aria-Column"[39m
+    [33mdata-key[39m=[32m"date"[39m
+    [33mdata-rac[39m=[32m""[39m
+    [33mdata-react-aria-pressable[39m=[32m"true"[39m
+    [33mid[39m=[32m"react-aria-cl-216-date"[39m
+    [33mrole[39m=[32m"columnheader"[39m
+    [33mtabindex[39m=[32m"-1"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<template />[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mid[39m=[32m"react-aria-description-0"[39m
+    [33mstyle[39m=[32m"display: none;"[39m
+  [36m>[39m
+    [0msorted by column  in ascending order[0m
+  [36m</div>[39m
+  [36m<div>[39m
+    [36m<template />[39m
+    [36m<span[39m
+      [33mdata-focus-scope-start[39m=[32m""[39m
+      [33mhidden[39m=[32m""[39m
+    [36m/>[39m
+    [36m<table[39m
+      [33maria-describedby[39m=[32m""[39m
+      [33maria-label[39m=[32m"Files"[39m
+      [33mclass[39m=[32m"react-aria-Table"[39m
+      [33mdata-collection[39m=[32m"react-aria-cl-217"[39m
+      [33mdata-rac[39m=[32m""[39m
+      [33mid[39m=[32m"react-aria-cl-216"[39m
+      [33mrole[39m=[32m"grid"[39m
+      [33mtabindex[39m=[32m"0"[39m
+    [36m>[39m
+      [36m<thead[39m
+        [33mclass[39m=[32m"react-aria-TableHeader"[39m
+        [33mdata-rac[39m=[32m""[39m
+        [33mrole[39m=[32m"rowgroup"[39m
+      [36m>[39m
+        [36m<tr[39m
+          [33mrole[39m=[32m"row"[39m
+        [36m>[39m
+          [36m<th[39m
+            [33maria-colindex[39m=[32m"1"[39m
+            [33mclass[39m=[32m"react-aria-Column"[39m
+            [33mdata-key[39m=[32m"name"[39m
+            [33mdata-rac[39m=[32m""[39m
+            [33mdata-react-aria-pressable[39m=[32m"true"[39m
+            [33mid[39m=[32m"react-aria-cl-216-name"[39m
+            [33mrole[39m=[32m"columnheader"[39m
+            [33mtabindex[39m=[32m"-1"[39m
+          [36m>[39m
+            [0mName[0m
+          [36m</th>[39m
+          [36m<th[39m
+            [33maria-colindex[39m=[32m"2"[39m
+            [33mclass[39m=[32m"react-aria-Column"[39m
+            [33mdata-key[39m=[32m"type"[39m
+            [33mdata-rac[39m=[32m""[39m
+            [33mdata-react-aria-pressable[39m=[32m"true"[39m
+            [33mid[39m=[32m"react-aria-cl-216-type"[39m
+            [33mrole[39m=[32m"columnheader"[39m
+            [33mtabindex[39m=[32m"-1"[39m
+          [36m>[39m
+            [0mType[0m
+          [36m</th>[39m
+          [36m<th[39m
+            [33maria-colindex[39m=[32m"3"[39m
+            [33mclass[39m=[32m"react-aria-Column"[39m
+            [33mdata-key[39m=[32m"date"[39m
+            [33mdata-rac[39m=[32m""[39m
+            [33mdata-react-aria-pressable[39m=[32m"true"[39m
+            [33mid[39m=[32m"react-aria-cl-216-date"[39m
+            [33mrole[39m=[32m"columnheader"[39m
+            [33mtabindex[39m=[32m"-1"[39m
+          [36m>[39m
+            [0mDate Modified[0m
+          [36m</th>[39m
+        [36m</tr>[39m
+      [36m</thead>[39m
+      [36m<tbody[39m
+        [33mclass[39m=[32m"react-aria-TableBody"[39m
+        [33mdata-rac[39m=[32m""[39m
+        [33mrole[39m=[32m"rowgroup"[39m
+      [36m>[39m
+        [36m<tr[39m
+          [33maria-labelledby[39m=[32m"react-aria-cl-216-2-name"[39m
+          [33mclass[39m=[32m"react-aria-Row"[39m
+          [33mdata-has-child-items[39m=[32m"true"[39m
+          [33mdata-key[39m=[32m"2"[39m
+          [33mdata-level[39m=[32m"1"[39m
+          [33mdata-rac[39m=[32m""[39m
+          [33mid[39m=[32m"react-aria-cl-228"[39m
+          [33mrole[39m=[32m"row"[39m
+          [33mstyle[39m=[32m"--table-row-level: 1;"[39m
+          [33mtabindex[39m=[32m"-1"[39m
+        [36m/>[39m
+        [36m<tr[39m
+          [33maria-labelledby[39m=[32m"react-aria-cl-216-1-name"[39m
+          [33mclass[39m=[32m"react-aria-Row"[39m
+          [33mdata-has-child-items[39m=[32m"true"[39m
+          [33mdata-key[39m=[32m"1"[39m
+          [33mdata-level[39m=[32m"1"[39m
+          [33mdata-rac[39m=[32m""[39m
+          [33mid[39m=[32m"react-aria-cl-222"[39m
+          [33mrole[39m=[32m"row"[39m
+          [33mstyle[39m=[32m"--table-row-level: 1;"[39m
+          [33mtabindex[39m=[32m"-1"[39m
+        [36m/>[39m
+        [36m<tr[39m
+          [33maria-labelledby[39m=[32m"react-aria-cl-216-3-name"[39m
+          [33mclass[39m=[32m"react-aria-Row"[39m
+          [33mdata-has-child-items[39m=[32m"true"[39m
+          [33mdata-key[39m=[32m"3"[39m
+          [33mdata-level[39m=[32m"1"[39m
+          [33mdata-rac[39m=[32m""[39m
+          [33mid[39m=[32m"react-aria-cl-234"[39m
+          [33mrole[39m=[32m"row"[39m
+          [33mstyle[39m=[32m"--table-row-level: 1;"[39m
+          [33mtabindex[39m=[32m"-1"[39m
+        [36m/>[39m
+        [36m<tr[39m
+          [33maria-labelledby[39m=[32m"react-aria-cl-216-4-name"[39m
+          [33mclass[39m=[32m"react-aria-Row"[39m
+          [33mdata-has-child-items[39m=[32m"true"[39m
+          [33mdata-key[39m=[32m"4"[39m
+          [33mdata-level[39m=[32m"1"[39m
+          [33mdata-rac[39m=[32m""[39m
+          [33mid[39m=[32m"react-aria-cl-240"[39m
+          [33mrole[39m=[32m"row"[39m
+          [33mstyle[39m=[32m"--table-row-level: 1;"[39m
+          [33mtabindex[39m=[32m"-1"[39m
+        [36m/>[39m
+      [36m</tbody>[39m
+    [36m</table>[39m
+    [36m<span[39m
+      [33mdata-focus-scope-end[39m=[32m""[39m
+      [33mhidden[39m=[32m""[39m
+    [36m/>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ getAllByRole node_modules/.pnpm/@testing-library+dom@10.4.2/node_modules/@testing-library/dom/dist/query-helpers.js:109:15
+ ❯ packages/react-aria-components/test/Table.test.jsx:1455:23
+    1453|
+    1454|     tree.updateFixtureProps({tableBodyProps: {items: [rows[1], {...row…
+    1455|     rowHeaders = tree.getAllByRole('rowheader');
+       |                       ^
+    1456|     expect(rowHeaders.map(r => r.textContent)).toEqual([
+    1457|       'Program Files',
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/3]⎯
+
+⎯⎯⎯⎯⎯⎯ Unhandled Errors ⎯⎯⎯⎯⎯⎯
+
+Vitest caught 1 unhandled error during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+
+⎯⎯⎯⎯⎯ Uncaught Exception ⎯⎯⎯⎯⎯
+Error: [REACTIVITY_HALTED] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#reactivity_halted
+ ❯ Console.console.warn scripts/setupTests.js:82:48
+     80|
+     81|     warn.apply(console, arguments);
+     82|     throw message instanceof Error ? message : new Error(message);
+       |                                                ^
+     83|   };
+     84| }
+ ❯ node_modules/.pnpm/@solidjs+signals@2.0.0-rc.13/node_modules/@solidjs/signals/dist/dev-shared.js:659:27
+ ❯ processTicksAndRejections node:internal/process/task_queues:104:5
+
+This error originated in "packages/react-aria-components/test/Table.test.jsx" test file. It doesn't mean the error was thrown inside the file itself, but while it was running.
+The latest test that might've caused the error is "should support disabled state". It might mean one of the following:
+- The error was thrown, while Vitest was running this test.
+- If the error occurred after the test had been completed, this was the last documented test before it was thrown.
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+ Test Files  1 failed (1)
+      Tests  3 failed | 5 passed | 170 skipped (178)
+     Errors  1 error
+   Start at  12:29:15
+   Duration  3.48s (transform 1.96s, setup 102ms, import 2.23s, tests 724ms, environment 258ms)
+

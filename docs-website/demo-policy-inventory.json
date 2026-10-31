@@ -1,0 +1,1077 @@
+[
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Autocomplete.mdx",
+    "placeholders": 10,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Breadcrumbs.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Button.mdx",
+    "placeholders": 0,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Calendar.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Checkbox.mdx",
+    "placeholders": 0,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/CheckboxGroup.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ColorArea.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ColorField.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ColorPicker.mdx",
+    "placeholders": 7,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ColorSlider.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ColorSwatch.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ColorSwatchPicker.mdx",
+    "placeholders": 3,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ColorWheel.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ComboBox.mdx",
+    "placeholders": 0,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/DateField.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/DatePicker.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/DateRangePicker.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Disclosure.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/DisclosureGroup.mdx",
+    "placeholders": 3,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/DropZone.mdx",
+    "placeholders": 3,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/FileTrigger.mdx",
+    "placeholders": 2,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/FocusRing.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/FocusScope.mdx",
+    "placeholders": 2,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Form.mdx",
+    "placeholders": 7,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/GridList.mdx",
+    "placeholders": 0,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Group.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/I18nProvider.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Link.mdx",
+    "placeholders": 0,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ListBox.mdx",
+    "placeholders": 0,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Menu.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Meter.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Modal.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/NavigationTree.mdx",
+    "placeholders": 5,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/NumberField.mdx",
+    "placeholders": 0,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Popover.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/PortalProvider.mdx",
+    "placeholders": 2,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/PreviewTrigger.mdx",
+    "placeholders": 4,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ProgressBar.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/RadioGroup.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/RangeCalendar.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/SSRProvider.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/SearchField.mdx",
+    "placeholders": 0,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Select.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Separator.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Sheet.mdx",
+    "placeholders": 6,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Slider.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Switch.mdx",
+    "placeholders": 0,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Table.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Tabs.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/TagGroup.mdx",
+    "placeholders": 0,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/TextField.mdx",
+    "placeholders": 0,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/TimeField.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Toast.mdx",
+    "placeholders": 8,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ToggleButton.mdx",
+    "placeholders": 0,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ToggleButtonGroup.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/TokenField.mdx",
+    "placeholders": 8,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Toolbar.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Tooltip.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Tree.mdx",
+    "placeholders": 0,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Virtualizer.mdx",
+    "placeholders": 9,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/VisuallyHidden.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ai.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/collections.mdx",
+    "placeholders": 7,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/customization.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/dnd.mdx",
+    "placeholders": 15,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/error.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/forms.mdx",
+    "placeholders": 9,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/frameworks.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/getting-started.mdx",
+    "placeholders": 2,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/hooks.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/index.mdx",
+    "placeholders": 7,
+    "inlineComments": 14
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/mcp.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/mergeProps.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/quality.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/selection.mdx",
+    "placeholders": 29,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/styling.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/testing.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useAsyncList.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useClipboard.mdx",
+    "placeholders": 6,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useCollator.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useContextMenu.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useDateFormatter.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useDrag.mdx",
+    "placeholders": 7,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useDraggableCollection.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useDrop.mdx",
+    "placeholders": 7,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useDroppableCollection.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useField.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useFilter.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useFocus.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useFocusRing.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useFocusVisible.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useFocusWithin.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useHover.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useId.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useIsSSR.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useKeyboard.mdx",
+    "placeholders": 2,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useLabel.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useLandmark.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useListData.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useListFormatter.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useLocale.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useLongPress.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useMove.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useNumberFormatter.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useObjectRef.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/usePress.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/useTreeData.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Breadcrumbs/useBreadcrumbs.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Button/useButton.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Calendar/useCalendar.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/CheckboxGroup/testing.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/CheckboxGroup/useCheckboxGroup.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Checkbox/useCheckbox.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ColorArea/useColorArea.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ColorSlider/useColorSlider.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ColorWheel/useColorWheel.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ColorField/useColorField.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ColorSwatch/useColorSwatch.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ComboBox/testing.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ComboBox/useComboBox.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/DateField/useDateField.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/DatePicker/useDatePicker.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/DateRangePicker/useDateRangePicker.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Disclosure/useDisclosure.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Link/useLink.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/GridList/testing.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/GridList/useGridList.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ListBox/testing.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ListBox/useListBox.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Meter/useMeter.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Modal/testing.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Modal/useModalOverlay.mdx",
+    "placeholders": 2,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Menu/testing.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Menu/useMenu.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Popover/testing.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Popover/usePopover.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/NumberField/useNumberField.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ProgressBar/useProgressBar.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/RangeCalendar/useRangeCalendar.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/SearchField/useSearchField.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Select/testing.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Select/useSelect.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Separator/useSeparator.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Slider/useSlider.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/RadioGroup/testing.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/RadioGroup/useRadioGroup.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Switch/useSwitch.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Tabs/testing.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Tabs/useTabList.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Table/testing.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Table/useTable.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/TextField/useTextField.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/TimeField/useTimeField.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Toast/useToast.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ToggleButtonGroup/useToggleButtonGroup.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Toolbar/useToolbar.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Tooltip/useTooltipTrigger.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/ToggleButton/useToggleButton.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/Tree/testing.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/blog/accessible-color-descriptions.mdx",
+    "placeholders": 1,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/blog/building-a-button-part-1.mdx",
+    "placeholders": 0,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/blog/building-a-button-part-2.mdx",
+    "placeholders": 0,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/blog/building-a-button-part-3.mdx",
+    "placeholders": 0,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/blog/building-a-combobox.mdx",
+    "placeholders": 0,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/blog/creating-a-pointer-friendly-submenu-experience.mdx",
+    "placeholders": 1,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/blog/date-and-time-pickers-for-all.mdx",
+    "placeholders": 2,
+    "inlineComments": 3
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/blog/drag-and-drop.mdx",
+    "placeholders": 1,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/blog/how-we-internationalized-our-numberfield.mdx",
+    "placeholders": 2,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/blog/index.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/blog/introducing-react-spectrum.mdx",
+    "placeholders": 2,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/blog/rtl-date-time.mdx",
+    "placeholders": 0,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/blog/sheet.mdx",
+    "placeholders": 5,
+    "inlineComments": 2
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/examples/crud.mdx",
+    "placeholders": 1,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/examples/emoji-picker.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/examples/index.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/examples/ios-list.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/examples/kanban.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/examples/photos.mdx",
+    "placeholders": 1,
+    "inlineComments": 1
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/examples/ripple-button.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/examples/swipeable-tabs.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/TagGroup/useTagGroup.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/index.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-0-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-1-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-10-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-11-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-12-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-13-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-14-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-15-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-16-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-17-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-18-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-19-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-2-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-20-0.mdx",
+    "placeholders": 4,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-21-0.mdx",
+    "placeholders": 2,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-22-0.mdx",
+    "placeholders": 1,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-3-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-4-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-5-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-6-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-7-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-8-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/releases/v1-9-0.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/internationalized/number/NumberFormatter.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/internationalized/number/NumberParser.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/internationalized/number/index.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/internationalized/date/Calendar.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/internationalized/date/CalendarDate.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/internationalized/date/CalendarDateTime.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/internationalized/date/DateFormatter.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/internationalized/date/Time.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/internationalized/date/ZonedDateTime.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  },
+  {
+    "file": "packages/dev/s2-docs/pages/react-aria/internationalized/date/index.mdx",
+    "placeholders": 0,
+    "inlineComments": 0
+  }
+]

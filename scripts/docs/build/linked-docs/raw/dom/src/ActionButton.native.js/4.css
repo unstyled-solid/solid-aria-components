@@ -1,0 +1,32 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .I67logd18 {
+    margin-inline-start: var(--iconMargin);
+  }
+
+
+  .z2U5Crc18 {
+    grid-column-start: icon;
+  }
+
+
+  .y2U5Crc18 {
+    grid-column-end: icon;
+  }
+
+
+  .B2U5Crc18 {
+    grid-row-start: icon;
+  }
+
+
+  .A2U5Crc18 {
+    grid-row-end: icon;
+  }
+}
+
+.-macro-static-GQsv9 {
+        --macro-data-GQsv9: {"style":{"marginStart":"--iconMargin","gridArea":"icon"},"loc":"/Users/avi/avir-oss/solid-aria-components/scripts/docs/build/input/dom/src/ActionButton.native.js:334:40"};
+      }
+

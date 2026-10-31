@@ -1,0 +1,203 @@
+
+> dev:slice
+> cd packages/dev/s2-docs && DOCS_ISLAND_SCOPE=Slider DOCS_ENV=dev LIBRARY=react-aria parcel pages/react-aria/Slider.mdx -p 4340 --target react-static --config .parcelrc-s2-docs --dist-dir ../../../../dist-slice --cache-dir ../../../../.parcel-cache-slice
+
+/bin/sh: /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/node_modules/term-size/vendor/macos/term-size: Bad CPU type in executable
+Server running at http://localhost:4340
+✨ Built in 171ms
+Building...
+Bundling...
+✨ Built in 495ms
+Building...
+Bundling...
+✨ Built in 141ms
+Building...
+Bundling...
+Packaging & Optimizing...
+✨ Built in 1.19s
+Building...
+
+@parcel/package-manager: ES module dependencies are experimental.
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/MDXTransformer.mjs
+  
+
+🚨 Build failed.
+
+@parcel/core: Failed to resolve 'client-only' from 
+'/Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/exports/index.ts'
+
+  /Users/avi/avir-oss/solid-aria-components/packages/react-aria-components/exports/index.ts:15:8
+    14 | // to import it from a React Server Component in a framework like Next.
+  > 15 | import 'client-only';
+  >    |        ^^^^^^^^^^^^^
+    16 | 
+    17 | export {
+
+@parcel/resolver-default: Cannot find module 'client-only'
+Building...
+Bundling...
+Packaging & Optimizing...
+✨ Built in 6.05s
+Building...
+Bundling...
+Packaging & Optimizing...
+✨ Built in 922ms
+Building...
+Bundling...
+Packaging & Optimizing...
+✨ Built in 1.02s
+Building...
+Bundling...
+Packaging & Optimizing...
+✨ Built in 6.56s
+Building...
+Bundling...
+✨ Built in 272ms
+Building...
+Bundling...
+✨ Built in 108ms
+Building...
+Bundling...
+✨ Built in 99ms
+Building...
+Bundling...
+✨ Built in 166ms
+Building...
+🚨 Build failed.
+
+@parcel/core: Failed to resolve './Slider/solid-Slider' from 
+'./packages/dev/s2-docs/pages/react-aria/Slider/solid-example-4.tsx'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Slider/solid-example-4.tsx:6:24
+    5 |   let [currentValue, setCurrentValue] = createSignal(25);
+  > 6 |   let [finalValue, setFinalValue] = createSignal(25);
+  >   |                        ^^^^^^^^^^^^^^^^^^^^^^^
+    7 | 
+    8 |   return (
+
+@parcel/resolver-default: Cannot load file './Slider/solid-Slider' in 
+'./packages/dev/s2-docs/pages/react-aria/Slider'.
+💡 Did you mean './solid-Slider'?
+💡 Did you mean '../Switch/solid-demo'?
+
+Building...
+🚨 Build failed.
+
+@parcel/core: Failed to resolve './utilities.css' from 
+'./packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Slider.css'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Slider.css:2:9
+    1 | @import './theme.css';
+  > 2 | @import './utilities.css';
+  >   |         ^^^^^^^^^^^^^^^^^
+    3 | 
+    4 | .react-aria-Slider {
+
+@parcel/resolver-default: Cannot load file './utilities.css' in 
+'./packages/dev/s2-docs/pages/react-aria/Slider/vanilla'.
+💡 Did you mean './Slider.css'?
+
+Building...
+🚨 Build failed.
+
+@parcel/core: Failed to resolve './Slider/solid-Slider' from 
+'./packages/dev/s2-docs/pages/react-aria/Slider/solid-example-4.tsx'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Slider/solid-example-4.tsx:6:24
+    5 |   let [currentValue, setCurrentValue] = createSignal(25);
+  > 6 |   let [finalValue, setFinalValue] = createSignal(25);
+  >   |                        ^^^^^^^^^^^^^^^^^^^^^^^
+    7 | 
+    8 |   return (
+
+@parcel/resolver-default: Cannot load file './Slider/solid-Slider' in 
+'./packages/dev/s2-docs/pages/react-aria/Slider'.
+💡 Did you mean './solid-Slider'?
+💡 Did you mean '../Switch/solid-demo'?
+
+Building...
+🚨 Build failed.
+
+@parcel/core: Failed to resolve './theme.css' from 
+'./packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Slider.css'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Slider.css:1:9
+  > 1 | @import './theme.css';
+  >   |         ^^^^^^^^^^^^^
+    2 | @import './utilities.css';
+    3 | 
+
+@parcel/resolver-default: Cannot load file './theme.css' in 
+'./packages/dev/s2-docs/pages/react-aria/Slider/vanilla'.
+💡 Did you mean './Form.css'?
+💡 Did you mean './Slider.css'?
+
+Building...
+🚨 Build failed.
+
+@parcel/core: Failed to resolve './theme.css' from 
+'./packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Form.css'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Form.css:1:9
+  > 1 | @import './theme.css';
+  >   |         ^^^^^^^^^^^^^
+    2 | 
+    3 | .react-aria-Form {
+
+@parcel/resolver-default: Cannot load file './theme.css' in 
+'./packages/dev/s2-docs/pages/react-aria/Slider/vanilla'.
+💡 Did you mean './Form.css'?
+💡 Did you mean './Slider.css'?
+
+Building...
+🚨 Build failed.
+
+@parcel/core: Failed to resolve './theme.css' from 
+'./packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Slider.css'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Slider.css:1:9
+  > 1 | @import './theme.css';
+  >   |         ^^^^^^^^^^^^^
+    2 | @import './utilities.css';
+    3 | 
+
+@parcel/resolver-default: Cannot load file './theme.css' in 
+'./packages/dev/s2-docs/pages/react-aria/Slider/vanilla'.
+💡 Did you mean './Form.css'?
+💡 Did you mean './Slider.css'?
+
+Building...
+🚨 Build failed.
+
+@parcel/core: Failed to resolve './utilities.css' from 
+'./packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Slider.css'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Slider.css:2:9
+    1 | @import './theme.css';
+  > 2 | @import './utilities.css';
+  >   |         ^^^^^^^^^^^^^^^^^
+    3 | 
+    4 | .react-aria-Slider {
+
+@parcel/resolver-default: Cannot load file './utilities.css' in 
+'./packages/dev/s2-docs/pages/react-aria/Slider/vanilla'.
+💡 Did you mean './Slider.css'?
+
+Building...
+🚨 Build failed.
+
+@parcel/core: Failed to resolve './theme.css' from 
+'./packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Slider.css'
+
+  /Users/avi/avir-oss/solid-aria-components/docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Slider.css:1:9
+  > 1 | @import './theme.css';
+  >   |         ^^^^^^^^^^^^^
+    2 | @import './utilities.css';
+    3 | 
+
+@parcel/resolver-default: Cannot load file './theme.css' in 
+'./packages/dev/s2-docs/pages/react-aria/Slider/vanilla'.
+💡 Did you mean './Form.css'?
+💡 Did you mean './Slider.css'?
+

@@ -1,0 +1,38 @@
+{
+  "scope": "P41 A2/A3 isolated transport/freeze/evidence-writer fixtures",
+  "canonicalSourceAdvanced": false,
+  "verifiedParitySha": null,
+  "originalTransportCases": 29,
+  "planRequiredFreezeWriterCases": 9,
+  "runs": [
+    {
+      "command": "rtk proxy node --test test/upstream/git/workflow.test.mjs test/upstream/git/verification.test.mjs",
+      "passed": 37,
+      "failed": 1,
+      "diagnosis": "Initial freeze made missing-baseline HEAD validation precede original MISSING_COMMIT validation. Recorded-object check moved before HEAD validation."
+    },
+    {
+      "command": "rtk proxy node --test --test-name-pattern='missing recorded commit does not guess a baseline' test/upstream/git/workflow.test.mjs",
+      "passed": 1,
+      "failed": 0
+    },
+    {
+      "command": "rtk proxy node --test --test-name-pattern='initial null parity freezes baseline through update, queue and init; full binary diff bytes retained' test/upstream/git/verification.test.mjs",
+      "passed": 1,
+      "failed": 0,
+      "reason": "Strengthened required raw-diff assertion to exact Buffer equality including trailing bytes."
+    }
+  ],
+  "status": "All 38 scoped cases qualified across retained and focused runs; no global library parity claim",
+  "offlineCanonicalStatus": {
+    "command": "rtk proxy node scripts/upstream/cli.mjs status --source react-spectrum --json",
+    "head": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+    "dirty": false,
+    "pendingTransaction": false,
+    "lock": null,
+    "parity": "unverified"
+  },
+  "activeBlocker": null,
+  "failedRepairAttempts": 0,
+  "directionlessInvestigativeCalls": 0
+}

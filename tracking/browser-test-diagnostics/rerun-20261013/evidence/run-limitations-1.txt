@@ -1,0 +1,10 @@
+ ↓ |webkit-desktop| packages/react-aria-components/test/TokenField.composition.browser.test.tsx (19 tests | 19 skipped)
+ ↓ |firefox-desktop| packages/react-aria-components/test/TokenField.composition.browser.test.tsx (19 tests | 19 skipped)
+ ↓ |firefox-desktop| packages/react-aria-components/test/ShadowDOMFocus.browser.test.tsx (3 tests | 3 skipped)
+ ❯ |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx (7 tests | 1 failed) 43788ms
+ Test Files  1 failed | 29 passed | 3 skipped (33)
+      Tests  1 failed | 357 passed | 41 skipped (399)
+   Duration  164.96s (transform 0ms, setup 63.00s, import 405.93s, tests 532.12s, environment 0ms)
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+ FAIL  |firefox-desktop| packages/react-aria-components/test/TokenField.scroll.browser.test.tsx:51:4 > TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('ltr')
+Error: Test timed out in 20000ms.

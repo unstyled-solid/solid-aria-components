@@ -1,0 +1,19 @@
+resize react [ 100, 100, 75, 104, 521 ] true true true [ 'onResizeStart', 'onResize', 'onResizeEnd' ] [] []
+resize native [ 100, 100, 75, 104, 521 ] true true true [ 'onResizeStart', 'onResize', 'onResizeEnd' ] [] []
+tabs react undefined [
+  { text: 'Tab 1', selected: 'false', color: 'rgb(0, 0, 0)' },
+  { text: 'Tab 2', selected: 'false', color: 'rgb(0, 0, 0)' },
+  { text: 'Tab 3', selected: 'true', color: 'rgb(255, 0, 0)' }
+] [ true, true, true ] [ true, true ] []
+tabs native undefined [
+  { text: 'Tab 1', selected: 'false', color: 'rgb(0, 0, 0)' },
+  { text: 'Tab 2', selected: 'false', color: 'rgb(0, 0, 0)' },
+  { text: 'Tab 3', selected: 'true', color: 'rgb(255, 0, 0)' }
+] [ true, true, true ] [ true, true ] []
+e8465d68b6b24adb1f99a8f49576a782a4d1a5330743bbe32307b6a86ad87014 packages/react-aria/src/collections/CollectionBuilder.tsx
+ff293426dce29b97eb3497c05072c3bd38afdfb144da2b8f73db5b7f2f6df088 packages/react-stately/src/collections/useCollection.ts
+b1dd79fe4bf781fb037c8f36aa6a3da909f5ef9e2d5e66280c8e6f8b3ed64c55 packages/react-aria-components/src/Tree.tsx
+9847367814aae5e93ecdf0d2c670cd732db247d72e26d27d4256ed869a3966d1 packages/react-aria-components/src/ComboBox.tsx
+d31a403d99df6c80fab669239eef4ae9ede9a4bd2b7f54a35e289a5ddcfb428a packages/react-aria-components/src/utils.tsx
+7dbcecae739ff22183cf9933a130bab24999c58d5980b426534f9bcb6f1ef7ad packages/react-aria/src/collections/Document.ts
+0ca98b13eff4a0bfdf01bf489a5f1f17529a2f3b5713621dcc1c9ace42a6b53f packages/react-aria-components/src/Button.tsx

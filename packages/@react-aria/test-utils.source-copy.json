@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/solid-aria-components/upstream/react-spectrum/packages/@react-aria/test-utils",
+  "target": "/Users/avi/avir-oss/solid-aria-components/packages/@react-aria/test-utils",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "files": [
+    {
+      "path": "src/act.ts",
+      "bytes": 1230,
+      "sha256": "177fd3113c7659ddf93b393edff463120e28e92cdd5e235906cce92ebd7774bf",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/checkboxgroup.ts",
+      "bytes": 5371,
+      "sha256": "cbc297e72c523ddc6e1d0aaaae79fdf6e022d323fb0d5adcc794262a72518209",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/combobox.ts",
+      "bytes": 9995,
+      "sha256": "3a3905fdb6d8493aab3050f3558d881a0bfb0e2ccae92afa9afcf53f61d9b6da",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/dialog.ts",
+      "bytes": 5026,
+      "sha256": "af9bf0a858cb4e39a7c61856ca72ce57878531cb2da2488fa67bda9c6b79fdac",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/gridlist.ts",
+      "bytes": 9682,
+      "sha256": "1ede8af3a8e0666c35fb16768e23038e2957daaa74ed1cb7a30f3f9b5534b00d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/listbox.ts",
+      "bytes": 10249,
+      "sha256": "7d5bd8c6ba4755a2fce12bf209f3cc3393113c4815c715e57b4a61406f4cdbc2",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/menu.ts",
+      "bytes": 15900,
+      "sha256": "826f6ed4398417777bd105f08ded19f9675ed615fd446d68e23da305593281ab",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/radiogroup.ts",
+      "bytes": 5842,
+      "sha256": "2b1cebb07dfbe29eb55e0a9433e215c334aed5eccf80848fc3b93565b8aee39d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/select.ts",
+      "bytes": 8873,
+      "sha256": "6487ad46580169d89e1b05a42f97a38e6a94c6520aff33d5b7929176ad9a4f31",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/table.ts",
+      "bytes": 20099,
+      "sha256": "2beb86144254cea634fa7e3e3035734c35e5580c623386ae25e95105320c22d3",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/tabs.ts",
+      "bytes": 6301,
+      "sha256": "60bd31eb6364545f90aa4df88bac5d7f7c8867b4b0d1b9e18edb49d58fbfff3f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/tree.ts",
+      "bytes": 9990,
+      "sha256": "1f34417b65c276609df126a1853f610b31808701483177282f008c8e2f9f9324",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/types.ts",
+      "bytes": 5926,
+      "sha256": "f20cc9d845e5c068fca73ef97e90013a98001d7c47506b498c5b20ff8dcd333e",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/user.ts",
+      "bytes": 4942,
+      "sha256": "c202d0ae11a745c92d471f11d420234dea1d2d971be73b7b468ad729d9b05330",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/userEventMaps.ts",
+      "bytes": 472,
+      "sha256": "60e4f3c9c9b067330a7dedb2782db16949a498b56dfa710977b709041f380e56",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/utils.ts",
+      "bytes": 5081,
+      "sha256": "893a5fcef49c71c1b059f21c6234bd01c868265ec8f74c9afe936d790ad22d30",
+      "category": "source-or-helper"
+    }
+  ],
+  "adaptationState": "Actual User eager tester registration closure copied; user pointerMap import bypasses barrel; act uses existing native test adapter. Runtime qualification pending blocked full Radio suite."
+}

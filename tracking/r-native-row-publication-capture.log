@@ -1,0 +1,166 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+CAPTURE header setup
+CAPTURE header setup
+CAPTURE row setup 1
+CAPTURE row setup 2
+CAPTURE row setup 3
+CAPTURE row setup 1
+CAPTURE row setup 2
+CAPTURE row setup 3
+CAPTURE publish [
+  [ 'react-aria-4', 'column', 'react-aria-9' ],
+  [ 'name', 'column', 'react-aria-9' ],
+  [ 'react-aria-7', 'column', 'react-aria-9' ],
+  [ 'react-aria-8', 'column', 'react-aria-9' ],
+  [ 'react-aria-9', 'tableheader', null ],
+  [ 'react-aria-47', 'cell', '1' ],
+  [ 'react-aria-51', 'cell', '1' ],
+  [ 'react-aria-52', 'cell', '1' ],
+  [ 'react-aria-53', 'cell', '1' ],
+  [ '1', 'item', 'react-aria-76' ],
+  [ 'react-aria-58', 'cell', '2' ],
+  [ 'react-aria-62', 'cell', '2' ],
+  [ 'react-aria-63', 'cell', '2' ],
+  [ 'react-aria-64', 'cell', '2' ],
+  [ '2', 'item', 'react-aria-76' ],
+  [ 'react-aria-69', 'cell', '3' ],
+  [ 'react-aria-73', 'cell', '3' ],
+  [ 'react-aria-74', 'cell', '3' ],
+  [ 'react-aria-75', 'cell', '3' ],
+  [ '3', 'item', 'react-aria-76' ],
+  [ 'react-aria-76', 'tablebody', null ]
+]
+CAPTURE header setup
+CAPTURE header setup
+CAPTURE row setup 1
+CAPTURE row setup 2
+CAPTURE row setup 3
+CAPTURE row setup 4
+CAPTURE publish [
+  [ 'name', 'column', 'react-aria-1' ],
+  [ 'type', 'column', 'react-aria-1' ],
+  [ 'date', 'column', 'react-aria-1' ],
+  [ 'react-aria-1', 'tableheader', null ],
+  [ '1:name', 'cell', 1 ],
+  [ '1:type', 'cell', 1 ],
+  [ '1:date', 'cell', 1 ],
+  [ 1, 'item', 'react-aria-2' ],
+  [ '2:name', 'cell', 2 ],
+  [ '2:type', 'cell', 2 ],
+  [ '2:date', 'cell', 2 ],
+  [ 2, 'item', 'react-aria-2' ],
+  [ '3:name', 'cell', 3 ],
+  [ '3:type', 'cell', 3 ],
+  [ '3:date', 'cell', 3 ],
+  [ 3, 'item', 'react-aria-2' ],
+  [ '4:name', 'cell', 4 ],
+  [ '4:type', 'cell', 4 ],
+  [ '4:date', 'cell', 4 ],
+  [ 4, 'item', 'react-aria-2' ],
+  [ 'react-aria-2', 'tablebody', null ]
+]
+CAPTURE row dispose
+CAPTURE row setup 1
+CAPTURE row setup 3
+CAPTURE row setup 4
+CAPTURE row dispose
+CAPTURE row dispose
+CAPTURE row dispose
+CAPTURE publish [
+  [ 'name', 'column', 'react-aria-1' ],
+  [ 'type', 'column', 'react-aria-1' ],
+  [ 'date', 'column', 'react-aria-1' ],
+  [ 'react-aria-1', 'tableheader', null ],
+  [ 'react-aria-2', 'tablebody', null ],
+  [ '1:name', 'cell', 1 ],
+  [ '1:type', 'cell', 1 ],
+  [ '1:date', 'cell', 1 ],
+  [ 1, 'item', 'react-aria-2' ],
+  [ '3:name', 'cell', 3 ],
+  [ '3:type', 'cell', 3 ],
+  [ '3:date', 'cell', 3 ],
+  [ 3, 'item', 'react-aria-2' ],
+  [ '4:name', 'cell', 4 ],
+  [ '4:type', 'cell', 4 ],
+  [ '4:date', 'cell', 4 ],
+  [ 4, 'item', 'react-aria-2' ]
+]
+CAPTURE row dispose
+CAPTURE row dispose
+CAPTURE row dispose
+CAPTURE header dispose
+CAPTURE header dispose
+CAPTURE header setup
+CAPTURE header setup
+CAPTURE row setup 1
+CAPTURE row setup 2
+CAPTURE row setup 3
+CAPTURE row setup 4
+CAPTURE publish [
+  [ 'name', 'column', 'react-aria-1' ],
+  [ 'type', 'column', 'react-aria-1' ],
+  [ 'date', 'column', 'react-aria-1' ],
+  [ 'react-aria-1', 'tableheader', null ],
+  [ '1:name', 'cell', 1 ],
+  [ '1:type', 'cell', 1 ],
+  [ '1:date', 'cell', 1 ],
+  [ 1, 'item', 'react-aria-2' ],
+  [ '2:name', 'cell', 2 ],
+  [ '2:type', 'cell', 2 ],
+  [ '2:date', 'cell', 2 ],
+  [ 2, 'item', 'react-aria-2' ],
+  [ '3:name', 'cell', 3 ],
+  [ '3:type', 'cell', 3 ],
+  [ '3:date', 'cell', 3 ],
+  [ 3, 'item', 'react-aria-2' ],
+  [ '4:name', 'cell', 4 ],
+  [ '4:type', 'cell', 4 ],
+  [ '4:date', 'cell', 4 ],
+  [ 4, 'item', 'react-aria-2' ],
+  [ 'react-aria-2', 'tablebody', null ]
+]
+CAPTURE row setup 2
+CAPTURE row setup 1
+CAPTURE row setup 3
+CAPTURE row setup 4
+CAPTURE row dispose
+CAPTURE row dispose
+CAPTURE row dispose
+CAPTURE row dispose
+CAPTURE publish [
+  [ 'name', 'column', 'react-aria-1' ],
+  [ 'type', 'column', 'react-aria-1' ],
+  [ 'date', 'column', 'react-aria-1' ],
+  [ 'react-aria-1', 'tableheader', null ],
+  [ 'react-aria-2', 'tablebody', null ],
+  [ '2:name', 'cell', 2 ],
+  [ '2:type', 'cell', 2 ],
+  [ '2:date', 'cell', 2 ],
+  [ 2, 'item', 'react-aria-2' ],
+  [ '1:name', 'cell', 1 ],
+  [ '1:type', 'cell', 1 ],
+  [ '1:date', 'cell', 1 ],
+  [ 1, 'item', 'react-aria-2' ],
+  [ '3:name', 'cell', 3 ],
+  [ '3:type', 'cell', 3 ],
+  [ '3:date', 'cell', 3 ],
+  [ 3, 'item', 'react-aria-2' ],
+  [ '4:name', 'cell', 4 ],
+  [ '4:type', 'cell', 4 ],
+  [ '4:date', 'cell', 4 ],
+  [ 4, 'item', 'react-aria-2' ]
+]
+CAPTURE row dispose
+CAPTURE row dispose
+CAPTURE row dispose
+CAPTURE row dispose
+CAPTURE header dispose
+CAPTURE header dispose
+
+ Test Files  1 passed (1)
+      Tests  3 passed | 175 skipped (178)
+   Start at  12:39:38
+   Duration  2.60s (transform 1.56s, setup 107ms, import 1.75s, tests 408ms, environment 240ms)
+

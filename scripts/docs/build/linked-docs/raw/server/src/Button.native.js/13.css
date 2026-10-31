@@ -1,0 +1,33 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  ._Pa18 {
+    position: absolute;
+  }
+
+
+  .WF18 {
+    top: 50%;
+  }
+
+
+  ._EF18 {
+    left: 50%;
+  }
+
+
+  ._Zc18 {
+    transform: translate(-50%, -50%);
+  }
+
+
+  ._6b18 {
+    visibility: hidden;
+  }
+
+
+  ._6c18 {
+    visibility: visible;
+  }
+}
+

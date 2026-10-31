@@ -1,0 +1,10 @@
+[96mdocs-website/upstream/node_modules/tailwind-variants/dist/transformer.d.ts[0m:[93m1[0m:[93m27[0m - [91merror[0m[90m TS2307: [0mCannot find module 'tailwindcss/types/config' or its corresponding type declarations.
+
+[7m1[0m import type {Config} from "tailwindcss/types/config";
+[7m [0m [91m                          ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96mdocs-website/upstream/node_modules/tailwind-variants/dist/transformer.d.ts[0m:[93m2[0m:[93m33[0m - [91merror[0m[90m TS2307: [0mCannot find module 'tailwindcss/types/generated/default-theme' or its corresponding type declarations.
+
+[7m2[0m import type {DefaultTheme} from "tailwindcss/types/generated/default-theme";
+[7m [0m [91m                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+{"total":2,"owned":0}

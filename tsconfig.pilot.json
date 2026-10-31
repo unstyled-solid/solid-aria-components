@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2023", "module": "ESNext", "moduleResolution": "Bundler",
+    "jsx": "preserve", "jsxImportSource": "@solidjs/web", "strict": true,
+    "noEmit": true, "skipLibCheck": false,
+    "baseUrl": ".",
+    "paths": {
+      "react-aria/private/*": ["packages/react-aria/src/*"],
+      "react-aria/*": ["packages/react-aria/exports/*"],
+      "react-stately/private/*": ["packages/react-stately/src/*"],
+      "@react-types/shared": ["packages/@react-types/shared/src/pilot.d.ts"],
+      "@internationalized/number": ["packages/@internationalized/number/src/index.ts"]
+    }
+  },
+  "files": [
+    "packages/react-aria-components/src/ProgressBar.tsx",
+    "packages/react-aria-components/src/Meter.tsx",
+    "packages/dev/test-utils/src/renderOverride.tsx"
+  ]
+}

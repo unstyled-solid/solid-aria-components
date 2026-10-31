@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "mode": "source-derived-fixture",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "source": "upstream/react-spectrum/packages/@adobe/react-spectrum/test/provider/Provider.ssr.test.js",
+  "sourceSha256": "a4a0b788b3dfac6d1816b13e8343bc53ec0f0a0a13f8839e79153bc09a33402f",
+  "sourceLines": [
+    21,
+    26
+  ],
+  "target": "test/ssr-harness/p03-s1-provider.fixture.tsx",
+  "adaptation": "ProviderSSR extracts original Provider/defaultTheme div fixture; native exports replace original package entry."
+}

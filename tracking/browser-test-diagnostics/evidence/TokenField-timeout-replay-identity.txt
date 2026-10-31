@@ -1,0 +1,53 @@
+chromium-desktop | TokenField browser interactions > rendering > does not allow editing when read only
+TOKEN_TIMEOUT_REPLAY readonly {"sameNode":true,"connected":true,"focused":true,"contenteditable":"false","value":"abTOKcd"}
+
+webkit-desktop | TokenField browser interactions > rendering > does not allow editing when read only
+TOKEN_TIMEOUT_REPLAY readonly {"sameNode":true,"connected":true,"focused":true,"contenteditable":"false","value":"abTOKcd"}
+
+chromium-desktop | TokenField browser interactions > focus management > does not steal focus when the value changes while another element is focused
+TOKEN_TIMEOUT_REPLAY focus {"sameOther":true,"sameToken":true,"connected":true,"focusedOther":true}
+
+chromium-desktop | TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('ltr')
+TOKEN_TIMEOUT_REPLAY scroll {"dir":"ltr","key":"{Enter}","sameNode":true,"connected":true,"focused":true,"scrollTop":450,"finalScrollTop":450}
+
+webkit-desktop | TokenField browser interactions > focus management > does not steal focus when the value changes while another element is focused
+TOKEN_TIMEOUT_REPLAY focus {"sameOther":true,"sameToken":true,"connected":true,"focusedOther":true}
+
+webkit-desktop | TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('ltr')
+TOKEN_TIMEOUT_REPLAY scroll {"dir":"ltr","key":"{Enter}","sameNode":true,"connected":true,"focused":true,"scrollTop":450,"finalScrollTop":450}
+
+chromium-desktop | TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('rtl')
+TOKEN_TIMEOUT_REPLAY scroll {"dir":"rtl","key":"{Enter}","sameNode":true,"connected":true,"focused":true,"scrollTop":450,"finalScrollTop":450}
+
+chromium-desktop | TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('ltr')
+TOKEN_TIMEOUT_REPLAY scroll {"dir":"ltr","key":",","sameNode":true,"connected":true,"focused":true,"scrollTop":450,"finalScrollTop":450}
+
+webkit-desktop | TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('rtl')
+TOKEN_TIMEOUT_REPLAY scroll {"dir":"rtl","key":"{Enter}","sameNode":true,"connected":true,"focused":true,"scrollTop":450,"finalScrollTop":450}
+
+chromium-desktop | TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('rtl')
+TOKEN_TIMEOUT_REPLAY scroll {"dir":"rtl","key":",","sameNode":true,"connected":true,"focused":true,"scrollTop":450,"finalScrollTop":450}
+
+webkit-desktop | TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('ltr')
+TOKEN_TIMEOUT_REPLAY scroll {"dir":"ltr","key":",","sameNode":true,"connected":true,"focused":true,"scrollTop":450,"finalScrollTop":450}
+
+webkit-desktop | TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('rtl')
+TOKEN_TIMEOUT_REPLAY scroll {"dir":"rtl","key":",","sameNode":true,"connected":true,"focused":true,"scrollTop":450,"finalScrollTop":450}
+
+firefox-desktop | TokenField browser interactions > rendering > does not allow editing when read only
+TOKEN_TIMEOUT_REPLAY readonly {"sameNode":true,"connected":true,"focused":true,"contenteditable":"false","value":"abTOKcd"}
+
+firefox-desktop | TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('ltr')
+TOKEN_TIMEOUT_REPLAY scroll {"dir":"ltr","key":"{Enter}","sameNode":true,"connected":true,"focused":true,"scrollTop":450,"finalScrollTop":450}
+
+firefox-desktop | TokenField browser interactions > focus management > does not steal focus when the value changes while another element is focused
+TOKEN_TIMEOUT_REPLAY focus {"sameOther":true,"sameToken":true,"connected":true,"focusedOther":true}
+
+firefox-desktop | TokenField scrolling > keeps a visible tag field in place after 'Enter' and Backspace ('rtl')
+TOKEN_TIMEOUT_REPLAY scroll {"dir":"rtl","key":"{Enter}","sameNode":true,"connected":true,"focused":true,"scrollTop":450,"finalScrollTop":450}
+
+firefox-desktop | TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('ltr')
+TOKEN_TIMEOUT_REPLAY scroll {"dir":"ltr","key":",","sameNode":true,"connected":true,"focused":true,"scrollTop":450,"finalScrollTop":450}
+
+firefox-desktop | TokenField scrolling > keeps a visible tag field in place after 'comma' and Backspace ('rtl')
+TOKEN_TIMEOUT_REPLAY scroll {"dir":"rtl","key":",","sameNode":true,"connected":true,"focused":true,"scrollTop":450,"finalScrollTop":450}

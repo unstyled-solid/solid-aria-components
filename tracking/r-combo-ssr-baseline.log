@@ -1,0 +1,81 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+<anonymous_script>:1
+TOOLTIP_FACTORY object true [
+^
+
+SyntaxError: Unexpected token 'T', "TOOLTIP_FA"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at file:///Users/avi/avir-oss/solid-aria-components/scripts/test/ssr-fixture.mjs:34:23
+
+Node.js v25.8.1
+<anonymous_script>:1
+TOOLTIP_FACTORY object true [
+^
+
+SyntaxError: Unexpected token 'T', "TOOLTIP_FA"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at file:///Users/avi/avir-oss/solid-aria-components/scripts/test/ssr-fixture.mjs:34:23
+
+Node.js v25.8.1
+ ❯ |solid2-pilot| packages/react-aria-components/test/ComboBox.ssr.test.js (2 tests | 2 failed) 1549ms
+     × should render text of default selected key 772ms
+     × should point ref correctly after hydration 776ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/ComboBox.ssr.test.js > ComboBox SSR > should render text of default selected key
+Error: Command failed: /Users/avi/.local/share/mise/installs/node/25.8.1/bin/node /Users/avi/avir-oss/solid-aria-components/scripts/test/ssr-fixture.mjs {"filename":"/Users/avi/avir-oss/solid-aria-components/test/ssr-harness/p15-combobox-selected.tsx","exportName":"Fixture"}
+<anonymous_script>:1
+TOOLTIP_FACTORY object true [
+^
+
+SyntaxError: Unexpected token 'T', "TOOLTIP_FA"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at file:///Users/avi/avir-oss/solid-aria-components/scripts/test/ssr-fixture.mjs:34:23
+
+Node.js v25.8.1
+
+ ❯ scripts/test/ssr-fixture.mjs:34:23
+ ❯ testSSR packages/dev/test-utils/src/testSSR.tsx:25:31
+     23| ): Promise<void> {
+     24|   const runner = resolve(process.cwd(), 'scripts/test/ssr-fixture.mjs'…
+     25|   const artifact = JSON.parse(execFileSync(process.execPath, [runner, …
+       |                               ^
+     26|   if (!artifact.isServer) throw new Error('HARNESS_SERVER_CONDITIONS');
+     27|   const previousHydration = globalThis._$HY;
+ ❯ packages/react-aria-components/test/ComboBox.ssr.test.js:20:11
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/ComboBox.ssr.test.js > ComboBox SSR > should point ref correctly after hydration
+Error: Command failed: /Users/avi/.local/share/mise/installs/node/25.8.1/bin/node /Users/avi/avir-oss/solid-aria-components/scripts/test/ssr-fixture.mjs {"filename":"/Users/avi/avir-oss/solid-aria-components/test/ssr-harness/p15-combobox-ref.tsx","exportName":"Fixture"}
+<anonymous_script>:1
+TOOLTIP_FACTORY object true [
+^
+
+SyntaxError: Unexpected token 'T', "TOOLTIP_FA"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at file:///Users/avi/avir-oss/solid-aria-components/scripts/test/ssr-fixture.mjs:34:23
+
+Node.js v25.8.1
+
+ ❯ scripts/test/ssr-fixture.mjs:34:23
+ ❯ testSSR packages/dev/test-utils/src/testSSR.tsx:25:31
+     23| ): Promise<void> {
+     24|   const runner = resolve(process.cwd(), 'scripts/test/ssr-fixture.mjs'…
+     25|   const artifact = JSON.parse(execFileSync(process.execPath, [runner, …
+       |                               ^
+     26|   if (!artifact.isServer) throw new Error('HARNESS_SERVER_CONDITIONS');
+     27|   const previousHydration = globalThis._$HY;
+ ❯ packages/react-aria-components/test/ComboBox.ssr.test.js:38:11
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed (2)
+   Start at  16:40:14
+   Duration  3.09s (transform 955ms, setup 102ms, import 1.07s, tests 1.55s, environment 247ms)
+

@@ -1,0 +1,9 @@
+__RUNTIME_PROFILE__{"solidDevelopment":true,"signalsDevelopment":true,"nodeEnvironment":"development"}
+__RUNTIME_PROFILE__{"solidDevelopment":true,"signalsDevelopment":true,"nodeEnvironment":"development"}
+ ✓ |chromium-desktop| packages/react-aria-components/test/Tabs.browser.test.tsx (2 tests) 40ms
+ ✓ |webkit-desktop| packages/react-aria-components/test/Tabs.browser.test.tsx (2 tests) 63ms
+__RUNTIME_PROFILE__{"solidDevelopment":true,"signalsDevelopment":true,"nodeEnvironment":"development"}
+ ✓ |firefox-desktop| packages/react-aria-components/test/Tabs.browser.test.tsx (2 tests) 51ms
+ Test Files  3 passed (3)
+      Tests  6 passed (6)
+   Duration  2.13s (transform 0ms, setup 381ms, import 837ms, tests 154ms, environment 0ms)

@@ -1,0 +1,109 @@
+{
+  "frozenSHA": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "strict": "./node_modules/.bin/tsc -p tsconfig.p31-i.json passed",
+  "artifacts": {
+    "workflow": {
+      "retainedEvidence": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/p14-workflow-2.3.5/verification.json",
+      "tarballSHA256": "5daf9caf63734a5ebbc4881f0173671aba1c22ad4e14e77a43aaa3cf5a4e7ebb",
+      "SRI": "sha512-b53VIPwPWKb/T5gzE3qs+QlGP5gVrw/LnWV3xMksDU+CRl3rzOKUwxIGiZO8ICyYh1WiyqY4myGlPU/nAynBUg==",
+      "SRIAndSHA1Reverified": true,
+      "licenseSHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenseCorrespondenceVerified": true
+    },
+    "ui": {
+      "retainedEvidence": "/private/var/folders/k1/dqkw16gn09q6492v5jn1x_jc0000gn/T/opencode/spectrum-ui-1.2.1.tpCFWA/verification.json",
+      "tarballSHA256": "021c9956d1b1774b4db2378cf2d7365d4b9c11681eb8599eaf7958bbb4c19b46",
+      "SRI": "sha512-wcrbEE2O/9WnEn6avBnaVRRx88S5PLFsPLr4wffzlbMfXeQsy+RMQwaJd3cbzrn18/j04Isit7f7Emfn0dhrJA==",
+      "SRIAndSHA1Reverified": true,
+      "licenseSHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "licenseCorrespondenceVerified": true
+    }
+  },
+  "generators": {
+    "upstream/react-spectrum/packages/@spectrum-icons/workflow/scripts/generateIcons.cjs": "234c67dd08999d1380439b5cf0773c2d0a4d18a20d3007b81d91a8197a51a1c8",
+    "upstream/react-spectrum/packages/@spectrum-icons/ui/scripts/generateIcons.cjs": "5e71a47b004af9a5d44001d97417b9a090f4fc581adb5323bede2a70dd22d622"
+  },
+  "files": {
+    "packages/@adobe/react-spectrum-workflow/src/HelpOutline.jsx": {
+      "originalSHA256": "48aae0bed96383000fafdaceeed57c1e0d59822967b7c618184dad71c41419b6",
+      "nativeSHA256": "13187e507f77504764c40fb8a1174e6bfd67b4ddd27c51afcc8d3851618fff87",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/HelpOutline.tsx": {
+      "originalSHA256": "0ad6af84c5d4682e8328e8317baf306caea09d405451c6c810115d21c9bb02ba",
+      "nativeSHA256": "b4b8d46bbf8f1838ee1e28637009282fcba2037de319e7fba585c76658201306"
+    },
+    "packages/@adobe/react-spectrum-workflow/src/InfoOutline.jsx": {
+      "originalSHA256": "a34a95a9dc02abe02a9b21bba2048cb95a5ab664a8cad775a32f5f606a335a2e",
+      "nativeSHA256": "fc96ecd731279917a4abd67ac7e8ef9a6331a6ec2774c6fbe15204781b131a88",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/InfoOutline.tsx": {
+      "originalSHA256": "2d3cdbe3a4a6ef858ac6a1ffc2030053f2ab157a4efe8054de658f46b43c9ade",
+      "nativeSHA256": "08953eb3b1b0a86f67c454e204cdd974cb85f8cf9988450f46ea3991470304c6"
+    },
+    "packages/@adobe/react-spectrum-workflow/src/AlignCenter.jsx": {
+      "originalSHA256": "e7048281778f1fadf6aae9374f845cd08140af165d882cb564e4b4ee85cf71ef",
+      "nativeSHA256": "5b5529ec9353f2b5be9b9f962e0a763211b9fc096177bf44548cf840f989e2a1",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/AlignCenter.tsx": {
+      "originalSHA256": "ff48d0a4434aa074ad67b5007e82874036c7a5816be63ed8606b561bed77a856",
+      "nativeSHA256": "a7bbb76f6def3dce55edbe2aeb8087975396fefdab4b4f492370ea138ce33446"
+    },
+    "packages/@adobe/react-spectrum-workflow/src/AlignLeft.jsx": {
+      "originalSHA256": "f757cf1857687ea4540de4a251190a6d3ec26e86236dc98367bb2f9d221f4097",
+      "nativeSHA256": "cfea03c2c792e6e7c0915561e4161308dc56dd3fcd4ec3b5da01db1158f06873",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/AlignLeft.tsx": {
+      "originalSHA256": "6dd37c369f391358956644afb3e4818033fe4870babd1569a3c27a925f3324e8",
+      "nativeSHA256": "292fb552872baae24b411d544ca670895439aa0a25bca2cdbfb3770429cc47e0"
+    },
+    "packages/@adobe/react-spectrum-workflow/src/AlignRight.jsx": {
+      "originalSHA256": "74fa1f29ad43084e97e019ffeaacd2319b668aa35f22b65cbe7f9c3b2988cf3b",
+      "nativeSHA256": "787d633645ac076b996013c9a5dc10624c48c4c56cf93ed1bf584a2d87a02fc7",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/AlignRight.tsx": {
+      "originalSHA256": "7f5118633875d453f5c4ce5c1cf1b691f33cb9cc54a12d3c7e54868c8e1017b5",
+      "nativeSHA256": "3c387295676cd3a1b236b22fded5ca834f1f8b2cdbf9d9af910b90a01827981e"
+    },
+    "packages/@adobe/react-spectrum-workflow/src/Copy.jsx": {
+      "originalSHA256": "c368d50fe4cdee75d7619d158afc79911ede791a848457c929e0f6c64fc305a3",
+      "nativeSHA256": "a35da47e8882f98cf187f72ec5a7d8e0b32a9d8e43c3822c8319b4c24e1b43a5",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/Copy.tsx": {
+      "originalSHA256": "94ba8b6aee7b4a20941b0a252911c8a38871ad1aed6f0b8ba95b2c1f9ea9af05",
+      "nativeSHA256": "77a3b3b7e84f0d312e263026d0390d605c1b2bc7574aa9f0583ec99ca2009ae8"
+    },
+    "packages/@adobe/react-spectrum-workflow/src/Cut.jsx": {
+      "originalSHA256": "140c397a15644f34c829f9c63e8104fbe35310bd97401ba143ad8dff335b19dd",
+      "nativeSHA256": "494b9b38d33efca03c88bb13a9e64a1df5498d38ce1ec30fea373eb0a9898618",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/Cut.tsx": {
+      "originalSHA256": "2f5f8354a2f93cc707a2ef614e90767ae4759e072e1b137505483c0e8348c7bc",
+      "nativeSHA256": "ead87769b016fb04b36c12e4538f6f72d8038a655cb629669172b7b497acfad0"
+    },
+    "packages/@adobe/react-spectrum-workflow/src/Paste.jsx": {
+      "originalSHA256": "e7125593d39d0d4528d0a0964bdf33dc857ee54b80ffb60f20991b700b27f5ab",
+      "nativeSHA256": "841b334868c9128fb9d75339a27464c730a53f19c25293e1dc2faea29b14667e",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/workflow/src/Paste.tsx": {
+      "originalSHA256": "e21ba3454244a0f819fea18c506c01b428f952601518180fe816fefc9a9141e3",
+      "nativeSHA256": "514b0249998d54f7e38378c93b995a43767b834f456ef450f3f0625542b8b49d"
+    },
+    "packages/@adobe/react-spectrum-ui/src/ChevronDownMedium.jsx": {
+      "originalSHA256": "134f38d447588ddaeb2ed04f8b996cbc8194f623acaba13e6416f3b666bf8f95",
+      "nativeSHA256": "616dec579305b60f0bdce5bb63ee2d4251112f7aa0612b4a39088dac25e8111d",
+      "artworkCorrespondenceVerified": true
+    },
+    "packages/@spectrum-icons/ui/src/ChevronDownMedium.tsx": {
+      "originalSHA256": "7258e7e704966b0e76689c3ad37a31836e991bb34227959abd48adfe3cefb4a8",
+      "nativeSHA256": "fe0dc0cf36a2004f7771412775563a95e6d4cc4d6255d6074383965be6be88a7"
+    }
+  }
+}

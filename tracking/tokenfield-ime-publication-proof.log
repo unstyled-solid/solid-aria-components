@@ -1,0 +1,100 @@
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - import "./vitest.config" without a file extension (vitest.browser.config.ts:4:19). Add the file extension
+  - import "./test/browser/p27-commands" without a file extension (vitest.browser.config.ts:5:37). Add the file extension
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "useTokenFieldState.isComposing" write (#1) false → true
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "useTokenFieldState.isComposing" write (#1) false → true
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "useTokenFieldState.isComposing" write (#1) false → true
+  deps changed: -"value" (1 total)
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "useControlledState.revision" write (#3) 1 → 2
+  ← signal "value" write (#4) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "value" write (#4) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "value" write (#4) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "value" write (#4) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "useControlledState.revision" write (#6) 2 → 3
+  ← signal "value" write (#7) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "value" write (#7) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "value" write (#7) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "value" write (#7) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "useControlledState.revision" write (#9) 3 → 4
+  ← signal "value" write (#10) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "value" write (#10) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "value" write (#10) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "value" write (#10) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+IME_NATIVE_ACTIVE [{"run":3,"at":608.2999999970198,"nodeRuns":1,"nodeKind":"memo","nodeName":"TokenInput.renderedSegments","nodeId":4,"causes":[{"seq":1,"kind":"write","name":"useTokenFieldState.isComposing","nodeId":1,"prev":"false","value":"true","origin":{"kind":"external"},"at":604.5}],"depCount":1,"depsAdded":[],"depsRemoved":["value"],"selfMs":0.10000000149011612,"totalMs":0.10000000149011612,"changed":false,"phase":"plain","held":false}]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "useControlledState.revision" write (#12) 4 → 5
+  ← signal "value" write (#13) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "value" write (#13) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "value" write (#13) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "value" write (#13) [TokenFieldValue] → [TokenFieldValue]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "useTokenFieldState.isComposing" write (#14) true → false
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "useTokenFieldState.isComposing" write (#14) true → false
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "useTokenFieldState.isComposing" write (#14) true → false
+  deps changed: +"value" (2 total)
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← memo "TokenInput.renderedSegments" changed (#15)
+    ← signal "useTokenFieldState.isComposing" write (#14) true → false
+  deps changed: +"computed" -"computed" (2 total)
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← memo "TokenInput.renderedSegments" changed (#15)
+    ← signal "useTokenFieldState.isComposing" write (#14) true → false
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "signal" write (#16) [Object] → [Object]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← signal "signal" write (#16) [Object] → [Object]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+  ← memo "value" changed (#17)
+    ← signal "signal" write (#16) [Object] → [Object]
+stdout | packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+IME_NATIVE_COMMITTED {"events":[{"run":3,"at":608.2999999970198,"nodeRuns":1,"nodeKind":"memo","nodeName":"TokenInput.renderedSegments","nodeId":4,"causes":[{"seq":1,"kind":"write","name":"useTokenFieldState.isComposing","nodeId":1,"prev":"false","value":"true","origin":{"kind":"external"},"at":604.5}],"depCount":1,"depsAdded":[],"depsRemoved":["value"],"selfMs":0.10000000149011612,"totalMs":0.10000000149011612,"changed":false,"phase":"plain","held":false},{"run":22,"at":630.7999999970198,"nodeRuns":2,"nodeKind":"memo","nodeName":"TokenInput.renderedSegments","nodeId":4,"causes":[{"seq":14,"kind":"write","name":"useTokenFieldState.isComposing","nodeId":1,"prev":"true","value":"false","origin":{"kind":"external"},"at":630.5}],"depCount":2,"depsAdded":["value"],"depsRemoved":[],"selfMs":0.10000000149011612,"totalMs":0.10000000149011612,"changed":true,"phase":"plain","held":true}],"text":"Ahel","inputConnected":true,"tokenConnected":true,"active":true,"selection":{"anchor":3,"focus":3}}
+ ❯ |chromium-desktop| packages/react-aria-components/test/TokenField.composition.browser.test.tsx (19 tests | 1 failed | 18 skipped) 1213ms
+     × does not re-render the editable content until composition ends 1212ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |chromium-desktop| packages/react-aria-components/test/TokenField.composition.browser.test.tsx:352:3 > TokenField IME composition (Android) > does not re-render the editable content until composition ends
+AssertionError: expected 1 to be greater than 1
+ ❯ toBeGreaterThan packages/react-aria-components/test/TokenField.composition.browser.test.tsx:389:41
+
+
+Caused by: Error: Matcher did not succeed in time.
+ ❯ packages/react-aria-components/test/TokenField.composition.browser.test.tsx:389:4
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 2 skipped (3)
+      Tests  1 failed | 56 skipped (57)
+   Start at  19:03:42
+   Duration  3.93s (transform 0ms, setup 332ms, import 616ms, tests 1.21s, environment 0ms)
+

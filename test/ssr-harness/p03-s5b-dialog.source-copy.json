@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "mode": "source-derived-fixture",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "source": "upstream/react-spectrum/packages/@adobe/react-spectrum/test/dialog/Dialog.ssr.test.js",
+  "sourceSha256": "8137922c5fdd507a91710c19e986998e5755a97dec31b7c3b7c4126ce81e53da",
+  "sourceLines": [
+    20,
+    24
+  ],
+  "target": "test/ssr-harness/p03-s5b-dialog.tsx",
+  "adaptation": "Extract original inline JSX into exported Fixture, importing actual native component subpath. Original element props/content retained."
+}

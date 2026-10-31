@@ -1,0 +1,22 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+DESC CHILD SETUP 1 true
+DESC DOCUMENT NOTIFY
+DESC DOCUMENT IMAGE 1 [ 1 ]
+DESC CHILD SETTLED 1
+DESC CHILD UPDATE 1 true
+DESC DOCUMENT NOTIFY
+DESC DOCUMENT IMAGE 2 [ 1, 2 ]
+DESC CHILD UPDATE 1 false
+DESC DOCUMENT NOTIFY
+DESC DOCUMENT IMAGE 1 [ 1 ]
+DESC DOCUMENT NOTIFY
+DESC DOCUMENT IMAGE 1 [ 1 ]
+DESC DOCUMENT NOTIFY
+
+ Test Files  1 passed (1)
+      Tests  1 passed | 104 skipped (105)
+   Start at  17:20:01
+   Duration  1.73s (transform 1.05s, setup 99ms, import 1.19s, tests 115ms, environment 242ms)
+

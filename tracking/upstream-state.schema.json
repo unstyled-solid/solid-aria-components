@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://solid-aria.invalid/schemas/upstream-state.schema.json",
+  "title": "Adobe monorepo upstream state",
+  "description": "Null parity freezes baseline checkout; candidates and queued tips never certify parity. Every writer shares the source-local lock and journal.",
+  "type": "object",
+  "required": ["repositoryUrl", "branch", "submodulePath", "baselineSourceSha", "fetchedCandidateSha", "verifiedParitySha"],
+  "properties": {
+    "repositoryUrl": { "type": "string", "minLength": 1 },
+    "branch": { "type": "string", "minLength": 1 },
+    "submodulePath": { "const": "upstream/react-spectrum" },
+    "baselineSourceSha": { "$ref": "#/$defs/sha" },
+    "fetchedCandidateSha": { "$ref": "#/$defs/sha" },
+    "verifiedParitySha": { "$ref": "#/$defs/nullableSha" },
+    "queuedCandidateSha": { "$ref": "#/$defs/nullableSha" },
+    "activeEpisode": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["id", "fromSha", "toSha", "reportHash"],
+          "properties": {
+            "id": { "type": "string", "pattern": "^[a-f0-9]{40}-[a-f0-9]{40}$" },
+            "fromSha": { "$ref": "#/$defs/sha" },
+            "toSha": { "$ref": "#/$defs/sha" },
+            "reportHash": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+          },
+          "additionalProperties": false
+        }
+      ]
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "sha": { "type": "string", "pattern": "^[a-f0-9]{40}$" },
+    "nullableSha": { "oneOf": [{ "$ref": "#/$defs/sha" }, { "type": "null" }] }
+  }
+}

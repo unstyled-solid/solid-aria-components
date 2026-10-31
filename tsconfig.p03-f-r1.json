@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.p03-f.json",
+  "files": ["test/intl.d.ts", "packages/react-aria-components/src/RootMenuTriggerStateContext.ts", "packages/react-aria-components/src/PopoverContext.ts", "packages/react-aria/src/utils/animation.ts", "packages/react-aria/src/utils/runAfterKeyboard.ts", "packages/react-aria/src/utils/keyboard.tsx", "packages/react-aria/test/utils/runAfterKeyboard.test.ts", "packages/react-aria/test/utils/keyboard.test.ts"]
+}

@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": [
+    "test/intl.d.ts",
+    "test/css.d.ts",
+    "test/ssr-harness/p03-s2-text.tsx",
+    "test/ssr-harness/p03-s2-grid.tsx",
+    "packages/@adobe/react-spectrum/src/utils/Slots.tsx",
+    "packages/@adobe/react-spectrum/src/utils/useHasChild.ts",
+    "packages/@adobe/react-spectrum/src/text/Text.tsx",
+    "packages/@adobe/react-spectrum/src/layout/Grid.tsx",
+    "packages/@adobe/react-spectrum/exports/Text.ts",
+    "packages/@adobe/react-spectrum/exports/Grid.ts"
+  ]
+}

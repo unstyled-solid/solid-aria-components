@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/solid-aria-components/upstream/react-spectrum/packages/@react-types/shared",
+  "target": "/Users/avi/avir-oss/solid-aria-components/packages/@react-types/shared",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "files": [
+    {
+      "path": "package.json",
+      "bytes": 500,
+      "sha256": "5e39e1e951bff5fadb58b20d62082b137b933466b4aac3136e39e1a80fd5b457",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "README.md",
+      "bytes": 137,
+      "sha256": "42b15ccc2c967e25fb2fac2a4074e23392f95d3999ed662a49bc1b0462d4d0d0",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/collections.d.ts",
+      "bytes": 8633,
+      "sha256": "6ee648aa87795d6f4865dd1195bffbb46f0974169545de464d48eeac0da87e5b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/dna.d.ts",
+      "bytes": 9677,
+      "sha256": "fdfd4fab9a1aa6b598a1dad811ade0851f35f63bf6aaa5d9cd9561b4361ab256",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/dnd.d.ts",
+      "bytes": 9984,
+      "sha256": "3c91516b5641890c08e3977292bafd3edeaeeb1b422f74dc065dd3ece08f70aa",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/dom.d.ts",
+      "bytes": 17502,
+      "sha256": "d5656ba533464d75555681e6d8b1ba21efde91e5faf6a83c02c564266a468c44",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/events.d.ts",
+      "bytes": 7461,
+      "sha256": "7b44454c9098d2386e3d518672a3833f37f0a7e1872330014ea531b70d5ed070",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/index.d.ts",
+      "bytes": 989,
+      "sha256": "ad548e7facb6e2121a5a77195b6787e2d4b523fa311cce4af574f377aa81a1e5",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/inputs.d.ts",
+      "bytes": 4146,
+      "sha256": "20bd6533f6250db9750a0d399de0f039dceb4ebca2106e2b52a1602c67848e0f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/key.d.ts",
+      "bytes": 656,
+      "sha256": "cf9c843491bc75b441a7b844375b485e8f669663cac40ccb9bbe78b0071e37e0",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/labelable.d.ts",
+      "bytes": 1597,
+      "sha256": "7d1bb6fade1c06d29ee3933bf33083c75206e2dfd5864af7876c7ad70c772c0d",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/locale.d.ts",
+      "bytes": 660,
+      "sha256": "e7c2f1cdcce2baa8490eabbbb8d62caebf0aa227404104702d69021c69037bc7",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/orientation.d.ts",
+      "bytes": 674,
+      "sha256": "e9f4836a802b9f0d70c5d593776508bc2fb22c6cc4149eede06ade102264c59f",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/refs.d.ts",
+      "bytes": 1436,
+      "sha256": "0347ac6d63c3035bbae705fbec898afc61aeb0f5a1122906a85d4bdaf6f097b4",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/removable.d.ts",
+      "bytes": 776,
+      "sha256": "8a359b738d570186b4158dced214e6c502e52ee40f33349e1d4b701bed370875",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/selection.d.ts",
+      "bytes": 2155,
+      "sha256": "d609df8f721eff0609a6b12a7ff5a54d849f00717c1691fe8eca577d8676a1b1",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/style.d.ts",
+      "bytes": 20111,
+      "sha256": "f83ab5778e0c132d96dab5642bb69b11095aed023ef125b9e6877287aee4f2bc",
+      "category": "source-or-helper"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution"
+}

@@ -1,0 +1,861 @@
+[
+  {
+    "export": "ArrowUp",
+    "file": "arrow-up.js",
+    "iconName": "arrow-up",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "m5 12 7-7 7 7",
+          "key": "hav0vg"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M12 19V5",
+          "key": "x0mq9r"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Bold",
+    "file": "bold.js",
+    "iconName": "bold",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M6 12h9a4 4 0 0 1 0 8H7a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h7a4 4 0 0 1 0 8",
+          "key": "mg9rjx"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Check",
+    "file": "check.js",
+    "iconName": "check",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M20 6 9 17l-5-5",
+          "key": "1gmf2c"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "ChevronDown",
+    "file": "chevron-down.js",
+    "iconName": "chevron-down",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "m6 9 6 6 6-6",
+          "key": "qrunsl"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "ChevronRight",
+    "file": "chevron-right.js",
+    "iconName": "chevron-right",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "m9 18 6-6-6-6",
+          "key": "mthhwq"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "ChevronUp",
+    "file": "chevron-up.js",
+    "iconName": "chevron-up",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "m18 15-6-6-6 6",
+          "key": "153udz"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "ClipboardCopy",
+    "file": "clipboard-copy.js",
+    "iconName": "clipboard-copy",
+    "nodes": [
+      [
+        "rect",
+        {
+          "width": "8",
+          "height": "4",
+          "x": "8",
+          "y": "2",
+          "rx": "1",
+          "ry": "1",
+          "key": "tgr4d6"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2",
+          "key": "4jdomd"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M16 4h2a2 2 0 0 1 2 2v4",
+          "key": "3hqy98"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M21 14H11",
+          "key": "1bme5i"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "m15 10-4 4 4 4",
+          "key": "5dvupr"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "ClipboardPaste",
+    "file": "clipboard-paste.js",
+    "iconName": "clipboard-paste",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M11 14h10",
+          "key": "1w8e9d"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M16 4h2a2 2 0 0 1 2 2v1.344",
+          "key": "1e62lh"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "m17 18 4-4-4-4",
+          "key": "z2g111"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 1.793-1.113",
+          "key": "bjbb7m"
+        }
+      ],
+      [
+        "rect",
+        {
+          "x": "8",
+          "y": "2",
+          "width": "8",
+          "height": "4",
+          "rx": "1",
+          "key": "ublpy"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Copy",
+    "file": "copy.js",
+    "iconName": "copy",
+    "nodes": [
+      [
+        "rect",
+        {
+          "width": "14",
+          "height": "14",
+          "x": "8",
+          "y": "8",
+          "rx": "2",
+          "ry": "2",
+          "key": "17jyea"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2",
+          "key": "zix9uf"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Dot",
+    "file": "dot.js",
+    "iconName": "dot",
+    "nodes": [
+      [
+        "circle",
+        {
+          "cx": "12.1",
+          "cy": "12.1",
+          "r": "1",
+          "key": "18d7e5"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Edit",
+    "file": "square-pen.js",
+    "iconName": "square-pen",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7",
+          "key": "1m0v6g"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z",
+          "key": "ohrbg2"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Ellipsis",
+    "file": "ellipsis.js",
+    "iconName": "ellipsis",
+    "nodes": [
+      [
+        "circle",
+        {
+          "cx": "12",
+          "cy": "12",
+          "r": "1",
+          "key": "41hilf"
+        }
+      ],
+      [
+        "circle",
+        {
+          "cx": "19",
+          "cy": "12",
+          "r": "1",
+          "key": "1wjl8i"
+        }
+      ],
+      [
+        "circle",
+        {
+          "cx": "5",
+          "cy": "12",
+          "r": "1",
+          "key": "1pcz8c"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "FolderOpen",
+    "file": "folder-open.js",
+    "iconName": "folder-open",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2",
+          "key": "usdka0"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "GripVertical",
+    "file": "grip-vertical.js",
+    "iconName": "grip-vertical",
+    "nodes": [
+      [
+        "circle",
+        {
+          "cx": "9",
+          "cy": "12",
+          "r": "1",
+          "key": "1vctgf"
+        }
+      ],
+      [
+        "circle",
+        {
+          "cx": "9",
+          "cy": "5",
+          "r": "1",
+          "key": "hp0tcf"
+        }
+      ],
+      [
+        "circle",
+        {
+          "cx": "9",
+          "cy": "19",
+          "r": "1",
+          "key": "fkjjf6"
+        }
+      ],
+      [
+        "circle",
+        {
+          "cx": "15",
+          "cy": "12",
+          "r": "1",
+          "key": "1tmaij"
+        }
+      ],
+      [
+        "circle",
+        {
+          "cx": "15",
+          "cy": "5",
+          "r": "1",
+          "key": "19l28e"
+        }
+      ],
+      [
+        "circle",
+        {
+          "cx": "15",
+          "cy": "19",
+          "r": "1",
+          "key": "f4zoj3"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Instagram",
+    "file": "instagram.js",
+    "iconName": "instagram",
+    "nodes": [
+      [
+        "rect",
+        {
+          "width": "20",
+          "height": "20",
+          "x": "2",
+          "y": "2",
+          "rx": "5",
+          "ry": "5",
+          "key": "2e1cvw"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z",
+          "key": "9exkf1"
+        }
+      ],
+      [
+        "line",
+        {
+          "x1": "17.5",
+          "x2": "17.51",
+          "y1": "6.5",
+          "y2": "6.5",
+          "key": "r4j83e"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Italic",
+    "file": "italic.js",
+    "iconName": "italic",
+    "nodes": [
+      [
+        "line",
+        {
+          "x1": "19",
+          "x2": "10",
+          "y1": "4",
+          "y2": "4",
+          "key": "15jd3p"
+        }
+      ],
+      [
+        "line",
+        {
+          "x1": "14",
+          "x2": "5",
+          "y1": "20",
+          "y2": "20",
+          "key": "bu0au3"
+        }
+      ],
+      [
+        "line",
+        {
+          "x1": "15",
+          "x2": "9",
+          "y1": "4",
+          "y2": "20",
+          "key": "uljnxc"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Mail",
+    "file": "mail.js",
+    "iconName": "mail",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7",
+          "key": "132q7q"
+        }
+      ],
+      [
+        "rect",
+        {
+          "x": "2",
+          "y": "4",
+          "width": "20",
+          "height": "16",
+          "rx": "2",
+          "key": "izxlao"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Minus",
+    "file": "minus.js",
+    "iconName": "minus",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M5 12h14",
+          "key": "1ays0h"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "MoreHorizontal",
+    "file": "ellipsis.js",
+    "iconName": "ellipsis",
+    "nodes": [
+      [
+        "circle",
+        {
+          "cx": "12",
+          "cy": "12",
+          "r": "1",
+          "key": "41hilf"
+        }
+      ],
+      [
+        "circle",
+        {
+          "cx": "19",
+          "cy": "12",
+          "r": "1",
+          "key": "1wjl8i"
+        }
+      ],
+      [
+        "circle",
+        {
+          "cx": "5",
+          "cy": "12",
+          "r": "1",
+          "key": "1pcz8c"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Pencil",
+    "file": "pencil.js",
+    "iconName": "pencil",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z",
+          "key": "1a8usu"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "m15 5 4 4",
+          "key": "1mk7zo"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Plus",
+    "file": "plus.js",
+    "iconName": "plus",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M5 12h14",
+          "key": "1ays0h"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M12 5v14",
+          "key": "s699le"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Save",
+    "file": "save.js",
+    "iconName": "save",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z",
+          "key": "1c8476"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7",
+          "key": "1ydtos"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M7 3v4a1 1 0 0 0 1 1h7",
+          "key": "t51u73"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Scissors",
+    "file": "scissors.js",
+    "iconName": "scissors",
+    "nodes": [
+      [
+        "circle",
+        {
+          "cx": "6",
+          "cy": "6",
+          "r": "3",
+          "key": "1lh9wr"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M8.12 8.12 12 12",
+          "key": "1alkpv"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M20 4 8.12 15.88",
+          "key": "xgtan2"
+        }
+      ],
+      [
+        "circle",
+        {
+          "cx": "6",
+          "cy": "18",
+          "r": "3",
+          "key": "fqmcym"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M14.8 14.8 20 20",
+          "key": "ptml3r"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Search",
+    "file": "search.js",
+    "iconName": "search",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "m21 21-4.34-4.34",
+          "key": "14j7rj"
+        }
+      ],
+      [
+        "circle",
+        {
+          "cx": "11",
+          "cy": "11",
+          "r": "8",
+          "key": "4ej97u"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Settings2",
+    "file": "settings-2.js",
+    "iconName": "settings-2",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M14 17H5",
+          "key": "gfn3mx"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M19 7h-9",
+          "key": "6i9tg"
+        }
+      ],
+      [
+        "circle",
+        {
+          "cx": "17",
+          "cy": "17",
+          "r": "3",
+          "key": "18b49y"
+        }
+      ],
+      [
+        "circle",
+        {
+          "cx": "7",
+          "cy": "7",
+          "r": "3",
+          "key": "dfmy0x"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Share",
+    "file": "share.js",
+    "iconName": "share",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M12 2v13",
+          "key": "1km8f5"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "m16 6-4-4-4 4",
+          "key": "13yo43"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8",
+          "key": "1b2hhj"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Smartphone",
+    "file": "smartphone.js",
+    "iconName": "smartphone",
+    "nodes": [
+      [
+        "rect",
+        {
+          "width": "14",
+          "height": "20",
+          "x": "5",
+          "y": "2",
+          "rx": "2",
+          "ry": "2",
+          "key": "1yt0o3"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M12 18h.01",
+          "key": "mhygvu"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Strikethrough",
+    "file": "strikethrough.js",
+    "iconName": "strikethrough",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M16 4H9a3 3 0 0 0-2.83 4",
+          "key": "43sutm"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M14 12a4 4 0 0 1 0 8H6",
+          "key": "nlfj13"
+        }
+      ],
+      [
+        "line",
+        {
+          "x1": "4",
+          "x2": "20",
+          "y1": "12",
+          "y2": "12",
+          "key": "1e0a9i"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Trash",
+    "file": "trash.js",
+    "iconName": "trash",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M3 6h18",
+          "key": "d0wm0j"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6",
+          "key": "4alrt4"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2",
+          "key": "v07s0e"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "Underline",
+    "file": "underline.js",
+    "iconName": "underline",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M6 4v6a6 6 0 0 0 12 0V4",
+          "key": "9kb039"
+        }
+      ],
+      [
+        "line",
+        {
+          "x1": "4",
+          "x2": "20",
+          "y1": "20",
+          "y2": "20",
+          "key": "nun2al"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "X",
+    "file": "x.js",
+    "iconName": "x",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M18 6 6 18",
+          "key": "1bl5f8"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "m6 6 12 12",
+          "key": "d8bk6v"
+        }
+      ]
+    ]
+  },
+  {
+    "export": "XIcon",
+    "file": "x.js",
+    "iconName": "x",
+    "nodes": [
+      [
+        "path",
+        {
+          "d": "M18 6 6 18",
+          "key": "1bl5f8"
+        }
+      ],
+      [
+        "path",
+        {
+          "d": "m6 6 12 12",
+          "key": "d8bk6v"
+        }
+      ]
+    ]
+  }
+]

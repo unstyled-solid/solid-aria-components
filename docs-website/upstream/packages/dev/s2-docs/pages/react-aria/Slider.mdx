@@ -1,0 +1,133 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import vanillaDocs from 'docs:vanilla-starter/Slider';
+import tailwindDocs from 'docs:tailwind-starter/Slider';
+import '../../tailwind/tailwind.css';
+import Anatomy from '/packages/dev/s2-docs/pages/react-aria/SliderAnatomy.svg';
+
+export const tags = ['range input', 'track', 'scrubber'];
+export const relatedPages = [{'title': 'useSlider', 'url': './Slider/useSlider'}];
+export const description = 'Allows a user to select one or more values within a range.';
+
+# Slider
+
+<PageDescription>{docs.exports.Slider.description}</PageDescription>
+
+<ExampleSwitcher>
+  <VisualExample solid="Slider/solid-vanilla-1.tsx"
+    docs={docs.exports.Slider}
+    links={docs.links}
+    props={['orientation', 'isDisabled', 'formatOptions']}
+    initialProps={{label: 'Opacity'}}
+    type="vanilla"
+    files={["packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Slider.solid.tsx","packages/dev/s2-docs/pages/react-aria/Slider/vanilla/Slider.css"]} />
+  <VisualExample solid="Slider/solid-tailwind-2.tsx"
+    docs={tailwindDocs.exports.Slider}
+    links={tailwindDocs.links}
+    props={['orientation', 'isDisabled', 'formatOptions']}
+    initialProps={{label: 'Opacity'}}
+    type="tailwind"
+    files={["packages/dev/s2-docs/pages/react-aria/Slider/tailwind/Slider.solid.tsx"]} />
+</ExampleSwitcher>
+
+## Value
+
+Use the `value` or `defaultValue` prop to set the slider's value. The `onChange` event is called as the user drags, and `onChangeEnd` is called when the thumb is released.
+
+```tsx nativeModule="Slider/solid-example-4.tsx" solid="Slider/solid-example-4.tsx"  files={["packages/dev/s2-docs/pages/react-aria/Slider/solid-example-4.tsx"]}
+import {Slider} from './Slider/vanilla/Slider.solid';
+import {createSignal} from 'solid-js';
+function Example() {
+  let [currentValue, setCurrentValue] = createSignal(25);
+  let [finalValue, setFinalValue] = createSignal(25);
+
+  return (
+    <>
+      <Slider
+        label="Cookies to buy"
+        /*- begin highlight -*/
+        value={currentValue()}
+        onChange={setCurrentValue}
+        onChangeEnd={setFinalValue} />
+        {/*- end highlight -*/}
+      <pre style={{'font-size': '12px'}}>
+        onChange value: {currentValue()}{'\n'}
+        onChangeEnd value: {finalValue()}
+      </pre>
+    </>
+  );
+}
+```
+
+### Multi-thumb
+
+Set the `value` or `defaultValue` to an array of numbers to render multiple thumbs. Each thumb should have an `aria-label` to describe it for assistive technologies (provided via `thumbLabels` here).
+
+```tsx nativeModule="Slider/solid-example-5.tsx" solid="Slider/solid-example-5.tsx"  files={["packages/dev/s2-docs/pages/react-aria/Slider/solid-example-5.tsx"]}
+import {Slider} from './Slider/vanilla/Slider.solid';
+<Slider
+  label="Range"
+  defaultValue={[30, 60]}
+  thumbLabels={['start', 'end']} />
+```
+
+### Value scale
+
+By default, slider values are percentages between 0 and 100. Use the `minValue`, `maxValue`, and `step` props to set the allowed values. Steps are calculated starting from the minimum. For example, if `minValue={2}`, and `step={3}`, the valid step values would be 2, 5, 8, 11, etc.
+
+<VisualExample solid="Slider/solid-vanilla-3.tsx"
+  docs={vanillaDocs.exports.Slider}
+  links={vanillaDocs.links}
+  props={['minValue', 'maxValue', 'step', 'fillOffset']}
+  initialProps={{
+    label: 'Amount',
+    minValue: 0,
+    maxValue: 150,
+    defaultValue: 50,
+    step: 5,
+    fillOffset: 75
+  }} />
+
+## Examples
+
+<ExampleList tag="slider" pages={props.pages} />
+
+## API
+
+<Anatomy />
+
+```tsx links={{Slider: '#slider', SliderOutput: '#slideroutput', SliderTrack: '#slidertrack', SliderFill: '#sliderfill', SliderThumb: '#sliderthumb'}}
+<Slider>
+  <Label />
+  <SliderOutput />
+  <SliderTrack>
+    <SliderFill />
+    <SliderThumb />
+    <SliderThumb>
+      <Label />
+    </SliderThumb>
+  </SliderTrack>
+</Slider>
+```
+
+### Slider
+
+<PropTable component={docs.exports.Slider} links={docs.links} showDescription />
+
+### SliderOutput
+
+<PropTable component={docs.exports.SliderOutput} links={docs.links} showDescription />
+
+### SliderTrack
+
+<PropTable component={docs.exports.SliderTrack} links={docs.links} showDescription />
+
+### SliderFill
+
+<PropTable component={docs.exports.SliderFill} links={docs.links} showDescription />
+
+### SliderThumb
+
+<PropTable component={docs.exports.SliderThumb} links={docs.links} showDescription />

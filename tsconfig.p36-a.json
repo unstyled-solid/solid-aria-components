@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "allowJs": true,
+    "checkJs": true
+  },
+  "files": [
+    "test/intl.d.ts",
+    "test/css.d.ts",
+    "packages/@spectrum-icons/ui/src/FolderBreadcrumb.tsx",
+    "packages/@spectrum-icons/ui/src/ChevronRightSmall.tsx",
+    "packages/@adobe/react-spectrum-ui/src/FolderBreadcrumb.jsx",
+    "packages/@adobe/react-spectrum-ui/src/ChevronRightSmall.jsx"
+  ]
+}

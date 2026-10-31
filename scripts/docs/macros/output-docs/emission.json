@@ -1,0 +1,203 @@
+{
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "docsEnv": "1",
+  "macroCompiler": "@parcel/rust@2.16.3",
+  "nativeCompiler": "RC13 before Parcel; Parcel receives JS, never TSX",
+  "referenceSha256": "f87dd6f81325a7c0f2d292b4cb63d83ffc429c5ece18d03328fb0a9fa9079f00",
+  "results": [
+    {
+      "source": "packages/@react-spectrum/s2/src/Provider.tsx",
+      "sourceSha256": "4c3a04bafa86bc9742ead8a2b430a769d1146d20fa33d6b1388ba6a646d12286",
+      "branch": "dom",
+      "output": "dom/Provider.js",
+      "outputSha256": "293029759018464fc92a0e1360e817b8c105c2fdcbd95f8f5657e029853fa8df",
+      "outputFormat": "Parcel intermediate CommonJS; requires Parcel linking/esmodule-helpers, not standalone native ESM",
+      "nativeInputSha256": "ed62181d8696ce9f48785afff1e4acbbe0ab4d865e006db6a7203557a55d3fac",
+      "calls": [
+        {
+          "specifier": "./page.macro",
+          "exportName": "generateDefaultColorSchemeStyles",
+          "loc": {
+            "line": 53,
+            "col": 0
+          },
+          "assets": 1
+        },
+        {
+          "specifier": "../style",
+          "exportName": "setColorScheme",
+          "loc": {
+            "line": 55,
+            "col": 7
+          },
+          "assets": 0
+        },
+        {
+          "specifier": "../style",
+          "exportName": "style",
+          "loc": {
+            "line": 54,
+            "col": 21
+          },
+          "assets": 1
+        }
+      ],
+      "assets": [
+        {
+          "file": "dom/Provider.0.css",
+          "bytes": 792,
+          "sha256": "cdba8d1877c861ba16ccadda95468d717f5ab89f785d000ba2224620f4a08d99"
+        },
+        {
+          "file": "dom/Provider.1.css",
+          "bytes": 1516,
+          "sha256": "67ce0844c94226272fcdfa2fa8a795346af53bce5b2ee226b0b538461a59a58f"
+        }
+      ],
+      "invalidations": []
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Provider.tsx",
+      "sourceSha256": "4c3a04bafa86bc9742ead8a2b430a769d1146d20fa33d6b1388ba6a646d12286",
+      "branch": "server",
+      "output": "server/Provider.js",
+      "outputSha256": "47a43ee2a12e1939f7a7d493abc505fb3428e340c3f3e57d6bd19d0b7bf0a130",
+      "outputFormat": "Parcel intermediate CommonJS; requires Parcel linking/esmodule-helpers, not standalone native ESM",
+      "nativeInputSha256": "483605f082a3c280f513e2c9b1d428ef9498220daebcc74f97b2b6184145810a",
+      "calls": [
+        {
+          "specifier": "./page.macro",
+          "exportName": "generateDefaultColorSchemeStyles",
+          "loc": {
+            "line": 143,
+            "col": 0
+          },
+          "assets": 1
+        },
+        {
+          "specifier": "../style",
+          "exportName": "setColorScheme",
+          "loc": {
+            "line": 145,
+            "col": 7
+          },
+          "assets": 0
+        },
+        {
+          "specifier": "../style",
+          "exportName": "style",
+          "loc": {
+            "line": 144,
+            "col": 21
+          },
+          "assets": 1
+        }
+      ],
+      "assets": [
+        {
+          "file": "server/Provider.0.css",
+          "bytes": 792,
+          "sha256": "cdba8d1877c861ba16ccadda95468d717f5ab89f785d000ba2224620f4a08d99"
+        },
+        {
+          "file": "server/Provider.1.css",
+          "bytes": 1516,
+          "sha256": "67ce0844c94226272fcdfa2fa8a795346af53bce5b2ee226b0b538461a59a58f"
+        }
+      ],
+      "invalidations": []
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Divider.tsx",
+      "sourceSha256": "08905fe9983c00237e9a69e5435133e459249f4cbaf9bb651fddedb0c7c961af",
+      "branch": "dom",
+      "output": "dom/Divider.js",
+      "outputSha256": "e96f7e321be24a79c015b9500ca2193b0fc4139067e84fa9288784db915b6dc0",
+      "outputFormat": "Parcel intermediate CommonJS; requires Parcel linking/esmodule-helpers, not standalone native ESM",
+      "nativeInputSha256": "fc0e9ef8fccfbc4b8c0a9622753ad43355a7a74def5716be13629f4d41eb92cc",
+      "calls": [
+        {
+          "specifier": "./style-utils",
+          "exportName": "staticColor",
+          "loc": {
+            "line": 12,
+            "col": 7
+          },
+          "assets": 0
+        },
+        {
+          "specifier": "./style-utils",
+          "exportName": "getAllowedOverrides",
+          "loc": {
+            "line": 55,
+            "col": 3
+          },
+          "assets": 0
+        },
+        {
+          "specifier": "../style",
+          "exportName": "style",
+          "loc": {
+            "line": 11,
+            "col": 23
+          },
+          "assets": 1
+        }
+      ],
+      "assets": [
+        {
+          "file": "dom/Divider.0.css",
+          "bytes": 1694,
+          "sha256": "8d9bd534f33108175a16b7cbc35d92683b8c4e98e824d612e630fd14bd9568b8"
+        }
+      ],
+      "invalidations": []
+    },
+    {
+      "source": "packages/@react-spectrum/s2/src/Divider.tsx",
+      "sourceSha256": "08905fe9983c00237e9a69e5435133e459249f4cbaf9bb651fddedb0c7c961af",
+      "branch": "server",
+      "output": "server/Divider.js",
+      "outputSha256": "3df1562f94488c1f2aa1754fef1fc4d6e9b5f0736429f3bfa87fef8686ae3c13",
+      "outputFormat": "Parcel intermediate CommonJS; requires Parcel linking/esmodule-helpers, not standalone native ESM",
+      "nativeInputSha256": "f7eb09d9daff60464933ee16fda3310cbcf255b241cde6d3d6725f3b6d731380",
+      "calls": [
+        {
+          "specifier": "./style-utils",
+          "exportName": "staticColor",
+          "loc": {
+            "line": 11,
+            "col": 7
+          },
+          "assets": 0
+        },
+        {
+          "specifier": "./style-utils",
+          "exportName": "getAllowedOverrides",
+          "loc": {
+            "line": 54,
+            "col": 3
+          },
+          "assets": 0
+        },
+        {
+          "specifier": "../style",
+          "exportName": "style",
+          "loc": {
+            "line": 10,
+            "col": 23
+          },
+          "assets": 1
+        }
+      ],
+      "assets": [
+        {
+          "file": "server/Divider.0.css",
+          "bytes": 1694,
+          "sha256": "8d9bd534f33108175a16b7cbc35d92683b8c4e98e824d612e630fd14bd9568b8"
+        }
+      ],
+      "invalidations": []
+    }
+  ]
+}

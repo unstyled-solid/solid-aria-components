@@ -1,0 +1,47 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+CAPTURE MyColumn setup 1 name
+CAPTURE MyColumn setup 2 type
+CAPTURE MyColumn setup 3 height
+CAPTURE MyColumn setup 4 weight
+CAPTURE MyColumn setup 5 level
+CAPTURE Column setup name
+CAPTURE owned factory invoke
+CAPTURE Resizer setup
+CAPTURE Column setup type
+CAPTURE owned factory invoke
+CAPTURE Resizer setup
+CAPTURE Column setup height
+CAPTURE owned factory invoke
+CAPTURE Resizer setup
+CAPTURE Column setup weight
+CAPTURE owned factory invoke
+CAPTURE Resizer setup
+CAPTURE Column setup level
+CAPTURE owned factory invoke
+CAPTURE Resizer setup
+CAPTURE down connected true
+CAPTURE move connected true
+CAPTURE up connected true
+CAPTURE Resizer dispose
+CAPTURE Column dispose level
+CAPTURE Resizer dispose
+CAPTURE Column dispose weight
+CAPTURE Resizer dispose
+CAPTURE Column dispose height
+CAPTURE Resizer dispose
+CAPTURE Column dispose type
+CAPTURE Resizer dispose
+CAPTURE Column dispose name
+CAPTURE MyColumn dispose 5
+CAPTURE MyColumn dispose 4
+CAPTURE MyColumn dispose 3
+CAPTURE MyColumn dispose 2
+CAPTURE MyColumn dispose 1
+
+ Test Files  1 passed (1)
+      Tests  1 passed | 177 skipped (178)
+   Start at  12:25:26
+   Duration  2.46s (transform 1.56s, setup 105ms, import 1.75s, tests 257ms, environment 253ms)
+

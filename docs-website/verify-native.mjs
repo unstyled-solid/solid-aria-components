@@ -1,0 +1,17 @@
+import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+const require = createRequire(new URL('../package.json', import.meta.url));
+const ts = require('typescript');
+const repository = fileURLToPath(new URL('../', import.meta.url));
+const docs = fileURLToPath(new URL('./', import.meta.url));
+const config = ts.readConfigFile(path.join(repository, 'tsconfig.wave.json'), ts.sys.readFile);
+const parsed = ts.parseJsonConfigFileContent(config.config, ts.sys, repository);
+parsed.options.paths['solid-aria-components'] = ['packages/react-aria-components/exports/index.ts'];
+parsed.options.noEmit = true;
+const files = ['upstream/packages/dev/s2-docs/src/solid-mount.ts', 'upstream/packages/dev/s2-docs/pages/react-aria/Slider/solid-demo.tsx', 'upstream/packages/dev/s2-docs/pages/react-aria/Slider/solid-Slider.tsx'].map(file => path.join(docs, file));
+const program = ts.createProgram([path.join(repository, 'test/intl.d.ts'), ...files], parsed.options);
+const diagnostics = ts.getPreEmitDiagnostics(program);
+console.log(ts.formatDiagnosticsWithColorAndContext(diagnostics, {getCanonicalFileName: file => file, getCurrentDirectory: () => repository, getNewLine: () => '\n'}));
+console.log(JSON.stringify({total: diagnostics.length, owned: diagnostics.filter(d => d.file?.fileName.startsWith(docs)).length}));
+process.exitCode = diagnostics.length ? 1 : 0;

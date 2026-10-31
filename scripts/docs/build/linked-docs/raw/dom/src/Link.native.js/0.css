@@ -1,0 +1,271 @@
+@layer _.prose, _.a, _.b, _.c, _.d, _.e, _.f, _.g, _.h, _.i;
+
+@layer _.a {
+  ._Le18 {
+    outline-style: none;
+  }
+
+
+  ._Lf18 {
+    outline-style: solid;
+  }
+
+
+  .Oh18 {
+    outline-color: light-dark(rgb(75, 117, 255), rgb(64, 105, 253));
+  }
+
+
+  .Oe18 {
+    outline-color: lch(from var(--s2-container-bg) calc((49.44 - l) * infinity) 0 0 / 1);
+  }
+
+
+  ._Mc18 {
+    outline-width: 2px;
+  }
+
+
+  ._Kd18 {
+    outline-offset: 2px;
+  }
+
+
+  .-Ovbhqd-g4hn3s18 {
+    --s2-container-bg: white;
+  }
+
+
+  .-Ovbhqd-gcwrnr18 {
+    --s2-container-bg: black;
+  }
+
+
+  .oR3ltQc18 {
+    border-start-start-radius: calc(0.25 * var(--rem, 1rem));
+  }
+
+
+  .nR3ltQc18 {
+    border-start-end-radius: calc(0.25 * var(--rem, 1rem));
+  }
+
+
+  .kR3ltQc18 {
+    border-end-start-radius: calc(0.25 * var(--rem, 1rem));
+  }
+
+
+  .jR3ltQc18 {
+    border-end-end-radius: calc(0.25 * var(--rem, 1rem));
+  }
+
+
+  .uk18 {
+    font-family: var(--s2-font-family-sans, adobe-clean-spectrum-vf), adobe-clean-variable, adobe-clean, ui-sans-serif, system-ui, sans-serif;
+  }
+
+
+  .-_6BNtrc-c18 {
+    --fs: pow(1.125, 0);
+  }
+
+
+  .vFHT6Dd18 {
+    font-size: round(var(--s2-font-size-base, 14) * var(--fs) / 16 * var(--rem, 1rem), 1px);
+  }
+
+
+  .xc18 {
+    font-weight: 500;
+  }
+
+
+  ._xa18 {
+    font-synthesis-weight: none;
+  }
+
+
+  ._Fd18 {
+    line-height: round(1em * (1.15 + (1 - ((min(32, var(--s2-font-size-base, 14) * var(--fs)) - 10)) / 22) * 0.15), 2px);
+  }
+
+
+  .pu18 {
+    color: light-dark(rgb(59, 99, 251), rgb(86, 129, 255));
+  }
+
+
+  .ps18 {
+    color: light-dark(rgb(39, 77, 234), rgb(105, 149, 254));
+  }
+
+
+  .ps18 {
+    color: light-dark(rgb(39, 77, 234), rgb(105, 149, 254));
+  }
+
+
+  .ps18 {
+    color: light-dark(rgb(39, 77, 234), rgb(105, 149, 254));
+  }
+
+
+  .pt18 {
+    color: light-dark(rgb(41, 41, 41), rgb(219, 219, 219));
+  }
+
+
+  .po18 {
+    color: light-dark(rgb(19, 19, 19), rgb(242, 242, 242));
+  }
+
+
+  .po18 {
+    color: light-dark(rgb(19, 19, 19), rgb(242, 242, 242));
+  }
+
+
+  .po18 {
+    color: light-dark(rgb(19, 19, 19), rgb(242, 242, 242));
+  }
+
+
+  .pl18 {
+    color: lch(from var(--s2-container-bg) calc((49.44 - l) * infinity) 0 0 / 1);
+  }
+
+
+  .Yd18 {
+    transition-property: color, background-color, var(--gp, color), border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, translate, scale, rotate, filter, backdrop-filter;
+  }
+
+
+  .Xb18 {
+    transition-duration: 150ms;
+  }
+
+
+  ._2b18 {
+    transition-timing-function: cubic-bezier(0.45, 0, 0.4, 1);
+  }
+
+
+  ._Xb18 {
+    text-decoration: underline 1px;
+  }
+
+
+  .__Va18 {
+    text-underline-offset: 1px;
+  }
+
+
+  ._Xa18 {
+    text-decoration: none;
+  }
+
+
+  ._Xb18 {
+    text-decoration: underline 1px;
+  }
+
+
+  .__Va18 {
+    text-underline-offset: 1px;
+  }
+
+
+  ._Xb18 {
+    text-decoration: underline 1px;
+  }
+
+
+  .__Va18 {
+    text-underline-offset: 1px;
+  }
+
+
+  .__ca18 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+}
+
+@layer _.b.l {
+  @media (forced-colors: active) {
+    .OlOVIhfcebS7sd18 {
+      outline-color: var(--hcm-highlight, Highlight);
+    }
+  }
+
+
+  @media (forced-colors: active) {
+    .plOVIhfcA5Qiqd18 {
+      color: var(--hcm-linktext, LinkText);
+    }
+  }
+}
+
+@layer _.b {
+  .OlOVIhfcebS7sd18:is([data-hcm], [data-hcm] *) {
+    outline-color: var(--hcm-highlight, Highlight);
+  }
+
+
+  .ucJ9TBTb18:lang(ar) {
+    font-family: adobe-clean-arabic, myriad-arabic, ui-sans-serif, system-ui, sans-serif;
+  }
+
+
+  ._FnuYUweb18:lang(ja, ko, zh, zh-Hant, zh-Hans, zh-CN, zh-SG) {
+    line-height: 1.5;
+  }
+
+
+  .plOVIhfcA5Qiqd18:is([data-hcm], [data-hcm] *) {
+    color: var(--hcm-linktext, LinkText);
+  }
+}
+
+@layer _.c {
+  .ud3Euai18:lang(he) {
+    font-family: adobe-clean-hebrew, myriad-hebrew, ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+@layer _.d {
+  .uea18:lang(ja) {
+    font-family: adobe-clean-han-japanese, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Osaka, YuGothic, 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  }
+}
+
+@layer _.e {
+  .ugb18:lang(ko) {
+    font-family: adobe-clean-han-korean, source-han-korean, 'Malgun Gothic', 'Apple Gothic', sans-serif;
+  }
+}
+
+@layer _.f {
+  .uhd18:lang(zh) {
+    font-family: adobe-clean-han-traditional, source-han-traditional, 'MingLiu', 'Heiti TC Light', sans-serif;
+  }
+}
+
+@layer _.g {
+  .uje18:lang(zh-hant) {
+    font-family: adobe-clean-han-traditional, source-han-traditional, 'MingLiu', 'Microsoft JhengHei UI', 'Microsoft JhengHei', 'Heiti TC Light', sans-serif;
+  }
+}
+
+@layer _.h {
+  .u2NhKxcl18:lang(zh-HK) {
+    font-family: adobe-clean-han-hong-kong, source-han-hong-kong, 'MingLiu', 'Microsoft JhengHei UI', 'Microsoft JhengHei', 'Heiti TC Light', sans-serif;
+  }
+}
+
+@layer _.i {
+  .uic18:lang(zh-Hans, zh-CN, zh-SG) {
+    font-family: adobe-clean-han-simplified-c, source-han-simplified-c, 'SimSun', 'Heiti SC Light', sans-serif;
+  }
+}
+

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/solid-aria-components/upstream/react-spectrum/starters/tailwind",
+  "target": "/Users/avi/avir-oss/solid-aria-components/starters/tailwind",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "intakeStatus": "frozen-source-only-not-native-or-runnable",
+  "files": [
+    {
+      "path": ".postcssrc",
+      "bytes": 54,
+      "sha256": "6c96a7becce80948b52897a8968a815644d70dbe647227ae627a9cca0edcbabb",
+      "category": "source-or-build-input"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1080,
+      "sha256": "958aa1f722e1ccc670089376c82a8c730e0fbcc28ba7dc225c5fa4664d387923",
+      "category": "source-or-build-input"
+    },
+    {
+      "path": "src/Field.tsx",
+      "bytes": 3163,
+      "sha256": "c10b6a235cd27a7cbf9b9004e5f926797ea5005649662e66bf7c53009d3a43fd",
+      "category": "source-or-build-input"
+    },
+    {
+      "path": "src/ProgressBar.tsx",
+      "bytes": 1437,
+      "sha256": "55a258aee76587dbb6f8d5156f71dfe4deb23c955caea656f586496049c3abd9",
+      "category": "source-or-build-input"
+    },
+    {
+      "path": "src/utils.ts",
+      "bytes": 622,
+      "sha256": "cc6475f2c16a751a2193adcf04e4943aa75fe4947eb2b3cb2c3a4846cea18e4b",
+      "category": "source-or-build-input"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 550,
+      "sha256": "943d9d5c90e80187f9d542f457b7b44c660b2b816b372796ee36f5f401706da3",
+      "category": "source-or-build-input"
+    },
+    {
+      "path": "LICENSE",
+      "sourcePath": "LICENSE",
+      "bytes": 11335,
+      "sha256": "7dfe6526888bac51759c99f9a51262ba2711a8c12a067f2181609dd9a4066b84",
+      "category": "license"
+    }
+  ],
+  "license": {
+    "sourcePath": "LICENSE",
+    "sha256": "7dfe6526888bac51759c99f9a51262ba2711a8c12a067f2181609dd9a4066b84",
+    "identity": "Frozen repository Apache-2.0 LICENSE; source headers retained"
+  },
+  "importEdges": [
+    {
+      "from": "starters/tailwind/src/ProgressBar.tsx",
+      "import": "react",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/tailwind/src/ProgressBar.tsx",
+      "import": "react-aria-components/ProgressBar",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/tailwind/src/ProgressBar.tsx",
+      "import": "./Field",
+      "target": "starters/tailwind/src/Field.tsx",
+      "status": "selected-local"
+    },
+    {
+      "from": "starters/tailwind/src/ProgressBar.tsx",
+      "import": "./utils",
+      "target": "starters/tailwind/src/utils.ts",
+      "status": "selected-local"
+    },
+    {
+      "from": "starters/tailwind/src/Field.tsx",
+      "import": "react",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/tailwind/src/Field.tsx",
+      "import": "react-aria-components/FieldError",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/tailwind/src/Field.tsx",
+      "import": "react-aria-components/Group",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/tailwind/src/Field.tsx",
+      "import": "react-aria-components/Input",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/tailwind/src/Field.tsx",
+      "import": "react-aria-components/Label",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/tailwind/src/Field.tsx",
+      "import": "react-aria-components/Text",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/tailwind/src/Field.tsx",
+      "import": "react-aria-components/composeRenderProps",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/tailwind/src/Field.tsx",
+      "import": "tailwind-merge",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/tailwind/src/Field.tsx",
+      "import": "tailwind-variants",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/tailwind/src/Field.tsx",
+      "import": "./utils",
+      "target": "starters/tailwind/src/utils.ts",
+      "status": "selected-local"
+    },
+    {
+      "from": "starters/tailwind/src/utils.ts",
+      "import": "react-aria-components/composeRenderProps",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/tailwind/src/utils.ts",
+      "import": "tailwind-merge",
+      "target": null,
+      "status": "external-or-bundler"
+    },
+    {
+      "from": "starters/tailwind/src/utils.ts",
+      "import": "tailwind-variants",
+      "target": null,
+      "status": "external-or-bundler"
+    }
+  ]
+}

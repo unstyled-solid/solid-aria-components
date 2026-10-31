@@ -1,0 +1,387 @@
+/*
+ * Copyright 2022 Adobe. All rights reserved.
+ * This file is licensed to you under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License. You may obtain a copy
+ * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under
+ * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+ * OF ANY KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ */
+
+import {act, fireEvent, pointerMap, render} from '@react-spectrum/test-utils-internal';
+import {Button} from '../src/Button';
+import {Dialog, DialogTrigger} from '../src/Dialog';
+import {ListBox, ListBoxItem} from '../src/ListBox';
+import {OverlayArrow} from '../src/OverlayArrow';
+import {Popover} from '../src/Popover';
+import {Pressable} from 'react-aria/Pressable';
+import {createSignal} from 'solid-js';
+import {useObjectRef} from 'react-aria/useObjectRef';
+import {vi as jest} from 'vitest';
+import {Select, SelectValue} from '../src/Select';
+import {UNSAFE_PortalProvider} from 'react-aria/PortalProvider';
+import userEvent from '@testing-library/user-event';
+
+// Preserve the frozen mouse-event fixture's no-PointerEvent environment.
+const pointerEventDescriptor = vi.hoisted(() => {
+  let descriptor = Object.getOwnPropertyDescriptor(globalThis, 'PointerEvent');
+  /** @type {{PointerEvent?: typeof PointerEvent}} */
+  let eventGlobals = globalThis;
+  delete eventGlobals.PointerEvent;
+  return descriptor;
+});
+afterAll(() => {
+  if (pointerEventDescriptor) {
+    Object.defineProperty(globalThis, 'PointerEvent', pointerEventDescriptor);
+  } else {
+    /** @type {{PointerEvent?: typeof PointerEvent}} */
+    let eventGlobals = globalThis;
+    delete eventGlobals.PointerEvent;
+  }
+});
+
+/** @param {import('../src/Popover').PopoverProps} props */
+let TestPopover = props => (
+  <DialogTrigger>
+    <Button />
+    <Popover {...props}>
+      <OverlayArrow>
+        <svg width={12} height={12}>
+          <path d="M0 0,L6 6,L12 0" />
+        </svg>
+      </OverlayArrow>
+      <Dialog>Popover</Dialog>
+    </Popover>
+  </DialogTrigger>
+);
+
+describe('Popover', () => {
+  /** @type {ReturnType<typeof userEvent.setup>} */
+  let user;
+  beforeAll(() => {
+    user = userEvent.setup({delay: null, pointerMap});
+    jest.useFakeTimers();
+  });
+  afterEach(() => {
+    act(() => jest.runAllTimers());
+  });
+
+  it('works with a dialog', async () => {
+    let {getByRole, queryByRole} = render(() => <TestPopover />);
+
+    let button = getByRole('button');
+    expect(queryByRole('dialog')).not.toBeInTheDocument();
+
+    await user.click(button);
+
+    let dialog = getByRole('dialog');
+    expect(dialog).toBeInTheDocument();
+    expect(dialog.closest('.react-aria-Popover')).toHaveAttribute('data-trigger', 'DialogTrigger');
+
+    expect(button).toHaveAttribute('aria-controls');
+    expect(dialog).toHaveAttribute('id', button.getAttribute('aria-controls'));
+
+    await user.click(document.body);
+
+    expect(dialog).not.toBeInTheDocument();
+  });
+
+  it('applies overlay id to standalone popover', async () => {
+    let {getByRole} = render(() =>
+      <DialogTrigger>
+        <Button />
+        <Popover aria-label="Popover">Popover content</Popover>
+      </DialogTrigger>
+    );
+
+    let button = getByRole('button');
+    await user.click(button);
+
+    let dialog = getByRole('dialog');
+    expect(dialog).toBeInTheDocument();
+    expect(button).toHaveAttribute('aria-controls');
+    expect(dialog).toHaveAttribute('id', button.getAttribute('aria-controls'));
+  });
+
+  it('should handle focus', async () => {
+    let {getByRole} = render(() => <TestPopover />);
+
+    let button = getByRole('button');
+
+    await user.tab();
+    expect(button).toHaveFocus();
+
+    await user.click(button);
+
+    let dialog = getByRole('dialog');
+    expect(dialog).toHaveFocus();
+
+    await user.click(document.body);
+    act(() => jest.runAllTimers());
+
+    expect(button).toHaveFocus();
+  });
+
+  it('should support render props', async () => {
+    let {getByRole} = render(() =>
+      <DialogTrigger>
+        <Button />
+        <Popover placement="bottom start">
+          {values => <Dialog>Popover at {values.placement}</Dialog>}
+        </Popover>
+      </DialogTrigger>
+    );
+
+    let button = getByRole('button');
+
+    await user.click(button);
+
+    let dialog = getByRole('dialog');
+    expect(dialog).toHaveTextContent('Popover at bottom');
+  });
+
+  it('should support custom render function', async () => {
+    let {getByRole} = render(() =>
+      <TestPopover render={props => <div {...props} data-custom="true" />} />
+    );
+    let button = getByRole('button');
+    await user.click(button);
+    let dialog = getByRole('dialog').parentElement;
+    expect(dialog).toHaveAttribute('data-custom', 'true');
+  });
+
+  it('should support being used standalone', () => {
+    let onOpenChange = jest.fn();
+    let {getByRole} = render(() => {
+      /** @type {import('react-aria/private/utils/useObjectRef').ObjectRef<HTMLSpanElement>} */
+      let triggerRef = useObjectRef();
+      return <>
+        <span ref={triggerRef}>Trigger</span>
+        <Popover isOpen triggerRef={triggerRef} onOpenChange={onOpenChange}>
+          <Dialog aria-label="Popover">A popover</Dialog>
+        </Popover>
+      </>;
+    });
+
+    let dialog = getByRole('dialog');
+    expect(dialog).toHaveTextContent('A popover');
+
+    // userEvent seems to trigger a double close event
+    fireEvent.mouseDown(document.body, {button: 0});
+    fireEvent.mouseUp(document.body, {button: 0});
+    expect(onOpenChange).toHaveBeenCalledTimes(1);
+    expect(onOpenChange).toHaveBeenCalledWith(false);
+  });
+
+  it('should not leak PopoverContext to nested popovers', () => {
+    function NestedPopover() {
+      /** @type {import('react-aria/private/utils/useObjectRef').ObjectRef<HTMLButtonElement>} */
+      let triggerRef = useObjectRef();
+      return (
+        <>
+          <button ref={triggerRef}>anchor</button>
+          <Popover triggerRef={triggerRef} isOpen isNonModal data-testid="nested">
+            {values => <>{`nested trigger=${String(values.trigger)}`}</>}
+          </Popover>
+        </>
+      );
+    }
+
+    let {getByTestId} = render(() =>
+      <Select aria-label="Select" defaultOpen>
+        <Button>
+          <SelectValue />
+        </Button>
+        <Popover data-testid="outer">
+          <ListBox>
+            <ListBoxItem id="a">a</ListBoxItem>
+          </ListBox>
+          <NestedPopover />
+        </Popover>
+      </Select>
+    );
+
+    expect(getByTestId('outer')).toHaveAttribute('data-trigger', 'Select');
+    let nested = getByTestId('nested');
+    expect(nested).toHaveTextContent('nested trigger=null');
+    expect(nested).not.toHaveAttribute('data-trigger');
+    expect(nested).not.toHaveAttribute('aria-labelledby');
+  });
+
+  it('isOpen and defaultOpen should override state from context', () => {
+    let onOpenChange = jest.fn();
+    let {getByRole} = render(() =>
+      <>
+        <DialogTrigger>
+          <Button />
+          <Popover isOpen onOpenChange={onOpenChange}>
+            <Dialog>A popover</Dialog>
+          </Popover>
+        </DialogTrigger>
+      </>
+    );
+
+    let dialog = getByRole('dialog');
+    expect(dialog).toHaveTextContent('A popover');
+
+    // userEvent seems to trigger a double close event
+    fireEvent.mouseDown(document.body, {button: 0});
+    fireEvent.mouseUp(document.body, {button: 0});
+    expect(onOpenChange).toHaveBeenCalledTimes(1);
+    expect(onOpenChange).toHaveBeenCalledWith(false);
+  });
+
+  it('supports isEntering and isExiting props', async () => {
+    /** @type {import('solid-js').Setter<import('../src/Popover').PopoverProps>} */
+    let setProps;
+    let {getByRole} = render(() => {
+      let [props, updateProps] = createSignal(/** @type {import('../src/Popover').PopoverProps} */ ({isEntering: true}));
+      setProps = updateProps;
+      return <TestPopover isEntering={props().isEntering} isExiting={props().isExiting} />;
+    });
+
+    let button = getByRole('button');
+    await user.click(button);
+
+    let popover = getByRole('dialog').closest('.react-aria-Popover');
+    expect(popover).toHaveAttribute('data-entering');
+
+    act(() => setProps({}));
+    expect(popover).not.toHaveAttribute('data-entering');
+
+    act(() => setProps({isExiting: true}));
+    await user.click(button);
+
+    expect(popover).toBeInTheDocument();
+    expect(popover).toHaveAttribute('data-exiting');
+
+    act(() => setProps({}));
+    expect(popover).not.toBeInTheDocument();
+  });
+
+  it('supports overriding styles', async () => {
+    let {getByRole, getByTestId} = render(() =>
+      <DialogTrigger>
+        <Button />
+        <Popover style={{'z-index': 5}}>
+          <OverlayArrow style={{top: '5px'}} data-testid="arrow">
+            <svg width={12} height={12}>
+              <path d="M0 0,L6 6,L12 0" />
+            </svg>
+          </OverlayArrow>
+          <Dialog>Popover</Dialog>
+        </Popover>
+      </DialogTrigger>
+    );
+
+    let button = getByRole('button');
+    await user.click(button);
+
+    let popover = getByRole('dialog').closest('.react-aria-Popover');
+    expect(popover).toHaveAttribute('style', expect.stringContaining('z-index: 5'));
+    let arrow = getByTestId('arrow');
+    expect(arrow).toHaveAttribute('style', expect.stringContaining('top: 5px'));
+  });
+
+  describe('portalProvider', () => {
+    /** @param {{container?: import('react-aria/private/utils/useObjectRef').ObjectRef<HTMLDivElement>}} [_props] */
+    function InfoPopover(_props) {
+      return (
+        <DialogTrigger>
+          <Button />
+          <Popover>
+            <OverlayArrow>
+              <svg width={12} height={12}>
+                <path d="M0 0,L6 6,L12 0" />
+              </svg>
+            </OverlayArrow>
+            <Dialog>Popover</Dialog>
+          </Popover>
+        </DialogTrigger>
+      );
+    }
+    function App() {
+      /** @type {import('react-aria/private/utils/useObjectRef').ObjectRef<HTMLDivElement>} */
+      let container = useObjectRef();
+      return (
+        <>
+          <UNSAFE_PortalProvider getContainer={() => container.current}>
+            <InfoPopover container={container} />
+          </UNSAFE_PortalProvider>
+          <div ref={container} data-testid="custom-container" />
+        </>
+      );
+    }
+    it('should render the dialog in the portal container set by the PortalProvider', async () => {
+      let {getByRole, getByTestId} = render(() => <App />);
+
+      let button = getByRole('button');
+      await user.click(button);
+
+      expect(getByRole('dialog').closest('[data-testid="custom-container"]')).toBe(
+        getByTestId('custom-container')
+      );
+    });
+  });
+
+  // TODO: delete this test when we get rid of the deprecated prop
+  describe('portalContainer', () => {
+    /** @param {{container?: HTMLDivElement}} props */
+    function InfoPopover(props) {
+      return (
+        <DialogTrigger>
+          <Button />
+          <Popover UNSTABLE_portalContainer={props.container}>
+            <OverlayArrow>
+              <svg width={12} height={12}>
+                <path d="M0 0,L6 6,L12 0" />
+              </svg>
+            </OverlayArrow>
+            <Dialog>Popover</Dialog>
+          </Popover>
+        </DialogTrigger>
+      );
+    }
+    function App() {
+      let [container, setContainer] = createSignal(/** @type {HTMLDivElement | undefined} */ (undefined));
+      return (
+        <>
+          <InfoPopover container={container()} />
+          <div ref={setContainer} data-testid="custom-container" />
+        </>
+      );
+    }
+    it('should render the dialog in the portal container', async () => {
+      let {getByRole, getByTestId} = render(() => <App />);
+
+      let button = getByRole('button');
+      await user.click(button);
+
+      expect(getByRole('dialog').closest('[data-testid="custom-container"]')).toBe(
+        getByTestId('custom-container')
+      );
+    });
+  });
+
+  it('should support custom Pressable trigger', async () => {
+    let {getByRole} = render(() =>
+      <DialogTrigger>
+        <Pressable>
+          {props => <span {.../** @type {import('@solidjs/web').JSX.HTMLAttributes<HTMLSpanElement>} */ (props)} role="button">Trigger</span>}
+        </Pressable>
+        <Popover>
+          <Dialog>Popover</Dialog>
+        </Popover>
+      </DialogTrigger>
+    );
+
+    let button = getByRole('button');
+
+    await user.click(button);
+
+    let dialog = getByRole('dialog');
+    expect(dialog).toBeInTheDocument();
+  });
+});

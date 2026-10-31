@@ -1,0 +1,95 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import vanillaDocs from 'docs:vanilla-starter/DisclosureGroup';
+import '../../tailwind/tailwind.css';
+import Anatomy from './DisclosureGroupAnatomy.svg';
+
+export const tags = ['accordion', 'collapsible', 'expandable', 'details'];
+export const description = 'A grouping of related disclosures, sometimes called an accordion.';
+
+# DisclosureGroup
+
+<PageDescription>{docs.exports.DisclosureGroup.description}</PageDescription>
+
+<ExampleSwitcher>
+  ```tsx nativeModule="DisclosureGroup/solid-example-1.tsx" solid="DisclosureGroup/solid-example-1.tsx" files={["packages/dev/s2-docs/pages/react-aria/DisclosureGroup/vanilla/DisclosureGroup.solid.tsx","packages/dev/s2-docs/pages/react-aria/DisclosureGroup/vanilla/DisclosureGroup.css"]}  docs={vanillaDocs.exports.DisclosureGroup} links={vanillaDocs.links} props={['allowsMultipleExpanded', 'isDisabled']} type="vanilla" 
+  import { DisclosureGroup } from './DisclosureGroup/vanilla/DisclosureGroup.solid';
+  import { Disclosure, DisclosureHeader, DisclosurePanel } from './DisclosureGroup/vanilla/Disclosure.solid';
+  function Example(props: Record<string, unknown>) {
+      return (<DisclosureGroup {...props}>
+    <Disclosure>
+      <DisclosureHeader>Personal Information</DisclosureHeader>
+      <DisclosurePanel>Personal information form here.</DisclosurePanel>
+    </Disclosure>
+    <Disclosure>
+      <DisclosureHeader>Billing Address</DisclosureHeader>
+      <DisclosurePanel>Billing address form here.</DisclosurePanel>
+    </Disclosure>
+      </DisclosureGroup>);
+  }
+  ```
+
+  ```tsx nativeModule="DisclosureGroup/solid-example-2.tsx" solid="DisclosureGroup/solid-example-2.tsx" files={["packages/dev/s2-docs/pages/react-aria/DisclosureGroup/tailwind/DisclosureGroup.solid.tsx"]}  docs={vanillaDocs.exports.DisclosureGroup} links={vanillaDocs.links} props={['allowsMultipleExpanded', 'isDisabled']} type="tailwind" 
+  import { DisclosureGroup } from './DisclosureGroup/tailwind/DisclosureGroup.solid';
+  import { Disclosure, DisclosureHeader, DisclosurePanel } from './DisclosureGroup/tailwind/Disclosure.solid';
+  function Example(props: Record<string, unknown>) {
+      return (<DisclosureGroup {...props}>
+    <Disclosure>
+      <DisclosureHeader>Personal Information</DisclosureHeader>
+      <DisclosurePanel>Personal information form here.</DisclosurePanel>
+    </Disclosure>
+    <Disclosure>
+      <DisclosureHeader>Billing Address</DisclosureHeader>
+      <DisclosurePanel>Billing address form here.</DisclosurePanel>
+    </Disclosure>
+      </DisclosureGroup>);
+  }
+  ```
+</ExampleSwitcher>
+
+## Expanding
+
+Use the `defaultExpandedKeys` or `expandedKeys` prop to set the expanded items, and `onExpandedChange` to handle user interactions. The expanded keys correspond to the `id` prop of each `<Disclosure>`.
+
+```tsx nativeModule="DisclosureGroup/solid-example-3.tsx" solid="DisclosureGroup/solid-example-3.tsx" files={["packages/dev/s2-docs/pages/react-aria/DisclosureGroup/solid-example-3.tsx"]} 
+import type { Key } from 'solid-aria-components';
+import { DisclosureGroup } from './DisclosureGroup/vanilla/DisclosureGroup.solid';
+import { Disclosure, DisclosureHeader, DisclosurePanel } from './DisclosureGroup/vanilla/Disclosure.solid';
+import { createSignal } from 'solid-js';
+function Example() {
+    let [expandedKeys, setExpandedKeys] = createSignal(new Set<Key>(['system']));
+    return (<DisclosureGroup 
+    /*- begin highlight -*/
+    expandedKeys={expandedKeys()} onExpandedChange={setExpandedKeys}>
+      {/*- end highlight -*/}
+      <Disclosure id="settings">
+        <DisclosureHeader>Settings</DisclosureHeader>
+        <DisclosurePanel>Application settings content</DisclosurePanel>
+      </Disclosure>
+      <Disclosure id="preferences">
+        <DisclosureHeader>Preferences</DisclosureHeader>
+        <DisclosurePanel>User preferences content</DisclosurePanel>
+      </Disclosure>
+      <Disclosure id="advanced">
+        <DisclosureHeader>Advanced</DisclosureHeader>
+        <DisclosurePanel>Advanced configuration options</DisclosurePanel>
+      </Disclosure>
+    </DisclosureGroup>);
+}
+```
+
+## API
+
+<Anatomy />
+
+```tsx links={{DisclosureGroup: '#disclosuregroup', Disclosure: 'Disclosure'}}
+<DisclosureGroup>
+  <Disclosure />
+</DisclosureGroup>
+```
+
+### DisclosureGroup
+
+<PropTable component={docs.exports.DisclosureGroup} links={docs.links} />

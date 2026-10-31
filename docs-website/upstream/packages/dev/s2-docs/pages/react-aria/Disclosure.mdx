@@ -1,0 +1,112 @@
+import {Layout} from '../../src/Layout';
+export default Layout;
+
+import docs from 'docs:react-aria-components';
+import vanillaDocs from 'docs:vanilla-starter/Disclosure';
+import '../../tailwind/tailwind.css';
+import Anatomy from './DisclosureAnatomy.svg';
+
+export const tags = ['accordion', 'collapsible', 'expandable', 'details'];
+export const relatedPages = [{'title': 'useDisclosure', 'url': './Disclosure/useDisclosure'}];
+export const description = 'A collapsible section of content composed of a header with a heading and trigger button, and a panel that contains the content.';
+
+# Disclosure
+
+<PageDescription>{docs.exports.Disclosure.description}</PageDescription>
+
+<ExampleSwitcher>
+  ```tsx  docs={vanillaDocs.exports.Disclosure} links={vanillaDocs.links} props={['isDisabled']} type="vanilla" files={["docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Disclosure/solid-example-1.tsx","docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/vanilla/Disclosure.tsx","docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/vanilla/Disclosure.css"]} nativeModule="Disclosure/solid-example-1.tsx" solid="Disclosure/solid-example-1.tsx"
+  import { Disclosure, DisclosureHeader, DisclosurePanel } from './Tabs/vanilla/Disclosure';
+  function Example(props: Record<string, unknown>) {
+    return <Disclosure {...props}>
+    <DisclosureHeader>System Requirements</DisclosureHeader>
+    <DisclosurePanel>Details about system requirements here.</DisclosurePanel>
+  </Disclosure>;
+  }
+  ```
+
+  ```tsx  docs={vanillaDocs.exports.Disclosure} links={vanillaDocs.links} props={['isDisabled']} type="tailwind" files={["docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Disclosure/solid-example-2.tsx","docs-website/upstream/packages/dev/s2-docs/pages/react-aria/Tabs/tailwind/Disclosure.tsx"]} nativeModule="Disclosure/solid-example-2.tsx" solid="Disclosure/solid-example-2.tsx"
+  import { Disclosure, DisclosureHeader, DisclosurePanel } from './Tabs/tailwind/Disclosure';
+  function Example(props: Record<string, unknown>) {
+    return <Disclosure {...props}>
+    <DisclosureHeader>Files</DisclosureHeader>
+    <DisclosurePanel>Files content</DisclosurePanel>
+  </Disclosure>;
+  }
+  ```
+</ExampleSwitcher>
+
+## Expanding
+
+Use the `isExpanded` or `defaultExpanded` prop to set the expanded state, and `onExpandedChange` to handle user interactions.
+
+```tsx  nativeModule="Disclosure/solid-example-3.tsx" solid="Disclosure/solid-example-3.tsx"
+import { Disclosure, DisclosureHeader, DisclosurePanel } from './Tabs/vanilla/Disclosure';
+import { createSignal } from 'solid-js';
+function Example(props: Record<string, unknown>) {
+  let [isExpanded, setIsExpanded] = createSignal(true);
+  return <Disclosure
+  /*- begin highlight -*/ isExpanded={isExpanded()} onExpandedChange={setIsExpanded}>
+      {/*- end highlight -*/}
+      <DisclosureHeader>Download, Install, and Set Up</DisclosureHeader>
+      <DisclosurePanel>Instructions on how to download, install, and set up</DisclosurePanel>
+    </Disclosure>;
+}
+```
+
+## Content
+
+Add interactive elements such as buttons adjacent to the disclosure heading by wrapping them in a `<div>`. `<Heading>` and `<Button>` must not have interactive children.
+
+```tsx  nativeModule="Disclosure/solid-example-4.tsx" solid="Disclosure/solid-example-4.tsx"
+import { Disclosure, DisclosureHeader, DisclosurePanel } from './Tabs/vanilla/Disclosure';
+import { Button } from './Tabs/vanilla/Button';
+import { Settings } from './Tabs/icons';
+function Example(props: Record<string, unknown>) {
+  return <Disclosure style={{
+    "width": "200px"
+  }}>
+  <div style={{
+      "display": 'flex',
+      "align-items": 'center',
+      "gap": "8px"
+    }}>
+    {/*- begin highlight -*/}
+    <DisclosureHeader style={{
+        "flex": 1
+      }}>Files</DisclosureHeader>
+    <Button aria-label="Settings"><Settings /></Button>
+    {/*- end highlight -*/}
+  </div>
+  <DisclosurePanel>Files content</DisclosurePanel>
+</Disclosure>;
+}
+```
+
+## API
+
+<Anatomy />
+
+```tsx links={{Disclosure: '#disclosure', Button: 'Button', DisclosurePanel: '#disclosurepanel'}}
+<Disclosure>
+  <Heading>
+    <Button slot="trigger" />
+  </Heading>
+  <DisclosurePanel />
+</Disclosure>
+```
+
+### Disclosure
+
+<PropTable component={docs.exports.Disclosure} links={docs.links} showDescription />
+
+### DisclosurePanel
+
+<PropTable
+  component={docs.exports.DisclosurePanel}
+  links={docs.links}
+  showDescription
+  cssVariables={{
+    '--disclosure-panel-width': "The disclosure panel's intrinsic width in pixels. Useful for animations.",
+    '--disclosure-panel-height': "The disclosure panel's intrinsic height in pixels. Useful for animations."
+  }} />

@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "packages/react-aria/src/interactions/useFocus.ts", "packages/react-aria/src/interactions/useFocusWithin.ts", "packages/react-aria/src/interactions/useFocusVisible.ts", "packages/react-aria/src/interactions/useKeyboard.ts", "packages/react-aria/src/interactions/useFocusable.tsx", "packages/react-aria/src/interactions/focusSafely.ts", "packages/react-aria/src/interactions/utils.ts", "packages/react-aria/src/focus/useFocusRing.ts", "packages/react-aria/src/utils/useGlobalListeners.ts", "packages/react-aria/src/utils/useObjectRef.ts", "packages/react-aria/src/utils/useSyncRef.ts"]
+}

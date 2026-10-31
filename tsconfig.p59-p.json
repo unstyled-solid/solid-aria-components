@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["test/intl.d.ts", "test/css.d.ts"],
+  "include": [
+    "packages/@react-spectrum/s2/src/Provider.tsx",
+    "packages/@react-spectrum/s2/src/Fonts.tsx",
+    "packages/@react-spectrum/s2/exports/Provider.ts"
+  ]
+}

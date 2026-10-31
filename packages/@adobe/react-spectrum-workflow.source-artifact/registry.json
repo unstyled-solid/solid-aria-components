@@ -1,0 +1,145 @@
+{
+  "dist": {
+    "shasum": "3f5adc5fe2bae25416805b7d92c1ff5bd1e061f0",
+    "tarball": "https://registry.npmjs.org/@adobe/react-spectrum-workflow/-/react-spectrum-workflow-2.3.5.tgz",
+    "fileCount": 896,
+    "integrity": "sha512-b53VIPwPWKb/T5gzE3qs+QlGP5gVrw/LnWV3xMksDU+CRl3rzOKUwxIGiZO8ICyYh1WiyqY4myGlPU/nAynBUg==",
+    "signatures": [
+      {
+        "sig": "MEUCIQChzdtg/5wxXItQ4DHMogcl8iFL/DufivJhGBXRpirJVAIgI71zCFsQXsV2zKiTS9yP09g5712eqBLAA6CRxg4PRyA=",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 2276807
+  },
+  "main": "dist/index.js",
+  "name": "@adobe/react-spectrum-workflow",
+  "license": "Apache-2.0",
+  "_npmUser": {
+    "name": "devongovett",
+    "email": "devongovett@gmail.com"
+  },
+  "keywords": [
+    "react",
+    "icon",
+    "Spectrum"
+  ],
+  "_npmVersion": "10.2.3",
+  "description": "Spectrum (S1) icons in React",
+  "directories": {},
+  "iconPackage": "@a4u/a4u-spectrum-open-source",
+  "maintainers": [
+    {
+      "name": "doten",
+      "email": "doten@adobe.com"
+    },
+    {
+      "name": "stopp-adobe",
+      "email": "stopp@adobe.com"
+    },
+    {
+      "name": "dylandepass",
+      "email": "dylandepass@gmail.com"
+    },
+    {
+      "name": "djaeggi",
+      "email": "djaeggi@adobe.com"
+    },
+    {
+      "name": "adobehalls",
+      "email": "halls@adobe.com"
+    },
+    {
+      "name": "fullcolorcoder",
+      "email": "bradjohn@adobe.com"
+    },
+    {
+      "name": "marbec",
+      "email": "mabecker@adobe.com"
+    },
+    {
+      "name": "tripod",
+      "email": "tripod@bocanegra.ch"
+    },
+    {
+      "name": "garthdb",
+      "email": "garthdb@gmail.com"
+    },
+    {
+      "name": "lazd",
+      "email": "lazdnet@gmail.com"
+    },
+    {
+      "name": "adobe-admin",
+      "email": "grp-opensourceoffice@adobe.com"
+    },
+    {
+      "name": "patrickfulton",
+      "email": "patrickfulton@gmail.com"
+    },
+    {
+      "name": "trieloff",
+      "email": "lars@trieloff.net"
+    },
+    {
+      "name": "shazron",
+      "email": "shazron@gmail.com"
+    },
+    {
+      "name": "krisnye",
+      "email": "krisnye@gmail.com"
+    },
+    {
+      "name": "dcpfsdk",
+      "email": "dcpfsdk@adobe.com"
+    },
+    {
+      "name": "natebaldwin",
+      "email": "natebaldwindesign@gmail.com"
+    },
+    {
+      "name": "devongovett",
+      "email": "devongovett@gmail.com"
+    },
+    {
+      "name": "aspro83",
+      "email": "danniintheus@gmail.com"
+    },
+    {
+      "name": "symanovi",
+      "email": "symanovi@adobe.com"
+    },
+    {
+      "name": "dpfister",
+      "email": "dominique.pfister@gmail.com"
+    },
+    {
+      "name": "stefan-guggisberg",
+      "email": "sg@adobe.com"
+    },
+    {
+      "name": "korra",
+      "email": "npmjs.karo@cupdev.net"
+    },
+    {
+      "name": "rofe",
+      "email": "npm@rofe.com"
+    },
+    {
+      "name": "kptdobe",
+      "email": "kptdobe@gmail.com"
+    }
+  ],
+  "_nodeVersion": "18.19.0",
+  "_hasShrinkwrap": false,
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/react-spectrum-workflow_2.3.5_1721348507125_0.48964540793722455",
+    "host": "s3://npm-registry-packages"
+  },
+  "_id": "@adobe/react-spectrum-workflow@2.3.5",
+  "version": "2.3.5"
+}

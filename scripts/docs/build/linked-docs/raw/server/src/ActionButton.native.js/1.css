@@ -1,0 +1,48 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  .zYoLErc18 {
+    grid-column-start: text;
+  }
+
+
+  .yYoLErc18 {
+    grid-column-end: text;
+  }
+
+
+  .BYoLErc18 {
+    grid-row-start: text;
+  }
+
+
+  .AYoLErc18 {
+    grid-row-end: text;
+  }
+
+
+  ._Nc18 {
+    overflow-x: hidden;
+  }
+
+
+  .Pc18 {
+    overflow-y: hidden;
+  }
+
+
+  ._Yb18 {
+    text-overflow: ellipsis;
+  }
+
+
+  ._7c18 {
+    white-space: nowrap;
+  }
+
+
+  ._6b18 {
+    visibility: hidden;
+  }
+}
+

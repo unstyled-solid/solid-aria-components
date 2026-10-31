@@ -1,0 +1,37 @@
+import {render} from '@solidjs/web';
+import {isWeekend, today, getLocalTimeZone} from '@internationalized/date';
+import {useLocale} from 'solid-aria-components';
+import {DatePicker} from './vanilla/DatePicker.solid';
+import {Button} from './vanilla/Button.solid';
+import {Form} from './vanilla/Form.solid';
+function Example() {
+  let locale = useLocale();
+  let now = today(getLocalTimeZone());
+  let disabledRanges = [
+    [now, now.add({ days: 5 })],
+    [now.add({ days: 14 }), now.add({ days: 16 })],
+    [now.add({ days: 23 }), now.add({ days: 24 })]
+  ];
+
+  return (
+    <Form>
+      <DatePicker
+        label="Appointment date"
+        ///- begin highlight -///
+        name="date"
+        isRequired
+        minValue={today(getLocalTimeZone())}
+        isDateUnavailable={date => (
+          isWeekend(date, locale.locale) ||
+          disabledRanges.some((interval) =>
+            date.compare(interval[0]) >= 0 && date.compare(interval[1]) <= 0
+          )
+        )}
+        ///- end highlight -///
+      />
+      <Button type="submit">Submit</Button>
+    </Form>
+  );
+}
+export const title = 'DatePicker example 6';
+export function mount(element: HTMLElement, props: Record<string, unknown> = {}) {return render(() => <Example {...props} />, element);}

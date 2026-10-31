@@ -1,0 +1,38 @@
+@layer _.prose, _.a;
+
+@layer _.a {
+  ._Pa18 {
+    position: absolute;
+  }
+
+
+  .WtedXZc18 {
+    top: var(--badgeTop);
+  }
+
+
+  .JlZStSb18 {
+    margin-top: calc((var(--F) * -1)/2);
+  }
+
+
+  .Ijgro3c18 {
+    margin-inline-start: calc(var(--iconMargin) * 2 + (var(--F) * -1)/4);
+  }
+
+
+  .z2mU18 {
+    grid-column-start: 1;
+  }
+
+
+  ._A1IiWH18 {
+    inset-inline-start: var(--badgePosition);
+  }
+
+
+  ._6b18 {
+    visibility: hidden;
+  }
+}
+

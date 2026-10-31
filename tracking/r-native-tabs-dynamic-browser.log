@@ -1,0 +1,226 @@
+{
+  "react": {
+    "arrow": {
+      "rootRetained": true,
+      "tabsRetained": [
+        true,
+        true,
+        true
+      ],
+      "buttonsRetained": [
+        true,
+        true
+      ],
+      "tabs": [
+        {
+          "text": "Tab 1",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "text": "Tab 2",
+          "selected": "true",
+          "color": "rgb(255, 0, 0)"
+        },
+        {
+          "text": "Tab 3",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        }
+      ],
+      "active": "Tab 2",
+      "changes": [
+        {
+          "value": 2,
+          "active": "<div class=\"react-aria-Tab\" data-rac=\"\" tabindex=\"0\" data-collection=\"react-aria6673168324-_r_0_\" data-key=\"1\" data-react-aria-pressable=\"true\" id=\"react-aria6673168324-_r_1_-tab-1\" aria-selected=\"true\" aria-controls=\"react-aria6673168324-_r_1_-tabpanel-1\" role=\"tab\" data-selected=\"true\" data-focused=\"true\" data-focus-visible=\"true\"><p style=\"color: red;\">Tab 1</p></div>",
+          "time": 150.30000000074506
+        }
+      ]
+    },
+    "added": {
+      "rootRetained": true,
+      "tabsRetained": [
+        true,
+        true,
+        true
+      ],
+      "buttonsRetained": [
+        true,
+        true
+      ],
+      "tabs": [
+        {
+          "text": "Tab 1",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "text": "Tab 2",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "text": "Tab 3",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "text": "Tab 4",
+          "selected": "true",
+          "color": "rgb(255, 0, 0)"
+        }
+      ],
+      "active": "Add tab",
+      "changes": []
+    },
+    "removed": {
+      "rootRetained": true,
+      "tabsRetained": [
+        true,
+        true,
+        true
+      ],
+      "buttonsRetained": [
+        true,
+        true
+      ],
+      "tabs": [
+        {
+          "text": "Tab 1",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "text": "Tab 2",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "text": "Tab 3",
+          "selected": "true",
+          "color": "rgb(255, 0, 0)"
+        }
+      ],
+      "active": "Remove tab",
+      "changes": []
+    },
+    "diagnostics": [],
+    "errors": []
+  },
+  "native": {
+    "arrow": {
+      "rootRetained": true,
+      "tabsRetained": [
+        true,
+        true,
+        true
+      ],
+      "buttonsRetained": [
+        true,
+        true
+      ],
+      "tabs": [
+        {
+          "text": "Tab 1",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "text": "Tab 2",
+          "selected": "true",
+          "color": "rgb(255, 0, 0)"
+        },
+        {
+          "text": "Tab 3",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        }
+      ],
+      "active": "Tab 2",
+      "changes": [
+        {
+          "value": 2,
+          "active": "<div data-rac=\"\" tabindex=\"0\" data-collection=\"react-aria5567861799-cl-0\" data-key=\"1\" data-react-aria-pressable=\"true\" id=\"react-aria5567861799-cl-1-tab-1\" aria-selected=\"true\" aria-controls=\"react-aria5567861799-cl-1-tabpanel-1\" role=\"tab\" data-selected=\"true\" class=\"react-aria-Tab\" data-focused=\"true\" data-focus-visible=\"true\"><p style=\"color: red;\">Tab 1</p></div>",
+          "time": 253.09999999776483
+        }
+      ]
+    },
+    "added": {
+      "rootRetained": true,
+      "tabsRetained": [
+        true,
+        true,
+        true
+      ],
+      "buttonsRetained": [
+        true,
+        true
+      ],
+      "tabs": [
+        {
+          "text": "Tab 1",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "text": "Tab 2",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "text": "Tab 3",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "text": "Tab 4",
+          "selected": "true",
+          "color": "rgb(255, 0, 0)"
+        }
+      ],
+      "active": "Add tab",
+      "changes": []
+    },
+    "removed": {
+      "rootRetained": true,
+      "tabsRetained": [
+        true,
+        true,
+        true
+      ],
+      "buttonsRetained": [
+        true,
+        true
+      ],
+      "tabs": [
+        {
+          "text": "Tab 1",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "text": "Tab 2",
+          "selected": "false",
+          "color": "rgb(0, 0, 0)"
+        },
+        {
+          "text": "Tab 3",
+          "selected": "true",
+          "color": "rgb(255, 0, 0)"
+        }
+      ],
+      "active": "Remove tab",
+      "changes": []
+    },
+    "diagnostics": [
+      "[EFFECT_WRITES_OWN_SOURCE] effect \"effect\" re-ran because of its own write: it wrote \"useMultipleSelectionState.focusedKey\" (null → 1), which fed back into its inputs. Two flushes to settle, and the screen rendered the pre-write value in between. The written value is a function of what the effect reads — compute it in a memo (or normalize where the source is written) instead of correcting it after the fact.\n  in <Example> › <Tabs> › <CollectionBuilder> › <CollectionInner> › <For> › <TabsInner> › effect\n[EFFECT_WRITES_OWN_SOURCE] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#effect_writes_own_source\n[EFFECT_WRITES_OWN_SOURCE] deeper evidence: import { attribution } from \"solid-js/attribution\"; attribution.enable() explains every re-run — why-chains, costs(), feedback(), history(\"hold\" | \"waterfall\") — agent loop: node_modules/@solidjs/diagnostics/skills/agent-loops/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/diagnostics/skills/agent-loops/SKILL.md",
+      "[WIDE_SCOPE_DEPS] effect \"effect\" is subscribed to 31 sources — it re-runs when any of them change. Narrow its reads or split it into smaller memos. Sources: computed, computed, computed, computed, computed, computed, computed, computed, signal, useMultipleSelectionState.disabledKeysProp, computed, signal, …\n  in <Example> › <Tabs> › <CollectionBuilder> › <CollectionInner> › <For> › <TabsInner> › <dom.div> › <Host> › computed › effect › <TabsContext> › computed › <TabListStateContext> › computed › <For> › <TabList> › <TabListInner> › <dom.div> › <Host> › computed › effect › <SharedElementTransition> › <SharedElementContext> › computed › <CollectionRoot> › <For> › <FocusableContext> › computed › <Component> › <Dynamic> › <Anonymous> › computed › <Host> › computed › effect\n[WIDE_SCOPE_DEPS] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#wide_scope_deps\n[WIDE_SCOPE_DEPS] deeper evidence: import { attribution } from \"solid-js/attribution\"; attribution.enable() explains every re-run — why-chains, costs(), feedback(), history(\"hold\" | \"waterfall\") — agent loop: node_modules/@solidjs/diagnostics/skills/agent-loops/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/diagnostics/skills/agent-loops/SKILL.md JSHandle@node",
+      "[WIDE_SCOPE_DEPS] effect \"effect\" is subscribed to 30 sources — it re-runs when any of them change. Narrow its reads or split it into smaller memos. Sources: computed, computed, computed, computed, computed, computed, computed, computed, signal, useMultipleSelectionState.disabledKeysProp, computed, signal, …\n  in <Example> › <Tabs> › <CollectionBuilder> › <CollectionInner> › <For> › <TabsInner> › <dom.div> › <Host> › computed › effect › <TabsContext> › computed › <TabListStateContext> › computed › <For> › <TabList> › <TabListInner> › <dom.div> › <Host> › computed › effect › <SharedElementTransition> › <SharedElementContext> › computed › <CollectionRoot> › <For> › <FocusableContext> › computed › <Component> › <Dynamic> › <Anonymous> › computed › <Host> › computed › effect JSHandle@node",
+      "[WIDE_SCOPE_DEPS] effect \"effect\" is subscribed to 32 sources — it re-runs when any of them change. Narrow its reads or split it into smaller memos. Sources: computed, computed, computed, computed, computed, computed, computed, computed, computed, signal, useMultipleSelectionState.disabledKeysProp, computed, …\n  in <Example> › <Tabs> › <CollectionBuilder> › <CollectionInner> › <For> › <TabsInner> › <dom.div> › <Host> › computed › effect › <TabsContext> › computed › <TabListStateContext> › computed › <For> › <TabList> › <TabListInner> › <dom.div> › <Host> › computed › effect › <SharedElementTransition> › <SharedElementContext> › computed › <CollectionRoot> › <For> › <FocusableContext> › computed › <Component> › <Dynamic> › <Anonymous> › computed › <Host> › computed › effect JSHandle@node",
+      "[EFFECT_RELAY_TEAR] memo \"computed\" ran twice for one write of \"selectedTabId\": once in the flush where \"selectedTabId\" changed, and again after effect \"effect\" relayed it by writing \"useMultipleSelectionState.focusedKey\" — the first frame showed the new \"selectedTabId\" with the stale \"useMultipleSelectionState.focusedKey\" (3 times so far). If \"useMultipleSelectionState.focusedKey\" is computed from what the effect reads, make it a memo so readers get it in the same flush; if the write reads something outside the graph (layout, time), the tear is the cost of measuring.\n  in <Example> › <Tabs> › <CollectionBuilder> › <CollectionInner> › <For> › <TabsInner> › <dom.div> › <Host> › computed › effect › <TabsContext> › computed › <TabListStateContext> › computed › <For> › <TabList> › <TabListInner> › computed\n[EFFECT_RELAY_TEAR] repair guide: node_modules/solid-js/skills/reactivity-diagnostics/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/solid/skills/reactivity-diagnostics/SKILL.md#effect_relay_tear\n[EFFECT_RELAY_TEAR] deeper evidence: import { attribution } from \"solid-js/attribution\"; attribution.enable() explains every re-run — why-chains, costs(), feedback(), history(\"hold\" | \"waterfall\") — agent loop: node_modules/@solidjs/diagnostics/skills/agent-loops/SKILL.md — https://github.com/solidjs/solid/blob/main/packages/diagnostics/skills/agent-loops/SKILL.md",
+      "[WIDE_SCOPE_DEPS] effect \"effect\" is subscribed to 49 sources — it re-runs when any of them change. Narrow its reads or split it into smaller memos. Sources: computed, computed, computed, computed, computed, computed, computed, computed, computed, computed, computed, signal, …\n  in <Example> › <Tabs> › <CollectionBuilder> › <CollectionInner> › <For> › <TabsInner> › <dom.div> › <Host> › computed › effect › <TabsContext> › computed › <TabListStateContext> › computed › <For> › <TabList> › <TabListInner> › <dom.div> › <Host> › computed › effect › <SharedElementTransition> › <SharedElementContext> › computed › <CollectionRoot> › <For> › <FocusableContext> › computed › <Component> › <Dynamic> › <Anonymous> › computed › <Host> › computed › effect JSHandle@node",
+      "[WIDE_SCOPE_DEPS] effect \"effect\" is subscribed to 46 sources — it re-runs when any of them change. Narrow its reads or split it into smaller memos. Sources: computed, computed, computed, computed, computed, computed, computed, computed, computed, computed, computed, signal, …\n  in <Example> › <Tabs> › <CollectionBuilder> › <CollectionInner> › <For> › <TabsInner> › <dom.div> › <Host> › computed › effect › <TabsContext> › computed › <TabListStateContext> › computed › <For> › <TabList> › <TabListInner> › <dom.div> › <Host> › computed › effect › <SharedElementTransition> › <SharedElementContext> › computed › <CollectionRoot> › <For> › <FocusableContext> › computed › <Component> › <Dynamic> › <Anonymous> › computed › <Host> › computed › effect JSHandle@node"
+    ],
+    "errors": []
+  }
+}

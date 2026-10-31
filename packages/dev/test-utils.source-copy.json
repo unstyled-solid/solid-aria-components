@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "mode": "copied",
+  "source": "/Users/avi/avir-oss/solid-aria-components/upstream/react-spectrum/packages/dev/test-utils",
+  "target": "/Users/avi/avir-oss/solid-aria-components/packages/dev/test-utils",
+  "sourceSha": "3bdef480e85ff135cd485e9f4511b98300127d4b",
+  "files": [
+    {
+      "path": "index.ts",
+      "bytes": 644,
+      "sha256": "594e47e9541abd266230f1ab8a4011cff08fe222cda671d39d216df48d1a3b5b",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1472,
+      "sha256": "aa158432282035cd9976f4b0a7888cfd2f959821daa28352064c6645c0279da9",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "README.md",
+      "bytes": 144,
+      "sha256": "85080824cce786373d4bbb3fa919a03228a73aa77ce5d82abd8e3392a45ee154",
+      "category": "asset-or-notice"
+    },
+    {
+      "path": "src/events.ts",
+      "bytes": 1282,
+      "sha256": "d1d40da79d8cc36b6fa0fe30022bd8d0a5fd7c25e488bf25e1dbbf0bfc56121a",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 969,
+      "sha256": "20258fc2c88c6b7382250993f6e9d45c82b2d2402bab0c2cfbeb2aead34050c9",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/mockImplementation.ts",
+      "bytes": 2311,
+      "sha256": "8016a861c1ea82067d2bebad25674df88f3d7efa26dffd2caec8b2cc735d4135",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/mockIntersectionObserver.ts",
+      "bytes": 2303,
+      "sha256": "fece0b6c88b6186bdcdfc9e405fefe204bb83a790bc69d22b3a8f24d46ad3f87",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/renderOverride.tsx",
+      "bytes": 2467,
+      "sha256": "57e15126fe88509e5691d4c31f3b093885d7a8a5b0f29ca298f4606bbf4e7778",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/shadowDOM.ts",
+      "bytes": 1094,
+      "sha256": "e6d2d4e39ca2817684c28d835ca9ec6f267c89669af5f06e93143ed987b72b08",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/ssrSetup.js",
+      "bytes": 146,
+      "sha256": "dda04282f383352b53a8c8ff588fb8adf06eab21d25c8b0dcfe002d124285d71",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/ssrTeardown.js",
+      "bytes": 92,
+      "sha256": "a6b7acdfd9345baa6e659ec627c3ff479f8751e21079d03548f3b0933896bcdd",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/ssrUtils.js",
+      "bytes": 1810,
+      "sha256": "bf7307baaa70e6fa239000d2d8bef19996d717752a729bb01818d39f22b26d42",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/ssrWorker.js",
+      "bytes": 2190,
+      "sha256": "c35cfde19b6d8ec4fc844de19345a45ec5974000691ed2f03e2ba8192373b107",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/StrictModeWrapper.tsx",
+      "bytes": 871,
+      "sha256": "59332f2c181de3b2033c14058ab4e4cdae3e15a9ac3765964e95ad2d5236d671",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/testSSR.tsx",
+      "bytes": 3259,
+      "sha256": "3cfc08c830794df8c43c2fc17c0083ce17711df82574e563dabf8ddef7302416",
+      "category": "source-or-helper"
+    },
+    {
+      "path": "src/types.ts",
+      "bytes": 701,
+      "sha256": "54753bb9db5acf28b41c043c196112b9fdad4da6d14c03e7d94f3ded418b543c",
+      "category": "source-or-helper"
+    }
+  ],
+  "adaptationState": "unadapted source copy; not Solid implementation or test execution"
+}

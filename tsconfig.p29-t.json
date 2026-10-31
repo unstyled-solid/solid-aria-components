@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false, "allowJs": true, "checkJs": true},
+  "files": ["test/intl.d.ts", "test/css.d.ts", "packages/@adobe/react-spectrum/exports/TextField.ts", "packages/@adobe/react-spectrum/exports/TextArea.ts", "packages/@adobe/react-spectrum/exports/SearchField.ts", "packages/@adobe/react-spectrum/src/textfield/TextFieldBase.tsx", "test/ssr-harness/p29-textfield-basic.tsx", "test/ssr-harness/p29-textarea-basic.tsx", "test/ssr-harness/p29-searchfield-basic.tsx"]
+}

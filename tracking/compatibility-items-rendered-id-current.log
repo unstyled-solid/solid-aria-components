@@ -1,0 +1,26 @@
+
+ RUN  v4.1.11 /Users/avi/avir-oss/solid-aria-components
+
+ ❯ |solid2-pilot| packages/react-aria-components/test/Table.test.jsx (178 tests | 1 failed | 177 skipped) 274ms
+           × can resize 'Height' to be -50 px different 271ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |solid2-pilot| packages/react-aria-components/test/Table.test.jsx > Table > column resizing > Resizing > interactions > can resize 'Height' to be -50 px different
+AssertionError: expected "vi.fn()" to be called 1 times, but got 0 times
+ ❯ packages/react-aria/test/table/tableResizingTests.tsx:226:31
+    224|             expect(resizer).toHaveAttribute('max', `${Number.MAX_SAFE_…
+    225|           });
+    226|           expect(onResizeEnd).toHaveBeenCalledTimes(1);
+       |                               ^
+    227|           expect(onResizeEnd).toHaveBeenCalledWith(mapFromWidths(colum…
+    228|         }
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 177 skipped (178)
+   Start at  19:05:13
+   Duration  2.55s (transform 1.60s, setup 105ms, import 1.82s, tests 274ms, environment 245ms)
+
