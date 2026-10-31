@@ -1,4 +1,4 @@
-# Current checkpoint — 2026-10-13
+# Current checkpoint — 2026-10-31
 
 ## Authorization and execution
 - Finish native Solid 2 library/docs defects autonomously; renewed bounded investigations and incremental Virtualizer reconciliation explicitly authorized. Historical architecture/no-retry restrictions superseded for this episode.
@@ -41,8 +41,8 @@
 
 ## Operational reconciliation
 - Sole4340 rebuild `sh_134da22d1001LaC6HNShqHpDbR` completed94.22s/HTTP200. Checkbox/Calendar/Autocomplete fresh proofs complete; fixture fallback adaptation p44 passes with assertions unchanged. Production frozen; packaging qualified, Users warning retained explicitly.
-- Component-only terminal Playwright auditor `ses_ecb674b07ffeKwWUcPzcK3Qp28` authorized to execute/repair automation and preserve every diagnostic occurrence; owns `docs-website/audit/` only, not native sources. Production results `docs-website/audit/results/production-full/`; full diagnostic ledger pending.
-- Isolated static diagnostic build SUCCESS (`sh_134b78c3a001qXsa5KCmLpwZtj`): `NODE_ENV=development DOCS_DIAGNOSTICS=1 DOCS_ORIGIN=http://127.0.0.1:4351` Parcel static/no-optimize/no-scope-hoist, separate `docs-website/dist-diagnostics`. Resolver flag preserves ordinary production selection. Server4351 `sh_134bb2150001yOmkan47JJMDia`; Checkbox HTTP200/origin4351 and compiled UNTRACKED/core-dev instrumentation verified. Auditor notified; snapshot is not certification of subsequent native edits. Production4350 left intact.
+- Public source-only `main` published at `github.com/unstyled-solid/react-aria-components`; native package manifests/READMEs included. CI lives on `ci/github-actions`, PR #1 open (workflow and pnpm native-build allowlist); Ubuntu 24.04 pinned for Playwright 1.57, runner result pending. No npm publish or PR merge.
+- User deleted the former `docs-website/audit`; library diagnostics use existing browser tests at `scripts/test-diagnostics/` and `tracking/browser-test-diagnostics/`. Old docs dev/static servers are stopped. Generated Parcel caches/builds and bloated temporary Git history removed; current `.git` is source-only with intact upstream submodule.
 - BaseUI reference review completed (same rc13): reverse-precedence membership checks and child-SOURCE identity equality boundary; exact guidance sent field owner. Preserve aria undefined fallback/private-marker semantics, do not copy BaseUI merge behavior wholesale.
 - Collection frozen: Builder5/mutation19/Gridloading6/ComboSSR2+composedSSR3/VirtualizedMenu1/browser18/types+fresh docs all pass. Sole4340 rebuilt96.09s/HTTP200 (`sh_134b04280001caFXjy0pVBsxmo`).
 - Localization corrected actual absolute Parcel path; fresh ColorArea/Swatch real localized names and Toast plural count, six named callsite flows all qualified. No runners/owned browser/source writes remain in that lane.
