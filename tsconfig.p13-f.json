@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false, "types": ["vitest/globals", "node"]},
-  "files": ["test/intl.d.ts", "packages/react-stately/src/layout/GridLayout.ts", "packages/react-stately/src/layout/TableLayout.ts", "packages/react-stately/src/layout/WaterfallLayout.ts", "packages/react-stately/src/table/TableColumnLayout.ts", "packages/react-stately/src/table/TableUtils.ts", "packages/react-stately/src/table/ColumnTypes.ts", "packages/react-stately/test/virtualizer/GridLayout.test.ts"]
-}

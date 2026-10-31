@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["../../test/intl.d.ts", "../../packages/react-aria/src/menu/useMenu.ts", "../../packages/react-aria/src/menu/useMenuItem.ts", "../../packages/react-aria/src/menu/useMenuSection.ts", "../../packages/react-aria/src/menu/useMenuTrigger.ts", "../../packages/react-aria/src/menu/useSubmenuTrigger.ts", "../../packages/react-aria/src/menu/useSafelyMouseToSubmenu.ts", "../../packages/react-aria/src/menu/utils.ts", "../../packages/react-stately/src/menu/useSubmenuTriggerState.ts"]
+}

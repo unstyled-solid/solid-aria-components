@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false},
-  "files": ["test/intl.d.ts", "packages/react-aria-components/src/Breadcrumbs.tsx", "packages/react-aria/src/breadcrumbs/useBreadcrumbs.ts", "packages/react-aria/src/breadcrumbs/useBreadcrumbItem.ts"]
-}

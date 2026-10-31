@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false, "allowJs": true, "checkJs": true},
-  "files": ["test/intl.d.ts", "test/css.d.ts", "packages/@adobe/react-spectrum/exports/Link.ts", "test/ssr-harness/p31-link-basic.tsx"]
-}

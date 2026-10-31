@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false},
-  "files": ["test/intl.d.ts", "packages/react-stately/src/selection/useMultipleSelectionState.ts", "packages/react-stately/src/selection/Selection.ts", "packages/react-stately/src/selection/SelectionManager.ts", "packages/react-stately/src/selection/types.ts", "packages/react-stately/src/tree/useTreeState.ts", "packages/react-stately/src/tree/TreeCollection.ts", "packages/react-stately/src/collections/useCollection.ts", "packages/react-stately/src/collections/CollectionBuilder.ts", "packages/react-stately/src/collections/Item.ts", "packages/react-stately/src/collections/Section.ts", "packages/react-stately/src/collections/types.ts", "packages/react-stately/src/list/useListState.ts", "packages/react-stately/src/list/ListCollection.ts", "packages/react-stately/stories/tree/useTreeState.stories.tsx"]
-}

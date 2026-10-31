@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false},
-  "files": ["test/intl.d.ts", "packages/react-stately/src/disclosure/useDisclosureState.ts", "packages/react-stately/src/disclosure/useDisclosureGroupState.ts", "packages/react-aria/src/disclosure/useDisclosure.ts", "packages/react-aria-components/src/Disclosure.tsx"]
-}

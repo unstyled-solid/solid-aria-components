@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false},
-  "files": ["test/intl.d.ts", "test/css.d.ts", "packages/react-aria/src/dnd/useDraggableCollection.ts", "packages/react-aria/src/dnd/useDraggableItem.ts", "packages/react-aria/src/dnd/useDroppableCollection.ts", "packages/react-aria/src/dnd/useDroppableItem.ts", "packages/react-aria/src/dnd/useDropIndicator.ts", "packages/react-aria/src/dnd/useAutoScroll.ts", "packages/react-aria/stories/dnd/DraggableListBox.tsx", "packages/react-aria/stories/dnd/DraggableCollection.tsx", "packages/react-aria/stories/dnd/DroppableGrid.tsx"]
-}

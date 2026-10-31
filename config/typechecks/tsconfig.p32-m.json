@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false, "allowJs": true, "checkJs": true},
+  "files": ["../../test/intl.d.ts", "../../test/css.d.ts", "../../packages/@adobe/react-spectrum/src/menu/Menu.tsx", "../../packages/@adobe/react-spectrum/src/menu/MenuItem.tsx", "../../packages/@adobe/react-spectrum/src/menu/MenuSection.tsx", "../../packages/@adobe/react-spectrum/src/menu/context.ts"]
+}

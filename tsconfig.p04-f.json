@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false},
-  "files": ["test/intl.d.ts", "packages/react-aria/src/utils/useSlot.ts", "packages/react-aria/src/utils/filterDOMProps.ts", "packages/react-stately/src/form/useFormValidationState.ts", "packages/react-aria/src/form/useFormValidation.ts"]
-}

@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["../../test/intl.d.ts", "../../test/css.d.ts"],
+  "include": [
+    "../../packages/dev/s2-docs/src/Table.tsx",
+    "../../packages/dev/s2-docs/src/DisclosureRow.tsx",
+    "../../packages/@react-spectrum/s2/icons/ChevronRight.tsx"
+  ]
+}

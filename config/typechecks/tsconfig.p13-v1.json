@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false, "types": ["vitest/globals", "node"]},
+  "files": ["../../test/intl.d.ts", "../../packages/react-stately/src/virtualizer/useVirtualizerState.ts", "../../packages/react-stately/src/virtualizer/Virtualizer.ts", "../../packages/react-stately/src/virtualizer/ReusableView.ts", "../../packages/react-stately/src/virtualizer/Layout.ts", "../../packages/react-stately/src/virtualizer/LayoutInfo.ts", "../../packages/react-stately/src/virtualizer/Point.ts", "../../packages/react-stately/src/virtualizer/Rect.ts", "../../packages/react-stately/src/virtualizer/Size.ts", "../../packages/react-stately/src/virtualizer/OverscanManager.ts", "../../packages/react-stately/src/virtualizer/ScrollAnchor.ts", "../../packages/react-stately/src/virtualizer/types.ts", "../../packages/react-stately/src/virtualizer/utils.ts", "../../packages/react-stately/src/layout/ListLayout.ts", "../../packages/react-stately/test/virtualizer/LayoutInfo.test.tsx", "../../packages/react-stately/test/virtualizer/ScrollAnchor.test.ts"]
+}

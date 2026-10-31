@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["../../test/intl.d.ts", "../../test/css.d.ts"],
+  "include": [
+    "../../packages/@react-spectrum/s2/src/Divider.tsx",
+    "../../packages/@react-spectrum/s2/exports/Divider.ts"
+  ]
+}

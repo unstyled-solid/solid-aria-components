@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["../../test/intl.d.ts", "../../test/css.d.ts", "../../packages/react-aria/src/calendar/useCalendar.ts", "../../packages/react-aria/src/calendar/useRangeCalendar.ts", "../../packages/react-aria/src/calendar/useCalendarBase.ts", "../../packages/react-aria/src/calendar/useCalendarGrid.ts", "../../packages/react-aria/src/calendar/useCalendarCell.ts", "../../packages/react-aria/src/calendar/utils.ts", "../../packages/react-aria/stories/calendar/Example.tsx"]
+}

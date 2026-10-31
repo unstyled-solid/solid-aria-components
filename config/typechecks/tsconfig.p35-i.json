@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "allowJs": true,
+    "checkJs": true
+  },
+  "files": [
+    "../../test/intl.d.ts",
+    "../../test/css.d.ts",
+    "../../packages/@adobe/react-spectrum/exports/private/icon/Illustration.ts",
+    "../../packages/@spectrum-icons/illustrations/src/NoSearchResults.tsx"
+  ]
+}

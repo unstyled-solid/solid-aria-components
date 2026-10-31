@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "allowJs": true,
+    "checkJs": true
+  },
+  "files": ["../../test/intl.d.ts"],
+  "include": [
+    "../../packages/react-aria-components/test/fixtures/p46-tabs-*.tsx",
+    "../../packages/react-aria-components/test/fixtures/p46-tabs-*.ts",
+    "../../packages/react-aria-components/test/fixtures/p46-tabs-*.jsx",
+    "../../packages/react-aria-components/test/fixtures/p46-tabs-*.js"
+  ]
+}

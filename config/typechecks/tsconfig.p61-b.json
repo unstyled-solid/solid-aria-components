@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {
+    "skipLibCheck": false,
+    "types": ["node", "vitest/globals", "@vitest/browser-playwright/context"]
+  },
+  "files": ["../../test/intl.d.ts", "../../test/css.d.ts", "../../test/browser/p27-commands.ts"],
+  "include": [
+    "../../packages/@react-spectrum/s2/src/Button.tsx",
+    "../../packages/@react-spectrum/s2/src/ButtonGroup.tsx",
+    "../../packages/@react-spectrum/s2/exports/Button.ts",
+    "../../packages/@react-spectrum/s2/exports/ButtonGroup.ts",
+    "../../packages/@react-spectrum/s2/test/ButtonGroup.browser.test.tsx",
+    "../../packages/@react-spectrum/s2/test/utils/render.tsx"
+  ]
+}

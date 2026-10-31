@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false, "allowJs": true, "checkJs": true},
-  "files": ["test/intl.d.ts", "test/css.d.ts", "packages/@spectrum-icons/ui/src/CheckmarkSmall.tsx", "packages/@spectrum-icons/ui/src/DashSmall.tsx", "packages/@spectrum-icons/ui/src/AlertMedium.tsx", "packages/@spectrum-icons/ui/src/CheckmarkMedium.tsx", "packages/@spectrum-icons/ui/src/Asterisk.tsx", "packages/@spectrum-icons/ui/src/Magnifier.tsx", "packages/@spectrum-icons/ui/src/CrossSmall.tsx", "packages/@spectrum-icons/workflow/src/Checkmark.tsx"]
-}

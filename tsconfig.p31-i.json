@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false, "allowJs": true, "checkJs": true},
-  "files": ["test/intl.d.ts", "test/css.d.ts", "packages/@spectrum-icons/workflow/src/HelpOutline.tsx", "packages/@spectrum-icons/workflow/src/InfoOutline.tsx", "packages/@spectrum-icons/workflow/src/AlignCenter.tsx", "packages/@spectrum-icons/workflow/src/AlignLeft.tsx", "packages/@spectrum-icons/workflow/src/AlignRight.tsx", "packages/@spectrum-icons/workflow/src/Copy.tsx", "packages/@spectrum-icons/workflow/src/Cut.tsx", "packages/@spectrum-icons/workflow/src/Paste.tsx", "packages/@spectrum-icons/ui/src/ChevronDownMedium.tsx"]
-}

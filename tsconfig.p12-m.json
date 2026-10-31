@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.wave.json",
-  "compilerOptions": {"skipLibCheck": false},
-  "files": ["test/intl.d.ts", "node_modules/@testing-library/jest-dom/types/vitest.d.ts", "packages/react-aria/src/dnd/DragManager.ts", "packages/react-aria/src/dnd/DropTargetKeyboardNavigation.ts", "packages/react-aria/src/dnd/ListDropTargetDelegate.ts", "packages/react-aria/src/dnd/constants.ts", "packages/react-aria/src/dnd/utils.ts", "packages/react-aria/test/dnd/DropTargetKeyboardNavigation.test.tsx"]
-}

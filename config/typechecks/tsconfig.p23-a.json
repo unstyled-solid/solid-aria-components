@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["../../test/intl.d.ts", "../../test/css.d.ts", "../../packages/react-aria/src/table/useTable.ts", "../../packages/react-aria/src/table/useTableRow.ts", "../../packages/react-aria/src/table/useTableCell.ts", "../../packages/react-aria/src/table/useTableColumnHeader.ts", "../../packages/react-aria/src/table/useTableHeaderRow.ts", "../../packages/react-aria/src/table/useTableRowGroup.ts", "../../packages/react-aria/src/table/useTableSelectionCheckbox.ts", "../../packages/react-aria/src/table/TableKeyboardDelegate.ts", "../../packages/react-aria/src/table/utils.ts", "../../packages/react-aria/stories/table/example.tsx", "../../packages/react-aria/stories/table/example-backwards-compat.tsx"]
+}

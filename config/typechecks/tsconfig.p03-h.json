@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.wave.json",
+  "compilerOptions": {"skipLibCheck": false},
+  "files": ["../../test/intl.d.ts", "../../packages/react-aria/src/overlays/PortalProvider.tsx", "../../packages/react-aria/src/overlays/Overlay.tsx", "../../packages/react-aria/src/overlays/useModal.tsx", "../../packages/react-aria/src/overlays/useOverlay.ts", "../../packages/react-aria/src/overlays/ariaHideOutside.ts", "../../packages/react-aria/src/overlays/usePreventScroll.ts", "../../packages/react-aria/src/interactions/useInteractOutside.ts"]
+}
