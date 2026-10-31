@@ -20,5 +20,6 @@ writeFileSync(out + '/raw/profile2-console.jsonl', '');
 const profile = spawnSync('pnpm', profileCommand, {env: {...process.env, VITE_TEST_DIAGNOSTICS: '1', TEST_DIAGNOSTICS_LOG: out + '/raw/profile2-console.jsonl'}, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024, timeout: 120000});
 writeFileSync(out + '/raw/profile2-terminal.log', (profile.stdout || '') + (profile.stderr || ''));
 writeFileSync(out + '/raw/profile2-exit.json', JSON.stringify({status: profile.status, error: profile.error?.message}));
-console.log(`Existing library browser tests exit ${result.status}; raw evidence: ${out}/raw`);
-process.exitCode = result.status || profile.status || 0;
+console.log(`Existing library browser tests exit ${result.status}; runtime profile exit ${profile.status}; raw evidence: ${out}/raw`);
+process.exitCode = result.status ?? 1;
+if (process.exitCode === 0) process.exitCode = profile.status ?? 1;
