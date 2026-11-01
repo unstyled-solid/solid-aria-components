@@ -18,11 +18,11 @@ dependencies.react = '19.3.0';
 dependencies['react-dom'] = '19.3.0';
 dependencies['react-server-dom-parcel'] = '19.3.0';
 dependencies['@parcel/rsc'] = '2.16.3';
-dependencies['solid-js'] = '2.0.0-rc.13';
-dependencies['@solidjs/web'] = '2.0.0-rc.13';
-dependencies['@solidjs/babel-plugin'] = '2.0.0-rc.13';
-dependencies['@solidjs/signals'] = '2.0.0-rc.13';
-dependencies['@solidjs/compiler'] = '2.0.0-rc.13';
+dependencies['solid-js'] = '2.0.0-rc.20';
+dependencies['@solidjs/web'] = '2.0.0-rc.20';
+dependencies['@solidjs/babel-plugin'] = '2.0.0-rc.20';
+dependencies['@solidjs/signals'] = '2.0.0-rc.20';
+dependencies['@solidjs/compiler'] = '2.0.0-rc.20';
 dependencies['@babel/core'] = '7.29.7';
 for (const directory of fs.readdirSync(new URL('packages/dev/', root))) {
   const manifest = new URL(`packages/dev/${directory}/package.json`, root);

@@ -73,7 +73,7 @@ test('packed inventory refuses metadata/peer leaks, omitted notices/docs and non
     ['notices/provenance.json', Buffer.from(JSON.stringify({notices: [{destination: 'notices/donor-MIT.txt', sha256: sha256('donor license')}]}))]]);
   assert.doesNotThrow(() => assertInventory({ files }, manifest, contract));
   for (const mutate of [value => value.dependencies = { react: '19.3.0' }, value => value.dependencies = { example: 'workspace:*' },
-    value => value.peerDependencies['solid-js'] = '^2.0.0-rc.13', value => value.scripts = { postinstall: 'build' }]) {
+    value => value.peerDependencies['solid-js'] = '^2.0.0-rc.20', value => value.scripts = { postinstall: 'build' }]) {
     const altered = structuredClone(manifest); mutate(altered); assert.throws(() => assertInventory({ files }, altered, contract));
   }
   for (const file of ['LICENSE', 'NOTICE', 'README.md', 'THIRD-PARTY-NOTICES.md', 'notices/provenance.json', 'notices/donor-MIT.txt']) {
@@ -96,7 +96,7 @@ test('external directory containment does not accept sibling-prefix tricks', () 
 });
 test('exact supported backend/tool pins', () => {
   assert.equal(pins['@babel/core'], '7.29.7'); assert.equal(pins.vite, '8.3.2');
-  assert.equal(pins.typescript, '5.9.3'); assert.equal(pins['@solidjs/compiler'], '2.0.0-rc.13');
+  assert.equal(pins.typescript, '5.9.3'); assert.equal(pins['@solidjs/compiler'], '2.0.0-rc.20');
   assert(Object.values(pins).every(version => !/^[~^]|workspace:|npm:|file:/.test(version)));
 });
 test('consumer environment excludes inherited Node/npm/workspace resolution controls', () => {

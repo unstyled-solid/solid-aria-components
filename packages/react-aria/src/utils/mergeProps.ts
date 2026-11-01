@@ -27,6 +27,9 @@ type TupleTypes<T> = {[P in keyof T]: T[P]} extends {[key: number]: infer V}
   ? NullToObject<V>
   : never;
 type NullToObject<T> = T extends null | undefined ? {} : T;
+// Materialize the merged prop shape so native Solid's data-* index signature
+// accepts interface inputs without requiring every source interface to carry it.
+type MergedProps<T> = {[K in keyof T]: T[K]};
 
 type UnionToIntersection<U> = (U extends any ? (k: U) => void : never) extends (k: infer I) => void
   ? I
@@ -39,7 +42,7 @@ type UnionToIntersection<U> = (U extends any ? (k: U) => void : never) extends (
  *
  * @param args - Multiple sets of props to merge together.
  */
-export function mergeProps<T extends PropsArg[]>(...args: T): UnionToIntersection<TupleTypes<T>> {
+export function mergeProps<T extends PropsArg[]>(...args: T): MergedProps<UnionToIntersection<TupleTypes<T>>> {
   // Preserve source merge rules per property, without evaluating lazy children or
   // freezing reactive props while the component is being set up.
   return new Proxy({}, {

@@ -1,8 +1,6 @@
 # Library browser-test diagnostics
 
-Resolved test-runner configuration: `vitest.browser.config.ts` now sets `browser.ui: false`, preserving the real headless viewport instead of using the scaled interactive tester UI. Original tests, assertions and timeouts are unchanged. [Causal evidence](evidence/TokenField-ui-cause.txt). Latest full run: **358 passed, 0 failed, 41 original skips; zero captured warnings/errors**.
-
-Snapshot: 2026-10-13T12:54:33.098Z. Exit: 0. Source freshness: SHA256 captured for every original suite before execution (raw backing snapshot).
+Snapshot: 2026-11-01T18:05:18.547Z. Exit: 0. Source freshness: SHA256 captured for every original suite before execution (raw backing snapshot).
 
 Command:
 
@@ -32,7 +30,7 @@ Runner executes root `pnpm exec vitest run --config vitest.browser.config.ts` wi
 
 Unassigned captured runtime messages: 0. None.
 
-Pinned Solid and signals: 2.0.0-rc.13; config defines NODE_ENV=development but explicitly sets resolve.conditions=[source,import,module,default]. A declared profile does not prove both diagnostic runtimes loaded. Actual runtime evidence: [evidence 1](evidence/runtime-profile-1.txt) Runtime probe: 6 passed, 0 failed, 0 skipped (6 total); exit 0. Actual Solid and signals development availability: 3/3 captured profiles confirm both development runtimes. Engine evidence: chromium, webkit, firefox (3 engines). This is diagnostic availability evidence, not whole-library clearance.
+Pinned Solid and signals: 2.0.0-rc.20; config defines NODE_ENV=development but explicitly sets resolve.conditions=[source,import,module,default]. A declared profile does not prove both diagnostic runtimes loaded. Actual runtime evidence: [evidence 1](evidence/runtime-profile-1.txt) Runtime probe: 6 passed, 0 failed, 0 skipped (6 total); exit 0. Actual Solid and signals development availability: 3/3 captured profiles confirm both development runtimes. Engine evidence: chromium, webkit, firefox (3 engines). This is diagnostic availability evidence, not whole-library clearance.
 
 Not covered: all components without an existing core browser suite; S2 ButtonGroup peripheral suite deliberately not run. No jsdom/source unit-suite or whole-library coverage claim. Console errors continue to fail original tests; captured warnings are never suppressed.
 

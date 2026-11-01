@@ -52,7 +52,7 @@ export function useSlot(
   return [ref, hasSlot];
 }
 
-interface SlotAria {
+type SlotAria = {
   id: string | undefined;
   ref: RefCallback<any>;
 }

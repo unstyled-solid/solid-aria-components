@@ -47,10 +47,10 @@
   },
   "native": {
     "compiler": "babel",
-    "frameworkVersion": "2.0.0-rc.13",
+    "frameworkVersion": "2.0.0-rc.20",
     "externalPeers": {
-      "solid-js": "2.0.0-rc.13",
-      "@solidjs/web": "2.0.0-rc.13"
+      "solid-js": "2.0.0-rc.20",
+      "@solidjs/web": "2.0.0-rc.20"
     },
     "omitClientOnlyMarker": "staged-entrypoints-only",
     "internalModuleAliases": {

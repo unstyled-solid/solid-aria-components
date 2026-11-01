@@ -81,7 +81,7 @@
       "file": "dom/react-aria/src/utils/mergeProps.js",
       "source": "packages/react-aria/src/utils/mergeProps.ts",
       "sha256": "c4eb10b9def55d027ac1ff0049018b36f6307a679a94f265076ed79f431092c9",
-      "sourceSha256": "eb74a0b79cae96267fdb6a298922e7abb9465511780a54bf430d82a61cf274e6"
+      "sourceSha256": "a9e3f6a61288011364d0063e908a119b697a8c165986d5e45a95f4f90d92bafc"
     },
     {
       "file": "dom/react-aria/src/utils/chain.js",
@@ -1077,7 +1077,7 @@
       "file": "dom/react-aria/src/utils/useSlot.js",
       "source": "packages/react-aria/src/utils/useSlot.ts",
       "sha256": "14c0f0f0a2559eb4dc6e8844af20f4075ccb6cb927ea99147b30a398265365ab",
-      "sourceSha256": "c136df58c529ad286e9252654456ad517bf1deb15bd435b9dad488752344a23f"
+      "sourceSha256": "eef45924e7c2d17f1fa754510994576e57bb5265b4b715fdd3e22f9e0d3e5d85"
     },
     {
       "file": "dom/react-aria/exports/useCheckbox.js",
@@ -4251,7 +4251,7 @@
       "file": "server/react-aria/src/utils/mergeProps.js",
       "source": "packages/react-aria/src/utils/mergeProps.ts",
       "sha256": "c4eb10b9def55d027ac1ff0049018b36f6307a679a94f265076ed79f431092c9",
-      "sourceSha256": "eb74a0b79cae96267fdb6a298922e7abb9465511780a54bf430d82a61cf274e6"
+      "sourceSha256": "a9e3f6a61288011364d0063e908a119b697a8c165986d5e45a95f4f90d92bafc"
     },
     {
       "file": "server/react-aria/src/utils/chain.js",
@@ -4874,7 +4874,7 @@
     {
       "file": "server/react-aria-components/src/Calendar.js",
       "source": "packages/react-aria-components/src/Calendar.tsx",
-      "sha256": "7015b16cbb680360c90d8f1c43ebbba9c673b25fc0173cb77ea9847b109e3793",
+      "sha256": "a306f00030c29c3ac6e9a6bf94c8c9c8c1d8b6ceb9d432343e9cd3a18cea95d3",
       "sourceSha256": "b8683c4af98f29930f15c4f217c001e9306d1c7c9391bbdafed32c34003c0a61"
     },
     {
@@ -5247,7 +5247,7 @@
       "file": "server/react-aria/src/utils/useSlot.js",
       "source": "packages/react-aria/src/utils/useSlot.ts",
       "sha256": "14c0f0f0a2559eb4dc6e8844af20f4075ccb6cb927ea99147b30a398265365ab",
-      "sourceSha256": "c136df58c529ad286e9252654456ad517bf1deb15bd435b9dad488752344a23f"
+      "sourceSha256": "eef45924e7c2d17f1fa754510994576e57bb5265b4b715fdd3e22f9e0d3e5d85"
     },
     {
       "file": "server/react-aria/exports/useCheckbox.js",
@@ -5618,7 +5618,7 @@
     {
       "file": "server/react-aria-components/src/ListBox.js",
       "source": "packages/react-aria-components/src/ListBox.tsx",
-      "sha256": "dbe739c613fe3254e9bc5d18fb5402421e4a1372ad0dd358c341b2aff5b6ddf1",
+      "sha256": "1d8ef3f668acd9f201141a3e77453d6db7d2f758f73e48528a4c1ef2709ef424",
       "sourceSha256": "a09d46e9e4ad8865f0a25912c373b392da5a438f199428b167e6d96b4db86e04"
     },
     {
@@ -6650,7 +6650,7 @@
     {
       "file": "server/react-aria-components/src/DropZone.js",
       "source": "packages/react-aria-components/src/DropZone.tsx",
-      "sha256": "c4db02df61d5fa021fc63b00d2a77295296a695c1f9aae67013aba14790d5f5b",
+      "sha256": "066fca4d26f09c23c63634d78423b7da8e022d58ef809301b428259316d39b93",
       "sourceSha256": "c5a0eeeca83f9800a9276f6b8b5108464500efe08282948be9ad909bc9adc895"
     },
     {
@@ -6728,7 +6728,7 @@
     {
       "file": "server/react-aria-components/src/GridList.js",
       "source": "packages/react-aria-components/src/GridList.tsx",
-      "sha256": "7d7e5aa82bd33bcff6f0468760ca9a911ebfc8c863d62ff098d71d4bd53589b5",
+      "sha256": "35c782cb96db4308b607b8ab6c9a081e1a0bca5318cf531cbd0e26d36fb4a323",
       "sourceSha256": "0f7969044f2864971dcc51e1954bc18255bdc9e76e0da432cf9ea9ed0af1493e"
     },
     {
@@ -6866,7 +6866,7 @@
     {
       "file": "server/react-aria-components/src/Menu.js",
       "source": "packages/react-aria-components/src/Menu.tsx",
-      "sha256": "3724f0c8c39627850464d82f9dd52fd7fec3e56ffe4d86201758654690c98d0c",
+      "sha256": "c8206957767ebd4cb9ca433514b3868ef5aa87d955c86282b2de98e464b35afa",
       "sourceSha256": "ab29d2fa5ced9ddc14cfa2fda257098f6bf410a57ffaf95e2130ced1e2db924d"
     },
     {
@@ -6974,7 +6974,7 @@
     {
       "file": "server/react-aria-components/src/Tree.js",
       "source": "packages/react-aria-components/src/Tree.tsx",
-      "sha256": "5757038a415875a303d65d67ac4aa3eb1ac43fb9c51fd091bb966b4b3a052437",
+      "sha256": "ff2ce07ec5b478237e05b249d6021cd6532dcca079981c47ecfed0f7c1e19cf8",
       "sourceSha256": "56837d9d5080c08d247a7459a30c646833fdbd90a4ffc0d650f9526d51f0f4ef"
     },
     {
@@ -7106,7 +7106,7 @@
     {
       "file": "server/react-aria-components/src/RadioGroup.js",
       "source": "packages/react-aria-components/src/RadioGroup.tsx",
-      "sha256": "ae89dc538eb2fe257a02d5c7dc26e736181e04f7f30c874eeaefa1d01478aaf4",
+      "sha256": "b1884d74e561a4986cc98c1e58539630d543b955aebb0d3d79925ebf9588088d",
       "sourceSha256": "7b75597c12b34b59f65f1b45c7af37c3b9bf9823c35fd715e55889915d0fa65b"
     },
     {
@@ -7220,7 +7220,7 @@
     {
       "file": "server/react-aria/src/select/HiddenSelect.js",
       "source": "packages/react-aria/src/select/HiddenSelect.tsx",
-      "sha256": "302b3f215849d1f41778416dda54b0434a18adbbad524fe0ef5f4efb35e8e325",
+      "sha256": "799abda2df8d4f7298dd091f2193d01dc52165e0118f71d39d9e1f1e2c36af5d",
       "sourceSha256": "739bd4cceee86a28e11b641b67a394182daf745f3175b24e639d9caba5189579"
     },
     {
@@ -7262,7 +7262,7 @@
     {
       "file": "server/react-aria-components/src/Sheet.js",
       "source": "packages/react-aria-components/src/Sheet.tsx",
-      "sha256": "1a3cddded42990f93b0878c5a05bf77920e2e70b8c056f3622445e6470345aec",
+      "sha256": "1d891c337bb1d2cf9b756d75b90f7c0e8f3a8af3b3a2fc2892f791b483635f89",
       "sourceSha256": "48918e320080f9fa6a763ba942ef78834897bb19e4aa5273a7cb8ed5fc1cb8bc"
     },
     {
@@ -7280,7 +7280,7 @@
     {
       "file": "server/react-aria-components/src/Switch.js",
       "source": "packages/react-aria-components/src/Switch.tsx",
-      "sha256": "90bbabb64e5d7b51746a7cd0757cdab496cf5abfdb0c0404ded43d8c13e6a1f8",
+      "sha256": "c458a0e0f9d9e744d2f72d2a3bd1d5edc935beae6b794446d99593f1c34d1cf9",
       "sourceSha256": "74dab96804895b4f1c9d4c871bdf1efe3967983fcc107d4a30cc1fed873062c0"
     },
     {
@@ -7304,7 +7304,7 @@
     {
       "file": "server/react-aria-components/src/Table.js",
       "source": "packages/react-aria-components/src/Table.tsx",
-      "sha256": "2b267aad723d1e045ab272579b9c3d63483829ea1fb161e984e0db81efadcf2c",
+      "sha256": "bbbdfad87d864c305e1a598bae29e8ee40f2d78f213e2cc19c9a3cbd55fbc47d",
       "sourceSha256": "f23c0d12bdc289449d0de025c9a083e8b67beae3d405e65601ea1171820008ac"
     },
     {
@@ -7652,7 +7652,7 @@
     {
       "file": "server/react-aria-components/src/Toast.js",
       "source": "packages/react-aria-components/src/Toast.tsx",
-      "sha256": "aae4f1d8a6d946fe528731e98a0335ee2b674fd1cc4ea8cf5396cac823f0cd5e",
+      "sha256": "0e01253850c3138a7e6d2d870b90e0a036092b8946f6db331a24f26eca7de546",
       "sourceSha256": "2903f341005c93ab6b83995a8fbf39d0bc13b6d218493077d35650c66ce60336"
     },
     {
@@ -7784,7 +7784,7 @@
     {
       "file": "server/react-aria-components/src/TokenField.js",
       "source": "packages/react-aria-components/src/TokenField.tsx",
-      "sha256": "c6c231da21e8f38250945f8018f1c13cbbfb3364ff32f2da32a1b65283fdce9c",
+      "sha256": "9c4cec818159b52387fe812a47fc83294d34a81fd46cbeffa7e971a349f0ba53",
       "sourceSha256": "8d88d655171cb7c99817c63ab97895a10b093bf4cc88753fa83448d896b662e2"
     },
     {
@@ -8012,7 +8012,7 @@
     {
       "file": "server/react-aria/src/virtualizer/VirtualizerItem.js",
       "source": "packages/react-aria/src/virtualizer/VirtualizerItem.tsx",
-      "sha256": "3061d94315ab7d72eb4dd918d6f83986b750045f6689328a200de0bed955de9d",
+      "sha256": "28b8eab6de00420faa6e1b51bfa5985cf0b38b117defeccae310788b03280fdc",
       "sourceSha256": "606d5a602f584b4e730c6d04737819f31a90e3d9be0a6a91ec32b472aa1deea6"
     },
     {
@@ -14681,7 +14681,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -14690,7 +14690,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -14699,7 +14699,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -14708,7 +14708,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -14717,7 +14717,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -14726,7 +14726,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -14735,7 +14735,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -14744,7 +14744,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 25,
+      "line": 26,
       "kind": "ExpressionStatement",
       "expression": "_P$.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -14752,7 +14752,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 40,
+      "line": 41,
       "kind": "ExpressionStatement",
       "expression": "_P$2.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -14760,7 +14760,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 65,
+      "line": 66,
       "kind": "ExpressionStatement",
       "expression": "_P$3.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -14768,7 +14768,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 99,
+      "line": 100,
       "kind": "ExpressionStatement",
       "expression": "_P$4.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -14776,7 +14776,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 113,
+      "line": 114,
       "kind": "ExpressionStatement",
       "expression": "_P$5.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -14784,7 +14784,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 127,
+      "line": 128,
       "kind": "ExpressionStatement",
       "expression": "_P$6.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -14792,19 +14792,10 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 146,
+      "line": 147,
       "kind": "ExpressionStatement",
       "expression": "_P$7.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
-      "effectful": false
-    },
-    {
-      "file": "server/react-aria-components/src/ListBox.js",
-      "line": 188,
-      "kind": "CallExpression",
-      "callee": "createContext",
-      "expression": "createContext(null)",
-      "category": "local-context-allocation",
       "effectful": false
     },
     {
@@ -14818,7 +14809,16 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 487,
+      "line": 190,
+      "kind": "CallExpression",
+      "callee": "createContext",
+      "expression": "createContext(null)",
+      "category": "local-context-allocation",
+      "effectful": false
+    },
+    {
+      "file": "server/react-aria-components/src/ListBox.js",
+      "line": 488,
       "kind": "CallExpression",
       "callee": "createBranchComponent",
       "expression": "createBranchComponent(SectionNode, ListBoxSectionInner)",
@@ -14827,7 +14827,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 491,
+      "line": 492,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
       "expression": "createLeafComponent(ItemNode, function ListBoxItem(props, forwardedRef, item) {\n    let ref = useObjectRef(forwardedRef);\n    let state = useContext(ListStateContext);\n    let { dragAndDropHooks, dragState, dropState } = useContext(DragAndDropContext);\n    let isDraggable = () => dragState && !(dragState.isDisabled || dragState.selectionManager.isDisabled(item.key));\n    let option = useOption({\n        get key() {\n            return item.key;\n        },\n        get 'aria-label'() {\n            return props['aria-label'];\n        }\n    }, state, ref);\n    let { optionProps, labelProps, descriptionProps } = option;\n    let states = omit(option, 'optionProps', 'labelProps', 'descriptionProps');\n    let { hoverProps, isHovered } = useHover({\n        get isDisabled() {\n            return !states.allowsSelection() && !states.hasAction() && !isDraggable();\n        },\n        get onHoverStart() {\n            return item.props.onHoverStart;\n        },\n        get onHoverChange() {\n            return item.props.onHoverChange;\n        },\n        get onHoverEnd() {\n            return item.props.onHoverEnd;\n        }\n    });\n    let { keyboardProps } = useKeyboard(props);\n    let { focusProps } = useFocus(props);\n    let draggableItem = null;\n    if (dragState && dragAndDropHooks) {\n        draggableItem = dragAndDropHooks.useDraggableItem({\n            get key() {\n                return item.key;\n            },\n            get hasAction() {\n                return states.hasAction();\n            }\n        }, dragState);\n    }\n    let droppableItem = null;\n    if (dropState && dragAndDropHooks) {\n        droppableItem = dragAndDropHooks.useDroppableItem({\n            target: {\n                type: 'item',\n                key: item.key,\n                dropPosition: 'on'\n            }\n        }, dropState, ref);\n    }\n    let isDragging = () => dragState && dragState.isDragging(item.key);\n    let renderProps = useRenderProps(merge(omit(props, 'id'), {\n        id: undefined,\n        get children() {\n            return props.children;\n        },\n        defaultClassName: 'react-aria-ListBoxItem',\n        values: {\n            get isSelected() {\n                return states.isSelected();\n            },\n            get isDisabled() {\n                return states.isDisabled();\n            },\n            get isFocused() {\n                return states.isFocused();\n            },\n            get isFocusVisible() {\n                return states.isFocusVisible();\n            },\n            get isPressed() {\n                return states.isPressed();\n            },\n            get allowsSelection() {\n                return states.allowsSelection();\n            },\n            get hasAction() {\n                return states.hasAction();\n            },\n            get isHovered() {\n                return isHovered();\n            },\n            get selectionMode() {\n                return state.selectionManager.selectionMode;\n            },\n            get selectionBehavior() {\n                return state.selectionManager.selectionBehavior;\n            },\n            allowsDragging: !!dragState,\n            get isDragging() {\n                return isDragging();\n            },\n            get isDropTarget() {\n                return droppableItem?.isDropTarget();\n            }\n        }\n    }));\n    createEffect(() => item.textValue, textValue => {\n        if (!textValue && \"production\" !== 'production') {\n            console.warn('A `textValue` prop is required for <ListBoxItem> elements with non-plain text children in order to support accessibility features such as type to select.');\n        }\n    });\n    let ElementType = dynamic(() => props.href ? dom.a : dom.div);\n    let DOMProps = omit(filterDOMProps(props, {\n        global: true\n    }), 'id', 'onClick');\n    let linkOptionProps = merge(optionProps, {\n        get tabIndex() {\n            return props.href && optionProps.tabIndex == null ? -1 : optionProps.tabIndex;\n        }\n    });\n    return ElementType(_$mergeProps(() => mergeProps(DOMProps, renderProps, linkOptionProps, hoverProps, keyboardProps, focusProps, draggableItem?.dragProps, droppableItem?.dropProps, \n    // Keep the drag hook's native capture-listener ref alongside the item ref.\n    {\n        ref\n    }), {\n        \"data-allows-dragging\": !!dragState || undefined,\n        get \"data-selected\"() {\n            return states.isSelected() || undefined;\n        },\n        get \"data-disabled\"() {\n            return states.isDisabled() || undefined;\n        },\n        get \"data-hovered\"() {\n            return isHovered() || undefined;\n        },\n        get \"data-focused\"() {\n            return states.isFocused() || undefined;\n        },\n        get \"data-focus-visible\"() {\n            return states.isFocusVisible() || undefined;\n        },\n        get \"data-pressed\"() {\n            return states.isPressed() || undefined;\n        },\n        get \"data-dragging\"() {\n            return isDragging() || undefined;\n        },\n        get \"data-drop-target\"() {\n            return droppableItem?.isDropTarget() || undefined;\n        },\n        get \"data-selection-mode\"() {\n            return _$memo(() => state.selectionManager.selectionMode === 'none')() ? undefined : state.selectionManager.selectionMode;\n        },\n        get children() {\n            return Provider(new _P$5(renderProps, [[TextContext, {\n                        slots: {\n                            [DEFAULT_SLOT]: labelProps,\n                            label: labelProps,\n                            description: descriptionProps\n                        }\n                    }], [SelectionIndicatorContext, {\n                        get isSelected() {\n                            return states.isSelected();\n                        }\n                    }]]));\n        }\n    }));\n})",
@@ -14836,10 +14836,10 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 681,
+      "line": 682,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
-      "expression": "createLeafComponent(LoaderNode, function ListBoxLoadingIndicator(props, ref, item) {\n    var _v$3, _v$4, _ref$6;\n    let state = useContext(ListStateContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        get collection() {\n            return state.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let renderProps = useRenderProps(merge(omit(otherProps, 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-ListBoxLoadingIndicator',\n        values: undefined\n    }));\n    let optionProps = {\n        // For Android talkback\n        tabIndex: -1\n        // For now don't include aria-posinset and aria-setsize on loader since they aren't keyboard focusable\n        // Arguably shouldn't include them ever since it might be confusing to the user to include the loaders as part of the\n        // item count\n    };\n    return [(_v$3 = _$ssrHydrationKey(), _v$4 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$6 = sentinelRef, _$ssr(_tmpl$2, _v$3, _$ssrStyleProperty(\"position:\", \"relative\") + _$ssrStyleProperty(\";width:\", 0) + _$ssrStyleProperty(\";height:\", 0), _v$4, _$ssrStyleProperty(\"position:\", \"absolute\") + _$ssrStyleProperty(\";height:\", \"1px\") + _$ssrStyleProperty(\";width:\", \"1px\"))), _$memo(() => _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps(() => mergeProps(filterDOMProps(props, {\n            global: true\n        }), optionProps), renderProps, {\n            role: \"option\",\n            ref(r$) {\n                var _ref$7 = ref;\n                typeof _ref$7 === \"function\" || Array.isArray(_ref$7) ? _$applyRef(_ref$7, r$) : ref = r$;\n            },\n            get children() {\n                return renderProps.children;\n            }\n        })) : props.isLoading && renderProps.children)];\n})",
+      "expression": "createLeafComponent(LoaderNode, function ListBoxLoadingIndicator(props, ref, item) {\n    var _v$3, _v$4, _ref$6;\n    let state = useContext(ListStateContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        get collection() {\n            return state.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let renderProps = useRenderProps(merge(omit(otherProps, 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-ListBoxLoadingIndicator',\n        values: undefined\n    }));\n    let optionProps = {\n        // For Android talkback\n        tabIndex: -1\n        // For now don't include aria-posinset and aria-setsize on loader since they aren't keyboard focusable\n        // Arguably shouldn't include them ever since it might be confusing to the user to include the loaders as part of the\n        // item count\n    };\n    return [(_v$3 = _$ssrHydrationKey(), _v$4 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$6 = sentinelRef, _$ssr(_tmpl$2, _v$3, _$ssrStyleProperties(\"position:\", \"relative\", \"width:\", 0, \"height:\", 0), _v$4, _$ssrStyleProperties(\"position:\", \"absolute\", \"height:\", \"1px\", \"width:\", \"1px\"))), _$memo(() => _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps(() => mergeProps(filterDOMProps(props, {\n            global: true\n        }), optionProps), renderProps, {\n            role: \"option\",\n            ref(r$) {\n                var _ref$7 = ref;\n                typeof _ref$7 === \"function\" || Array.isArray(_ref$7) ? _$applyRef(_ref$7, r$) : ref = r$;\n            },\n            get children() {\n                return renderProps.children;\n            }\n        })) : props.isLoading && renderProps.children)];\n})",
       "category": "unknown-conservative-effectful",
       "effectful": true
     },
@@ -16377,7 +16377,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 14,
+      "line": 15,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16386,7 +16386,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 14,
+      "line": 15,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16395,7 +16395,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 14,
+      "line": 15,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16404,7 +16404,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 14,
+      "line": 15,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16413,7 +16413,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 14,
+      "line": 15,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16422,7 +16422,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 14,
+      "line": 15,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16431,7 +16431,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 28,
+      "line": 29,
       "kind": "ExpressionStatement",
       "expression": "_P$.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16439,7 +16439,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 42,
+      "line": 43,
       "kind": "ExpressionStatement",
       "expression": "_P$2.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16447,7 +16447,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 76,
+      "line": 77,
       "kind": "ExpressionStatement",
       "expression": "_P$3.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16455,7 +16455,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 90,
+      "line": 91,
       "kind": "ExpressionStatement",
       "expression": "_P$4.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16463,7 +16463,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 122,
+      "line": 123,
       "kind": "ExpressionStatement",
       "expression": "_P$5.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16471,7 +16471,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 139,
+      "line": 140,
       "kind": "ExpressionStatement",
       "expression": "_P$6.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16479,7 +16479,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 181,
+      "line": 182,
       "kind": "CallExpression",
       "callee": "createContext",
       "expression": "createContext(null)",
@@ -16488,7 +16488,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 434,
+      "line": 435,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
       "expression": "createLeafComponent(ItemNode, function GridListItem(props, forwardedRef, item) {\n    let state = useContext(ListStateContext);\n    let { dragAndDropHooks, dragState, dropState } = useContext(DragAndDropContext);\n    let ref = useObjectRef(forwardedRef);\n    let { isVirtualized } = useContext(CollectionRendererContext);\n    let isDraggable = () => dragState && !(dragState.isDisabled || dragState.selectionManager.isDisabled(item.key));\n    let { rowProps, gridCellProps, descriptionProps, ...states } = useGridListItem({\n        node: item,\n        shouldSelectOnPressUp: !!dragState,\n        isVirtualized,\n        get focusMode() {\n            return props.focusMode;\n        },\n        get allowsArrowNavigation() {\n            return props.allowsArrowNavigation;\n        }\n    }, state, ref);\n    let { hoverProps, isHovered } = useHover({\n        // because of https://bugs.webkit.org/show_bug.cgi?id=214609, supporting hover styles when a item is ONLY isDraggable\n        // results in hover styles sticking around after a reorder/drop operation...\n        get isDisabled() {\n            return !states.allowsSelection() && !states.hasAction() && !isDraggable();\n        },\n        get onHoverStart() {\n            return item.props.onHoverStart;\n        },\n        get onHoverChange() {\n            return item.props.onHoverChange;\n        },\n        get onHoverEnd() {\n            return item.props.onHoverEnd;\n        }\n    });\n    let { isFocusVisible, focusProps } = useFocusRing();\n    let { isFocusVisible: isFocusVisibleWithin, focusProps: focusWithinProps } = useFocusRing({\n        within: true\n    });\n    let { checkboxProps } = useGridListSelectionCheckbox({\n        key: item.key\n    }, state);\n    let buttonProps = {\n        get isDisabled() {\n            return state.selectionManager.disabledBehavior === 'all' && states.isDisabled() ? true : undefined;\n        }\n    };\n    let draggableItem = null;\n    if (dragState && dragAndDropHooks) {\n        draggableItem = dragAndDropHooks.useDraggableItem({\n            key: item.key,\n            hasDragButton: true\n        }, dragState);\n    }\n    let dropIndicator = null;\n    let dropIndicatorRef = useObjectRef();\n    let { visuallyHiddenProps } = useVisuallyHidden();\n    if (dropState && dragAndDropHooks) {\n        dropIndicator = dragAndDropHooks.useDropIndicator({\n            target: {\n                type: 'item',\n                key: item.key,\n                dropPosition: 'on'\n            }\n        }, dropState, dropIndicatorRef);\n    }\n    let isDragging = () => dragState && dragState.isDragging(item.key);\n    let renderProps = useRenderProps(merge(omit(props, 'children', 'id'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-GridListItem',\n        values: {\n            get isSelected() {\n                return states.isSelected();\n            },\n            get isDisabled() {\n                return states.isDisabled();\n            },\n            get isFocused() {\n                return states.isFocused();\n            },\n            get isPressed() {\n                return states.isPressed();\n            },\n            get allowsSelection() {\n                return states.allowsSelection();\n            },\n            get hasAction() {\n                return states.hasAction();\n            },\n            get isHovered() {\n                return isHovered();\n            },\n            get isFocusVisible() {\n                return isFocusVisible();\n            },\n            get isFocusVisibleWithin() {\n                return isFocusVisibleWithin();\n            },\n            get selectionMode() {\n                return state.selectionManager.selectionMode;\n            },\n            get selectionBehavior() {\n                return state.selectionManager.selectionBehavior;\n            },\n            allowsDragging: !!dragState,\n            get isDragging() {\n                return isDragging();\n            },\n            get isDropTarget() {\n                return dropIndicator?.isDropTarget();\n            },\n            id: item.key,\n            state\n        }\n    }));\n    let dragButtonRef = useObjectRef();\n    onSettled(() => {\n        if (dragState && !dragButtonRef.current) {\n            console.warn('Draggable items in a GridList must contain a <Button slot=\"drag\"> element so that keyboard and screen reader users can drag them.');\n        }\n        // eslint-disable-next-line\n    });\n    createEffect(() => item.textValue, textValue => {\n        if (!textValue && \"production\" !== 'production') {\n            console.warn('A `textValue` prop is required for <GridListItem> elements with non-plain text children in order to support accessibility features such as type to select.');\n        }\n    });\n    let DOMProps = omit(filterDOMProps(props, {\n        global: true\n    }), 'id', 'onClick');\n    let selectionMode = () => state.selectionManager.selectionMode === 'none' ? undefined : state.selectionManager.selectionMode;\n    return [_$memo(() => {\n            var _v$3, _v$4;\n            return _$memo(() => !!(dropIndicator && !dropIndicator.isHidden()))() ? (_v$3 = _$ssrHydrationKey(), _v$4 = _$ssrElement(\"div\", [{\n                    role: \"button\"\n                }, visuallyHiddenProps, () => dropIndicator?.dropIndicatorProps], undefined, false), _$ssr(_tmpl$2, _v$3, _$ssrStyleProperty(\"position:\", \"absolute\"), _v$4)) : dropIndicator && !dropIndicator.isHidden();\n        }), dom.div(_$mergeProps(() => mergeProps(DOMProps, renderProps, rowProps, focusProps, focusWithinProps, hoverProps, draggableItem?.dragProps), {\n            ref(r$) {\n                var _ref$3 = ref;\n                typeof _ref$3 === \"function\" || Array.isArray(_ref$3) ? _$applyRef(_ref$3, r$) : ref = r$;\n            },\n            get \"data-selected\"() {\n                return states.isSelected() || undefined;\n            },\n            get \"data-disabled\"() {\n                return states.isDisabled() || undefined;\n            },\n            get \"data-hovered\"() {\n                return isHovered() || undefined;\n            },\n            get \"data-focused\"() {\n                return states.isFocused() || undefined;\n            },\n            get \"data-focus-visible\"() {\n                return isFocusVisible() || undefined;\n            },\n            get \"data-focus-visible-within\"() {\n                return isFocusVisibleWithin() || undefined;\n            },\n            get \"data-pressed\"() {\n                return states.isPressed() || undefined;\n            },\n            \"data-allows-dragging\": !!dragState || undefined,\n            get \"data-dragging\"() {\n                return isDragging() || undefined;\n            },\n            get \"data-drop-target\"() {\n                return dropIndicator?.isDropTarget() || undefined;\n            },\n            get \"data-selection-mode\"() {\n                return selectionMode();\n            },\n            get children() {\n                return _$ssrElement(\"div\", gridCellProps, () => _$escape(Provider({\n                    get values() {\n                        return [[CheckboxContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: {},\n                                        selection: checkboxProps\n                                    }\n                                }], [CheckboxFieldContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: {},\n                                        selection: checkboxProps\n                                    }\n                                }], [ButtonContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: buttonProps,\n                                        drag: merge(draggableItem?.dragButtonProps || {}, {\n                                            ref: dragButtonRef,\n                                            style: {\n                                                pointerEvents: 'none'\n                                            }\n                                        })\n                                    }\n                                }], [TextContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: {},\n                                        description: descriptionProps\n                                    }\n                                }], [CollectionRendererContext, DefaultCollectionRenderer], [ListStateContext, null], [SelectableCollectionContext, null], [FieldInputContext, null], [SelectionIndicatorContext, {\n                                    get isSelected() {\n                                        return states.isSelected();\n                                    }\n                                }]];\n                    },\n                    get children() {\n                        return renderProps.children;\n                    }\n                })), true, _sk$, () => _$ssrElementAttribute(\"style\", {\n                    display: 'contents'\n                }));\n            }\n        }))];\n})",
@@ -16497,16 +16497,16 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 702,
+      "line": 703,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
-      "expression": "createLeafComponent(LoaderNode, function GridListLoadingIndicator(props, ref, item) {\n    var _v$1, _v$10, _ref$6;\n    let state = useContext(ListStateContext);\n    let { isVirtualized } = useContext(CollectionRendererContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        get collection() {\n            return state.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let renderProps = useRenderProps(merge(omit(otherProps, 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-GridListLoadingIndicator',\n        values: undefined\n    }));\n    // For now don't include aria-posinset and aria-setsize on loader since they aren't keyboard focusable\n    // Arguably shouldn't include them ever since it might be confusing to the user to include the loaders as part of the\n    // item count\n    return [(_v$1 = _$ssrHydrationKey(), _v$10 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$6 = sentinelRef, _$ssr(_tmpl$5, _v$1, _$ssrStyleProperty(\"position:\", \"relative\") + _$ssrStyleProperty(\";width:\", 0) + _$ssrStyleProperty(\";height:\", 0), _v$10, _$ssrStyleProperty(\"position:\", \"absolute\") + _$ssrStyleProperty(\";height:\", \"1px\") + _$ssrStyleProperty(\";width:\", \"1px\"))), _$memo(() => {\n            var _v$11, _v$12;\n            return _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps(renderProps, () => filterDOMProps(props, {\n                global: true\n            }), {\n                role: \"row\",\n                ref(r$) {\n                    var _ref$7 = ref;\n                    typeof _ref$7 === \"function\" || Array.isArray(_ref$7) ? _$applyRef(_ref$7, r$) : ref = r$;\n                },\n                get children() {\n                    return _v$11 = _$ssrHydrationKey(), _v$12 = _$scope(() => _$escape(renderProps.children)), _$ssr(_tmpl$6, _v$11, _$ssrAttribute(\"aria-colindex\", isVirtualized ? 1 : _$escape(undefined, true)), _v$12);\n                }\n            })) : props.isLoading && renderProps.children;\n        })];\n})",
+      "expression": "createLeafComponent(LoaderNode, function GridListLoadingIndicator(props, ref, item) {\n    var _v$1, _v$10, _ref$6;\n    let state = useContext(ListStateContext);\n    let { isVirtualized } = useContext(CollectionRendererContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        get collection() {\n            return state.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let renderProps = useRenderProps(merge(omit(otherProps, 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-GridListLoadingIndicator',\n        values: undefined\n    }));\n    // For now don't include aria-posinset and aria-setsize on loader since they aren't keyboard focusable\n    // Arguably shouldn't include them ever since it might be confusing to the user to include the loaders as part of the\n    // item count\n    return [(_v$1 = _$ssrHydrationKey(), _v$10 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$6 = sentinelRef, _$ssr(_tmpl$5, _v$1, _$ssrStyleProperties(\"position:\", \"relative\", \"width:\", 0, \"height:\", 0), _v$10, _$ssrStyleProperties(\"position:\", \"absolute\", \"height:\", \"1px\", \"width:\", \"1px\"))), _$memo(() => {\n            var _v$11, _v$12;\n            return _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps(renderProps, () => filterDOMProps(props, {\n                global: true\n            }), {\n                role: \"row\",\n                ref(r$) {\n                    var _ref$7 = ref;\n                    typeof _ref$7 === \"function\" || Array.isArray(_ref$7) ? _$applyRef(_ref$7, r$) : ref = r$;\n                },\n                get children() {\n                    return _v$11 = _$ssrHydrationKey(), _v$12 = _$scope(() => _$escape(renderProps.children)), _$ssr(_tmpl$6, _v$11, _$ssrAttribute(\"aria-colindex\", isVirtualized ? 1 : _$escape(undefined, true)), _v$12);\n                }\n            })) : props.isLoading && renderProps.children;\n        })];\n})",
       "category": "unknown-conservative-effectful",
       "effectful": true
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 751,
+      "line": 752,
       "kind": "CallExpression",
       "callee": "createBranchComponent",
       "expression": "createBranchComponent(SectionNode, (props, ref, item) => {\n    let state = useContext(ListStateContext);\n    let { CollectionBranch } = useContext(CollectionRendererContext);\n    let headingRef = useObjectRef();\n    let objectRef = useObjectRef(ref);\n    let { rowHeaderProps, rowProps, rowGroupProps } = useGridListSection({\n        get 'aria-label'() {\n            return props['aria-label'] ?? undefined;\n        }\n    }, state, objectRef);\n    let renderProps = useRenderProps(merge(omit(props, 'children', 'id'), {\n        id: undefined,\n        children: undefined,\n        defaultClassName: 'react-aria-GridListSection',\n        values: undefined\n    }));\n    let DOMProps = omit(filterDOMProps(props, {\n        global: true\n    }), 'id');\n    return dom.div(_$mergeProps(() => mergeProps(DOMProps, renderProps, rowGroupProps), {\n        ref(r$) {\n            var _ref$8 = objectRef;\n            typeof _ref$8 === \"function\" || Array.isArray(_ref$8) ? _$applyRef(_ref$8, r$) : objectRef = r$;\n        },\n        get children() {\n            return Provider(new _P$5(rowProps, headingRef, rowHeaderProps, CollectionBranch, state, item));\n        }\n    }));\n})",
@@ -16515,7 +16515,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 780,
+      "line": 781,
       "kind": "CallExpression",
       "callee": "createContext",
       "expression": "createContext({})",
@@ -16524,7 +16524,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 781,
+      "line": 782,
       "kind": "CallExpression",
       "callee": "createContext",
       "expression": "createContext(null)",
@@ -16533,7 +16533,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 782,
+      "line": 783,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
       "expression": "createLeafComponent(HeaderNode, function Header(props, ref) {\n    [props, ref] = useContextProps(props, ref, GridListHeaderContext);\n    let rowHeaderProps = useContext(GridListHeaderInnerContext);\n    let renderProps = useRenderProps({\n        get children() {\n            return props.children;\n        },\n        values: undefined\n    });\n    return dom.div(_$mergeProps({\n        get render() {\n            return props.render;\n        },\n        className: \"react-aria-GridListHeader\",\n        ref(r$) {\n            var _ref$9 = ref;\n            typeof _ref$9 === \"function\" || Array.isArray(_ref$9) ? _$applyRef(_ref$9, r$) : ref = r$;\n        }\n    }, props, new _P$6(rowHeaderProps, renderProps)));\n})",
@@ -16560,7 +16560,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16569,7 +16569,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16578,7 +16578,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16587,7 +16587,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16596,7 +16596,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16605,7 +16605,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16614,7 +16614,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16623,7 +16623,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16632,7 +16632,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16641,7 +16641,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16650,7 +16650,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 11,
+      "line": 12,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -16659,7 +16659,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 25,
+      "line": 26,
       "kind": "ExpressionStatement",
       "expression": "_P$.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16667,7 +16667,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 75,
+      "line": 76,
       "kind": "ExpressionStatement",
       "expression": "_P$2.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16675,7 +16675,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 88,
+      "line": 89,
       "kind": "ExpressionStatement",
       "expression": "_P$3.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16683,7 +16683,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 104,
+      "line": 105,
       "kind": "ExpressionStatement",
       "expression": "_P$4.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16691,7 +16691,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 118,
+      "line": 119,
       "kind": "ExpressionStatement",
       "expression": "_P$5.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16699,7 +16699,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 141,
+      "line": 142,
       "kind": "ExpressionStatement",
       "expression": "_P$6.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16707,7 +16707,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 160,
+      "line": 161,
       "kind": "ExpressionStatement",
       "expression": "_P$7.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16715,7 +16715,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 209,
+      "line": 210,
       "kind": "ExpressionStatement",
       "expression": "_P$8.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16723,7 +16723,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 259,
+      "line": 260,
       "kind": "ExpressionStatement",
       "expression": "_P$9.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16731,7 +16731,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 292,
+      "line": 293,
       "kind": "ExpressionStatement",
       "expression": "_P$0.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16739,7 +16739,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 306,
+      "line": 307,
       "kind": "ExpressionStatement",
       "expression": "_P$1.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16747,7 +16747,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 346,
+      "line": 347,
       "kind": "ExpressionStatement",
       "expression": "_P$10.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -16755,19 +16755,10 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 360,
+      "line": 361,
       "kind": "ExpressionStatement",
       "expression": "_P$11.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
-      "effectful": false
-    },
-    {
-      "file": "server/react-aria-components/src/Menu.js",
-      "line": 407,
-      "kind": "CallExpression",
-      "callee": "createContext",
-      "expression": "createContext(null)",
-      "category": "local-context-allocation",
       "effectful": false
     },
     {
@@ -16790,7 +16781,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 456,
+      "line": 410,
       "kind": "CallExpression",
       "callee": "createContext",
       "expression": "createContext(null)",
@@ -16799,7 +16790,16 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 474,
+      "line": 457,
+      "kind": "CallExpression",
+      "callee": "createContext",
+      "expression": "createContext(null)",
+      "category": "local-context-allocation",
+      "effectful": false
+    },
+    {
+      "file": "server/react-aria-components/src/Menu.js",
+      "line": 475,
       "kind": "CallExpression",
       "callee": "createBranchComponent",
       "expression": "createBranchComponent(SubmenuTriggerNode, (props, ref, item) => {\n    let { CollectionBranch } = useContext(CollectionRendererContext);\n    let state = useContext(MenuStateContext);\n    let rootMenuTriggerState = useContext(RootMenuTriggerStateContext);\n    let submenuTriggerState = useSubmenuTriggerState({\n        triggerKey: item.key\n    }, rootMenuTriggerState);\n    let submenuRef = useObjectRef();\n    let itemRef = useObjectRef(ref);\n    let submenuContext = useContext(SubmenuTriggerContext);\n    let { submenuTriggerProps, submenuProps, popoverProps } = useSubmenuTrigger({\n        parentMenuRef: submenuContext.parentMenuRef,\n        submenuRef,\n        get delay() {\n            return props.delay;\n        },\n        get shouldUseVirtualFocus() {\n            return submenuContext.shouldUseVirtualFocus;\n        }\n    }, submenuTriggerState, itemRef);\n    let popupRenderProps = useRenderProps({\n        get children() {\n            return props.children[1];\n        },\n        values: undefined\n    });\n    return Provider(new _P$2(submenuTriggerProps, itemRef, submenuRef, submenuProps, submenuTriggerState, popoverProps, CollectionBranch, state, item, popupRenderProps));\n}, props => SubmenuTriggerChild(new _P$3(props)))",
@@ -16808,7 +16808,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 626,
+      "line": 627,
       "kind": "CallExpression",
       "callee": "createBranchComponent",
       "expression": "createBranchComponent(SectionNode, MenuSectionInner)",
@@ -16817,7 +16817,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 627,
+      "line": 628,
       "kind": "CallExpression",
       "callee": "createContext",
       "expression": "createContext(null)",
@@ -16826,7 +16826,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 631,
+      "line": 632,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
       "expression": "createLeafComponent(ItemNode, function MenuItem(props, forwardedRef, item) {\n    [props, forwardedRef] = useContextProps(props, forwardedRef, MenuItemContext);\n    let itemContext = useSlottedContext(MenuItemContext);\n    let state = useContext(MenuStateContext);\n    let ref = useObjectRef(forwardedRef);\n    let selectionManager = useContext(SelectionManagerContext);\n    let { isVirtualized } = useContext(CollectionRendererContext);\n    let { menuItemProps, labelProps, descriptionProps, keyboardShortcutProps, ...states } = useMenuItem(merge(omit(props, 'id'), {\n        get id() {\n            return itemContext?.id;\n        },\n        key: item.key,\n        selectionManager,\n        isVirtualized: isVirtualized\n    }), state, ref);\n    let { hoverProps, isHovered } = useHover({\n        get isDisabled() {\n            return states.isDisabled();\n        }\n    });\n    let triggerProps = props;\n    let renderProps = useRenderProps(merge(omit(props, 'id', 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-MenuItem',\n        values: {\n            get isDisabled() {\n                return states.isDisabled();\n            },\n            get isPressed() {\n                return states.isPressed();\n            },\n            get isSelected() {\n                return states.isSelected();\n            },\n            get isFocused() {\n                return states.isFocused();\n            },\n            get isHovered() {\n                return isHovered();\n            },\n            get isFocusVisible() {\n                return states.isFocusVisible();\n            },\n            get selectionMode() {\n                return selectionManager.selectionMode;\n            },\n            get selectionBehavior() {\n                return selectionManager.selectionBehavior;\n            },\n            get hasSubmenu() {\n                return !!triggerProps['aria-haspopup'];\n            },\n            get isOpen() {\n                return triggerProps['aria-expanded'] === 'true';\n            }\n        }\n    }));\n    let ElementType = dynamic(() => props.href ? dom.a : dom.div);\n    let DOMProps = omit(filterDOMProps(props, {\n        global: true\n    }), 'id', 'onClick');\n    return ElementType(_$mergeProps(() => mergeProps(DOMProps, renderProps, menuItemProps, hoverProps), {\n        ref(r$) {\n            var _ref$3 = ref;\n            typeof _ref$3 === \"function\" || Array.isArray(_ref$3) ? _$applyRef(_ref$3, r$) : ref = r$;\n        },\n        get \"data-disabled\"() {\n            return states.isDisabled() ? 'true' : undefined;\n        },\n        get \"data-hovered\"() {\n            return isHovered() ? 'true' : undefined;\n        },\n        get \"data-focused\"() {\n            return states.isFocused() ? 'true' : undefined;\n        },\n        get \"data-focus-visible\"() {\n            return states.isFocusVisible() ? 'true' : undefined;\n        },\n        get \"data-pressed\"() {\n            return states.isPressed() ? 'true' : undefined;\n        },\n        get \"data-selected\"() {\n            return states.isSelected() ? 'true' : undefined;\n        },\n        get \"data-selection-mode\"() {\n            return _$memo(() => selectionManager.selectionMode === 'none')() ? undefined : selectionManager.selectionMode;\n        },\n        get \"data-has-submenu\"() {\n            return triggerProps['aria-haspopup'] ? 'true' : undefined;\n        },\n        get \"data-open\"() {\n            return triggerProps['aria-expanded'] === 'true' ? 'true' : undefined;\n        },\n        get children() {\n            return Provider(new _P$11(renderProps, [[TextContext, {\n                        slots: {\n                            [DEFAULT_SLOT]: labelProps,\n                            label: labelProps,\n                            description: descriptionProps\n                        }\n                    }], [KeyboardContext, keyboardShortcutProps], [SelectionIndicatorContext, {\n                        get isSelected() {\n                            return states.isSelected();\n                        }\n                    }]]));\n        }\n    }));\n})",
@@ -16835,10 +16835,10 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 742,
+      "line": 743,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
-      "expression": "createLeafComponent(LoaderNode, function MenuLoadingIndicator(props, ref, item) {\n    var _v$3, _v$4, _ref$4;\n    let state = useContext(MenuStateContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        get collection() {\n            return state?.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let renderProps = useRenderProps(merge(otherProps, {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-MenuLoadingIndicator',\n        values: undefined\n    }));\n    let itemProps = {\n        // For Android talkback\n        tabIndex: -1\n    };\n    return [(_v$3 = _$ssrHydrationKey(), _v$4 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$4 = sentinelRef, _$ssr(_tmpl$2, _v$3, _$ssrStyleProperty(\"position:\", \"relative\") + _$ssrStyleProperty(\";width:\", 0) + _$ssrStyleProperty(\";height:\", 0), _v$4, _$ssrStyleProperty(\"position:\", \"absolute\") + _$ssrStyleProperty(\";height:\", \"1px\") + _$ssrStyleProperty(\";width:\", \"1px\"))), _$memo(() => _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps(() => mergeProps(filterDOMProps(props, {\n            global: true\n        }), itemProps), renderProps, {\n            role: \"menuitem\",\n            ref(r$) {\n                var _ref$5 = ref;\n                typeof _ref$5 === \"function\" || Array.isArray(_ref$5) ? _$applyRef(_ref$5, r$) : ref = r$;\n            },\n            get children() {\n                return renderProps.children;\n            }\n        })) : props.isLoading && renderProps.children)];\n})",
+      "expression": "createLeafComponent(LoaderNode, function MenuLoadingIndicator(props, ref, item) {\n    var _v$3, _v$4, _ref$4;\n    let state = useContext(MenuStateContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        get collection() {\n            return state?.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let renderProps = useRenderProps(merge(otherProps, {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-MenuLoadingIndicator',\n        values: undefined\n    }));\n    let itemProps = {\n        // For Android talkback\n        tabIndex: -1\n    };\n    return [(_v$3 = _$ssrHydrationKey(), _v$4 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$4 = sentinelRef, _$ssr(_tmpl$2, _v$3, _$ssrStyleProperties(\"position:\", \"relative\", \"width:\", 0, \"height:\", 0), _v$4, _$ssrStyleProperties(\"position:\", \"absolute\", \"height:\", \"1px\", \"width:\", \"1px\"))), _$memo(() => _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps(() => mergeProps(filterDOMProps(props, {\n            global: true\n        }), itemProps), renderProps, {\n            role: \"menuitem\",\n            ref(r$) {\n                var _ref$5 = ref;\n                typeof _ref$5 === \"function\" || Array.isArray(_ref$5) ? _$applyRef(_ref$5, r$) : ref = r$;\n            },\n            get children() {\n                return renderProps.children;\n            }\n        })) : props.isLoading && renderProps.children)];\n})",
       "category": "unknown-conservative-effectful",
       "effectful": true
     },
@@ -17162,7 +17162,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 15,
+      "line": 16,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -17171,7 +17171,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 15,
+      "line": 16,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -17180,7 +17180,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 15,
+      "line": 16,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -17189,7 +17189,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 15,
+      "line": 16,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -17198,7 +17198,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 15,
+      "line": 16,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -17207,7 +17207,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 15,
+      "line": 16,
       "kind": "CallExpression",
       "callee": "Symbol",
       "expression": "Symbol()",
@@ -17216,7 +17216,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 30,
+      "line": 31,
       "kind": "ExpressionStatement",
       "expression": "_P$.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -17224,7 +17224,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 44,
+      "line": 45,
       "kind": "ExpressionStatement",
       "expression": "_P$2.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -17232,7 +17232,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 72,
+      "line": 73,
       "kind": "ExpressionStatement",
       "expression": "_P$3.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -17240,7 +17240,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 114,
+      "line": 115,
       "kind": "ExpressionStatement",
       "expression": "_P$4.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -17248,7 +17248,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 128,
+      "line": 129,
       "kind": "ExpressionStatement",
       "expression": "_P$5.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -17256,7 +17256,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 160,
+      "line": 161,
       "kind": "ExpressionStatement",
       "expression": "_P$6.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -17264,19 +17264,10 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 173,
+      "line": 174,
       "kind": "ExpressionStatement",
       "expression": "_P$7.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
-      "effectful": false
-    },
-    {
-      "file": "server/react-aria-components/src/Tree.js",
-      "line": 344,
-      "kind": "CallExpression",
-      "callee": "createContext",
-      "expression": "createContext(null)",
-      "category": "local-context-allocation",
       "effectful": false
     },
     {
@@ -17290,16 +17281,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 640,
-      "kind": "CallExpression",
-      "callee": "createLeafComponent",
-      "expression": "createLeafComponent(TreeContentNode, function TreeItemContent(props) {\n    let values = useContext(TreeItemContentContext);\n    let renderProps = useRenderProps({\n        get children() {\n            return props.children;\n        },\n        values\n    });\n    return CollectionRendererContext(new _P$2(renderProps, DefaultCollectionRenderer));\n})",
-      "category": "unknown-conservative-effectful",
-      "effectful": true
-    },
-    {
-      "file": "server/react-aria-components/src/Tree.js",
-      "line": 650,
+      "line": 346,
       "kind": "CallExpression",
       "callee": "createContext",
       "expression": "createContext(null)",
@@ -17308,7 +17290,25 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 657,
+      "line": 641,
+      "kind": "CallExpression",
+      "callee": "createLeafComponent",
+      "expression": "createLeafComponent(TreeContentNode, function TreeItemContent(props) {\n    let values = useContext(TreeItemContentContext);\n    let renderProps = useRenderProps({\n        get children() {\n            return props.children;\n        },\n        values\n    });\n    return CollectionRendererContext(new _P$2(renderProps, DefaultCollectionRenderer));\n})",
+      "category": "unknown-conservative-effectful",
+      "effectful": true
+    },
+    {
+      "file": "server/react-aria-components/src/Tree.js",
+      "line": 651,
+      "kind": "CallExpression",
+      "callee": "createContext",
+      "expression": "createContext(null)",
+      "category": "local-context-allocation",
+      "effectful": false
+    },
+    {
+      "file": "server/react-aria-components/src/Tree.js",
+      "line": 658,
       "kind": "CallExpression",
       "callee": "createBranchComponent",
       "expression": "createBranchComponent(TreeItemNode, (props, ref, item) => {\n    let state = useContext(TreeStateContext);\n    let objectRef = useObjectRef(ref);\n    let { dragAndDropHooks, dragState, dropState } = useContext(DragAndDropContext);\n    let isDraggable = () => dragState && !(dragState.isDisabled || dragState.selectionManager.isDisabled(item.key));\n    // TODO: remove this when we support description in tree row\n    // eslint-disable-next-line @typescript-eslint/no-unused-vars\n    let { rowProps, gridCellProps, expandButtonProps, descriptionProps, ...states } = useTreeItem({\n        node: item,\n        shouldSelectOnPressUp: !!dragState,\n        get focusMode() {\n            return props.focusMode;\n        },\n        get allowsArrowNavigation() {\n            return props.allowsArrowNavigation;\n        }\n    }, state, objectRef);\n    let isExpanded = () => rowProps['aria-expanded'] === 'true';\n    let hasChildItems = () => props.hasChildItems || [...state.collection.getChildren(item.key)]?.length > 1;\n    let level = () => Number(rowProps['aria-level'] || 1);\n    let { hoverProps, isHovered } = useHover({\n        // because of https://bugs.webkit.org/show_bug.cgi?id=214609, supporting hover styles when a item is ONLY isDraggable\n        // results in hover styles sticking around after a reorder/drop operation...\n        get isDisabled() {\n            return !states.allowsSelection() && !states.hasAction() && !isDraggable();\n        },\n        get onHoverStart() {\n            return props.onHoverStart;\n        },\n        get onHoverChange() {\n            return props.onHoverChange;\n        },\n        get onHoverEnd() {\n            return props.onHoverEnd;\n        }\n    });\n    let { isFocusVisible, focusProps } = useFocusRing();\n    let { isFocusVisible: isFocusVisibleWithin, focusProps: focusWithinProps } = useFocusRing({\n        within: true\n    });\n    let { checkboxProps } = useGridListSelectionCheckbox({\n        key: item.key\n    }, state);\n    let draggableItem = null;\n    if (dragState && dragAndDropHooks) {\n        draggableItem = dragAndDropHooks.useDraggableItem({\n            key: item.key,\n            hasDragButton: true\n        }, dragState);\n    }\n    let dropIndicator = null;\n    let expandButtonRef = useObjectRef();\n    let dropIndicatorRef = useObjectRef();\n    let activateButtonRef = useObjectRef();\n    let { visuallyHiddenProps } = useVisuallyHidden();\n    if (dropState && dragAndDropHooks) {\n        dropIndicator = dragAndDropHooks.useDropIndicator({\n            target: {\n                type: 'item',\n                key: item.key,\n                dropPosition: 'on'\n            },\n            activateButtonRef\n        }, dropState, dropIndicatorRef);\n    }\n    let isDragging = () => dragState && dragState.isDragging(item.key);\n    let isDropTarget = () => dropIndicator?.isDropTarget();\n    let renderPropValues = {\n        get isSelected() {\n            return states.isSelected();\n        },\n        get isDisabled() {\n            return states.isDisabled();\n        },\n        get isFocused() {\n            return states.isFocused();\n        },\n        get isPressed() {\n            return states.isPressed();\n        },\n        get allowsSelection() {\n            return states.allowsSelection();\n        },\n        get hasAction() {\n            return states.hasAction();\n        },\n        get isHovered() {\n            return isHovered();\n        },\n        get isFocusVisible() {\n            return isFocusVisible();\n        },\n        get isExpanded() {\n            return isExpanded();\n        },\n        get hasChildItems() {\n            return !!hasChildItems();\n        },\n        get level() {\n            return level();\n        },\n        get selectionMode() {\n            return state.selectionManager.selectionMode;\n        },\n        get selectionBehavior() {\n            return state.selectionManager.selectionBehavior;\n        },\n        get isFocusVisibleWithin() {\n            return isFocusVisibleWithin();\n        },\n        state,\n        id: item.key,\n        allowsDragging: !!dragState,\n        get isDragging() {\n            return !!isDragging();\n        },\n        get isDropTarget() {\n            return !!isDropTarget();\n        }\n    };\n    let renderProps = useRenderProps(merge(omit(props, 'children', 'id'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-TreeItem',\n        defaultStyle: {\n            // @ts-ignore\n            get '--tree-item-level'() {\n                return level();\n            }\n        },\n        values: renderPropValues\n    }));\n    createEffect(() => item.textValue, textValue => {\n        if (!textValue && \"production\" !== 'production') {\n            console.warn('A `textValue` prop is required for <TreeItem> elements in order to support accessibility features such as type to select.');\n        }\n    });\n    onSettled(() => {\n        if (hasChildItems() && !expandButtonRef.current && \"production\" !== 'production') {\n            console.warn('Expandable tree items must contain a expand button so screen reader users can expand/collapse the item.');\n        }\n        // eslint-disable-next-line\n    });\n    let dragButtonRef = useObjectRef();\n    onSettled(() => {\n        if (dragState && !dragButtonRef.current && \"production\" !== 'production') {\n            console.warn('Draggable items in a Tree must contain a <Button slot=\"drag\"> element so that keyboard and screen reader users can drag them.');\n        }\n        // eslint-disable-next-line\n    });\n    let Children = () => useCachedChildren({\n        get items() {\n            return state.collection.getChildren(item.key);\n        },\n        children: item => {\n            switch (item.type) {\n                case 'content':\n                    {\n                        return item.render(item);\n                    }\n                // Skip item since we don't render the nested rows as children of the parent row, the flattened collection\n                // will render them each as siblings instead\n                case 'loader':\n                case 'item':\n                    return [];\n                default:\n                    throw new Error('Unsupported element type in TreeRow: ' + item.type);\n            }\n        }\n    });\n    let activateButtonId = useId();\n    let DOMProps = omit(filterDOMProps(props, {\n        global: true\n    }), 'id', 'onClick');\n    let dataExpanded = () => hasChildItems() && isExpanded() ? 'true' : undefined;\n    let dataHasChildItems = () => hasChildItems() ? 'true' : undefined;\n    let dataSelectionMode = () => state.selectionManager.selectionMode === 'none' ? undefined : state.selectionManager.selectionMode;\n    return [_$memo(() => {\n            var _v$2, _g$, _v$6, _v$7;\n            return _$memo(() => !!(dropIndicator && !dropIndicator.isHidden()))() ? (_v$2 = _$ssrHydrationKey(), _g$ = _$ssrGroup(() => [_$ssrAttribute(\"aria-level\", _$escape(rowProps['aria-level'], true)), _$ssrAttribute(\"aria-expanded\", _$escape(rowProps['aria-expanded'], true)), _$ssrAttribute(\"aria-label\", _$escape(dropIndicator.dropIndicatorProps['aria-label'], true))], 3), _v$6 = _$ssrElement(\"div\", [{\n                    role: \"button\"\n                }, visuallyHiddenProps, () => dropIndicator.dropIndicatorProps], undefined, false), _v$7 = _$scope((() => {\n                var _c$ = _$memo(() => rowProps['aria-expanded'] != null);\n                return () => _c$() ? // Button to allow touch screen reader users to expand the item while dragging.\n                    _$ssrElement(\"div\", [{\n                            role: \"button\"\n                        }, visuallyHiddenProps], undefined, true, _sk$2, () => _$ssrElementAttribute(\"id\", activateButtonId()) + _$ssrElementAttribute(\"aria-label\", expandButtonProps['aria-label']) + _$ssrElementAttribute(\"aria-labelledby\", `${activateButtonId()} ${rowProps.id}`) + \" tabindex=\\\"-1\\\"\") : _$escape(null);\n            })()), _$ssr(_tmpl$2, _v$2, _g$, _g$, _g$, _$ssrStyleProperty(\"display:\", \"contents\"), _v$6, _v$7)) : dropIndicator && !dropIndicator.isHidden();\n        }), dom.div(_$mergeProps(() => mergeProps(DOMProps, rowProps, focusProps, hoverProps, focusWithinProps, draggableItem?.dragProps), renderProps, {\n            ref(r$) {\n                var _ref$3 = objectRef;\n                typeof _ref$3 === \"function\" || Array.isArray(_ref$3) ? _$applyRef(_ref$3, r$) : objectRef = r$;\n            },\n            get \"data-expanded\"() {\n                return dataExpanded();\n            },\n            get \"data-has-child-items\"() {\n                return dataHasChildItems();\n            },\n            get \"data-level\"() {\n                return level();\n            },\n            get \"data-selected\"() {\n                return states.isSelected() || undefined;\n            },\n            get \"data-disabled\"() {\n                return states.isDisabled() || undefined;\n            },\n            get \"data-hovered\"() {\n                return isHovered() || undefined;\n            },\n            get \"data-focused\"() {\n                return states.isFocused() || undefined;\n            },\n            get \"data-focus-visible\"() {\n                return isFocusVisible() || undefined;\n            },\n            get \"data-pressed\"() {\n                return states.isPressed() || undefined;\n            },\n            get \"data-selection-mode\"() {\n                return dataSelectionMode();\n            },\n            \"data-allows-dragging\": !!dragState || undefined,\n            get \"data-dragging\"() {\n                return isDragging() || undefined;\n            },\n            get \"data-drop-target\"() {\n                return isDropTarget() || undefined;\n            },\n            get children() {\n                return _$ssrElement(\"div\", gridCellProps, () => _$escape(Provider({\n                    get values() {\n                        return [[CheckboxContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: {},\n                                        selection: checkboxProps\n                                    }\n                                }], [CheckboxFieldContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: {},\n                                        selection: checkboxProps\n                                    }\n                                }],\n                            // TODO: support description in the tree row\n                            // TODO: don't think I need to pass isExpanded to the button here since it can be sourced from the renderProps? Might be worthwhile passing it down?\n                            [ButtonContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: {},\n                                        chevron: merge(expandButtonProps, {\n                                            ref: expandButtonRef\n                                        }),\n                                        drag: merge(draggableItem?.dragButtonProps || {}, {\n                                            ref: dragButtonRef,\n                                            style: {\n                                                pointerEvents: 'none'\n                                            }\n                                        })\n                                    }\n                                }], [TreeItemContentContext, renderPropValues], [SelectionIndicatorContext, {\n                                    get isSelected() {\n                                        return states.isSelected();\n                                    }\n                                }]];\n                    },\n                    get children() {\n                        return Children({});\n                    }\n                })), true, _sk$, () => _$ssrElementAttribute(\"style\", {\n                    display: 'contents'\n                }));\n            }\n        }))];\n})",
@@ -17317,16 +17317,16 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 933,
+      "line": 934,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
-      "expression": "createLeafComponent(LoaderNode, function TreeLoadingSentinel(props, ref, item) {\n    var _v$8, _v$9, _ref$4;\n    let collectionRenderer = useContext(CollectionRendererContext);\n    let state = useContext(TreeStateContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        // this collection will update anytime a row is expanded/collapsed becaused the flattenedRows will change.\n        // This means onLoadMore will trigger but that might be ok cause the user should have logic to handle multiple loadMore calls\n        get collection() {\n            return state.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let objectRef = useObjectRef(ref);\n    let { rowProps, gridCellProps } = useTreeItem({\n        node: item\n    }, state, objectRef);\n    let level = () => Number(rowProps['aria-level'] || 1);\n    // For now don't include aria-posinset and aria-setsize on loader since they aren't keyboard focusable\n    // Arguably shouldn't include them ever since it might be confusing to the user to include the loaders as part of the\n    // item count\n    let ariaProps = {\n        role: 'row',\n        get 'aria-level'() {\n            return rowProps['aria-level'];\n        }\n    };\n    let renderProps = useRenderProps(merge(omit(otherProps, 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-TreeLoader',\n        values: {\n            get level() {\n                return level();\n            }\n        }\n    }));\n    return [(_v$8 = _$ssrHydrationKey(), _v$9 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$4 = sentinelRef, _$ssr(_tmpl$3, _v$8, _$ssrStyleProperty(\"position:\", \"relative\") + _$ssrStyleProperty(\";width:\", 0) + _$ssrStyleProperty(\";height:\", 0), _v$9, _$ssrStyleProperty(\"position:\", \"absolute\") + _$ssrStyleProperty(\";height:\", \"1px\") + _$ssrStyleProperty(\";width:\", \"1px\"))), _$memo(() => _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps({\n            ref(r$) {\n                var _ref$5 = objectRef;\n                typeof _ref$5 === \"function\" || Array.isArray(_ref$5) ? _$applyRef(_ref$5, r$) : objectRef = r$;\n            }\n        }, () => mergeProps(filterDOMProps(props), ariaProps), renderProps, new _P$3(level, gridCellProps, renderProps, collectionRenderer))) : props.isLoading && renderProps.children)];\n})",
+      "expression": "createLeafComponent(LoaderNode, function TreeLoadingSentinel(props, ref, item) {\n    var _v$8, _v$9, _ref$4;\n    let collectionRenderer = useContext(CollectionRendererContext);\n    let state = useContext(TreeStateContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        // this collection will update anytime a row is expanded/collapsed becaused the flattenedRows will change.\n        // This means onLoadMore will trigger but that might be ok cause the user should have logic to handle multiple loadMore calls\n        get collection() {\n            return state.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let objectRef = useObjectRef(ref);\n    let { rowProps, gridCellProps } = useTreeItem({\n        node: item\n    }, state, objectRef);\n    let level = () => Number(rowProps['aria-level'] || 1);\n    // For now don't include aria-posinset and aria-setsize on loader since they aren't keyboard focusable\n    // Arguably shouldn't include them ever since it might be confusing to the user to include the loaders as part of the\n    // item count\n    let ariaProps = {\n        role: 'row',\n        get 'aria-level'() {\n            return rowProps['aria-level'];\n        }\n    };\n    let renderProps = useRenderProps(merge(omit(otherProps, 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-TreeLoader',\n        values: {\n            get level() {\n                return level();\n            }\n        }\n    }));\n    return [(_v$8 = _$ssrHydrationKey(), _v$9 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$4 = sentinelRef, _$ssr(_tmpl$3, _v$8, _$ssrStyleProperties(\"position:\", \"relative\", \"width:\", 0, \"height:\", 0), _v$9, _$ssrStyleProperties(\"position:\", \"absolute\", \"height:\", \"1px\", \"width:\", \"1px\"))), _$memo(() => _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps({\n            ref(r$) {\n                var _ref$5 = objectRef;\n                typeof _ref$5 === \"function\" || Array.isArray(_ref$5) ? _$applyRef(_ref$5, r$) : objectRef = r$;\n            }\n        }, () => mergeProps(filterDOMProps(props), ariaProps), renderProps, new _P$3(level, gridCellProps, renderProps, collectionRenderer))) : props.isLoading && renderProps.children)];\n})",
       "category": "unknown-conservative-effectful",
       "effectful": true
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 1053,
+      "line": 1054,
       "kind": "CallExpression",
       "callee": "createBranchComponent",
       "expression": "createBranchComponent(SectionNode, (props, ref, item) => {\n    let state = useContext(TreeStateContext);\n    let { CollectionBranch } = useContext(CollectionRendererContext);\n    let headingRef = useObjectRef();\n    let objectRef = useObjectRef(ref);\n    let { rowHeaderProps, rowProps, rowGroupProps } = useGridListSection({\n        get 'aria-label'() {\n            return props['aria-label'] ?? undefined;\n        }\n    }, state, objectRef);\n    let renderProps = useRenderProps(merge(omit(props, 'children', 'id'), {\n        id: undefined,\n        children: undefined,\n        defaultClassName: 'react-aria-TreeSection',\n        values: undefined\n    }));\n    let DOMProps = omit(filterDOMProps(props, {\n        global: true\n    }), 'id');\n    return dom.div(_$mergeProps(() => mergeProps(DOMProps, renderProps, rowGroupProps), {\n        ref(r$) {\n            var _ref$8 = objectRef;\n            typeof _ref$8 === \"function\" || Array.isArray(_ref$8) ? _$applyRef(_ref$8, r$) : objectRef = r$;\n        },\n        get children() {\n            return Provider(new _P$6(rowProps, headingRef, rowHeaderProps, CollectionBranch, state, item));\n        }\n    }));\n})",
@@ -19308,7 +19308,7 @@
     },
     {
       "file": "server/react-aria-components/src/Toast.js",
-      "line": 28,
+      "line": 26,
       "kind": "ExpressionStatement",
       "expression": "_P$.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -19316,7 +19316,7 @@
     },
     {
       "file": "server/react-aria-components/src/Toast.js",
-      "line": 43,
+      "line": 41,
       "kind": "ExpressionStatement",
       "expression": "_P$2.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -19324,7 +19324,7 @@
     },
     {
       "file": "server/react-aria-components/src/Toast.js",
-      "line": 70,
+      "line": 68,
       "kind": "ExpressionStatement",
       "expression": "_P$3.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -19332,7 +19332,7 @@
     },
     {
       "file": "server/react-aria-components/src/Toast.js",
-      "line": 109,
+      "line": 107,
       "kind": "ExpressionStatement",
       "expression": "_P$4.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -19340,7 +19340,7 @@
     },
     {
       "file": "server/react-aria-components/src/Toast.js",
-      "line": 123,
+      "line": 121,
       "kind": "ExpressionStatement",
       "expression": "_P$5.prototype = Object.prototype;",
       "category": "compiler-local-class-prototype",
@@ -19348,7 +19348,7 @@
     },
     {
       "file": "server/react-aria-components/src/Toast.js",
-      "line": 150,
+      "line": 148,
       "kind": "CallExpression",
       "callee": "createContext",
       "expression": "createContext(null)",
@@ -19357,7 +19357,7 @@
     },
     {
       "file": "server/react-aria-components/src/Toast.js",
-      "line": 294,
+      "line": 292,
       "kind": "CallExpression",
       "callee": "createContext",
       "expression": "createContext({})",
@@ -19895,7 +19895,7 @@
     },
     {
       "file": "server/react-aria/src/virtualizer/VirtualizerItem.js",
-      "line": 33,
+      "line": 34,
       "kind": "NewExpression",
       "callee": "WeakMap",
       "expression": "new WeakMap()",
@@ -21713,7 +21713,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 487,
+      "line": 488,
       "kind": "CallExpression",
       "callee": "createBranchComponent",
       "expression": "createBranchComponent(SectionNode, ListBoxSectionInner)",
@@ -21722,7 +21722,7 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 491,
+      "line": 492,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
       "expression": "createLeafComponent(ItemNode, function ListBoxItem(props, forwardedRef, item) {\n    let ref = useObjectRef(forwardedRef);\n    let state = useContext(ListStateContext);\n    let { dragAndDropHooks, dragState, dropState } = useContext(DragAndDropContext);\n    let isDraggable = () => dragState && !(dragState.isDisabled || dragState.selectionManager.isDisabled(item.key));\n    let option = useOption({\n        get key() {\n            return item.key;\n        },\n        get 'aria-label'() {\n            return props['aria-label'];\n        }\n    }, state, ref);\n    let { optionProps, labelProps, descriptionProps } = option;\n    let states = omit(option, 'optionProps', 'labelProps', 'descriptionProps');\n    let { hoverProps, isHovered } = useHover({\n        get isDisabled() {\n            return !states.allowsSelection() && !states.hasAction() && !isDraggable();\n        },\n        get onHoverStart() {\n            return item.props.onHoverStart;\n        },\n        get onHoverChange() {\n            return item.props.onHoverChange;\n        },\n        get onHoverEnd() {\n            return item.props.onHoverEnd;\n        }\n    });\n    let { keyboardProps } = useKeyboard(props);\n    let { focusProps } = useFocus(props);\n    let draggableItem = null;\n    if (dragState && dragAndDropHooks) {\n        draggableItem = dragAndDropHooks.useDraggableItem({\n            get key() {\n                return item.key;\n            },\n            get hasAction() {\n                return states.hasAction();\n            }\n        }, dragState);\n    }\n    let droppableItem = null;\n    if (dropState && dragAndDropHooks) {\n        droppableItem = dragAndDropHooks.useDroppableItem({\n            target: {\n                type: 'item',\n                key: item.key,\n                dropPosition: 'on'\n            }\n        }, dropState, ref);\n    }\n    let isDragging = () => dragState && dragState.isDragging(item.key);\n    let renderProps = useRenderProps(merge(omit(props, 'id'), {\n        id: undefined,\n        get children() {\n            return props.children;\n        },\n        defaultClassName: 'react-aria-ListBoxItem',\n        values: {\n            get isSelected() {\n                return states.isSelected();\n            },\n            get isDisabled() {\n                return states.isDisabled();\n            },\n            get isFocused() {\n                return states.isFocused();\n            },\n            get isFocusVisible() {\n                return states.isFocusVisible();\n            },\n            get isPressed() {\n                return states.isPressed();\n            },\n            get allowsSelection() {\n                return states.allowsSelection();\n            },\n            get hasAction() {\n                return states.hasAction();\n            },\n            get isHovered() {\n                return isHovered();\n            },\n            get selectionMode() {\n                return state.selectionManager.selectionMode;\n            },\n            get selectionBehavior() {\n                return state.selectionManager.selectionBehavior;\n            },\n            allowsDragging: !!dragState,\n            get isDragging() {\n                return isDragging();\n            },\n            get isDropTarget() {\n                return droppableItem?.isDropTarget();\n            }\n        }\n    }));\n    createEffect(() => item.textValue, textValue => {\n        if (!textValue && \"production\" !== 'production') {\n            console.warn('A `textValue` prop is required for <ListBoxItem> elements with non-plain text children in order to support accessibility features such as type to select.');\n        }\n    });\n    let ElementType = dynamic(() => props.href ? dom.a : dom.div);\n    let DOMProps = omit(filterDOMProps(props, {\n        global: true\n    }), 'id', 'onClick');\n    let linkOptionProps = merge(optionProps, {\n        get tabIndex() {\n            return props.href && optionProps.tabIndex == null ? -1 : optionProps.tabIndex;\n        }\n    });\n    return ElementType(_$mergeProps(() => mergeProps(DOMProps, renderProps, linkOptionProps, hoverProps, keyboardProps, focusProps, draggableItem?.dragProps, droppableItem?.dropProps, \n    // Keep the drag hook's native capture-listener ref alongside the item ref.\n    {\n        ref\n    }), {\n        \"data-allows-dragging\": !!dragState || undefined,\n        get \"data-selected\"() {\n            return states.isSelected() || undefined;\n        },\n        get \"data-disabled\"() {\n            return states.isDisabled() || undefined;\n        },\n        get \"data-hovered\"() {\n            return isHovered() || undefined;\n        },\n        get \"data-focused\"() {\n            return states.isFocused() || undefined;\n        },\n        get \"data-focus-visible\"() {\n            return states.isFocusVisible() || undefined;\n        },\n        get \"data-pressed\"() {\n            return states.isPressed() || undefined;\n        },\n        get \"data-dragging\"() {\n            return isDragging() || undefined;\n        },\n        get \"data-drop-target\"() {\n            return droppableItem?.isDropTarget() || undefined;\n        },\n        get \"data-selection-mode\"() {\n            return _$memo(() => state.selectionManager.selectionMode === 'none')() ? undefined : state.selectionManager.selectionMode;\n        },\n        get children() {\n            return Provider(new _P$5(renderProps, [[TextContext, {\n                        slots: {\n                            [DEFAULT_SLOT]: labelProps,\n                            label: labelProps,\n                            description: descriptionProps\n                        }\n                    }], [SelectionIndicatorContext, {\n                        get isSelected() {\n                            return states.isSelected();\n                        }\n                    }]]));\n        }\n    }));\n})",
@@ -21731,10 +21731,10 @@
     },
     {
       "file": "server/react-aria-components/src/ListBox.js",
-      "line": 681,
+      "line": 682,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
-      "expression": "createLeafComponent(LoaderNode, function ListBoxLoadingIndicator(props, ref, item) {\n    var _v$3, _v$4, _ref$6;\n    let state = useContext(ListStateContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        get collection() {\n            return state.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let renderProps = useRenderProps(merge(omit(otherProps, 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-ListBoxLoadingIndicator',\n        values: undefined\n    }));\n    let optionProps = {\n        // For Android talkback\n        tabIndex: -1\n        // For now don't include aria-posinset and aria-setsize on loader since they aren't keyboard focusable\n        // Arguably shouldn't include them ever since it might be confusing to the user to include the loaders as part of the\n        // item count\n    };\n    return [(_v$3 = _$ssrHydrationKey(), _v$4 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$6 = sentinelRef, _$ssr(_tmpl$2, _v$3, _$ssrStyleProperty(\"position:\", \"relative\") + _$ssrStyleProperty(\";width:\", 0) + _$ssrStyleProperty(\";height:\", 0), _v$4, _$ssrStyleProperty(\"position:\", \"absolute\") + _$ssrStyleProperty(\";height:\", \"1px\") + _$ssrStyleProperty(\";width:\", \"1px\"))), _$memo(() => _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps(() => mergeProps(filterDOMProps(props, {\n            global: true\n        }), optionProps), renderProps, {\n            role: \"option\",\n            ref(r$) {\n                var _ref$7 = ref;\n                typeof _ref$7 === \"function\" || Array.isArray(_ref$7) ? _$applyRef(_ref$7, r$) : ref = r$;\n            },\n            get children() {\n                return renderProps.children;\n            }\n        })) : props.isLoading && renderProps.children)];\n})",
+      "expression": "createLeafComponent(LoaderNode, function ListBoxLoadingIndicator(props, ref, item) {\n    var _v$3, _v$4, _ref$6;\n    let state = useContext(ListStateContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        get collection() {\n            return state.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let renderProps = useRenderProps(merge(omit(otherProps, 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-ListBoxLoadingIndicator',\n        values: undefined\n    }));\n    let optionProps = {\n        // For Android talkback\n        tabIndex: -1\n        // For now don't include aria-posinset and aria-setsize on loader since they aren't keyboard focusable\n        // Arguably shouldn't include them ever since it might be confusing to the user to include the loaders as part of the\n        // item count\n    };\n    return [(_v$3 = _$ssrHydrationKey(), _v$4 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$6 = sentinelRef, _$ssr(_tmpl$2, _v$3, _$ssrStyleProperties(\"position:\", \"relative\", \"width:\", 0, \"height:\", 0), _v$4, _$ssrStyleProperties(\"position:\", \"absolute\", \"height:\", \"1px\", \"width:\", \"1px\"))), _$memo(() => _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps(() => mergeProps(filterDOMProps(props, {\n            global: true\n        }), optionProps), renderProps, {\n            role: \"option\",\n            ref(r$) {\n                var _ref$7 = ref;\n                typeof _ref$7 === \"function\" || Array.isArray(_ref$7) ? _$applyRef(_ref$7, r$) : ref = r$;\n            },\n            get children() {\n                return renderProps.children;\n            }\n        })) : props.isLoading && renderProps.children)];\n})",
       "category": "unknown-conservative-effectful",
       "effectful": true
     },
@@ -21864,7 +21864,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 434,
+      "line": 435,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
       "expression": "createLeafComponent(ItemNode, function GridListItem(props, forwardedRef, item) {\n    let state = useContext(ListStateContext);\n    let { dragAndDropHooks, dragState, dropState } = useContext(DragAndDropContext);\n    let ref = useObjectRef(forwardedRef);\n    let { isVirtualized } = useContext(CollectionRendererContext);\n    let isDraggable = () => dragState && !(dragState.isDisabled || dragState.selectionManager.isDisabled(item.key));\n    let { rowProps, gridCellProps, descriptionProps, ...states } = useGridListItem({\n        node: item,\n        shouldSelectOnPressUp: !!dragState,\n        isVirtualized,\n        get focusMode() {\n            return props.focusMode;\n        },\n        get allowsArrowNavigation() {\n            return props.allowsArrowNavigation;\n        }\n    }, state, ref);\n    let { hoverProps, isHovered } = useHover({\n        // because of https://bugs.webkit.org/show_bug.cgi?id=214609, supporting hover styles when a item is ONLY isDraggable\n        // results in hover styles sticking around after a reorder/drop operation...\n        get isDisabled() {\n            return !states.allowsSelection() && !states.hasAction() && !isDraggable();\n        },\n        get onHoverStart() {\n            return item.props.onHoverStart;\n        },\n        get onHoverChange() {\n            return item.props.onHoverChange;\n        },\n        get onHoverEnd() {\n            return item.props.onHoverEnd;\n        }\n    });\n    let { isFocusVisible, focusProps } = useFocusRing();\n    let { isFocusVisible: isFocusVisibleWithin, focusProps: focusWithinProps } = useFocusRing({\n        within: true\n    });\n    let { checkboxProps } = useGridListSelectionCheckbox({\n        key: item.key\n    }, state);\n    let buttonProps = {\n        get isDisabled() {\n            return state.selectionManager.disabledBehavior === 'all' && states.isDisabled() ? true : undefined;\n        }\n    };\n    let draggableItem = null;\n    if (dragState && dragAndDropHooks) {\n        draggableItem = dragAndDropHooks.useDraggableItem({\n            key: item.key,\n            hasDragButton: true\n        }, dragState);\n    }\n    let dropIndicator = null;\n    let dropIndicatorRef = useObjectRef();\n    let { visuallyHiddenProps } = useVisuallyHidden();\n    if (dropState && dragAndDropHooks) {\n        dropIndicator = dragAndDropHooks.useDropIndicator({\n            target: {\n                type: 'item',\n                key: item.key,\n                dropPosition: 'on'\n            }\n        }, dropState, dropIndicatorRef);\n    }\n    let isDragging = () => dragState && dragState.isDragging(item.key);\n    let renderProps = useRenderProps(merge(omit(props, 'children', 'id'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-GridListItem',\n        values: {\n            get isSelected() {\n                return states.isSelected();\n            },\n            get isDisabled() {\n                return states.isDisabled();\n            },\n            get isFocused() {\n                return states.isFocused();\n            },\n            get isPressed() {\n                return states.isPressed();\n            },\n            get allowsSelection() {\n                return states.allowsSelection();\n            },\n            get hasAction() {\n                return states.hasAction();\n            },\n            get isHovered() {\n                return isHovered();\n            },\n            get isFocusVisible() {\n                return isFocusVisible();\n            },\n            get isFocusVisibleWithin() {\n                return isFocusVisibleWithin();\n            },\n            get selectionMode() {\n                return state.selectionManager.selectionMode;\n            },\n            get selectionBehavior() {\n                return state.selectionManager.selectionBehavior;\n            },\n            allowsDragging: !!dragState,\n            get isDragging() {\n                return isDragging();\n            },\n            get isDropTarget() {\n                return dropIndicator?.isDropTarget();\n            },\n            id: item.key,\n            state\n        }\n    }));\n    let dragButtonRef = useObjectRef();\n    onSettled(() => {\n        if (dragState && !dragButtonRef.current) {\n            console.warn('Draggable items in a GridList must contain a <Button slot=\"drag\"> element so that keyboard and screen reader users can drag them.');\n        }\n        // eslint-disable-next-line\n    });\n    createEffect(() => item.textValue, textValue => {\n        if (!textValue && \"production\" !== 'production') {\n            console.warn('A `textValue` prop is required for <GridListItem> elements with non-plain text children in order to support accessibility features such as type to select.');\n        }\n    });\n    let DOMProps = omit(filterDOMProps(props, {\n        global: true\n    }), 'id', 'onClick');\n    let selectionMode = () => state.selectionManager.selectionMode === 'none' ? undefined : state.selectionManager.selectionMode;\n    return [_$memo(() => {\n            var _v$3, _v$4;\n            return _$memo(() => !!(dropIndicator && !dropIndicator.isHidden()))() ? (_v$3 = _$ssrHydrationKey(), _v$4 = _$ssrElement(\"div\", [{\n                    role: \"button\"\n                }, visuallyHiddenProps, () => dropIndicator?.dropIndicatorProps], undefined, false), _$ssr(_tmpl$2, _v$3, _$ssrStyleProperty(\"position:\", \"absolute\"), _v$4)) : dropIndicator && !dropIndicator.isHidden();\n        }), dom.div(_$mergeProps(() => mergeProps(DOMProps, renderProps, rowProps, focusProps, focusWithinProps, hoverProps, draggableItem?.dragProps), {\n            ref(r$) {\n                var _ref$3 = ref;\n                typeof _ref$3 === \"function\" || Array.isArray(_ref$3) ? _$applyRef(_ref$3, r$) : ref = r$;\n            },\n            get \"data-selected\"() {\n                return states.isSelected() || undefined;\n            },\n            get \"data-disabled\"() {\n                return states.isDisabled() || undefined;\n            },\n            get \"data-hovered\"() {\n                return isHovered() || undefined;\n            },\n            get \"data-focused\"() {\n                return states.isFocused() || undefined;\n            },\n            get \"data-focus-visible\"() {\n                return isFocusVisible() || undefined;\n            },\n            get \"data-focus-visible-within\"() {\n                return isFocusVisibleWithin() || undefined;\n            },\n            get \"data-pressed\"() {\n                return states.isPressed() || undefined;\n            },\n            \"data-allows-dragging\": !!dragState || undefined,\n            get \"data-dragging\"() {\n                return isDragging() || undefined;\n            },\n            get \"data-drop-target\"() {\n                return dropIndicator?.isDropTarget() || undefined;\n            },\n            get \"data-selection-mode\"() {\n                return selectionMode();\n            },\n            get children() {\n                return _$ssrElement(\"div\", gridCellProps, () => _$escape(Provider({\n                    get values() {\n                        return [[CheckboxContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: {},\n                                        selection: checkboxProps\n                                    }\n                                }], [CheckboxFieldContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: {},\n                                        selection: checkboxProps\n                                    }\n                                }], [ButtonContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: buttonProps,\n                                        drag: merge(draggableItem?.dragButtonProps || {}, {\n                                            ref: dragButtonRef,\n                                            style: {\n                                                pointerEvents: 'none'\n                                            }\n                                        })\n                                    }\n                                }], [TextContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: {},\n                                        description: descriptionProps\n                                    }\n                                }], [CollectionRendererContext, DefaultCollectionRenderer], [ListStateContext, null], [SelectableCollectionContext, null], [FieldInputContext, null], [SelectionIndicatorContext, {\n                                    get isSelected() {\n                                        return states.isSelected();\n                                    }\n                                }]];\n                    },\n                    get children() {\n                        return renderProps.children;\n                    }\n                })), true, _sk$, () => _$ssrElementAttribute(\"style\", {\n                    display: 'contents'\n                }));\n            }\n        }))];\n})",
@@ -21873,16 +21873,16 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 702,
+      "line": 703,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
-      "expression": "createLeafComponent(LoaderNode, function GridListLoadingIndicator(props, ref, item) {\n    var _v$1, _v$10, _ref$6;\n    let state = useContext(ListStateContext);\n    let { isVirtualized } = useContext(CollectionRendererContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        get collection() {\n            return state.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let renderProps = useRenderProps(merge(omit(otherProps, 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-GridListLoadingIndicator',\n        values: undefined\n    }));\n    // For now don't include aria-posinset and aria-setsize on loader since they aren't keyboard focusable\n    // Arguably shouldn't include them ever since it might be confusing to the user to include the loaders as part of the\n    // item count\n    return [(_v$1 = _$ssrHydrationKey(), _v$10 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$6 = sentinelRef, _$ssr(_tmpl$5, _v$1, _$ssrStyleProperty(\"position:\", \"relative\") + _$ssrStyleProperty(\";width:\", 0) + _$ssrStyleProperty(\";height:\", 0), _v$10, _$ssrStyleProperty(\"position:\", \"absolute\") + _$ssrStyleProperty(\";height:\", \"1px\") + _$ssrStyleProperty(\";width:\", \"1px\"))), _$memo(() => {\n            var _v$11, _v$12;\n            return _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps(renderProps, () => filterDOMProps(props, {\n                global: true\n            }), {\n                role: \"row\",\n                ref(r$) {\n                    var _ref$7 = ref;\n                    typeof _ref$7 === \"function\" || Array.isArray(_ref$7) ? _$applyRef(_ref$7, r$) : ref = r$;\n                },\n                get children() {\n                    return _v$11 = _$ssrHydrationKey(), _v$12 = _$scope(() => _$escape(renderProps.children)), _$ssr(_tmpl$6, _v$11, _$ssrAttribute(\"aria-colindex\", isVirtualized ? 1 : _$escape(undefined, true)), _v$12);\n                }\n            })) : props.isLoading && renderProps.children;\n        })];\n})",
+      "expression": "createLeafComponent(LoaderNode, function GridListLoadingIndicator(props, ref, item) {\n    var _v$1, _v$10, _ref$6;\n    let state = useContext(ListStateContext);\n    let { isVirtualized } = useContext(CollectionRendererContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        get collection() {\n            return state.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let renderProps = useRenderProps(merge(omit(otherProps, 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-GridListLoadingIndicator',\n        values: undefined\n    }));\n    // For now don't include aria-posinset and aria-setsize on loader since they aren't keyboard focusable\n    // Arguably shouldn't include them ever since it might be confusing to the user to include the loaders as part of the\n    // item count\n    return [(_v$1 = _$ssrHydrationKey(), _v$10 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$6 = sentinelRef, _$ssr(_tmpl$5, _v$1, _$ssrStyleProperties(\"position:\", \"relative\", \"width:\", 0, \"height:\", 0), _v$10, _$ssrStyleProperties(\"position:\", \"absolute\", \"height:\", \"1px\", \"width:\", \"1px\"))), _$memo(() => {\n            var _v$11, _v$12;\n            return _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps(renderProps, () => filterDOMProps(props, {\n                global: true\n            }), {\n                role: \"row\",\n                ref(r$) {\n                    var _ref$7 = ref;\n                    typeof _ref$7 === \"function\" || Array.isArray(_ref$7) ? _$applyRef(_ref$7, r$) : ref = r$;\n                },\n                get children() {\n                    return _v$11 = _$ssrHydrationKey(), _v$12 = _$scope(() => _$escape(renderProps.children)), _$ssr(_tmpl$6, _v$11, _$ssrAttribute(\"aria-colindex\", isVirtualized ? 1 : _$escape(undefined, true)), _v$12);\n                }\n            })) : props.isLoading && renderProps.children;\n        })];\n})",
       "category": "unknown-conservative-effectful",
       "effectful": true
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 751,
+      "line": 752,
       "kind": "CallExpression",
       "callee": "createBranchComponent",
       "expression": "createBranchComponent(SectionNode, (props, ref, item) => {\n    let state = useContext(ListStateContext);\n    let { CollectionBranch } = useContext(CollectionRendererContext);\n    let headingRef = useObjectRef();\n    let objectRef = useObjectRef(ref);\n    let { rowHeaderProps, rowProps, rowGroupProps } = useGridListSection({\n        get 'aria-label'() {\n            return props['aria-label'] ?? undefined;\n        }\n    }, state, objectRef);\n    let renderProps = useRenderProps(merge(omit(props, 'children', 'id'), {\n        id: undefined,\n        children: undefined,\n        defaultClassName: 'react-aria-GridListSection',\n        values: undefined\n    }));\n    let DOMProps = omit(filterDOMProps(props, {\n        global: true\n    }), 'id');\n    return dom.div(_$mergeProps(() => mergeProps(DOMProps, renderProps, rowGroupProps), {\n        ref(r$) {\n            var _ref$8 = objectRef;\n            typeof _ref$8 === \"function\" || Array.isArray(_ref$8) ? _$applyRef(_ref$8, r$) : objectRef = r$;\n        },\n        get children() {\n            return Provider(new _P$5(rowProps, headingRef, rowHeaderProps, CollectionBranch, state, item));\n        }\n    }));\n})",
@@ -21891,7 +21891,7 @@
     },
     {
       "file": "server/react-aria-components/src/GridList.js",
-      "line": 782,
+      "line": 783,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
       "expression": "createLeafComponent(HeaderNode, function Header(props, ref) {\n    [props, ref] = useContextProps(props, ref, GridListHeaderContext);\n    let rowHeaderProps = useContext(GridListHeaderInnerContext);\n    let renderProps = useRenderProps({\n        get children() {\n            return props.children;\n        },\n        values: undefined\n    });\n    return dom.div(_$mergeProps({\n        get render() {\n            return props.render;\n        },\n        className: \"react-aria-GridListHeader\",\n        ref(r$) {\n            var _ref$9 = ref;\n            typeof _ref$9 === \"function\" || Array.isArray(_ref$9) ? _$applyRef(_ref$9, r$) : ref = r$;\n        }\n    }, props, new _P$6(rowHeaderProps, renderProps)));\n})",
@@ -21900,7 +21900,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 474,
+      "line": 475,
       "kind": "CallExpression",
       "callee": "createBranchComponent",
       "expression": "createBranchComponent(SubmenuTriggerNode, (props, ref, item) => {\n    let { CollectionBranch } = useContext(CollectionRendererContext);\n    let state = useContext(MenuStateContext);\n    let rootMenuTriggerState = useContext(RootMenuTriggerStateContext);\n    let submenuTriggerState = useSubmenuTriggerState({\n        triggerKey: item.key\n    }, rootMenuTriggerState);\n    let submenuRef = useObjectRef();\n    let itemRef = useObjectRef(ref);\n    let submenuContext = useContext(SubmenuTriggerContext);\n    let { submenuTriggerProps, submenuProps, popoverProps } = useSubmenuTrigger({\n        parentMenuRef: submenuContext.parentMenuRef,\n        submenuRef,\n        get delay() {\n            return props.delay;\n        },\n        get shouldUseVirtualFocus() {\n            return submenuContext.shouldUseVirtualFocus;\n        }\n    }, submenuTriggerState, itemRef);\n    let popupRenderProps = useRenderProps({\n        get children() {\n            return props.children[1];\n        },\n        values: undefined\n    });\n    return Provider(new _P$2(submenuTriggerProps, itemRef, submenuRef, submenuProps, submenuTriggerState, popoverProps, CollectionBranch, state, item, popupRenderProps));\n}, props => SubmenuTriggerChild(new _P$3(props)))",
@@ -21909,7 +21909,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 626,
+      "line": 627,
       "kind": "CallExpression",
       "callee": "createBranchComponent",
       "expression": "createBranchComponent(SectionNode, MenuSectionInner)",
@@ -21918,7 +21918,7 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 631,
+      "line": 632,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
       "expression": "createLeafComponent(ItemNode, function MenuItem(props, forwardedRef, item) {\n    [props, forwardedRef] = useContextProps(props, forwardedRef, MenuItemContext);\n    let itemContext = useSlottedContext(MenuItemContext);\n    let state = useContext(MenuStateContext);\n    let ref = useObjectRef(forwardedRef);\n    let selectionManager = useContext(SelectionManagerContext);\n    let { isVirtualized } = useContext(CollectionRendererContext);\n    let { menuItemProps, labelProps, descriptionProps, keyboardShortcutProps, ...states } = useMenuItem(merge(omit(props, 'id'), {\n        get id() {\n            return itemContext?.id;\n        },\n        key: item.key,\n        selectionManager,\n        isVirtualized: isVirtualized\n    }), state, ref);\n    let { hoverProps, isHovered } = useHover({\n        get isDisabled() {\n            return states.isDisabled();\n        }\n    });\n    let triggerProps = props;\n    let renderProps = useRenderProps(merge(omit(props, 'id', 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-MenuItem',\n        values: {\n            get isDisabled() {\n                return states.isDisabled();\n            },\n            get isPressed() {\n                return states.isPressed();\n            },\n            get isSelected() {\n                return states.isSelected();\n            },\n            get isFocused() {\n                return states.isFocused();\n            },\n            get isHovered() {\n                return isHovered();\n            },\n            get isFocusVisible() {\n                return states.isFocusVisible();\n            },\n            get selectionMode() {\n                return selectionManager.selectionMode;\n            },\n            get selectionBehavior() {\n                return selectionManager.selectionBehavior;\n            },\n            get hasSubmenu() {\n                return !!triggerProps['aria-haspopup'];\n            },\n            get isOpen() {\n                return triggerProps['aria-expanded'] === 'true';\n            }\n        }\n    }));\n    let ElementType = dynamic(() => props.href ? dom.a : dom.div);\n    let DOMProps = omit(filterDOMProps(props, {\n        global: true\n    }), 'id', 'onClick');\n    return ElementType(_$mergeProps(() => mergeProps(DOMProps, renderProps, menuItemProps, hoverProps), {\n        ref(r$) {\n            var _ref$3 = ref;\n            typeof _ref$3 === \"function\" || Array.isArray(_ref$3) ? _$applyRef(_ref$3, r$) : ref = r$;\n        },\n        get \"data-disabled\"() {\n            return states.isDisabled() ? 'true' : undefined;\n        },\n        get \"data-hovered\"() {\n            return isHovered() ? 'true' : undefined;\n        },\n        get \"data-focused\"() {\n            return states.isFocused() ? 'true' : undefined;\n        },\n        get \"data-focus-visible\"() {\n            return states.isFocusVisible() ? 'true' : undefined;\n        },\n        get \"data-pressed\"() {\n            return states.isPressed() ? 'true' : undefined;\n        },\n        get \"data-selected\"() {\n            return states.isSelected() ? 'true' : undefined;\n        },\n        get \"data-selection-mode\"() {\n            return _$memo(() => selectionManager.selectionMode === 'none')() ? undefined : selectionManager.selectionMode;\n        },\n        get \"data-has-submenu\"() {\n            return triggerProps['aria-haspopup'] ? 'true' : undefined;\n        },\n        get \"data-open\"() {\n            return triggerProps['aria-expanded'] === 'true' ? 'true' : undefined;\n        },\n        get children() {\n            return Provider(new _P$11(renderProps, [[TextContext, {\n                        slots: {\n                            [DEFAULT_SLOT]: labelProps,\n                            label: labelProps,\n                            description: descriptionProps\n                        }\n                    }], [KeyboardContext, keyboardShortcutProps], [SelectionIndicatorContext, {\n                        get isSelected() {\n                            return states.isSelected();\n                        }\n                    }]]));\n        }\n    }));\n})",
@@ -21927,16 +21927,16 @@
     },
     {
       "file": "server/react-aria-components/src/Menu.js",
-      "line": 742,
+      "line": 743,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
-      "expression": "createLeafComponent(LoaderNode, function MenuLoadingIndicator(props, ref, item) {\n    var _v$3, _v$4, _ref$4;\n    let state = useContext(MenuStateContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        get collection() {\n            return state?.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let renderProps = useRenderProps(merge(otherProps, {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-MenuLoadingIndicator',\n        values: undefined\n    }));\n    let itemProps = {\n        // For Android talkback\n        tabIndex: -1\n    };\n    return [(_v$3 = _$ssrHydrationKey(), _v$4 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$4 = sentinelRef, _$ssr(_tmpl$2, _v$3, _$ssrStyleProperty(\"position:\", \"relative\") + _$ssrStyleProperty(\";width:\", 0) + _$ssrStyleProperty(\";height:\", 0), _v$4, _$ssrStyleProperty(\"position:\", \"absolute\") + _$ssrStyleProperty(\";height:\", \"1px\") + _$ssrStyleProperty(\";width:\", \"1px\"))), _$memo(() => _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps(() => mergeProps(filterDOMProps(props, {\n            global: true\n        }), itemProps), renderProps, {\n            role: \"menuitem\",\n            ref(r$) {\n                var _ref$5 = ref;\n                typeof _ref$5 === \"function\" || Array.isArray(_ref$5) ? _$applyRef(_ref$5, r$) : ref = r$;\n            },\n            get children() {\n                return renderProps.children;\n            }\n        })) : props.isLoading && renderProps.children)];\n})",
+      "expression": "createLeafComponent(LoaderNode, function MenuLoadingIndicator(props, ref, item) {\n    var _v$3, _v$4, _ref$4;\n    let state = useContext(MenuStateContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        get collection() {\n            return state?.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let renderProps = useRenderProps(merge(otherProps, {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-MenuLoadingIndicator',\n        values: undefined\n    }));\n    let itemProps = {\n        // For Android talkback\n        tabIndex: -1\n    };\n    return [(_v$3 = _$ssrHydrationKey(), _v$4 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$4 = sentinelRef, _$ssr(_tmpl$2, _v$3, _$ssrStyleProperties(\"position:\", \"relative\", \"width:\", 0, \"height:\", 0), _v$4, _$ssrStyleProperties(\"position:\", \"absolute\", \"height:\", \"1px\", \"width:\", \"1px\"))), _$memo(() => _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps(() => mergeProps(filterDOMProps(props, {\n            global: true\n        }), itemProps), renderProps, {\n            role: \"menuitem\",\n            ref(r$) {\n                var _ref$5 = ref;\n                typeof _ref$5 === \"function\" || Array.isArray(_ref$5) ? _$applyRef(_ref$5, r$) : ref = r$;\n            },\n            get children() {\n                return renderProps.children;\n            }\n        })) : props.isLoading && renderProps.children)];\n})",
       "category": "unknown-conservative-effectful",
       "effectful": true
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 640,
+      "line": 641,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
       "expression": "createLeafComponent(TreeContentNode, function TreeItemContent(props) {\n    let values = useContext(TreeItemContentContext);\n    let renderProps = useRenderProps({\n        get children() {\n            return props.children;\n        },\n        values\n    });\n    return CollectionRendererContext(new _P$2(renderProps, DefaultCollectionRenderer));\n})",
@@ -21945,7 +21945,7 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 657,
+      "line": 658,
       "kind": "CallExpression",
       "callee": "createBranchComponent",
       "expression": "createBranchComponent(TreeItemNode, (props, ref, item) => {\n    let state = useContext(TreeStateContext);\n    let objectRef = useObjectRef(ref);\n    let { dragAndDropHooks, dragState, dropState } = useContext(DragAndDropContext);\n    let isDraggable = () => dragState && !(dragState.isDisabled || dragState.selectionManager.isDisabled(item.key));\n    // TODO: remove this when we support description in tree row\n    // eslint-disable-next-line @typescript-eslint/no-unused-vars\n    let { rowProps, gridCellProps, expandButtonProps, descriptionProps, ...states } = useTreeItem({\n        node: item,\n        shouldSelectOnPressUp: !!dragState,\n        get focusMode() {\n            return props.focusMode;\n        },\n        get allowsArrowNavigation() {\n            return props.allowsArrowNavigation;\n        }\n    }, state, objectRef);\n    let isExpanded = () => rowProps['aria-expanded'] === 'true';\n    let hasChildItems = () => props.hasChildItems || [...state.collection.getChildren(item.key)]?.length > 1;\n    let level = () => Number(rowProps['aria-level'] || 1);\n    let { hoverProps, isHovered } = useHover({\n        // because of https://bugs.webkit.org/show_bug.cgi?id=214609, supporting hover styles when a item is ONLY isDraggable\n        // results in hover styles sticking around after a reorder/drop operation...\n        get isDisabled() {\n            return !states.allowsSelection() && !states.hasAction() && !isDraggable();\n        },\n        get onHoverStart() {\n            return props.onHoverStart;\n        },\n        get onHoverChange() {\n            return props.onHoverChange;\n        },\n        get onHoverEnd() {\n            return props.onHoverEnd;\n        }\n    });\n    let { isFocusVisible, focusProps } = useFocusRing();\n    let { isFocusVisible: isFocusVisibleWithin, focusProps: focusWithinProps } = useFocusRing({\n        within: true\n    });\n    let { checkboxProps } = useGridListSelectionCheckbox({\n        key: item.key\n    }, state);\n    let draggableItem = null;\n    if (dragState && dragAndDropHooks) {\n        draggableItem = dragAndDropHooks.useDraggableItem({\n            key: item.key,\n            hasDragButton: true\n        }, dragState);\n    }\n    let dropIndicator = null;\n    let expandButtonRef = useObjectRef();\n    let dropIndicatorRef = useObjectRef();\n    let activateButtonRef = useObjectRef();\n    let { visuallyHiddenProps } = useVisuallyHidden();\n    if (dropState && dragAndDropHooks) {\n        dropIndicator = dragAndDropHooks.useDropIndicator({\n            target: {\n                type: 'item',\n                key: item.key,\n                dropPosition: 'on'\n            },\n            activateButtonRef\n        }, dropState, dropIndicatorRef);\n    }\n    let isDragging = () => dragState && dragState.isDragging(item.key);\n    let isDropTarget = () => dropIndicator?.isDropTarget();\n    let renderPropValues = {\n        get isSelected() {\n            return states.isSelected();\n        },\n        get isDisabled() {\n            return states.isDisabled();\n        },\n        get isFocused() {\n            return states.isFocused();\n        },\n        get isPressed() {\n            return states.isPressed();\n        },\n        get allowsSelection() {\n            return states.allowsSelection();\n        },\n        get hasAction() {\n            return states.hasAction();\n        },\n        get isHovered() {\n            return isHovered();\n        },\n        get isFocusVisible() {\n            return isFocusVisible();\n        },\n        get isExpanded() {\n            return isExpanded();\n        },\n        get hasChildItems() {\n            return !!hasChildItems();\n        },\n        get level() {\n            return level();\n        },\n        get selectionMode() {\n            return state.selectionManager.selectionMode;\n        },\n        get selectionBehavior() {\n            return state.selectionManager.selectionBehavior;\n        },\n        get isFocusVisibleWithin() {\n            return isFocusVisibleWithin();\n        },\n        state,\n        id: item.key,\n        allowsDragging: !!dragState,\n        get isDragging() {\n            return !!isDragging();\n        },\n        get isDropTarget() {\n            return !!isDropTarget();\n        }\n    };\n    let renderProps = useRenderProps(merge(omit(props, 'children', 'id'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-TreeItem',\n        defaultStyle: {\n            // @ts-ignore\n            get '--tree-item-level'() {\n                return level();\n            }\n        },\n        values: renderPropValues\n    }));\n    createEffect(() => item.textValue, textValue => {\n        if (!textValue && \"production\" !== 'production') {\n            console.warn('A `textValue` prop is required for <TreeItem> elements in order to support accessibility features such as type to select.');\n        }\n    });\n    onSettled(() => {\n        if (hasChildItems() && !expandButtonRef.current && \"production\" !== 'production') {\n            console.warn('Expandable tree items must contain a expand button so screen reader users can expand/collapse the item.');\n        }\n        // eslint-disable-next-line\n    });\n    let dragButtonRef = useObjectRef();\n    onSettled(() => {\n        if (dragState && !dragButtonRef.current && \"production\" !== 'production') {\n            console.warn('Draggable items in a Tree must contain a <Button slot=\"drag\"> element so that keyboard and screen reader users can drag them.');\n        }\n        // eslint-disable-next-line\n    });\n    let Children = () => useCachedChildren({\n        get items() {\n            return state.collection.getChildren(item.key);\n        },\n        children: item => {\n            switch (item.type) {\n                case 'content':\n                    {\n                        return item.render(item);\n                    }\n                // Skip item since we don't render the nested rows as children of the parent row, the flattened collection\n                // will render them each as siblings instead\n                case 'loader':\n                case 'item':\n                    return [];\n                default:\n                    throw new Error('Unsupported element type in TreeRow: ' + item.type);\n            }\n        }\n    });\n    let activateButtonId = useId();\n    let DOMProps = omit(filterDOMProps(props, {\n        global: true\n    }), 'id', 'onClick');\n    let dataExpanded = () => hasChildItems() && isExpanded() ? 'true' : undefined;\n    let dataHasChildItems = () => hasChildItems() ? 'true' : undefined;\n    let dataSelectionMode = () => state.selectionManager.selectionMode === 'none' ? undefined : state.selectionManager.selectionMode;\n    return [_$memo(() => {\n            var _v$2, _g$, _v$6, _v$7;\n            return _$memo(() => !!(dropIndicator && !dropIndicator.isHidden()))() ? (_v$2 = _$ssrHydrationKey(), _g$ = _$ssrGroup(() => [_$ssrAttribute(\"aria-level\", _$escape(rowProps['aria-level'], true)), _$ssrAttribute(\"aria-expanded\", _$escape(rowProps['aria-expanded'], true)), _$ssrAttribute(\"aria-label\", _$escape(dropIndicator.dropIndicatorProps['aria-label'], true))], 3), _v$6 = _$ssrElement(\"div\", [{\n                    role: \"button\"\n                }, visuallyHiddenProps, () => dropIndicator.dropIndicatorProps], undefined, false), _v$7 = _$scope((() => {\n                var _c$ = _$memo(() => rowProps['aria-expanded'] != null);\n                return () => _c$() ? // Button to allow touch screen reader users to expand the item while dragging.\n                    _$ssrElement(\"div\", [{\n                            role: \"button\"\n                        }, visuallyHiddenProps], undefined, true, _sk$2, () => _$ssrElementAttribute(\"id\", activateButtonId()) + _$ssrElementAttribute(\"aria-label\", expandButtonProps['aria-label']) + _$ssrElementAttribute(\"aria-labelledby\", `${activateButtonId()} ${rowProps.id}`) + \" tabindex=\\\"-1\\\"\") : _$escape(null);\n            })()), _$ssr(_tmpl$2, _v$2, _g$, _g$, _g$, _$ssrStyleProperty(\"display:\", \"contents\"), _v$6, _v$7)) : dropIndicator && !dropIndicator.isHidden();\n        }), dom.div(_$mergeProps(() => mergeProps(DOMProps, rowProps, focusProps, hoverProps, focusWithinProps, draggableItem?.dragProps), renderProps, {\n            ref(r$) {\n                var _ref$3 = objectRef;\n                typeof _ref$3 === \"function\" || Array.isArray(_ref$3) ? _$applyRef(_ref$3, r$) : objectRef = r$;\n            },\n            get \"data-expanded\"() {\n                return dataExpanded();\n            },\n            get \"data-has-child-items\"() {\n                return dataHasChildItems();\n            },\n            get \"data-level\"() {\n                return level();\n            },\n            get \"data-selected\"() {\n                return states.isSelected() || undefined;\n            },\n            get \"data-disabled\"() {\n                return states.isDisabled() || undefined;\n            },\n            get \"data-hovered\"() {\n                return isHovered() || undefined;\n            },\n            get \"data-focused\"() {\n                return states.isFocused() || undefined;\n            },\n            get \"data-focus-visible\"() {\n                return isFocusVisible() || undefined;\n            },\n            get \"data-pressed\"() {\n                return states.isPressed() || undefined;\n            },\n            get \"data-selection-mode\"() {\n                return dataSelectionMode();\n            },\n            \"data-allows-dragging\": !!dragState || undefined,\n            get \"data-dragging\"() {\n                return isDragging() || undefined;\n            },\n            get \"data-drop-target\"() {\n                return isDropTarget() || undefined;\n            },\n            get children() {\n                return _$ssrElement(\"div\", gridCellProps, () => _$escape(Provider({\n                    get values() {\n                        return [[CheckboxContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: {},\n                                        selection: checkboxProps\n                                    }\n                                }], [CheckboxFieldContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: {},\n                                        selection: checkboxProps\n                                    }\n                                }],\n                            // TODO: support description in the tree row\n                            // TODO: don't think I need to pass isExpanded to the button here since it can be sourced from the renderProps? Might be worthwhile passing it down?\n                            [ButtonContext, {\n                                    slots: {\n                                        [DEFAULT_SLOT]: {},\n                                        chevron: merge(expandButtonProps, {\n                                            ref: expandButtonRef\n                                        }),\n                                        drag: merge(draggableItem?.dragButtonProps || {}, {\n                                            ref: dragButtonRef,\n                                            style: {\n                                                pointerEvents: 'none'\n                                            }\n                                        })\n                                    }\n                                }], [TreeItemContentContext, renderPropValues], [SelectionIndicatorContext, {\n                                    get isSelected() {\n                                        return states.isSelected();\n                                    }\n                                }]];\n                    },\n                    get children() {\n                        return Children({});\n                    }\n                })), true, _sk$, () => _$ssrElementAttribute(\"style\", {\n                    display: 'contents'\n                }));\n            }\n        }))];\n})",
@@ -21954,16 +21954,16 @@
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 933,
+      "line": 934,
       "kind": "CallExpression",
       "callee": "createLeafComponent",
-      "expression": "createLeafComponent(LoaderNode, function TreeLoadingSentinel(props, ref, item) {\n    var _v$8, _v$9, _ref$4;\n    let collectionRenderer = useContext(CollectionRendererContext);\n    let state = useContext(TreeStateContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        // this collection will update anytime a row is expanded/collapsed becaused the flattenedRows will change.\n        // This means onLoadMore will trigger but that might be ok cause the user should have logic to handle multiple loadMore calls\n        get collection() {\n            return state.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let objectRef = useObjectRef(ref);\n    let { rowProps, gridCellProps } = useTreeItem({\n        node: item\n    }, state, objectRef);\n    let level = () => Number(rowProps['aria-level'] || 1);\n    // For now don't include aria-posinset and aria-setsize on loader since they aren't keyboard focusable\n    // Arguably shouldn't include them ever since it might be confusing to the user to include the loaders as part of the\n    // item count\n    let ariaProps = {\n        role: 'row',\n        get 'aria-level'() {\n            return rowProps['aria-level'];\n        }\n    };\n    let renderProps = useRenderProps(merge(omit(otherProps, 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-TreeLoader',\n        values: {\n            get level() {\n                return level();\n            }\n        }\n    }));\n    return [(_v$8 = _$ssrHydrationKey(), _v$9 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$4 = sentinelRef, _$ssr(_tmpl$3, _v$8, _$ssrStyleProperty(\"position:\", \"relative\") + _$ssrStyleProperty(\";width:\", 0) + _$ssrStyleProperty(\";height:\", 0), _v$9, _$ssrStyleProperty(\"position:\", \"absolute\") + _$ssrStyleProperty(\";height:\", \"1px\") + _$ssrStyleProperty(\";width:\", \"1px\"))), _$memo(() => _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps({\n            ref(r$) {\n                var _ref$5 = objectRef;\n                typeof _ref$5 === \"function\" || Array.isArray(_ref$5) ? _$applyRef(_ref$5, r$) : objectRef = r$;\n            }\n        }, () => mergeProps(filterDOMProps(props), ariaProps), renderProps, new _P$3(level, gridCellProps, renderProps, collectionRenderer))) : props.isLoading && renderProps.children)];\n})",
+      "expression": "createLeafComponent(LoaderNode, function TreeLoadingSentinel(props, ref, item) {\n    var _v$8, _v$9, _ref$4;\n    let collectionRenderer = useContext(CollectionRendererContext);\n    let state = useContext(TreeStateContext);\n    let otherProps = omit(props, 'isLoading', 'onLoadMore', 'scrollOffset');\n    let sentinelRef = useObjectRef();\n    let memoedLoadMoreProps = {\n        get onLoadMore() {\n            return props.onLoadMore;\n        },\n        // this collection will update anytime a row is expanded/collapsed becaused the flattenedRows will change.\n        // This means onLoadMore will trigger but that might be ok cause the user should have logic to handle multiple loadMore calls\n        get collection() {\n            return state.collection;\n        },\n        sentinelRef,\n        get scrollOffset() {\n            return props.scrollOffset;\n        }\n    };\n    useLoadMoreSentinel(memoedLoadMoreProps, sentinelRef);\n    let objectRef = useObjectRef(ref);\n    let { rowProps, gridCellProps } = useTreeItem({\n        node: item\n    }, state, objectRef);\n    let level = () => Number(rowProps['aria-level'] || 1);\n    // For now don't include aria-posinset and aria-setsize on loader since they aren't keyboard focusable\n    // Arguably shouldn't include them ever since it might be confusing to the user to include the loaders as part of the\n    // item count\n    let ariaProps = {\n        role: 'row',\n        get 'aria-level'() {\n            return rowProps['aria-level'];\n        }\n    };\n    let renderProps = useRenderProps(merge(omit(otherProps, 'children'), {\n        id: undefined,\n        get children() {\n            return item.rendered;\n        },\n        defaultClassName: 'react-aria-TreeLoader',\n        values: {\n            get level() {\n                return level();\n            }\n        }\n    }));\n    return [(_v$8 = _$ssrHydrationKey(), _v$9 = () => _$ssrAttribute(\"inert\", _$escape(inertValue(true), true)), _ref$4 = sentinelRef, _$ssr(_tmpl$3, _v$8, _$ssrStyleProperties(\"position:\", \"relative\", \"width:\", 0, \"height:\", 0), _v$9, _$ssrStyleProperties(\"position:\", \"absolute\", \"height:\", \"1px\", \"width:\", \"1px\"))), _$memo(() => _$memo(() => !!(props.isLoading && renderProps.children))() ? dom.div(_$mergeProps({\n            ref(r$) {\n                var _ref$5 = objectRef;\n                typeof _ref$5 === \"function\" || Array.isArray(_ref$5) ? _$applyRef(_ref$5, r$) : objectRef = r$;\n            }\n        }, () => mergeProps(filterDOMProps(props), ariaProps), renderProps, new _P$3(level, gridCellProps, renderProps, collectionRenderer))) : props.isLoading && renderProps.children)];\n})",
       "category": "unknown-conservative-effectful",
       "effectful": true
     },
     {
       "file": "server/react-aria-components/src/Tree.js",
-      "line": 1053,
+      "line": 1054,
       "kind": "CallExpression",
       "callee": "createBranchComponent",
       "expression": "createBranchComponent(SectionNode, (props, ref, item) => {\n    let state = useContext(TreeStateContext);\n    let { CollectionBranch } = useContext(CollectionRendererContext);\n    let headingRef = useObjectRef();\n    let objectRef = useObjectRef(ref);\n    let { rowHeaderProps, rowProps, rowGroupProps } = useGridListSection({\n        get 'aria-label'() {\n            return props['aria-label'] ?? undefined;\n        }\n    }, state, objectRef);\n    let renderProps = useRenderProps(merge(omit(props, 'children', 'id'), {\n        id: undefined,\n        children: undefined,\n        defaultClassName: 'react-aria-TreeSection',\n        values: undefined\n    }));\n    let DOMProps = omit(filterDOMProps(props, {\n        global: true\n    }), 'id');\n    return dom.div(_$mergeProps(() => mergeProps(DOMProps, renderProps, rowGroupProps), {\n        ref(r$) {\n            var _ref$8 = objectRef;\n            typeof _ref$8 === \"function\" || Array.isArray(_ref$8) ? _$applyRef(_ref$8, r$) : objectRef = r$;\n        },\n        get children() {\n            return Provider(new _P$6(rowProps, headingRef, rowHeaderProps, CollectionBranch, state, item));\n        }\n    }));\n})",

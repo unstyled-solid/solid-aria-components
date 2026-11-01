@@ -801,8 +801,8 @@
     "./private/*": null
   },
   "peerDependencies": {
-    "solid-js": "2.0.0-rc.13",
-    "@solidjs/web": "2.0.0-rc.13"
+    "solid-js": "2.0.0-rc.20",
+    "@solidjs/web": "2.0.0-rc.20"
   },
   "dependencies": {
     "clsx": "2.1.1",
