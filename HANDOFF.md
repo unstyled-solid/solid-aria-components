@@ -1,5 +1,10 @@
 # Current checkpoint — 2026-10-31
 
+## Isolated Netlify integration — 2026-11-01
+- Worktree `../solid-aria-components-netlify-independent`, branch `chore/netlify-independent`, origin/main `79a6f2f`. Deployment-only changes: root Netlify config, `docs-website/{netlify-build,check-deployment}.mjs`, deployment instructions, and a static-only navigation predicate in copied `pageUtils.ts`. No native library/root manifest/lockfile edits; no commits, publishing or active-worktree changes.
+- Fresh Node24.22.2/pnpm11.8.0 frozen root install and website npm ci passed. Final production-context wrapper passed with202 static pages, nested docs/RSC, HTML/CSS/local/social-image links and explicit redirects. Native Parcel resolver cache panicked after reinstall; `--no-cache` cold build passed. `docs-website/DEPLOYMENT.md` documents captured metadata restoration, upstream-only redirects and React starter archives.
+- Local static HTTP root/deep links/assets/RSC/unknown404 and routing predicate checks passed. No Netlify CLI/hosted deployment or whole-library interaction qualification claimed. Integration must exclude generated `dist-build`/registry outputs and the four build-restored untracked copied package manifests. Root pnpm and website npm lockfiles remain unchanged; npm reports10 existing audit findings.
+
 ## Root configuration cleanup
 - Branch `chore/organize-typecheck-configs` starts at latest origin/main e814be3. Moved220 migration-batch tsconfigs into `config/typechecks/`; shared pilot/wave configs unchanged. Historical command names map to this directory; see its README.
 - TypeScript parser comparison for all220 confirms identical resolved source lists, effective compiler options and diagnostics before/after. No library/tests/CI changes. Open cleanup PR only; do not merge (latest user instruction).

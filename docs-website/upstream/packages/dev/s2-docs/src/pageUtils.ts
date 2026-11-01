@@ -44,6 +44,15 @@ export function getRSCUrl(pathname: string) {
 }
 
 export function isClientLink(link: HTMLAnchorElement) {
+  // Static deployment redirects must use document navigation, not an RSC fetch
+  // that follows an off-site redirect without the destination's CORS context.
+  // Keep the ordinary development/server router unchanged.
+  if (process.env.DOCS_STATIC_DEPLOY === 'true' && link) {
+    const pathname = new URL(link.href, location.href).pathname;
+    if (/^\/(?:blog(?:\/|$)|s2(?:\/|$)|react-aria-(?:(?:tailwind|hooks)-)?starter(?:\/|$)|llms\.txt$|releases\.xml$|Dialog\/?$|Modal\/Button\/?$|(?:NavigationTree|Virtualizer)\/source\/?$)/.test(pathname)) {
+      return false;
+    }
+  }
   let baseUrl = process.env.LIBRARY
     ? getBaseUrl(process.env.LIBRARY as any)
     : process.env.DOCS_ORIGIN || 'http://localhost:4340';
