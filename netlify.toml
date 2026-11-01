@@ -7,6 +7,8 @@
   NODE_VERSION = "24.22.2"
   PNPM_VERSION = "11.8.0"
   PNPM_FLAGS = "--frozen-lockfile"
+  NODE_OPTIONS = "--max-old-space-size=4096"
+  PARCEL_WORKERS = "2"
 
 # Parcel's react-static target prerenders HTML and RSC payloads, not a server.
 # No SPA rewrite: unknown pages must retain a real 404 response.
