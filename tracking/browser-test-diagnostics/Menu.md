@@ -1,6 +1,6 @@
 # Menu — existing library browser tests
 
-Snapshot: 2026-10-13T12:54:33.098Z. Original tests and assertions unchanged.
+Snapshot: 2026-11-01T18:05:18.547Z. Original tests and assertions unchanged.
 
 Results: 2 passed, 0 failed, 1 skipped. 3 engine/file results.
 
